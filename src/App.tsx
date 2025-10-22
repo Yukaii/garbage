@@ -151,19 +151,17 @@ function App() {
         跳至主要內容
       </a>
       <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 px-4 py-2 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 md:px-6 md:py-3 lg:px-8">
-        <div className="flex flex-wrap items-center justify-between gap-3 sm:flex-nowrap">
-          <div className="flex w-full flex-col gap-2 md:flex-1 md:flex-row md:items-center md:gap-4">
-            <div className="flex flex-col">
-              <h1 className="text-lg font-bold text-black dark:text-white sm:text-xl md:text-2xl lg:text-3xl">
-                垃圾車地圖
-              </h1>
-              <p className="text-xs text-neutral-600 dark:text-neutral-400 sm:text-sm">
-                {selectedCity === 'taipei' ? '台北市' : '新北市'} 即時收集點
-              </p>
-            </div>
-            {renderSearchField('hidden md:block md:flex-1 md:max-w-md lg:max-w-lg')}
+        <div className="flex items-center justify-between gap-2 md:gap-3">
+          <div className="flex min-w-0 flex-1 items-center gap-2">
+            <h1 className="truncate text-base font-bold text-black dark:text-white sm:text-lg md:text-xl lg:text-3xl">
+              垃圾車地圖
+            </h1>
+            <p className="hidden whitespace-nowrap text-sm text-neutral-600 dark:text-neutral-400 md:inline">
+              {selectedCity === 'taipei' ? '台北市' : '新北市'} 即時收集點
+            </p>
           </div>
-          <div className="flex flex-wrap items-center justify-end gap-2 sm:flex-nowrap sm:gap-3">
+          {renderSearchField('hidden md:flex md:min-w-[220px] md:flex-1 md:max-w-md lg:max-w-lg')}
+          <div className="flex shrink-0 items-center gap-2 sm:gap-3">
             <div className="relative">
               <select
                 value={selectedCity}
@@ -188,7 +186,7 @@ function App() {
               type="button"
             >
               <Info className="h-4 w-4" aria-hidden="true" />
-              <span className="hidden sm:inline">關於</span>
+              <span className="hidden lg:inline">關於</span>
             </button>
           </div>
         </div>
@@ -204,12 +202,6 @@ function App() {
               className="text-xs font-medium text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
             >
               {isMobileFilterOpen ? '收合篩選' : '搜尋 / 篩選'}
-            </button>
-            <button
-              onClick={() => setIsAboutOpen(true)}
-              className="rounded border border-transparent px-2 py-1 text-xs font-medium text-neutral-600 underline-offset-4 hover:border-neutral-300 hover:text-neutral-900 hover:underline dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:text-white"
-            >
-              關於
             </button>
           </div>
         </div>
