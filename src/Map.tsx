@@ -10,6 +10,7 @@ import {
   getTimeDifferenceInMinutes,
   formatTimeDifference,
   parseTimeToMinutes,
+  interpolateTruckPosition,
 } from './api';
 import { Layers, Locate, Navigation, Route, X } from 'lucide-react';
 import RouteSelector from './RouteSelector';
@@ -59,6 +60,23 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     if (!selectedRoute) return points;
     return points.filter(point => `${point.source}-${point.route}` === selectedRoute);
   }, [points, selectedRoute]);
+
+  // Calculate truck position for selected route
+  const truckPosition = useMemo(() => {
+    if (!selectedRoute || filteredPoints.length === 0) return null;
+
+    // Sort filtered points
+    const sortedPoints = [...filteredPoints].sort((a, b) => {
+      if (a.source === 'new-taipei') {
+        const rankA = parseInt(a.id.split('-').pop() || '0');
+        const rankB = parseInt(b.id.split('-').pop() || '0');
+        return rankA - rankB;
+      }
+      return parseTimeToMinutes(a.arrivalTime) - parseTimeToMinutes(b.arrivalTime);
+    });
+
+    return interpolateTruckPosition(sortedPoints, currentTimeMinutes);
+  }, [selectedRoute, filteredPoints, currentTimeMinutes]);
 
   // Auto-fit bounds when route is selected
   useEffect(() => {
@@ -604,6 +622,46 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
           </Popup>
         );
       })()}
+
+      {/* Truck Position Marker */}
+      {truckPosition && truckPosition.status === 'active' && (
+        <Marker
+          longitude={truckPosition.lng}
+          latitude={truckPosition.lat}
+          anchor="center"
+          style={{ transition: 'all 1s ease-out' }}
+        >
+          <div className="relative flex items-center justify-center" style={{ transition: 'transform 1s ease-out' }}>
+            {/* Pulsing ring effect */}
+            <div className="absolute h-12 w-12 rounded-full bg-green-500 opacity-30 animate-ping" />
+            <div className="absolute h-10 w-10 rounded-full bg-green-500 opacity-50" />
+
+            {/* Truck icon */}
+            <div className="relative z-10 flex h-10 w-10 items-center justify-center rounded-full bg-green-600 shadow-lg border-2 border-white dark:border-neutral-900">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                className="h-6 w-6 text-white"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+                <path d="M15 18H9" />
+                <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" />
+                <circle cx="17" cy="18" r="2" />
+                <circle cx="7" cy="18" r="2" />
+              </svg>
+            </div>
+
+            {/* Progress label */}
+            <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-green-600 px-2 py-1 text-xs font-semibold text-white shadow-md">
+              🚛 行駛中 {Math.round(truckPosition.progress * 100)}%
+            </div>
+          </div>
+        </Marker>
+      )}
 
       {/* User Location Marker */}
       {userLocation && (

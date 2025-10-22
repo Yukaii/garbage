@@ -40,6 +40,16 @@
   animation: slide-up 0.3s ease-out;
 }
 
+/* Smooth truck movement animation */
+@keyframes truck-move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(var(--tx), var(--ty));
+  }
+}
+
 /* MapLibre popup customization */
 .maplibregl-popup-content {
   border-radius: 0.375rem;

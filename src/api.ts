@@ -207,3 +207,78 @@ export function groupPointsIntoRoutes(points: UnifiedTrashCollectionPoint[]): Ma
 
   return routeMap;
 }
+
+// Interpolate truck position along route based on current time
+export function interpolateTruckPosition(
+  routePoints: UnifiedTrashCollectionPoint[],
+  currentMinutes: number
+): { lat: number; lng: number; progress: number; status: 'before' | 'active' | 'after' } | null {
+  if (routePoints.length === 0) return null;
+
+  // Find the segment the truck is currently on
+  for (let i = 0; i < routePoints.length; i++) {
+    const currentPoint = routePoints[i];
+    const arrivalTime = parseTimeToMinutes(currentPoint.arrivalTime);
+    const departureTime = parseTimeToMinutes(currentPoint.departureTime);
+
+    // Truck is at this stop
+    if (currentMinutes >= arrivalTime && currentMinutes <= departureTime) {
+      return {
+        lat: parseFloat(currentPoint.latitude),
+        lng: parseFloat(currentPoint.longitude),
+        progress: i / (routePoints.length - 1),
+        status: 'active',
+      };
+    }
+
+    // Truck is between this stop and the next
+    if (i < routePoints.length - 1) {
+      const nextPoint = routePoints[i + 1];
+      const nextArrivalTime = parseTimeToMinutes(nextPoint.arrivalTime);
+
+      if (currentMinutes > departureTime && currentMinutes < nextArrivalTime) {
+        // Interpolate position between two points
+        const totalTime = nextArrivalTime - departureTime;
+        const elapsedTime = currentMinutes - departureTime;
+        const ratio = Math.min(1, Math.max(0, elapsedTime / totalTime));
+
+        const lat1 = parseFloat(currentPoint.latitude);
+        const lng1 = parseFloat(currentPoint.longitude);
+        const lat2 = parseFloat(nextPoint.latitude);
+        const lng2 = parseFloat(nextPoint.longitude);
+
+        return {
+          lat: lat1 + (lat2 - lat1) * ratio,
+          lng: lng1 + (lng2 - lng1) * ratio,
+          progress: (i + ratio) / (routePoints.length - 1),
+          status: 'active',
+        };
+      }
+    }
+  }
+
+  // Check if route hasn't started yet
+  const firstArrival = parseTimeToMinutes(routePoints[0].arrivalTime);
+  if (currentMinutes < firstArrival) {
+    return {
+      lat: parseFloat(routePoints[0].latitude),
+      lng: parseFloat(routePoints[0].longitude),
+      progress: 0,
+      status: 'before',
+    };
+  }
+
+  // Route has finished
+  const lastPoint = routePoints[routePoints.length - 1];
+  const lastDeparture = parseTimeToMinutes(lastPoint.departureTime);
+  if (currentMinutes > lastDeparture) {
+    return {
+      lat: parseFloat(lastPoint.latitude),
+      lng: parseFloat(lastPoint.longitude),
+      progress: 1,
+      status: 'after',
+    };
+  }
+
+  return null;
+}
