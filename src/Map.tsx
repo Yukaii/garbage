@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, useMemo } from 'react';
 import Map, { Source, Layer, Popup, NavigationControl, Marker } from 'react-map-gl/maplibre';
 import type { MapRef } from 'react-map-gl';
 import type { CircleLayer, SymbolLayer } from 'maplibre-gl';
-import type { TrashCollectionPoint } from './types';
+import type { UnifiedTrashCollectionPoint } from './types';
 import {
   formatTime,
   getCurrentTimeInMinutes,
@@ -14,7 +14,7 @@ import { Layers, Locate, Navigation } from 'lucide-react';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 interface MapComponentProps {
-  points: TrashCollectionPoint[];
+  points: UnifiedTrashCollectionPoint[];
   darkMode: boolean;
 }
 
@@ -22,7 +22,7 @@ type MapStyleType = 'street' | 'satellite';
 
 export default function MapComponent({ points, darkMode }: MapComponentProps) {
   const mapRef = useRef<MapRef>(null);
-  const [popupInfo, setPopupInfo] = useState<TrashCollectionPoint | null>(null);
+  const [popupInfo, setPopupInfo] = useState<UnifiedTrashCollectionPoint | null>(null);
   const [mapStyleType, setMapStyleType] = useState<MapStyleType>('street');
   const [isLocating, setIsLocating] = useState(false);
   const [userLocation, setUserLocation] = useState<{ lng: number; lat: number } | null>(null);
@@ -41,24 +41,21 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
   const geojson = useMemo(() => ({
     type: 'FeatureCollection' as const,
     features: points.map((point) => {
-      const timeStatus = getTimeStatus(point.抵達時間, point.離開時間, currentTimeMinutes);
+      const timeStatus = getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes);
       return {
         type: 'Feature' as const,
         geometry: {
           type: 'Point' as const,
-          coordinates: [parseFloat(point.經度), parseFloat(point.緯度)],
+          coordinates: [parseFloat(point.longitude), parseFloat(point.latitude)],
         },
         properties: {
-          id: point._id,
-          district: point.行政區,
-          village: point.里別,
-          location: point.地點,
-          route: point.路線,
-          trip: point.車次,
-          vehicleNumber: point.車號,
-          arrivalTime: point.抵達時間,
-          departureTime: point.離開時間,
-          squad: point.分隊,
+          id: point.id,
+          district: point.district,
+          village: point.village,
+          location: point.location,
+          route: point.route,
+          arrivalTime: point.arrivalTime,
+          departureTime: point.departureTime,
           timeStatus: timeStatus,
         },
       };
@@ -150,7 +147,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
 
     // Handle point click
     if (feature.layer.id === 'unclustered-point') {
-      const point = points.find((p) => p._id === feature.properties.id);
+      const point = points.find((p) => p.id === feature.properties.id);
       if (point) {
         setPopupInfo(point);
       }
@@ -273,16 +270,16 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
       </Source>
 
       {popupInfo && (() => {
-        const timeStatus = getTimeStatus(popupInfo.抵達時間, popupInfo.離開時間, currentTimeMinutes);
-        const timeDiff = getTimeDifferenceInMinutes(popupInfo.抵達時間, currentTimeMinutes);
+        const timeStatus = getTimeStatus(popupInfo.arrivalTime, popupInfo.departureTime, currentTimeMinutes);
+        const timeDiff = getTimeDifferenceInMinutes(popupInfo.arrivalTime, currentTimeMinutes);
         const statusColor = timeStatus === 'active' ? '#22c55e' : timeStatus === 'upcoming' ? '#eab308' : '#a3a3a3';
         const statusText = timeStatus === 'active' ? '營運中' : timeStatus === 'upcoming' ? '即將抵達' : '已結束';
-        const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${popupInfo.緯度},${popupInfo.經度}`;
+        const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${popupInfo.latitude},${popupInfo.longitude}`;
 
         return (
           <Popup
-            longitude={parseFloat(popupInfo.經度)}
-            latitude={parseFloat(popupInfo.緯度)}
+            longitude={parseFloat(popupInfo.longitude)}
+            latitude={parseFloat(popupInfo.latitude)}
             anchor="bottom"
             onClose={() => setPopupInfo(null)}
             closeButton={true}
@@ -307,7 +304,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
                   flex: 1,
                   lineHeight: '1.4',
                 }}>
-                  {popupInfo.行政區} - {popupInfo.里別}
+                  {popupInfo.district} - {popupInfo.village}
                 </h3>
                 <span style={{
                   fontSize: '10px',
@@ -324,16 +321,13 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
                 </span>
               </div>
               <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>地點:</strong> {popupInfo.地點}
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>地點:</strong> {popupInfo.location}
               </p>
               <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>路線:</strong> {popupInfo.路線} ({popupInfo.車次})
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>路線:</strong> {popupInfo.route}
               </p>
               <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>車號:</strong> {popupInfo.車號}
-              </p>
-              <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>到達:</strong> {formatTime(popupInfo.抵達時間)}
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>到達:</strong> {formatTime(popupInfo.arrivalTime)}
                 {timeStatus === 'upcoming' && (
                   <span style={{ marginLeft: '6px', fontSize: '11px', color: statusColor, fontWeight: '500' }}>
                     ({formatTimeDifference(timeDiff)})
@@ -341,17 +335,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
                 )}
               </p>
               <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>離開:</strong> {formatTime(popupInfo.離開時間)}
-              </p>
-              <p style={{
-                margin: '8px 0 0 0',
-                fontSize: '11px',
-                color: darkMode ? '#a3a3a3' : '#737373',
-                borderTop: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
-                paddingTop: '6px',
-                paddingBottom: '6px'
-              }}>
-                {popupInfo.分隊}
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>離開:</strong> {formatTime(popupInfo.departureTime)}
               </p>
               <a
                 href={googleMapsUrl}
@@ -373,6 +357,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
                   textDecoration: 'none',
                   transition: 'all 0.2s',
                   cursor: 'pointer',
+                  marginTop: '8px'
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.borderColor = darkMode ? '#fff' : '#000';

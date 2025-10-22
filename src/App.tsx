@@ -6,19 +6,25 @@ import {
   fetchTrashCollectionPoints,
   getCurrentTimeInMinutes,
   getTimeStatus,
-  isWithinTimeWindow
+  isWithinTimeWindow,
+  type City
 } from './api';
-import type { TrashCollectionPoint } from './types';
+import type { UnifiedTrashCollectionPoint } from './types';
 import './App.css';
 
 function App() {
-  const [points, setPoints] = useState<TrashCollectionPoint[]>([]);
+  const [points, setPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const [filteredPoints, setFilteredPoints] = useState<TrashCollectionPoint[]>([]);
+  const [filteredPoints, setFilteredPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
   const [timeFilterMode, setTimeFilterMode] = useState<TimeFilterMode>('all');
   const [currentTimeMinutes, setCurrentTimeMinutes] = useState(getCurrentTimeInMinutes());
+  const [selectedCity, setSelectedCity] = useState<City>(() => {
+    // Check if user has a saved preference
+    const saved = localStorage.getItem('selectedCity');
+    return (saved === 'new-taipei' ? 'new-taipei' : 'taipei') as City;
+  });
   const [darkMode, setDarkMode] = useState(() => {
     // Check if user has a saved preference
     const saved = localStorage.getItem('darkMode');
@@ -43,10 +49,15 @@ function App() {
   }, []);
 
   useEffect(() => {
+    // Save city preference
+    localStorage.setItem('selectedCity', selectedCity);
+  }, [selectedCity]);
+
+  useEffect(() => {
     async function loadData() {
       try {
         setLoading(true);
-        const data = await fetchTrashCollectionPoints();
+        const data = await fetchTrashCollectionPoints(selectedCity);
         setPoints(data);
         setFilteredPoints(data);
         setError(null);
@@ -58,7 +69,7 @@ function App() {
       }
     }
     loadData();
-  }, []);
+  }, [selectedCity]);
 
   useEffect(() => {
     let filtered = points;
@@ -67,10 +78,10 @@ function App() {
     if (searchTerm) {
       const search = searchTerm.toLowerCase();
       filtered = filtered.filter((point) =>
-        point.行政區.toLowerCase().includes(search) ||
-        point.里別.toLowerCase().includes(search) ||
-        point.地點.toLowerCase().includes(search) ||
-        point.路線.toLowerCase().includes(search)
+        point.district.toLowerCase().includes(search) ||
+        point.village.toLowerCase().includes(search) ||
+        point.location.toLowerCase().includes(search) ||
+        point.route.toLowerCase().includes(search)
       );
     }
 
@@ -87,13 +98,13 @@ function App() {
       if (timeFilterMode === 'now') {
         // Show only active trucks
         filtered = filtered.filter((point) =>
-          getTimeStatus(point.抵達時間, point.離開時間, currentTimeMinutes) === 'active'
+          getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes) === 'active'
         );
       } else {
         // Show trucks within time window
         const windowMinutes = windowMap[timeFilterMode];
         filtered = filtered.filter((point) =>
-          isWithinTimeWindow(point.抵達時間, point.離開時間, currentTimeMinutes, windowMinutes)
+          isWithinTimeWindow(point.arrivalTime, point.departureTime, currentTimeMinutes, windowMinutes)
         );
       }
     }
@@ -103,11 +114,11 @@ function App() {
 
   // Calculate active and upcoming counts for TimeFilter
   const activeCount = points.filter((point) =>
-    getTimeStatus(point.抵達時間, point.離開時間, currentTimeMinutes) === 'active'
+    getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes) === 'active'
   ).length;
 
   const upcomingCount = points.filter((point) =>
-    getTimeStatus(point.抵達時間, point.離開時間, currentTimeMinutes) === 'upcoming'
+    getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes) === 'upcoming'
   ).length;
 
   return (
@@ -116,19 +127,29 @@ function App() {
         <div className="flex justify-between items-center mb-2">
           <div>
             <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-black dark:text-white mb-0.5">
-              台北市垃圾車即時地圖
+              {selectedCity === 'taipei' ? '台北市' : '新北市'}垃圾車即時地圖
             </h1>
             <p className="text-xs md:text-sm text-neutral-600 dark:text-neutral-400">
-              Taipei Trash Collection Map
+              {selectedCity === 'taipei' ? 'Taipei' : 'New Taipei'} Trash Collection Map
             </p>
           </div>
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            className="flex items-center justify-center w-9 h-9 border border-neutral-300 dark:border-neutral-700 rounded-md hover:border-black dark:hover:border-white hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-all text-black dark:text-white"
-            aria-label="Toggle dark mode"
-          >
-            {darkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-          </button>
+          <div className="flex gap-2">
+            <select
+              value={selectedCity}
+              onChange={(e) => setSelectedCity(e.target.value as City)}
+              className="px-3 py-1.5 border border-neutral-300 dark:border-neutral-700 rounded-md text-sm bg-white dark:bg-neutral-900 text-black dark:text-white hover:border-black dark:hover:border-white focus:outline-none focus:border-black dark:focus:border-white transition-colors"
+            >
+              <option value="taipei">台北市</option>
+              <option value="new-taipei">新北市</option>
+            </select>
+            <button
+              onClick={() => setDarkMode(!darkMode)}
+              className="flex items-center justify-center w-9 h-9 border border-neutral-300 dark:border-neutral-700 rounded-md hover:border-black dark:hover:border-white hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-all text-black dark:text-white"
+              aria-label="Toggle dark mode"
+            >
+              {darkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+            </button>
+          </div>
         </div>
         <div className="relative mb-3 max-w-2xl">
           <input

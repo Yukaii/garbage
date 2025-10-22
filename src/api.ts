@@ -1,21 +1,96 @@
-import type { ApiResponse, TrashCollectionPoint } from './types';
+import type {
+  TaipeiApiResponse,
+  TaipeiTrashCollectionPoint,
+  NewTaipeiTrashCollectionPoint,
+  UnifiedTrashCollectionPoint
+} from './types';
 
-// Fetch from static JSON file that is copied from the 'data' branch during build
+export type City = 'taipei' | 'new-taipei';
+
+// Fetch from static JSON files that are copied from the 'data' branch during build
 // Data is stored separately and updated monthly via GitHub Actions
-const STATIC_DATA_URL = '/trash-collection-points.json';
+const TAIPEI_STATIC_DATA_URL = '/trash-collection-points.json';
+const NEW_TAIPEI_STATIC_DATA_URL = '/new-taipei-trash-collection-points.json';
 
-export async function fetchTrashCollectionPoints(): Promise<TrashCollectionPoint[]> {
+// Map Taipei City data to unified format
+function mapTaipeiToUnified(point: TaipeiTrashCollectionPoint): UnifiedTrashCollectionPoint {
+  return {
+    id: `taipei-${point._id}`,
+    city: '台北市',
+    district: point.行政區,
+    village: point.里別,
+    location: point.地點,
+    route: point.路線,
+    arrivalTime: point.抵達時間,
+    departureTime: point.離開時間,
+    longitude: point.經度,
+    latitude: point.緯度,
+    source: 'taipei',
+  };
+}
+
+// Map New Taipei City data to unified format
+function mapNewTaipeiToUnified(point: NewTaipeiTrashCollectionPoint): UnifiedTrashCollectionPoint {
+  // Convert HH:MM to HHMM format
+  const arrivalTime = point.time.replace(':', '');
+  // Assume 10 minutes collection time if no departure time
+  const arrivalMinutes = parseInt(arrivalTime.slice(0, -2)) * 60 + parseInt(arrivalTime.slice(-2));
+  const departureMinutes = arrivalMinutes + 10;
+  const departureHours = Math.floor(departureMinutes / 60);
+  const departureMins = departureMinutes % 60;
+  const departureTime = `${departureHours}${departureMins.toString().padStart(2, '0')}`;
+
+  return {
+    id: `new-taipei-${point.lineid}-${point.rank}`,
+    city: '新北市',
+    district: point.city,
+    village: point.village,
+    location: point.name,
+    route: point.linename,
+    arrivalTime,
+    departureTime,
+    longitude: point.longitude,
+    latitude: point.latitude,
+    source: 'new-taipei',
+  };
+}
+
+// Fetch Taipei City data
+async function fetchTaipeiData(): Promise<UnifiedTrashCollectionPoint[]> {
   try {
-    const response = await fetch(STATIC_DATA_URL);
+    const response = await fetch(TAIPEI_STATIC_DATA_URL);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    const data: ApiResponse = await response.json();
-    return data.result.results;
+    const data: TaipeiApiResponse = await response.json();
+    return data.result.results.map(mapTaipeiToUnified);
   } catch (error) {
-    console.error('Error fetching trash collection points:', error);
+    console.error('Error fetching Taipei trash collection points:', error);
     throw error;
   }
+}
+
+// Fetch New Taipei City data
+async function fetchNewTaipeiData(): Promise<UnifiedTrashCollectionPoint[]> {
+  try {
+    const response = await fetch(NEW_TAIPEI_STATIC_DATA_URL);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data: NewTaipeiTrashCollectionPoint[] = await response.json();
+    return data.map(mapNewTaipeiToUnified);
+  } catch (error) {
+    console.error('Error fetching New Taipei trash collection points:', error);
+    throw error;
+  }
+}
+
+// Fetch data for a specific city
+export async function fetchTrashCollectionPoints(city: City = 'taipei'): Promise<UnifiedTrashCollectionPoint[]> {
+  if (city === 'new-taipei') {
+    return fetchNewTaipeiData();
+  }
+  return fetchTaipeiData();
 }
 
 export function formatTime(time: string): string {
