@@ -163,32 +163,32 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
               margin: '0 0 8px 0',
               fontSize: '14px',
               fontWeight: '600',
-              color: darkMode ? '#ffffff' : '#1a1a1a',
-              borderBottom: `1px solid ${darkMode ? '#444444' : '#e5e5e5'}`,
+              color: darkMode ? '#ffffff' : '#000000',
+              borderBottom: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
               paddingBottom: '6px'
             }}>
               {popupInfo.行政區} - {popupInfo.里別}
             </h3>
-            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#cccccc' : '#333333' }}>
-              <strong style={{ color: darkMode ? '#ffffff' : '#1a1a1a' }}>地點:</strong> {popupInfo.地點}
+            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+              <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>地點:</strong> {popupInfo.地點}
             </p>
-            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#cccccc' : '#333333' }}>
-              <strong style={{ color: darkMode ? '#ffffff' : '#1a1a1a' }}>路線:</strong> {popupInfo.路線} ({popupInfo.車次})
+            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+              <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>路線:</strong> {popupInfo.路線} ({popupInfo.車次})
             </p>
-            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#cccccc' : '#333333' }}>
-              <strong style={{ color: darkMode ? '#ffffff' : '#1a1a1a' }}>車號:</strong> {popupInfo.車號}
+            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+              <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>車號:</strong> {popupInfo.車號}
             </p>
-            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#cccccc' : '#333333' }}>
-              <strong style={{ color: darkMode ? '#ffffff' : '#1a1a1a' }}>到達:</strong> {formatTime(popupInfo.抵達時間)}
+            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+              <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>到達:</strong> {formatTime(popupInfo.抵達時間)}
             </p>
-            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#cccccc' : '#333333' }}>
-              <strong style={{ color: darkMode ? '#ffffff' : '#1a1a1a' }}>離開:</strong> {formatTime(popupInfo.離開時間)}
+            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+              <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>離開:</strong> {formatTime(popupInfo.離開時間)}
             </p>
             <p style={{
               margin: '8px 0 0 0',
               fontSize: '11px',
-              color: darkMode ? '#aaaaaa' : '#666666',
-              borderTop: `1px solid ${darkMode ? '#444444' : '#e5e5e5'}`,
+              color: darkMode ? '#a3a3a3' : '#737373',
+              borderTop: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
               paddingTop: '6px'
             }}>
               {popupInfo.分隊}
