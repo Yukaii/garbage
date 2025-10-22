@@ -130,39 +130,38 @@ function App() {
         跳至主要內容
       </a>
       <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 px-4 py-2 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 md:px-6 md:py-3 lg:px-8">
-        <div className="flex items-start justify-between gap-3">
+        <div className="flex flex-wrap items-center justify-between gap-2 sm:flex-nowrap sm:gap-3">
           <div className="flex flex-col">
             <h1 className="text-lg font-bold text-black dark:text-white sm:text-xl md:text-2xl lg:text-3xl">
-              {selectedCity === 'taipei' ? '台北市' : '新北市'}垃圾車即時地圖
+              垃圾車地圖
             </h1>
-            <p className="text-[11px] text-neutral-600 dark:text-neutral-400 sm:text-xs md:text-sm">
-              {selectedCity === 'taipei' ? 'Taipei' : 'New Taipei'} Trash Collection Map
+            <p className="text-xs text-neutral-600 dark:text-neutral-400 sm:text-sm">
+              {selectedCity === 'taipei' ? '台北市' : '新北市'} 即時收集點
             </p>
           </div>
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="flex flex-wrap items-center justify-end gap-2 sm:flex-nowrap sm:gap-3">
             <select
               value={selectedCity}
               onChange={(e) => setSelectedCity(e.target.value as City)}
-              className="rounded-md border border-neutral-300 bg-white px-3 py-1.5 text-sm text-black transition-colors hover:border-black focus:border-black focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:border-white dark:focus:border-white"
+              className="h-8 shrink-0 rounded-md border border-neutral-300 bg-white px-2 text-xs text-black transition-colors hover:border-black focus:border-black focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:border-white dark:focus:border-white sm:h-9 sm:px-3 sm:text-sm"
             >
               <option value="taipei">台北市</option>
               <option value="new-taipei">新北市</option>
             </select>
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className="flex h-9 w-9 items-center justify-center rounded-md border border-neutral-300 text-black transition-all hover:border-black hover:bg-neutral-50 dark:border-neutral-700 dark:text-white dark:hover:border-white dark:hover:bg-neutral-900"
+              className="flex h-8 w-8 items-center justify-center rounded-md border border-neutral-300 text-black transition-all hover:border-black hover:bg-neutral-50 dark:border-neutral-700 dark:text-white dark:hover:border-white dark:hover:bg-neutral-900 sm:h-9 sm:w-9"
               aria-label="Toggle dark mode"
             >
               {darkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
             <button
               onClick={() => setIsAboutOpen(true)}
-              className="inline-flex items-center gap-1 rounded-md border border-neutral-300 px-3 py-1.5 text-sm font-medium text-neutral-700 transition-colors hover:border-black hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500 dark:border-neutral-700 dark:text-neutral-200 dark:hover:border-white dark:hover:text-white"
+              className="inline-flex h-8 items-center gap-1 rounded-md border border-neutral-300 px-2 text-xs font-medium text-neutral-700 transition-colors hover:border-black hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500 dark:border-neutral-700 dark:text-neutral-200 dark:hover:border-white dark:hover:text-white sm:h-9 sm:px-3 sm:text-sm"
               type="button"
             >
               <Info className="h-4 w-4" aria-hidden="true" />
               <span className="hidden sm:inline">關於</span>
-              <span className="sm:hidden">資訊</span>
             </button>
           </div>
         </div>
@@ -220,7 +219,7 @@ function App() {
             />
           </div>
         </div>
-        <div className="mt-2 flex flex-wrap gap-2 text-[11px] text-neutral-600 dark:text-neutral-400 md:mt-3 md:text-xs">
+        <div className="mt-2 hidden flex-wrap gap-2 text-[11px] text-neutral-600 dark:text-neutral-400 md:mt-3 md:flex md:text-xs">
           <span className="rounded border border-neutral-200 bg-neutral-100 px-2 py-1 dark:border-neutral-800 dark:bg-neutral-900">
             總共 {points.length} 個收集點
           </span>
@@ -253,7 +252,7 @@ function App() {
 
       </main>
 
-      <footer className="border-t border-neutral-200 bg-neutral-100 px-4 py-3 text-[11px] text-neutral-600 dark:border-neutral-900 dark:bg-neutral-950 dark:text-neutral-400 md:px-6 md:py-4 md:text-xs lg:px-8">
+      <footer className="hidden border-t border-neutral-200 bg-neutral-100 px-4 py-3 text-[11px] text-neutral-600 dark:border-neutral-900 dark:bg-neutral-950 dark:text-neutral-400 md:px-6 md:py-4 md:text-xs lg:px-8 md:block">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2">
           <span>資料來源：台北市與新北市政府資料開放平台。</span>
           <div className="flex items-center gap-3">
