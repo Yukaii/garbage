@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Info, Sun, Moon } from 'lucide-react';
+import { Info, Sun, Moon, ChevronDown } from 'lucide-react';
 import Map from './Map';
 import TimeFilter, { type TimeFilterMode } from './TimeFilter';
 import {
@@ -124,30 +124,57 @@ function App() {
     getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes) === 'upcoming'
   ).length;
 
+  const renderSearchField = (wrapperClass: string) => (
+    <div className={`relative w-full ${wrapperClass}`}>
+      <input
+        type="text"
+        placeholder="搜尋行政區、里別、地點或路線..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        className="w-full rounded-md border border-neutral-300 bg-white px-3 py-2 pr-10 text-sm text-black placeholder-neutral-500 transition-colors focus:border-black focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:placeholder-neutral-500 dark:focus:border-white"
+      />
+      {searchTerm && (
+        <button
+          onClick={() => setSearchTerm('')}
+          className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 transition-colors hover:text-black dark:hover:text-white"
+          aria-label="Clear search"
+        >
+          ✕
+        </button>
+      )}
+    </div>
+  );
+
   return (
     <div className="flex flex-col min-h-screen w-full bg-white dark:bg-black">
       <a href="#main-content" className="skip-link">
         跳至主要內容
       </a>
       <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 px-4 py-2 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 md:px-6 md:py-3 lg:px-8">
-        <div className="flex flex-wrap items-center justify-between gap-2 sm:flex-nowrap sm:gap-3">
-          <div className="flex flex-col">
-            <h1 className="text-lg font-bold text-black dark:text-white sm:text-xl md:text-2xl lg:text-3xl">
-              垃圾車地圖
-            </h1>
-            <p className="text-xs text-neutral-600 dark:text-neutral-400 sm:text-sm">
-              {selectedCity === 'taipei' ? '台北市' : '新北市'} 即時收集點
-            </p>
+        <div className="flex flex-wrap items-center justify-between gap-3 sm:flex-nowrap">
+          <div className="flex w-full flex-col gap-2 md:flex-1 md:flex-row md:items-center md:gap-4">
+            <div className="flex flex-col">
+              <h1 className="text-lg font-bold text-black dark:text-white sm:text-xl md:text-2xl lg:text-3xl">
+                垃圾車地圖
+              </h1>
+              <p className="text-xs text-neutral-600 dark:text-neutral-400 sm:text-sm">
+                {selectedCity === 'taipei' ? '台北市' : '新北市'} 即時收集點
+              </p>
+            </div>
+            {renderSearchField('hidden md:block md:flex-1 md:max-w-md lg:max-w-lg')}
           </div>
           <div className="flex flex-wrap items-center justify-end gap-2 sm:flex-nowrap sm:gap-3">
-            <select
-              value={selectedCity}
-              onChange={(e) => setSelectedCity(e.target.value as City)}
-              className="h-8 shrink-0 rounded-md border border-neutral-300 bg-white px-2 text-xs text-black transition-colors hover:border-black focus:border-black focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:border-white dark:focus:border-white sm:h-9 sm:px-3 sm:text-sm"
-            >
-              <option value="taipei">台北市</option>
-              <option value="new-taipei">新北市</option>
-            </select>
+            <div className="relative">
+              <select
+                value={selectedCity}
+                onChange={(e) => setSelectedCity(e.target.value as City)}
+                className="h-8 shrink-0 appearance-none rounded-md border border-neutral-300 bg-white pl-2 pr-6 text-xs text-black transition-colors hover:border-black focus:border-black focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:border-white dark:focus:border-white sm:h-9 sm:pl-3 sm:pr-8 sm:text-sm"
+              >
+                <option value="taipei">台北市</option>
+                <option value="new-taipei">新北市</option>
+              </select>
+              <ChevronDown className="pointer-events-none absolute right-2 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-neutral-500 dark:text-neutral-300 sm:right-3" />
+            </div>
             <button
               onClick={() => setDarkMode(!darkMode)}
               className="flex h-8 w-8 items-center justify-center rounded-md border border-neutral-300 text-black transition-all hover:border-black hover:bg-neutral-50 dark:border-neutral-700 dark:text-white dark:hover:border-white dark:hover:bg-neutral-900 sm:h-9 sm:w-9"
@@ -192,24 +219,7 @@ function App() {
             isMobileFilterOpen ? 'grid' : 'hidden'
           } mt-3 gap-3 md:mt-4 md:grid md:grid-cols-1`}
         >
-          <div className="relative max-w-2xl">
-            <input
-              type="text"
-              placeholder="搜尋行政區、里別、地點或路線..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full rounded-md border border-neutral-300 bg-white px-3 py-2 pr-10 text-sm text-black placeholder-neutral-500 transition-colors focus:border-black focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:placeholder-neutral-500 dark:focus:border-white"
-            />
-            {searchTerm && (
-              <button
-                onClick={() => setSearchTerm('')}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 transition-colors hover:text-black dark:hover:text-white"
-                aria-label="Clear search"
-              >
-                ✕
-              </button>
-            )}
-          </div>
+          {renderSearchField('max-w-2xl md:hidden')}
           <div className="max-w-4xl">
             <TimeFilter
               selectedMode={timeFilterMode}
