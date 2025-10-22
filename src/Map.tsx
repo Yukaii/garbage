@@ -270,16 +270,16 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
             closeButton={true}
             closeOnClick={false}
           >
-            <div style={{ minWidth: '220px', padding: '12px', paddingTop: '8px' }}>
+            <div style={{ minWidth: '220px', padding: '12px', paddingTop: '10px' }}>
               <div style={{
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'flex-start',
-                gap: '8px',
+                gap: '6px',
                 marginBottom: '8px',
                 borderBottom: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
                 paddingBottom: '6px',
-                paddingRight: '4px'
+                paddingRight: '24px'
               }}>
                 <h3 style={{
                   margin: '0',
@@ -287,6 +287,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
                   fontWeight: '600',
                   color: darkMode ? '#ffffff' : '#000000',
                   flex: 1,
+                  lineHeight: '1.4',
                 }}>
                   {popupInfo.行政區} - {popupInfo.里別}
                 </h3>
@@ -299,6 +300,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
                   borderRadius: '4px',
                   whiteSpace: 'nowrap',
                   flexShrink: 0,
+                  marginTop: '1px',
                 }}>
                   {statusText}
                 </span>
