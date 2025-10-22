@@ -223,6 +223,12 @@ export default function AboutModal({
                   PastLeo
                 </a>
               </div>
+              <div>
+                <span className="font-semibold text-neutral-900 dark:text-white">AI 協作：</span>
+                <span className="ml-2 text-neutral-700 dark:text-neutral-300">
+                  Claude Sonnet 4.5, GPT-5-Codex
+                </span>
+              </div>
             </div>
           </section>
         </div>
