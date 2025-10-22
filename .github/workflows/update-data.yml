@@ -104,20 +104,20 @@ jobs:
 
           # Build commit message
           COMMIT_MSG="Monthly data update: $(date +'%Y-%m-%d')"
-          COMMIT_BODY=""
+          COMMIT_LINES=()
 
           if [ "${{ steps.check_changes.outputs.taipei_changed }}" = "true" ]; then
-            COMMIT_BODY="${COMMIT_BODY}
-- Updated Taipei City data: $TAIPEI_RECORD_COUNT records
-- Data import date: $TAIPEI_IMPORT_DATE"
+            COMMIT_LINES+=("- Updated Taipei City data: $TAIPEI_RECORD_COUNT records")
+            COMMIT_LINES+=("- Data import date: $TAIPEI_IMPORT_DATE")
             git add trash-collection-points.json
           fi
 
           if [ "${{ steps.check_changes.outputs.ntpc_changed }}" = "true" ]; then
-            COMMIT_BODY="${COMMIT_BODY}
-- Updated New Taipei City data: $NTPC_RECORD_COUNT records across $NTPC_DISTRICTS districts"
+            COMMIT_LINES+=("- Updated New Taipei City data: $NTPC_RECORD_COUNT records across $NTPC_DISTRICTS districts")
             git add new-taipei-trash-collection-points.json
           fi
+
+          COMMIT_BODY=$(printf '%s\n' "${COMMIT_LINES[@]}")
 
           git commit -m "$COMMIT_MSG" \
             -m "" \
