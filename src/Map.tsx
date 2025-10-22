@@ -683,15 +683,12 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     )}
 
     {/* Map Controls Container */}
-    <div style={{
-      position: 'absolute',
-      top: '60px', // Moved down to avoid overlap with sidebar toggle
-      left: '10px',
-      display: 'flex',
-      flexDirection: 'column',
-      gap: '8px',
-      zIndex: 10,
-    }}>
+    <div className="absolute left-[10px] top-[10px] md:top-[60px] flex flex-col gap-2 z-10"
+      style={{
+        // On mobile: top-[10px] (no sidebar button)
+        // On desktop (md+): top-[60px] (avoid sidebar button overlap)
+      }}
+    >
       {/* Layer Toggle Button */}
       <button
         onClick={toggleMapStyle}
