@@ -3,8 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="即時掌握台北市與新北市垃圾車與資源回收車路線、停靠地點與時間表，支援搜尋、時間篩選與深色模式，讓你在外也能快速查詢最近的垃圾車。" />
+    <meta name="keywords" content="台北市垃圾車, 新北市垃圾車, 垃圾車地圖, 台北垃圾車時間, 垃圾車時刻表, Taipei trash schedule, Waste collection Taiwan" />
+    <meta name="author" content="Yukai Wang" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="application-name" content="台北市垃圾車即時地圖" />
+    <meta name="theme-color" content="#111827" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="垃圾車地圖" />
+    <link rel="canonical" href="https://trash.yukai.dev/" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="mask-icon" href="/favicon.svg" color="#111827" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png" />
+    <meta name="msapplication-TileColor" content="#111827" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:title" content="台北市垃圾車即時地圖 | Taipei Trash Collection Map" />
+    <meta property="og:description" content="即時查看台北與新北垃圾車與資源回收車的路線、停靠地點與抵達時間，支援搜尋與多種時間篩選。" />
+    <meta property="og:url" content="https://trash.yukai.dev/" />
+    <meta property="og:site_name" content="台北市垃圾車即時地圖" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="台北市垃圾車即時地圖 | Taipei Trash Collection Map" />
+    <meta name="twitter:description" content="立即掌握垃圾車行程、停靠地點與最近班次，支援台北與新北市區。" />
     <title>台北市垃圾車即時地圖 | Taipei Trash Collection Map</title>
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.9.0/dist/maplibre-gl.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://trash.yukai.dev/#website",
+            "name": "台北市垃圾車即時地圖",
+            "alternateName": "Taipei Trash Collection Map",
+            "url": "https://trash.yukai.dev/",
+            "description": "台北市與新北市垃圾車即時地圖，提供垃圾車與資源回收車的停靠地點與最新抵達時間。",
+            "inLanguage": "zh-TW",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://trash.yukai.dev/?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://trash.yukai.dev/#faq",
+            "inLanguage": "zh-TW",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "資料多久更新一次？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "服務會在每月政府資料更新後自動重新抓取並部署新版本；若遇到重大變動，也可以在 GitHub 上手動觸發更新流程。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "是否支援離線或通知功能？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "目前為線上查詢工具，建議將常用收集點加入瀏覽器書籤或手機主畫面，未來版本將評估整合通知功能。"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

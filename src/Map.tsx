@@ -240,7 +240,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
   };
 
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+    <div className='absolute h-full w-full'>
       <Map
         ref={mapRef}
         initialViewState={{
