@@ -94,6 +94,56 @@
   border-left-color: rgb(23 23 23);
 }
 
+.maplibregl-ctrl-group {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid rgb(229 231 235);
+  background-color: rgb(255 255 255 / 0.95);
+  box-shadow: 0 10px 25px -12px rgb(0 0 0 / 0.3);
+}
+
+.maplibregl-ctrl button {
+  width: 34px;
+  height: 34px;
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.maplibregl-ctrl-group button + button {
+  border-top: 1px solid rgb(229 231 235);
+}
+
+.maplibregl-ctrl button:not(:disabled):hover {
+  background-color: rgb(245 245 245);
+}
+
+.maplibregl-ctrl button:focus-visible {
+  outline: 2px solid rgb(59 130 246);
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+:is(.dark .maplibregl-ctrl-group) {
+  border-color: rgb(64 64 64);
+  background-color: rgb(17 17 17 / 0.92);
+  box-shadow: 0 15px 30px -14px rgb(0 0 0 / 0.6);
+}
+
+:is(.dark .maplibregl-ctrl-group button + button) {
+  border-top-color: rgb(56 56 56);
+}
+
+:is(.dark .maplibregl-ctrl button) {
+  background-color: transparent;
+}
+
+:is(.dark .maplibregl-ctrl button:not(:disabled):hover) {
+  background-color: rgb(38 38 38);
+}
+
+:is(.dark .maplibregl-ctrl button .maplibregl-ctrl-icon) {
+  filter: invert(1) brightness(1.1);
+}
+
 .skip-link {
   position: absolute;
   left: 1rem;
