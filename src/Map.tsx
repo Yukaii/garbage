@@ -244,7 +244,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
         setUserLocation({ lng: longitude, lat: latitude });
         mapRef.current?.flyTo({
           center: [longitude, latitude],
-          zoom: 15,
+          zoom: 16,
           duration: 1000,
         });
         setIsLocating(false);
