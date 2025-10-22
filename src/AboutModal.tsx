@@ -64,7 +64,7 @@ export default function AboutModal({
         role="dialog"
         aria-modal="true"
         aria-labelledby="about-modal-title"
-        className="relative max-h-[90vh] w-full max-w-3xl overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-2xl outline-none dark:border-neutral-800 dark:bg-neutral-950"
+        className="relative flex max-h-[90vh] w-full max-w-3xl flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-2xl outline-none dark:border-neutral-800 dark:bg-neutral-950"
         ref={dialogRef}
         onClick={handleDialogClick}
       >
@@ -90,7 +90,7 @@ export default function AboutModal({
             <X className="h-5 w-5" aria-hidden="true" />
           </button>
         </header>
-        <div className="space-y-6 overflow-y-auto px-5 py-6 text-sm leading-relaxed text-neutral-700 dark:text-neutral-300 md:text-base">
+        <div className="min-h-0 flex-1 space-y-6 overflow-y-auto px-5 py-6 text-sm leading-relaxed text-neutral-700 dark:text-neutral-300 md:text-base">
           <div className="flex flex-wrap gap-3 text-xs text-neutral-600 dark:text-neutral-400 md:text-sm">
             <span className="rounded-full border border-neutral-200 bg-neutral-50 px-3 py-1 dark:border-neutral-700 dark:bg-neutral-900/60">
               收錄 {totalPoints.toLocaleString()} 個收集點
