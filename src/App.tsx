@@ -239,8 +239,8 @@ function App() {
       <main id="main-content" className="flex-1 flex flex-col min-h-0">
         <section className="relative flex-1 min-h-[320px] overflow-hidden">
           {loading && (
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-black z-50">
-              <div className="w-12 h-12 border-4 border-neutral-200 dark:border-neutral-800 border-t-black dark:border-t-white rounded-full spinner"></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-black z-50 h-full w-full">
+              <div className="w-12 h-12 border-4 border-neutral-200 dark:border-neutral-800 border-t-black dark:border-t-white rounded-full spinner" />
               <p className="mt-4 text-neutral-600 dark:text-neutral-400">載入中...</p>
             </div>
           )}
@@ -266,7 +266,7 @@ function App() {
               關於此服務
             </button>
             <a
-              href="https://github.com/yukaii/trash/issues"
+              href="https://github.com/yukaii/garbage/issues"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"

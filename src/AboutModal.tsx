@@ -201,7 +201,7 @@ export default function AboutModal({
         <div className="flex flex-wrap items-center justify-between gap-3 border-t border-neutral-200 bg-neutral-50 px-5 py-4 text-xs text-neutral-500 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-400">
           <span>若發現資料異常或有功能建議，歡迎於 GitHub 提交 Issue。</span>
           <a
-            href="https://github.com/yukaii/trash/issues"
+            href="https://github.com/yukaii/garbage/issues"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 rounded-md border border-neutral-200 px-3 py-1 font-medium text-sky-600 hover:border-sky-200 hover:bg-sky-50 dark:border-neutral-700 dark:text-sky-400 dark:hover:border-neutral-600 dark:hover:bg-neutral-900"
