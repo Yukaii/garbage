@@ -268,17 +268,15 @@ export function interpolateTruckPosition(
     };
   }
 
-  // Route has finished
+  // Route has finished - show at last stop
   const lastPoint = routePoints[routePoints.length - 1];
   const lastDeparture = parseTimeToMinutes(lastPoint.departureTime);
-  if (currentMinutes > lastDeparture) {
-    return {
-      lat: parseFloat(lastPoint.latitude),
-      lng: parseFloat(lastPoint.longitude),
-      progress: 1,
-      status: 'after',
-    };
-  }
 
-  return null;
+  // Always return last stop if we get here (after all checks)
+  return {
+    lat: parseFloat(lastPoint.latitude),
+    lng: parseFloat(lastPoint.longitude),
+    progress: 1,
+    status: currentMinutes > lastDeparture ? 'after' : 'active',
+  };
 }

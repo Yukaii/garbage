@@ -1,5 +1,5 @@
-import { useEffect, useRef, type MouseEvent } from 'react';
-import { Info, X } from 'lucide-react';
+import { useEffect, useRef, useState, type MouseEvent } from 'react';
+import { Info, X, Bug } from 'lucide-react';
 
 interface AboutModalProps {
   open: boolean;
@@ -7,6 +7,8 @@ interface AboutModalProps {
   totalPoints: number;
   activeCount: number;
   upcomingCount: number;
+  debugTime?: string;
+  onDebugTimeChange?: (time: string) => void;
 }
 
 export default function AboutModal({
@@ -15,9 +17,12 @@ export default function AboutModal({
   totalPoints,
   activeCount,
   upcomingCount,
+  debugTime,
+  onDebugTimeChange,
 }: AboutModalProps) {
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
+  const [showDebugSettings, setShowDebugSettings] = useState(false);
 
   useEffect(() => {
     if (!open) return;
@@ -230,6 +235,74 @@ export default function AboutModal({
                 </span>
               </div>
             </div>
+          </section>
+
+          {/* Debug Settings Section */}
+          <section className="border-t border-neutral-200 pt-6 dark:border-neutral-800">
+            <button
+              onClick={() => setShowDebugSettings(!showDebugSettings)}
+              className="flex items-center gap-2 text-sm font-semibold text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200"
+            >
+              <Bug className="h-4 w-4" />
+              開發者除錯模式
+              <span className="ml-auto text-xs opacity-60">
+                {showDebugSettings ? '▼' : '▶'}
+              </span>
+            </button>
+
+            {showDebugSettings && onDebugTimeChange && (
+              <div className="mt-4 rounded-lg border border-yellow-200 bg-yellow-50 p-4 dark:border-yellow-900 dark:bg-yellow-950/30">
+                <h4 className="text-sm font-semibold text-yellow-900 dark:text-yellow-200">
+                  🚛 即時追蹤測試模式
+                </h4>
+                <p className="mt-2 text-xs text-yellow-800 dark:text-yellow-300">
+                  設定自訂時間來測試垃圾車即時位置追蹤功能。此設定僅用於開發測試，不會影響實際資料。
+                </p>
+
+                <div className="mt-4 space-y-3">
+                  <div>
+                    <label htmlFor="debug-time" className="block text-xs font-medium text-yellow-900 dark:text-yellow-200">
+                      測試時間 (HH:MM 格式)
+                    </label>
+                    <input
+                      id="debug-time"
+                      type="time"
+                      value={debugTime || ''}
+                      onChange={(e) => onDebugTimeChange(e.target.value)}
+                      className="mt-1 block w-full rounded-md border border-yellow-300 bg-white px-3 py-2 text-sm text-neutral-900 focus:border-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500 dark:border-yellow-800 dark:bg-neutral-900 dark:text-white"
+                    />
+                  </div>
+
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => {
+                        const now = new Date();
+                        const hours = now.getHours().toString().padStart(2, '0');
+                        const minutes = now.getMinutes().toString().padStart(2, '0');
+                        onDebugTimeChange(`${hours}:${minutes}`);
+                      }}
+                      className="rounded-md border border-yellow-300 bg-white px-3 py-1.5 text-xs font-medium text-yellow-900 hover:bg-yellow-50 dark:border-yellow-800 dark:bg-neutral-900 dark:text-yellow-200 dark:hover:bg-neutral-800"
+                    >
+                      使用目前時間
+                    </button>
+                    <button
+                      onClick={() => onDebugTimeChange('')}
+                      className="rounded-md border border-yellow-300 bg-white px-3 py-1.5 text-xs font-medium text-yellow-900 hover:bg-yellow-50 dark:border-yellow-800 dark:bg-neutral-900 dark:text-yellow-200 dark:hover:bg-neutral-800"
+                    >
+                      清除測試時間
+                    </button>
+                  </div>
+
+                  {debugTime && (
+                    <div className="rounded-md bg-yellow-100 px-3 py-2 text-xs text-yellow-900 dark:bg-yellow-900/20 dark:text-yellow-200">
+                      <strong>目前測試時間：</strong> {debugTime}
+                      <br />
+                      <span className="opacity-75">垃圾車位置將基於此時間計算</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
           </section>
         </div>
         <div className="flex flex-wrap items-center justify-between gap-3 border-t border-neutral-200 bg-neutral-50 px-5 py-4 text-xs text-neutral-500 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-400">

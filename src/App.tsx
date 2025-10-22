@@ -23,7 +23,10 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredPoints, setFilteredPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
   const [timeFilterMode, setTimeFilterMode] = useState<TimeFilterMode>('all');
-  const [currentTimeMinutes, setCurrentTimeMinutes] = useState(getCurrentTimeInMinutes());
+  const [currentTimeMinutes, setCurrentTimeMinutes] = useState(() => {
+    // Initialize with debug time if available
+    return getCurrentTimeInMinutes();
+  });
   const [selectedCity, setSelectedCity] = useState<City>(() => {
     // Check if user has a saved preference
     const saved = localStorage.getItem('selectedCity');
@@ -45,6 +48,7 @@ function App() {
     east: number;
     west: number;
   } | null>(null);
+  const [debugTime, setDebugTime] = useState<string>('');
 
   // Derived loading state: both data and map must be loaded
   const loading = !dataLoaded || !mapLoaded;
@@ -56,13 +60,25 @@ function App() {
   }, [darkMode]);
 
   useEffect(() => {
-    // Update current time every minute
+    // Update current time every minute (unless debug time is set)
     const interval = setInterval(() => {
-      setCurrentTimeMinutes(getCurrentTimeInMinutes());
+      if (!debugTime) {
+        setCurrentTimeMinutes(getCurrentTimeInMinutes());
+      }
     }, 60000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [debugTime]);
+
+  // Update currentTimeMinutes when debugTime changes
+  useEffect(() => {
+    if (debugTime) {
+      const [hours, minutes] = debugTime.split(':').map(Number);
+      setCurrentTimeMinutes(hours * 60 + minutes);
+    } else {
+      setCurrentTimeMinutes(getCurrentTimeInMinutes());
+    }
+  }, [debugTime]);
 
   useEffect(() => {
     // Save city preference
@@ -266,7 +282,7 @@ function App() {
               <p className="text-red-600 dark:text-red-400">{error}</p>
             </div>
           )}
-          {dataLoaded && !error && <Map points={selectedRoute ? points : filteredPoints} darkMode={darkMode} onMapLoaded={handleMapLoaded} selectedRoute={selectedRoute} onRouteSelect={setSelectedRoute} onViewportChange={setViewportBounds} />}
+          {dataLoaded && !error && <Map points={selectedRoute ? points : filteredPoints} darkMode={darkMode} onMapLoaded={handleMapLoaded} selectedRoute={selectedRoute} onRouteSelect={setSelectedRoute} onViewportChange={setViewportBounds} currentTimeMinutes={currentTimeMinutes} />}
         </section>
 
       </main>
@@ -318,6 +334,8 @@ function App() {
         totalPoints={points.length}
         activeCount={activeCount}
         upcomingCount={upcomingCount}
+        debugTime={debugTime}
+        onDebugTimeChange={setDebugTime}
       />
     </div>
   );

@@ -23,6 +23,7 @@ interface MapComponentProps {
   selectedRoute?: string | null; // routeKey to highlight
   onRouteSelect?: (routeKey: string | null) => void;
   onViewportChange?: (bounds: { north: number; south: number; east: number; west: number }) => void;
+  currentTimeMinutes?: number; // Override for debug mode
 }
 
 type MapStyleType = 'street' | 'satellite';
@@ -30,13 +31,16 @@ type MapStyleType = 'street' | 'satellite';
 // Minimum zoom level required to show time labels
 const MIN_LABEL_ZOOM = 17;
 
-export default function MapComponent({ points, darkMode, onMapLoaded, selectedRoute, onRouteSelect, onViewportChange }: MapComponentProps) {
+export default function MapComponent({ points, darkMode, onMapLoaded, selectedRoute, onRouteSelect, onViewportChange, currentTimeMinutes: propCurrentTimeMinutes }: MapComponentProps) {
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<UnifiedTrashCollectionPoint | null>(null);
   const [mapStyleType, setMapStyleType] = useState<MapStyleType>('street');
   const [isLocating, setIsLocating] = useState(false);
   const [userLocation, setUserLocation] = useState<{ lng: number; lat: number } | null>(null);
-  const [currentTimeMinutes, setCurrentTimeMinutes] = useState(getCurrentTimeInMinutes());
+  const [internalCurrentTimeMinutes, setInternalCurrentTimeMinutes] = useState(getCurrentTimeInMinutes());
+
+  // Use prop if provided (debug mode), otherwise use internal state
+  const currentTimeMinutes = propCurrentTimeMinutes ?? internalCurrentTimeMinutes;
   const hasNotifiedMapLoaded = useRef(false);
   const [currentZoom, setCurrentZoom] = useState(11);
   const [viewportBounds, setViewportBounds] = useState<{
@@ -47,13 +51,15 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   } | null>(null);
 
   useEffect(() => {
-    // Update current time every minute for popup countdowns
+    // Update current time every minute for popup countdowns (only if not using prop)
+    if (propCurrentTimeMinutes !== undefined) return;
+
     const interval = setInterval(() => {
-      setCurrentTimeMinutes(getCurrentTimeInMinutes());
+      setInternalCurrentTimeMinutes(getCurrentTimeInMinutes());
     }, 60000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [propCurrentTimeMinutes]);
 
   // Filter points based on selected route
   const filteredPoints = useMemo(() => {
@@ -246,11 +252,27 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       'circle-radius': [
         'match',
         ['get', 'timeStatus'],
-        'active', 10,           // Larger for active
+        'active', 12,           // Larger for active (increased from 10)
         8                       // Normal size for others
       ],
-      'circle-stroke-width': 2,
-      'circle-stroke-color': '#fff',
+      'circle-stroke-width': [
+        'match',
+        ['get', 'timeStatus'],
+        'active', 3,            // Thicker stroke for active
+        2                       // Normal stroke
+      ],
+      'circle-stroke-color': [
+        'match',
+        ['get', 'timeStatus'],
+        'active', '#22c55e',    // Green stroke for active (pulsing effect)
+        '#fff'                  // White stroke for others
+      ],
+      'circle-opacity': [
+        'match',
+        ['get', 'timeStatus'],
+        'active', 0.9,          // More visible for active
+        0.8                     // Normal opacity
+      ],
     },
   }), []);
 
@@ -477,8 +499,9 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       {/* Custom label markers for high zoom levels - only render visible points */}
       {visiblePoints.map((point) => {
         const timeStatus = getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes);
+        const isActive = timeStatus === 'active';
         // Use solid, high-contrast colors
-        const bgColor = timeStatus === 'active' ? '#16a34a' : timeStatus === 'upcoming' ? '#ca8a04' : '#525252';
+        const bgColor = isActive ? '#16a34a' : timeStatus === 'upcoming' ? '#ca8a04' : '#525252';
         const textColor = '#ffffff';
 
         return (
@@ -489,28 +512,39 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
             anchor="top"
             offset={[0, 12]}
           >
-            <div
-              onClick={(e) => {
-                e.stopPropagation();
-                setPopupInfo(point);
-              }}
-              style={{
-                backgroundColor: bgColor,
-                padding: '4px 6px',
-                borderRadius: '4px',
-                border: '1px solid rgba(0, 0, 0, 0.2)',
-                boxShadow: '0 2px 6px rgba(0,0,0,0.4)',
-                cursor: 'pointer',
-                fontSize: '11px',
-                lineHeight: '1.2',
-                fontWeight: '700',
-                textAlign: 'center',
-                whiteSpace: 'nowrap',
-                pointerEvents: 'auto',
-                color: textColor,
-              }}
-            >
-              {formatTime(point.arrivalTime)} - {formatTime(point.departureTime)}
+            <div className="relative flex items-center justify-center">
+              {/* Wave animation for active stops */}
+              {isActive && (
+                <>
+                  <div className="absolute h-8 w-8 -top-1 rounded-full bg-green-500 opacity-20 animate-ping" style={{ animationDuration: '2s' }} />
+                  <div className="absolute h-6 w-6 -top-1 rounded-full bg-green-500 opacity-30 animate-ping" style={{ animationDuration: '1.5s', animationDelay: '0.3s' }} />
+                </>
+              )}
+
+              <div
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setPopupInfo(point);
+                }}
+                className="relative z-10"
+                style={{
+                  backgroundColor: bgColor,
+                  padding: '4px 6px',
+                  borderRadius: '4px',
+                  border: isActive ? '2px solid rgba(34, 197, 94, 0.5)' : '1px solid rgba(0, 0, 0, 0.2)',
+                  boxShadow: isActive ? '0 0 12px rgba(34, 197, 94, 0.6), 0 2px 6px rgba(0,0,0,0.4)' : '0 2px 6px rgba(0,0,0,0.4)',
+                  cursor: 'pointer',
+                  fontSize: '11px',
+                  lineHeight: '1.2',
+                  fontWeight: '700',
+                  textAlign: 'center',
+                  whiteSpace: 'nowrap',
+                  pointerEvents: 'auto',
+                  color: textColor,
+                }}
+              >
+                {formatTime(point.arrivalTime)} - {formatTime(point.departureTime)}
+              </div>
             </div>
           </Marker>
         );
@@ -624,7 +658,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       })()}
 
       {/* Truck Position Marker */}
-      {truckPosition && truckPosition.status === 'active' && (
+      {truckPosition && (
         <Marker
           longitude={truckPosition.lng}
           latitude={truckPosition.lat}
@@ -632,12 +666,22 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
           style={{ transition: 'all 1s ease-out' }}
         >
           <div className="relative flex items-center justify-center" style={{ transition: 'transform 1s ease-out' }}>
-            {/* Pulsing ring effect */}
-            <div className="absolute h-12 w-12 rounded-full bg-green-500 opacity-30 animate-ping" />
-            <div className="absolute h-10 w-10 rounded-full bg-green-500 opacity-50" />
+            {/* Pulsing ring effect - only for active trucks */}
+            {truckPosition.status === 'active' && (
+              <>
+                <div className="absolute h-12 w-12 rounded-full bg-green-500 opacity-30 animate-ping" />
+                <div className="absolute h-10 w-10 rounded-full bg-green-500 opacity-50" />
+              </>
+            )}
 
-            {/* Truck icon */}
-            <div className="relative z-10 flex h-10 w-10 items-center justify-center rounded-full bg-green-600 shadow-lg border-2 border-white dark:border-neutral-900">
+            {/* Truck icon with status-based colors */}
+            <div className={`relative z-10 flex h-10 w-10 items-center justify-center rounded-full shadow-lg border-2 border-white dark:border-neutral-900 ${
+              truckPosition.status === 'active'
+                ? 'bg-green-600'
+                : truckPosition.status === 'before'
+                ? 'bg-gray-400'
+                : 'bg-neutral-500'
+            }`}>
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
@@ -655,9 +699,17 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
               </svg>
             </div>
 
-            {/* Progress label */}
-            <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-green-600 px-2 py-1 text-xs font-semibold text-white shadow-md">
-              🚛 行駛中 {Math.round(truckPosition.progress * 100)}%
+            {/* Progress label with status */}
+            <div className={`absolute -bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md px-2 py-1 text-xs font-semibold text-white shadow-md ${
+              truckPosition.status === 'active'
+                ? 'bg-green-600'
+                : truckPosition.status === 'before'
+                ? 'bg-gray-500'
+                : 'bg-neutral-600'
+            }`}>
+              {truckPosition.status === 'active' && `🚛 行駛中 ${Math.round(truckPosition.progress * 100)}%`}
+              {truckPosition.status === 'before' && '⏰ 尚未出發'}
+              {truckPosition.status === 'after' && `✓ 已完成 (${filteredPoints.length}站)`}
             </div>
           </div>
         </Marker>
