@@ -75,7 +75,7 @@ function App() {
           </div>
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="flex items-center justify-center w-9 h-9 border border-neutral-300 dark:border-neutral-700 rounded-md hover:border-black dark:hover:border-white hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-all"
+            className="flex items-center justify-center w-9 h-9 border border-neutral-300 dark:border-neutral-700 rounded-md hover:border-black dark:hover:border-white hover:bg-neutral-50 dark:hover:bg-neutral-900 transition-all text-black dark:text-white"
             aria-label="Toggle dark mode"
           >
             {darkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
