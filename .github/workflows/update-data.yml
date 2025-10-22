@@ -28,7 +28,7 @@ jobs:
           curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=4000" > temp5.json
 
           # Merge all batches into a single JSON file
-          jq -s '{result: {count: .[0].result.count, limit: (.[0].result.results | length) + (.[1].result.results | length) + (.[2].result.results | length) + (.[3].result.results | length) + (.[4].result.results | length), offset: 0, sort: "", results: (.[0].result.results + .[1].result.results + .[2].result.results + .[3].result.results + .[4].result.results)}}' temp1.json temp2.json temp3.json temp4.json temp5.json > trash-collection-points.json
+          jq -s '{result: {count: .[0].result.count, limit: ((.[0].result.results | length) + (.[1].result.results | length) + (.[2].result.results | length) + (.[3].result.results | length) + (.[4].result.results | length)), offset: 0, sort: "", results: (.[0].result.results + .[1].result.results + .[2].result.results + .[3].result.results + .[4].result.results)}}' temp1.json temp2.json temp3.json temp4.json temp5.json > trash-collection-points.json
 
           # Clean up temporary files
           rm temp*.json
