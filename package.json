@@ -10,6 +10,7 @@
     "dump-data": "git show data:trash-collection-points.json > public/trash-collection-points.json && echo 'Data dumped to public/trash-collection-points.json'"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.15",
     "@types/bun": "latest",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
