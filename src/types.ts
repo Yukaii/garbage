@@ -83,3 +83,14 @@ export interface UnifiedTrashCollectionPoint {
 // Legacy alias for backward compatibility
 export type TrashCollectionPoint = TaipeiTrashCollectionPoint;
 export type ApiResponse = TaipeiApiResponse;
+
+// Route visualization types
+export interface RouteInfo {
+  routeId: string; // Unique route identifier
+  routeName: string; // Display name
+  city: string; // City name
+  district: string; // District
+  pointCount: number; // Number of stops
+  points: UnifiedTrashCollectionPoint[]; // Ordered stops
+  source: 'taipei' | 'new-taipei';
+}

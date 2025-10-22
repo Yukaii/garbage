@@ -27,6 +27,19 @@
   animation: radio-wave 2s ease-out infinite;
 }
 
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
 /* MapLibre popup customization */
 .maplibregl-popup-content {
   border-radius: 0.375rem;

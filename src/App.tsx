@@ -7,6 +7,7 @@ import {
   getCurrentTimeInMinutes,
   getTimeStatus,
   isWithinTimeWindow,
+  groupPointsIntoRoutes,
   type City
 } from './api';
 import type { UnifiedTrashCollectionPoint } from './types';
@@ -37,6 +38,13 @@ function App() {
   });
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
+  const [selectedRoute, setSelectedRoute] = useState<string | null>(null);
+  const [viewportBounds, setViewportBounds] = useState<{
+    north: number;
+    south: number;
+    east: number;
+    west: number;
+  } | null>(null);
 
   // Derived loading state: both data and map must be loaded
   const loading = !dataLoaded || !mapLoaded;
@@ -258,7 +266,7 @@ function App() {
               <p className="text-red-600 dark:text-red-400">{error}</p>
             </div>
           )}
-          {dataLoaded && !error && <Map points={filteredPoints} darkMode={darkMode} onMapLoaded={handleMapLoaded} />}
+          {dataLoaded && !error && <Map points={selectedRoute ? points : filteredPoints} darkMode={darkMode} onMapLoaded={handleMapLoaded} selectedRoute={selectedRoute} onRouteSelect={setSelectedRoute} onViewportChange={setViewportBounds} />}
         </section>
 
       </main>

@@ -177,3 +177,33 @@ export function isWithinTimeWindow(
 
   return false;
 }
+
+// Group points into routes and sort by sequence
+export function groupPointsIntoRoutes(points: UnifiedTrashCollectionPoint[]): Map<string, UnifiedTrashCollectionPoint[]> {
+  const routeMap = new Map<string, UnifiedTrashCollectionPoint[]>();
+
+  points.forEach(point => {
+    const routeKey = `${point.source}-${point.route}`;
+    if (!routeMap.has(routeKey)) {
+      routeMap.set(routeKey, []);
+    }
+    routeMap.get(routeKey)!.push(point);
+  });
+
+  // Sort points within each route
+  routeMap.forEach((routePoints, routeKey) => {
+    if (routePoints[0]?.source === 'new-taipei') {
+      // New Taipei: sort by rank
+      routePoints.sort((a, b) => {
+        const rankA = parseInt(a.id.split('-').pop() || '0');
+        const rankB = parseInt(b.id.split('-').pop() || '0');
+        return rankA - rankB;
+      });
+    } else {
+      // Taipei: sort by arrival time
+      routePoints.sort((a, b) => parseTimeToMinutes(a.arrivalTime) - parseTimeToMinutes(b.arrivalTime));
+    }
+  });
+
+  return routeMap;
+}

@@ -9,14 +9,19 @@ import {
   getTimeStatus,
   getTimeDifferenceInMinutes,
   formatTimeDifference,
+  parseTimeToMinutes,
 } from './api';
-import { Layers, Locate, Navigation } from 'lucide-react';
+import { Layers, Locate, Navigation, Route, X } from 'lucide-react';
+import RouteSelector from './RouteSelector';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 interface MapComponentProps {
   points: UnifiedTrashCollectionPoint[];
   darkMode: boolean;
   onMapLoaded?: () => void;
+  selectedRoute?: string | null; // routeKey to highlight
+  onRouteSelect?: (routeKey: string | null) => void;
+  onViewportChange?: (bounds: { north: number; south: number; east: number; west: number }) => void;
 }
 
 type MapStyleType = 'street' | 'satellite';
@@ -24,7 +29,7 @@ type MapStyleType = 'street' | 'satellite';
 // Minimum zoom level required to show time labels
 const MIN_LABEL_ZOOM = 17;
 
-export default function MapComponent({ points, darkMode, onMapLoaded }: MapComponentProps) {
+export default function MapComponent({ points, darkMode, onMapLoaded, selectedRoute, onRouteSelect, onViewportChange }: MapComponentProps) {
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<UnifiedTrashCollectionPoint | null>(null);
   const [mapStyleType, setMapStyleType] = useState<MapStyleType>('street');
@@ -49,11 +54,53 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
     return () => clearInterval(interval);
   }, []);
 
+  // Filter points based on selected route
+  const filteredPoints = useMemo(() => {
+    if (!selectedRoute) return points;
+    return points.filter(point => `${point.source}-${point.route}` === selectedRoute);
+  }, [points, selectedRoute]);
+
+  // Auto-fit bounds when route is selected
+  useEffect(() => {
+    if (selectedRoute && filteredPoints.length > 0 && mapRef.current) {
+      const bounds = filteredPoints.reduce(
+        (acc, point) => {
+          const lng = parseFloat(point.longitude);
+          const lat = parseFloat(point.latitude);
+          return {
+            minLng: Math.min(acc.minLng, lng),
+            maxLng: Math.max(acc.maxLng, lng),
+            minLat: Math.min(acc.minLat, lat),
+            maxLat: Math.max(acc.maxLat, lat),
+          };
+        },
+        {
+          minLng: Infinity,
+          maxLng: -Infinity,
+          minLat: Infinity,
+          maxLat: -Infinity,
+        }
+      );
+
+      mapRef.current.fitBounds(
+        [
+          [bounds.minLng, bounds.minLat],
+          [bounds.maxLng, bounds.maxLat],
+        ],
+        {
+          padding: 50,
+          duration: 800,
+        }
+      );
+    }
+  }, [selectedRoute, filteredPoints]);
+
   // Convert points to GeoJSON with time status (memoized to prevent unnecessary re-renders)
   const geojson = useMemo(() => ({
     type: 'FeatureCollection' as const,
-    features: points.map((point) => {
+    features: filteredPoints.map((point) => {
       const timeStatus = getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes);
+      const isInSelectedRoute = !selectedRoute || `${point.source}-${point.route}` === selectedRoute;
       return {
         type: 'Feature' as const,
         geometry: {
@@ -71,17 +118,56 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
           arrivalTimeFormatted: formatTime(point.arrivalTime),
           departureTimeFormatted: formatTime(point.departureTime),
           timeStatus: timeStatus,
+          isInSelectedRoute: isInSelectedRoute,
         },
       };
     }),
-  }), [points, currentTimeMinutes]);
+  }), [filteredPoints, currentTimeMinutes, selectedRoute]);
+
+  // Create route line GeoJSON for selected route
+  const routeLineGeoJson = useMemo(() => {
+    if (!selectedRoute || filteredPoints.length === 0) return null;
+
+    // Sort points by time/rank
+    const sortedPoints = [...filteredPoints].sort((a, b) => {
+      if (a.source === 'new-taipei') {
+        const rankA = parseInt(a.id.split('-').pop() || '0');
+        const rankB = parseInt(b.id.split('-').pop() || '0');
+        return rankA - rankB;
+      }
+      return parseTimeToMinutes(a.arrivalTime) - parseTimeToMinutes(b.arrivalTime);
+    });
+
+    return {
+      type: 'FeatureCollection' as const,
+      features: [{
+        type: 'Feature' as const,
+        geometry: {
+          type: 'LineString' as const,
+          coordinates: sortedPoints.map(point => [
+            parseFloat(point.longitude),
+            parseFloat(point.latitude)
+          ]),
+        },
+        properties: {
+          route: selectedRoute,
+        },
+      }],
+    };
+  }, [selectedRoute, filteredPoints]);
 
   // Filter points to only those visible in viewport (for label rendering)
-  // Only show labels at very close zoom levels
+  // Show labels at high zoom OR when route is selected
   const visiblePoints = useMemo(() => {
+    // If route is selected, show all labels for that route
+    if (selectedRoute && filteredPoints.length > 0) {
+      return filteredPoints;
+    }
+
+    // Otherwise, only show at close zoom levels
     if (!viewportBounds || currentZoom < MIN_LABEL_ZOOM) return [];
 
-    return points.filter((point) => {
+    return filteredPoints.filter((point) => {
       const lat = parseFloat(point.latitude);
       const lng = parseFloat(point.longitude);
       return (
@@ -91,7 +177,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
         lng <= viewportBounds.east
       );
     });
-  }, [points, viewportBounds, currentZoom]);
+  }, [filteredPoints, viewportBounds, currentZoom, selectedRoute]);
 
   // Cluster layer styles - monotone black/gray design (memoized to prevent re-renders)
   const clusterLayer: CircleLayer = useMemo(() => ({
@@ -178,7 +264,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
 
     // Handle point click
     if (feature.layer.id === 'unclustered-point') {
-      const point = points.find((p) => p.id === feature.properties.id);
+      const point = filteredPoints.find((p) => p.id === feature.properties.id);
       if (point) {
         setPopupInfo(point);
       }
@@ -284,12 +370,17 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
       setCurrentZoom(map.getZoom());
       const bounds = map.getBounds();
       if (bounds) {
-        setViewportBounds({
+        const newBounds = {
           north: bounds.getNorth(),
           south: bounds.getSouth(),
           east: bounds.getEast(),
           west: bounds.getWest(),
-        });
+        };
+        setViewportBounds(newBounds);
+        // Notify parent of viewport change
+        if (onViewportChange) {
+          onViewportChange(newBounds);
+        }
       }
     }
   };
@@ -318,14 +409,52 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
         id="trash-points"
         type="geojson"
         data={geojson as any}
-        cluster={true}
+        cluster={!selectedRoute} // Disable clustering when route is selected
         clusterMaxZoom={14}
         clusterRadius={50}
       >
-        <Layer {...clusterLayer} />
-        <Layer {...clusterCountLayer} />
+        {!selectedRoute && <Layer {...clusterLayer} />}
+        {!selectedRoute && <Layer {...clusterCountLayer} />}
         <Layer {...unclusteredPointLayer} />
       </Source>
+
+      {/* Route line layer */}
+      {routeLineGeoJson && (
+        <Source
+          id="route-line"
+          type="geojson"
+          data={routeLineGeoJson as any}
+        >
+          <Layer
+            id="route-line-layer"
+            type="line"
+            paint={{
+              'line-color': '#3b82f6',
+              'line-width': 4,
+              'line-opacity': 0.8,
+            }}
+            layout={{
+              'line-join': 'round',
+              'line-cap': 'round',
+            }}
+          />
+          {/* Animated line on top */}
+          <Layer
+            id="route-line-animated"
+            type="line"
+            paint={{
+              'line-color': '#60a5fa',
+              'line-width': 6,
+              'line-opacity': 0.4,
+              'line-dasharray': [0, 4, 3],
+            }}
+            layout={{
+              'line-join': 'round',
+              'line-cap': 'round',
+            }}
+          />
+        </Source>
+      )}
 
       {/* Custom label markers for high zoom levels - only render visible points */}
       {visiblePoints.map((point) => {
@@ -527,10 +656,36 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
       <NavigationControl position="top-right" />
     </Map>
 
+    {/* Route Name Label - Top Center */}
+    {selectedRoute && filteredPoints.length > 0 && (
+      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 flex items-center gap-2 rounded-lg border border-neutral-300 bg-white/95 backdrop-blur-sm px-4 py-2 shadow-lg dark:border-neutral-700 dark:bg-black/90">
+        <Route className="h-4 w-4 text-blue-600 dark:text-blue-400" />
+        <div className="flex items-center gap-3">
+          <div>
+            <div className="text-sm font-semibold text-black dark:text-white">
+              {filteredPoints[0].route}
+            </div>
+            <div className="text-xs text-neutral-600 dark:text-neutral-400">
+              {filteredPoints[0].district} • {filteredPoints.length} 站
+            </div>
+          </div>
+          {onRouteSelect && (
+            <button
+              onClick={() => onRouteSelect(null)}
+              className="ml-2 flex h-7 w-7 items-center justify-center rounded-md border border-neutral-300 text-neutral-700 transition-all hover:border-neutral-400 hover:bg-neutral-100 dark:border-neutral-700 dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:bg-neutral-800"
+              aria-label="Clear route selection"
+            >
+              <X className="h-4 w-4" />
+            </button>
+          )}
+        </div>
+      </div>
+    )}
+
     {/* Map Controls Container */}
     <div style={{
       position: 'absolute',
-      top: '10px',
+      top: '60px', // Moved down to avoid overlap with sidebar toggle
       left: '10px',
       display: 'flex',
       flexDirection: 'column',
@@ -601,6 +756,17 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
         <Locate size={18} className={isLocating ? 'animate-pulse' : ''} />
       </button>
     </div>
+
+    {/* Route Selector */}
+    {onRouteSelect && (
+      <RouteSelector
+        points={points}
+        selectedRoute={selectedRoute || null}
+        onRouteSelect={onRouteSelect}
+        darkMode={darkMode}
+        viewportBounds={viewportBounds}
+      />
+    )}
   </div>
   );
 }
