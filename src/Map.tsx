@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useMemo } from 'react';
 import Map, { Source, Layer, Popup, NavigationControl, Marker } from 'react-map-gl/maplibre';
 import type { MapRef } from 'react-map-gl';
 import type { CircleLayer, SymbolLayer } from 'maplibre-gl';
@@ -37,15 +37,15 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
     return () => clearInterval(interval);
   }, []);
 
-  // Convert points to GeoJSON with time status
-  const geojson = {
-    type: 'FeatureCollection',
+  // Convert points to GeoJSON with time status (memoized to prevent unnecessary re-renders)
+  const geojson = useMemo(() => ({
+    type: 'FeatureCollection' as const,
     features: points.map((point) => {
       const timeStatus = getTimeStatus(point.抵達時間, point.離開時間, currentTimeMinutes);
       return {
-        type: 'Feature',
+        type: 'Feature' as const,
         geometry: {
-          type: 'Point',
+          type: 'Point' as const,
           coordinates: [parseFloat(point.經度), parseFloat(point.緯度)],
         },
         properties: {
@@ -63,10 +63,10 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
         },
       };
     }),
-  };
+  }), [points, currentTimeMinutes]);
 
-  // Cluster layer styles - monotone black/gray design
-  const clusterLayer: CircleLayer = {
+  // Cluster layer styles - monotone black/gray design (memoized to prevent re-renders)
+  const clusterLayer: CircleLayer = useMemo(() => ({
     id: 'clusters',
     type: 'circle',
     source: 'trash-points',
@@ -77,25 +77,27 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
       'circle-stroke-width': 2,
       'circle-stroke-color': '#fff',
     },
-  };
+  }), []);
 
-  const clusterCountLayer: SymbolLayer = {
+  const clusterCountLayer: SymbolLayer = useMemo(() => ({
     id: 'cluster-count',
     type: 'symbol',
     source: 'trash-points',
     filter: ['has', 'point_count'],
     layout: {
-      'text-field': '{point_count_abbreviated}',
-      'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
+      'text-field': ['get', 'point_count_abbreviated'],
       'text-size': 14,
+      'text-allow-overlap': true,
     },
     paint: {
       'text-color': '#ffffff',
+      'text-halo-color': '#000000',
+      'text-halo-width': 1,
     },
-  };
+  }), []);
 
-  // Color-code unclustered points by time status
-  const unclusteredPointLayer: CircleLayer = {
+  // Color-code unclustered points by time status (memoized to prevent re-renders)
+  const unclusteredPointLayer: CircleLayer = useMemo(() => ({
     id: 'unclustered-point',
     type: 'circle',
     source: 'trash-points',
@@ -118,7 +120,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
       'circle-stroke-width': 2,
       'circle-stroke-color': '#fff',
     },
-  };
+  }), []);
 
   const [cursor, setCursor] = useState<string>('auto');
 
@@ -158,24 +160,40 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
   // Map style based on style type and dark mode
   const getMapStyle = () => {
     if (mapStyleType === 'satellite') {
-      // Using a custom style that loads satellite imagery
+      // Using satellite imagery with labels overlay for better navigation
       return {
         version: 8,
+        glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
         sources: {
-          'raster-tiles': {
+          'satellite-tiles': {
             type: 'raster',
             tiles: [
               'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
             ],
             tileSize: 256,
             attribution: '&copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+          },
+          'labels-tiles': {
+            type: 'raster',
+            tiles: [
+              'https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}'
+            ],
+            tileSize: 256,
+            attribution: '&copy; Esri'
           }
         },
         layers: [
           {
-            id: 'simple-tiles',
+            id: 'satellite-layer',
             type: 'raster',
-            source: 'raster-tiles',
+            source: 'satellite-tiles',
+            minzoom: 0,
+            maxzoom: 22
+          },
+          {
+            id: 'labels-layer',
+            type: 'raster',
+            source: 'labels-tiles',
             minzoom: 0,
             maxzoom: 22
           }
