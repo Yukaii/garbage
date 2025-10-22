@@ -1,7 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Sun, Moon } from 'lucide-react';
 import Map from './Map';
-import { fetchTrashCollectionPoints } from './api';
+import TimeFilter, { type TimeFilterMode } from './TimeFilter';
+import {
+  fetchTrashCollectionPoints,
+  getCurrentTimeInMinutes,
+  getTimeStatus,
+  isWithinTimeWindow
+} from './api';
 import type { TrashCollectionPoint } from './types';
 import './App.css';
 
@@ -11,6 +17,8 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredPoints, setFilteredPoints] = useState<TrashCollectionPoint[]>([]);
+  const [timeFilterMode, setTimeFilterMode] = useState<TimeFilterMode>('all');
+  const [currentTimeMinutes, setCurrentTimeMinutes] = useState(getCurrentTimeInMinutes());
   const [darkMode, setDarkMode] = useState(() => {
     // Check if user has a saved preference
     const saved = localStorage.getItem('darkMode');
@@ -24,6 +32,15 @@ function App() {
     localStorage.setItem('darkMode', darkMode.toString());
     document.documentElement.classList.toggle('dark', darkMode);
   }, [darkMode]);
+
+  useEffect(() => {
+    // Update current time every minute
+    const interval = setInterval(() => {
+      setCurrentTimeMinutes(getCurrentTimeInMinutes());
+    }, 60000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   useEffect(() => {
     async function loadData() {
@@ -44,22 +61,54 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (!searchTerm) {
-      setFilteredPoints(points);
-      return;
-    }
+    let filtered = points;
 
-    const filtered = points.filter((point) => {
+    // Apply text search filter
+    if (searchTerm) {
       const search = searchTerm.toLowerCase();
-      return (
+      filtered = filtered.filter((point) =>
         point.行政區.toLowerCase().includes(search) ||
         point.里別.toLowerCase().includes(search) ||
         point.地點.toLowerCase().includes(search) ||
         point.路線.toLowerCase().includes(search)
       );
-    });
+    }
+
+    // Apply time-based filter
+    if (timeFilterMode !== 'all') {
+      const windowMap: Record<TimeFilterMode, number> = {
+        'all': Infinity,
+        'now': 0,
+        '30min': 30,
+        '1hour': 60,
+        '3hours': 180,
+      };
+
+      if (timeFilterMode === 'now') {
+        // Show only active trucks
+        filtered = filtered.filter((point) =>
+          getTimeStatus(point.抵達時間, point.離開時間, currentTimeMinutes) === 'active'
+        );
+      } else {
+        // Show trucks within time window
+        const windowMinutes = windowMap[timeFilterMode];
+        filtered = filtered.filter((point) =>
+          isWithinTimeWindow(point.抵達時間, point.離開時間, currentTimeMinutes, windowMinutes)
+        );
+      }
+    }
+
     setFilteredPoints(filtered);
-  }, [searchTerm, points]);
+  }, [searchTerm, points, timeFilterMode, currentTimeMinutes]);
+
+  // Calculate active and upcoming counts for TimeFilter
+  const activeCount = points.filter((point) =>
+    getTimeStatus(point.抵達時間, point.離開時間, currentTimeMinutes) === 'active'
+  ).length;
+
+  const upcomingCount = points.filter((point) =>
+    getTimeStatus(point.抵達時間, point.離開時間, currentTimeMinutes) === 'upcoming'
+  ).length;
 
   return (
     <div className="flex flex-col h-screen w-full overflow-hidden">
@@ -81,7 +130,7 @@ function App() {
             {darkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
           </button>
         </div>
-        <div className="relative mb-2 max-w-2xl">
+        <div className="relative mb-3 max-w-2xl">
           <input
             type="text"
             placeholder="搜尋行政區、里別、地點或路線..."
@@ -98,6 +147,14 @@ function App() {
               ✕
             </button>
           )}
+        </div>
+        <div className="mb-3 max-w-4xl">
+          <TimeFilter
+            selectedMode={timeFilterMode}
+            onModeChange={setTimeFilterMode}
+            activeCount={activeCount}
+            upcomingCount={upcomingCount}
+          />
         </div>
         <div className="flex gap-2 flex-wrap text-xs">
           <span className="px-2 py-1 bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 rounded">

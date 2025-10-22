@@ -3,7 +3,13 @@ import Map, { Source, Layer, Popup, NavigationControl } from 'react-map-gl/mapli
 import type { MapRef } from 'react-map-gl';
 import type { CircleLayer, SymbolLayer } from 'maplibre-gl';
 import type { TrashCollectionPoint } from './types';
-import { formatTime } from './api';
+import {
+  formatTime,
+  getCurrentTimeInMinutes,
+  getTimeStatus,
+  getTimeDifferenceInMinutes,
+  formatTimeDifference,
+} from './api';
 import { Layers, Locate } from 'lucide-react';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
@@ -19,29 +25,43 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
   const [popupInfo, setPopupInfo] = useState<TrashCollectionPoint | null>(null);
   const [mapStyleType, setMapStyleType] = useState<MapStyleType>('street');
   const [isLocating, setIsLocating] = useState(false);
+  const [currentTimeMinutes, setCurrentTimeMinutes] = useState(getCurrentTimeInMinutes());
 
-  // Convert points to GeoJSON
+  useEffect(() => {
+    // Update current time every minute for popup countdowns
+    const interval = setInterval(() => {
+      setCurrentTimeMinutes(getCurrentTimeInMinutes());
+    }, 60000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  // Convert points to GeoJSON with time status
   const geojson = {
     type: 'FeatureCollection',
-    features: points.map((point) => ({
-      type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [parseFloat(point.經度), parseFloat(point.緯度)],
-      },
-      properties: {
-        id: point._id,
-        district: point.行政區,
-        village: point.里別,
-        location: point.地點,
-        route: point.路線,
-        trip: point.車次,
-        vehicleNumber: point.車號,
-        arrivalTime: point.抵達時間,
-        departureTime: point.離開時間,
-        squad: point.分隊,
-      },
-    })),
+    features: points.map((point) => {
+      const timeStatus = getTimeStatus(point.抵達時間, point.離開時間, currentTimeMinutes);
+      return {
+        type: 'Feature',
+        geometry: {
+          type: 'Point',
+          coordinates: [parseFloat(point.經度), parseFloat(point.緯度)],
+        },
+        properties: {
+          id: point._id,
+          district: point.行政區,
+          village: point.里別,
+          location: point.地點,
+          route: point.路線,
+          trip: point.車次,
+          vehicleNumber: point.車號,
+          arrivalTime: point.抵達時間,
+          departureTime: point.離開時間,
+          squad: point.分隊,
+          timeStatus: timeStatus,
+        },
+      };
+    }),
   };
 
   // Cluster layer styles - monotone black/gray design
@@ -73,14 +93,27 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
     },
   };
 
+  // Color-code unclustered points by time status
   const unclusteredPointLayer: CircleLayer = {
     id: 'unclustered-point',
     type: 'circle',
     source: 'trash-points',
     filter: ['!', ['has', 'point_count']],
     paint: {
-      'circle-color': '#1a1a1a',
-      'circle-radius': 8,
+      'circle-color': [
+        'match',
+        ['get', 'timeStatus'],
+        'active', '#22c55e',    // Green for active
+        'upcoming', '#eab308',  // Yellow for upcoming
+        'past', '#a3a3a3',      // Gray for past
+        '#1a1a1a'               // Default black
+      ],
+      'circle-radius': [
+        'match',
+        ['get', 'timeStatus'],
+        'active', 10,           // Larger for active
+        8                       // Normal size for others
+      ],
       'circle-stroke-width': 2,
       'circle-stroke-color': '#fff',
     },
@@ -219,53 +252,82 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
         <Layer {...unclusteredPointLayer} />
       </Source>
 
-      {popupInfo && (
-        <Popup
-          longitude={parseFloat(popupInfo.經度)}
-          latitude={parseFloat(popupInfo.緯度)}
-          anchor="bottom"
-          onClose={() => setPopupInfo(null)}
-          closeButton={true}
-          closeOnClick={false}
-        >
-          <div style={{ minWidth: '200px', padding: '12px' }}>
-            <h3 style={{
-              margin: '0 0 8px 0',
-              fontSize: '14px',
-              fontWeight: '600',
-              color: darkMode ? '#ffffff' : '#000000',
-              borderBottom: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
-              paddingBottom: '6px'
-            }}>
-              {popupInfo.行政區} - {popupInfo.里別}
-            </h3>
-            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-              <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>地點:</strong> {popupInfo.地點}
-            </p>
-            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-              <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>路線:</strong> {popupInfo.路線} ({popupInfo.車次})
-            </p>
-            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-              <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>車號:</strong> {popupInfo.車號}
-            </p>
-            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-              <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>到達:</strong> {formatTime(popupInfo.抵達時間)}
-            </p>
-            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-              <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>離開:</strong> {formatTime(popupInfo.離開時間)}
-            </p>
-            <p style={{
-              margin: '8px 0 0 0',
-              fontSize: '11px',
-              color: darkMode ? '#a3a3a3' : '#737373',
-              borderTop: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
-              paddingTop: '6px'
-            }}>
-              {popupInfo.分隊}
-            </p>
-          </div>
-        </Popup>
-      )}
+      {popupInfo && (() => {
+        const timeStatus = getTimeStatus(popupInfo.抵達時間, popupInfo.離開時間, currentTimeMinutes);
+        const timeDiff = getTimeDifferenceInMinutes(popupInfo.抵達時間, currentTimeMinutes);
+        const statusColor = timeStatus === 'active' ? '#22c55e' : timeStatus === 'upcoming' ? '#eab308' : '#a3a3a3';
+        const statusText = timeStatus === 'active' ? '營運中' : timeStatus === 'upcoming' ? '即將抵達' : '已結束';
+
+        return (
+          <Popup
+            longitude={parseFloat(popupInfo.經度)}
+            latitude={parseFloat(popupInfo.緯度)}
+            anchor="bottom"
+            onClose={() => setPopupInfo(null)}
+            closeButton={true}
+            closeOnClick={false}
+          >
+            <div style={{ minWidth: '220px', padding: '12px' }}>
+              <div style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                marginBottom: '8px',
+                borderBottom: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
+                paddingBottom: '6px'
+              }}>
+                <h3 style={{
+                  margin: '0',
+                  fontSize: '14px',
+                  fontWeight: '600',
+                  color: darkMode ? '#ffffff' : '#000000',
+                }}>
+                  {popupInfo.行政區} - {popupInfo.里別}
+                </h3>
+                <span style={{
+                  fontSize: '10px',
+                  fontWeight: '600',
+                  color: statusColor,
+                  backgroundColor: `${statusColor}20`,
+                  padding: '2px 6px',
+                  borderRadius: '4px',
+                }}>
+                  {statusText}
+                </span>
+              </div>
+              <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>地點:</strong> {popupInfo.地點}
+              </p>
+              <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>路線:</strong> {popupInfo.路線} ({popupInfo.車次})
+              </p>
+              <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>車號:</strong> {popupInfo.車號}
+              </p>
+              <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>到達:</strong> {formatTime(popupInfo.抵達時間)}
+                {timeStatus === 'upcoming' && (
+                  <span style={{ marginLeft: '6px', fontSize: '11px', color: statusColor, fontWeight: '500' }}>
+                    ({formatTimeDifference(timeDiff)})
+                  </span>
+                )}
+              </p>
+              <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>離開:</strong> {formatTime(popupInfo.離開時間)}
+              </p>
+              <p style={{
+                margin: '8px 0 0 0',
+                fontSize: '11px',
+                color: darkMode ? '#a3a3a3' : '#737373',
+                borderTop: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
+                paddingTop: '6px'
+              }}>
+                {popupInfo.分隊}
+              </p>
+            </div>
+          </Popup>
+        );
+      })()}
 
       <NavigationControl position="top-right" />
     </Map>
