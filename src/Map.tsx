@@ -245,7 +245,8 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
         mapRef.current?.flyTo({
           center: [longitude, latitude],
           zoom: 16,
-          duration: 1000,
+          duration: 800,
+          essential: true,
         });
         setIsLocating(false);
       },
