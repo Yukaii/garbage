@@ -166,7 +166,7 @@ function App() {
               垃圾車地圖
             </h1>
             <p className="hidden whitespace-nowrap text-sm text-neutral-600 dark:text-neutral-400 md:inline">
-              {selectedCity === 'taipei' ? '台北市' : '新北市'} 即時收集點
+              {selectedCity === 'taipei' ? '台北市' : '新北市'} 收集點
             </p>
           </div>
           {renderSearchField('hidden md:flex md:min-w-[220px] md:flex-1 md:max-w-md lg:max-w-lg')}
@@ -240,7 +240,7 @@ function App() {
             </span>
           )}
           <span className="hidden rounded border border-neutral-200 bg-neutral-100 px-2 py-1 dark:border-neutral-800 dark:bg-neutral-900 md:inline">
-            即時 {activeCount} 班、即將到站 {upcomingCount} 班
+            運行中 {activeCount} 班、即將到站 {upcomingCount} 班
           </span>
         </div>
       </header>

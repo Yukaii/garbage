@@ -75,10 +75,10 @@ export default function AboutModal({
               關於此服務
             </div>
             <h2 id="about-modal-title" className="mt-2 text-xl font-semibold text-neutral-900 dark:text-white">
-              台北市垃圾車即時地圖
+              台北市垃圾車地圖
             </h2>
             <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
-              即時查詢台北市與新北市垃圾車、資源回收車路線與停靠時間，協助居民掌握最佳倒垃圾時機。
+              查詢台北市與新北市垃圾車、資源回收車路線與停靠時間，協助居民掌握最佳倒垃圾時機。
             </p>
           </div>
           <button
@@ -96,7 +96,7 @@ export default function AboutModal({
               收錄 {totalPoints.toLocaleString()} 個收集點
             </span>
             <span className="rounded-full border border-neutral-200 bg-neutral-50 px-3 py-1 dark:border-neutral-700 dark:bg-neutral-900/60">
-              即時運行 {activeCount.toLocaleString()} 班
+              運行中 {activeCount.toLocaleString()} 班
             </span>
             <span className="rounded-full border border-neutral-200 bg-neutral-50 px-3 py-1 dark:border-neutral-700 dark:bg-neutral-900/60">
               即將到站 {upcomingCount.toLocaleString()} 班
@@ -150,7 +150,7 @@ export default function AboutModal({
           <section>
             <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">資料來源與更新</h3>
             <p className="mt-2 text-sm md:text-base">
-              平台依據雙北政府開放資料建立，透過 GitHub Actions 每月自動抓取、整理並部署最新版本。若有重大變更，可手動觸發更新流程以確保資料即時性。
+              平台依據雙北政府開放資料建立，透過 GitHub Actions 每月自動抓取、整理並部署最新版本。若有重大變更，可手動觸發更新流程以確保資料為最新狀態。
             </p>
             <ul className="mt-3 space-y-2 text-sm md:text-base">
               <li>
@@ -184,7 +184,7 @@ export default function AboutModal({
                   資料多久更新一次？
                 </summary>
                 <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
-                  系統會在每月政府資料更新後自動重新抓取、處理並部署。若有特殊情況，可在 GitHub 觸發手動更新以即時掌握最新資訊。
+                  系統會在每月政府資料更新後自動重新抓取、處理並部署。若有特殊情況，可在 GitHub 觸發手動更新以掌握最新資訊。
                 </p>
               </details>
               <details className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
