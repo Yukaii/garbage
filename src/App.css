@@ -12,6 +12,21 @@
   animation: spin 1s linear infinite;
 }
 
+@keyframes radio-wave {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+.radio-wave {
+  animation: radio-wave 2s ease-out infinite;
+}
+
 /* MapLibre popup customization */
 .maplibregl-popup-content {
   border-radius: 0.375rem;
@@ -27,9 +42,11 @@
 
 .maplibregl-popup-close-button {
   font-size: 18px;
-  padding: 6px 10px;
+  padding: 4px 8px;
   color: rgb(115 115 115);
   transition: color 0.2s;
+  right: 4px;
+  top: 4px;
 }
 
 :is(.dark .maplibregl-popup-close-button) {

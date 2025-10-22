@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import Map, { Source, Layer, Popup, NavigationControl } from 'react-map-gl/maplibre';
+import Map, { Source, Layer, Popup, NavigationControl, Marker } from 'react-map-gl/maplibre';
 import type { MapRef } from 'react-map-gl';
 import type { CircleLayer, SymbolLayer } from 'maplibre-gl';
 import type { TrashCollectionPoint } from './types';
@@ -10,7 +10,7 @@ import {
   getTimeDifferenceInMinutes,
   formatTimeDifference,
 } from './api';
-import { Layers, Locate } from 'lucide-react';
+import { Layers, Locate, Navigation } from 'lucide-react';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 interface MapComponentProps {
@@ -25,6 +25,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
   const [popupInfo, setPopupInfo] = useState<TrashCollectionPoint | null>(null);
   const [mapStyleType, setMapStyleType] = useState<MapStyleType>('street');
   const [isLocating, setIsLocating] = useState(false);
+  const [userLocation, setUserLocation] = useState<{ lng: number; lat: number } | null>(null);
   const [currentTimeMinutes, setCurrentTimeMinutes] = useState(getCurrentTimeInMinutes());
 
   useEffect(() => {
@@ -197,6 +198,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         const { latitude, longitude } = position.coords;
+        setUserLocation({ lng: longitude, lat: latitude });
         mapRef.current?.flyTo({
           center: [longitude, latitude],
           zoom: 15,
@@ -257,6 +259,7 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
         const timeDiff = getTimeDifferenceInMinutes(popupInfo.抵達時間, currentTimeMinutes);
         const statusColor = timeStatus === 'active' ? '#22c55e' : timeStatus === 'upcoming' ? '#eab308' : '#a3a3a3';
         const statusText = timeStatus === 'active' ? '營運中' : timeStatus === 'upcoming' ? '即將抵達' : '已結束';
+        const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${popupInfo.緯度},${popupInfo.經度}`;
 
         return (
           <Popup
@@ -267,20 +270,23 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
             closeButton={true}
             closeOnClick={false}
           >
-            <div style={{ minWidth: '220px', padding: '12px' }}>
+            <div style={{ minWidth: '220px', padding: '12px', paddingTop: '8px' }}>
               <div style={{
                 display: 'flex',
                 justifyContent: 'space-between',
-                alignItems: 'center',
+                alignItems: 'flex-start',
+                gap: '8px',
                 marginBottom: '8px',
                 borderBottom: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
-                paddingBottom: '6px'
+                paddingBottom: '6px',
+                paddingRight: '4px'
               }}>
                 <h3 style={{
                   margin: '0',
                   fontSize: '14px',
                   fontWeight: '600',
                   color: darkMode ? '#ffffff' : '#000000',
+                  flex: 1,
                 }}>
                   {popupInfo.行政區} - {popupInfo.里別}
                 </h3>
@@ -289,8 +295,10 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
                   fontWeight: '600',
                   color: statusColor,
                   backgroundColor: `${statusColor}20`,
-                  padding: '2px 6px',
+                  padding: '3px 6px',
                   borderRadius: '4px',
+                  whiteSpace: 'nowrap',
+                  flexShrink: 0,
                 }}>
                   {statusText}
                 </span>
@@ -320,14 +328,96 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
                 fontSize: '11px',
                 color: darkMode ? '#a3a3a3' : '#737373',
                 borderTop: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
-                paddingTop: '6px'
+                paddingTop: '6px',
+                paddingBottom: '6px'
               }}>
                 {popupInfo.分隊}
               </p>
+              <a
+                href={googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '6px',
+                  width: '100%',
+                  padding: '8px',
+                  backgroundColor: darkMode ? '#1a1a1a' : '#f5f5f5',
+                  color: darkMode ? '#ffffff' : '#000000',
+                  border: `1px solid ${darkMode ? '#404040' : '#d4d4d4'}`,
+                  borderRadius: '6px',
+                  fontSize: '12px',
+                  fontWeight: '500',
+                  textDecoration: 'none',
+                  transition: 'all 0.2s',
+                  cursor: 'pointer',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = darkMode ? '#fff' : '#000';
+                  e.currentTarget.style.backgroundColor = darkMode ? '#262626' : '#e5e5e5';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = darkMode ? '#404040' : '#d4d4d4';
+                  e.currentTarget.style.backgroundColor = darkMode ? '#1a1a1a' : '#f5f5f5';
+                }}
+              >
+                <Navigation size={14} />
+                <span>導航至此地點</span>
+              </a>
             </div>
           </Popup>
         );
       })()}
+
+      {/* User Location Marker */}
+      {userLocation && (
+        <Marker
+          longitude={userLocation.lng}
+          latitude={userLocation.lat}
+          anchor="center"
+        >
+          <div style={{
+            position: 'relative',
+            width: '40px',
+            height: '40px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}>
+            {/* Radio wave animations */}
+            <div className="radio-wave" style={{
+              position: 'absolute',
+              width: '20px',
+              height: '20px',
+              borderRadius: '50%',
+              backgroundColor: '#3b82f6',
+              opacity: 0.6,
+            }} />
+            <div className="radio-wave" style={{
+              position: 'absolute',
+              width: '20px',
+              height: '20px',
+              borderRadius: '50%',
+              backgroundColor: '#3b82f6',
+              opacity: 0.6,
+              animationDelay: '1s',
+            }} />
+            {/* Center dot */}
+            <div style={{
+              position: 'relative',
+              width: '12px',
+              height: '12px',
+              borderRadius: '50%',
+              backgroundColor: '#3b82f6',
+              border: '2px solid white',
+              boxShadow: '0 0 8px rgba(59, 130, 246, 0.8)',
+              zIndex: 1,
+            }} />
+          </div>
+        </Marker>
+      )}
 
       <NavigationControl position="top-right" />
     </Map>
