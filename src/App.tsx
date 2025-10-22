@@ -10,6 +10,19 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredPoints, setFilteredPoints] = useState<TrashCollectionPoint[]>([]);
+  const [darkMode, setDarkMode] = useState(() => {
+    // Check if user has a saved preference
+    const saved = localStorage.getItem('darkMode');
+    if (saved !== null) return saved === 'true';
+    // Otherwise check system preference
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  });
+
+  useEffect(() => {
+    // Save dark mode preference and update document class
+    localStorage.setItem('darkMode', darkMode.toString());
+    document.documentElement.classList.toggle('dark', darkMode);
+  }, [darkMode]);
 
   useEffect(() => {
     async function loadData() {
@@ -51,8 +64,17 @@ function App() {
     <div className="app">
       <header className="header">
         <div className="header-content">
-          <h1 className="title">台北市垃圾車即時地圖</h1>
-          <p className="subtitle">Taipei Trash Collection Map</p>
+          <div>
+            <h1 className="title">台北市垃圾車即時地圖</h1>
+            <p className="subtitle">Taipei Trash Collection Map</p>
+          </div>
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            {darkMode ? '☀️' : '🌙'}
+          </button>
         </div>
         <div className="search-container">
           <input
@@ -96,7 +118,7 @@ function App() {
             <p>{error}</p>
           </div>
         )}
-        {!loading && !error && <Map points={filteredPoints} />}
+        {!loading && !error && <Map points={filteredPoints} darkMode={darkMode} />}
       </main>
     </div>
   );

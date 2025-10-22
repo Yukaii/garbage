@@ -8,9 +8,10 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 
 interface MapComponentProps {
   points: TrashCollectionPoint[];
+  darkMode: boolean;
 }
 
-export default function MapComponent({ points }: MapComponentProps) {
+export default function MapComponent({ points, darkMode }: MapComponentProps) {
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<TrashCollectionPoint | null>(null);
 
@@ -38,14 +39,14 @@ export default function MapComponent({ points }: MapComponentProps) {
     })),
   };
 
-  // Cluster layer styles
+  // Cluster layer styles - monotone black/gray design
   const clusterLayer: CircleLayer = {
     id: 'clusters',
     type: 'circle',
     source: 'trash-points',
     filter: ['has', 'point_count'],
     paint: {
-      'circle-color': ['step', ['get', 'point_count'], '#667eea', 10, '#764ba2', 30, '#5a3d7d'],
+      'circle-color': ['step', ['get', 'point_count'], '#4a4a4a', 10, '#333333', 30, '#1a1a1a'],
       'circle-radius': ['step', ['get', 'point_count'], 20, 10, 30, 30, 40],
       'circle-stroke-width': 2,
       'circle-stroke-color': '#fff',
@@ -73,7 +74,7 @@ export default function MapComponent({ points }: MapComponentProps) {
     source: 'trash-points',
     filter: ['!', ['has', 'point_count']],
     paint: {
-      'circle-color': '#10b981',
+      'circle-color': '#1a1a1a',
       'circle-radius': 8,
       'circle-stroke-width': 2,
       'circle-stroke-color': '#fff',
@@ -115,6 +116,10 @@ export default function MapComponent({ points }: MapComponentProps) {
     }
   };
 
+  const mapStyle = darkMode
+    ? 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json'
+    : 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
+
   return (
     <Map
       ref={mapRef}
@@ -124,7 +129,7 @@ export default function MapComponent({ points }: MapComponentProps) {
         zoom: 11,
       }}
       style={{ width: '100%', height: '100%' }}
-      mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
+      mapStyle={mapStyle}
       interactiveLayerIds={['clusters', 'unclustered-point']}
       onClick={handleMapClick}
       onMouseEnter={onMouseEnter}
@@ -153,26 +158,39 @@ export default function MapComponent({ points }: MapComponentProps) {
           closeButton={true}
           closeOnClick={false}
         >
-          <div style={{ minWidth: '200px', padding: '8px' }}>
-            <h3 style={{ margin: '0 0 10px 0', fontSize: '14px', fontWeight: 'bold' }}>
+          <div style={{ minWidth: '200px', padding: '12px' }}>
+            <h3 style={{
+              margin: '0 0 8px 0',
+              fontSize: '14px',
+              fontWeight: '600',
+              color: darkMode ? '#ffffff' : '#1a1a1a',
+              borderBottom: `1px solid ${darkMode ? '#444444' : '#e5e5e5'}`,
+              paddingBottom: '6px'
+            }}>
               {popupInfo.行政區} - {popupInfo.里別}
             </h3>
-            <p style={{ margin: '4px 0', fontSize: '12px' }}>
-              <strong>地點:</strong> {popupInfo.地點}
+            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#cccccc' : '#333333' }}>
+              <strong style={{ color: darkMode ? '#ffffff' : '#1a1a1a' }}>地點:</strong> {popupInfo.地點}
             </p>
-            <p style={{ margin: '4px 0', fontSize: '12px' }}>
-              <strong>路線:</strong> {popupInfo.路線} ({popupInfo.車次})
+            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#cccccc' : '#333333' }}>
+              <strong style={{ color: darkMode ? '#ffffff' : '#1a1a1a' }}>路線:</strong> {popupInfo.路線} ({popupInfo.車次})
             </p>
-            <p style={{ margin: '4px 0', fontSize: '12px' }}>
-              <strong>車號:</strong> {popupInfo.車號}
+            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#cccccc' : '#333333' }}>
+              <strong style={{ color: darkMode ? '#ffffff' : '#1a1a1a' }}>車號:</strong> {popupInfo.車號}
             </p>
-            <p style={{ margin: '4px 0', fontSize: '12px', color: '#059669' }}>
-              <strong>到達:</strong> {formatTime(popupInfo.抵達時間)}
+            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#cccccc' : '#333333' }}>
+              <strong style={{ color: darkMode ? '#ffffff' : '#1a1a1a' }}>到達:</strong> {formatTime(popupInfo.抵達時間)}
             </p>
-            <p style={{ margin: '4px 0', fontSize: '12px', color: '#dc2626' }}>
-              <strong>離開:</strong> {formatTime(popupInfo.離開時間)}
+            <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#cccccc' : '#333333' }}>
+              <strong style={{ color: darkMode ? '#ffffff' : '#1a1a1a' }}>離開:</strong> {formatTime(popupInfo.離開時間)}
             </p>
-            <p style={{ margin: '4px 0', fontSize: '11px', color: '#6b7280' }}>
+            <p style={{
+              margin: '8px 0 0 0',
+              fontSize: '11px',
+              color: darkMode ? '#aaaaaa' : '#666666',
+              borderTop: `1px solid ${darkMode ? '#444444' : '#e5e5e5'}`,
+              paddingTop: '6px'
+            }}>
               {popupInfo.分隊}
             </p>
           </div>
