@@ -18,7 +18,7 @@ jobs:
 
       - name: Fetch latest data from Taipei City API
         run: |
-          echo "Fetching trash collection data..."
+          echo "Fetching Taipei City trash collection data..."
 
           # Fetch data in batches (API limit is 1000 per request)
           curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=0" > temp1.json
@@ -36,18 +36,59 @@ jobs:
           # Display stats
           RECORD_COUNT=$(jq '.result.results | length' trash-collection-points.json)
           FILE_SIZE=$(du -h trash-collection-points.json | cut -f1)
-          echo "Fetched $RECORD_COUNT records"
+          echo "Fetched $RECORD_COUNT Taipei City records"
           echo "File size: $FILE_SIZE"
+
+      - name: Fetch latest data from New Taipei City API
+        run: |
+          echo "Fetching New Taipei City trash collection data..."
+
+          # Fetch data in pages (API returns paginated data with page size 10000)
+          # Page 0: 10,000 entries
+          # Page 1: 10,000 entries
+          # Page 2: 6,822 entries
+          # Total: 26,822 entries across 29 districts
+          curl -s "https://data.ntpc.gov.tw/api/datasets/edc3ad26-8ae7-4916-a00b-bc6048d19bf8/json?page=0&size=10000" > ntpc-page0.json
+          curl -s "https://data.ntpc.gov.tw/api/datasets/edc3ad26-8ae7-4916-a00b-bc6048d19bf8/json?page=1&size=10000" > ntpc-page1.json
+          curl -s "https://data.ntpc.gov.tw/api/datasets/edc3ad26-8ae7-4916-a00b-bc6048d19bf8/json?page=2&size=10000" > ntpc-page2.json
+
+          # Merge all pages into a single JSON array
+          jq -s 'add' ntpc-page0.json ntpc-page1.json ntpc-page2.json > new-taipei-trash-collection-points.json
+
+          # Clean up temporary files
+          rm ntpc-page*.json
+
+          # Display stats
+          NTPC_RECORD_COUNT=$(jq 'length' new-taipei-trash-collection-points.json)
+          NTPC_FILE_SIZE=$(du -h new-taipei-trash-collection-points.json | cut -f1)
+          NTPC_DISTRICTS=$(jq '[.[].city] | unique | length' new-taipei-trash-collection-points.json)
+          echo "Fetched $NTPC_RECORD_COUNT New Taipei City records"
+          echo "Covering $NTPC_DISTRICTS districts"
+          echo "File size: $NTPC_FILE_SIZE"
 
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet trash-collection-points.json; then
+          TAIPEI_CHANGED=false
+          NTPC_CHANGED=false
+
+          if ! git diff --quiet trash-collection-points.json; then
+            TAIPEI_CHANGED=true
+            echo "Changes detected in Taipei City data"
+          fi
+
+          if ! git diff --quiet new-taipei-trash-collection-points.json; then
+            NTPC_CHANGED=true
+            echo "Changes detected in New Taipei City data"
+          fi
+
+          if [ "$TAIPEI_CHANGED" = true ] || [ "$NTPC_CHANGED" = true ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "taipei_changed=$TAIPEI_CHANGED" >> $GITHUB_OUTPUT
+            echo "ntpc_changed=$NTPC_CHANGED" >> $GITHUB_OUTPUT
+          else
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No changes detected"
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-            echo "Changes detected"
           fi
 
       - name: Commit and push if changed
@@ -56,15 +97,32 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          RECORD_COUNT=$(jq '.result.results | length' trash-collection-points.json)
-          IMPORT_DATE=$(jq -r '.result.results[0]._importdate.date' trash-collection-points.json)
+          TAIPEI_RECORD_COUNT=$(jq '.result.results | length' trash-collection-points.json)
+          TAIPEI_IMPORT_DATE=$(jq -r '.result.results[0]._importdate.date' trash-collection-points.json)
+          NTPC_RECORD_COUNT=$(jq 'length' new-taipei-trash-collection-points.json)
+          NTPC_DISTRICTS=$(jq '[.[].city] | unique | length' new-taipei-trash-collection-points.json)
 
-          git add trash-collection-points.json
-          git commit -m "Monthly data update: $(date +'%Y-%m-%d')" \
+          # Build commit message
+          COMMIT_MSG="Monthly data update: $(date +'%Y-%m-%d')"
+          COMMIT_BODY=""
+
+          if [ "${{ steps.check_changes.outputs.taipei_changed }}" = "true" ]; then
+            COMMIT_BODY="${COMMIT_BODY}
+- Updated Taipei City data: $TAIPEI_RECORD_COUNT records
+- Data import date: $TAIPEI_IMPORT_DATE"
+            git add trash-collection-points.json
+          fi
+
+          if [ "${{ steps.check_changes.outputs.ntpc_changed }}" = "true" ]; then
+            COMMIT_BODY="${COMMIT_BODY}
+- Updated New Taipei City data: $NTPC_RECORD_COUNT records across $NTPC_DISTRICTS districts"
+            git add new-taipei-trash-collection-points.json
+          fi
+
+          git commit -m "$COMMIT_MSG" \
             -m "" \
-            -m "- Updated trash collection points data" \
-            -m "- Total records: $RECORD_COUNT" \
-            -m "- Data import date: $IMPORT_DATE" \
+            -m "$COMMIT_BODY" \
+            -m "" \
             -m "- Automated update via GitHub Actions" \
             -m "" \
             -m "🤖 Automated update"
