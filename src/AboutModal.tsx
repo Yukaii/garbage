@@ -197,6 +197,34 @@ export default function AboutModal({
               </details>
             </div>
           </section>
+
+          <section>
+            <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">作者與貢獻者</h3>
+            <div className="mt-3 space-y-2 text-sm md:text-base">
+              <div>
+                <span className="font-semibold text-neutral-900 dark:text-white">作者：</span>
+                <a
+                  href="https://github.com/Yukaii"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+                >
+                  Yukaii
+                </a>
+              </div>
+              <div>
+                <span className="font-semibold text-neutral-900 dark:text-white">貢獻者：</span>
+                <a
+                  href="https://github.com/pastleo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+                >
+                  PastLeo
+                </a>
+              </div>
+            </div>
+          </section>
         </div>
         <div className="flex flex-wrap items-center justify-between gap-3 border-t border-neutral-200 bg-neutral-50 px-5 py-4 text-xs text-neutral-500 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-400">
           <span>若發現資料異常或有功能建議，歡迎於 GitHub 提交 Issue。</span>
