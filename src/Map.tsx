@@ -16,17 +16,26 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 interface MapComponentProps {
   points: UnifiedTrashCollectionPoint[];
   darkMode: boolean;
+  onMapLoaded?: () => void;
 }
 
 type MapStyleType = 'street' | 'satellite';
 
-export default function MapComponent({ points, darkMode }: MapComponentProps) {
+export default function MapComponent({ points, darkMode, onMapLoaded }: MapComponentProps) {
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<UnifiedTrashCollectionPoint | null>(null);
   const [mapStyleType, setMapStyleType] = useState<MapStyleType>('street');
   const [isLocating, setIsLocating] = useState(false);
   const [userLocation, setUserLocation] = useState<{ lng: number; lat: number } | null>(null);
   const [currentTimeMinutes, setCurrentTimeMinutes] = useState(getCurrentTimeInMinutes());
+  const hasNotifiedMapLoaded = useRef(false);
+  const [currentZoom, setCurrentZoom] = useState(11);
+  const [viewportBounds, setViewportBounds] = useState<{
+    north: number;
+    south: number;
+    east: number;
+    west: number;
+  } | null>(null);
 
   useEffect(() => {
     // Update current time every minute for popup countdowns
@@ -56,11 +65,30 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
           route: point.route,
           arrivalTime: point.arrivalTime,
           departureTime: point.departureTime,
+          arrivalTimeFormatted: formatTime(point.arrivalTime),
+          departureTimeFormatted: formatTime(point.departureTime),
           timeStatus: timeStatus,
         },
       };
     }),
   }), [points, currentTimeMinutes]);
+
+  // Filter points to only those visible in viewport (for label rendering)
+  // Only show labels at zoom level 16+ (very close zoom)
+  const visiblePoints = useMemo(() => {
+    if (!viewportBounds || currentZoom < 16) return [];
+
+    return points.filter((point) => {
+      const lat = parseFloat(point.latitude);
+      const lng = parseFloat(point.longitude);
+      return (
+        lat >= viewportBounds.south &&
+        lat <= viewportBounds.north &&
+        lng >= viewportBounds.west &&
+        lng <= viewportBounds.east
+      );
+    });
+  }, [points, viewportBounds, currentZoom]);
 
   // Cluster layer styles - monotone black/gray design (memoized to prevent re-renders)
   const clusterLayer: CircleLayer = useMemo(() => ({
@@ -239,6 +267,29 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
     setMapStyleType(prev => prev === 'street' ? 'satellite' : 'street');
   };
 
+  const handleMapLoad = () => {
+    if (!hasNotifiedMapLoaded.current && onMapLoaded) {
+      hasNotifiedMapLoaded.current = true;
+      onMapLoaded();
+    }
+  };
+
+  const updateViewport = () => {
+    const map = mapRef.current?.getMap();
+    if (map) {
+      setCurrentZoom(map.getZoom());
+      const bounds = map.getBounds();
+      if (bounds) {
+        setViewportBounds({
+          north: bounds.getNorth(),
+          south: bounds.getSouth(),
+          east: bounds.getEast(),
+          west: bounds.getWest(),
+        });
+      }
+    }
+  };
+
   return (
     <div className='absolute h-full w-full'>
       <Map
@@ -255,6 +306,9 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
         cursor={cursor}
+        onLoad={handleMapLoad}
+        onMove={updateViewport}
+        onZoomEnd={updateViewport}
       >
       <Source
         id="trash-points"
@@ -268,6 +322,48 @@ export default function MapComponent({ points, darkMode }: MapComponentProps) {
         <Layer {...clusterCountLayer} />
         <Layer {...unclusteredPointLayer} />
       </Source>
+
+      {/* Custom label markers for high zoom levels - only render visible points */}
+      {visiblePoints.map((point) => {
+        const timeStatus = getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes);
+        // Use solid, high-contrast colors
+        const bgColor = timeStatus === 'active' ? '#16a34a' : timeStatus === 'upcoming' ? '#ca8a04' : '#525252';
+        const textColor = '#ffffff';
+
+        return (
+          <Marker
+            key={point.id}
+            longitude={parseFloat(point.longitude)}
+            latitude={parseFloat(point.latitude)}
+            anchor="top"
+            offset={[0, 12]}
+          >
+            <div
+              onClick={(e) => {
+                e.stopPropagation();
+                setPopupInfo(point);
+              }}
+              style={{
+                backgroundColor: bgColor,
+                padding: '4px 6px',
+                borderRadius: '4px',
+                border: '1px solid rgba(0, 0, 0, 0.2)',
+                boxShadow: '0 2px 6px rgba(0,0,0,0.4)',
+                cursor: 'pointer',
+                fontSize: '11px',
+                lineHeight: '1.2',
+                fontWeight: '700',
+                textAlign: 'center',
+                whiteSpace: 'nowrap',
+                pointerEvents: 'auto',
+                color: textColor,
+              }}
+            >
+              {formatTime(point.arrivalTime)} - {formatTime(point.departureTime)}
+            </div>
+          </Marker>
+        );
+      })}
 
       {popupInfo && (() => {
         const timeStatus = getTimeStatus(popupInfo.arrivalTime, popupInfo.departureTime, currentTimeMinutes);

@@ -15,7 +15,8 @@ import AboutModal from './AboutModal';
 
 function App() {
   const [points, setPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [dataLoaded, setDataLoaded] = useState(false);
+  const [mapLoaded, setMapLoaded] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredPoints, setFilteredPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
@@ -35,6 +36,9 @@ function App() {
   });
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
+
+  // Derived loading state: both data and map must be loaded
+  const loading = !dataLoaded || !mapLoaded;
 
   useEffect(() => {
     // Save dark mode preference and update document class
@@ -59,16 +63,16 @@ function App() {
   useEffect(() => {
     async function loadData() {
       try {
-        setLoading(true);
+        setDataLoaded(false);
+        setMapLoaded(false);
         const data = await fetchTrashCollectionPoints(selectedCity);
         setPoints(data);
         setFilteredPoints(data);
         setError(null);
+        setDataLoaded(true);
       } catch (err) {
         setError('無法載入垃圾車資料，請稍後再試');
         console.error(err);
-      } finally {
-        setLoading(false);
       }
     }
     loadData();
@@ -123,6 +127,10 @@ function App() {
   const upcomingCount = points.filter((point) =>
     getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes) === 'upcoming'
   ).length;
+
+  const handleMapLoaded = () => {
+    setMapLoaded(true);
+  };
 
   const renderSearchField = (wrapperClass: string) => (
     <div className={`relative w-full ${wrapperClass}`}>
@@ -249,7 +257,7 @@ function App() {
               <p className="text-red-600 dark:text-red-400">{error}</p>
             </div>
           )}
-          {!loading && !error && <Map points={filteredPoints} darkMode={darkMode} />}
+          {dataLoaded && !error && <Map points={filteredPoints} darkMode={darkMode} onMapLoaded={handleMapLoaded} />}
         </section>
 
       </main>
