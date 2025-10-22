@@ -12,6 +12,7 @@ import {
 import type { UnifiedTrashCollectionPoint } from './types';
 import './App.css';
 import AboutModal from './AboutModal';
+import AdSense from './AdSense';
 
 function App() {
   const [points, setPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
@@ -261,6 +262,24 @@ function App() {
         </section>
 
       </main>
+
+      {/* Ad Section - Mobile and Desktop */}
+      {import.meta.env.VITE_ADSENSE_CLIENT_ID && import.meta.env.VITE_ADSENSE_SLOT_ID && (
+        <aside className="border-t border-neutral-200 bg-neutral-50 px-4 py-3 dark:border-neutral-800 dark:bg-neutral-950">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-2 text-center text-[10px] text-neutral-500 dark:text-neutral-500">
+              廣告
+            </div>
+            <AdSense
+              client={import.meta.env.VITE_ADSENSE_CLIENT_ID}
+              slot={import.meta.env.VITE_ADSENSE_SLOT_ID}
+              format="auto"
+              responsive={true}
+              className="mx-auto max-w-3xl"
+            />
+          </div>
+        </aside>
+      )}
 
       <footer className="hidden border-t border-neutral-200 bg-neutral-100 px-4 py-3 text-[11px] text-neutral-600 dark:border-neutral-900 dark:bg-neutral-950 dark:text-neutral-400 md:px-6 md:py-4 md:text-xs lg:px-8 md:block">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2">

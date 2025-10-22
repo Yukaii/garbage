@@ -47,6 +47,9 @@ jobs:
         run: ./.github/actions/trim-data.sh
 
       - name: Build
+        env:
+          VITE_ADSENSE_CLIENT_ID: ${{ secrets.VITE_ADSENSE_CLIENT_ID }}
+          VITE_ADSENSE_SLOT_ID: ${{ secrets.VITE_ADSENSE_SLOT_ID }}
         run: bun run build
 
       - name: Setup Pages
