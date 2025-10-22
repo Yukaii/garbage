@@ -23,37 +23,37 @@ body {
 .header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
 
 .header-content {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.125rem;
 }
 
 .subtitle {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   opacity: 0.9;
 }
 
 .search-container {
   position: relative;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .search-input {
   width: 100%;
-  padding: 0.75rem 2.5rem 0.75rem 1rem;
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
   border: none;
-  border-radius: 8px;
-  font-size: 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
   outline: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.2s;
@@ -86,15 +86,15 @@ body {
 
 .stats {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
 
 .stat-item {
   background: rgba(255, 255, 255, 0.2);
-  padding: 0.375rem 0.75rem;
-  border-radius: 6px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
   backdrop-filter: blur(10px);
 }
 
@@ -148,22 +148,22 @@ body {
 /* Tablet and larger screens */
 @media (min-width: 768px) {
   .header {
-    padding: 1.5rem 2rem;
+    padding: 1rem 1.5rem;
   }
 
   .header-content {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .subtitle {
-    font-size: 1rem;
+    font-size: 0.875rem;
     margin-left: 1rem;
   }
 
@@ -172,33 +172,33 @@ body {
   }
 
   .stats {
-    gap: 1.5rem;
+    gap: 0.75rem;
   }
 }
 
 /* Desktop screens */
 @media (min-width: 1024px) {
   .header {
-    padding: 2rem 3rem;
+    padding: 1rem 2rem;
   }
 
   .title {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
   }
 
   .search-input {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 }
 
 /* Mobile landscape optimization */
 @media (max-height: 600px) and (orientation: landscape) {
   .header {
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 0.75rem;
   }
 
   .title {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .subtitle {
@@ -206,21 +206,23 @@ body {
   }
 
   .stats {
-    font-size: 0.75rem;
+    font-size: 0.625rem;
   }
 
   .search-input {
-    padding: 0.5rem 2rem 0.5rem 0.75rem;
+    padding: 0.375rem 1.5rem 0.375rem 0.5rem;
+    font-size: 0.75rem;
   }
 }
 
-/* Leaflet popup customization */
-.leaflet-popup-content-wrapper {
+/* MapLibre popup customization */
+.maplibregl-popup-content {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 0;
 }
 
-.leaflet-popup-content {
-  margin: 12px;
-  line-height: 1.5;
+.maplibregl-popup-close-button {
+  font-size: 20px;
+  padding: 4px 8px;
 }
