@@ -21,6 +21,9 @@ interface MapComponentProps {
 
 type MapStyleType = 'street' | 'satellite';
 
+// Minimum zoom level required to show time labels
+const MIN_LABEL_ZOOM = 17;
+
 export default function MapComponent({ points, darkMode, onMapLoaded }: MapComponentProps) {
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<UnifiedTrashCollectionPoint | null>(null);
@@ -74,9 +77,9 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
   }), [points, currentTimeMinutes]);
 
   // Filter points to only those visible in viewport (for label rendering)
-  // Only show labels at zoom level 16+ (very close zoom)
+  // Only show labels at very close zoom levels
   const visiblePoints = useMemo(() => {
-    if (!viewportBounds || currentZoom < 16) return [];
+    if (!viewportBounds || currentZoom < MIN_LABEL_ZOOM) return [];
 
     return points.filter((point) => {
       const lat = parseFloat(point.latitude);
@@ -244,7 +247,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded }: MapCompo
         setUserLocation({ lng: longitude, lat: latitude });
         mapRef.current?.flyTo({
           center: [longitude, latitude],
-          zoom: 16,
+          zoom: MIN_LABEL_ZOOM,
           duration: 800,
           essential: true,
         });
