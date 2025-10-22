@@ -1,10 +1,14 @@
 import type { ApiResponse, TrashCollectionPoint } from './types';
 
-const API_URL = 'https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202';
+// Fetch from static JSON file in the 'data' orphan branch
+// Data is stored separately and updated monthly via GitHub Actions
+const STATIC_DATA_URL = import.meta.env.DEV
+  ? '/trash-collection-points.json' // Local development
+  : 'https://raw.githubusercontent.com/Yukaii/taipei-trash-collection/data/trash-collection-points.json'; // Production
 
-export async function fetchTrashCollectionPoints(limit = 5000, offset = 0): Promise<TrashCollectionPoint[]> {
+export async function fetchTrashCollectionPoints(): Promise<TrashCollectionPoint[]> {
   try {
-    const response = await fetch(`${API_URL}?scope=resourceAquire&limit=${limit}&offset=${offset}`);
+    const response = await fetch(STATIC_DATA_URL);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }

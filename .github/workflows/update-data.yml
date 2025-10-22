@@ -1,0 +1,77 @@
+name: Update Trash Collection Data
+
+on:
+  schedule:
+    # Run on the 1st day of every month at 2:00 AM UTC (10:00 AM Taipei Time)
+    - cron: '0 2 1 * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data branch
+        uses: actions/checkout@v4
+        with:
+          ref: data
+
+      - name: Fetch latest data from Taipei City API
+        run: |
+          echo "Fetching trash collection data..."
+
+          # Fetch data in batches (API limit is 1000 per request)
+          curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=0" > temp1.json
+          curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=1000" > temp2.json
+          curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=2000" > temp3.json
+          curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=3000" > temp4.json
+          curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=4000" > temp5.json
+
+          # Merge all batches into a single JSON file
+          jq -s '{result: {count: .[0].result.count, limit: (.[0].result.results | length) + (.[1].result.results | length) + (.[2].result.results | length) + (.[3].result.results | length) + (.[4].result.results | length), offset: 0, sort: "", results: (.[0].result.results + .[1].result.results + .[2].result.results + .[3].result.results + .[4].result.results)}}' temp1.json temp2.json temp3.json temp4.json temp5.json > trash-collection-points.json
+
+          # Clean up temporary files
+          rm temp*.json
+
+          # Display stats
+          RECORD_COUNT=$(jq '.result.results | length' trash-collection-points.json)
+          FILE_SIZE=$(du -h trash-collection-points.json | cut -f1)
+          echo "Fetched $RECORD_COUNT records"
+          echo "File size: $FILE_SIZE"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet trash-collection-points.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          RECORD_COUNT=$(jq '.result.results | length' trash-collection-points.json)
+          IMPORT_DATE=$(jq -r '.result.results[0]._importdate.date' trash-collection-points.json)
+
+          git add trash-collection-points.json
+          git commit -m "Monthly data update: $(date +'%Y-%m-%d')
+
+- Updated trash collection points data
+- Total records: $RECORD_COUNT
+- Data import date: $IMPORT_DATE
+- Automated update via GitHub Actions
+
+🤖 Automated update"
+
+          git push origin data
+
+      - name: No changes detected
+        if: steps.check_changes.outputs.changed == 'false'
+        run: |
+          echo "Data is already up to date. No commit needed."

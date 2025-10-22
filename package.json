@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dump-data": "git show data:trash-collection-points.json > public/trash-collection-points.json && echo 'Data dumped to public/trash-collection-points.json'"
   },
   "devDependencies": {
     "@types/bun": "latest",
