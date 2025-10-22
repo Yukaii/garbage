@@ -60,14 +60,14 @@ jobs:
           IMPORT_DATE=$(jq -r '.result.results[0]._importdate.date' trash-collection-points.json)
 
           git add trash-collection-points.json
-          git commit -m "Monthly data update: $(date +'%Y-%m-%d')
-
-- Updated trash collection points data
-- Total records: $RECORD_COUNT
-- Data import date: $IMPORT_DATE
-- Automated update via GitHub Actions
-
-🤖 Automated update"
+          git commit -m "Monthly data update: $(date +'%Y-%m-%d')" \
+            -m "" \
+            -m "- Updated trash collection points data" \
+            -m "- Total records: $RECORD_COUNT" \
+            -m "- Data import date: $IMPORT_DATE" \
+            -m "- Automated update via GitHub Actions" \
+            -m "" \
+            -m "🤖 Automated update"
 
           git push origin data
 
