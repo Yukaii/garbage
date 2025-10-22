@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+  schedule:
+    # Run on the 2nd day of every month at 3:00 AM UTC (11:00 AM Taipei Time)
+    # This runs after the data update workflow to deploy the updated data
+    - cron: '0 3 2 * *'
   workflow_dispatch: # Allow manual trigger
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages

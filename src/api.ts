@@ -1,10 +1,8 @@
 import type { ApiResponse, TrashCollectionPoint } from './types';
 
-// Fetch from static JSON file in the 'data' orphan branch
+// Fetch from static JSON file that is copied from the 'data' branch during build
 // Data is stored separately and updated monthly via GitHub Actions
-const STATIC_DATA_URL = import.meta.env.DEV
-  ? '/trash-collection-points.json' // Local development
-  : 'https://raw.githubusercontent.com/Yukaii/taipei-trash-collection/data/trash-collection-points.json'; // Production
+const STATIC_DATA_URL = '/trash-collection-points.json';
 
 export async function fetchTrashCollectionPoints(): Promise<TrashCollectionPoint[]> {
   try {
