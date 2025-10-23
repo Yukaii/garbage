@@ -14,6 +14,7 @@ import type { UnifiedTrashCollectionPoint } from './types';
 import './App.css';
 import AboutModal from './AboutModal';
 import AdSense from './AdSense';
+import { Logo } from './Logo';
 
 function App() {
   const [points, setPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
@@ -186,6 +187,7 @@ function App() {
       <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 px-4 py-2 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 md:px-6 md:py-3 lg:px-8">
         <div className="flex items-center justify-between gap-2 md:gap-3">
           <div className="flex min-w-0 flex-1 items-center gap-2">
+            <Logo size={32} className="shrink-0" />
             <h1 className="truncate text-base font-bold text-black dark:text-white sm:text-lg md:text-xl lg:text-3xl">
               垃圾車地圖
             </h1>
@@ -306,7 +308,7 @@ function App() {
       )}
 
       <footer className="hidden border-t border-neutral-200 bg-neutral-100 px-4 py-3 text-[11px] text-neutral-600 dark:border-neutral-900 dark:bg-neutral-950 dark:text-neutral-400 md:px-6 md:py-4 md:text-xs lg:px-8 md:block">
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2">
+        <div className="mx-auto flex flex-wrap items-center justify-between gap-2">
           <span>資料來源：台北市與新北市政府資料開放平台。</span>
           <div className="flex items-center gap-3">
             <button
