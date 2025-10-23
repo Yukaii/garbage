@@ -68,16 +68,16 @@ export interface NewTaipeiTrashCollectionPoint {
 // Unified data structure for the app
 export interface UnifiedTrashCollectionPoint {
   id: string;
-  city: string; // City (Taipei/New Taipei)
+  city: string; // City name (台北市/新北市/台中市)
   district: string; // District/區
-  village: string; // Village/里
+  village: string; // Village/里 (may be empty for real-time data)
   location: string; // Location name
-  route: string; // Route/Line name
+  route: string; // Route/Line name or ID
   arrivalTime: string; // Format: HHMM for internal use
   departureTime: string; // Format: HHMM for internal use
   longitude: string;
   latitude: string;
-  source: 'taipei' | 'new-taipei';
+  source: 'taipei' | 'new-taipei' | 'taichung';
 }
 
 // Legacy alias for backward compatibility
@@ -92,5 +92,5 @@ export interface RouteInfo {
   district: string; // District
   pointCount: number; // Number of stops
   points: UnifiedTrashCollectionPoint[]; // Ordered stops
-  source: 'taipei' | 'new-taipei';
+  source: 'taipei' | 'new-taipei' | 'taichung';
 }

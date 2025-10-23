@@ -13,6 +13,7 @@ import {
   groupPointsIntoRoutes,
   type City
 } from './api';
+import { cityRegistry } from './cities/cityRegistry';
 import type { UnifiedTrashCollectionPoint } from './types';
 import './App.css';
 import AboutModal from './AboutModal';
@@ -35,7 +36,11 @@ function App() {
   const [selectedCity, setSelectedCity] = useState<City>(() => {
     // Check if user has a saved preference
     const saved = localStorage.getItem('selectedCity');
-    return (saved === 'new-taipei' ? 'new-taipei' : 'taipei') as City;
+    // Validate saved city exists in registry, otherwise default to first city
+    if (saved && cityRegistry.hasCity(saved)) {
+      return saved as City;
+    }
+    return cityRegistry.getCityIds()[0];
   });
   const [loadedCities, setLoadedCities] = useState<City[]>([]);
   const [currentZoom, setCurrentZoom] = useState(11);
@@ -229,7 +234,7 @@ function App() {
               垃圾車地圖
             </h1>
             <p className="hidden whitespace-nowrap text-sm text-neutral-600 dark:text-neutral-400 md:inline">
-              {selectedCity === 'taipei' ? '台北市' : '新北市'} 收集點
+              {cityRegistry.getAdapter(selectedCity).displayName} 收集點
             </p>
           </div>
           {renderSearchField('hidden md:flex md:min-w-[220px] md:flex-1 md:max-w-md lg:max-w-lg')}
@@ -240,8 +245,11 @@ function App() {
                 onChange={(e) => setSelectedCity(e.target.value as City)}
                 className="h-8 shrink-0 appearance-none rounded-md border border-neutral-300 bg-white pl-2 pr-6 text-xs text-black transition-colors hover:border-black focus:border-black focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:border-white dark:focus:border-white sm:h-9 sm:pl-3 sm:pr-8 sm:text-sm"
               >
-                <option value="taipei">台北市</option>
-                <option value="new-taipei">新北市</option>
+                {cityRegistry.getCityOptions().map(option => (
+                  <option key={option.value} value={option.value}>
+                    {option.label}
+                  </option>
+                ))}
               </select>
               <ChevronDown className="pointer-events-none absolute right-2 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-neutral-500 dark:text-neutral-300 sm:right-3" />
             </div>

@@ -1,96 +1,19 @@
-import type {
-  TaipeiApiResponse,
-  TaipeiTrashCollectionPoint,
-  NewTaipeiTrashCollectionPoint,
-  UnifiedTrashCollectionPoint
-} from './types';
+/**
+ * Simplified API module using registry-driven architecture
+ *
+ * All city-specific logic is now in adapters. This file provides
+ * a clean interface for the rest of the app.
+ */
+import type { UnifiedTrashCollectionPoint } from './types';
+import { cityRegistry, type City } from './cities/cityRegistry';
 
-export type City = 'taipei' | 'new-taipei';
-
-// Fetch from static JSON files that are copied from the 'data' branch during build
-// Data is stored separately and updated monthly via GitHub Actions
-const TAIPEI_STATIC_DATA_URL = '/trash-collection-points.json';
-const NEW_TAIPEI_STATIC_DATA_URL = '/new-taipei-trash-collection-points.json';
-
-// Map Taipei City data to unified format
-function mapTaipeiToUnified(point: TaipeiTrashCollectionPoint): UnifiedTrashCollectionPoint {
-  return {
-    id: `taipei-${point._id}`,
-    city: '台北市',
-    district: point.行政區,
-    village: point.里別,
-    location: point.地點,
-    route: point.路線,
-    arrivalTime: point.抵達時間,
-    departureTime: point.離開時間,
-    longitude: point.經度,
-    latitude: point.緯度,
-    source: 'taipei',
-  };
-}
-
-// Map New Taipei City data to unified format
-function mapNewTaipeiToUnified(point: NewTaipeiTrashCollectionPoint): UnifiedTrashCollectionPoint {
-  // Convert HH:MM to HHMM format
-  const arrivalTime = point.time.replace(':', '');
-  // Assume 10 minutes collection time if no departure time
-  const arrivalMinutes = parseInt(arrivalTime.slice(0, -2)) * 60 + parseInt(arrivalTime.slice(-2));
-  const departureMinutes = arrivalMinutes + 10;
-  const departureHours = Math.floor(departureMinutes / 60);
-  const departureMins = departureMinutes % 60;
-  const departureTime = `${departureHours}${departureMins.toString().padStart(2, '0')}`;
-
-  return {
-    id: `new-taipei-${point.lineid}-${point.rank}`,
-    city: '新北市',
-    district: point.city,
-    village: point.village,
-    location: point.name,
-    route: point.linename,
-    arrivalTime,
-    departureTime,
-    longitude: point.longitude,
-    latitude: point.latitude,
-    source: 'new-taipei',
-  };
-}
-
-// Fetch Taipei City data
-async function fetchTaipeiData(): Promise<UnifiedTrashCollectionPoint[]> {
-  try {
-    const response = await fetch(TAIPEI_STATIC_DATA_URL);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const data: TaipeiApiResponse = await response.json();
-    return data.result.results.map(mapTaipeiToUnified);
-  } catch (error) {
-    console.error('Error fetching Taipei trash collection points:', error);
-    throw error;
-  }
-}
-
-// Fetch New Taipei City data
-async function fetchNewTaipeiData(): Promise<UnifiedTrashCollectionPoint[]> {
-  try {
-    const response = await fetch(NEW_TAIPEI_STATIC_DATA_URL);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const data: NewTaipeiTrashCollectionPoint[] = await response.json();
-    return data.map(mapNewTaipeiToUnified);
-  } catch (error) {
-    console.error('Error fetching New Taipei trash collection points:', error);
-    throw error;
-  }
-}
-
-// Fetch data for a specific city
-export async function fetchTrashCollectionPoints(city: City = 'taipei'): Promise<UnifiedTrashCollectionPoint[]> {
-  if (city === 'new-taipei') {
-    return fetchNewTaipeiData();
-  }
-  return fetchTaipeiData();
+/**
+ * Fetch data for a specific city
+ * Uses the city registry to dispatch to the appropriate adapter
+ */
+export async function fetchTrashCollectionPoints(city: City): Promise<UnifiedTrashCollectionPoint[]> {
+  const adapter = cityRegistry.getAdapter(city);
+  return adapter.fetchData();
 }
 
 /**
@@ -104,58 +27,8 @@ export async function fetchMultipleCities(cities: City[]): Promise<UnifiedTrashC
   return results.flat();
 }
 
-/**
- * Official city boundaries extracted from Taiwan.TopoJSON
- *
- * Data Source: https://github.com/jason2506/Taiwan.TopoJSON
- * File: topojson/counties.json
- *
- * These boundaries are used for viewport-based data loading to determine
- * which city datasets should be loaded based on the current map view.
- *
- * To add a new city:
- * 1. Download the TopoJSON from https://github.com/jason2506/Taiwan.TopoJSON
- * 2. Extract county boundaries using topojson-client
- * 3. Find the feature with the city name (e.g., '高雄市' for Kaohsiung)
- * 4. Calculate bounding box from geometry coordinates:
- *    - min/max longitude for west/east
- *    - min/max latitude for south/north
- * 5. Add entry to CITY_BOUNDS with the new City type
- * 6. Update City type in api.ts
- * 7. Add data fetching function (e.g., fetchKaohsiungData)
- * 8. Update fetchTrashCollectionPoints to handle the new city
- *
- * Example extraction script (see /tmp/extract_bounds.js in project history):
- * ```javascript
- * const topojson = require('topojson-client');
- * const data = require('./counties.json');
- * const geojson = topojson.feature(data, data.objects.map);
- * const city = geojson.features.find(f => f.properties.name === '城市名');
- * // Calculate bounds from city.geometry.coordinates
- * ```
- */
-export const CITY_BOUNDS = {
-  taipei: {
-    north: 25.209306675338553,
-    south: 24.96052289128283,
-    east: 121.66597827746033,
-    west: 121.45733834043676,
-  },
-  'new-taipei': {
-    north: 25.298899838693202,
-    south: 24.67314274446706,
-    east: 122.00691904918543,
-    west: 121.28260999667577,
-  },
-  // Add more cities here following the same structure
-  // Example:
-  // 'kaohsiung': {
-  //   north: ...,
-  //   south: ...,
-  //   east: ...,
-  //   west: ...,
-  // },
-} as const;
+// Re-export City type for convenience
+export type { City };
 
 /**
  * Minimum zoom level required to load city data
@@ -163,33 +36,20 @@ export const CITY_BOUNDS = {
  * When the map is zoomed out beyond this level, no data is loaded
  * to prevent performance issues from loading large datasets when
  * the entire island is visible.
- *
- * Adjust this value based on:
- * - Performance requirements
- * - Total dataset size
- * - Number of supported cities
  */
 export const MIN_DATA_LOAD_ZOOM = 10;
 
 /**
  * Check if a viewport (bounding box) intersects with a city's boundaries
- *
- * Uses bounding box intersection algorithm: two boxes overlap if
- * they are NOT completely separated on any axis.
- *
- * @param viewport - Current map viewport bounds
- * @param city - City identifier to check
- * @returns true if viewport intersects with city boundaries
+ * Uses bounding box intersection algorithm
  */
 export function doesViewportIntersectCity(
   viewport: { north: number; south: number; east: number; west: number },
   city: City
 ): boolean {
-  const cityBounds = CITY_BOUNDS[city];
+  const cityBounds = cityRegistry.getCityBounds(city);
 
-  // Two bounding boxes intersect if they are NOT separated:
-  // - Boxes are separated if one is completely above/below/left/right of the other
-  // - If NOT separated on any axis, they must overlap
+  // Two bounding boxes intersect if they are NOT separated on any axis
   return !(
     viewport.south > cityBounds.north ||  // viewport is above city
     viewport.north < cityBounds.south ||  // viewport is below city
@@ -200,25 +60,7 @@ export function doesViewportIntersectCity(
 
 /**
  * Determine which cities should be loaded based on current viewport and zoom
- *
- * This function implements intelligent data loading:
- * - If zoomed out too far (< MIN_DATA_LOAD_ZOOM), returns empty array
- * - Otherwise, returns all cities whose boundaries intersect the viewport
- * - Can return multiple cities when viewport spans city boundaries
- *
- * @param viewport - Current map viewport bounds (null if not yet initialized)
- * @param zoom - Current map zoom level
- * @returns Array of city identifiers that should have their data loaded
- *
- * @example
- * // Viewport showing only Taipei
- * getCitiesInViewport(taipeiBounds, 12) // ['taipei']
- *
- * // Viewport showing both cities
- * getCitiesInViewport(dualCityBounds, 11) // ['taipei', 'new-taipei']
- *
- * // Zoomed out too far
- * getCitiesInViewport(taiwanBounds, 8) // []
+ * Now automatically checks all registered cities in the registry
  */
 export function getCitiesInViewport(
   viewport: { north: number; south: number; east: number; west: number } | null,
@@ -229,24 +71,10 @@ export function getCitiesInViewport(
     return [];
   }
 
-  const cities: City[] = [];
-
-  // Check each city for viewport intersection
-  // When adding new cities, add additional checks here
-  if (doesViewportIntersectCity(viewport, 'taipei')) {
-    cities.push('taipei');
-  }
-
-  if (doesViewportIntersectCity(viewport, 'new-taipei')) {
-    cities.push('new-taipei');
-  }
-
-  // Add more city checks here when expanding to other cities:
-  // if (doesViewportIntersectCity(viewport, 'kaohsiung')) {
-  //   cities.push('kaohsiung');
-  // }
-
-  return cities;
+  // Automatically check all registered cities (no hardcoded checks needed!)
+  return cityRegistry.getCityIds().filter(cityId =>
+    doesViewportIntersectCity(viewport, cityId)
+  );
 }
 
 export function formatTime(time: string): string {
