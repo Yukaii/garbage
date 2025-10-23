@@ -42,6 +42,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   // Use prop if provided (debug mode), otherwise use internal state
   const currentTimeMinutes = propCurrentTimeMinutes ?? internalCurrentTimeMinutes;
   const hasNotifiedMapLoaded = useRef(false);
+  const hasRequestedGeolocation = useRef(false);
   const [currentZoom, setCurrentZoom] = useState(11);
   const [viewportBounds, setViewportBounds] = useState<{
     north: number;
@@ -60,6 +61,43 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
     return () => clearInterval(interval);
   }, [propCurrentTimeMinutes]);
+
+  // Request geolocation permission on first load
+  useEffect(() => {
+    if (hasRequestedGeolocation.current || !navigator.geolocation) return;
+
+    // Only request geolocation if there are no URL params (first time visit)
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('lat') || params.has('lng') || params.has('zoom')) {
+      hasRequestedGeolocation.current = true;
+      return;
+    }
+
+    hasRequestedGeolocation.current = true;
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        setUserLocation({ lng: longitude, lat: latitude });
+        // Fly to user location on first load
+        mapRef.current?.flyTo({
+          center: [longitude, latitude],
+          zoom: MIN_LABEL_ZOOM,
+          duration: 1200,
+          essential: true,
+        });
+      },
+      (error) => {
+        // Silently fail - user will see default map view
+        console.log('Geolocation not available or denied:', error.message);
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 5000,
+        maximumAge: 0,
+      }
+    );
+  }, []);
 
   // Filter points based on selected route
   const filteredPoints = useMemo(() => {
@@ -423,18 +461,48 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
           onViewportChange(newBounds, zoom);
         }
       }
+
+      // Update URL with current position and zoom
+      const center = map.getCenter();
+      const params = new URLSearchParams(window.location.search);
+      params.set('lat', center.lat.toFixed(6));
+      params.set('lng', center.lng.toFixed(6));
+      params.set('zoom', zoom.toFixed(2));
+
+      // Use replaceState to avoid cluttering browser history
+      const newUrl = `${window.location.pathname}?${params.toString()}`;
+      window.history.replaceState({}, '', newUrl);
     }
+  };
+
+  // Get initial view state from URL or use defaults
+  const getInitialViewState = () => {
+    const params = new URLSearchParams(window.location.search);
+    const lat = params.get('lat');
+    const lng = params.get('lng');
+    const zoom = params.get('zoom');
+
+    if (lat && lng && zoom) {
+      return {
+        longitude: parseFloat(lng),
+        latitude: parseFloat(lat),
+        zoom: parseFloat(zoom),
+      };
+    }
+
+    // Default view (Taipei center)
+    return {
+      longitude: 121.5654,
+      latitude: 25.033,
+      zoom: 11,
+    };
   };
 
   return (
     <div className='absolute h-full w-full'>
       <Map
         ref={mapRef}
-        initialViewState={{
-          longitude: 121.5654,
-          latitude: 25.033,
-          zoom: 11,
-        }}
+        initialViewState={getInitialViewState()}
         style={{ width: '100%', height: '100%' }}
         mapStyle={getMapStyle()}
         interactiveLayerIds={['clusters', 'unclustered-point']}
