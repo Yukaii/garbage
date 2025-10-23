@@ -1,13 +1,13 @@
 import { CityDataAdapter } from './adapters/BaseAdapter';
 import { TaipeiAdapter } from './adapters/TaipeiAdapter';
 import { NewTaipeiAdapter } from './adapters/NewTaipeiAdapter';
-import { TaichungAdapter } from './adapters/TaichungAdapter';
+// import { TaichungAdapter } from './adapters/TaichungAdapter';
 
 /**
  * City identifier type
  * Add new city IDs here when expanding support
  */
-export type City = 'taipei' | 'new-taipei' | 'taichung';
+export type City = 'taipei' | 'new-taipei'; // | 'taichung';
 
 /**
  * Central registry of all supported cities
@@ -27,7 +27,7 @@ class CityRegistry {
     // Register all city adapters
     this.register(new TaipeiAdapter());
     this.register(new NewTaipeiAdapter());
-    this.register(new TaichungAdapter());
+    // this.register(new TaichungAdapter()); // Disabled: limited data quality (no proper lat/lng)
   }
 
   /**
