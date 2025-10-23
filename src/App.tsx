@@ -1,9 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { Info, Sun, Moon, ChevronDown } from 'lucide-react';
 import Map from './Map';
 import TimeFilter, { type TimeFilterMode } from './TimeFilter';
 import {
   fetchTrashCollectionPoints,
+  fetchMultipleCities,
+  getCitiesInViewport,
+  MIN_DATA_LOAD_ZOOM,
   getCurrentTimeInMinutes,
   getTimeStatus,
   isWithinTimeWindow,
@@ -20,6 +23,7 @@ function App() {
   const [points, setPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
   const [dataLoaded, setDataLoaded] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
+  const [initialLoadComplete, setInitialLoadComplete] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredPoints, setFilteredPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
@@ -33,6 +37,8 @@ function App() {
     const saved = localStorage.getItem('selectedCity');
     return (saved === 'new-taipei' ? 'new-taipei' : 'taipei') as City;
   });
+  const [loadedCities, setLoadedCities] = useState<City[]>([]);
+  const [currentZoom, setCurrentZoom] = useState(11);
   const [darkMode, setDarkMode] = useState(() => {
     // Check if user has a saved preference
     const saved = localStorage.getItem('darkMode');
@@ -49,10 +55,17 @@ function App() {
     east: number;
     west: number;
   } | null>(null);
+
+  const handleViewportChange = (bounds: { north: number; south: number; east: number; west: number }, zoom: number) => {
+    setViewportBounds(bounds);
+    setCurrentZoom(zoom);
+  };
   const [debugTime, setDebugTime] = useState<string>('');
 
-  // Derived loading state: both data and map must be loaded
-  const loading = !dataLoaded || !mapLoaded;
+  // Initial loading state: both data and map must be loaded for first time
+  const initialLoading = !initialLoadComplete || !mapLoaded;
+  // Data updating state: show subtle indicator instead of blocking UI
+  const isUpdatingData = !dataLoaded;
 
   useEffect(() => {
     // Save dark mode preference and update document class
@@ -86,23 +99,46 @@ function App() {
     localStorage.setItem('selectedCity', selectedCity);
   }, [selectedCity]);
 
+  // Determine which cities should be loaded based on viewport
+  const citiesToLoad = useMemo(() => {
+    const cities = getCitiesInViewport(viewportBounds, currentZoom);
+    // If no cities in viewport (zoomed out too far), fall back to selected city
+    return cities.length === 0 ? [selectedCity] : cities;
+  }, [viewportBounds, currentZoom, selectedCity]);
+
+  // Load data only when the set of cities changes (not on every zoom/pan)
   useEffect(() => {
     async function loadData() {
       try {
+        // Check if we already have the right cities loaded
+        const currentSet = new Set(loadedCities);
+        const requiredSet = new Set(citiesToLoad);
+
+        // Skip reload if we already have exactly the right cities
+        if (
+          currentSet.size === requiredSet.size &&
+          citiesToLoad.every(city => currentSet.has(city))
+        ) {
+          return;
+        }
+
         setDataLoaded(false);
-        setMapLoaded(false);
-        const data = await fetchTrashCollectionPoints(selectedCity);
+
+        // Load data for required cities
+        const data = await fetchMultipleCities(citiesToLoad);
         setPoints(data);
         setFilteredPoints(data);
+        setLoadedCities(citiesToLoad);
         setError(null);
         setDataLoaded(true);
+        setInitialLoadComplete(true);
       } catch (err) {
         setError('無法載入垃圾車資料，請稍後再試');
         console.error(err);
       }
     }
     loadData();
-  }, [selectedCity]);
+  }, [citiesToLoad.join(',')]); // Only reload when the city list changes
 
   useEffect(() => {
     let filtered = points;
@@ -259,6 +295,11 @@ function App() {
         <div className="mt-2 hidden flex-wrap gap-2 text-[11px] text-neutral-600 dark:text-neutral-400 md:mt-3 md:flex md:text-xs">
           <span className="rounded border border-neutral-200 bg-neutral-100 px-2 py-1 dark:border-neutral-800 dark:bg-neutral-900">
             總共 {points.length} 個收集點
+            {loadedCities.length > 1 && (
+              <span className="ml-1 text-[10px] text-blue-600 dark:text-blue-400">
+                (雙北資料)
+              </span>
+            )}
           </span>
           {searchTerm && (
             <span className="rounded border border-neutral-200 bg-neutral-100 px-2 py-1 dark:border-neutral-800 dark:bg-neutral-900">
@@ -268,12 +309,18 @@ function App() {
           <span className="hidden rounded border border-neutral-200 bg-neutral-100 px-2 py-1 dark:border-neutral-800 dark:bg-neutral-900 md:inline">
             運行中 {activeCount} 班、即將到站 {upcomingCount} 班
           </span>
+          {currentZoom < MIN_DATA_LOAD_ZOOM && (
+            <span className="rounded border border-yellow-200 bg-yellow-50 px-2 py-1 text-yellow-700 dark:border-yellow-800 dark:bg-yellow-950 dark:text-yellow-400">
+              放大以載入資料 (目前縮放: {currentZoom.toFixed(1)})
+            </span>
+          )}
         </div>
       </header>
 
       <main id="main-content" className="flex-1 flex flex-col min-h-0">
         <section className="relative flex-1 min-h-[320px] overflow-hidden">
-          {loading && (
+          {/* Full-screen loading only on initial load */}
+          {initialLoading && (
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-black z-50 h-full w-full">
               <div className="w-12 h-12 border-4 border-neutral-200 dark:border-neutral-800 border-t-black dark:border-t-white rounded-full spinner" />
               <p className="mt-4 text-neutral-600 dark:text-neutral-400">載入中...</p>
@@ -284,7 +331,19 @@ function App() {
               <p className="text-red-600 dark:text-red-400">{error}</p>
             </div>
           )}
-          {dataLoaded && !error && <Map points={selectedRoute ? points : filteredPoints} darkMode={darkMode} onMapLoaded={handleMapLoaded} selectedRoute={selectedRoute} onRouteSelect={setSelectedRoute} onViewportChange={setViewportBounds} currentTimeMinutes={currentTimeMinutes} />}
+          {/* Show map after initial load, even during data updates */}
+          {initialLoadComplete && !error && (
+            <>
+              <Map points={selectedRoute ? points : filteredPoints} darkMode={darkMode} onMapLoaded={handleMapLoaded} selectedRoute={selectedRoute} onRouteSelect={setSelectedRoute} onViewportChange={handleViewportChange} currentTimeMinutes={currentTimeMinutes} />
+              {/* Subtle loading indicator for data updates */}
+              {isUpdatingData && (
+                <div className="absolute top-4 right-4 z-20 flex items-center gap-2 rounded-lg border border-neutral-300 bg-white/95 backdrop-blur-sm px-3 py-2 shadow-lg dark:border-neutral-700 dark:bg-black/90">
+                  <div className="h-4 w-4 border-2 border-neutral-300 dark:border-neutral-600 border-t-blue-600 dark:border-t-blue-400 rounded-full spinner" />
+                  <span className="text-xs text-neutral-700 dark:text-neutral-300">更新資料中...</span>
+                </div>
+              )}
+            </>
+          )}
         </section>
 
       </main>

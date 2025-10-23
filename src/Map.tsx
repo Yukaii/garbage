@@ -22,7 +22,7 @@ interface MapComponentProps {
   onMapLoaded?: () => void;
   selectedRoute?: string | null; // routeKey to highlight
   onRouteSelect?: (routeKey: string | null) => void;
-  onViewportChange?: (bounds: { north: number; south: number; east: number; west: number }) => void;
+  onViewportChange?: (bounds: { north: number; south: number; east: number; west: number }, zoom: number) => void;
   currentTimeMinutes?: number; // Override for debug mode
 }
 
@@ -407,7 +407,8 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   const updateViewport = () => {
     const map = mapRef.current?.getMap();
     if (map) {
-      setCurrentZoom(map.getZoom());
+      const zoom = map.getZoom();
+      setCurrentZoom(zoom);
       const bounds = map.getBounds();
       if (bounds) {
         const newBounds = {
@@ -417,9 +418,9 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
           west: bounds.getWest(),
         };
         setViewportBounds(newBounds);
-        // Notify parent of viewport change
+        // Notify parent of viewport change with zoom level
         if (onViewportChange) {
-          onViewportChange(newBounds);
+          onViewportChange(newBounds, zoom);
         }
       }
     }
