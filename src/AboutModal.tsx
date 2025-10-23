@@ -9,6 +9,7 @@ interface AboutModalProps {
   upcomingCount: number;
   debugTime?: string;
   onDebugTimeChange?: (time: string) => void;
+  scrollToSupport?: boolean;
 }
 
 export default function AboutModal({
@@ -19,10 +20,12 @@ export default function AboutModal({
   upcomingCount,
   debugTime,
   onDebugTimeChange,
+  scrollToSupport = false,
 }: AboutModalProps) {
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
   const [showDebugSettings, setShowDebugSettings] = useState(false);
+  const supportSectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!open) return;
@@ -42,12 +45,28 @@ export default function AboutModal({
       closeButtonRef.current?.focus();
     }, 0);
 
+    // Scroll to support section if requested
+    if (scrollToSupport && supportSectionRef.current) {
+      const scrollTimeout = window.setTimeout(() => {
+        supportSectionRef.current?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        });
+      }, 100);
+      return () => {
+        document.removeEventListener('keydown', handleKeyDown);
+        document.body.style.overflow = previousOverflow;
+        window.clearTimeout(timeout);
+        window.clearTimeout(scrollTimeout);
+      };
+    }
+
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
       document.body.style.overflow = previousOverflow;
       window.clearTimeout(timeout);
     };
-  }, [open, onClose]);
+  }, [open, onClose, scrollToSupport]);
 
   if (!open) return null;
 
@@ -233,6 +252,30 @@ export default function AboutModal({
                 <span className="ml-2 text-neutral-700 dark:text-neutral-300">
                   Claude Sonnet 4.5, GPT-5-Codex
                 </span>
+              </div>
+            </div>
+          </section>
+
+          {/* Support Section */}
+          <section ref={supportSectionRef} className="scroll-mt-6">
+            <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">支持這個專案</h3>
+            <div className="mt-3 rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
+              <p className="text-sm text-neutral-700 dark:text-neutral-300">
+                如果這個工具對您有幫助，歡迎請作者喝杯咖啡！您的支持是我們持續改進的動力。
+              </p>
+              <div className="mt-4 flex justify-center">
+                <a
+                  href="https://www.buymeacoffee.com/yukaii"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block transition-transform hover:scale-105"
+                >
+                  <img
+                    src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+                    alt="Buy Me A Coffee"
+                    className="h-[60px] w-[217px]"
+                  />
+                </a>
               </div>
             </div>
           </section>

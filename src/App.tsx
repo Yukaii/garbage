@@ -48,6 +48,7 @@ function App() {
   });
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
+  const [scrollToSupport, setScrollToSupport] = useState(false);
   const [selectedRoute, setSelectedRoute] = useState<string | null>(null);
   const [viewportBounds, setViewportBounds] = useState<{
     north: number;
@@ -371,7 +372,20 @@ function App() {
           <span>資料來源：台北市與新北市政府資料開放平台。</span>
           <div className="flex items-center gap-3">
             <button
-              onClick={() => setIsAboutOpen(true)}
+              onClick={() => {
+                setScrollToSupport(true);
+                setIsAboutOpen(true);
+              }}
+              className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+              type="button"
+            >
+              請我喝咖啡
+            </button>
+            <button
+              onClick={() => {
+                setScrollToSupport(false);
+                setIsAboutOpen(true);
+              }}
               className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
               type="button"
             >
@@ -391,12 +405,16 @@ function App() {
 
       <AboutModal
         open={isAboutOpen}
-        onClose={() => setIsAboutOpen(false)}
+        onClose={() => {
+          setIsAboutOpen(false);
+          setScrollToSupport(false);
+        }}
         totalPoints={points.length}
         activeCount={activeCount}
         upcomingCount={upcomingCount}
         debugTime={debugTime}
         onDebugTimeChange={setDebugTime}
+        scrollToSupport={scrollToSupport}
       />
     </div>
   );
