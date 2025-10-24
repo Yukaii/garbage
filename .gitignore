@@ -38,4 +38,14 @@ public/trash-collection-points.json
 public/new-taipei-trash-collection-points.json
 public/taichung-trash-collection-points.json
 
+# TGOS geocoding intermediate files (ignore all, except final output)
+data/*.csv
+data/*-metadata.json
+data/*-manifest.json
+
+# Keep the final geocoded data (commit these)
+!data/taichung-geocoded.json
+!data/taichung-geocode-lookup.json
+!data/taichung-geocoding-failed.json
+
 dev-dist
