@@ -62,8 +62,15 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
   }
 
   /**
-   * Post-process: Filter by current day of week
-   * Only show collection points for today to avoid duplicate markers
+   * Post-process: Filter by current day of week and deduplicate by location
+   *
+   * Strategy:
+   * 1. Filter to only show today's collection points
+   * 2. Deduplicate by coordinates (keep earliest collection time)
+   *
+   * Why: Same location can have multiple collections per day:
+   * - Same truck visits multiple times
+   * - Different collection types (garbage/recycling)
    */
   postprocessData(unified: UnifiedTrashCollectionPoint[]): UnifiedTrashCollectionPoint[] {
     // Get current day of week (1 = Monday, 7 = Sunday)
@@ -71,9 +78,8 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
     const currentDay = now.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
     const taichungDay = currentDay === 0 ? 7 : currentDay; // Convert to 1-7 format
 
-    // Filter to only show today's collection points
-    // This prevents duplicate markers at the same location
-    const filtered = unified.filter(point => {
+    // Step 1: Filter to only show today's collection points
+    const todaysPoints = unified.filter(point => {
       // Extract dayOfWeek from the ID (format: taichung-ROUTE-LOCATION-dN-TYPE)
       const match = point.id.match(/-d(\d)-/);
       if (!match) return false;
@@ -82,8 +88,29 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
       return pointDay === taichungDay;
     });
 
-    console.log(`TaichungAdapter: Filtered ${unified.length} points → ${filtered.length} points for day ${taichungDay}`);
+    // Step 2: Deduplicate by coordinates (keep earliest collection time)
+    const locationMap = new Map<string, UnifiedTrashCollectionPoint>();
 
-    return filtered;
+    for (const point of todaysPoints) {
+      // Use coordinates as unique key
+      const coordKey = `${point.longitude},${point.latitude}`;
+      const existing = locationMap.get(coordKey);
+
+      if (!existing) {
+        // First time seeing this location
+        locationMap.set(coordKey, point);
+      } else {
+        // Keep the point with earlier arrival time
+        if (point.arrivalTime < existing.arrivalTime) {
+          locationMap.set(coordKey, point);
+        }
+      }
+    }
+
+    const deduplicated = Array.from(locationMap.values());
+
+    console.log(`TaichungAdapter: ${unified.length} total → ${todaysPoints.length} today → ${deduplicated.length} deduplicated`);
+
+    return deduplicated;
   }
 }

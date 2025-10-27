@@ -193,16 +193,37 @@ async function main() {
     console.log(`  Total collection points: ${allPoints.length}`);
     console.log(`  (Each address × days × collection types)\n`);
 
+    // Deduplicate by coordinates + day + collectionType
+    // Keep earliest arrival time for each unique location
+    console.log('Deduplicating collection points...');
+    const deduplicatedPoints: UnifiedPoint[] = [];
+    const pointMap = new Map<string, UnifiedPoint>();
+
+    for (const point of allPoints) {
+      // Create key: coordinates + day + type
+      const key = `${point.longitude},${point.latitude}|${point.dayOfWeek}|${point.collectionType}`;
+      const existing = pointMap.get(key);
+
+      if (!existing || point.arrivalTime < existing.arrivalTime) {
+        pointMap.set(key, point);
+      }
+    }
+
+    const finalPoints = Array.from(pointMap.values());
+    console.log(`  Before dedup: ${allPoints.length} points`);
+    console.log(`  After dedup: ${finalPoints.length} points`);
+    console.log(`  Removed: ${allPoints.length - finalPoints.length} duplicates\n`);
+
     // Save merged data
     const outputPath = 'data/taichung-trash-collection-points.json';
-    await Bun.write(outputPath, JSON.stringify(allPoints, null, 2));
+    await Bun.write(outputPath, JSON.stringify(finalPoints, null, 2));
     const sizeKB = ((await Bun.file(outputPath).size) / 1024).toFixed(2);
     console.log(`✓ Merged data saved to: ${outputPath}`);
     console.log(`  File size: ${sizeKB} KB\n`);
 
     // Show sample data
     console.log('Sample collection points:');
-    allPoints.slice(0, 3).forEach((point, i) => {
+    finalPoints.slice(0, 3).forEach((point, i) => {
       console.log(`\n${i + 1}. ${point.area} ${point.location}`);
       console.log(`   Route: ${point.route} | Type: ${point.type}`);
       console.log(`   Day ${point.dayOfWeek} (${point.collectionType}): ${point.arrivalTime}-${point.departureTime}`);
@@ -210,10 +231,10 @@ async function main() {
     });
 
     // Statistics
-    const garbagePoints = allPoints.filter(p => p.collectionType === 'garbage');
-    const recyclingPoints = allPoints.filter(p => p.collectionType === 'recycling');
-    const uniqueLocations = new Set(allPoints.map(p => `${p.area}${p.location}`)).size;
-    const uniqueRoutes = new Set(allPoints.map(p => p.route)).size;
+    const garbagePoints = finalPoints.filter(p => p.collectionType === 'garbage');
+    const recyclingPoints = finalPoints.filter(p => p.collectionType === 'recycling');
+    const uniqueLocations = new Set(finalPoints.map(p => `${p.area}${p.location}`)).size;
+    const uniqueRoutes = new Set(finalPoints.map(p => p.route)).size;
 
     console.log(`\n📈 Statistics:`);
     console.log(`  Unique locations: ${uniqueLocations}`);
