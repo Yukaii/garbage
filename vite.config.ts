@@ -7,10 +7,15 @@ function htmlEnvPlugin(): Plugin {
   return {
     name: 'html-env-plugin',
     transformIndexHtml(html) {
-      return html.replace(
-        /%%VITE_ADSENSE_CLIENT_ID%%/g,
-        process.env.VITE_ADSENSE_CLIENT_ID || ''
-      )
+      return html
+        .replace(
+          /%%VITE_ADSENSE_CLIENT_ID%%/g,
+          process.env.VITE_ADSENSE_CLIENT_ID || ''
+        )
+        .replace(
+          /%%VITE_GA_ID%%/g,
+          process.env.VITE_GA_ID || ''
+        )
     },
   }
 }
