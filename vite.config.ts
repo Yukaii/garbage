@@ -95,7 +95,4 @@ export default defineConfig({
     })
   ],
   base: '/',
-  server: {
-    port: 3000,
-  },
 })
