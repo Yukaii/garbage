@@ -29,6 +29,14 @@
     <meta name="twitter:description" content="立即掌握垃圾車行程、停靠地點與最近班次，支援台北與新北市區。" />
     <title>台北市垃圾車地圖 | Taipei Trash Collection Map</title>
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.9.0/dist/maplibre-gl.css" />
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=%%VITE_GA_ID%%"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '%%VITE_GA_ID%%');
+    </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=%%VITE_ADSENSE_CLIENT_ID%%"
      crossorigin="anonymous"></script>
     <script type="application/ld+json">
