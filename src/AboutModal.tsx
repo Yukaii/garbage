@@ -102,7 +102,7 @@ export default function AboutModal({
               台北市垃圾車地圖
             </h2>
             <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
-              查詢台北市與新北市垃圾車、資源回收車路線與停靠時間，協助居民掌握最佳倒垃圾時機。
+              查詢台北市、新北市與台中市垃圾車、資源回收車路線與停靠時間，協助居民掌握最佳倒垃圾時機。
             </p>
           </div>
           <button
@@ -134,9 +134,9 @@ export default function AboutModal({
             <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">產品亮點</h3>
             <ul className="mt-3 grid gap-3 md:grid-cols-2">
               <li className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
-                <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">雙北資料同步更新</h4>
+                <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">三都資料同步更新</h4>
                 <p className="mt-2 text-sm">
-                  每月自動抓取台北市與新北市公開資料超過兩萬筆收集點，並在部署前精簡欄位以提升載入速度。
+                  每月自動抓取台北市、新北市與台中市公開資料，涵蓋超過 20 萬筆收集點，並在部署前精簡欄位以提升載入速度。
                 </p>
               </li>
               <li className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
@@ -163,7 +163,7 @@ export default function AboutModal({
           <section>
             <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">如何使用</h3>
             <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm md:text-base">
-              <li>選擇查看的縣市（台北市或新北市）。</li>
+              <li>選擇查看的縣市（台北市、新北市或台中市）。</li>
               <li>搜尋行政區、里別或收集點名稱，快速鎖定常用地點。</li>
               <li>套用時間篩選，顯示即將抵達或正在運行的班次。</li>
               <li>點擊地圖標記，查看詳細停靠描述與抵達/離開時間。</li>
@@ -174,7 +174,7 @@ export default function AboutModal({
           <section>
             <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">資料來源與更新</h3>
             <p className="mt-2 text-sm md:text-base">
-              平台依據雙北政府開放資料建立，透過 GitHub Actions 每月自動抓取、整理並部署最新版本。若有重大變更，可手動觸發更新流程以確保資料為最新狀態。
+              平台整合三都政府開放資料，透過 GitHub Actions 每月自動抓取、整理並部署最新版本。台中市資料經內政地理資訊圖資雲整合服務平台批次地理編碼處理，確保座標精準度。
             </p>
             <ul className="mt-3 space-y-2 text-sm md:text-base">
               <li>
@@ -196,6 +196,29 @@ export default function AboutModal({
                 >
                   新北市政府資料開放平台：垃圾車與資源回收車路線
                 </a>
+              </li>
+              <li>
+                <a
+                  href="https://datacenter.taichung.gov.tw/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+                >
+                  台中市政府資料開放平台：定時定點垃圾收運地點
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.tgos.tw/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+                >
+                  內政地理資訊圖資雲整合服務平台：地理編碼服務
+                </a>
+                <span className="ml-2 text-xs text-neutral-500 dark:text-neutral-400">
+                  (台中市地址座標轉換)
+                </span>
               </li>
             </ul>
           </section>

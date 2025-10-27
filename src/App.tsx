@@ -377,7 +377,19 @@ function App() {
 
       <footer className="hidden border-t border-neutral-200 bg-neutral-100 px-4 py-3 text-[11px] text-neutral-600 dark:border-neutral-900 dark:bg-neutral-950 dark:text-neutral-400 md:px-6 md:py-4 md:text-xs lg:px-8 md:block">
         <div className="mx-auto flex flex-wrap items-center justify-between gap-2">
-          <span>資料來源：台北市與新北市政府資料開放平台。</span>
+          <span>
+            資料來源：台北市、新北市與台中市政府開放資料平台。
+            <button
+              onClick={() => {
+                setScrollToSupport(false);
+                setIsAboutOpen(true);
+              }}
+              className="ml-1 text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+              type="button"
+            >
+              查看完整說明
+            </button>
+          </span>
           <div className="flex items-center gap-3">
             <button
               onClick={() => {
@@ -388,16 +400,6 @@ function App() {
               type="button"
             >
               請我喝咖啡
-            </button>
-            <button
-              onClick={() => {
-                setScrollToSupport(false);
-                setIsAboutOpen(true);
-              }}
-              className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
-              type="button"
-            >
-              關於此服務
             </button>
             <a
               href="https://github.com/yukaii/garbage/issues"
