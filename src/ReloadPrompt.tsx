@@ -33,61 +33,28 @@ export function ReloadPrompt() {
   }
 
   return (
-    <div
-      style={{
-        position: 'fixed',
-        bottom: '1rem',
-        right: '1rem',
-        left: '1rem',
-        maxWidth: '400px',
-        margin: '0 auto',
-        padding: '1rem',
-        backgroundColor: '#1f2937',
-        color: '#f9fafb',
-        borderRadius: '0.5rem',
-        boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
-        zIndex: 1000,
-      }}
-    >
-      <div style={{ marginBottom: '0.75rem' }}>
+    <div className="fixed bottom-4 left-4 right-4 z-[1000] mx-auto max-w-md rounded-lg border border-neutral-300 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900">
+      <div className="mb-3 text-sm font-medium text-black dark:text-white">
         {offlineReady ? (
-          <span>應用程式已可離線使用 | App ready to work offline</span>
+          <span>應用程式已可離線使用</span>
         ) : (
-          <span>有新版本可用！| New version available!</span>
+          <span>有新版本可用！</span>
         )}
       </div>
-      <div style={{ display: 'flex', gap: '0.5rem' }}>
+      <div className="flex gap-2">
         {needRefresh && (
           <button
             onClick={handleUpdate}
-            style={{
-              flex: 1,
-              padding: '0.5rem 1rem',
-              backgroundColor: '#3b82f6',
-              color: 'white',
-              border: 'none',
-              borderRadius: '0.375rem',
-              cursor: 'pointer',
-              fontWeight: '500',
-            }}
+            className="flex-1 rounded-md border border-black bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-neutral-800 dark:border-white dark:bg-white dark:text-black dark:hover:bg-neutral-200"
           >
-            重新載入 | Reload
+            重新載入
           </button>
         )}
         <button
           onClick={close}
-          style={{
-            flex: 1,
-            padding: '0.5rem 1rem',
-            backgroundColor: '#4b5563',
-            color: 'white',
-            border: 'none',
-            borderRadius: '0.375rem',
-            cursor: 'pointer',
-            fontWeight: '500',
-          }}
+          className="flex-1 rounded-md border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-black transition-colors hover:border-black hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:border-white dark:hover:bg-neutral-800"
         >
-          關閉 | Close
+          關閉
         </button>
       </div>
     </div>
