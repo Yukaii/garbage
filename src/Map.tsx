@@ -463,6 +463,9 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     }
   };
 
+  // Debounce timer for URL updates
+  const urlUpdateTimerRef = useRef<NodeJS.Timeout | null>(null);
+
   const updateViewport = () => {
     const map = mapRef.current?.getMap();
     if (map) {
@@ -483,16 +486,22 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         }
       }
 
-      // Update URL with current position and zoom
-      const center = map.getCenter();
-      const params = new URLSearchParams(window.location.search);
-      params.set('lat', center.lat.toFixed(6));
-      params.set('lng', center.lng.toFixed(6));
-      params.set('zoom', zoom.toFixed(2));
+      // Debounce URL updates to avoid interfering with touch events on mobile
+      if (urlUpdateTimerRef.current) {
+        clearTimeout(urlUpdateTimerRef.current);
+      }
 
-      // Use replaceState to avoid cluttering browser history
-      const newUrl = `${window.location.pathname}?${params.toString()}`;
-      window.history.replaceState({}, '', newUrl);
+      urlUpdateTimerRef.current = setTimeout(() => {
+        const center = map.getCenter();
+        const params = new URLSearchParams(window.location.search);
+        params.set('lat', center.lat.toFixed(6));
+        params.set('lng', center.lng.toFixed(6));
+        params.set('zoom', zoom.toFixed(2));
+
+        // Use replaceState to avoid cluttering browser history
+        const newUrl = `${window.location.pathname}?${params.toString()}`;
+        window.history.replaceState({}, '', newUrl);
+      }, 500); // Wait 500ms after user stops moving before updating URL
     }
   };
 
@@ -602,7 +611,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
             anchor="top"
             offset={[0, 12]}
           >
-            <div className="relative flex items-center justify-center">
+            <div className="relative flex items-center justify-center" style={{ pointerEvents: 'none' }}>
               {/* Wave animation for active stops */}
               {isActive && (
                 <>
@@ -612,7 +621,8 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
               )}
 
               <div
-                onClick={(e) => {
+                onPointerDown={(e) => {
+                  // Use pointerdown instead of click for better mobile response
                   e.stopPropagation();
                   setPopupInfo(point);
                 }}
