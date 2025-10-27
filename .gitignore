@@ -42,10 +42,6 @@ public/taichung-trash-collection-points.json
 data/*.csv
 data/*-metadata.json
 data/*-manifest.json
-
-# Keep the final geocoded data (commit these)
-!data/taichung-geocoded.json
-!data/taichung-geocode-lookup.json
-!data/taichung-geocoding-failed.json
+data/*.json
 
 dev-dist
