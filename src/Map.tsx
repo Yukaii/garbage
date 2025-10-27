@@ -16,6 +16,22 @@ import { Layers, Locate, Navigation, Route, X } from 'lucide-react';
 import RouteSelector from './RouteSelector';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
+// Hook to detect if user is on desktop
+function useIsDesktop() {
+  const [isDesktop, setIsDesktop] = useState(() => window.innerWidth >= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return isDesktop;
+}
+
 interface MapComponentProps {
   points: UnifiedTrashCollectionPoint[];
   darkMode: boolean;
@@ -29,9 +45,11 @@ interface MapComponentProps {
 type MapStyleType = 'street' | 'satellite';
 
 // Minimum zoom level required to show time labels
-const MIN_LABEL_ZOOM = 17;
+const MIN_LABEL_ZOOM_DESKTOP = 16.5;
+const MIN_LABEL_ZOOM_MOBILE = 17;
 
 export default function MapComponent({ points, darkMode, onMapLoaded, selectedRoute, onRouteSelect, onViewportChange, currentTimeMinutes: propCurrentTimeMinutes }: MapComponentProps) {
+  const isDesktop = useIsDesktop();
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<UnifiedTrashCollectionPoint | null>(null);
   const [mapStyleType, setMapStyleType] = useState<MapStyleType>('street');
@@ -82,7 +100,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         // Fly to user location on first load
         mapRef.current?.flyTo({
           center: [longitude, latitude],
-          zoom: MIN_LABEL_ZOOM,
+          zoom: isDesktop ? MIN_LABEL_ZOOM_DESKTOP : MIN_LABEL_ZOOM_MOBILE,
           duration: 1200,
           essential: true,
         });
@@ -226,8 +244,11 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       return filteredPoints;
     }
 
+    // Determine minimum zoom based on device type
+    const minZoom = isDesktop ? MIN_LABEL_ZOOM_DESKTOP : MIN_LABEL_ZOOM_MOBILE;
+
     // Otherwise, only show at close zoom levels
-    if (!viewportBounds || currentZoom < MIN_LABEL_ZOOM) return [];
+    if (!viewportBounds || currentZoom < minZoom) return [];
 
     return filteredPoints.filter((point) => {
       const lat = parseFloat(point.latitude);
@@ -239,7 +260,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         lng <= viewportBounds.east
       );
     });
-  }, [filteredPoints, viewportBounds, currentZoom, selectedRoute]);
+  }, [filteredPoints, viewportBounds, currentZoom, selectedRoute, isDesktop]);
 
   // Cluster layer styles - monotone black/gray design (memoized to prevent re-renders)
   const clusterLayer: CircleLayer = useMemo(() => ({
@@ -411,7 +432,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         setUserLocation({ lng: longitude, lat: latitude });
         mapRef.current?.flyTo({
           center: [longitude, latitude],
-          zoom: MIN_LABEL_ZOOM,
+          zoom: isDesktop ? MIN_LABEL_ZOOM_DESKTOP : MIN_LABEL_ZOOM_MOBILE,
           duration: 800,
           essential: true,
         });
