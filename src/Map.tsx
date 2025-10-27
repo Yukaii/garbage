@@ -861,78 +861,6 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       </div>
     )}
 
-    {/* Map Controls Container */}
-    <div className="absolute left-[10px] top-[10px] md:top-[54px] flex flex-col gap-2 z-10"
-      style={{
-        // On mobile: top-[10px] (no sidebar button)
-        // On desktop (md+): top-[54px] (10px + 36px button + 8px gap)
-      }}
-    >
-      {/* Layer Toggle Button */}
-      <button
-        onClick={toggleMapStyle}
-        style={{
-          width: '36px',
-          height: '36px',
-          borderRadius: '6px',
-          border: darkMode ? '1px solid #404040' : '1px solid #d4d4d4',
-          backgroundColor: darkMode ? '#000' : '#fff',
-          color: darkMode ? '#fff' : '#000',
-          cursor: 'pointer',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-          transition: 'all 0.2s',
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.borderColor = darkMode ? '#fff' : '#000';
-          e.currentTarget.style.backgroundColor = darkMode ? '#1a1a1a' : '#f5f5f5';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.borderColor = darkMode ? '#404040' : '#d4d4d4';
-          e.currentTarget.style.backgroundColor = darkMode ? '#000' : '#fff';
-        }}
-        title={mapStyleType === 'street' ? '切換至衛星圖' : '切換至街道圖'}
-      >
-        <Layers size={18} />
-      </button>
-
-      {/* Geolocation Button */}
-      <button
-        onClick={handleLocate}
-        disabled={isLocating}
-        style={{
-          width: '36px',
-          height: '36px',
-          borderRadius: '6px',
-          border: darkMode ? '1px solid #404040' : '1px solid #d4d4d4',
-          backgroundColor: darkMode ? '#000' : '#fff',
-          color: darkMode ? '#fff' : '#000',
-          cursor: isLocating ? 'wait' : 'pointer',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-          transition: 'all 0.2s',
-          opacity: isLocating ? 0.6 : 1,
-        }}
-        onMouseEnter={(e) => {
-          if (!isLocating) {
-            e.currentTarget.style.borderColor = darkMode ? '#fff' : '#000';
-            e.currentTarget.style.backgroundColor = darkMode ? '#1a1a1a' : '#f5f5f5';
-          }
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.borderColor = darkMode ? '#404040' : '#d4d4d4';
-          e.currentTarget.style.backgroundColor = darkMode ? '#000' : '#fff';
-        }}
-        title="定位到我的位置"
-      >
-        <Locate size={18} className={isLocating ? 'animate-pulse' : ''} />
-      </button>
-    </div>
-
     {/* Route Selector */}
     {onRouteSelect && (
       <RouteSelector
@@ -941,6 +869,10 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         onRouteSelect={onRouteSelect}
         darkMode={darkMode}
         viewportBounds={viewportBounds}
+        mapStyleType={mapStyleType}
+        onMapStyleToggle={toggleMapStyle}
+        onLocateClick={handleLocate}
+        isLocating={isLocating}
       />
     )}
   </div>

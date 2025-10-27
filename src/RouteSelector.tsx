@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Route, X, ChevronRight, ChevronLeft, ChevronDown, ChevronUp, Eye, EyeOff } from 'lucide-react';
+import { Route, X, ChevronRight, ChevronLeft, ChevronDown, ChevronUp, Eye, EyeOff, Layers, Locate } from 'lucide-react';
 import type { UnifiedTrashCollectionPoint } from './types';
 import { groupPointsIntoRoutes } from './api';
 
@@ -14,6 +14,10 @@ interface RouteSelectorProps {
     east: number;
     west: number;
   } | null;
+  mapStyleType?: 'street' | 'satellite';
+  onMapStyleToggle?: () => void;
+  onLocateClick?: () => void;
+  isLocating?: boolean;
 }
 
 export default function RouteSelector({
@@ -22,10 +26,46 @@ export default function RouteSelector({
   onRouteSelect,
   darkMode,
   viewportBounds,
+  mapStyleType,
+  onMapStyleToggle,
+  onLocateClick,
+  isLocating = false,
 }: RouteSelectorProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
   const [showVisibleOnly, setShowVisibleOnly] = useState(true); // Show visible routes by default
+
+  // Common map control buttons component
+  const MapControlButtons = ({ className = '' }: { className?: string }) => (
+    <>
+      {/* Layer Toggle Button */}
+      {onMapStyleToggle && (
+        <button
+          onClick={onMapStyleToggle}
+          className={`flex h-9 w-9 cursor-pointer items-center justify-center rounded-md border border-neutral-300 bg-white text-neutral-700 shadow-md transition-all hover:border-neutral-400 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-black dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:bg-neutral-900 ${className}`}
+          title={mapStyleType === 'street' ? '切換至衛星圖' : '切換至街道圖'}
+        >
+          <Layers size={18} />
+        </button>
+      )}
+
+      {/* Geolocation Button */}
+      {onLocateClick && (
+        <button
+          onClick={onLocateClick}
+          disabled={isLocating}
+          className={`flex h-9 w-9 items-center justify-center rounded-md border border-neutral-300 bg-white text-neutral-700 shadow-md transition-all dark:border-neutral-700 dark:bg-black dark:text-neutral-300 ${
+            isLocating
+              ? 'cursor-wait opacity-60'
+              : 'cursor-pointer hover:border-neutral-400 hover:bg-neutral-50 dark:hover:border-neutral-600 dark:hover:bg-neutral-900'
+          } ${className}`}
+          title="定位到我的位置"
+        >
+          <Locate size={18} className={isLocating ? 'animate-pulse' : ''} />
+        </button>
+      )}
+    </>
+  );
 
   // Group points into routes and create route list
   const allRoutes = useMemo(() => {
@@ -76,22 +116,29 @@ export default function RouteSelector({
   // Desktop Sidebar
   const DesktopSidebar = () => (
     <div
-      className={`hidden md:block absolute left-0 top-0 h-full transition-all duration-300 z-10 ${
-        isExpanded ? 'w-80' : 'w-12'
+      className={`hidden md:block absolute left-0 top-0 h-full transition-all duration-300 group ${
+        isExpanded ? 'w-80 is-expanded' : 'w-12'
       }`}
+      style={{ zIndex: 10, pointerEvents: 'none' }}
     >
-      {/* Toggle Button */}
-      <button
-        onClick={() => setIsExpanded(!isExpanded)}
-        className="absolute left-[10px] top-[10px] z-20 flex h-9 w-9 items-center justify-center rounded-md border border-neutral-300 bg-white text-neutral-700 shadow-md transition-all hover:border-neutral-400 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-black dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:bg-neutral-900"
-        aria-label={isExpanded ? 'Close routes sidebar' : 'Open routes sidebar'}
-      >
-        {isExpanded ? <ChevronLeft className="h-5 w-5" /> : <ChevronRight className="h-5 w-5" />}
-      </button>
+      {/* Map Controls */}
+      <div className="absolute left-[10px] top-[10px] z-20 flex flex-col gap-2" style={{ pointerEvents: 'auto' }}>
+        {/* Sidebar Toggle Button - Only visible on desktop */}
+        <button
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="hidden md:flex h-9 w-9 cursor-pointer items-center justify-center rounded-md border border-neutral-300 bg-white text-neutral-700 shadow-md transition-all hover:border-neutral-400 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-black dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:bg-neutral-900"
+          aria-label={isExpanded ? 'Close routes sidebar' : 'Open routes sidebar'}
+        >
+          {isExpanded ? <ChevronLeft className="h-5 w-5" /> : <ChevronRight className="h-5 w-5" />}
+        </button>
+
+        {/* Map control buttons - hidden on desktop when sidebar is expanded */}
+        <MapControlButtons className="group-[.is-expanded]:md:hidden" />
+      </div>
 
       {/* Sidebar Content */}
       {isExpanded && (
-        <div className="h-full w-full border-r border-neutral-200 bg-white/95 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 shadow-lg flex flex-col">
+        <div className="h-full w-full border-r border-neutral-200 bg-white/95 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 shadow-lg flex flex-col" style={{ pointerEvents: 'auto' }}>
           <div className="border-b border-neutral-200 px-4 py-3 pt-14 dark:border-neutral-800">
             <div className="flex items-center gap-2 mb-3">
               <Route className="h-5 w-5 text-neutral-700 dark:text-neutral-300" />
@@ -265,6 +312,11 @@ export default function RouteSelector({
     <>
       <DesktopSidebar />
       <MobileBottomSheet />
+
+      {/* Mobile Map Controls - Always visible on mobile */}
+      <div className="md:hidden absolute left-[10px] top-[10px] z-20 flex flex-col gap-2">
+        <MapControlButtons />
+      </div>
     </>
   );
 }
