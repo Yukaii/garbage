@@ -1,43 +1,35 @@
 import { CityDataAdapter } from './BaseAdapter';
-import type { UnifiedTrashCollectionPoint } from '../../types';
-
-/**
- * Taichung City raw data structure
- * Source: datacenter.taichung.gov.tw
- */
-export interface TaichungTrashVehicle {
-  lineid: string;        // Line ID
-  car: string;           // Vehicle plate number (e.g., "KED-1385")
-  time: string;          // Timestamp: YYYYMMDDTHHMMSS (e.g., "20251023T221604")
-  location: string;      // Location name in Chinese
-  X: string;             // Longitude (as string)
-  Y: string;             // Latitude (as string)
-  SpeedValue: string;    // Speed value (as string)
-  OverSpeed: string;     // "Y" or "N"
-}
+import type { TaichungTrashCollectionPoint, UnifiedTrashCollectionPoint } from '../../types';
 
 /**
  * Adapter for Taichung City (台中市) trash collection data
  *
- * Data Source: datacenter.taichung.gov.tw Open Data API
- * - Static pre-fetched JSON file (updated monthly via GitHub Actions)
- * - Direct array format
- * - Coordinates named X/Y instead of longitude/latitude
- * - Timestamp format: YYYYMMDDTHHMMSS
- * - Vehicle-centric data (GPS position snapshots)
+ * Data Source: Merged from two sources:
+ * 1. Schedule data from datacenter.taichung.gov.tw API
+ *    - Collection times (arrival/departure)
+ *    - Route information (vehicle license)
+ *    - District, village, location
+ * 2. Geocoded coordinates from TGOS batch geocoding
+ *    - WGS84 longitude/latitude
  *
- * NOTE: This is fundamentally different from Taipei/New Taipei:
- * - Vehicle positions (not scheduled collection points)
- * - Each record is a vehicle's snapshot location
- * - "arrivalTime" and "departureTime" are derived from timestamp
+ * Data Structure:
+ * - Static pre-fetched JSON file (updated monthly)
+ * - Each record is a collection point with schedule
+ * - Supports both garbage and recycling collection
+ * - Day-specific schedules (1-7 for Monday-Sunday)
+ *
+ * Notes:
+ * - Taichung has different collection times for different days
+ * - Each location may appear multiple times (different days/types)
+ * - Filter by current day of week for accurate real-time display
  */
-export class TaichungAdapter extends CityDataAdapter<TaichungTrashVehicle> {
+export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoint> {
   readonly cityId = 'taichung';
   readonly displayName = '台中市';
   readonly dataUrl = '/taichung-trash-collection-points.json';
   readonly dataType = 'static' as const;
 
-  // Taichung city boundaries (approximate - extract from Taiwan TopoJSON if needed)
+  // Taichung city boundaries (extracted from Taiwan TopoJSON)
   readonly bounds = {
     north: 24.3647,
     south: 24.0097,
@@ -45,60 +37,53 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashVehicle> {
     west: 120.5608,
   };
 
-  async fetchRawData(): Promise<TaichungTrashVehicle[]> {
-    return this.fetchJson<TaichungTrashVehicle[]>(this.dataUrl);
+  async fetchRawData(): Promise<TaichungTrashCollectionPoint[]> {
+    return this.fetchJson<TaichungTrashCollectionPoint[]>(this.dataUrl);
   }
 
-  mapToUnified(vehicle: TaichungTrashVehicle): UnifiedTrashCollectionPoint {
-    // Parse timestamp: YYYYMMDDTHHMMSS -> extract time as HHMM
-    const timestamp = vehicle.time;
-    const timeStr = timestamp.split('T')[1]; // Get HHMMSS part
-    const arrivalTime = timeStr.slice(0, 4); // HHMM
-
-    // For real-time data, arrival and departure are the same (current position)
-    const departureTime = arrivalTime;
+  mapToUnified(point: TaichungTrashCollectionPoint): UnifiedTrashCollectionPoint {
+    // Generate unique ID: route-location-day-type
+    const locationKey = point.location.replace(/[^a-zA-Z0-9]/g, '');
+    const id = `taichung-${point.route}-${locationKey}-d${point.dayOfWeek}-${point.collectionType}`;
 
     return {
-      id: `taichung-${vehicle.car}-${timestamp}`,
+      id,
       city: this.displayName,
-      district: this.extractDistrictFromLocation(vehicle.location),
-      village: '', // Not available in real-time data
-      location: vehicle.location,
-      route: vehicle.lineid,
-      arrivalTime,
-      departureTime,
-      longitude: vehicle.X,
-      latitude: vehicle.Y,
-      source: 'taichung' as any, // Will need to update UnifiedTrashCollectionPoint type
+      district: point.area,
+      village: point.village,
+      location: point.location,
+      route: point.route,
+      arrivalTime: point.arrivalTime,
+      departureTime: point.departureTime,
+      longitude: point.longitude,
+      latitude: point.latitude,
+      source: 'taichung',
     };
   }
 
   /**
-   * Extract district name from location string
-   * Taichung locations often contain district names like "龍井區..."
-   */
-  private extractDistrictFromLocation(location: string): string {
-    const districtMatch = location.match(/^(.+?區)/);
-    return districtMatch ? districtMatch[1] : '';
-  }
-
-  /**
-   * Post-process: Remove duplicate vehicles (keep only latest position)
+   * Post-process: Filter by current day of week
+   * Only show collection points for today to avoid duplicate markers
    */
   postprocessData(unified: UnifiedTrashCollectionPoint[]): UnifiedTrashCollectionPoint[] {
-    // Group by vehicle (extract car number from id)
-    const latestPositions = new Map<string, UnifiedTrashCollectionPoint>();
+    // Get current day of week (1 = Monday, 7 = Sunday)
+    const now = new Date();
+    const currentDay = now.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+    const taichungDay = currentDay === 0 ? 7 : currentDay; // Convert to 1-7 format
 
-    for (const point of unified) {
-      const vehicleId = point.id.split('-')[1]; // Extract "KED-1385" from "taichung-KED-1385-20251023T221604"
+    // Filter to only show today's collection points
+    // This prevents duplicate markers at the same location
+    const filtered = unified.filter(point => {
+      // Extract dayOfWeek from the ID (format: taichung-ROUTE-LOCATION-dN-TYPE)
+      const match = point.id.match(/-d(\d)-/);
+      if (!match) return false;
 
-      // Keep only the latest timestamp for each vehicle
-      const existing = latestPositions.get(vehicleId);
-      if (!existing || point.id > existing.id) {
-        latestPositions.set(vehicleId, point);
-      }
-    }
+      const pointDay = parseInt(match[1]);
+      return pointDay === taichungDay;
+    });
 
-    return Array.from(latestPositions.values());
+    console.log(`TaichungAdapter: Filtered ${unified.length} points → ${filtered.length} points for day ${taichungDay}`);
+
+    return filtered;
   }
 }

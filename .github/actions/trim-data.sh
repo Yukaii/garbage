@@ -64,4 +64,31 @@ echo "  Records: $RECORD_COUNT"
 mv public/new-taipei-trash-collection-points.tmp.json public/new-taipei-trash-collection-points.json
 
 echo ""
+echo "Trimming Taichung City data..."
+cat public/taichung-trash-collection-points.json | jq '[.[] | {
+  area,
+  village,
+  route,
+  location,
+  arrivalTime,
+  departureTime,
+  longitude,
+  latitude,
+  dayOfWeek,
+  collectionType
+}]' > public/taichung-trash-collection-points.tmp.json
+
+# Get file sizes
+ORIGINAL_SIZE=$(du -h public/taichung-trash-collection-points.json | cut -f1)
+NEW_SIZE=$(du -h public/taichung-trash-collection-points.tmp.json | cut -f1)
+RECORD_COUNT=$(jq 'length' public/taichung-trash-collection-points.tmp.json)
+
+echo "Taichung City:"
+echo "  Original: $ORIGINAL_SIZE"
+echo "  Trimmed: $NEW_SIZE"
+echo "  Records: $RECORD_COUNT"
+
+mv public/taichung-trash-collection-points.tmp.json public/taichung-trash-collection-points.json
+
+echo ""
 echo "Done! Files trimmed successfully."

@@ -65,10 +65,25 @@ export interface NewTaipeiTrashCollectionPoint {
   foodscrapssaturday: string;
 }
 
+// Taichung City data structure (merged from schedule + geocoded)
+export interface TaichungTrashCollectionPoint {
+  area: string; // District (區)
+  village: string; // Village (里)
+  route: string; // Vehicle license (KEQ-0315)
+  location: string; // Location address
+  type: string; // 定點 (fixed point) or 沿街 (street route)
+  arrivalTime: string; // Start time (HHMM)
+  departureTime: string; // End time (HHMM)
+  longitude: string;
+  latitude: string;
+  collectionType: 'garbage' | 'recycling';
+  dayOfWeek: number; // 1-7 (Monday-Sunday)
+}
+
 // Unified data structure for the app
 export interface UnifiedTrashCollectionPoint {
   id: string;
-  city: string; // City name (台北市/新北市)
+  city: string; // City name (台北市/新北市/台中市)
   district: string; // District/區
   village: string; // Village/里 (may be empty for real-time data)
   location: string; // Location name
@@ -77,7 +92,7 @@ export interface UnifiedTrashCollectionPoint {
   departureTime: string; // Format: HHMM for internal use
   longitude: string;
   latitude: string;
-  source: 'taipei' | 'new-taipei'; // | 'taichung';
+  source: 'taipei' | 'new-taipei' | 'taichung';
 }
 
 // Legacy alias for backward compatibility
@@ -92,5 +107,5 @@ export interface RouteInfo {
   district: string; // District
   pointCount: number; // Number of stops
   points: UnifiedTrashCollectionPoint[]; // Ordered stops
-  source: 'taipei' | 'new-taipei'; // | 'taichung';
+  source: 'taipei' | 'new-taipei' | 'taichung';
 }

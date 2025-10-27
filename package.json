@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "dump-data": "git show data:trash-collection-points.json > public/trash-collection-points.json && git show data:new-taipei-trash-collection-points.json > public/new-taipei-trash-collection-points.json && echo 'Data dumped to public/'"
+    "dump-data": "bash scripts/dump-data.sh"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.15",
