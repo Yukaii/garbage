@@ -862,10 +862,10 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     )}
 
     {/* Map Controls Container */}
-    <div className="absolute left-[10px] top-[10px] md:top-[60px] flex flex-col gap-2 z-10"
+    <div className="absolute left-[10px] top-[10px] md:top-[54px] flex flex-col gap-2 z-10"
       style={{
         // On mobile: top-[10px] (no sidebar button)
-        // On desktop (md+): top-[60px] (avoid sidebar button overlap)
+        // On desktop (md+): top-[54px] (10px + 36px button + 8px gap)
       }}
     >
       {/* Layer Toggle Button */}
@@ -874,7 +874,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         style={{
           width: '36px',
           height: '36px',
-          borderRadius: '4px',
+          borderRadius: '6px',
           border: darkMode ? '1px solid #404040' : '1px solid #d4d4d4',
           backgroundColor: darkMode ? '#000' : '#fff',
           color: darkMode ? '#fff' : '#000',
@@ -905,7 +905,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         style={{
           width: '36px',
           height: '36px',
-          borderRadius: '4px',
+          borderRadius: '6px',
           border: darkMode ? '1px solid #404040' : '1px solid #d4d4d4',
           backgroundColor: darkMode ? '#000' : '#fff',
           color: darkMode ? '#fff' : '#000',
