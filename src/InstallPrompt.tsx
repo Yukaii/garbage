@@ -105,7 +105,7 @@ export function InstallPrompt() {
   }
 
   return (
-    <div className="fixed bottom-4 left-4 right-4 z-[1000] mx-auto max-w-md animate-slide-up">
+    <div className="fixed bottom-4 left-4 right-4 z-[1000] mx-auto max-w-md animate-slide-up" style={{ paddingLeft: 'env(safe-area-inset-left)', paddingRight: 'env(safe-area-inset-right)', paddingBottom: 'env(safe-area-inset-bottom)' }}>
       <div className="rounded-lg border border-neutral-300 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900">
         <button
           onClick={handleDismiss}

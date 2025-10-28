@@ -235,7 +235,7 @@ function App() {
       <a href="#main-content" className="skip-link">
         跳至主要內容
       </a>
-      <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 px-4 py-2 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 md:px-6 md:py-3 lg:px-8">
+      <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 px-4 py-2 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 md:px-6 md:py-3 lg:px-8" style={{ paddingTop: 'max(0.5rem, env(safe-area-inset-top))', paddingLeft: 'max(1rem, env(safe-area-inset-left))', paddingRight: 'max(1rem, env(safe-area-inset-right))' }}>
         <div className="flex items-center justify-between gap-2 md:gap-3">
           <div className="flex min-w-0 flex-1 items-center gap-2">
             <Logo size={32} className="shrink-0 text-black dark:text-white" />
@@ -335,8 +335,8 @@ function App() {
         </div>
       </header>
 
-      <main id="main-content" className="flex-1 flex flex-col min-h-0">
-        <section className="relative flex-1 min-h-[320px] overflow-hidden">
+      <main id="main-content" className="flex-1 flex flex-col min-h-0" style={{ paddingLeft: 'env(safe-area-inset-left)', paddingRight: 'env(safe-area-inset-right)' }}>
+        <section className="relative flex-1 min-h-[320px] overflow-hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}>
           {/* Full-screen loading only on initial load */}
           {initialLoading && (
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-black z-50 h-full w-full">
@@ -368,7 +368,7 @@ function App() {
 
       {/* Ad Section - Mobile and Desktop */}
       {import.meta.env.VITE_ADSENSE_CLIENT_ID && import.meta.env.VITE_ADSENSE_SLOT_ID && (
-        <aside className="border-t border-neutral-200 bg-neutral-50 px-4 py-3 dark:border-neutral-800 dark:bg-neutral-950">
+        <aside className="border-t border-neutral-200 bg-neutral-50 px-4 py-3 dark:border-neutral-800 dark:bg-neutral-950" style={{ paddingLeft: 'max(1rem, env(safe-area-inset-left))', paddingRight: 'max(1rem, env(safe-area-inset-right))' }}>
           <div className="mx-auto max-w-5xl">
             <div className="mb-2 text-center text-[10px] text-neutral-500 dark:text-neutral-500">
               廣告
@@ -384,7 +384,7 @@ function App() {
         </aside>
       )}
 
-      <footer className="hidden border-t border-neutral-200 bg-neutral-100 px-4 py-3 text-[11px] text-neutral-600 dark:border-neutral-900 dark:bg-neutral-950 dark:text-neutral-400 md:px-6 md:py-4 md:text-xs lg:px-8 md:block">
+      <footer className="hidden border-t border-neutral-200 bg-neutral-100 px-4 py-3 text-[11px] text-neutral-600 dark:border-neutral-900 dark:bg-neutral-950 dark:text-neutral-400 md:px-6 md:py-4 md:text-xs lg:px-8 md:block" style={{ paddingLeft: 'max(1rem, env(safe-area-inset-left))', paddingRight: 'max(1rem, env(safe-area-inset-right))', paddingBottom: 'max(0.75rem, env(safe-area-inset-bottom))' }}>
         <div className="mx-auto flex flex-wrap items-center justify-between gap-2">
           <span>
             資料來源：台北市、新北市與台中市政府開放資料平台。
