@@ -122,7 +122,7 @@ export default function RouteSelector({
       style={{ zIndex: 10, pointerEvents: 'none' }}
     >
       {/* Map Controls */}
-      <div className="absolute left-[10px] top-[10px] z-20 flex flex-col gap-2" style={{ pointerEvents: 'auto' }}>
+      <div className="absolute left-[10px] z-20 flex flex-col gap-2" style={{ top: `10px`, pointerEvents: 'auto' }}>
         {/* Sidebar Toggle Button - Only visible on desktop */}
         <button
           onClick={() => setIsExpanded(!isExpanded)}
@@ -314,7 +314,7 @@ export default function RouteSelector({
       <MobileBottomSheet />
 
       {/* Mobile Map Controls - Always visible on mobile */}
-      <div className="md:hidden absolute left-[10px] top-[10px] z-20 flex flex-col gap-2">
+      <div className="md:hidden absolute left-[10px] z-20 flex flex-col gap-2" style={{ top: `10px` }}>
         <MapControlButtons />
       </div>
     </>
