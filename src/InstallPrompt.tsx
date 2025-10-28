@@ -106,40 +106,40 @@ export function InstallPrompt() {
 
   return (
     <div className="fixed bottom-4 left-4 right-4 z-[1000] mx-auto max-w-md animate-slide-up">
-      <div className="rounded-xl border border-green-200 bg-gradient-to-br from-green-50 to-emerald-50 p-4 shadow-2xl dark:border-green-800 dark:from-green-950 dark:to-emerald-950">
+      <div className="rounded-lg border border-neutral-300 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900">
         <button
           onClick={handleDismiss}
-          className="absolute right-2 top-2 rounded-md p-1 text-green-600 transition-colors hover:bg-green-100 dark:text-green-400 dark:hover:bg-green-900"
+          className="absolute right-2 top-2 rounded-md p-1 text-neutral-400 transition-colors hover:text-black dark:text-neutral-500 dark:hover:text-white"
           aria-label="關閉安裝提示"
         >
           <X className="h-4 w-4" />
         </button>
 
         <div className="mb-3 flex items-start gap-3">
-          <div className="rounded-lg bg-green-500 p-2 text-white shadow-md dark:bg-green-600">
-            <Smartphone className="h-6 w-6" />
+          <div className="rounded-lg bg-sky-500 p-2.5 text-white shadow-sm dark:bg-sky-600">
+            <Smartphone className="h-5 w-5" />
           </div>
-          <div className="flex-1">
-            <h3 className="text-base font-bold text-green-900 dark:text-green-100">
+          <div className="flex-1 pr-6">
+            <h3 className="text-sm font-semibold text-black dark:text-white">
               安裝到主畫面
             </h3>
-            <p className="mt-1 text-sm text-green-700 dark:text-green-300">
-              快速啟動、離線使用、接收更新通知
+            <p className="mt-0.5 text-xs text-neutral-600 dark:text-neutral-400">
+              獲得更好的使用體驗
             </p>
           </div>
         </div>
 
-        <div className="mb-3 space-y-2 text-xs text-green-600 dark:text-green-400">
+        <div className="mb-3 space-y-1.5 rounded-md border border-neutral-200 bg-neutral-50 p-3 text-xs text-neutral-700 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-300">
           <div className="flex items-center gap-2">
-            <span className="text-green-500 dark:text-green-500">✓</span>
+            <span className="text-sky-500 dark:text-sky-400">✓</span>
             <span>一鍵啟動，無需開啟瀏覽器</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-green-500 dark:text-green-500">✓</span>
+            <span className="text-sky-500 dark:text-sky-400">✓</span>
             <span>離線瀏覽收集點資訊</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-green-500 dark:text-green-500">✓</span>
+            <span className="text-sky-500 dark:text-sky-400">✓</span>
             <span>全螢幕體驗，介面更簡潔</span>
           </div>
         </div>
@@ -148,11 +148,11 @@ export function InstallPrompt() {
           <button
             onClick={handleInstall}
             disabled={isInstalling}
-            className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-green-600 px-4 py-3 text-sm font-semibold text-white shadow-md transition-all hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-green-500 dark:hover:bg-green-600"
+            className="flex flex-1 items-center justify-center gap-2 rounded-md border border-black bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-neutral-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500 disabled:cursor-not-allowed disabled:opacity-50 dark:border-white dark:bg-white dark:text-black dark:hover:bg-neutral-200"
           >
             {isInstalling ? (
               <>
-                <div className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
+                <div className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent dark:border-black dark:border-t-transparent" />
                 <span>安裝中...</span>
               </>
             ) : (
@@ -164,13 +164,13 @@ export function InstallPrompt() {
           </button>
           <button
             onClick={handleDismiss}
-            className="rounded-lg border border-green-300 bg-white px-4 py-3 text-sm font-medium text-green-700 transition-colors hover:bg-green-50 dark:border-green-700 dark:bg-green-950 dark:text-green-300 dark:hover:bg-green-900"
+            className="rounded-md border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-black transition-colors hover:border-black hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:border-white dark:hover:bg-neutral-800"
           >
             稍後
           </button>
         </div>
 
-        <p className="mt-3 text-center text-[10px] text-green-600 dark:text-green-500">
+        <p className="mt-3 text-center text-[10px] text-neutral-500 dark:text-neutral-500">
           適用於 Android Chrome、Edge 與 Samsung 瀏覽器
         </p>
       </div>
