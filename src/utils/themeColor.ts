@@ -6,12 +6,17 @@
 const LIGHT_THEME_COLOR = '#ffffff';
 const DARK_THEME_COLOR = '#111827';
 
+const LIGHT_BG_COLOR = '#ffffff'; // white
+const DARK_BG_COLOR = '#000000'; // black
+
 /**
  * Updates the theme-color meta tag to match the current theme
  * This is especially important for iOS Safari status bar appearance
+ * Also syncs html/body background colors for seamless appearance
  */
 export function updateThemeColor(isDarkMode: boolean): void {
   const color = isDarkMode ? DARK_THEME_COLOR : LIGHT_THEME_COLOR;
+  const bgColor = isDarkMode ? DARK_BG_COLOR : LIGHT_BG_COLOR;
 
   // Update all theme-color meta tags
   const metaTags = document.querySelectorAll('meta[name="theme-color"]');
@@ -34,6 +39,11 @@ export function updateThemeColor(isDarkMode: boolean): void {
   if (tileMeta) {
     (tileMeta as HTMLMetaElement).content = color;
   }
+
+  // Sync html and body background colors for seamless theme appearance
+  // This prevents white flashes on iOS PWA and ensures consistent background
+  document.documentElement.style.backgroundColor = bgColor;
+  document.body.style.backgroundColor = bgColor;
 }
 
 /**
