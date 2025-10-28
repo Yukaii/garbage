@@ -19,6 +19,7 @@ import './App.css';
 import AboutModal from './AboutModal';
 import AdSense from './AdSense';
 import { Logo } from './Logo';
+import { updateThemeColor, initializeThemeColor } from './utils/themeColor';
 
 function App() {
   const [points, setPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
@@ -73,10 +74,18 @@ function App() {
   // Data updating state: show subtle indicator instead of blocking UI
   const isUpdatingData = !dataLoaded;
 
+  // Initialize theme color on mount
+  useEffect(() => {
+    initializeThemeColor();
+  }, []);
+
   useEffect(() => {
     // Save dark mode preference and update document class
     localStorage.setItem('darkMode', darkMode.toString());
     document.documentElement.classList.toggle('dark', darkMode);
+
+    // Update theme-color meta tag for iOS/Android status bar
+    updateThemeColor(darkMode);
   }, [darkMode]);
 
   useEffect(() => {
