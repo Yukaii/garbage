@@ -2,12 +2,13 @@ import { CityDataAdapter } from './adapters/BaseAdapter';
 import { TaipeiAdapter } from './adapters/TaipeiAdapter';
 import { NewTaipeiAdapter } from './adapters/NewTaipeiAdapter';
 import { TaichungAdapter } from './adapters/TaichungAdapter';
+import { KaohsiungAdapter } from './adapters/KaohsiungAdapter';
 
 /**
  * City identifier type
  * Add new city IDs here when expanding support
  */
-export type City = 'taipei' | 'new-taipei' | 'taichung';
+export type City = 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';
 
 /**
  * Central registry of all supported cities
@@ -28,6 +29,7 @@ class CityRegistry {
     this.register(new TaipeiAdapter());
     this.register(new NewTaipeiAdapter());
     this.register(new TaichungAdapter());
+    this.register(new KaohsiungAdapter());
   }
 
   /**

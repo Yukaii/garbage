@@ -39,14 +39,37 @@ async function parseCSV(filePath: string): Promise<TGOSResult[]> {
   const results: TGOSResult[] = [];
 
   for (const line of dataLines) {
-    // Parse CSV (handle quoted fields)
-    const match = line.match(/^(\d+),"([^"]+)","?([^"]*)"?,?([^,]*),?([^,]*)$/);
-    if (!match) {
-      console.warn(`  ⚠ Failed to parse line: ${line.substring(0, 50)}...`);
+    // Parse CSV properly
+    // Format: id,Address,Response_Address,Response_X,Response_Y
+    // Fields may or may not be quoted, and can contain commas/semicolons
+
+    const fields = [];
+    let current = '';
+    let inQuotes = false;
+
+    for (let i = 0; i < line.length; i++) {
+      const char = line[i];
+      if (char === '"') {
+        inQuotes = !inQuotes;
+      } else if (char === ',' && !inQuotes) {
+        fields.push(current);
+        current = '';
+      } else {
+        current += char;
+      }
+    }
+    fields.push(current);
+
+    if (fields.length < 3) {
+      console.warn(`  ⚠ Failed to parse line (${fields.length} fields): ${line.substring(0, 80)}...`);
       continue;
     }
 
-    const [, id, rawAddress, responseAddress, x, y] = match;
+    const id = fields[0].trim();
+    const rawAddress = fields[1].trim();
+    const responseAddress = fields[2] ? fields[2].trim() : '';
+    const x = fields[3] ? fields[3].trim() : '';
+    const y = fields[4] ? fields[4].trim() : '';
 
     // Normalize address (convert 、 back to , if it was cleaned for TGOS)
     const address = normalizeAddress(rawAddress);
@@ -54,9 +77,9 @@ async function parseCSV(filePath: string): Promise<TGOSResult[]> {
     results.push({
       id,
       address,
-      responseAddress: responseAddress || '',
-      x: x || '',
-      y: y || '',
+      responseAddress,
+      x,
+      y,
     });
   }
 
