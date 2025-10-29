@@ -167,6 +167,30 @@
   filter: invert(1) brightness(1.1);
 }
 
+/* Fix for iOS safe area - bottom-right controls */
+.maplibregl-ctrl-bottom-right {
+  bottom: max(10px, env(safe-area-inset-bottom)) !important;
+  right: max(10px, env(safe-area-inset-right)) !important;
+}
+
+/* Fix for iOS safe area - bottom-left controls */
+.maplibregl-ctrl-bottom-left {
+  bottom: max(10px, env(safe-area-inset-bottom)) !important;
+  left: max(10px, env(safe-area-inset-left)) !important;
+}
+
+/* Fix for iOS safe area - top-right controls */
+.maplibregl-ctrl-top-right {
+  top: max(10px, env(safe-area-inset-top)) !important;
+  right: max(10px, env(safe-area-inset-right)) !important;
+}
+
+/* Fix for iOS safe area - top-left controls */
+.maplibregl-ctrl-top-left {
+  top: max(10px, env(safe-area-inset-top)) !important;
+  left: max(10px, env(safe-area-inset-left)) !important;
+}
+
 .skip-link {
   position: absolute;
   left: 1rem;
