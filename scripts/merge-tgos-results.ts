@@ -17,6 +17,16 @@ interface TGOSResult {
   y: string;
 }
 
+/**
+ * Normalize address by converting ideographic comma back to regular comma
+ * This is needed because TGOS batch upload doesn't handle commas in quoted fields,
+ * so we replaced them with ideographic commas (、) before upload.
+ */
+function normalizeAddress(address: string): string {
+  // Convert ideographic comma (、) back to regular comma (,)
+  return address.replace(/、/g, ',');
+}
+
 async function parseCSV(filePath: string): Promise<TGOSResult[]> {
   console.log(`Reading ${filePath}...`);
   const file = Bun.file(filePath);
@@ -36,7 +46,10 @@ async function parseCSV(filePath: string): Promise<TGOSResult[]> {
       continue;
     }
 
-    const [, id, address, responseAddress, x, y] = match;
+    const [, id, rawAddress, responseAddress, x, y] = match;
+
+    // Normalize address (convert 、 back to , if it was cleaned for TGOS)
+    const address = normalizeAddress(rawAddress);
 
     results.push({
       id,
@@ -73,6 +86,9 @@ async function main() {
     process.exit(1);
   }
 
+  // Auto-detect city from first filename (taichung or kaohsiung)
+  const cityName = args[0].toLowerCase().includes('kaohsiung') ? 'kaohsiung' : 'taichung';
+  console.log(`Detected city: ${cityName}`);
   console.log(`Merging ${args.length} batch file(s)...\n`);
 
   try {
@@ -108,7 +124,7 @@ async function main() {
     const csv = generateCSV(allResults);
 
     // Save merged file
-    const outputPath = 'data/taichung-tgos-merged-results.csv';
+    const outputPath = `data/${cityName}-tgos-merged-results.csv`;
     await Bun.write(outputPath, csv);
 
     const sizeKB = (csv.length / 1024).toFixed(2);

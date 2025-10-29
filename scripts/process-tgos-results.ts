@@ -30,6 +30,16 @@ interface FailedAddress {
   reason: string;
 }
 
+/**
+ * Normalize address by converting ideographic comma back to regular comma
+ * This is needed because TGOS batch upload doesn't handle commas in quoted fields,
+ * so we replaced them with ideographic commas (、) before upload.
+ */
+function normalizeAddress(address: string): string {
+  // Convert ideographic comma (、) back to regular comma (,)
+  return address.replace(/、/g, ',');
+}
+
 async function parseCSV(filePath: string): Promise<TGOSResult[]> {
   const file = Bun.file(filePath);
   const text = await file.text();
@@ -51,10 +61,13 @@ async function parseCSV(filePath: string): Promise<TGOSResult[]> {
     }
 
     const id = parts[0].trim();
-    const address = parts[1].replace(/^"|"$/g, '').trim();
+    let address = parts[1].replace(/^"|"$/g, '').trim();
     const responseAddress = parts[2].replace(/^"|"$/g, '').trim();
     const x = parts[3] || '';
     const y = parts[4] || '';
+
+    // Normalize address (convert 、 back to , if it was cleaned for TGOS)
+    address = normalizeAddress(address);
 
     // Handle multiple answers from TGOS (separated by semicolons)
     // Take only the first answer
@@ -182,6 +195,10 @@ async function main() {
 
   const inputPath = args[0];
 
+  // Auto-detect city from filename (taichung or kaohsiung)
+  const cityName = inputPath.toLowerCase().includes('kaohsiung') ? 'kaohsiung' : 'taichung';
+  console.log(`Detected city: ${cityName}`);
+
   try {
     console.log(`Reading TGOS results from: ${inputPath}`);
     const results = await parseCSV(inputPath);
@@ -244,7 +261,7 @@ async function main() {
 
     // Save failed addresses log
     if (failed.length > 0) {
-      const failedPath = 'data/taichung-geocoding-failed.json';
+      const failedPath = `data/${cityName}-geocoding-failed.json`;
       await Bun.write(failedPath, JSON.stringify(failed, null, 2));
       console.log(`⚠ Failed addresses logged to: ${failedPath}`);
 
@@ -257,7 +274,7 @@ async function main() {
     }
 
     // Save geocoded data
-    const outputPath = 'data/taichung-geocoded.json';
+    const outputPath = `data/${cityName}-geocoded.json`;
     await Bun.write(outputPath, JSON.stringify(geocoded, null, 2));
     console.log(`\n✓ Geocoded data saved to: ${outputPath}`);
 
@@ -270,7 +287,7 @@ async function main() {
       };
     }
 
-    const lookupPath = 'data/taichung-geocode-lookup.json';
+    const lookupPath = `data/${cityName}-geocode-lookup.json`;
     await Bun.write(lookupPath, JSON.stringify(lookupMap, null, 2));
     console.log(`✓ Lookup map saved to: ${lookupPath}`);
 
