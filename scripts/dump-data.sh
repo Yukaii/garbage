@@ -44,10 +44,17 @@ TAICHUNG_SIZE=$(du -h public/taichung-trash-collection-points.json | cut -f1)
 TAICHUNG_COUNT=$(jq 'length' public/taichung-trash-collection-points.json)
 echo "   ✓ $TAICHUNG_COUNT records ($TAICHUNG_SIZE)"
 
+# Dump Kaohsiung City data
+echo "📍 Kaohsiung City..."
+git show data:kaohsiung-trash-collection-points.json > public/kaohsiung-trash-collection-points.json
+KAOHSIUNG_SIZE=$(du -h public/kaohsiung-trash-collection-points.json | cut -f1)
+KAOHSIUNG_COUNT=$(jq 'length' public/kaohsiung-trash-collection-points.json)
+echo "   ✓ $KAOHSIUNG_COUNT records ($KAOHSIUNG_SIZE)"
+
 echo ""
 echo "✅ Data dumped successfully to public/"
 echo ""
 echo "📊 Summary:"
-echo "   Total files: 3"
+echo "   Total files: 4"
 echo "   Total size: $(du -sh public/*.json | awk '{sum+=$1} END {print sum}' | numfmt --to=iec-i --suffix=B 2>/dev/null || echo 'N/A')"
 echo ""

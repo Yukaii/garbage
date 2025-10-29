@@ -66,11 +66,38 @@ jobs:
           echo "Covering $NTPC_DISTRICTS districts"
           echo "File size: $NTPC_FILE_SIZE"
 
+      - name: Setup Bun for Kaohsiung data processing
+        uses: oven-sh/setup-bun@v2
+
+      - name: Fetch and process Kaohsiung City data
+        run: |
+          echo "Fetching Kaohsiung City trash collection data..."
+
+          # Checkout main branch temporarily to get the update script
+          git fetch origin main
+          git checkout origin/main -- scripts/update-kaohsiung-data.ts data/kaohsiung-geocode-lookup.json
+
+          # Run the update script (fetches API data and merges with geocoded coords)
+          bun scripts/update-kaohsiung-data.ts
+
+          # Move the generated file to root (data branch convention)
+          mv public/kaohsiung-trash-collection-points.json ./kaohsiung-trash-collection-points.json
+
+          # Clean up checked out files
+          rm -f scripts/update-kaohsiung-data.ts data/kaohsiung-geocode-lookup.json
+
+          # Display stats
+          KAOHSIUNG_RECORD_COUNT=$(jq 'length' kaohsiung-trash-collection-points.json)
+          KAOHSIUNG_FILE_SIZE=$(du -h kaohsiung-trash-collection-points.json | cut -f1)
+          echo "Generated $KAOHSIUNG_RECORD_COUNT Kaohsiung City records"
+          echo "File size: $KAOHSIUNG_FILE_SIZE"
+
       - name: Check for changes
         id: check_changes
         run: |
           TAIPEI_CHANGED=false
           NTPC_CHANGED=false
+          KAOHSIUNG_CHANGED=false
 
           if ! git diff --quiet trash-collection-points.json; then
             TAIPEI_CHANGED=true
@@ -82,10 +109,16 @@ jobs:
             echo "Changes detected in New Taipei City data"
           fi
 
-          if [ "$TAIPEI_CHANGED" = true ] || [ "$NTPC_CHANGED" = true ]; then
+          if ! git diff --quiet kaohsiung-trash-collection-points.json; then
+            KAOHSIUNG_CHANGED=true
+            echo "Changes detected in Kaohsiung City data"
+          fi
+
+          if [ "$TAIPEI_CHANGED" = true ] || [ "$NTPC_CHANGED" = true ] || [ "$KAOHSIUNG_CHANGED" = true ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "taipei_changed=$TAIPEI_CHANGED" >> $GITHUB_OUTPUT
             echo "ntpc_changed=$NTPC_CHANGED" >> $GITHUB_OUTPUT
+            echo "kaohsiung_changed=$KAOHSIUNG_CHANGED" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No changes detected"
@@ -101,6 +134,7 @@ jobs:
           TAIPEI_IMPORT_DATE=$(jq -r '.result.results[0]._importdate.date' trash-collection-points.json)
           NTPC_RECORD_COUNT=$(jq 'length' new-taipei-trash-collection-points.json)
           NTPC_DISTRICTS=$(jq '[.[].city] | unique | length' new-taipei-trash-collection-points.json)
+          KAOHSIUNG_RECORD_COUNT=$(jq 'length' kaohsiung-trash-collection-points.json)
 
           # Build commit message
           COMMIT_MSG="Monthly data update: $(date +'%Y-%m-%d')"
@@ -115,6 +149,11 @@ jobs:
           if [ "${{ steps.check_changes.outputs.ntpc_changed }}" = "true" ]; then
             COMMIT_LINES+=("- Updated New Taipei City data: $NTPC_RECORD_COUNT records across $NTPC_DISTRICTS districts")
             git add new-taipei-trash-collection-points.json
+          fi
+
+          if [ "${{ steps.check_changes.outputs.kaohsiung_changed }}" = "true" ]; then
+            COMMIT_LINES+=("- Updated Kaohsiung City data: $KAOHSIUNG_RECORD_COUNT collection points")
+            git add kaohsiung-trash-collection-points.json
           fi
 
           COMMIT_BODY=$(printf '%s\n' "${COMMIT_LINES[@]}")
