@@ -33,7 +33,7 @@ export function ReloadPrompt() {
   }
 
   return (
-    <div className="fixed bottom-4 left-4 right-4 z-[1000] mx-auto max-w-md rounded-lg border border-neutral-300 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900" style={{ marginLeft: 'max(1rem, env(safe-area-inset-left))', marginRight: 'max(1rem, env(safe-area-inset-right))', marginBottom: 'max(1rem, env(safe-area-inset-bottom))' }}>
+    <div className="fixed bottom-4 left-1/2 z-[1000] w-[calc(100%-2rem)] max-w-md -translate-x-1/2 rounded-lg border border-neutral-300 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900" style={{ marginBottom: 'max(1rem, env(safe-area-inset-bottom))' }}>
       <div className="mb-3 text-sm font-medium text-black dark:text-white">
         {offlineReady ? (
           <span>應用程式已可離線使用</span>
