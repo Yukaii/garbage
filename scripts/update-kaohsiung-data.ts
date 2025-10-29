@@ -112,12 +112,14 @@ async function main() {
     mergedData.push({
       area,
       village: record.village,
-      location: cleaned,
       route: record.car_licence,
-      arrivalTime: record.today_s,
-      departureTime: record.today_e,
-      longitude: coords.longitude,
-      latitude: coords.latitude,
+      location: cleaned,
+      type: '定點',
+      arrivalTime: record.today_s.replace(':', ''), // "16:25" -> "1625"
+      departureTime: record.today_e.replace(':', ''), // "16:31" -> "1631"
+      longitude: coords.longitude.toString(),
+      latitude: coords.latitude.toString(),
+      collectionType: 'garbage',
     });
   }
 

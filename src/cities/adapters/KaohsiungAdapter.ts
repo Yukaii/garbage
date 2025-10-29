@@ -3,16 +3,19 @@ import type { UnifiedTrashCollectionPoint } from '../../types';
 
 /**
  * Kaohsiung trash collection point (from API + geocoded data)
+ * Matches Taichung data structure format
  */
 interface KaohsiungTrashCollectionPoint {
   area: string;
   village: string;
-  location: string;
   route: string;
-  arrivalTime: string;
-  departureTime: string;
-  longitude: number;
-  latitude: number;
+  location: string;
+  type: string;
+  arrivalTime: string; // Format: "HHMM" (e.g., "1625")
+  departureTime: string; // Format: "HHMM" (e.g., "1631")
+  longitude: string;
+  latitude: string;
+  collectionType: string;
 }
 
 /**
@@ -62,7 +65,7 @@ export class KaohsiungAdapter extends CityDataAdapter<KaohsiungTrashCollectionPo
 
   mapToUnified(point: KaohsiungTrashCollectionPoint): UnifiedTrashCollectionPoint {
     // Generate unique ID using coordinates and route
-    const coordKey = `${point.longitude.toFixed(6)}_${point.latitude.toFixed(6)}`;
+    const coordKey = `${parseFloat(point.longitude).toFixed(6)}_${parseFloat(point.latitude).toFixed(6)}`;
     const id = `kaohsiung-${coordKey}-${point.route}`;
 
     return {
@@ -74,8 +77,8 @@ export class KaohsiungAdapter extends CityDataAdapter<KaohsiungTrashCollectionPo
       route: point.route,
       arrivalTime: point.arrivalTime,
       departureTime: point.departureTime,
-      longitude: point.longitude,
-      latitude: point.latitude,
+      longitude: parseFloat(point.longitude),
+      latitude: parseFloat(point.latitude),
       source: 'kaohsiung',
     };
   }
