@@ -209,7 +209,8 @@ export default function RouteSelector({
       {!isMobileOpen && (
         <button
           onClick={() => setIsMobileOpen(true)}
-          className="absolute bottom-4 left-1/2 z-10 flex -translate-x-1/2 items-center gap-2 rounded-full border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-black shadow-lg transition-all hover:border-neutral-400 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-black dark:text-white dark:hover:border-neutral-600 dark:hover:bg-neutral-900"
+          className="absolute left-1/2 z-10 flex -translate-x-1/2 items-center gap-2 rounded-full border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-black shadow-lg transition-all hover:border-neutral-400 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-black dark:text-white dark:hover:border-neutral-600 dark:hover:bg-neutral-900"
+          style={{ bottom: 'max(1rem, env(safe-area-inset-bottom))' }}
         >
           <Route className="h-4 w-4" />
           <span>瀏覽路線</span>
