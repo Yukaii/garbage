@@ -193,3 +193,24 @@
   top: 1rem;
   opacity: 1;
 }
+
+/* Fix iOS safe area for MapLibre controls to prevent cutoff on rounded edges */
+.maplibregl-ctrl-bottom-right {
+  bottom: env(safe-area-inset-bottom, 0);
+  right: env(safe-area-inset-right, 0);
+}
+
+.maplibregl-ctrl-bottom-left {
+  bottom: env(safe-area-inset-bottom, 0);
+  left: env(safe-area-inset-left, 0);
+}
+
+.maplibregl-ctrl-top-right {
+  top: env(safe-area-inset-top, 0);
+  right: env(safe-area-inset-right, 0);
+}
+
+.maplibregl-ctrl-top-left {
+  top: env(safe-area-inset-top, 0);
+  left: env(safe-area-inset-left, 0);
+}
