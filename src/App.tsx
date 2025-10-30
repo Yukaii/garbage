@@ -246,7 +246,7 @@ function App() {
       <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 px-4 py-2 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 md:px-6 md:py-3 lg:px-8" style={{ paddingTop: 'max(0.5rem, env(safe-area-inset-top))', paddingLeft: 'max(1rem, env(safe-area-inset-left))', paddingRight: 'max(1rem, env(safe-area-inset-right))' }}>
         <div className="flex items-center justify-between gap-2 md:gap-3">
           <div className="flex min-w-0 flex-1 items-center gap-2">
-            <Logo size={32} className="shrink-0 text-black dark:text-white" />
+            <Logo size={32} className="shrink-0 text-white dark:text-black" />
             <h1 className="truncate text-base font-bold text-black dark:text-white sm:text-lg md:text-xl lg:text-3xl">
               垃圾車地圖
             </h1>
