@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
-import { Info, Sun, Moon, ChevronDown } from 'lucide-react';
+import { Info, Sun, Moon, ChevronDown, MessageSquarePlus } from 'lucide-react';
 import Map from './Map';
 import TimeFilter, { type TimeFilterMode } from './TimeFilter';
 import {
@@ -120,6 +120,14 @@ function App() {
     // If no cities in viewport (zoomed out too far), fall back to selected city
     return cities.length === 0 ? [selectedCity] : cities;
   }, [viewportBounds, currentZoom, selectedCity]);
+
+  // Check if user is viewing an unsupported area
+  const isViewingUnsupportedArea = useMemo(() => {
+    // Only show unsupported feedback when zoomed in enough but no cities in viewport
+    if (!viewportBounds || currentZoom < MIN_DATA_LOAD_ZOOM) return false;
+    const citiesInView = getCitiesInViewport(viewportBounds, currentZoom);
+    return citiesInView.length === 0;
+  }, [viewportBounds, currentZoom]);
 
   // Load data only when the set of cities changes (not on every zoom/pan)
   useEffect(() => {
@@ -358,6 +366,30 @@ function App() {
                 <div className="absolute top-4 right-4 z-20 flex items-center gap-2 rounded-lg border border-neutral-300 bg-white/95 backdrop-blur-sm px-3 py-2 shadow-lg dark:border-neutral-700 dark:bg-black/90">
                   <div className="h-4 w-4 border-2 border-neutral-300 dark:border-neutral-600 border-t-blue-600 dark:border-t-blue-400 rounded-full spinner" />
                   <span className="text-xs text-neutral-700 dark:text-neutral-300">更新資料中...</span>
+                </div>
+              )}
+              {/* Feedback button for unsupported areas */}
+              {isViewingUnsupportedArea && (
+                <div className="absolute bottom-24 left-4 right-4 z-20 mx-auto max-w-md rounded-lg border border-amber-300 bg-amber-50/95 backdrop-blur-sm px-4 py-3 shadow-lg dark:border-amber-700 dark:bg-amber-950/95 md:bottom-4 md:left-4 md:right-auto">
+                  <div className="flex items-start gap-3">
+                    <MessageSquarePlus className="h-5 w-5 shrink-0 text-amber-600 dark:text-amber-400 mt-0.5" />
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-medium text-amber-900 dark:text-amber-100 mb-1">
+                        此區域尚未支援
+                      </p>
+                      <p className="text-xs text-amber-800 dark:text-amber-200 mb-2">
+                        目前僅支援台北市、新北市、台中市與高雄市
+                      </p>
+                      <a
+                        href="https://github.com/yukaii/garbage/issues/new?title=請求支援新城市&body=希望支援的城市："
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-xs font-medium text-amber-700 underline-offset-2 hover:underline dark:text-amber-300"
+                      >
+                        在 GitHub 上回報需求
+                      </a>
+                    </div>
+                  </div>
                 </div>
               )}
             </>
