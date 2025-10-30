@@ -155,6 +155,44 @@ async function analyzeIssue(issue: GitHubIssue): Promise<any> {
 
   if (!response.ok) {
     const errorText = await response.text();
+
+    // Check if it's a content filter error (Azure OpenAI jailbreak detection)
+    if (response.status === 400 && errorText.includes('content_filter')) {
+      console.error('Content filter triggered - issue may contain jailbreak attempt');
+      console.error('This is actually good! Azure OpenAI blocked a potential exploit.');
+
+      // Parse the error to get filter details
+      try {
+        const errorData = JSON.parse(errorText);
+        if (errorData.error?.innererror?.content_filter_result?.jailbreak?.filtered) {
+          console.error('Jailbreak attempt detected and blocked by Azure OpenAI');
+
+          // Return a safe default response instead of failing
+          return {
+            choices: [{
+              message: {
+                tool_calls: [{
+                  function: {
+                    name: 'triage_city_request',
+                    arguments: JSON.stringify({
+                      city_name: '未知',
+                      is_supported: false,
+                      is_duplicate: false,
+                      duplicate_issue_number: null,
+                      comment: '感謝您的回報！此 issue 內容觸發了安全過濾器，可能包含不當內容。請修改您的請求並重新提交，或直接聯繫維護者。我們重視安全性，因此系統會自動過濾可能的惡意內容。',
+                      labels: ['待評估']
+                    })
+                  }
+                }]
+              }
+            }]
+          };
+        }
+      } catch (parseError) {
+        // If we can't parse the error, continue with the original error
+      }
+    }
+
     throw new Error(`GitHub Models API error: ${response.status} ${errorText}`);
   }
 

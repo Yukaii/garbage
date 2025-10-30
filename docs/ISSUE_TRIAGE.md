@@ -131,6 +131,25 @@ The triage system implements multiple layers of security to prevent abuse and pr
 - Rate limiting via GitHub Actions (one issue at a time)
 - Comprehensive logging for audit trails
 - Fail-safe validation before applying any actions
+- **Azure OpenAI Content Filter**: Automatically blocks jailbreak attempts at the API level
+
+### Azure Content Filter
+
+GitHub Models uses Azure OpenAI, which includes built-in content filtering that detects:
+- Jailbreak attempts
+- Hate speech
+- Violence
+- Self-harm content
+- Sexual content
+
+When a jailbreak is detected:
+1. API returns 400 error with `content_filter` code
+2. Script catches the error gracefully
+3. Applies a safe default response
+4. Labels issue as `待評估` for manual review
+5. Posts friendly comment explaining the security filter
+
+**This is a feature, not a bug!** It provides an additional security layer beyond our custom validations.
 
 ## Code Structure
 
