@@ -104,6 +104,34 @@ The workflow should:
 | Duplicate request | Close with "duplicate" label and reference to original issue |
 | Unclear request | Add "待評估" label and ask for clarification |
 
+## Security Measures
+
+The triage system implements multiple layers of security to prevent abuse and prompt injection:
+
+### Input Sanitization
+- Removes control characters and zero-width characters
+- Limits input length to 2,000 characters per field
+- Strips whitespace and normalizes text
+
+### Output Validation
+- **City name**: Max 100 characters, must be non-empty string
+- **Boolean fields**: Strict type checking
+- **Issue numbers**: Range 1-999,999
+- **Comments**: 10-5,000 characters
+- **Labels**: Whitelist of allowed labels only, max 10 labels, max 50 chars each
+
+### Allowed Labels Whitelist
+```typescript
+'enhancement', 'duplicate', '已支援', '待評估', '城市請求',
+'bug', 'documentation', 'question', 'help wanted', 'good first issue'
+```
+
+### Additional Protections
+- Function calling with strict schema (`strict: true`)
+- Rate limiting via GitHub Actions (one issue at a time)
+- Comprehensive logging for audit trails
+- Fail-safe validation before applying any actions
+
 ## Code Structure
 
 ```

@@ -32,6 +32,20 @@ const SUPPORTED_CITIES = [
 ];
 
 /**
+ * Sanitize user input to prevent prompt injection
+ */
+function sanitizeInput(input: string): string {
+  // Remove potential prompt injection patterns
+  return input
+    // Remove control characters and zero-width characters
+    .replace(/[\u0000-\u001F\u007F-\u009F\u200B-\u200D\uFEFF]/g, '')
+    // Limit length to prevent token exhaustion
+    .slice(0, 2000)
+    // Trim whitespace
+    .trim();
+}
+
+/**
  * Call OpenAI API via GitHub Models
  */
 async function analyzeIssue(issue: GitHubIssue): Promise<any> {
@@ -107,10 +121,14 @@ async function analyzeIssue(issue: GitHubIssue): Promise<any> {
 - 如果是重複的請求，請在回覆中引用原始 issue 編號（使用 #編號 格式），並請用戶到原始 issue 留言或按讚（👍）來表達支持，這樣我們可以更好地評估需求的優先級。
 - 回覆要有禮貌、友善，並感謝用戶的建議。`;
 
+  // Sanitize inputs to prevent prompt injection
+  const sanitizedTitle = sanitizeInput(issue.title);
+  const sanitizedBody = issue.body ? sanitizeInput(issue.body) : '(無內容)';
+
   const userPrompt = `請分析以下 Issue：
 
-標題：${issue.title}
-內容：${issue.body || '(無內容)'}
+標題：${sanitizedTitle}
+內容：${sanitizedBody}
 
 請使用 triage_city_request 函數來分類這個 issue。`;
 
@@ -147,12 +165,72 @@ async function analyzeIssue(issue: GitHubIssue): Promise<any> {
 }
 
 /**
+ * Validate and sanitize triage actions to prevent malicious outputs
+ */
+function validateTriageActions(actions: FunctionCallArguments): boolean {
+  // Validate city_name
+  if (!actions.city_name || typeof actions.city_name !== 'string' || actions.city_name.length > 100) {
+    console.error('Invalid city_name');
+    return false;
+  }
+
+  // Validate booleans
+  if (typeof actions.is_supported !== 'boolean' || typeof actions.is_duplicate !== 'boolean') {
+    console.error('Invalid boolean fields');
+    return false;
+  }
+
+  // Validate duplicate_issue_number
+  if (actions.duplicate_issue_number !== null &&
+      (typeof actions.duplicate_issue_number !== 'number' ||
+       actions.duplicate_issue_number < 1 ||
+       actions.duplicate_issue_number > 999999)) {
+    console.error('Invalid duplicate_issue_number');
+    return false;
+  }
+
+  // Validate comment length and content
+  if (!actions.comment || typeof actions.comment !== 'string' ||
+      actions.comment.length > 5000 || actions.comment.length < 10) {
+    console.error('Invalid comment');
+    return false;
+  }
+
+  // Validate labels
+  if (!Array.isArray(actions.labels) || actions.labels.length > 10) {
+    console.error('Invalid labels array');
+    return false;
+  }
+
+  // Whitelist allowed labels
+  const allowedLabels = [
+    'enhancement', 'duplicate', '已支援', '待評估', '城市請求',
+    'bug', 'documentation', 'question', 'help wanted', 'good first issue'
+  ];
+
+  for (const label of actions.labels) {
+    if (typeof label !== 'string' ||
+        label.length > 50 ||
+        !allowedLabels.includes(label)) {
+      console.error(`Invalid label: ${label}`);
+      return false;
+    }
+  }
+
+  return true;
+}
+
+/**
  * Apply triage actions to the issue
  */
 async function applyTriageActions(
   issueNumber: number,
   actions: FunctionCallArguments
 ): Promise<void> {
+  // Validate actions before applying
+  if (!validateTriageActions(actions)) {
+    throw new Error('Triage actions failed validation');
+  }
   const token = process.env.GITHUB_TOKEN;
   const repo = process.env.GITHUB_REPOSITORY;
 
@@ -247,7 +325,9 @@ async function main() {
       throw new Error('Issue number and title are required');
     }
 
-    console.log(`Processing issue #${issueNumber}: ${issueTitle}`);
+    console.log(`Processing issue #${issueNumber}`);
+    console.log(`Title length: ${issueTitle.length} chars`);
+    console.log(`Body length: ${issueBody?.length || 0} chars`);
 
     const issue: GitHubIssue = {
       number: issueNumber,
