@@ -173,6 +173,59 @@ bun scripts/trim-taichung-data.ts
 
 ---
 
+## Automation Scripts
+
+### `triage-city-request.ts`
+**Purpose:** Automated GitHub issue triage using GitHub Models (OpenAI API) with function calling.
+
+**Usage:**
+This script is automatically run by the GitHub Action `.github/workflows/triage-city-request.yml` when an issue is created or reopened with city request keywords.
+
+**What it does:**
+1. Analyzes issue using GPT-4o via GitHub Models
+2. Extracts requested city name
+3. Checks if city is already supported
+4. Detects duplicate requests
+5. Adds appropriate labels
+6. Posts friendly comment in Traditional Chinese
+7. Closes issue if duplicate or already supported
+
+**Environment Variables:**
+- `GITHUB_TOKEN` - Authentication (auto-provided by Actions)
+- `GITHUB_REPOSITORY` - Repository name (e.g., `yukaii/garbage`)
+- `ISSUE_NUMBER` - Issue number to process
+- `ISSUE_TITLE` - Issue title
+- `ISSUE_BODY` - Issue body content
+
+**Manual Execution:**
+```bash
+GITHUB_TOKEN=your_token \
+GITHUB_REPOSITORY=yukaii/garbage \
+ISSUE_NUMBER=123 \
+ISSUE_TITLE="請求支援新城市" \
+ISSUE_BODY="希望支援的城市：桃園市" \
+bun scripts/triage-city-request.ts
+```
+
+**Documentation:** See [docs/ISSUE_TRIAGE.md](../docs/ISSUE_TRIAGE.md) for detailed information.
+
+---
+
+### `setup-labels.sh`
+**Purpose:** Create necessary labels in the repository for issue triage.
+
+**Usage:**
+```bash
+GITHUB_TOKEN=your_token ./scripts/setup-labels.sh
+```
+
+**Labels Created:**
+- `已支援` (green) - City already supported
+- `待評估` (yellow) - Needs evaluation
+- `城市請求` (blue) - City request
+
+---
+
 ## GitHub Actions Build Scripts
 
 ### `.github/actions/trim-data.sh`

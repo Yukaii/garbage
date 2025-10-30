@@ -1,0 +1,35 @@
+name: Triage City Request Issues
+
+on:
+  issues:
+    types: [opened, reopened]
+
+# Required permission to use GitHub Models API
+permissions:
+  issues: write
+  models: read
+
+jobs:
+  triage:
+    # Only run on city request issues
+    if: contains(github.event.issue.title, '請求支援新城市') || contains(github.event.issue.title, '支援') || contains(github.event.issue.title, '城市')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Run triage script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          bun scripts/triage-city-request.ts
