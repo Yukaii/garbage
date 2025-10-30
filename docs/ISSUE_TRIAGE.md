@@ -151,6 +151,59 @@ When a jailbreak is detected:
 
 **This is a feature, not a bug!** It provides an additional security layer beyond our custom validations.
 
+### Defense-in-Depth Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ User Creates Issue                                          │
+└────────────────────┬────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Layer 1: Input Sanitization                                │
+│ • Remove control characters                                 │
+│ • Limit to 2,000 chars                                      │
+│ • Strip whitespace                                          │
+└────────────────────┬────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Layer 2: Azure OpenAI Content Filter                       │
+│ • Jailbreak detection                                       │
+│ • Hate speech filter                                        │
+│ • Violence/self-harm filter                                 │
+│ ➜ If blocked: Return safe default                          │
+└────────────────────┬────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Layer 3: OpenAI Function Calling (Strict Mode)             │
+│ • Enforces exact schema                                     │
+│ • Type validation                                           │
+│ • Required fields check                                     │
+└────────────────────┬────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Layer 4: Output Validation                                 │
+│ • City name: 1-100 chars                                    │
+│ • Issue numbers: 1-999,999                                  │
+│ • Comment: 10-5,000 chars                                   │
+│ • Labels: Whitelist only                                    │
+│ ➜ If invalid: Throw error, no actions                      │
+└────────────────────┬────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Layer 5: GitHub API Actions                                │
+│ • Add comment                                               │
+│ • Add labels (from whitelist)                               │
+│ • Close issue (if duplicate/supported)                      │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Key Principle:** Fail at ANY layer = No malicious actions executed
+
 ## Code Structure
 
 ```
