@@ -46,41 +46,43 @@ async function analyzeIssue(issue: GitHubIssue): Promise<any> {
   const tools = [
     {
       type: 'function',
-      name: 'triage_city_request',
-      description: 'Analyze a city request issue and determine appropriate labels and actions',
-      parameters: {
-        type: 'object',
-        properties: {
-          city_name: {
-            type: 'string',
-            description: 'The name of the city being requested (in Traditional Chinese if possible)'
+      function: {
+        name: 'triage_city_request',
+        description: 'Analyze a city request issue and determine appropriate labels and actions',
+        parameters: {
+          type: 'object',
+          properties: {
+            city_name: {
+              type: 'string',
+              description: 'The name of the city being requested (in Traditional Chinese if possible)'
+            },
+            is_supported: {
+              type: 'boolean',
+              description: 'Whether this city is already supported in the app'
+            },
+            is_duplicate: {
+              type: 'boolean',
+              description: 'Whether this request duplicates an existing open issue'
+            },
+            duplicate_issue_number: {
+              type: ['number', 'null'],
+              description: 'If duplicate, the issue number being duplicated'
+            },
+            comment: {
+              type: 'string',
+              description: 'A friendly comment in Traditional Chinese to post on the issue'
+            },
+            labels: {
+              type: 'array',
+              items: { type: 'string' },
+              description: 'Labels to add to the issue (e.g., "enhancement", "duplicate", "已支援")'
+            }
           },
-          is_supported: {
-            type: 'boolean',
-            description: 'Whether this city is already supported in the app'
-          },
-          is_duplicate: {
-            type: 'boolean',
-            description: 'Whether this request duplicates an existing open issue'
-          },
-          duplicate_issue_number: {
-            type: ['number', 'null'],
-            description: 'If duplicate, the issue number being duplicated'
-          },
-          comment: {
-            type: 'string',
-            description: 'A friendly comment in Traditional Chinese to post on the issue'
-          },
-          labels: {
-            type: 'array',
-            items: { type: 'string' },
-            description: 'Labels to add to the issue (e.g., "enhancement", "duplicate", "已支援")'
-          }
+          required: ['city_name', 'is_supported', 'is_duplicate', 'comment', 'labels'],
+          additionalProperties: false
         },
-        required: ['city_name', 'is_supported', 'is_duplicate', 'comment', 'labels'],
-        additionalProperties: false
-      },
-      strict: true
+        strict: true
+      }
     }
   ];
 
