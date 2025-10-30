@@ -66,7 +66,7 @@ async function analyzeIssue(issue: GitHubIssue): Promise<any> {
             },
             duplicate_issue_number: {
               type: ['number', 'null'],
-              description: 'If duplicate, the issue number being duplicated'
+              description: 'If duplicate, the issue number being duplicated. Set to null if not a duplicate.'
             },
             comment: {
               type: 'string',
@@ -78,7 +78,7 @@ async function analyzeIssue(issue: GitHubIssue): Promise<any> {
               description: 'Labels to add to the issue (e.g., "enhancement", "duplicate", "已支援")'
             }
           },
-          required: ['city_name', 'is_supported', 'is_duplicate', 'comment', 'labels'],
+          required: ['city_name', 'is_supported', 'is_duplicate', 'duplicate_issue_number', 'comment', 'labels'],
           additionalProperties: false
         },
         strict: true
