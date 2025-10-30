@@ -101,7 +101,11 @@ async function analyzeIssue(issue: GitHubIssue): Promise<any> {
 - "enhancement" - 新功能請求
 - "duplicate" - 重複的請求
 - "已支援" - 該城市已經支援
-- "待評估" - 需要進一步評估的請求`;
+- "待評估" - 需要進一步評估的請求
+
+重要說明：
+- 如果是重複的請求，請在回覆中引用原始 issue 編號（使用 #編號 格式），並請用戶到原始 issue 留言或按讚（👍）來表達支持，這樣我們可以更好地評估需求的優先級。
+- 回覆要有禮貌、友善，並感謝用戶的建議。`;
 
   const userPrompt = `請分析以下 Issue：
 
