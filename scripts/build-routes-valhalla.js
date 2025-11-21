@@ -39,17 +39,19 @@ async function pathExists(p) {
 }
 
 async function listGeojsonFiles(dir) {
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  const files = [];
-  for (const entry of entries) {
-    const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      files.push(...(await listGeojsonFiles(full)));
-    } else if (entry.isFile() && entry.name.toLowerCase().endsWith(".geojson")) {
-      files.push(full);
-    }
+  try {
+    const stdout = execSync(`find ${JSON.stringify(dir)} -type f -name "*.geojson"`, {
+      encoding: "utf8",
+      maxBuffer: 1024 * 1024 * 50,
+    });
+    return stdout
+      .split("\n")
+      .map((s) => s.trim())
+      .filter(Boolean);
+  } catch (err) {
+    console.warn(`find failed for ${dir}: ${err.message}`);
+    return [];
   }
-  return files;
 }
 
 function decodePolyline(str, precision = 6) {
@@ -153,6 +155,7 @@ async function main() {
   }
 
   const files = await listGeojsonFiles(routesDir);
+  console.log(`Found ${files.length} route definition files under ${routesDir}`);
   if (files.length === 0) {
     console.log("No route definition files found. Nothing to do.");
     return;
