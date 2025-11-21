@@ -61,11 +61,12 @@ jobs:
 
       - name: Build routed GeoJSON from waypoints
         run: |
-          ROUTE_DIR=../data-branch/data-input/routes
+          ROUTE_DIR=$(realpath ../data-branch/data-input/routes)
           echo "Listing route definitions under $ROUTE_DIR"
           ls -la "$ROUTE_DIR" || true
-          find "$ROUTE_DIR" -maxdepth 2 -type f -name "*.geojson" | head -n 20
-          ROUTE_COUNT=$(find "$ROUTE_DIR" -name "*.geojson" | wc -l || echo 0)
+          find "$ROUTE_DIR" -maxdepth 2 -type f -name "*.geojson" -print 2>/dev/null | head -n 20 || true
+          ROUTE_COUNT=$(find "$ROUTE_DIR" -name "*.geojson" -print 2>/dev/null | wc -l || echo 0)
+          echo "Route file count: $ROUTE_COUNT"
           if [ "$ROUTE_COUNT" -eq 0 ]; then
             echo "No route definitions found in data branch; skipping."
             exit 0
