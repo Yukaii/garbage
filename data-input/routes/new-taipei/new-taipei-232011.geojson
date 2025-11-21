@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232011",
+        "city": "new-taipei",
+        "lineid": "232011",
+        "linename": "坪林線",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.702942,
+          24.936308
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232011",
+        "city": "new-taipei",
+        "lineid": "232011",
+        "linename": "坪林線",
+        "rank": "2",
+        "village": "坪林里",
+        "name": "北宜路8段22號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.710739,
+          24.935757
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232011",
+        "city": "new-taipei",
+        "lineid": "232011",
+        "linename": "坪林線",
+        "rank": "3",
+        "village": "坪林里",
+        "name": "水柳腳29號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.713302,
+          24.942274
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232011",
+        "city": "new-taipei",
+        "lineid": "232011",
+        "linename": "坪林線",
+        "rank": "4",
+        "village": "坪林里",
+        "name": "坪雙路一段56號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.711704,
+          24.942432
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232011",
+        "city": "new-taipei",
+        "lineid": "232011",
+        "linename": "坪林線",
+        "rank": "5",
+        "village": "坪林里",
+        "name": "坪雙路一段25號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.711632,
+          24.937048
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232011",
+        "city": "new-taipei",
+        "lineid": "232011",
+        "linename": "坪林線",
+        "rank": "6",
+        "village": "坪林里",
+        "name": "坪林街82號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.711405,
+          24.933999
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232011",
+        "city": "new-taipei",
+        "lineid": "232011",
+        "linename": "坪林線",
+        "rank": "7",
+        "village": "水德里",
+        "name": "水聳淒坑28號"
+      }
+    }
+  ]
+}

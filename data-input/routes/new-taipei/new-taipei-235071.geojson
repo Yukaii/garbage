@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.481681,
+          24.995205
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-235071",
+        "city": "new-taipei",
+        "lineid": "235071",
+        "linename": "路線71晚上",
+        "rank": "1",
+        "village": "文元里",
+        "name": "連城路523巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4854796,
+          24.9940597
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-235071",
+        "city": "new-taipei",
+        "lineid": "235071",
+        "linename": "路線71晚上",
+        "rank": "2",
+        "village": "仁和里",
+        "name": "中正路637巷52弄"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4834915,
+          24.99417828
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-235071",
+        "city": "new-taipei",
+        "lineid": "235071",
+        "linename": "路線71晚上",
+        "rank": "3",
+        "village": "仁和里",
+        "name": "連城路469巷71號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4836184,
+          24.99555272
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-235071",
+        "city": "new-taipei",
+        "lineid": "235071",
+        "linename": "路線71晚上",
+        "rank": "4",
+        "village": "仁和里",
+        "name": "連城路469巷7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.484787,
+          24.99534781
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-235071",
+        "city": "new-taipei",
+        "lineid": "235071",
+        "linename": "路線71晚上",
+        "rank": "5",
+        "village": "仁和里",
+        "name": "中正路637巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4843609,
+          24.99509557
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-235071",
+        "city": "new-taipei",
+        "lineid": "235071",
+        "linename": "路線71晚上",
+        "rank": "6",
+        "village": "仁和里",
+        "name": "中正路637巷18弄"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.483417,
+          25.00244841
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-235071",
+        "city": "new-taipei",
+        "lineid": "235071",
+        "linename": "路線71晚上",
+        "rank": "7",
+        "village": "中原里",
+        "name": "中正路839巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4820684,
+          25.0126965
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-235071",
+        "city": "new-taipei",
+        "lineid": "235071",
+        "linename": "路線71晚上",
+        "rank": "8",
+        "village": "中原里",
+        "name": "環中路128號"
+      }
+    }
+  ]
+}

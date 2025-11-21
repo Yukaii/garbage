@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57837,
+          25.05425
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a1170e-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-4",
+        "car_seq": "第3車",
+        "arrival_time": "2125",
+        "leave_time": "2140",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEL-6565",
+        "route_code": "111-G15",
+        "stop_name": "臺北市內湖區新明路460巷18弄3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57646,
+          25.05299
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a1170e-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-4",
+        "car_seq": "第3車",
+        "arrival_time": "2143",
+        "leave_time": "2149",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEL-6565",
+        "route_code": "111-G15",
+        "stop_name": "臺北市內湖區潭美街27號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.580268,
+          25.053783
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a1170e-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-4",
+        "car_seq": "第3車",
+        "arrival_time": "2151",
+        "leave_time": "2156",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEL-6565",
+        "route_code": "111-G15",
+        "stop_name": "臺北市內湖區潭美街129號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5804,
+          25.05614
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a1170e-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-4",
+        "car_seq": "第3車",
+        "arrival_time": "2200",
+        "leave_time": "2205",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEL-6565",
+        "route_code": "111-G15",
+        "stop_name": "臺北市內湖區南京東路6段192號"
+      }
+    }
+  ]
+}

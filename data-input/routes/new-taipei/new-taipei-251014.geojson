@@ -1,0 +1,974 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.452957,
+          25.223959
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "1",
+        "village": "賢孝里",
+        "name": "八里堆1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.462151,
+          25.224325
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "2",
+        "village": "賢孝里",
+        "name": "八里堆8號之1(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.465233,
+          25.224443
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "3",
+        "village": "賢孝里",
+        "name": "八里堆9號之6(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46212,
+          25.225182
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "4",
+        "village": "賢孝里",
+        "name": "八里堆12號、11之1號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.465836,
+          25.228889
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "5",
+        "village": "賢孝里",
+        "name": "公埔子30之2號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.469002,
+          25.225344
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "6",
+        "village": "賢孝里",
+        "name": "王厝社區沿線"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.469826,
+          25.224005
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "7",
+        "village": "賢孝里",
+        "name": "八里堆15號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.469856,
+          25.229074
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "8",
+        "village": "賢孝里",
+        "name": "公埔子19號、20號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.477409,
+          25.226414
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "9",
+        "village": "賢孝里",
+        "name": "公埔子13號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.475204,
+          25.221718
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "10",
+        "village": "賢孝里",
+        "name": "水碓3號沿線(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.478485,
+          25.224348
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "11",
+        "village": "賢孝里",
+        "name": "水碓25巷-日若山莊"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.479164,
+          25.226625
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "12",
+        "village": "賢孝里",
+        "name": "公埔子15號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.481621,
+          25.22226
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "13",
+        "village": "蕃薯里",
+        "name": "南平1-2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.482246,
+          25.223244
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "14",
+        "village": "蕃薯里",
+        "name": "南平7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.485069,
+          25.222498
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "15",
+        "village": "蕃薯里",
+        "name": "南平8-1號(沿線)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48555,
+          25.222006
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "16",
+        "village": "蕃薯里",
+        "name": "南平11-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.485825,
+          25.220655
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "17",
+        "village": "蕃薯里",
+        "name": "南平14號、15號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.486237,
+          25.223042
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "18",
+        "village": "蕃薯里",
+        "name": "北勢子5之2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.485001,
+          25.223612
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "19",
+        "village": "蕃薯里",
+        "name": "北勢子4之6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48452,
+          25.223898
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "20",
+        "village": "蕃薯里",
+        "name": "中泰國小(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.488007,
+          25.221918
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "21",
+        "village": "蕃薯里",
+        "name": "崙頂社區16號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.491493,
+          25.219601
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "22",
+        "village": "蕃薯里",
+        "name": "崙頂13號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.491714,
+          25.221615
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "23",
+        "village": "蕃薯里",
+        "name": "崙頂14-2號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.492958,
+          25.21969
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "24",
+        "village": "蕃薯里",
+        "name": "崙頂10號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.494331,
+          25.217066
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "25",
+        "village": "蕃薯里",
+        "name": "南平20號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.493706,
+          25.214636
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "26",
+        "village": "蕃薯里",
+        "name": "南平25號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.496758,
+          25.216784
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "27",
+        "village": "蕃薯里",
+        "name": "南平21之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.498138,
+          25.21619
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "28",
+        "village": "蕃薯里",
+        "name": "南平21之2號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.489571,
+          25.223557
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "29",
+        "village": "中和里",
+        "name": "崙頂15之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.491669,
+          25.223936
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "30",
+        "village": "中和里",
+        "name": "崙頂2-2號(沿線)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.493813,
+          25.224003
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "31",
+        "village": "中和里",
+        "name": "崙頂2-19號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.494751,
+          25.222019
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "32",
+        "village": "中和里",
+        "name": "崙頂7號、8號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.491898,
+          25.226233
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "33",
+        "village": "中和里",
+        "name": "小中寮32號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.490059,
+          25.227537
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "34",
+        "village": "中和里",
+        "name": "小中寮30號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.489334,
+          25.229542
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "35",
+        "village": "中和里",
+        "name": "小中寮22號、23號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48616,
+          25.230213
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "36",
+        "village": "中和里",
+        "name": "小中寮19號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.484764,
+          25.22979
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "37",
+        "village": "中和里",
+        "name": "中和里10鄰"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.484718,
+          25.229445
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "38",
+        "village": "中和里",
+        "name": "中和里活動中心(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.475464,
+          25.235582
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "39",
+        "village": "屯山里",
+        "name": "番社前4-6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.465599,
+          25.236732
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "40",
+        "village": "屯山里",
+        "name": "石頭厝14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46373,
+          25.236633
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "41",
+        "village": "屯山里",
+        "name": "石頭厝14之5號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.458496,
+          25.235582
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "42",
+        "village": "屯山里",
+        "name": "石頭厝3號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.460251,
+          25.237417
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "43",
+        "village": "屯山里",
+        "name": "石頭厝8之1號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.470619,
+          25.235912
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "44",
+        "village": "屯山里",
+        "name": "桂竹圍2-1號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.471764,
+          25.234079
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "45",
+        "village": "屯山里",
+        "name": "桂竹圍5-6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.472313,
+          25.232239
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "46",
+        "village": "屯山里",
+        "name": "桂竹圍12-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.463638,
+          25.232601
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "47",
+        "village": "賢孝里",
+        "name": "公埔子29之1號(沿線)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.452515,
+          25.239639
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "48",
+        "village": "屯山里",
+        "name": "六塊厝沿線"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.450966,
+          25.240465
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "49",
+        "village": "屯山里",
+        "name": "溪口15號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.450424,
+          25.240648
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "50",
+        "village": "屯山里",
+        "name": "六塊厝"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.451035,
+          25.242561
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-251014",
+        "city": "new-taipei",
+        "lineid": "251014",
+        "linename": "14路線 晚上1",
+        "rank": "51",
+        "village": "屯山里",
+        "name": "六塊厝1號(迴轉)"
+      }
+    }
+  ]
+}

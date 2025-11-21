@@ -1,0 +1,613 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4212908432454,
+          24.99647440909355
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "1",
+        "village": "潭底里",
+        "name": "大安路171號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42243447116391,
+          24.996604933515016
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "2",
+        "village": "潭底里",
+        "name": "大安路145巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42335985337297,
+          24.996351303872405
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "3",
+        "village": "潭底里",
+        "name": "大安路111巷26弄23號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42270538220896,
+          24.997188823221922
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "4",
+        "village": "潭底里",
+        "name": "大安路125巷6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42670214632119,
+          24.99935006086149
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "5",
+        "village": "圳福里",
+        "name": "中正路45巷4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42631,
+          24.999397
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "6",
+        "village": "圳福里",
+        "name": "中正路45巷12弄15號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42597263957532,
+          24.9990040332597
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "7",
+        "village": "文林里",
+        "name": "千歲街61巷40弄12號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42556626044211,
+          24.99866562456874
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "8",
+        "village": "文林里",
+        "name": "千歲街61巷42號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42510831994923,
+          24.998937657009385
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "9",
+        "village": "文林里",
+        "name": "潭興街103號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4238189104334,
+          24.998710679607708
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "10",
+        "village": "文林里",
+        "name": "潭興街107巷21弄20號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42414721626176,
+          24.99894343634288
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "11",
+        "village": "文林里",
+        "name": "潭興街91巷16號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42504725736626,
+          24.9997648565729
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "12",
+        "village": "文林里",
+        "name": "潭興街143巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4253801821917,
+          25.000044284748565
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "13",
+        "village": "文林里",
+        "name": "潭興街143巷3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.425443,
+          24.999614
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "14",
+        "village": "文林里",
+        "name": "潭興街141巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42611745981299,
+          24.99825727623507
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "15",
+        "village": "文林里",
+        "name": "千歲街61巷6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42547985920135,
+          24.99421393326081
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "16",
+        "village": "保安里",
+        "name": "保安街1段54號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4255663482777,
+          24.994554274555597
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "17",
+        "village": "潭底里",
+        "name": "保安二街40巷18號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42558042802261,
+          24.995210322147532
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "18",
+        "village": "保安里",
+        "name": "千歲街6巷17號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42501244632126,
+          24.995573386183306
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "19",
+        "village": "保安里",
+        "name": "千歲街6巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42492630674587,
+          24.995679286928457
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "20",
+        "village": "潭底里",
+        "name": "千歲街19巷2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42435271689078,
+          24.99556740090136
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "21",
+        "village": "潭底里",
+        "name": "保安二街64巷5弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42426116441789,
+          24.995523728791515
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "22",
+        "village": "潭底里",
+        "name": "保安二街64巷1弄2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42518213221774,
+          24.995843105304168
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "23",
+        "village": "保安里",
+        "name": "千歲街16號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42548021901439,
+          24.995999651409942
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "24",
+        "village": "保安里",
+        "name": "千歲街28巷3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42617221716193,
+          24.995642337929347
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "25",
+        "village": "保安里",
+        "name": "千歲街30巷26弄12號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42636901565015,
+          24.996148988093413
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "26",
+        "village": "保安里",
+        "name": "千歲街30巷23號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42600489969414,
+          24.996327204556362
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "27",
+        "village": "保安里",
+        "name": "千歲街30巷10號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42789749570079,
+          24.998962718041327
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "28",
+        "village": "圳福里",
+        "name": "中正路3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42757902577762,
+          24.998428944738826
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "29",
+        "village": "圳福里",
+        "name": "千歲街92巷7弄37號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42720958343239,
+          24.997640547030116
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "30",
+        "village": "保安里",
+        "name": "千歲街92巷7弄22號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4268575079866,
+          24.99769388990537
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "31",
+        "village": "圳福里",
+        "name": "千歲街92巷1弄21號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42716904999133,
+          24.99872991721964
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238001",
+        "city": "new-taipei",
+        "lineid": "238001",
+        "linename": "路線1下午",
+        "rank": "32",
+        "village": "圳福里",
+        "name": "千歲街104巷口"
+      }
+    }
+  ]
+}

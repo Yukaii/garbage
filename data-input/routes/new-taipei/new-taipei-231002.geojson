@@ -1,0 +1,784 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53703570858,
+          24.9624103703141
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "1",
+        "village": "新生里",
+        "name": "環河路大潤發"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.537030096312,
+          24.9634684012836
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "2",
+        "village": "新生里",
+        "name": "環河路80巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.537000209821,
+          24.967218542932
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "3",
+        "village": "新生里",
+        "name": "環河路116號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5239842,
+          24.97693869
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "4",
+        "village": "中山里",
+        "name": "希望之河"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.523682743839,
+          24.981963926
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "5",
+        "village": "中山里",
+        "name": "蘭莊"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5252732,
+          24.98326738
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "6",
+        "village": "中山里",
+        "name": "十四張路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.529487758266,
+          24.9874648943437
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "7",
+        "village": "復興里",
+        "name": "溪園路55巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.534008941716,
+          24.990549558301
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "8",
+        "village": "忠孝里",
+        "name": "中正路691號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.534019,
+          24.990545
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "9",
+        "village": "中山里",
+        "name": "中正路691巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5339312,
+          24.98904185
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "10",
+        "village": "忠孝里",
+        "name": "秀朗橋頭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5335445,
+          24.98695328
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "11",
+        "village": "復興里",
+        "name": "中正路543號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5336743,
+          24.98404067
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "12",
+        "village": "復興里",
+        "name": "中正路501巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5337759,
+          24.98213999
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "13",
+        "village": "復興里",
+        "name": "中正路489號(花開富貴)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5339309,
+          24.97897781
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "14",
+        "village": "中山里",
+        "name": "中央路2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5334601,
+          24.97876746
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "15",
+        "village": "中山里",
+        "name": "中央路20號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5331143,
+          24.97818012
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "16",
+        "village": "中山里",
+        "name": "中央路60號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5307236,
+          24.97446313
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "17",
+        "village": "中央里",
+        "name": "中央路198號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5294692,
+          24.97271809
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "18",
+        "village": "中央里",
+        "name": "中央路230號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5306972,
+          24.97439149
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "19",
+        "village": "福民里",
+        "name": "中央市場(前提社區)中央路117號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5310204,
+          24.97483769
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "20",
+        "village": "福民里",
+        "name": "中央路105巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5327632,
+          24.97750895
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "21",
+        "village": "福民里",
+        "name": "中央路47號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5351148,
+          24.97623673
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "22",
+        "village": "百和里",
+        "name": "中正路耕莘醫院"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5347619,
+          24.97689289
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "23",
+        "village": "百和里",
+        "name": "中正路382巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5342742,
+          24.97787544
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "24",
+        "village": "百和里",
+        "name": "中正路418巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5339487,
+          24.97928232
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "25",
+        "village": "江陵里",
+        "name": "中正路二十張路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.534788,
+          24.98278115
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "26",
+        "village": "江陵里",
+        "name": "民權路137號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5362244,
+          24.98287126
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "27",
+        "village": "江陵里",
+        "name": "民權路105號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5384021,
+          24.98297766
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "28",
+        "village": "江陵里",
+        "name": "民權路81號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5403238,
+          24.98295407
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "29",
+        "village": "江陵里",
+        "name": "民權路二十張路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5404272,
+          24.98297397
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "30",
+        "village": "復興里",
+        "name": "民權路42巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5392183,
+          24.98299679
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "31",
+        "village": "復興里",
+        "name": "民權路50號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5384356,
+          24.98299717
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "32",
+        "village": "復興里",
+        "name": "民權路62號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5351635,
+          24.98283006
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "33",
+        "village": "復興里",
+        "name": "民權路124巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5338488,
+          24.98276169
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "34",
+        "village": "復興里",
+        "name": "民權路190號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5337203,
+          24.98365747
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "35",
+        "village": "復興里",
+        "name": "中正路518巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5335347,
+          24.9866093
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "36",
+        "village": "復興里",
+        "name": "中正路550巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5336659,
+          24.9873843
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "37",
+        "village": "復興里",
+        "name": "中正路560巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5339381,
+          24.98869403
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "38",
+        "village": "忠孝里",
+        "name": "江陵新村口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5340202,
+          24.99043684
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "39",
+        "village": "忠孝里",
+        "name": "忠孝新村口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5339049,
+          24.99113424
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "40",
+        "village": "大鵬里",
+        "name": "大鵬華城口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5351943,
+          24.9668533
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231002",
+        "city": "new-taipei",
+        "lineid": "231002",
+        "linename": "路線2",
+        "rank": "41",
+        "village": "大鵬里",
+        "name": "環河路大新店游泳池"
+      }
+    }
+  ]
+}

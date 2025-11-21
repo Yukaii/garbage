@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46461,
+          25.12181
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-ee489b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "關渡-2",
+        "car_seq": "第2車",
+        "arrival_time": "1730",
+        "leave_time": "1733",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "KEL-6571",
+        "route_code": "111-G16",
+        "stop_name": "臺北市北投區聖景路,貴族山莊101號(星期二.星期五)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46578,
+          25.12218
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-ee489b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "關渡-2",
+        "car_seq": "第2車",
+        "arrival_time": "1800",
+        "leave_time": "1802",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "KEL-6571",
+        "route_code": "111-G16",
+        "stop_name": "臺北市北投區大度路3段301巷28弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4666,
+          25.1209
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-ee489b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "關渡-2",
+        "car_seq": "第2車",
+        "arrival_time": "1803",
+        "leave_time": "1805",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "KEL-6571",
+        "route_code": "111-G16",
+        "stop_name": "臺北市北投區大度路3段301巷63弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46561,
+          25.12097
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-ee489b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "關渡-2",
+        "car_seq": "第2車",
+        "arrival_time": "1806",
+        "leave_time": "1808",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "KEL-6571",
+        "route_code": "111-G16",
+        "stop_name": "臺北市北投區大度路3段301巷86號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4652,
+          25.1198
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-ee489b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "關渡-2",
+        "car_seq": "第2車",
+        "arrival_time": "1809",
+        "leave_time": "1814",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "KEL-6571",
+        "route_code": "111-G16",
+        "stop_name": "臺北市北投區大度路3段301巷128弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46395,
+          25.1177
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-ee489b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "關渡-2",
+        "car_seq": "第2車",
+        "arrival_time": "1815",
+        "leave_time": "1818",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "KEL-6571",
+        "route_code": "111-G16",
+        "stop_name": "臺北市北投區關渡宮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49699,
+          25.12334
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-ee489b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "關渡-2",
+        "car_seq": "第2車",
+        "arrival_time": "1835",
+        "leave_time": "1845",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "KEL-6571",
+        "route_code": "111-G16",
+        "stop_name": "臺北市北投區大業路65巷2弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49581,
+          25.12161
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-ee489b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "關渡-2",
+        "car_seq": "第2車",
+        "arrival_time": "1853",
+        "leave_time": "1858",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "KEL-6571",
+        "route_code": "111-G16",
+        "stop_name": "臺北市北投區大度路1段怡和巷"
+      }
+    }
+  ]
+}

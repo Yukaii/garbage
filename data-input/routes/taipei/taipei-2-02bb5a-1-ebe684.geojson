@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56576,
+          24.9884
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-02bb5a-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-2",
+        "car_seq": "第1車",
+        "arrival_time": "1630",
+        "leave_time": "1633",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEA-0315",
+        "route_code": "106-G23",
+        "stop_name": "臺北市文山區木柵路3段37號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56722,
+          24.98858
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-02bb5a-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-2",
+        "car_seq": "第1車",
+        "arrival_time": "1634",
+        "leave_time": "1640",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEA-0315",
+        "route_code": "106-G23",
+        "stop_name": "臺北市文山區木柵路3段94號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56892,
+          24.98906
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-02bb5a-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-2",
+        "car_seq": "第1車",
+        "arrival_time": "1640",
+        "leave_time": "1643",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEA-0315",
+        "route_code": "106-G23",
+        "stop_name": "臺北市文山區木柵路3段158號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56996,
+          24.98956
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-02bb5a-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-2",
+        "car_seq": "第1車",
+        "arrival_time": "1643",
+        "leave_time": "1646",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEA-0315",
+        "route_code": "106-G23",
+        "stop_name": "臺北市文山區木柵路3段220號"
+      }
+    }
+  ]
+}

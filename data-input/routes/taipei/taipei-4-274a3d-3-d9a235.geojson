@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5127,
+          25.12685
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-274a3d-3-d9a235",
+        "city": "taipei",
+        "route_name": "光明-4",
+        "car_seq": "第3車",
+        "arrival_time": "1950",
+        "leave_time": "1958",
+        "district": "北投區",
+        "team": "光明分隊",
+        "car_no": "KEP-0131",
+        "route_code": "111-G13",
+        "stop_name": "臺北市北投區威靈頓山莊(一,五收代清業者垃圾)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51087,
+          25.12793
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-274a3d-3-d9a235",
+        "city": "taipei",
+        "route_name": "光明-4",
+        "car_seq": "第3車",
+        "arrival_time": "2000",
+        "leave_time": "2025",
+        "district": "北投區",
+        "team": "光明分隊",
+        "car_no": "KEP-0131",
+        "route_code": "111-G13",
+        "stop_name": "臺北市北投區奇岩路258號至溫泉路68巷24號全線沿線打鈴隨招隨停"
+      }
+    }
+  ]
+}

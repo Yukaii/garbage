@@ -1,0 +1,575 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.374313,
+          24.933609
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "1",
+        "village": "礁溪里",
+        "name": "愛國路16巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.374153,
+          24.93384
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "2",
+        "village": "礁溪里",
+        "name": "愛國路6巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.374619,
+          24.932808
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "3",
+        "village": "礁溪里",
+        "name": "黃昏區場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.374748,
+          24.932806
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "4",
+        "village": "礁溪里",
+        "name": "中華路右轉"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.375435,
+          24.932942
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "5",
+        "village": "礁溪里",
+        "name": "介壽路(中華路大同路口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.378248,
+          24.930452
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "6",
+        "village": "介壽里",
+        "name": "大同路口天橋下"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.375769,
+          24.933068
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "7",
+        "village": "礁溪里",
+        "name": "介壽路(右轉長泰街口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.376574,
+          24.933167
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "8",
+        "village": "礁溪里",
+        "name": "長泰街78巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.378769,
+          24.930922
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "9",
+        "village": "礁溪里",
+        "name": "長泰街5巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.377159,
+          24.931704
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "10",
+        "village": "礁溪里",
+        "name": "長泰街41巷右轉"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.377144,
+          24.931752
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "11",
+        "village": "礁溪里",
+        "name": "長泰街41巷15號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.378609,
+          24.930363
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "12",
+        "village": "介壽里",
+        "name": "大同路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.377242,
+          24.930316
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "13",
+        "village": "介壽里",
+        "name": "永安街26號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.375458,
+          24.929522
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "14",
+        "village": "介壽里",
+        "name": "永安街77巷左轉"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.375677,
+          24.929266
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "15",
+        "village": "介壽里",
+        "name": "永安街9巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.376085,
+          24.928829
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "16",
+        "village": "介壽里",
+        "name": "光明路69巷2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.37633,
+          24.928583
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "17",
+        "village": "介壽里",
+        "name": "永安街77巷12號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.376694,
+          24.928207
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "18",
+        "village": "介壽里",
+        "name": "大同路39巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.377018,
+          24.927866
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "19",
+        "village": "介壽里",
+        "name": "大同路39巷12號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.378136,
+          24.928637
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "20",
+        "village": "介壽里",
+        "name": "大同路5巷右轉"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.377586,
+          24.928173
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "21",
+        "village": "介壽里",
+        "name": "光明路75巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.379679,
+          24.927838
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "22",
+        "village": "介壽里",
+        "name": "介壽路1段276巷108弄"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.37921,
+          24.928197
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "23",
+        "village": "介壽里",
+        "name": "介壽路1段276巷102弄"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.379555,
+          24.930269
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "24",
+        "village": "介壽里",
+        "name": "介壽路右轉"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.380882,
+          24.930244
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "25",
+        "village": "介壽里",
+        "name": "介壽路318巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.381355,
+          24.930262
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "26",
+        "village": "介壽里",
+        "name": "介壽路338巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.381348,
+          24.930332
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "27",
+        "village": "介壽里",
+        "name": "介壽路331巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.381561,
+          24.93034
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "28",
+        "village": "介壽里",
+        "name": "介壽路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.39592,
+          24.936277
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "29",
+        "village": "溪北里",
+        "name": "橫溪路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.398109,
+          24.935522
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-237013",
+        "city": "new-taipei",
+        "lineid": "237013",
+        "linename": "L路線 晚上1",
+        "rank": "30",
+        "village": "溪北里",
+        "name": "溪北街"
+      }
+    }
+  ]
+}

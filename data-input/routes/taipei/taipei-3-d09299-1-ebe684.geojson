@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51244,
+          25.08454
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d09299-1-ebe684",
+        "city": "taipei",
+        "route_name": "社子-3",
+        "car_seq": "第1車",
+        "arrival_time": "1600",
+        "leave_time": "1605",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "KEA-1701",
+        "route_code": "108-G24",
+        "stop_name": "臺北市士林區通河西街1段91號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51241,
+          25.08358
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d09299-1-ebe684",
+        "city": "taipei",
+        "route_name": "社子-3",
+        "car_seq": "第1車",
+        "arrival_time": "1606",
+        "leave_time": "1611",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "KEA-1701",
+        "route_code": "108-G24",
+        "stop_name": "臺北市士林區重慶北路4段146號後面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51304,
+          25.08215
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d09299-1-ebe684",
+        "city": "taipei",
+        "route_name": "社子-3",
+        "car_seq": "第1車",
+        "arrival_time": "1612",
+        "leave_time": "1617",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "KEA-1701",
+        "route_code": "108-G24",
+        "stop_name": "臺北市士林區重慶北路4段96號後面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5098,
+          25.08006
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d09299-1-ebe684",
+        "city": "taipei",
+        "route_name": "社子-3",
+        "car_seq": "第1車",
+        "arrival_time": "1623",
+        "leave_time": "1633",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "KEA-1701",
+        "route_code": "108-G24",
+        "stop_name": "臺北市士林區葫蘆街32號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50844,
+          25.0816
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d09299-1-ebe684",
+        "city": "taipei",
+        "route_name": "社子-3",
+        "car_seq": "第1車",
+        "arrival_time": "1634",
+        "leave_time": "1644",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "KEA-1701",
+        "route_code": "108-G24",
+        "stop_name": "臺北市士林區葫蘆街80號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50816,
+          25.08254
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d09299-1-ebe684",
+        "city": "taipei",
+        "route_name": "社子-3",
+        "car_seq": "第1車",
+        "arrival_time": "1645",
+        "leave_time": "1650",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "KEA-1701",
+        "route_code": "108-G24",
+        "stop_name": "臺北市士林區葫蘆街108號"
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59404,
+          25.04871
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a8db81-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-2",
+        "car_seq": "第2車",
+        "arrival_time": "2040",
+        "leave_time": "2045",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEA-0877",
+        "route_code": "107-G22",
+        "stop_name": "臺北市南港區昆陽街158號對面公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5926,
+          25.04004
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a8db81-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-2",
+        "car_seq": "第2車",
+        "arrival_time": "2052",
+        "leave_time": "2104",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEA-0877",
+        "route_code": "107-G22",
+        "stop_name": "臺北市南港區福德街417號中庭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58976,
+          25.04659
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a8db81-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-2",
+        "car_seq": "第2車",
+        "arrival_time": "2107",
+        "leave_time": "2112",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEA-0877",
+        "route_code": "107-G22",
+        "stop_name": "臺北市南港區東新街103號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58838,
+          25.04708
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a8db81-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-2",
+        "car_seq": "第2車",
+        "arrival_time": "2113",
+        "leave_time": "2118",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEA-0877",
+        "route_code": "107-G22",
+        "stop_name": "臺北市南港區東新街77巷4弄2號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58697,
+          25.04783
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a8db81-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-2",
+        "car_seq": "第2車",
+        "arrival_time": "2120",
+        "leave_time": "2125",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEA-0877",
+        "route_code": "107-G22",
+        "stop_name": "臺北市南港區忠孝東路6段188巷13弄2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58568,
+          25.04627
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a8db81-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-2",
+        "car_seq": "第2車",
+        "arrival_time": "2126",
+        "leave_time": "2135",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEA-0877",
+        "route_code": "107-G22",
+        "stop_name": "臺北市南港區同德路85巷4號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5844,
+          25.04438
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a8db81-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-2",
+        "car_seq": "第2車",
+        "arrival_time": "2137",
+        "leave_time": "2150",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEA-0877",
+        "route_code": "107-G22",
+        "stop_name": "臺北市南港區玉成街176巷口"
+      }
+    }
+  ]
+}

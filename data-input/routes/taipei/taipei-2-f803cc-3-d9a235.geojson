@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55227,
+          25.03416
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-3-d9a235",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第3車",
+        "arrival_time": "2100",
+        "leave_time": "2103",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區安和路1段104號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55225,
+          25.03246
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-3-d9a235",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第3車",
+        "arrival_time": "2105",
+        "leave_time": "2108",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區安和路2段12號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55221,
+          25.03108
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-3-d9a235",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第3車",
+        "arrival_time": "2110",
+        "leave_time": "2113",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區安和路2段52號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55051,
+          25.02905
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-3-d9a235",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第3車",
+        "arrival_time": "2115",
+        "leave_time": "2138",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區安和路2段92號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55008,
+          25.02492
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-3-d9a235",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第3車",
+        "arrival_time": "2140",
+        "leave_time": "2143",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區安和路2段186號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5525,
+          25.03054
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-3-d9a235",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第3車",
+        "arrival_time": "2146",
+        "leave_time": "2155",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市安和路2段69巷2號"
+      }
+    }
+  ]
+}

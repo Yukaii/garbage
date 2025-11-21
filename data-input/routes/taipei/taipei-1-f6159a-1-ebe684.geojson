@@ -1,0 +1,879 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54183,
+          25.10342
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1625",
+        "leave_time": "1630",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道2段32號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54354,
+          25.10482
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1630",
+        "leave_time": "1632",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道2段70巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54512,
+          25.1062
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1632",
+        "leave_time": "1634",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道2段110號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54555,
+          25.10744
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1634",
+        "leave_time": "1637",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道2段132號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54724,
+          25.10947
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1637",
+        "leave_time": "1638",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道2段與莊頂路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54871,
+          25.11057
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1638",
+        "leave_time": "1640",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道3段10號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55231,
+          25.11813
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1640",
+        "leave_time": "1641",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道3段14號(隨招)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55463,
+          25.12029
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1641",
+        "leave_time": "1647",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道3段34巷口旁公車站"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55477,
+          25.12079
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1647",
+        "leave_time": "1648",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路8巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55293,
+          25.12277
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1648",
+        "leave_time": "1649",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路30巷2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55492,
+          25.12088
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1649",
+        "leave_time": "1651",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路30巷18號(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55689,
+          25.12427
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1651",
+        "leave_time": "1652",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路106巷10號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55288,
+          25.12093
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1652",
+        "leave_time": "1653",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路106巷底(迴轉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54692,
+          25.13117
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1653",
+        "leave_time": "1657",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路106巷口(鼎興橋)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54586,
+          25.13416
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1657",
+        "leave_time": "1705",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路120號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54931,
+          25.13431
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1705",
+        "leave_time": "1706",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路129號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55011,
+          25.12869
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1706",
+        "leave_time": "1708",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路129號至219號(隨招)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54789,
+          25.13539
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1708",
+        "leave_time": "1710",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路280號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5486,
+          25.13603
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1710",
+        "leave_time": "1712",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路276號至218號(隨招)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55082,
+          25.1371
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1712",
+        "leave_time": "1714",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路175之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54618,
+          25.13695
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1714",
+        "leave_time": "1716",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路石頭公園至單行道出口(隨招)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54548,
+          25.13731
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1716",
+        "leave_time": "1721",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區永公路245巷43弄38之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54521,
+          25.13777
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1721",
+        "leave_time": "1723",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區新安路115之1號至83號(隨招)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54247,
+          25.13693
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1723",
+        "leave_time": "1726",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道3段90號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54369,
+          25.13576
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1726",
+        "leave_time": "1727",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道3段122號至仁民路(隨招)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55279,
+          25.11935
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1727",
+        "leave_time": "1733",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道4段仁民路口(消防局對面)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54634,
+          25.13085
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1733",
+        "leave_time": "1736",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道3段250巷(進)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55091,
+          25.1397
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1736",
+        "leave_time": "1738",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道3段250巷22之2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55858,
+          25.14149
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1738",
+        "leave_time": "1740",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道3段250巷27號(前空地)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55374,
+          25.14005
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1740",
+        "leave_time": "1742",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道3段250巷38號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55977,
+          25.1382
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1742",
+        "leave_time": "1744",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區仰德大道3段250巷口(出)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56111,
+          25.13436
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1744",
+        "leave_time": "1749",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區中庸一路35巷口(美通橋)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56079,
+          25.13314
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1749",
+        "leave_time": "1751",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區建業路與中庸一路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55315,
+          25.10902
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1751",
+        "leave_time": "1756",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區建業路26號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55408,
+          25.11085
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1756",
+        "leave_time": "1758",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區建業路68巷1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54584,
+          25.10901
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1758",
+        "leave_time": "1802",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區格致路與凱旋路口(垃圾車)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54087,
+          25.10172
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1802",
+        "leave_time": "1818",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區光華路與格致路55巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53739,
+          25.10719
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6159a-1-ebe684",
+        "city": "taipei",
+        "route_name": "草山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1818",
+        "leave_time": "1824",
+        "district": "士林區",
+        "team": "草山分隊",
+        "car_no": "KEJ-6182",
+        "route_code": "110-G15",
+        "stop_name": "臺北市士林區國泰街與光華路26巷口"
+      }
+    }
+  ]
+}

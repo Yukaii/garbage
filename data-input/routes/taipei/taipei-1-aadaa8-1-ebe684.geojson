@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55185,
+          25.01969
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-aadaa8-1-ebe684",
+        "city": "taipei",
+        "route_name": "臥龍-1",
+        "car_seq": "第1車",
+        "arrival_time": "1810",
+        "leave_time": "1825",
+        "district": "大安區",
+        "team": "臥龍分隊",
+        "car_no": "062-BV",
+        "route_code": "101-049",
+        "stop_name": "臺北市大安區臥龍街131巷13弄1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5514016,
+          25.0212977
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-aadaa8-1-ebe684",
+        "city": "taipei",
+        "route_name": "臥龍-1",
+        "car_seq": "第1車",
+        "arrival_time": "1833",
+        "leave_time": "1840",
+        "district": "大安區",
+        "team": "臥龍分隊",
+        "car_no": "062-BV",
+        "route_code": "101-049",
+        "stop_name": "臺北市大安區樂業街87號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55209,
+          25.02082
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-aadaa8-1-ebe684",
+        "city": "taipei",
+        "route_name": "臥龍-1",
+        "car_seq": "第1車",
+        "arrival_time": "1842",
+        "leave_time": "1855",
+        "district": "大安區",
+        "team": "臥龍分隊",
+        "car_no": "062-BV",
+        "route_code": "101-049",
+        "stop_name": "臺北市大安區樂業街118巷1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55354,
+          25.0209
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-aadaa8-1-ebe684",
+        "city": "taipei",
+        "route_name": "臥龍-1",
+        "car_seq": "第1車",
+        "arrival_time": "1857",
+        "leave_time": "1907",
+        "district": "大安區",
+        "team": "臥龍分隊",
+        "car_no": "062-BV",
+        "route_code": "101-049",
+        "stop_name": "臺北市大安區和平東路3段228巷37號"
+      }
+    }
+  ]
+}

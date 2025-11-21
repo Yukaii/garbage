@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.479201,
+          25.083931
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247009",
+        "city": "new-taipei",
+        "lineid": "247009",
+        "linename": "路線5下午",
+        "rank": "1",
+        "village": "仁德里",
+        "name": "信義路229巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47888513062125,
+          25.083347560096616
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247009",
+        "city": "new-taipei",
+        "lineid": "247009",
+        "linename": "路線5下午",
+        "rank": "2",
+        "village": "仁德里",
+        "name": "三民路26巷73號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.476737,
+          25.082854
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247009",
+        "city": "new-taipei",
+        "lineid": "247009",
+        "linename": "路線5下午",
+        "rank": "3",
+        "village": "仁德里",
+        "name": "三民路26巷13號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47693,
+          25.083719
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247009",
+        "city": "new-taipei",
+        "lineid": "247009",
+        "linename": "路線5下午",
+        "rank": "4",
+        "village": "仁德里",
+        "name": "鷺江街91號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47914854189783,
+          25.0826422487574
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247009",
+        "city": "new-taipei",
+        "lineid": "247009",
+        "linename": "路線5下午",
+        "rank": "5",
+        "village": "恆德里",
+        "name": "鷺江街13號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48118154994586,
+          25.08530231062896
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247009",
+        "city": "new-taipei",
+        "lineid": "247009",
+        "linename": "路線5下午",
+        "rank": "6",
+        "village": "玉清里",
+        "name": "信義路222巷61號"
+      }
+    }
+  ]
+}

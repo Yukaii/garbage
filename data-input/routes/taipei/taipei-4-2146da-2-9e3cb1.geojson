@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57206,
+          25.04799
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第2車",
+        "arrival_time": "1725",
+        "leave_time": "1745",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區松信路38號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57216,
+          25.04689
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第2車",
+        "arrival_time": "1746",
+        "leave_time": "1755",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區松信路與松隆路交叉口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56889,
+          25.04673
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第2車",
+        "arrival_time": "1758",
+        "leave_time": "1804",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區永吉路37號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56859,
+          25.04781
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第2車",
+        "arrival_time": "1805",
+        "leave_time": "1810",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區基隆路1段37巷47號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57055,
+          25.04785
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第2車",
+        "arrival_time": "1811",
+        "leave_time": "1826",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區基隆路1段35巷7弄4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57038,
+          25.04669
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第2車",
+        "arrival_time": "1827",
+        "leave_time": "1830",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區永吉路127巷與基隆路1段83巷交叉口(興雅國小邊)"
+      }
+    }
+  ]
+}

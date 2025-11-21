@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58746,
+          25.08155
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e624bc-1-ebe684",
+        "city": "taipei",
+        "route_name": "內湖-2",
+        "car_seq": "第1車",
+        "arrival_time": "1800",
+        "leave_time": "1810",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "KEJ-0565",
+        "route_code": "111-G03",
+        "stop_name": "臺北市內湖區內湖路2段179巷3弄1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59027,
+          25.08244
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e624bc-1-ebe684",
+        "city": "taipei",
+        "route_name": "內湖-2",
+        "car_seq": "第1車",
+        "arrival_time": "1815",
+        "leave_time": "1830",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "KEJ-0565",
+        "route_code": "111-G03",
+        "stop_name": "臺北市內湖區內湖路2段263巷4號"
+      }
+    }
+  ]
+}

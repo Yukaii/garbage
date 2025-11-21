@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53235,
+          25.04639
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-23a527-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1840",
+        "leave_time": "1847",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "KEJ-6172",
+        "route_code": "110-G10",
+        "stop_name": "臺北市中山區新生北路1段11-7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53139,
+          25.04694
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-23a527-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1848",
+        "leave_time": "1856",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "KEJ-6172",
+        "route_code": "110-G10",
+        "stop_name": "臺北市中山區新生北路1段25之1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52831,
+          25.05085
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-23a527-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1858",
+        "leave_time": "1904",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "KEJ-6172",
+        "route_code": "110-G10",
+        "stop_name": "臺北市中山區新生北路1段83號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52889,
+          25.05194
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-23a527-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1905",
+        "leave_time": "1912",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "KEJ-6172",
+        "route_code": "110-G10",
+        "stop_name": "臺北市中山區南京東路2段26號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52997,
+          25.05126
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-23a527-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1914",
+        "leave_time": "1922",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "KEJ-6172",
+        "route_code": "110-G10",
+        "stop_name": "臺北市中山區吉林路24號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53157,
+          25.04845
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-23a527-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1924",
+        "leave_time": "1930",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "KEJ-6172",
+        "route_code": "110-G10",
+        "stop_name": "臺北市中山區長安東路2段38號前"
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58052,
+          25.03661
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-69542c-3-d9a235",
+        "city": "taipei",
+        "route_name": "福德-2",
+        "car_seq": "第3車",
+        "arrival_time": "2030",
+        "leave_time": "2045",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "KEG-1129",
+        "route_code": "109-G13",
+        "stop_name": "臺北市信義區福德街20號對面(松山家商2號門前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58415,
+          25.03819
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-69542c-3-d9a235",
+        "city": "taipei",
+        "route_name": "福德-2",
+        "car_seq": "第3車",
+        "arrival_time": "2047",
+        "leave_time": "2118",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "KEG-1129",
+        "route_code": "109-G13",
+        "stop_name": "臺北市信義區福德街189號對面(福德公園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57927,
+          25.03871
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-69542c-3-d9a235",
+        "city": "taipei",
+        "route_name": "福德-2",
+        "car_seq": "第3車",
+        "arrival_time": "2120",
+        "leave_time": "2130",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "KEG-1129",
+        "route_code": "109-G13",
+        "stop_name": "臺北市信義區林口街68號對面(林口公園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57937,
+          25.03674
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-69542c-3-d9a235",
+        "city": "taipei",
+        "route_name": "福德-2",
+        "car_seq": "第3車",
+        "arrival_time": "2131",
+        "leave_time": "2135",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "KEG-1129",
+        "route_code": "109-G13",
+        "stop_name": "臺北市信義區林口街6號(松德市場)"
+      }
+    }
+  ]
+}

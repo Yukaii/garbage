@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61836,
+          25.07428
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-193d23-3-d9a235",
+        "city": "taipei",
+        "route_name": "東湖-1",
+        "car_seq": "第3車",
+        "arrival_time": "2200",
+        "leave_time": "2215",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "070-BQ",
+        "route_code": "100-603",
+        "stop_name": "臺北市內湖區安泰街45巷18號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61767,
+          25.07274
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-193d23-3-d9a235",
+        "city": "taipei",
+        "route_name": "東湖-1",
+        "car_seq": "第3車",
+        "arrival_time": "2216",
+        "leave_time": "2220",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "070-BQ",
+        "route_code": "100-603",
+        "stop_name": "臺北市內湖區康樂街136巷29弄17號對面"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58011,
+          25.04596
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第3車",
+        "arrival_time": "1950",
+        "leave_time": "1959",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區永吉路517巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57839,
+          25.04668
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第3車",
+        "arrival_time": "2000",
+        "leave_time": "2009",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區永吉路443巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57816,
+          25.04631
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第3車",
+        "arrival_time": "2010",
+        "leave_time": "2020",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區松山路161巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57758,
+          25.04307
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第3車",
+        "arrival_time": "2022",
+        "leave_time": "2025",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區松山路294號 (永春市場)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57761,
+          25.04199
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第3車",
+        "arrival_time": "2025",
+        "leave_time": "2035",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區松山路332號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57723,
+          25.04211
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-2146da-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-4",
+        "car_seq": "第3車",
+        "arrival_time": "2040",
+        "leave_time": "2110",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "822-BT",
+        "route_code": "103-075",
+        "stop_name": "臺北市信義區虎林街119巷內(虎林市場)"
+      }
+    }
+  ]
+}

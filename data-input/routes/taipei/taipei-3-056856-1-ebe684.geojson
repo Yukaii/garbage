@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58093,
+          25.04403
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-056856-1-ebe684",
+        "city": "taipei",
+        "route_name": "五分埔-3",
+        "car_seq": "第1車",
+        "arrival_time": "1735",
+        "leave_time": "1804",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0873",
+        "route_code": "107-G19",
+        "stop_name": "臺北市信義區忠孝東路5段743巷29號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58065,
+          25.04271
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-056856-1-ebe684",
+        "city": "taipei",
+        "route_name": "五分埔-3",
+        "car_seq": "第1車",
+        "arrival_time": "1805",
+        "leave_time": "1810",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0873",
+        "route_code": "107-G19",
+        "stop_name": "臺北市信義區忠孝東路5段721巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57846,
+          25.04144
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-056856-1-ebe684",
+        "city": "taipei",
+        "route_name": "五分埔-3",
+        "car_seq": "第1車",
+        "arrival_time": "1811",
+        "leave_time": "1815",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0873",
+        "route_code": "107-G19",
+        "stop_name": "臺北市信義區忠孝東路5段499號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5779,
+          25.0429
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-056856-1-ebe684",
+        "city": "taipei",
+        "route_name": "五分埔-3",
+        "car_seq": "第1車",
+        "arrival_time": "1816",
+        "leave_time": "1830",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0873",
+        "route_code": "107-G19",
+        "stop_name": "臺北市信義區松山路287巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5779,
+          25.0442
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-056856-1-ebe684",
+        "city": "taipei",
+        "route_name": "五分埔-3",
+        "car_seq": "第1車",
+        "arrival_time": "1831",
+        "leave_time": "1835",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0873",
+        "route_code": "107-G19",
+        "stop_name": "臺北市信義區松山路249巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57836,
+          25.04525
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-056856-1-ebe684",
+        "city": "taipei",
+        "route_name": "五分埔-3",
+        "car_seq": "第1車",
+        "arrival_time": "1836",
+        "leave_time": "1842",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0873",
+        "route_code": "107-G19",
+        "stop_name": "臺北市信義區永吉路444號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57957,
+          25.04519
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-056856-1-ebe684",
+        "city": "taipei",
+        "route_name": "五分埔-3",
+        "car_seq": "第1車",
+        "arrival_time": "1843",
+        "leave_time": "1850",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0873",
+        "route_code": "107-G19",
+        "stop_name": "臺北市信義區永吉路500號"
+      }
+    }
+  ]
+}

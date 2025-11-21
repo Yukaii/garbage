@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512,
+          25.05017
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f74888-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-2",
+        "car_seq": "第3車",
+        "arrival_time": "2136",
+        "leave_time": "2139",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-1675",
+        "route_code": "108-G01",
+        "stop_name": "臺北市大同區延平北路1段17號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51194,
+          25.05147
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f74888-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-2",
+        "car_seq": "第3車",
+        "arrival_time": "2140",
+        "leave_time": "2143",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-1675",
+        "route_code": "108-G01",
+        "stop_name": "臺北市大同區延平北路1段69巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51169,
+          25.05552
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f74888-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-2",
+        "car_seq": "第3車",
+        "arrival_time": "2147",
+        "leave_time": "2150",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-1675",
+        "route_code": "108-G01",
+        "stop_name": "臺北市大同區延平北路2段61巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51207,
+          25.05904
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f74888-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-2",
+        "car_seq": "第3車",
+        "arrival_time": "2153",
+        "leave_time": "2156",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-1675",
+        "route_code": "108-G01",
+        "stop_name": "臺北市大同區保安街78巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51277,
+          25.05912
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f74888-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-2",
+        "car_seq": "第3車",
+        "arrival_time": "2157",
+        "leave_time": "2159",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-1675",
+        "route_code": "108-G01",
+        "stop_name": "臺北市大同區保安街甘州街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51299,
+          25.05833
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f74888-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-2",
+        "car_seq": "第3車",
+        "arrival_time": "2203",
+        "leave_time": "2205",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-1675",
+        "route_code": "108-G01",
+        "stop_name": "臺北市大同區甘州街1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512,
+          25.05817
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f74888-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-2",
+        "car_seq": "第3車",
+        "arrival_time": "2206",
+        "leave_time": "2209",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-1675",
+        "route_code": "108-G01",
+        "stop_name": "臺北市大同區歸綏街209號"
+      }
+    }
+  ]
+}

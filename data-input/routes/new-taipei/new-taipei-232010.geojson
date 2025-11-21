@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232010",
+        "city": "new-taipei",
+        "lineid": "232010",
+        "linename": "水德線",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.726205,
+          24.925439
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232010",
+        "city": "new-taipei",
+        "lineid": "232010",
+        "linename": "水德線",
+        "rank": "2",
+        "village": "水德里",
+        "name": "水聳淒坑1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.714785,
+          24.940282
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232010",
+        "city": "new-taipei",
+        "lineid": "232010",
+        "linename": "水德線",
+        "rank": "3",
+        "village": "水德里",
+        "name": "苦苓腳5-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.73317,
+          24.940937
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232010",
+        "city": "new-taipei",
+        "lineid": "232010",
+        "linename": "水德線",
+        "rank": "4",
+        "village": "水德里",
+        "name": "厚德岡坑1~8-3號路口"
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.380955,
+          25.076922
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-244012",
+        "city": "new-taipei",
+        "lineid": "244012",
+        "linename": "路線6下午",
+        "rank": "1",
+        "village": "西林里",
+        "name": "中正路555號(筑園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.388276,
+          25.07893
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-244012",
+        "city": "new-taipei",
+        "lineid": "244012",
+        "linename": "路線6下午",
+        "rank": "2",
+        "village": "西林里",
+        "name": "中山路137號(消防隊)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3910623,
+          25.07937775
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-244012",
+        "city": "new-taipei",
+        "lineid": "244012",
+        "linename": "路線6下午",
+        "rank": "3",
+        "village": "東林里",
+        "name": "中山路160巷7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.386863,
+          25.079993
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-244012",
+        "city": "new-taipei",
+        "lineid": "244012",
+        "linename": "路線6下午",
+        "rank": "4",
+        "village": "菁湖里",
+        "name": "佳林路101巷26號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.3831622,
+          25.07960691
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-244012",
+        "city": "new-taipei",
+        "lineid": "244012",
+        "linename": "路線6下午",
+        "rank": "5",
+        "village": "湖南里",
+        "name": "文化一路二段100巷17弄"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.381761,
+          25.077212
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-244012",
+        "city": "new-taipei",
+        "lineid": "244012",
+        "linename": "路線6下午",
+        "rank": "6",
+        "village": "湖南里",
+        "name": "中正路514巷(溫德爾幼兒園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.374384,
+          25.071716
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-244012",
+        "city": "new-taipei",
+        "lineid": "244012",
+        "linename": "路線6下午",
+        "rank": "7",
+        "village": "麗園里",
+        "name": "麗園路2巷(智盛幼兒園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.377035,
+          25.070331
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-244012",
+        "city": "new-taipei",
+        "lineid": "244012",
+        "linename": "路線6下午",
+        "rank": "8",
+        "village": "東勢里",
+        "name": "麗園一街11巷(八方雲集)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.376686,
+          25.071256
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-244012",
+        "city": "new-taipei",
+        "lineid": "244012",
+        "linename": "路線6下午",
+        "rank": "9",
+        "village": "東勢里",
+        "name": "麗園一街9巷前(林口國宅中庭前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.375513,
+          25.072053
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-244012",
+        "city": "new-taipei",
+        "lineid": "244012",
+        "linename": "路線6下午",
+        "rank": "10",
+        "village": "東勢里",
+        "name": "麗園一街2巷124之2號"
+      }
+    }
+  ]
+}

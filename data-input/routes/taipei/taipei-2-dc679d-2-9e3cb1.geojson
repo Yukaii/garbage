@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61779,
+          25.06812
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dc679d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東湖-2",
+        "car_seq": "第2車",
+        "arrival_time": "1910",
+        "leave_time": "1920",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "KEG-1125",
+        "route_code": "109-G10",
+        "stop_name": "臺北市內湖區康樂街12號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.62237,
+          25.07555
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dc679d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東湖-2",
+        "car_seq": "第2車",
+        "arrival_time": "1925",
+        "leave_time": "1930",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "KEG-1125",
+        "route_code": "109-G10",
+        "stop_name": "臺北市內湖區康樂街201巷9號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.62027,
+          25.07564
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dc679d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東湖-2",
+        "car_seq": "第2車",
+        "arrival_time": "1932",
+        "leave_time": "1940",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "KEG-1125",
+        "route_code": "109-G10",
+        "stop_name": "臺北市內湖區康樂街180號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61919,
+          25.07244
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dc679d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東湖-2",
+        "car_seq": "第2車",
+        "arrival_time": "1945",
+        "leave_time": "1950",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "KEG-1125",
+        "route_code": "109-G10",
+        "stop_name": "臺北市內湖區康樂街150號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61646,
+          25.06828
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dc679d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東湖-2",
+        "car_seq": "第2車",
+        "arrival_time": "1955",
+        "leave_time": "2000",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "KEG-1125",
+        "route_code": "109-G10",
+        "stop_name": "臺北市內湖區東湖路121號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61393,
+          25.0689
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dc679d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東湖-2",
+        "car_seq": "第2車",
+        "arrival_time": "2001",
+        "leave_time": "2005",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "KEG-1125",
+        "route_code": "109-G10",
+        "stop_name": "臺北市內湖區東湖路41號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6127,
+          25.0689
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dc679d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東湖-2",
+        "car_seq": "第2車",
+        "arrival_time": "2006",
+        "leave_time": "2007",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "KEG-1125",
+        "route_code": "109-G10",
+        "stop_name": "臺北市內湖區東湖路9號(廚餘車不停)"
+      }
+    }
+  ]
+}

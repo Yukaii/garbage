@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61515,
+          25.05533
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-400393-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南港-1",
+        "car_seq": "第2車",
+        "arrival_time": "2038",
+        "leave_time": "2042",
+        "district": "南港區",
+        "team": "南港分隊",
+        "car_no": "KEG-1132",
+        "route_code": "109-G15",
+        "stop_name": "臺北市南港區南港路1段54-60號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61062,
+          25.0556
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-400393-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南港-1",
+        "car_seq": "第2車",
+        "arrival_time": "2045",
+        "leave_time": "2050",
+        "district": "南港區",
+        "team": "南港分隊",
+        "car_no": "KEG-1132",
+        "route_code": "109-G15",
+        "stop_name": "臺北市南港區新民街99號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61308,
+          25.0562
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-400393-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南港-1",
+        "car_seq": "第2車",
+        "arrival_time": "2052",
+        "leave_time": "2100",
+        "district": "南港區",
+        "team": "南港分隊",
+        "car_no": "KEG-1132",
+        "route_code": "109-G15",
+        "stop_name": "臺北市南港區新民街29號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61122,
+          25.05903
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-400393-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南港-1",
+        "car_seq": "第2車",
+        "arrival_time": "2102",
+        "leave_time": "2115",
+        "district": "南港區",
+        "team": "南港分隊",
+        "car_no": "KEG-1132",
+        "route_code": "109-G15",
+        "stop_name": "臺北市南港區園區街14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61402,
+          25.05612
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-400393-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南港-1",
+        "car_seq": "第2車",
+        "arrival_time": "2117",
+        "leave_time": "2125",
+        "district": "南港區",
+        "team": "南港分隊",
+        "car_no": "KEG-1132",
+        "route_code": "109-G15",
+        "stop_name": "臺北市南港區三重路32巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61182,
+          25.05596
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-400393-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南港-1",
+        "car_seq": "第2車",
+        "arrival_time": "2127",
+        "leave_time": "2131",
+        "district": "南港區",
+        "team": "南港分隊",
+        "car_no": "KEG-1132",
+        "route_code": "109-G15",
+        "stop_name": "臺北市南港區新民街58號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61434,
+          25.05512
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-400393-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南港-1",
+        "car_seq": "第2車",
+        "arrival_time": "2133",
+        "leave_time": "2138",
+        "district": "南港區",
+        "team": "南港分隊",
+        "car_no": "KEG-1132",
+        "route_code": "109-G15",
+        "stop_name": "臺北市南港區南港路1段123號前"
+      }
+    }
+  ]
+}

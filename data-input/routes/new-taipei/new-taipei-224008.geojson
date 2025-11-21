@@ -1,0 +1,879 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.81708699856961,
+          25.10845087946415
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "1",
+        "village": "柑坪里",
+        "name": "明燈路一段263號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.81927639053788,
+          25.10759865314676
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "2",
+        "village": "柑坪里",
+        "name": "明燈路一段171 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83123750833556,
+          25.0899161726833
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "3",
+        "village": "猴硐里",
+        "name": "猴硐路119 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82940335874423,
+          25.088714879101747
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "4",
+        "village": "猴硐里",
+        "name": "猴硐路65 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82747142940605,
+          25.08692617612301
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "5",
+        "village": "光復里",
+        "name": "柴寮路36號前(猴硐火車站)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82459650930377,
+          25.082386874954246
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "6",
+        "village": "光復里",
+        "name": "柴寮路31號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82571575317104,
+          25.08293149188874
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "7",
+        "village": "猴硐里",
+        "name": "猴硐路25號(猴硐里活動中心)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82805543039194,
+          25.085458821347963
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "8",
+        "village": "猴硐里",
+        "name": "猴硐路158 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83015056772138,
+          25.088953152200556
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "9",
+        "village": "猴硐里",
+        "name": "猴硐路246號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83179244495966,
+          25.090555929596718
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "10",
+        "village": "猴硐里",
+        "name": "猴硐路316 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83045595496083,
+          25.088211918796997
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "11",
+        "village": "猴硐里",
+        "name": "猴硐路204號(一百階上)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83285496655401,
+          25.092699271629446
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "12",
+        "village": "弓橋里",
+        "name": "九芎橋路62 號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.83398092594155,
+          25.09707655557935
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "13",
+        "village": "弓橋里",
+        "name": "九芎橋路198 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8288639950323,
+          25.10657250733809
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "14",
+        "village": "柑坪里",
+        "name": "瑞柑新村51號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82926872158328,
+          25.10626557087924
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "15",
+        "village": "柑坪里",
+        "name": "瑞柑新村1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82297132150461,
+          25.10759748590973
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "16",
+        "village": "柑坪里",
+        "name": "明燈路一段6-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82187686869474,
+          25.107585953257026
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "17",
+        "village": "柑坪里",
+        "name": "明燈路一段18 巷7 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82282295361131,
+          25.107345925230582
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "18",
+        "village": "柑坪里",
+        "name": "明燈路一段23 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.81861726477587,
+          25.108882098747337
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "19",
+        "village": "柑坪里",
+        "name": "明燈路一段118號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82148346044937,
+          25.106479299418652
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "20",
+        "village": "柑坪里",
+        "name": "明燈路一段45巷1-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.82218812826977,
+          25.10378185575216
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "21",
+        "village": "柑坪里",
+        "name": "明燈路一段45巷107 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.81876183143595,
+          25.106696756828793
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "22",
+        "village": "柑坪里",
+        "name": "明燈路一段201巷97號(棒球場)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.81143135384639,
+          25.10841656938159
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "23",
+        "village": "龍鎮里",
+        "name": "逢甲路38-1號(龍鎮宮前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80980874218835,
+          25.10863896492968
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "24",
+        "village": "龍鎮里",
+        "name": "逢甲路82號(區公所前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8086107458821,
+          25.10913011393239
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "25",
+        "village": "龍鎮里",
+        "name": "逢甲路130號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80693423887215,
+          25.110092624711804
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "26",
+        "village": "龍鎮里",
+        "name": "逢甲路198號(ok便利商店)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80660736441803,
+          25.1103896441084
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "27",
+        "village": "龍山里",
+        "name": "岳王路一巷18號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80546386294372,
+          25.11046699185318
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "28",
+        "village": "龍鎮里",
+        "name": "逢甲路250號(瑞龍宮)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80797847730469,
+          25.111276819593776
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "29",
+        "village": "龍鎮里",
+        "name": "岳王路14號(廬校長宅前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80671161970326,
+          25.109839054470118
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "30",
+        "village": "龍潭里",
+        "name": "瑞芳街14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80650563390805,
+          25.10953810485029
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "31",
+        "village": "龍潭里",
+        "name": "瑞芳街26號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80588564802167,
+          25.10970879095645
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "32",
+        "village": "龍潭里",
+        "name": "瑞芳街50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80489812252881,
+          25.110810922600585
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "33",
+        "village": "龍山里",
+        "name": "逢甲路270巷口(瑞工對面)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80360568646574,
+          25.11153408934158
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "34",
+        "village": "龍山里",
+        "name": "逢甲路284號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80191471666762,
+          25.1120448826422
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "35",
+        "village": "龍山里",
+        "name": "逢甲路裕民新村1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80119120811992,
+          25.111772017550933
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "36",
+        "village": "龍山里",
+        "name": "逢甲路352號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80136863033795,
+          25.1173616596264
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "37",
+        "village": "龍山里",
+        "name": "逢甲路410號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79896428164807,
+          25.1125065918372
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "38",
+        "village": "龍山里",
+        "name": "逢甲路343-15號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80119497795056,
+          25.1121689525422
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "39",
+        "village": "龍山里",
+        "name": "逢甲路335號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8013768995038,
+          25.110815570872116
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "40",
+        "village": "龍安里",
+        "name": "瑞芳街112巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79815693331989,
+          25.11232983053579
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "41",
+        "village": "龍安里",
+        "name": "明燈路三段295號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80345828229952,
+          25.108220951343675
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "42",
+        "village": "龍川里",
+        "name": "一坑路70號(富貴庭園後)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80237460794365,
+          25.10861320470292
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "43",
+        "village": "龍川里",
+        "name": "一坑路122號(礦工醫院前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.801445167427,
+          25.109093926061007
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "44",
+        "village": "龍川里",
+        "name": "一坑路317-2號(瑞芳小城)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80107977985244,
+          25.10854115874184
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "45",
+        "village": "龍川里",
+        "name": "一坑路299號(土地公廟)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8021907700903,
+          25.10789234991376
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224008",
+        "city": "new-taipei",
+        "lineid": "224008",
+        "linename": "H路線",
+        "rank": "46",
+        "village": "龍川里",
+        "name": "一坑路97號"
+      }
+    }
+  ]
+}

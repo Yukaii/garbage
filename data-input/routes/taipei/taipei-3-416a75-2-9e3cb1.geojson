@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54361,
+          25.0475
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-416a75-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-3",
+        "car_seq": "第2車",
+        "arrival_time": "1845",
+        "leave_time": "1851",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "119-BQ",
+        "route_code": "100-021",
+        "stop_name": "臺北市中山區八德路2段335號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54194,
+          25.04722
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-416a75-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-3",
+        "car_seq": "第2車",
+        "arrival_time": "1852",
+        "leave_time": "1902",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "119-BQ",
+        "route_code": "100-021",
+        "stop_name": "臺北市中山區八德路2段291號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54042,
+          25.04788
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-416a75-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-3",
+        "car_seq": "第2車",
+        "arrival_time": "1904",
+        "leave_time": "1914",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "119-BQ",
+        "route_code": "100-021",
+        "stop_name": "臺北市中山區龍江路23號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53899,
+          25.04832
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-416a75-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-3",
+        "car_seq": "第2車",
+        "arrival_time": "1920",
+        "leave_time": "1925",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "119-BQ",
+        "route_code": "100-021",
+        "stop_name": "臺北市中山區長安東路2段158號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53801,
+          25.04751
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-416a75-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "長安-3",
+        "car_seq": "第2車",
+        "arrival_time": "1932",
+        "leave_time": "1938",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "119-BQ",
+        "route_code": "100-021",
+        "stop_name": "臺北市中山區八德路2段167巷16號(建興公園旁)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58301,
+          25.06725
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-753a28-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-1",
+        "car_seq": "第1車",
+        "arrival_time": "1735",
+        "leave_time": "1745",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "829-BT",
+        "route_code": "103-080",
+        "stop_name": "臺北市內湖區民權東路6段46巷與行忠路交叉口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58936,
+          25.05961
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-753a28-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-1",
+        "car_seq": "第1車",
+        "arrival_time": "1800",
+        "leave_time": "1808",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "829-BT",
+        "route_code": "103-080",
+        "stop_name": "臺北市內湖區新明路102號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58966,
+          25.05882
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-753a28-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-1",
+        "car_seq": "第1車",
+        "arrival_time": "1810",
+        "leave_time": "1815",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "829-BT",
+        "route_code": "103-080",
+        "stop_name": "臺北市內湖區新明路143巷7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58374,
+          25.05662
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-753a28-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-1",
+        "car_seq": "第1車",
+        "arrival_time": "1827",
+        "leave_time": "1840",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "829-BT",
+        "route_code": "103-080",
+        "stop_name": "臺北市內湖區新明路250號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5876,
+          25.0582
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-753a28-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-1",
+        "car_seq": "第1車",
+        "arrival_time": "1843",
+        "leave_time": "1848",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "829-BT",
+        "route_code": "103-080",
+        "stop_name": "臺北市內湖區新明路225號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.590637,
+          25.060163
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-753a28-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-1",
+        "car_seq": "第1車",
+        "arrival_time": "1851",
+        "leave_time": "1855",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "829-BT",
+        "route_code": "103-080",
+        "stop_name": "臺北市內湖區新明路85號"
+      }
+    }
+  ]
+}

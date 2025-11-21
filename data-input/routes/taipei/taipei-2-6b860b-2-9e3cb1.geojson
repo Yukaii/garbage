@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54263,
+          25.02503
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-6b860b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "瑞安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1900",
+        "leave_time": "1909",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0303",
+        "route_code": "106-G13",
+        "stop_name": "臺北市大安區和平東路2段217號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54181,
+          25.02515
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-6b860b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "瑞安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1910",
+        "leave_time": "1922",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0303",
+        "route_code": "106-G13",
+        "stop_name": "臺北市大安區和平東路2段181號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54026,
+          25.02537
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-6b860b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "瑞安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1924",
+        "leave_time": "1940",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0303",
+        "route_code": "106-G13",
+        "stop_name": "臺北市大安區和平東路2段105號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53836,
+          25.02561
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-6b860b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "瑞安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1942",
+        "leave_time": "1949",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0303",
+        "route_code": "106-G13",
+        "stop_name": "臺北市大安區和平東路2段49之3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53796,
+          25.02719
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-6b860b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "瑞安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1951",
+        "leave_time": "1955",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0303",
+        "route_code": "106-G13",
+        "stop_name": "臺北市大安區建國南路2段197號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53796,
+          25.02774
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-6b860b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "瑞安-2",
+        "car_seq": "第2車",
+        "arrival_time": "1956",
+        "leave_time": "2000",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0303",
+        "route_code": "106-G13",
+        "stop_name": "臺北市大安區建國南路2段181號旁"
+      }
+    }
+  ]
+}

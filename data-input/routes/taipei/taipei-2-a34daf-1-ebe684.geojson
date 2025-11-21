@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53392,
+          25.0131
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a34daf-1-ebe684",
+        "city": "taipei",
+        "route_name": "公館-2",
+        "car_seq": "第1車",
+        "arrival_time": "1700",
+        "leave_time": "1704",
+        "district": "中正區",
+        "team": "公館分隊",
+        "car_no": "KEA-0320",
+        "route_code": "106-G24",
+        "stop_name": "臺北市中正區汀州路3段160巷8號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5347,
+          25.01238
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a34daf-1-ebe684",
+        "city": "taipei",
+        "route_name": "公館-2",
+        "car_seq": "第1車",
+        "arrival_time": "1705",
+        "leave_time": "1709",
+        "district": "中正區",
+        "team": "公館分隊",
+        "car_no": "KEA-0320",
+        "route_code": "106-G24",
+        "stop_name": "臺北市中正區汀州路3段104巷69號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53509,
+          25.01305
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a34daf-1-ebe684",
+        "city": "taipei",
+        "route_name": "公館-2",
+        "car_seq": "第1車",
+        "arrival_time": "1710",
+        "leave_time": "1730",
+        "district": "中正區",
+        "team": "公館分隊",
+        "car_no": "KEA-0320",
+        "route_code": "106-G24",
+        "stop_name": "臺北市中正區汀州路3段253號"
+      }
+    }
+  ]
+}

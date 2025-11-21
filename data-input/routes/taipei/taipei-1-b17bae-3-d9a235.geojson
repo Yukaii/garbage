@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53053,
+          25.02829
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b17bae-3-d9a235",
+        "city": "taipei",
+        "route_name": "和平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2155",
+        "leave_time": "2200",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-283",
+        "route_code": "104-091",
+        "stop_name": "臺北市大安區和平東路1段141巷與潮州街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52649,
+          25.02947
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b17bae-3-d9a235",
+        "city": "taipei",
+        "route_name": "和平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2205",
+        "leave_time": "2212",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-283",
+        "route_code": "104-091",
+        "stop_name": "臺北市大安區金山南路2段145號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52242,
+          25.03159
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b17bae-3-d9a235",
+        "city": "taipei",
+        "route_name": "和平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2216",
+        "leave_time": "2220",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-283",
+        "route_code": "104-091",
+        "stop_name": "臺北市大安區杭州南路2段57號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52575,
+          25.03459
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b17bae-3-d9a235",
+        "city": "taipei",
+        "route_name": "和平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2223",
+        "leave_time": "2233",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-283",
+        "route_code": "104-091",
+        "stop_name": "臺北市大安區信義路2段44巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52712,
+          25.03349
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b17bae-3-d9a235",
+        "city": "taipei",
+        "route_name": "和平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2235",
+        "leave_time": "2245",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-283",
+        "route_code": "104-091",
+        "stop_name": "臺北市大安區金山南路2段12號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52622,
+          25.02868
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b17bae-3-d9a235",
+        "city": "taipei",
+        "route_name": "和平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2248",
+        "leave_time": "2255",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-283",
+        "route_code": "104-091",
+        "stop_name": "臺北市大安區金山南路2段154號"
+      }
+    }
+  ]
+}

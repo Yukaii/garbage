@@ -1,0 +1,613 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.538719,
+          24.961288
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "1",
+        "village": "張南里",
+        "name": "北新路一段89號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.537971,
+          24.959431
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "2",
+        "village": "張南里",
+        "name": "北新路一段45巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.538452,
+          24.956247
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "3",
+        "village": "張南里",
+        "name": "北宜路一段76號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.539205,
+          24.955256
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "4",
+        "village": "國校里",
+        "name": "北宜路一段114巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.539848,
+          24.954643
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "5",
+        "village": "國校里",
+        "name": "北宜路一段140巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.540588,
+          24.953135
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "6",
+        "village": "國校里",
+        "name": "北宜路一段168號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.543404,
+          24.953043
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "7",
+        "village": "青潭里",
+        "name": "北宜路一段202號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.547653,
+          24.951971
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "8",
+        "village": "青潭里",
+        "name": "北宜路二段2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.548546,
+          24.951424
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "9",
+        "village": "青潭里",
+        "name": "北宜路二段30巷前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.552063,
+          24.953165
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "10",
+        "village": "美潭里",
+        "name": "北宜路二段82巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.555557,
+          24.953642
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "11",
+        "village": "美潭里",
+        "name": "北宜路二段102巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55661,
+          24.953753
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "12",
+        "village": "美潭里",
+        "name": "北宜路二段118號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557579,
+          24.953894
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "13",
+        "village": "員潭里",
+        "name": "北宜路二段郵政橋頭"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.560562,
+          24.954353
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "14",
+        "village": "員潭里",
+        "name": "北宜路二段300號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57,
+          24.956367
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "15",
+        "village": "員潭里",
+        "name": "北宜路二段450號前（銀河洞迴轉）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.562408,
+          24.95388
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "16",
+        "village": "員潭里",
+        "name": "北宜路二段485號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.560364,
+          24.954424
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "17",
+        "village": "員潭里",
+        "name": "北宜路二段413號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5583607,
+          24.9541298
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "18",
+        "village": "員潭里",
+        "name": "北宜路二段353號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.554665,
+          24.953543
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "19",
+        "village": "美潭里",
+        "name": "北宜路二段267巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.551186,
+          24.953062
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "20",
+        "village": "青潭里",
+        "name": "北宜路二段137號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.550705,
+          24.952938
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "21",
+        "village": "青潭里",
+        "name": "北宜路二段117號(潭天大廈)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.547958,
+          24.951792
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "22",
+        "village": "青潭里",
+        "name": "北宜路二段17巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.547623,
+          24.952026
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "23",
+        "village": "青潭里",
+        "name": "北宜路二段1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54287,
+          24.952955
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "24",
+        "village": "國校里",
+        "name": "北宜路一段165號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54097,
+          24.952852
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "25",
+        "village": "國校里",
+        "name": "北宜路一段143號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.539696,
+          24.954826
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "26",
+        "village": "文中里",
+        "name": "北宜路一段109巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.538277,
+          24.9569
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "27",
+        "village": "文中里",
+        "name": "北宜路一段53號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.543974,
+          24.96564946
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "28",
+        "village": "長春里",
+        "name": "新坡一街沿線"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5484866,
+          24.96108081
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "29",
+        "village": "長春里",
+        "name": "大千豪景(警衛室旁)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5483828,
+          24.96188367
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "30",
+        "village": "長春里",
+        "name": "藍天社區後門"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5478718,
+          24.96254148
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "31",
+        "village": "長春里",
+        "name": "藍天社區前門"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.548027,
+          24.962927
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231006",
+        "city": "new-taipei",
+        "lineid": "231006",
+        "linename": "路線6",
+        "rank": "32",
+        "village": "長春里",
+        "name": "涵翠社區(巷口)"
+      }
+    }
+  ]
+}

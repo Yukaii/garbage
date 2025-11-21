@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5171,
+          25.11158
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4e4803-1-ebe684",
+        "city": "taipei",
+        "route_name": "石牌-2",
+        "car_seq": "第1車",
+        "arrival_time": "1815",
+        "leave_time": "1827",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KES-7395",
+        "route_code": "112-G03",
+        "stop_name": "臺北市北投區西安街1段與自強街141號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5182,
+          25.11
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4e4803-1-ebe684",
+        "city": "taipei",
+        "route_name": "石牌-2",
+        "car_seq": "第1車",
+        "arrival_time": "1828",
+        "leave_time": "1831",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KES-7395",
+        "route_code": "112-G03",
+        "stop_name": "臺北市北投區西安街1段與建民路交叉口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52015,
+          25.11021
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4e4803-1-ebe684",
+        "city": "taipei",
+        "route_name": "石牌-2",
+        "car_seq": "第1車",
+        "arrival_time": "1832",
+        "leave_time": "1842",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KES-7395",
+        "route_code": "112-G03",
+        "stop_name": "臺北市北投區懷德街與明德路交叉口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5194,
+          25.11161
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4e4803-1-ebe684",
+        "city": "taipei",
+        "route_name": "石牌-2",
+        "car_seq": "第1車",
+        "arrival_time": "1843",
+        "leave_time": "1848",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KES-7395",
+        "route_code": "112-G03",
+        "stop_name": "臺北市北投區懷德街14巷口旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51962,
+          25.11291
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4e4803-1-ebe684",
+        "city": "taipei",
+        "route_name": "石牌-2",
+        "car_seq": "第1車",
+        "arrival_time": "1849",
+        "leave_time": "1854",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KES-7395",
+        "route_code": "112-G03",
+        "stop_name": "臺北市北投區懷德街56巷旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51986,
+          25.11425
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4e4803-1-ebe684",
+        "city": "taipei",
+        "route_name": "石牌-2",
+        "car_seq": "第1車",
+        "arrival_time": "1855",
+        "leave_time": "1900",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KES-7395",
+        "route_code": "112-G03",
+        "stop_name": "臺北市北投區懷德街與榮華三路口旁"
+      }
+    }
+  ]
+}

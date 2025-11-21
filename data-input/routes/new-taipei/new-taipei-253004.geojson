@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.613976,
+          25.278662
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253004",
+        "city": "new-taipei",
+        "lineid": "253004",
+        "linename": "D路線上午",
+        "rank": "1",
+        "village": "草里里",
+        "name": "草里1鄰4-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.617286,
+          25.257643
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253004",
+        "city": "new-taipei",
+        "lineid": "253004",
+        "linename": "D路線上午",
+        "rank": "2",
+        "village": "草里里",
+        "name": "草里里8鄰(竹子湖12號)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.607381,
+          25.274908
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253004",
+        "city": "new-taipei",
+        "lineid": "253004",
+        "linename": "D路線上午",
+        "rank": "3",
+        "village": "草里里",
+        "name": "草里里6鄰(阿里荖48號)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.597546,
+          25.26681
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253004",
+        "city": "new-taipei",
+        "lineid": "253004",
+        "linename": "D路線上午",
+        "rank": "4",
+        "village": "茂林里",
+        "name": "慈惠堂"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5895,
+          25.25985
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253004",
+        "city": "new-taipei",
+        "lineid": "253004",
+        "linename": "D路線上午",
+        "rank": "5",
+        "village": "茂林里",
+        "name": "乾華里3鄰(阿里磅92號)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.579263093254,
+          25.2493014399176
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253004",
+        "city": "new-taipei",
+        "lineid": "253004",
+        "linename": "D路線上午",
+        "rank": "6",
+        "village": "乾華里",
+        "name": "桃源殿"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59159,
+          25.270366
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253004",
+        "city": "new-taipei",
+        "lineid": "253004",
+        "linename": "D路線上午",
+        "rank": "7",
+        "village": "茂林里",
+        "name": "乾華國小"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.596338,
+          25.281918
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253004",
+        "city": "new-taipei",
+        "lineid": "253004",
+        "linename": "D路線上午",
+        "rank": "8",
+        "village": "茂林里",
+        "name": "潘宅"
+      }
+    }
+  ]
+}

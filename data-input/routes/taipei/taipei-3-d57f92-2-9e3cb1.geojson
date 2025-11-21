@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52734,
+          25.06145
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d57f92-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "圓山-3",
+        "car_seq": "第2車",
+        "arrival_time": "1855",
+        "leave_time": "1905",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "KEA-0862",
+        "route_code": "107-G09",
+        "stop_name": "臺北市中山區新生北路2段122號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52564,
+          25.06137
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d57f92-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "圓山-3",
+        "car_seq": "第2車",
+        "arrival_time": "1907",
+        "leave_time": "1915",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "KEA-0862",
+        "route_code": "107-G09",
+        "stop_name": "臺北市中山區林森北路487號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52555,
+          25.06181
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d57f92-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "圓山-3",
+        "car_seq": "第2車",
+        "arrival_time": "1916",
+        "leave_time": "1925",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "KEA-0862",
+        "route_code": "107-G09",
+        "stop_name": "臺北市中山區林森北路500號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52554,
+          25.06049
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d57f92-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "圓山-3",
+        "car_seq": "第2車",
+        "arrival_time": "1926",
+        "leave_time": "1935",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "KEA-0862",
+        "route_code": "107-G09",
+        "stop_name": "臺北市中山區林森北路438號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52388,
+          25.06043
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d57f92-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "圓山-3",
+        "car_seq": "第2車",
+        "arrival_time": "1936",
+        "leave_time": "1945",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "KEA-0862",
+        "route_code": "107-G09",
+        "stop_name": "臺北市中山區錦州街5號前"
+      }
+    }
+  ]
+}

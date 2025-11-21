@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57781,
+          25.03933
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-9b3836-3-d9a235",
+        "city": "taipei",
+        "route_name": "福德-3",
+        "car_seq": "第3車",
+        "arrival_time": "2050",
+        "leave_time": "2053",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "015-BV",
+        "route_code": "101-604",
+        "stop_name": "臺北市信義區松德路307巷3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57554,
+          25.03294
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-9b3836-3-d9a235",
+        "city": "taipei",
+        "route_name": "福德-3",
+        "car_seq": "第3車",
+        "arrival_time": "2054",
+        "leave_time": "2100",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "015-BV",
+        "route_code": "101-604",
+        "stop_name": "臺北市信義區松德路269巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58269,
+          25.04053
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-9b3836-3-d9a235",
+        "city": "taipei",
+        "route_name": "福德-3",
+        "car_seq": "第3車",
+        "arrival_time": "2105",
+        "leave_time": "2120",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "015-BV",
+        "route_code": "101-604",
+        "stop_name": "臺北市信義區大道路85號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58252,
+          25.04285
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-9b3836-3-d9a235",
+        "city": "taipei",
+        "route_name": "福德-3",
+        "car_seq": "第3車",
+        "arrival_time": "2120",
+        "leave_time": "2125",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "015-BV",
+        "route_code": "101-604",
+        "stop_name": "臺北市信義區忠孝東路5段790巷23弄1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58667,
+          25.0404
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-9b3836-3-d9a235",
+        "city": "taipei",
+        "route_name": "福德-3",
+        "car_seq": "第3車",
+        "arrival_time": "2130",
+        "leave_time": "2135",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "015-BV",
+        "route_code": "101-604",
+        "stop_name": "臺北市信義區福德街300巷27號前"
+      }
+    }
+  ]
+}

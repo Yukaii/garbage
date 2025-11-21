@@ -1,0 +1,936 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.421292346703,
+          24.976619565785
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "1",
+        "village": "彭興里",
+        "name": "八德街321之3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.422084162906,
+          24.978684518472
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "2",
+        "village": "彭興里",
+        "name": "八德街251巷10弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.421589,
+          24.978795
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "3",
+        "village": "彭興里",
+        "name": "八德街241號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.420745764094,
+          24.980328813448
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "4",
+        "village": "彭興里",
+        "name": "八德街120號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.419580731894,
+          24.982089872647
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "5",
+        "village": "和平里",
+        "name": "八德街71巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.418557308615,
+          24.984639447962
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "6",
+        "village": "東昇里",
+        "name": "太平路14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.419177224536,
+          24.983149354832
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "7",
+        "village": "和平里",
+        "name": "太平路33巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.419102411045,
+          24.980978908346
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "8",
+        "village": "中華里",
+        "name": "太平路60巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.419227,
+          24.980603
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "9",
+        "village": "彭福里",
+        "name": "太平路127巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.419097,
+          24.980262
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "10",
+        "village": "彭福里",
+        "name": "太平路86巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.419049,
+          24.97981
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "11",
+        "village": "彭厝里",
+        "name": "太順街31號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.419031947544,
+          24.979999441308
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "12",
+        "village": "彭厝里",
+        "name": "太平路與太順街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.418571778233,
+          24.979057584762
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "13",
+        "village": "彭福里",
+        "name": "太平路104號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.418525203993,
+          24.977007352821
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "14",
+        "village": "彭厝里",
+        "name": "太平路174巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.418739694154,
+          24.974482902102
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "15",
+        "village": "彭厝里",
+        "name": "太平路212之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.424947480985,
+          24.983473945888
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "16",
+        "village": "彭福里",
+        "name": "水源街11號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.425372230365,
+          24.980424126386
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "17",
+        "village": "彭福里",
+        "name": "水源街162號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.424761478215,
+          24.981050118467
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "18",
+        "village": "彭福里",
+        "name": "忠孝街101巷7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.424406907843,
+          24.98083376088
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "19",
+        "village": "彭福里",
+        "name": "國凱街162號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.424894449073,
+          24.980157519562
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "20",
+        "village": "彭福里",
+        "name": "水源街32巷71號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423944568988,
+          24.980379273488
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "21",
+        "village": "彭福里",
+        "name": "國凱街140巷8號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423393,
+          24.97947
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "22",
+        "village": "彭福里",
+        "name": "國凱街136巷29弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42348,
+          24.979397
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "23",
+        "village": "彭福里",
+        "name": "國凱街136巷26號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.422231,
+          24.979866
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "24",
+        "village": "彭福里",
+        "name": "國凱街65號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.41214167638,
+          24.980577588787
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "25",
+        "village": "東陽里",
+        "name": "中華路190號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.413178,
+          24.981437
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "26",
+        "village": "東陽里",
+        "name": "東陽街28巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.413922439898,
+          24.981466143779
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "27",
+        "village": "東陽里",
+        "name": "東榮街187號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.414266525131,
+          24.981010138589
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "28",
+        "village": "東陽里",
+        "name": "東榮街147巷4弄14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.414591930059,
+          24.98143425473
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "29",
+        "village": "東陽里",
+        "name": "東榮街147巷27弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.413805329447,
+          24.982863147677
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "30",
+        "village": "東陽里",
+        "name": "鎮前街425巷2弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.414743717179,
+          24.982317570226
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "31",
+        "village": "東陽里",
+        "name": "東華街19號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.415489906745,
+          24.982035626652
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "32",
+        "village": "東陽里",
+        "name": "東榮街91巷2弄11號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.415821705522,
+          24.98182919677
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "33",
+        "village": "東陽里",
+        "name": "東榮街91巷4弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.415437113797,
+          24.981048879248
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "34",
+        "village": "大同里",
+        "name": "東華街70巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.415571230365,
+          24.980816996736
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "35",
+        "village": "東陽里",
+        "name": "東華街82號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.415487090484,
+          24.982283441393
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "36",
+        "village": "東陽里",
+        "name": "東榮街109號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.416158618096,
+          24.982623930474
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "37",
+        "village": "東陽里",
+        "name": "東榮街81號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.417445,
+          24.983749
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "38",
+        "village": "東昇里",
+        "name": "鎮前街347巷3弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.417129422701,
+          24.983989168252
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "39",
+        "village": "東昇里",
+        "name": "鎮前街347巷1弄23號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.416807,
+          24.983552
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "40",
+        "village": "東昇里",
+        "name": "鎮前街347巷3弄1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.415850736568,
+          24.982913508256
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "41",
+        "village": "東昇里",
+        "name": "東榮街88巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.415660350279,
+          24.983230307336
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "42",
+        "village": "東昇里",
+        "name": "鎮前街411巷1弄17號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.415096588954,
+          24.98353253815
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "43",
+        "village": "東昇里",
+        "name": "鎮前街411巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.416379017485,
+          24.983598765767
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "44",
+        "village": "東昇里",
+        "name": "鎮前街347巷2弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.41659392423,
+          24.98427200828
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "45",
+        "village": "大同里",
+        "name": "鎮前街347巷1弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.417807912574,
+          24.98312521562
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "46",
+        "village": "大同里",
+        "name": "大同街24巷10號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.417884583126,
+          24.983017696095
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "47",
+        "village": "大同里",
+        "name": "大同街10巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.418641201223,
+          24.983403147729
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "48",
+        "village": "大同里",
+        "name": "八德街35號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.417935618096,
+          24.984515794656
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238019",
+        "city": "new-taipei",
+        "lineid": "238019",
+        "linename": "路線6晚上",
+        "rank": "49",
+        "village": "大同里",
+        "name": "八德街7號"
+      }
+    }
+  ]
+}

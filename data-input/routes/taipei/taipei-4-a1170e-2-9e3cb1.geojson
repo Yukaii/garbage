@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.574992,
+          25.053244
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a1170e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "文德-4",
+        "car_seq": "第2車",
+        "arrival_time": "1930",
+        "leave_time": "1940",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEL-6565",
+        "route_code": "111-G15",
+        "stop_name": "臺北市內湖區南京東路6段(行善公園旁)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.580268,
+          25.053783
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a1170e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "文德-4",
+        "car_seq": "第2車",
+        "arrival_time": "1945",
+        "leave_time": "2000",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEL-6565",
+        "route_code": "111-G15",
+        "stop_name": "臺北市內湖區潭美街129號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59648,
+          25.06452
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a1170e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "文德-4",
+        "car_seq": "第2車",
+        "arrival_time": "2006",
+        "leave_time": "2009",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEL-6565",
+        "route_code": "111-G15",
+        "stop_name": "臺北市內湖區民權東路6段206巷143弄27號"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53219,
+          25.06033
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-0c040e-3-d9a235",
+        "city": "taipei",
+        "route_name": "民一-3",
+        "car_seq": "第3車",
+        "arrival_time": "2150",
+        "leave_time": "2203",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-1679",
+        "route_code": "108-G05",
+        "stop_name": "臺北市中山區錦州街222號前(松江市場)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5291,
+          25.06035
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-0c040e-3-d9a235",
+        "city": "taipei",
+        "route_name": "民一-3",
+        "car_seq": "第3車",
+        "arrival_time": "2205",
+        "leave_time": "2220",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-1679",
+        "route_code": "108-G05",
+        "stop_name": "臺北市中山區錦州街140號前(錦州公園)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51124,
+          25.06207
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b24cc6-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2120",
+        "leave_time": "2124",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-0290",
+        "route_code": "106-G01",
+        "stop_name": "臺北市大同區延平北路2段272巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51136,
+          25.06013
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b24cc6-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2126",
+        "leave_time": "2129",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-0290",
+        "route_code": "106-G01",
+        "stop_name": "臺北市大同區延平北路2段250巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51141,
+          25.05918
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b24cc6-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2130",
+        "leave_time": "2133",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-0290",
+        "route_code": "106-G01",
+        "stop_name": "臺北市大同區延平北路2段210巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51141,
+          25.06014
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b24cc6-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2135",
+        "leave_time": "2137",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-0290",
+        "route_code": "106-G01",
+        "stop_name": "臺北市大同區延平北路2段225號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51274,
+          25.06282
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b24cc6-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2141",
+        "leave_time": "2144",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-0290",
+        "route_code": "106-G01",
+        "stop_name": "臺北市大同區民權西路250巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50997,
+          25.06062
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b24cc6-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2151",
+        "leave_time": "2154",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-0290",
+        "route_code": "106-G01",
+        "stop_name": "臺北市大同區涼州街安西街口永樂國小"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.509,
+          25.0611
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b24cc6-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2156",
+        "leave_time": "2158",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-0290",
+        "route_code": "106-G01",
+        "stop_name": "臺北市大同區環河北路1段365號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50872,
+          25.06218
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b24cc6-3-d9a235",
+        "city": "taipei",
+        "route_name": "延平-1",
+        "car_seq": "第3車",
+        "arrival_time": "2200",
+        "leave_time": "2203",
+        "district": "大同區",
+        "team": "延平分隊",
+        "car_no": "KEA-0290",
+        "route_code": "106-G01",
+        "stop_name": "臺北市大同區環河北路1段413巷口"
+      }
+    }
+  ]
+}

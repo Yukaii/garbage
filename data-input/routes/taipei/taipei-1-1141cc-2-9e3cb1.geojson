@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5359,
+          25.04162
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-1141cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-1",
+        "car_seq": "第2車",
+        "arrival_time": "2025",
+        "leave_time": "2030",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "063-BV",
+        "route_code": "101-050",
+        "stop_name": "臺北市大安區忠孝東路3段86號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54222,
+          25.04398
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-1141cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-1",
+        "car_seq": "第2車",
+        "arrival_time": "2040",
+        "leave_time": "2100",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "063-BV",
+        "route_code": "101-050",
+        "stop_name": "臺北市大安區安東街40號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54357,
+          25.04289
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-1141cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-1",
+        "car_seq": "第2車",
+        "arrival_time": "2103",
+        "leave_time": "2105",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "063-BV",
+        "route_code": "101-050",
+        "stop_name": "臺北市大安區復興南路1段132號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54288,
+          25.04185
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-1141cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-1",
+        "car_seq": "第2車",
+        "arrival_time": "2108",
+        "leave_time": "2115",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "063-BV",
+        "route_code": "101-050",
+        "stop_name": "臺北市大安區忠孝東路3段287號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54143,
+          25.04179
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-1141cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-1",
+        "car_seq": "第2車",
+        "arrival_time": "2116",
+        "leave_time": "2124",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "063-BV",
+        "route_code": "101-050",
+        "stop_name": "臺北市大安區忠孝東路3段249號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54059,
+          25.04189
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-1141cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-1",
+        "car_seq": "第2車",
+        "arrival_time": "2125",
+        "leave_time": "2130",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "063-BV",
+        "route_code": "101-050",
+        "stop_name": "臺北市大安區忠孝東路3段235號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53321,
+          25.04494
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-1141cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-1",
+        "car_seq": "第2車",
+        "arrival_time": "2136",
+        "leave_time": "2143",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "063-BV",
+        "route_code": "101-050",
+        "stop_name": "臺北市大安區八德路2段1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53454,
+          25.04478
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-1141cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-1",
+        "car_seq": "第2車",
+        "arrival_time": "2144",
+        "leave_time": "2155",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "063-BV",
+        "route_code": "101-050",
+        "stop_name": "臺北市大安區八德路2段28號前"
+      }
+    }
+  ]
+}

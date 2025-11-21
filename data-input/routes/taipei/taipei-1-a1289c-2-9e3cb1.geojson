@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54686,
+          25.06196
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-a1289c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東社-1",
+        "car_seq": "第2車",
+        "arrival_time": "2100",
+        "leave_time": "2200",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "963-BS",
+        "route_code": "102-068",
+        "stop_name": "臺北市松山區民權東路3段140巷口(二次收集)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55394,
+          25.05886
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-a1289c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東社-1",
+        "car_seq": "第2車",
+        "arrival_time": "2206",
+        "leave_time": "2215",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "963-BS",
+        "route_code": "102-068",
+        "stop_name": "臺北市松山區民生東路4段131巷3號斜對面"
+      }
+    }
+  ]
+}

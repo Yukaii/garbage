@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53311,
+          25.06662
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-0c040e-1-ebe684",
+        "city": "taipei",
+        "route_name": "民一-3",
+        "car_seq": "第1車",
+        "arrival_time": "1658",
+        "leave_time": "1718",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-1679",
+        "route_code": "108-G05",
+        "stop_name": "臺北市中山區松江路526號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53305,
+          25.06168
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-0c040e-1-ebe684",
+        "city": "taipei",
+        "route_name": "民一-3",
+        "car_seq": "第1車",
+        "arrival_time": "1725",
+        "leave_time": "1730",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-1679",
+        "route_code": "108-G05",
+        "stop_name": "臺北市中山區松江路350號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53303,
+          25.06103
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-0c040e-1-ebe684",
+        "city": "taipei",
+        "route_name": "民一-3",
+        "car_seq": "第1車",
+        "arrival_time": "1732",
+        "leave_time": "1740",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-1679",
+        "route_code": "108-G05",
+        "stop_name": "臺北市中山區松江路328號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.533,
+          25.05948
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-0c040e-1-ebe684",
+        "city": "taipei",
+        "route_name": "民一-3",
+        "car_seq": "第1車",
+        "arrival_time": "1742",
+        "leave_time": "1750",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-1679",
+        "route_code": "108-G05",
+        "stop_name": "臺北市中山區松江路266號前"
+      }
+    }
+  ]
+}

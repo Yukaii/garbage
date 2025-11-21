@@ -1,0 +1,841 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517136,
+          24.965048
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "1",
+        "village": "下城里",
+        "name": "安和路一段6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517624,
+          24.9664
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "2",
+        "village": "下城里",
+        "name": "安和路一段52巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518166,
+          24.968065
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "3",
+        "village": "下城里",
+        "name": "安和路二段68號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51963,
+          24.972692
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "4",
+        "village": "安和里",
+        "name": "安和路二段146巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.519119,
+          24.974026
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "5",
+        "village": "安和里",
+        "name": "安和路二段166之6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51757,
+          24.975634
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "6",
+        "village": "安和里",
+        "name": "安和路二段218號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517288,
+          24.980989
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "7",
+        "village": "永平里",
+        "name": "安和路三段21巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517982,
+          24.983227
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "8",
+        "village": "永安里",
+        "name": "安和路三段72號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516869,
+          24.985556
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "9",
+        "village": "永安里",
+        "name": "安和路三段120巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516823,
+          24.98551
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "10",
+        "village": "永平里",
+        "name": "安和路三段145巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517365,
+          24.985104
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "11",
+        "village": "永平里",
+        "name": "安和路三段127巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517792,
+          24.983799
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "12",
+        "village": "永平里",
+        "name": "安和路三段87巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517967,
+          24.982752
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "13",
+        "village": "永平里",
+        "name": "安和路三段55巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517967,
+          24.982523
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "14",
+        "village": "永平里",
+        "name": "安和路三段47巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517799,
+          24.975294
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "15",
+        "village": "安和里",
+        "name": "安和路二段223巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518135,
+          24.97497
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "16",
+        "village": "安和里",
+        "name": "安和路二段207巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518639,
+          24.974474
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "17",
+        "village": "安和里",
+        "name": "安和路二段169巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518677,
+          24.969698
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "18",
+        "village": "柴埕里",
+        "name": "安和路二段105巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518059,
+          24.967602
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "19",
+        "village": "柴埕里",
+        "name": "安和路二段41號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51757,
+          24.96632
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "20",
+        "village": "柴埕里",
+        "name": "安和路一段55巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516815,
+          24.964117
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "21",
+        "village": "柴埕里",
+        "name": "安和路一段13號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.511009,
+          24.960056
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "22",
+        "village": "安昌里",
+        "name": "安成街1-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510216,
+          24.960812
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "23",
+        "village": "安昌里",
+        "name": "安成街21號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5103,
+          24.961643
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "24",
+        "village": "安昌里",
+        "name": "安德街75巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510803,
+          24.962063
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "25",
+        "village": "安昌里",
+        "name": "安德街57巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.511223,
+          24.962399
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "26",
+        "village": "安昌里",
+        "name": "安德街42號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510918,
+          24.962973
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "27",
+        "village": "安昌里",
+        "name": "安德街60巷21號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.509674,
+          24.961155
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "28",
+        "village": "安昌里",
+        "name": "安德街90號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5093,
+          24.960869
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "29",
+        "village": "安昌里",
+        "name": "安德街116巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5088254,
+          24.96122888
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "30",
+        "village": "安昌里",
+        "name": "安德街116巷24號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508667,
+          24.960276
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "31",
+        "village": "德安里",
+        "name": "安德街130巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508316,
+          24.959921
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "32",
+        "village": "德安里",
+        "name": "安德街148巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508324,
+          24.959497
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "33",
+        "village": "德安里",
+        "name": "安德街156號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.499924,
+          24.95476
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "34",
+        "village": "德安里",
+        "name": "安豐路49-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.501381,
+          24.944586
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "35",
+        "village": "小城里",
+        "name": "僑愛九路僑愛七路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4999416,
+          24.94464158
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "36",
+        "village": "小城里",
+        "name": "僑愛三路僑愛五路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4999017,
+          24.94497005
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "37",
+        "village": "小城里",
+        "name": "僑愛一路僑愛五路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.499817918402,
+          24.9453615360683
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "38",
+        "village": "小城里",
+        "name": "僑信路132巷底"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.498521294477,
+          24.9476800880221
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "39",
+        "village": "小城里",
+        "name": "僑信路74巷底"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.500846128224,
+          24.9458755518878
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "40",
+        "village": "小城里",
+        "name": "僑信路121巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50017325062,
+          24.9470120473629
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "41",
+        "village": "小城里",
+        "name": "僑信路108巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.499503550926,
+          24.9487423020168
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "42",
+        "village": "小城里",
+        "name": "僑信路服務中心"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.499525309481,
+          24.9515694590559
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "43",
+        "village": "小城里",
+        "name": "僑信路活動中心"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.500652580068,
+          24.9496423552266
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-231028",
+        "city": "new-taipei",
+        "lineid": "231028",
+        "linename": "路線20",
+        "rank": "44",
+        "village": "小城里",
+        "name": "僑義路公車站"
+      }
+    }
+  ]
+}

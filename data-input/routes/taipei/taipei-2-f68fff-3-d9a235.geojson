@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55497,
+          25.02571
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f68fff-3-d9a235",
+        "city": "taipei",
+        "route_name": "六張犁-2",
+        "car_seq": "第3車",
+        "arrival_time": "2130",
+        "leave_time": "2135",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEG-1586",
+        "route_code": "109-GA16",
+        "stop_name": "臺北市信義區基隆路2段155號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55691,
+          25.02824
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f68fff-3-d9a235",
+        "city": "taipei",
+        "route_name": "六張犁-2",
+        "car_seq": "第3車",
+        "arrival_time": "2137",
+        "leave_time": "2145",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEG-1586",
+        "route_code": "109-GA16",
+        "stop_name": "臺北市信義區基隆路2段131號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55862,
+          25.03133
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f68fff-3-d9a235",
+        "city": "taipei",
+        "route_name": "六張犁-2",
+        "car_seq": "第3車",
+        "arrival_time": "2148",
+        "leave_time": "2200",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEG-1586",
+        "route_code": "109-GA16",
+        "stop_name": "臺北市信義區基隆路2段39巷口"
+      }
+    }
+  ]
+}

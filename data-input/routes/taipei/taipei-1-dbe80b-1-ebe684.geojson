@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57352,
+          25.07397
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-1-ebe684",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第1車",
+        "arrival_time": "1700",
+        "leave_time": "1720",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區港墘路221巷2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60229,
+          25.0814
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-1-ebe684",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第1車",
+        "arrival_time": "1745",
+        "leave_time": "1750",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區大湖街166巷與168巷交會處"
+      }
+    }
+  ]
+}

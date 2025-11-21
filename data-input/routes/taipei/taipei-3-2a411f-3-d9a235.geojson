@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53299,
+          25.03211
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2a411f-3-d9a235",
+        "city": "taipei",
+        "route_name": "和平-3",
+        "car_seq": "第3車",
+        "arrival_time": "2210",
+        "leave_time": "2215",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "KEA-1676",
+        "route_code": "108-G02",
+        "stop_name": "臺北市大安區新生南路2段26號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52954,
+          25.0315
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2a411f-3-d9a235",
+        "city": "taipei",
+        "route_name": "和平-3",
+        "car_seq": "第3車",
+        "arrival_time": "2220",
+        "leave_time": "2229",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "KEA-1676",
+        "route_code": "108-G02",
+        "stop_name": "臺北市大安區永康街12巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5303,
+          25.03356
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2a411f-3-d9a235",
+        "city": "taipei",
+        "route_name": "和平-3",
+        "car_seq": "第3車",
+        "arrival_time": "2231",
+        "leave_time": "2240",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "KEA-1676",
+        "route_code": "108-G02",
+        "stop_name": "臺北市大安區信義路2段200號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53167,
+          25.03352
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2a411f-3-d9a235",
+        "city": "taipei",
+        "route_name": "和平-3",
+        "car_seq": "第3車",
+        "arrival_time": "2242",
+        "leave_time": "2250",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "KEA-1676",
+        "route_code": "108-G02",
+        "stop_name": "臺北市大安區信義路2段230號旁"
+      }
+    }
+  ]
+}

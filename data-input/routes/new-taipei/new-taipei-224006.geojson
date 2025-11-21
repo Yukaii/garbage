@@ -1,0 +1,860 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78557559913997,
+          25.101352965751126
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "1",
+        "village": "上天里",
+        "name": "大寮路2-1 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78162610391507,
+          25.099102610136395
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "2",
+        "village": "上天里",
+        "name": "大寮路88號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77836444055094,
+          25.099278458989748
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "3",
+        "village": "上天里",
+        "name": "大寮路101-2號(瑞龍貨櫃門口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78052375137213,
+          25.097690029204553
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "4",
+        "village": "上天里",
+        "name": "大寮路91 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77813729051604,
+          25.094331916129125
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "5",
+        "village": "上天里",
+        "name": "大寮路63巷3號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78208597689138,
+          25.0982852282202
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "6",
+        "village": "上天里",
+        "name": "大寮路49 巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78627704443238,
+          25.104497704964178
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "7",
+        "village": "傑魚里",
+        "name": "傑魚坑路311 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78846114599799,
+          25.10627214133737
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "8",
+        "village": "傑魚里",
+        "name": "傑魚坑路245巷4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7897207532003,
+          25.109388576031925
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "9",
+        "village": "傑魚里",
+        "name": "傑魚坑路169 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79244442391905,
+          25.110427002559888
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "10",
+        "village": "傑魚里",
+        "name": "傑魚坑路95 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79315222052719,
+          25.110089402936673
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "11",
+        "village": "傑魚里",
+        "name": "靜安路四段123號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79370798851664,
+          25.110506205555847
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "12",
+        "village": "傑魚里",
+        "name": "傑魚坑路35號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.796102026755,
+          25.110124273546194
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "13",
+        "village": "傑魚里",
+        "name": "中山路375號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79732047685684,
+          25.10978648436793
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "14",
+        "village": "傑魚里",
+        "name": "中山路257 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79660484386113,
+          25.110100667142493
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "15",
+        "village": "傑魚里",
+        "name": "中山路332巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7936118665159,
+          25.11060362830042
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "16",
+        "village": "傑魚里",
+        "name": "傑魚坑路52號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7925961257688,
+          25.110533305552234
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "17",
+        "village": "傑魚里",
+        "name": "傑魚坑路86 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78846906550496,
+          25.1082964175141
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "18",
+        "village": "傑魚里",
+        "name": "傑魚坑路瑞興新村12巷1號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8003750806239,
+          25.106929541745643
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "19",
+        "village": "東和里",
+        "name": "中山路225號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80394951560663,
+          25.106215630955063
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "20",
+        "village": "東和里",
+        "name": "中山路77號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80486515567156,
+          25.106050688960988
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "21",
+        "village": "東和里",
+        "name": "東和路39號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80654606973962,
+          25.105249464426052
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "22",
+        "village": "爪峰里",
+        "name": "三爪子坑路194號(大別莊車道口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80882206105377,
+          25.10346391880853
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "23",
+        "village": "爪峰里",
+        "name": "三爪子坑路106巷190號(瑞慈宮)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80896923263435,
+          25.105784707623812
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "24",
+        "village": "爪峰里",
+        "name": "三爪子坑路64-38號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8088748710793,
+          25.107123755190354
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "25",
+        "village": "龍興里",
+        "name": "中正路1號(圖書館)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80809694667528,
+          25.107484453969317
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "26",
+        "village": "龍興里",
+        "name": "明燈路三段25號(瑞芳分局旁)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80792185074233,
+          25.107767601870727
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "27",
+        "village": "龍興里",
+        "name": "明燈路三段32號(地政事務所)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80707845525387,
+          25.107963210662668
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "28",
+        "village": "龍興里",
+        "name": "明燈路三段50號(7-11)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80580551551702,
+          25.108233544209625
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "29",
+        "village": "龍潭里",
+        "name": "明燈路三段84號(OK便利商店)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80430441552244,
+          25.1085898240716
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "30",
+        "village": "龍川里",
+        "name": "明燈路三段138號(悅賓旅社巷口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8038812700729,
+          25.10875075902778
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "31",
+        "village": "龍川里",
+        "name": "明燈路三段152號(祖師爺廟)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80383833964152,
+          25.108737632801414
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "32",
+        "village": "龍川里",
+        "name": "明燈路三段123號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8053648153375,
+          25.107654207472034
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "33",
+        "village": "龍潭里",
+        "name": "中正路79號(全聯社)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8060319009603,
+          25.10750452369725
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "34",
+        "village": "龍興里",
+        "name": "中正路65號(電信局門口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80696433238029,
+          25.107294626923004
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "35",
+        "village": "龍興里",
+        "name": "中正路51號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80792977845351,
+          25.106861141234
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "36",
+        "village": "龍興里",
+        "name": "民權街4巷1號(龍興建材行)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80727942307749,
+          25.106615009885
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "37",
+        "village": "龍興里",
+        "name": "民權街6巷10號巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80681436440568,
+          25.106773008044314
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "38",
+        "village": "龍興里",
+        "name": "民權街6巷27號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.808677888691,
+          25.10754717514868
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "39",
+        "village": "龍興里",
+        "name": "明燈路三段7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80645362671976,
+          25.1053860569437
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "40",
+        "village": "爪峰里",
+        "name": "三爪子坑路118號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80422475884598,
+          25.106269010314104
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "41",
+        "village": "東和里",
+        "name": "中山路20號(東和里活動中心)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80329206333022,
+          25.106432255718303
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "42",
+        "village": "東和里",
+        "name": "中山路48巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80153787461416,
+          25.106752615738515
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "43",
+        "village": "東和里",
+        "name": "中山路180號巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.80074409788563,
+          25.10691050738741
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "44",
+        "village": "東和里",
+        "name": "中山路210號巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79989454854467,
+          25.10729852855057
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-224006",
+        "city": "new-taipei",
+        "lineid": "224006",
+        "linename": "F路線",
+        "rank": "45",
+        "village": "東和里",
+        "name": "中山路246號巷口"
+      }
+    }
+  ]
+}

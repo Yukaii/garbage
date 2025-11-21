@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58572,
+          25.03065
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-4d0466-1-ebe684",
+        "city": "taipei",
+        "route_name": "福德-4",
+        "car_seq": "第1車",
+        "arrival_time": "1730",
+        "leave_time": "1735",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "463-BP",
+        "route_code": "98-009",
+        "stop_name": "臺北市信義區福德街221巷189號之7(回收車收運)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58456,
+          25.04192
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-4d0466-1-ebe684",
+        "city": "taipei",
+        "route_name": "福德-4",
+        "car_seq": "第1車",
+        "arrival_time": "1830",
+        "leave_time": "1900",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "463-BP",
+        "route_code": "98-009",
+        "stop_name": "臺北市信義區中坡南路58號(中坡南路協和工商側門)"
+      }
+    }
+  ]
+}

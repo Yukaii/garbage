@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50513,
+          25.11653
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-a843cc-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-3",
+        "car_seq": "第3車",
+        "arrival_time": "2132",
+        "leave_time": "2150",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KEJ-0571",
+        "route_code": "111-G05",
+        "stop_name": "臺北市北投區承德路7段292號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50428,
+          25.1172
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-a843cc-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-3",
+        "car_seq": "第3車",
+        "arrival_time": "2151",
+        "leave_time": "2200",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KEJ-0571",
+        "route_code": "111-G05",
+        "stop_name": "臺北市北投區承德路7段342巷口旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50267,
+          25.11869
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-a843cc-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-3",
+        "car_seq": "第3車",
+        "arrival_time": "2201",
+        "leave_time": "2205",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KEJ-0571",
+        "route_code": "111-G05",
+        "stop_name": "臺北市北投區承德路7段立農街1段口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50294,
+          25.12063
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-a843cc-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-3",
+        "car_seq": "第3車",
+        "arrival_time": "2207",
+        "leave_time": "2215",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KEJ-0571",
+        "route_code": "111-G05",
+        "stop_name": "臺北市北投區公?路423巷口"
+      }
+    }
+  ]
+}

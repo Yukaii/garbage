@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5696,
+          25.04489
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-7a2e12-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "三張犁-1",
+        "car_seq": "第2車",
+        "arrival_time": "2040",
+        "leave_time": "2050",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "KEA-1695",
+        "route_code": "108-G18",
+        "stop_name": "臺北市信義區永吉路120巷22弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57015,
+          25.0411
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-7a2e12-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "三張犁-1",
+        "car_seq": "第2車",
+        "arrival_time": "2055",
+        "leave_time": "2105",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "KEA-1695",
+        "route_code": "108-G18",
+        "stop_name": "臺北市信義區忠孝東路5段207號(慶豐幼稚園)前"
+      }
+    }
+  ]
+}

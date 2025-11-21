@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54496,
+          25.00112
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a70c32-3-d9a235",
+        "city": "taipei",
+        "route_name": "興隆-4",
+        "car_seq": "第3車",
+        "arrival_time": "2130",
+        "leave_time": "2140",
+        "district": "文山區",
+        "team": "興隆分隊",
+        "car_no": "KEP-3621",
+        "route_code": "111-G23",
+        "stop_name": "臺北市文山區興順街80巷2號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54898,
+          24.99714
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a70c32-3-d9a235",
+        "city": "taipei",
+        "route_name": "興隆-4",
+        "car_seq": "第3車",
+        "arrival_time": "2140",
+        "leave_time": "2145",
+        "district": "文山區",
+        "team": "興隆分隊",
+        "car_no": "KEP-3621",
+        "route_code": "111-G23",
+        "stop_name": "臺北市文山區景華街176巷19弄1號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55046,
+          24.99581
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a70c32-3-d9a235",
+        "city": "taipei",
+        "route_name": "興隆-4",
+        "car_seq": "第3車",
+        "arrival_time": "2150",
+        "leave_time": "2152",
+        "district": "文山區",
+        "team": "興隆分隊",
+        "car_no": "KEP-3621",
+        "route_code": "111-G23",
+        "stop_name": "臺北市文山區仙岩路16巷75號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55029,
+          24.99707
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a70c32-3-d9a235",
+        "city": "taipei",
+        "route_name": "興隆-4",
+        "car_seq": "第3車",
+        "arrival_time": "2152",
+        "leave_time": "2154",
+        "district": "文山區",
+        "team": "興隆分隊",
+        "car_no": "KEP-3621",
+        "route_code": "111-G23",
+        "stop_name": "臺北市文山區仙岩路16巷55號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55001,
+          24.99758
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a70c32-3-d9a235",
+        "city": "taipei",
+        "route_name": "興隆-4",
+        "car_seq": "第3車",
+        "arrival_time": "2154",
+        "leave_time": "2156",
+        "district": "文山區",
+        "team": "興隆分隊",
+        "car_no": "KEP-3621",
+        "route_code": "111-G23",
+        "stop_name": "臺北市文山區仙岩路16巷43號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54471,
+          24.99514
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a70c32-3-d9a235",
+        "city": "taipei",
+        "route_name": "興隆-4",
+        "car_seq": "第3車",
+        "arrival_time": "2157",
+        "leave_time": "2202",
+        "district": "文山區",
+        "team": "興隆分隊",
+        "car_no": "KEP-3621",
+        "route_code": "111-G23",
+        "stop_name": "臺北市文山區景華街149號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54678,
+          24.99636
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a70c32-3-d9a235",
+        "city": "taipei",
+        "route_name": "興隆-4",
+        "car_seq": "第3車",
+        "arrival_time": "2203",
+        "leave_time": "2208",
+        "district": "文山區",
+        "team": "興隆分隊",
+        "car_no": "KEP-3621",
+        "route_code": "111-G23",
+        "stop_name": "臺北市文山區景華街121巷15弄1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54471,
+          24.99514
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-a70c32-3-d9a235",
+        "city": "taipei",
+        "route_name": "興隆-4",
+        "car_seq": "第3車",
+        "arrival_time": "2209",
+        "leave_time": "2212",
+        "district": "文山區",
+        "team": "興隆分隊",
+        "car_no": "KEP-3621",
+        "route_code": "111-G23",
+        "stop_name": "臺北市文山區景華街73號旁"
+      }
+    }
+  ]
+}

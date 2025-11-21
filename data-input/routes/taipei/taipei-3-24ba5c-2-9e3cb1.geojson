@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51902,
+          25.02339
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2020",
+        "leave_time": "2027",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區廈門街113巷17號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51939,
+          25.02602
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2028",
+        "leave_time": "2034",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區牯嶺街95巷4號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52044,
+          25.02561
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2035",
+        "leave_time": "2039",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區牯嶺街95巷57號(強恕中學後面)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51514,
+          25.02683
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2050",
+        "leave_time": "2054",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區福州街56號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51607,
+          25.0261
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2055",
+        "leave_time": "2059",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區重慶南路3段84號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51644,
+          25.02481
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2100",
+        "leave_time": "2104",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區重慶南路3段116號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51658,
+          25.02416
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2105",
+        "leave_time": "2109",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區重慶南路3段134號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51655,
+          25.02385
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2110",
+        "leave_time": "2114",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區重慶南路3段148號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51707,
+          25.0232
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2115",
+        "leave_time": "2119",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區重慶南路3段149號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517,
+          25.02394
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2120",
+        "leave_time": "2124",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區重慶南路3段125號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51676,
+          25.02507
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2125",
+        "leave_time": "2129",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區重慶南路3段89號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51641,
+          25.02626
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2130",
+        "leave_time": "2134",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區重慶南路3段67號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51708,
+          25.0304
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2135",
+        "leave_time": "2139",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區寧波西街64號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51976,
+          25.032
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2140",
+        "leave_time": "2144",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區寧波東街4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52008,
+          25.03199
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2145",
+        "leave_time": "2151",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區金華街47號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52175,
+          25.03111
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-24ba5c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南昌-3",
+        "car_seq": "第2車",
+        "arrival_time": "2152",
+        "leave_time": "2157",
+        "district": "中正區",
+        "team": "南昌分隊",
+        "car_no": "KEA-1702",
+        "route_code": "108-G25",
+        "stop_name": "臺北市中正區金華街32號前"
+      }
+    }
+  ]
+}

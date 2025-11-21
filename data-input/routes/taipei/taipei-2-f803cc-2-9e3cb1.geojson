@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55218,
+          25.02572
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第2車",
+        "arrival_time": "1900",
+        "leave_time": "1903",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區樂利路89號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55387,
+          25.02833
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第2車",
+        "arrival_time": "1905",
+        "leave_time": "1935",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區通化街167號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5525,
+          25.03054
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第2車",
+        "arrival_time": "1945",
+        "leave_time": "1950",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市安和路2段69巷2號"
+      }
+    }
+  ]
+}

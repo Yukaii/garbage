@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52164,
+          25.0526
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f756e1-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中山-2",
+        "car_seq": "第2車",
+        "arrival_time": "1920",
+        "leave_time": "1925",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "KEG-1533",
+        "route_code": "109-GA02",
+        "stop_name": "臺北市中山區南京西路3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5226,
+          25.05636
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f756e1-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中山-2",
+        "car_seq": "第2車",
+        "arrival_time": "1930",
+        "leave_time": "1933",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "KEG-1533",
+        "route_code": "109-GA02",
+        "stop_name": "臺北市中山區中山北路2段52號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.521684,
+          25.054604
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f756e1-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中山-2",
+        "car_seq": "第2車",
+        "arrival_time": "1934",
+        "leave_time": "1940",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "KEG-1533",
+        "route_code": "109-GA02",
+        "stop_name": "臺北市中山區中山北路2段42巷18號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52189,
+          25.05094
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f756e1-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中山-2",
+        "car_seq": "第2車",
+        "arrival_time": "1942",
+        "leave_time": "1950",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "KEG-1533",
+        "route_code": "109-GA02",
+        "stop_name": "臺北市中山區中山北路1段124號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52115,
+          25.04938
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f756e1-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中山-2",
+        "car_seq": "第2車",
+        "arrival_time": "1951",
+        "leave_time": "1953",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "KEG-1533",
+        "route_code": "109-GA02",
+        "stop_name": "臺北市中山區中山北路1段94號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52032,
+          25.04899
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f756e1-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中山-2",
+        "car_seq": "第2車",
+        "arrival_time": "1954",
+        "leave_time": "1959",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "KEG-1533",
+        "route_code": "109-GA02",
+        "stop_name": "臺北市中山區華陰街16號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52017,
+          25.05001
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f756e1-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中山-2",
+        "car_seq": "第2車",
+        "arrival_time": "2004",
+        "leave_time": "2010",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "KEG-1533",
+        "route_code": "109-GA02",
+        "stop_name": "臺北市中山區長安西路50號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52268,
+          25.04965
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f756e1-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中山-2",
+        "car_seq": "第2車",
+        "arrival_time": "2011",
+        "leave_time": "2015",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "KEG-1533",
+        "route_code": "109-GA02",
+        "stop_name": "臺北市中山區長安東路1段8-2號前"
+      }
+    }
+  ]
+}

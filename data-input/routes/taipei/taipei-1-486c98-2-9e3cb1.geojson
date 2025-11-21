@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53026,
+          25.04054
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-486c98-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "忠孝-1",
+        "car_seq": "第2車",
+        "arrival_time": "1930",
+        "leave_time": "1935",
+        "district": "中正區",
+        "team": "忠孝分隊",
+        "car_no": "KEA-0308",
+        "route_code": "106-G17",
+        "stop_name": "臺北市中正區濟南路2段40號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53113,
+          25.04034
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-486c98-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "忠孝-1",
+        "car_seq": "第2車",
+        "arrival_time": "1935",
+        "leave_time": "1940",
+        "district": "中正區",
+        "team": "忠孝分隊",
+        "car_no": "KEA-0308",
+        "route_code": "106-G17",
+        "stop_name": "臺北市中正區濟南路2段46號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5323,
+          25.04018
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-486c98-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "忠孝-1",
+        "car_seq": "第2車",
+        "arrival_time": "1941",
+        "leave_time": "1945",
+        "district": "中正區",
+        "team": "忠孝分隊",
+        "car_no": "KEA-0308",
+        "route_code": "106-G17",
+        "stop_name": "臺北市中正區濟南路2段64號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53264,
+          25.03942
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-486c98-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "忠孝-1",
+        "car_seq": "第2車",
+        "arrival_time": "1947",
+        "leave_time": "1952",
+        "district": "中正區",
+        "team": "忠孝分隊",
+        "car_no": "KEA-0308",
+        "route_code": "106-G17",
+        "stop_name": "臺北市中正區新生南路1段100號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5316,
+          25.03831
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-486c98-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "忠孝-1",
+        "car_seq": "第2車",
+        "arrival_time": "1953",
+        "leave_time": "1959",
+        "district": "中正區",
+        "team": "忠孝分隊",
+        "car_no": "KEA-0308",
+        "route_code": "106-G17",
+        "stop_name": "臺北市中正區仁愛路2段93號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53062,
+          25.03833
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-486c98-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "忠孝-1",
+        "car_seq": "第2車",
+        "arrival_time": "2000",
+        "leave_time": "2005",
+        "district": "中正區",
+        "team": "忠孝分隊",
+        "car_no": "KEA-0308",
+        "route_code": "106-G17",
+        "stop_name": "臺北市中正區仁愛路2段67號"
+      }
+    }
+  ]
+}

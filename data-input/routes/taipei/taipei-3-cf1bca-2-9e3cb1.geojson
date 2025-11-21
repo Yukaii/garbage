@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56532,
+          25.03006
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-cf1bca-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "吳興-3",
+        "car_seq": "第2車",
+        "arrival_time": "2100",
+        "leave_time": "2105",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEA-0871",
+        "route_code": "107-G17",
+        "stop_name": "臺北市信義區松智路33巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56807,
+          25.02612
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-cf1bca-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "吳興-3",
+        "car_seq": "第2車",
+        "arrival_time": "2135",
+        "leave_time": "2200",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEA-0871",
+        "route_code": "107-G17",
+        "stop_name": "臺北市信義區吳興街365巷口"
+      }
+    }
+  ]
+}

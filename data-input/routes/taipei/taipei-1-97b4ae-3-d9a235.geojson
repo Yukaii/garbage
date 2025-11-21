@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5418,
+          25.05609
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第3車",
+        "arrival_time": "2135",
+        "leave_time": "2143",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區興安街53之4號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54283,
+          25.05573
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第3車",
+        "arrival_time": "2144",
+        "leave_time": "2158",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區興安街100號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54369,
+          25.05572
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第3車",
+        "arrival_time": "2159",
+        "leave_time": "2208",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區復興北路204號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54335,
+          25.0548
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第3車",
+        "arrival_time": "2209",
+        "leave_time": "2220",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區長春路325號前"
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51222,
+          25.07206
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c2922a-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-2",
+        "car_seq": "第3車",
+        "arrival_time": "2148",
+        "leave_time": "2155",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "KEA-0293",
+        "route_code": "106-G04",
+        "stop_name": "臺北市大同區酒泉街140號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51211,
+          25.06875
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c2922a-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-2",
+        "car_seq": "第3車",
+        "arrival_time": "2157",
+        "leave_time": "2203",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "KEA-0293",
+        "route_code": "106-G04",
+        "stop_name": "臺北市大同區民族西路225巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51012,
+          25.06872
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c2922a-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-2",
+        "car_seq": "第3車",
+        "arrival_time": "2204",
+        "leave_time": "2209",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "KEA-0293",
+        "route_code": "106-G04",
+        "stop_name": "臺北市大同區民族西路303巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50931,
+          25.06923
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c2922a-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-2",
+        "car_seq": "第3車",
+        "arrival_time": "2210",
+        "leave_time": "2211",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "KEA-0293",
+        "route_code": "106-G04",
+        "stop_name": "臺北市大同區環河北路2段205巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5093,
+          25.06973
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c2922a-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-2",
+        "car_seq": "第3車",
+        "arrival_time": "2212",
+        "leave_time": "2213",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "KEA-0293",
+        "route_code": "106-G04",
+        "stop_name": "臺北市大同區環河北路2段213巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50942,
+          25.07018
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c2922a-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-2",
+        "car_seq": "第3車",
+        "arrival_time": "2214",
+        "leave_time": "2215",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "KEA-0293",
+        "route_code": "106-G04",
+        "stop_name": "臺北市大同區環河北路2段261號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50934,
+          25.07167
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c2922a-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-2",
+        "car_seq": "第3車",
+        "arrival_time": "2216",
+        "leave_time": "2218",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "KEA-0293",
+        "route_code": "106-G04",
+        "stop_name": "臺北市大同區延平北路4段102巷75號"
+      }
+    }
+  ]
+}

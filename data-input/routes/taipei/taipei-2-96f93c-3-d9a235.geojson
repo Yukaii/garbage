@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55099,
+          25.03874
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-96f93c-3-d9a235",
+        "city": "taipei",
+        "route_name": "敦化-2",
+        "car_seq": "第3車",
+        "arrival_time": "2105",
+        "leave_time": "2110",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "827-BT",
+        "route_code": "103-081",
+        "stop_name": "臺北市大安區安和路1段33號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54974,
+          25.03976
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-96f93c-3-d9a235",
+        "city": "taipei",
+        "route_name": "敦化-2",
+        "car_seq": "第3車",
+        "arrival_time": "2112",
+        "leave_time": "2115",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "827-BT",
+        "route_code": "103-081",
+        "stop_name": "臺北市大安區安和路1段7號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54409,
+          25.04281
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-96f93c-3-d9a235",
+        "city": "taipei",
+        "route_name": "敦化-2",
+        "car_seq": "第3車",
+        "arrival_time": "2125",
+        "leave_time": "2130",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "827-BT",
+        "route_code": "103-081",
+        "stop_name": "臺北市大安區復興南路1段133號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55669,
+          25.04399
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-96f93c-3-d9a235",
+        "city": "taipei",
+        "route_name": "敦化-2",
+        "car_seq": "第3車",
+        "arrival_time": "2140",
+        "leave_time": "2145",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "827-BT",
+        "route_code": "103-081",
+        "stop_name": "臺北市大安區光復南路96巷2號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55571,
+          25.04448
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-96f93c-3-d9a235",
+        "city": "taipei",
+        "route_name": "敦化-2",
+        "car_seq": "第3車",
+        "arrival_time": "2148",
+        "leave_time": "2153",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "827-BT",
+        "route_code": "103-081",
+        "stop_name": "臺北市大安區市民大道4段200號前(第2次收集)"
+      }
+    }
+  ]
+}

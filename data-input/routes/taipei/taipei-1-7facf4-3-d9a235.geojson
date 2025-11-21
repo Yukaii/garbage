@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52567,
+          25.06743
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-7facf4-3-d9a235",
+        "city": "taipei",
+        "route_name": "圓山-1",
+        "car_seq": "第3車",
+        "arrival_time": "2110",
+        "leave_time": "2125",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "068-BV",
+        "route_code": "101-054",
+        "stop_name": "臺北市中山區林森北路628號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52429,
+          25.06703
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-7facf4-3-d9a235",
+        "city": "taipei",
+        "route_name": "圓山-1",
+        "car_seq": "第3車",
+        "arrival_time": "2126",
+        "leave_time": "2135",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "068-BV",
+        "route_code": "101-054",
+        "stop_name": "臺北市中山區雙城街38號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52313,
+          25.06682
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-7facf4-3-d9a235",
+        "city": "taipei",
+        "route_name": "圓山-1",
+        "car_seq": "第3車",
+        "arrival_time": "2136",
+        "leave_time": "2145",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "068-BV",
+        "route_code": "101-054",
+        "stop_name": "臺北市中山區德惠街5號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52414,
+          25.06492
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-7facf4-3-d9a235",
+        "city": "taipei",
+        "route_name": "圓山-1",
+        "car_seq": "第3車",
+        "arrival_time": "2150",
+        "leave_time": "2200",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "068-BV",
+        "route_code": "101-054",
+        "stop_name": "臺北市中山區農安街12號前"
+      }
+    }
+  ]
+}

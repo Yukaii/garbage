@@ -1,0 +1,765 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.671218,
+          24.982373
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "1",
+        "village": "潭邊里",
+        "name": "皇帝殿"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.661207,
+          24.991332
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "2",
+        "village": "潭邊里",
+        "name": "湳窟道路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.664057,
+          24.992924
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "3",
+        "village": "潭邊里",
+        "name": "吳得雄宅"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.663746,
+          24.993574
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "4",
+        "village": "潭邊里",
+        "name": "拱興殿路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.659021,
+          24.993705
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "5",
+        "village": "潭邊里",
+        "name": "王詠程宅"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.657857,
+          24.992783
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "6",
+        "village": "潭邊里",
+        "name": "手工麥芽膏"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.658694,
+          24.991463
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "7",
+        "village": "石碇里",
+        "name": "石津宮路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.659075,
+          24.990812
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "8",
+        "village": "石碇里",
+        "name": "石碇國小(定點)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.659688,
+          24.990855
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "9",
+        "village": "石碇里",
+        "name": "淡蘭藝文館 (定點)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.659109,
+          24.989537
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "10",
+        "village": "石碇里",
+        "name": "高勸宅"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.659697,
+          24.984254
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "11",
+        "village": "烏塗里",
+        "name": "福德宮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.660589,
+          24.983647
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "12",
+        "village": "烏塗里",
+        "name": "666臨時站"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.661154,
+          24.981711
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "13",
+        "village": "烏塗里",
+        "name": "666橫坪路站"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.658281,
+          24.979875
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "14",
+        "village": "烏塗里",
+        "name": "慈緣宮入口處"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.658515,
+          24.978708
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "15",
+        "village": "烏塗里",
+        "name": "溪邊寮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.657124,
+          24.975774
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "16",
+        "village": "烏塗里",
+        "name": "烏塗一號橋"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.656316,
+          24.975504
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "17",
+        "village": "烏塗里",
+        "name": "聚福宮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.655992,
+          24.975022
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "18",
+        "village": "烏塗里",
+        "name": "烏塗窟公車站"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.656754,
+          24.975067
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "19",
+        "village": "烏塗里",
+        "name": "烏塗窟活動中心"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.652561,
+          24.974151
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "20",
+        "village": "烏塗里",
+        "name": "逢菜寮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.645678,
+          24.970902
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "21",
+        "village": "烏塗里",
+        "name": "大鴻慈惠堂"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.638601,
+          24.973503
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "22",
+        "village": "烏塗里",
+        "name": "埤頂"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.655981,
+          24.972562
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "23",
+        "village": "烏塗里",
+        "name": "北47-1林坤宅"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.660019,
+          24.970424
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "24",
+        "village": "烏塗里",
+        "name": "伸邦公司"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.664329,
+          24.969588
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "25",
+        "village": "烏塗里",
+        "name": "許宅"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.666886,
+          24.962312
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "26",
+        "village": "烏塗里",
+        "name": "清水祖師廟路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.652354,
+          24.935051
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "27",
+        "village": "永安里",
+        "name": "勝安宮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.658831,
+          24.935074
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "28",
+        "village": "永安里",
+        "name": "直潭福德宮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.666185,
+          24.943162
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "29",
+        "village": "永安里",
+        "name": "柑腳 （護安宮）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.664806,
+          24.947678
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "30",
+        "village": "永安里",
+        "name": "水底寮公車站"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.649691,
+          24.944556
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "31",
+        "village": "永安里",
+        "name": "花園公墓路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.649277,
+          24.947471
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "32",
+        "village": "永安里",
+        "name": "電池交換站(茶莊)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.645809,
+          24.952035
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "33",
+        "village": "格頭里",
+        "name": "蝶工坊"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.639579,
+          24.951997
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "34",
+        "village": "格頭里",
+        "name": "十股寮公車站"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.632289,
+          24.952087
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "35",
+        "village": "格頭里",
+        "name": "碧山派出所"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.627666,
+          24.954881
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "36",
+        "village": "格頭里",
+        "name": "苗圃園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.625831,
+          24.954541
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "37",
+        "village": "格頭里",
+        "name": "國防部"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.623199,
+          24.957904
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "38",
+        "village": "格頭里",
+        "name": "二格公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.619607,
+          24.959194
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "39",
+        "village": "格頭里",
+        "name": "南邦寮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.607637,
+          24.958145
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-223001",
+        "city": "new-taipei",
+        "lineid": "223001",
+        "linename": "A路線 上午-垃圾車",
+        "rank": "40",
+        "village": "格頭里",
+        "name": "新店界"
+      }
+    }
+  ]
+}

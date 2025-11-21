@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58301,
+          25.06725
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-0918c6-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-2",
+        "car_seq": "第1車",
+        "arrival_time": "1715",
+        "leave_time": "1728",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "AAB-279",
+        "route_code": "104-087",
+        "stop_name": "臺北市內湖區民權東路6段46巷與行忠路交叉路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58356,
+          25.07587
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-0918c6-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-2",
+        "car_seq": "第1車",
+        "arrival_time": "1740",
+        "leave_time": "1750",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "AAB-279",
+        "route_code": "104-087",
+        "stop_name": "臺北市內湖區文德路208巷68號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58189,
+          25.0758
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-0918c6-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-2",
+        "car_seq": "第1車",
+        "arrival_time": "1752",
+        "leave_time": "1800",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "AAB-279",
+        "route_code": "104-087",
+        "stop_name": "臺北市內湖區文德路66巷38弄6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58085,
+          25.07452
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-0918c6-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-2",
+        "car_seq": "第1車",
+        "arrival_time": "1802",
+        "leave_time": "1810",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "AAB-279",
+        "route_code": "104-087",
+        "stop_name": "臺北市內湖區陽光街186號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57926,
+          25.07409
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-0918c6-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-2",
+        "car_seq": "第1車",
+        "arrival_time": "1811",
+        "leave_time": "1816",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "AAB-279",
+        "route_code": "104-087",
+        "stop_name": "臺北市內湖區江南街71巷66號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58532,
+          25.06872
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-0918c6-1-ebe684",
+        "city": "taipei",
+        "route_name": "文德-2",
+        "car_seq": "第1車",
+        "arrival_time": "1822",
+        "leave_time": "1827",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "AAB-279",
+        "route_code": "104-087",
+        "stop_name": "臺北市內湖區民權東路6段74號"
+      }
+    }
+  ]
+}

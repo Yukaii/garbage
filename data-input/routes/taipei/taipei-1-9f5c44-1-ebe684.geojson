@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52547,
+          25.11844
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-9f5c44-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-1",
+        "car_seq": "第1車",
+        "arrival_time": "1630",
+        "leave_time": "1640",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "821-BT",
+        "route_code": "103-074",
+        "stop_name": "臺北市士林區天母西路46號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52724,
+          25.1184
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-9f5c44-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-1",
+        "car_seq": "第1車",
+        "arrival_time": "1641",
+        "leave_time": "1651",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "821-BT",
+        "route_code": "103-074",
+        "stop_name": "臺北市士林區天母西路20號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52844,
+          25.11839
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-9f5c44-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-1",
+        "car_seq": "第1車",
+        "arrival_time": "1652",
+        "leave_time": "1700",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "821-BT",
+        "route_code": "103-074",
+        "stop_name": "臺北市士林區天母西路10號〈地下室旁〉"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53182,
+          25.11799
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-9f5c44-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-1",
+        "car_seq": "第1車",
+        "arrival_time": "1701",
+        "leave_time": "1710",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "821-BT",
+        "route_code": "103-074",
+        "stop_name": "臺北市士林區天母東路10號"
+      }
+    }
+  ]
+}

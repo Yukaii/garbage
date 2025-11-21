@@ -1,0 +1,1772 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.643623,
+          25.225662
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "1",
+        "village": "磺港里",
+        "name": "磺港路237號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.643837,
+          25.227152
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "2",
+        "village": "磺港里",
+        "name": "磺港路306號路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.645134,
+          25.227551
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "3",
+        "village": "磺港里",
+        "name": "磺港路195號路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.646049,
+          25.227619
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "4",
+        "village": "磺港里",
+        "name": "磺港路192號路口(鈞具行)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.649132,
+          25.229221
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "5",
+        "village": "磺港里",
+        "name": "磺港路48號路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.649635,
+          25.229586
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "6",
+        "village": "磺港里",
+        "name": "磺港路25號之3號路口(漁會油庫)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.649643,
+          25.230503
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "7",
+        "village": "磺港里",
+        "name": "磺港路11號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.643646,
+          25.221445
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "8",
+        "village": "豐漁里",
+        "name": "民生路23號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.644691,
+          25.221928
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "9",
+        "village": "豐漁里",
+        "name": "民生路200號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.649681,
+          25.224756
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "10",
+        "village": "豐漁里",
+        "name": "民生路4號(漁村海鮮)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.64901,
+          25.223972
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "11",
+        "village": "豐漁里",
+        "name": "民生路64號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.647491,
+          25.223669
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "12",
+        "village": "豐漁里",
+        "name": "民生路128號路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.646713,
+          25.222807
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "13",
+        "village": "豐漁里",
+        "name": "豐漁社區活動中心"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.645653,
+          25.221775
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "14",
+        "village": "豐漁里",
+        "name": "民生路196號(總督溫泉)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.641949626983,
+          25.2202485877493
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "15",
+        "village": "豐漁里",
+        "name": "民生路51巷1號對面(中興路褔華海鮮)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.639984,
+          25.219149
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "16",
+        "village": "和平里",
+        "name": "中山路102號(德安堂)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.639771,
+          25.219374
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "17",
+        "village": "和平里",
+        "name": "中山路與民生路口(85℃)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.639435,
+          25.219749
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "18",
+        "village": "金美里",
+        "name": "中山路與慈護街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.638649,
+          25.220732
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "19",
+        "village": "金美里",
+        "name": "中山路156號(淡水一信)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.638466,
+          25.220947
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "20",
+        "village": "金美里",
+        "name": "中山路166號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.63781,
+          25.221542
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "21",
+        "village": "金美里",
+        "name": "中山路192號(市場口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.637436,
+          25.221857
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "22",
+        "village": "金美里",
+        "name": "中山路226號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.637016,
+          25.222221
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "23",
+        "village": "金美里",
+        "name": "中山路232號(農會超市)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.636283798776,
+          25.2230719706576
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "24",
+        "village": "美田里",
+        "name": "金山國小(中山路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635691031911,
+          25.2238551322985
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "25",
+        "village": "美田里",
+        "name": "中山路250號(全家)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.63534271412,
+          25.2241261984076
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "26",
+        "village": "美田里",
+        "name": "中山路268號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635157119049,
+          25.2242344858132
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "27",
+        "village": "美田里",
+        "name": "中山路280號(水漫波)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.634520752149,
+          25.2246255437788
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "28",
+        "village": "美田里",
+        "name": "中山路296號(真耶穌教會)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.634011093254,
+          25.2249425436966
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "29",
+        "village": "美田里",
+        "name": "中山路320號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633712442956,
+          25.2251369339151
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "30",
+        "village": "美田里",
+        "name": "中山路與文化三路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633359358301,
+          25.2253748017818
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "31",
+        "village": "美田里",
+        "name": "中山路350巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633308,
+          25.225332
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "32",
+        "village": "美田里",
+        "name": "中山路401號(第一大樓)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.634462588954,
+          25.2245623901009
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "33",
+        "village": "美田里",
+        "name": "翡翠屋公寓"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635034139881,
+          25.2242081916044
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "34",
+        "village": "美田里",
+        "name": "中山路343巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635719,
+          25.223738
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "35",
+        "village": "美田里",
+        "name": "中山路313巷口(豪爾書紡)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635954860118,
+          25.2233604559012
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "36",
+        "village": "美田里",
+        "name": "中山路295巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.63623064418,
+          25.2230011835702
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "37",
+        "village": "美田里",
+        "name": "中山路279巷口(民眾服務站)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.636041227018,
+          25.2222846543007
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "38",
+        "village": "美田里",
+        "name": "中正路22巷口(萊爾富)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635228364418,
+          25.2221279483088
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "39",
+        "village": "美田里",
+        "name": "中正路40號(悟饕)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.634491,
+          25.221979
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "40",
+        "village": "美田里",
+        "name": "臺電服務站(中正路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.63319545519,
+          25.2217321842831
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "41",
+        "village": "美田里",
+        "name": "中正路102號(薰衣草)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.632494023313,
+          25.2215835156499
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "42",
+        "village": "美田里",
+        "name": "中正路120號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.632028877315,
+          25.2214975675236
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "43",
+        "village": "美田里",
+        "name": "中正路134號(富凱輪胎)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.632306766864,
+          25.2214942650692
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "44",
+        "village": "金美里",
+        "name": "中正路141巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633189976686,
+          25.2216708385303
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "45",
+        "village": "金美里",
+        "name": "中正路95號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633537,
+          25.221739
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "46",
+        "village": "金美里",
+        "name": "中正路77號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633979148479,
+          25.2218198674997
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "47",
+        "village": "金美里",
+        "name": "超翊便利商店(中正路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.634400341104,
+          25.2218984700373
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "48",
+        "village": "金美里",
+        "name": "中正路與仁愛路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635627678573,
+          25.2221223231131
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "49",
+        "village": "金美里",
+        "name": "天主堂(中正路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.636720186508,
+          25.2223525285569
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "50",
+        "village": "金美里",
+        "name": "金山區公所"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.636931906745,
+          25.2221679403091
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "51",
+        "village": "金美里",
+        "name": "中山路255號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.637193542327,
+          25.2219457931234
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "52",
+        "village": "金美里",
+        "name": "和平街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.637526999999,
+          25.2216573808936
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "53",
+        "village": "金美里",
+        "name": "中山路227巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.637856542327,
+          25.2213980577782
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "54",
+        "village": "金美里",
+        "name": "中山路與信義路口(西瓜巷)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.638142720237,
+          25.2211063515634
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "55",
+        "village": "金美里",
+        "name": "中山路191號(阿市旦仔麵)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.638516720237,
+          25.2207522043773
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "56",
+        "village": "金美里",
+        "name": "中山路181號(宜成鐘錶)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.638676720237,
+          25.2205679103622
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "57",
+        "village": "金美里",
+        "name": "中山路167巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.638863542327,
+          25.2203070857675
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "58",
+        "village": "金美里",
+        "name": "中山路與仁愛路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.639389,
+          25.219715
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "59",
+        "village": "金美里",
+        "name": "中山路119巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.637984746032,
+          25.2200290570136
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "60",
+        "village": "金美里",
+        "name": "忠孝一路38巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.637652970569,
+          25.2203453367751
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "61",
+        "village": "金美里",
+        "name": "忠孝一路與褔德街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.63707,
+          25.220875
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "62",
+        "village": "金美里",
+        "name": "忠孝一路與信義路口(西瓜巷口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.636749,
+          25.221189
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "63",
+        "village": "金美里",
+        "name": "忠孝一路86號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.636482,
+          25.221472
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "64",
+        "village": "金美里",
+        "name": "忠孝一路與和平街口(許氏祖廟)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635056,
+          25.221132
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "65",
+        "village": "金美里",
+        "name": "仁愛路64巷口(金美國小)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635094,
+          25.220922
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "66",
+        "village": "金美里",
+        "name": "仁愛路61號(法鼓山社會大學)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635269,
+          25.220728
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "67",
+        "village": "金美里",
+        "name": "仁愛路與中華路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635651,
+          25.220308
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "68",
+        "village": "金美里",
+        "name": "仁愛路37之7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.635864,
+          25.220074
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "69",
+        "village": "金美里",
+        "name": "仁愛路與信義路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.636322,
+          25.219593
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "70",
+        "village": "金美里",
+        "name": "仁愛路37號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.636637930059,
+          25.2192722415658
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "71",
+        "village": "金美里",
+        "name": "仁愛路35號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.637208341104,
+          25.2191198432294
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "72",
+        "village": "金美里",
+        "name": "仁愛路23號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.637564504299,
+          25.2192290565667
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "73",
+        "village": "金美里",
+        "name": "仁愛路17號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.63801946627,
+          25.2195463505676
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "74",
+        "village": "金美里",
+        "name": "仁愛路11號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.638503148479,
+          25.2199188200839
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "75",
+        "village": "金美里",
+        "name": "仁愛路1巷口(慈惠宮)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.630129474868,
+          25.2370577235469
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "76",
+        "village": "萬壽里",
+        "name": "海興路10號(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.630376847885,
+          25.2374374762387
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "77",
+        "village": "萬壽里",
+        "name": "海興路18號(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.631358119049,
+          25.23868924885
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "78",
+        "village": "萬壽里",
+        "name": "海興路112號(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.632379474868,
+          25.2394591357769
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "79",
+        "village": "萬壽里",
+        "name": "海興路132號(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.632892661376,
+          25.2399127726745
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "80",
+        "village": "萬壽里",
+        "name": "海興路172號(金饌)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633361322753,
+          25.2404710451585
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "81",
+        "village": "萬壽里",
+        "name": "北海岸咖啡(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.630646,
+          25.263542
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "82",
+        "village": "永興里",
+        "name": "忠義路39之1號(洋荳子)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.629395,
+          25.265261
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "83",
+        "village": "永興里",
+        "name": "中角派出所(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.623740262565,
+          25.271199022301
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "84",
+        "village": "永興里",
+        "name": "濆水8號(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.626726440475,
+          25.268493232972
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "85",
+        "village": "永興里",
+        "name": "濆水13號路口(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.631548440475,
+          25.2613351886247
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "86",
+        "village": "永興里",
+        "name": "忠義路30號(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.632329813491,
+          25.2600552676227
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "87",
+        "village": "永興里",
+        "name": "忠義路2號(阿秀海鮮)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.634392,
+          25.247791
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "88",
+        "village": "萬壽里",
+        "name": "香?園1號(我的太陽)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633095,
+          25.24053
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "89",
+        "village": "萬壽里",
+        "name": "海興路85之3號(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.630981,
+          25.238594
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "90",
+        "village": "萬壽里",
+        "name": "海興路41之1號(檳榔攤)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.630692,
+          25.238239
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "91",
+        "village": "萬壽里",
+        "name": "海興路41號(淡金公路)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.630089,
+          25.237387
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "92",
+        "village": "萬壽里",
+        "name": "海興路29號(回收場)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.629562,
+          25.236595
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-208003",
+        "city": "new-taipei",
+        "lineid": "208003",
+        "linename": "金山3路線 晚上1",
+        "rank": "93",
+        "village": "萬壽里",
+        "name": "法鼓山路口(淡金公路)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232004",
+        "city": "new-taipei",
+        "lineid": "232004",
+        "linename": "上德線3",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.744175,
+          24.95524
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232004",
+        "city": "new-taipei",
+        "lineid": "232004",
+        "linename": "上德線3",
+        "rank": "2",
+        "village": "上德里",
+        "name": "九芎坑15號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.750322,
+          24.952633
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232004",
+        "city": "new-taipei",
+        "lineid": "232004",
+        "linename": "上德線3",
+        "rank": "3",
+        "village": "漁光里",
+        "name": "粗石斛6-2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.739589,
+          24.949163
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232004",
+        "city": "new-taipei",
+        "lineid": "232004",
+        "linename": "上德線3",
+        "rank": "4",
+        "village": "上德里",
+        "name": "虎寮潭2號"
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53668,
+          25.05625
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2aac80-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-3",
+        "car_seq": "第3車",
+        "arrival_time": "2125",
+        "leave_time": "2130",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "AAB-861",
+        "route_code": "105-G13",
+        "stop_name": "臺北市中山區建國北路2段88號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53663,
+          25.05453
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2aac80-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-3",
+        "car_seq": "第3車",
+        "arrival_time": "2131",
+        "leave_time": "2138",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "AAB-861",
+        "route_code": "105-G13",
+        "stop_name": "臺北市中山區建國北路2段66號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.536606,
+          25.053924
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2aac80-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-3",
+        "car_seq": "第3車",
+        "arrival_time": "2139",
+        "leave_time": "2145",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "AAB-861",
+        "route_code": "105-G13",
+        "stop_name": "臺北市中山區建國北路2段48號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.534801,
+          25.053273
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2aac80-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-3",
+        "car_seq": "第3車",
+        "arrival_time": "2146",
+        "leave_time": "2208",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "AAB-861",
+        "route_code": "105-G13",
+        "stop_name": "臺北市中山區伊通街94號(四平公園對面)"
+      }
+    }
+  ]
+}

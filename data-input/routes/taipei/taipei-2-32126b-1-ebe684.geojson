@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52729,
+          25.04553
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-32126b-1-ebe684",
+        "city": "taipei",
+        "route_name": "忠孝-2",
+        "car_seq": "第1車",
+        "arrival_time": "1735",
+        "leave_time": "1742",
+        "district": "中正區",
+        "team": "忠孝分隊",
+        "car_no": "KEJ-0383",
+        "route_code": "111-G01",
+        "stop_name": "臺北市中正區北平東路與杭州北路交口處"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5253,
+          25.04513
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-32126b-1-ebe684",
+        "city": "taipei",
+        "route_name": "忠孝-2",
+        "car_seq": "第1車",
+        "arrival_time": "1745",
+        "leave_time": "1752",
+        "district": "中正區",
+        "team": "忠孝分隊",
+        "car_no": "KEJ-0383",
+        "route_code": "111-G01",
+        "stop_name": "臺北市中正區紹興北街6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52497,
+          25.04383
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-32126b-1-ebe684",
+        "city": "taipei",
+        "route_name": "忠孝-2",
+        "car_seq": "第1車",
+        "arrival_time": "1755",
+        "leave_time": "1802",
+        "district": "中正區",
+        "team": "忠孝分隊",
+        "car_no": "KEJ-0383",
+        "route_code": "111-G01",
+        "stop_name": "臺北市中正區紹興南街5號"
+      }
+    }
+  ]
+}

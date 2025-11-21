@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61264,
+          25.06878
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-193d23-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東湖-1",
+        "car_seq": "第2車",
+        "arrival_time": "2010",
+        "leave_time": "2015",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "070-BQ",
+        "route_code": "100-603",
+        "stop_name": "臺北市內湖區東湖路12號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61638,
+          25.07652
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-193d23-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東湖-1",
+        "car_seq": "第2車",
+        "arrival_time": "2020",
+        "leave_time": "2045",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "070-BQ",
+        "route_code": "100-603",
+        "stop_name": "臺北市內湖區安泰街98號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60283,
+          25.06015
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-193d23-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "東湖-1",
+        "car_seq": "第2車",
+        "arrival_time": "2105",
+        "leave_time": "2130",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "070-BQ",
+        "route_code": "100-603",
+        "stop_name": "臺北市內湖區安美街181號前200公尺"
+      }
+    }
+  ]
+}

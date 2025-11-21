@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57195,
+          25.04468
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-53f07b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-1",
+        "car_seq": "第2車",
+        "arrival_time": "2040",
+        "leave_time": "2055",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0870",
+        "route_code": "107-G16",
+        "stop_name": "臺北市信義區松信路92號(變電所)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57195,
+          25.04226
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-53f07b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-1",
+        "car_seq": "第2車",
+        "arrival_time": "2057",
+        "leave_time": "2105",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0870",
+        "route_code": "107-G16",
+        "stop_name": "臺北市信義區松信路與虎林街120巷交叉口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57536,
+          25.04179
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-53f07b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-1",
+        "car_seq": "第2車",
+        "arrival_time": "2107",
+        "leave_time": "2120",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0870",
+        "route_code": "107-G16",
+        "stop_name": "臺北市信義區忠孝東路5段423巷5弄對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57552,
+          25.04355
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-53f07b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-1",
+        "car_seq": "第2車",
+        "arrival_time": "2122",
+        "leave_time": "2135",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0870",
+        "route_code": "107-G16",
+        "stop_name": "臺北市信義區忠孝東路5段423巷66號（永吉公園）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5776,
+          25.0442
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-53f07b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "五分埔-1",
+        "car_seq": "第2車",
+        "arrival_time": "2140",
+        "leave_time": "2200",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEA-0870",
+        "route_code": "107-G16",
+        "stop_name": "臺北市信義區松山路240巷"
+      }
+    }
+  ]
+}

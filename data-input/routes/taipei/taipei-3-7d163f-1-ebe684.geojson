@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56223,
+          25.07057
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-7d163f-1-ebe684",
+        "city": "taipei",
+        "route_name": "上塔悠-3",
+        "car_seq": "第1車",
+        "arrival_time": "1645",
+        "leave_time": "1648",
+        "district": "松山區",
+        "team": "上塔悠分隊",
+        "car_no": "KEA-0868",
+        "route_code": "107-G14",
+        "stop_name": "臺北市松山區濱江街863號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56659,
+          25.0678
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-7d163f-1-ebe684",
+        "city": "taipei",
+        "route_name": "上塔悠-3",
+        "car_seq": "第1車",
+        "arrival_time": "1657",
+        "leave_time": "1700",
+        "district": "松山區",
+        "team": "上塔悠分隊",
+        "car_no": "KEA-0868",
+        "route_code": "107-G14",
+        "stop_name": "臺北市松山區撫遠街405巷15號之1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56861,
+          25.06234
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-7d163f-1-ebe684",
+        "city": "taipei",
+        "route_name": "上塔悠-3",
+        "car_seq": "第1車",
+        "arrival_time": "1703",
+        "leave_time": "1720",
+        "district": "松山區",
+        "team": "上塔悠分隊",
+        "car_no": "KEA-0868",
+        "route_code": "107-G14",
+        "stop_name": "臺北市松山區塔悠路351號(撫遠抽水站)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55975,
+          25.06253
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-7d163f-1-ebe684",
+        "city": "taipei",
+        "route_name": "上塔悠-3",
+        "car_seq": "第1車",
+        "arrival_time": "1735",
+        "leave_time": "1810",
+        "district": "松山區",
+        "team": "上塔悠分隊",
+        "car_no": "KEA-0868",
+        "route_code": "107-G14",
+        "stop_name": "臺北市松山區民權東路4段121號(松指部)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56321,
+          25.06195
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-7d163f-1-ebe684",
+        "city": "taipei",
+        "route_name": "上塔悠-3",
+        "car_seq": "第1車",
+        "arrival_time": "1820",
+        "leave_time": "1835",
+        "district": "松山區",
+        "team": "上塔悠分隊",
+        "car_no": "KEA-0868",
+        "route_code": "107-G14",
+        "stop_name": "臺北市松山區三民路168號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56686,
+          25.06106
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-7d163f-1-ebe684",
+        "city": "taipei",
+        "route_name": "上塔悠-3",
+        "car_seq": "第1車",
+        "arrival_time": "1840",
+        "leave_time": "1905",
+        "district": "松山區",
+        "team": "上塔悠分隊",
+        "car_no": "KEA-0868",
+        "route_code": "107-G14",
+        "stop_name": "臺北市松山區撫遠街259號(三民公園)"
+      }
+    }
+  ]
+}

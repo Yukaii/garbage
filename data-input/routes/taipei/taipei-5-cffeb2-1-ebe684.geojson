@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51415,
+          25.11887
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-cffeb2-1-ebe684",
+        "city": "taipei",
+        "route_name": "石牌-5",
+        "car_seq": "第1車",
+        "arrival_time": "1730",
+        "leave_time": "1743",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KEA-0309",
+        "route_code": "111-G17",
+        "stop_name": "臺北市北投區立農街2段202巷口旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51649,
+          25.11767
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-cffeb2-1-ebe684",
+        "city": "taipei",
+        "route_name": "石牌-5",
+        "car_seq": "第1車",
+        "arrival_time": "1745",
+        "leave_time": "1800",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KEA-0309",
+        "route_code": "111-G17",
+        "stop_name": "臺北市北投區永明派出所前旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5156345,
+          25.1169205
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-cffeb2-1-ebe684",
+        "city": "taipei",
+        "route_name": "石牌-5",
+        "car_seq": "第1車",
+        "arrival_time": "1801",
+        "leave_time": "1805",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KEA-0309",
+        "route_code": "111-G17",
+        "stop_name": "臺北市北投區義理街49巷口旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51523,
+          25.11645
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-cffeb2-1-ebe684",
+        "city": "taipei",
+        "route_name": "石牌-5",
+        "car_seq": "第1車",
+        "arrival_time": "1806",
+        "leave_time": "1810",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "KEA-0309",
+        "route_code": "111-G17",
+        "stop_name": "臺北市北投區義理街7-1號前"
+      }
+    }
+  ]
+}

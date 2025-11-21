@@ -1,0 +1,100 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232009",
+        "city": "new-taipei",
+        "lineid": "232009",
+        "linename": "大林線4",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.700151,
+          24.922187
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232009",
+        "city": "new-taipei",
+        "lineid": "232009",
+        "linename": "大林線4",
+        "rank": "2",
+        "village": "大林里",
+        "name": "九芎林28-2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.704005,
+          24.924957
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232009",
+        "city": "new-taipei",
+        "lineid": "232009",
+        "linename": "大林線4",
+        "rank": "3",
+        "village": "大林里",
+        "name": "九芎林24號路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.706495,
+          24.928567
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232009",
+        "city": "new-taipei",
+        "lineid": "232009",
+        "linename": "大林線4",
+        "rank": "4",
+        "village": "大林里",
+        "name": "逮魚堀55-8號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.696864,
+          24.932508
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232009",
+        "city": "new-taipei",
+        "lineid": "232009",
+        "linename": "大林線4",
+        "rank": "5",
+        "village": "大林里",
+        "name": "福德宮"
+      }
+    }
+  ]
+}

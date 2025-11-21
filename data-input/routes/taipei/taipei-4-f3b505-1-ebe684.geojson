@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56983,
+          25.02838
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-f3b505-1-ebe684",
+        "city": "taipei",
+        "route_name": "吳興-4",
+        "car_seq": "第1車",
+        "arrival_time": "1830",
+        "leave_time": "1845",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEU-5831",
+        "route_code": "113-G06",
+        "stop_name": "臺北市信義區信義路5段150巷14弄16號對面(中強公園高峰會旁)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56945,
+          25.02679
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-f3b505-1-ebe684",
+        "city": "taipei",
+        "route_name": "吳興-4",
+        "car_seq": "第1車",
+        "arrival_time": "1850",
+        "leave_time": "1930",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEU-5831",
+        "route_code": "113-G06",
+        "stop_name": "臺北市信義區信義路5段150巷325弄2號左側(楓橋新村、大華營區)"
+      }
+    }
+  ]
+}

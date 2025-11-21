@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50438,
+          25.02835
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c177b4-3-d9a235",
+        "city": "taipei",
+        "route_name": "青年-1",
+        "car_seq": "第3車",
+        "arrival_time": "2110",
+        "leave_time": "2115",
+        "district": "萬華區",
+        "team": "青年分隊",
+        "car_no": "KEJ-0575",
+        "route_code": "111-G09",
+        "stop_name": "臺北市萬華區中華路2段364巷17弄5號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5049,
+          25.02737
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c177b4-3-d9a235",
+        "city": "taipei",
+        "route_name": "青年-1",
+        "car_seq": "第3車",
+        "arrival_time": "2116",
+        "leave_time": "2123",
+        "district": "萬華區",
+        "team": "青年分隊",
+        "car_no": "KEJ-0575",
+        "route_code": "111-G09",
+        "stop_name": "臺北市萬華區中華路2段416巷3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50358,
+          25.02692
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c177b4-3-d9a235",
+        "city": "taipei",
+        "route_name": "青年-1",
+        "car_seq": "第3車",
+        "arrival_time": "2123",
+        "leave_time": "2128",
+        "district": "萬華區",
+        "team": "青年分隊",
+        "car_no": "KEJ-0575",
+        "route_code": "111-G09",
+        "stop_name": "臺北市萬華區中華路2段416巷17號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50161,
+          25.02664
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c177b4-3-d9a235",
+        "city": "taipei",
+        "route_name": "青年-1",
+        "car_seq": "第3車",
+        "arrival_time": "2128",
+        "leave_time": "2134",
+        "district": "萬華區",
+        "team": "青年分隊",
+        "car_no": "KEJ-0575",
+        "route_code": "111-G09",
+        "stop_name": "臺北市萬華區中華路2段416巷118號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50117,
+          25.02933
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c177b4-3-d9a235",
+        "city": "taipei",
+        "route_name": "青年-1",
+        "car_seq": "第3車",
+        "arrival_time": "2139",
+        "leave_time": "2144",
+        "district": "萬華區",
+        "team": "青年分隊",
+        "car_no": "KEJ-0575",
+        "route_code": "111-G09",
+        "stop_name": "臺北市萬華區西藏路163號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50228,
+          25.02892
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c177b4-3-d9a235",
+        "city": "taipei",
+        "route_name": "青年-1",
+        "car_seq": "第3車",
+        "arrival_time": "2145",
+        "leave_time": "2148",
+        "district": "萬華區",
+        "team": "青年分隊",
+        "car_no": "KEJ-0575",
+        "route_code": "111-G09",
+        "stop_name": "臺北市萬華區西藏路125巷5號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50239,
+          25.02849
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c177b4-3-d9a235",
+        "city": "taipei",
+        "route_name": "青年-1",
+        "car_seq": "第3車",
+        "arrival_time": "2148",
+        "leave_time": "2152",
+        "district": "萬華區",
+        "team": "青年分隊",
+        "car_no": "KEJ-0575",
+        "route_code": "111-G09",
+        "stop_name": "臺北市萬華區西藏路125巷11號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50265,
+          25.028
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c177b4-3-d9a235",
+        "city": "taipei",
+        "route_name": "青年-1",
+        "car_seq": "第3車",
+        "arrival_time": "2152",
+        "leave_time": "2200",
+        "district": "萬華區",
+        "team": "青年分隊",
+        "car_no": "KEJ-0575",
+        "route_code": "111-G09",
+        "stop_name": "臺北市萬華區雙和街5號(市場)"
+      }
+    }
+  ]
+}

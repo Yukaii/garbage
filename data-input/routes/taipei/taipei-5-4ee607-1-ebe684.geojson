@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57204,
+          25.03972
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-4ee607-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-5",
+        "car_seq": "第1車",
+        "arrival_time": "1955",
+        "leave_time": "2000",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "013-BV",
+        "route_code": "101-S416",
+        "stop_name": "臺北市信義區忠孝東路5段236巷15號（松山工農大門前）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56065,
+          25.04601
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-4ee607-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-5",
+        "car_seq": "第1車",
+        "arrival_time": "2032",
+        "leave_time": "2035",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "013-BV",
+        "route_code": "101-S416",
+        "stop_name": "臺北市信義區市民大道24號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56254,
+          25.03948
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-4ee607-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-5",
+        "car_seq": "第1車",
+        "arrival_time": "2050",
+        "leave_time": "2100",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "013-BV",
+        "route_code": "101-S416",
+        "stop_name": "臺北市信義區逸仙路26巷1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56177,
+          25.041
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-4ee607-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-5",
+        "car_seq": "第1車",
+        "arrival_time": "2102",
+        "leave_time": "2105",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "013-BV",
+        "route_code": "101-S416",
+        "stop_name": "臺北市信義區逸仙路與忠孝東路4段500號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56657,
+          25.04148
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-4ee607-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-5",
+        "car_seq": "第1車",
+        "arrival_time": "2110",
+        "leave_time": "2130",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "013-BV",
+        "route_code": "101-S416",
+        "stop_name": "臺北市信義區忠孝東路5段63號(勤工國宅)前"
+      }
+    }
+  ]
+}

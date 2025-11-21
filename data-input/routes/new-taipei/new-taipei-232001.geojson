@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232001",
+        "city": "new-taipei",
+        "lineid": "232001",
+        "linename": "上德線",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.707957,
+          24.958021
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232001",
+        "city": "new-taipei",
+        "lineid": "232001",
+        "linename": "上德線",
+        "rank": "2",
+        "village": "上德里",
+        "name": "桶盤嶼9號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.695089,
+          24.959923
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232001",
+        "city": "new-taipei",
+        "lineid": "232001",
+        "linename": "上德線",
+        "rank": "3",
+        "village": "上德里",
+        "name": "樹梅嶺6-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.696991,
+          24.953645
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232001",
+        "city": "new-taipei",
+        "lineid": "232001",
+        "linename": "上德線",
+        "rank": "4",
+        "village": "上德里",
+        "name": "樹梅嶺1-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.711359,
+          24.943475
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232001",
+        "city": "new-taipei",
+        "lineid": "232001",
+        "linename": "上德線",
+        "rank": "5",
+        "village": "坪林里",
+        "name": "坪雙路一段43號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.744175,
+          24.95524
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232001",
+        "city": "new-taipei",
+        "lineid": "232001",
+        "linename": "上德線",
+        "rank": "6",
+        "village": "上德里",
+        "name": "九芎坑15號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.750322,
+          24.952633
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232001",
+        "city": "new-taipei",
+        "lineid": "232001",
+        "linename": "上德線",
+        "rank": "7",
+        "village": "漁光里",
+        "name": "粗石斛6-2號"
+      }
+    }
+  ]
+}

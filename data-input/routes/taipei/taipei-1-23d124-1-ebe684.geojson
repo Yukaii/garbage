@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55532,
+          25.02443
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-23d124-1-ebe684",
+        "city": "taipei",
+        "route_name": "六張犁-1",
+        "car_seq": "第1車",
+        "arrival_time": "1800",
+        "leave_time": "1815",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEA-0300",
+        "route_code": "106-G10",
+        "stop_name": "臺北市信義區崇德街79巷口(黎順里公園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55799,
+          25.02006
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-23d124-1-ebe684",
+        "city": "taipei",
+        "route_name": "六張犁-1",
+        "car_seq": "第1車",
+        "arrival_time": "1825",
+        "leave_time": "1840",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEA-0300",
+        "route_code": "106-G10",
+        "stop_name": "臺北市信義區和平東路3段391巷8弄1號前"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49131,
+          25.03208
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4a9672-1-ebe684",
+        "city": "taipei",
+        "route_name": "大理-2",
+        "car_seq": "第1車",
+        "arrival_time": "1630",
+        "leave_time": "1635",
+        "district": "萬華區",
+        "team": "大理分隊",
+        "car_no": "AAB-273",
+        "route_code": "104-083",
+        "stop_name": "臺北市萬華區環河南路2段278號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49025,
+          25.03174
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4a9672-1-ebe684",
+        "city": "taipei",
+        "route_name": "大理-2",
+        "car_seq": "第1車",
+        "arrival_time": "1636",
+        "leave_time": "1641",
+        "district": "萬華區",
+        "team": "大理分隊",
+        "car_no": "AAB-273",
+        "route_code": "104-083",
+        "stop_name": "臺北市萬華區長順街91號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4893,
+          25.0322
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4a9672-1-ebe684",
+        "city": "taipei",
+        "route_name": "大理-2",
+        "car_seq": "第1車",
+        "arrival_time": "1642",
+        "leave_time": "1647",
+        "district": "萬華區",
+        "team": "大理分隊",
+        "car_no": "AAB-273",
+        "route_code": "104-083",
+        "stop_name": "臺北市萬華區長順街111號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49132,
+          25.03538
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4a9672-1-ebe684",
+        "city": "taipei",
+        "route_name": "大理-2",
+        "car_seq": "第1車",
+        "arrival_time": "1649",
+        "leave_time": "1654",
+        "district": "萬華區",
+        "team": "大理分隊",
+        "car_no": "AAB-273",
+        "route_code": "104-083",
+        "stop_name": "臺北市萬華區和平西路3段380號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4939,
+          25.03533
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4a9672-1-ebe684",
+        "city": "taipei",
+        "route_name": "大理-2",
+        "car_seq": "第1車",
+        "arrival_time": "1655",
+        "leave_time": "1659",
+        "district": "萬華區",
+        "team": "大理分隊",
+        "car_no": "AAB-273",
+        "route_code": "104-083",
+        "stop_name": "臺北市萬華區環河南路2段162號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49289,
+          25.0338
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4a9672-1-ebe684",
+        "city": "taipei",
+        "route_name": "大理-2",
+        "car_seq": "第1車",
+        "arrival_time": "1700",
+        "leave_time": "1704",
+        "district": "萬華區",
+        "team": "大理分隊",
+        "car_no": "AAB-273",
+        "route_code": "104-083",
+        "stop_name": "臺北市萬華區環河南路2段218號前"
+      }
+    }
+  ]
+}

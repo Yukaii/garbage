@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57248,
+          25.01733
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-f3b505-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "吳興-4",
+        "car_seq": "第2車",
+        "arrival_time": "2050",
+        "leave_time": "2110",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEU-5831",
+        "route_code": "113-G06",
+        "stop_name": "臺北市信義區吳興街600巷100弄53號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57035,
+          25.0198
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-f3b505-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "吳興-4",
+        "car_seq": "第2車",
+        "arrival_time": "2100",
+        "leave_time": "2115",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEU-5831",
+        "route_code": "113-G06",
+        "stop_name": "臺北市信義區吳興街600巷76弄74號空地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57096,
+          25.01877
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-f3b505-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "吳興-4",
+        "car_seq": "第2車",
+        "arrival_time": "2125",
+        "leave_time": "2150",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEU-5831",
+        "route_code": "113-G06",
+        "stop_name": "臺北市信義區吳興街600巷86號(泰和公園)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.467102495989,
+          25.0877982104152
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247021",
+        "city": "new-taipei",
+        "lineid": "247021",
+        "linename": "路線11下午(一四)",
+        "rank": "1",
+        "village": "保佑里",
+        "name": "中正路174巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.467218081597,
+          25.0886559433193
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247021",
+        "city": "new-taipei",
+        "lineid": "247021",
+        "linename": "路線11下午(一四)",
+        "rank": "2",
+        "village": "保佑里",
+        "name": "民族路455號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4680581,
+          25.0891864046548
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247021",
+        "city": "new-taipei",
+        "lineid": "247021",
+        "linename": "路線11下午(一四)",
+        "rank": "3",
+        "village": "保佑里",
+        "name": "民族路427巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.470334399099,
+          25.087851170855
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247021",
+        "city": "new-taipei",
+        "lineid": "247021",
+        "linename": "路線11下午(一四)",
+        "rank": "4",
+        "village": "保佑里",
+        "name": "三民路195巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.471153723007,
+          25.0871595911865
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247021",
+        "city": "new-taipei",
+        "lineid": "247021",
+        "linename": "路線11下午(一四)",
+        "rank": "5",
+        "village": "保佑里",
+        "name": "三民路171巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46456507831634,
+          25.09356824352416
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247021",
+        "city": "new-taipei",
+        "lineid": "247021",
+        "linename": "路線11下午(一四)",
+        "rank": "6",
+        "village": "保新里",
+        "name": "仁愛街212巷11號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.463782551214,
+          25.0922494219811
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247021",
+        "city": "new-taipei",
+        "lineid": "247021",
+        "linename": "路線11下午(一四)",
+        "rank": "7",
+        "village": "保新里",
+        "name": "中正路362-2號前"
+      }
+    }
+  ]
+}

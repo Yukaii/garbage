@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54864,
+          25.04357
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-96f93c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "敦化-2",
+        "car_seq": "第2車",
+        "arrival_time": "1905",
+        "leave_time": "1925",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "827-BT",
+        "route_code": "103-081",
+        "stop_name": "臺北市大安區敦化南路1段160巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55591,
+          25.04291
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-96f93c-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "敦化-2",
+        "car_seq": "第2車",
+        "arrival_time": "1935",
+        "leave_time": "1945",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "827-BT",
+        "route_code": "103-081",
+        "stop_name": "臺北市大安區延吉街131巷43號對面(第1次收集)"
+      }
+    }
+  ]
+}

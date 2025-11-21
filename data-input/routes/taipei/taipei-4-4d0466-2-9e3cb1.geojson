@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58573,
+          25.03968
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-4d0466-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "福德-4",
+        "car_seq": "第2車",
+        "arrival_time": "2030",
+        "leave_time": "2045",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "463-BP",
+        "route_code": "98-009",
+        "stop_name": "臺北市信義區福德街268巷7弄1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58714,
+          25.03825
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-4d0466-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "福德-4",
+        "car_seq": "第2車",
+        "arrival_time": "2047",
+        "leave_time": "2050",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "463-BP",
+        "route_code": "98-009",
+        "stop_name": "臺北市信義區福德街251巷7弄1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58141,
+          25.04169
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-4d0466-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "福德-4",
+        "car_seq": "第2車",
+        "arrival_time": "2100",
+        "leave_time": "2130",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "463-BP",
+        "route_code": "98-009",
+        "stop_name": "臺北市信義區大道路28巷口對面（春光公園）"
+      }
+    }
+  ]
+}

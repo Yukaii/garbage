@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56252,
+          25.04982
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e9e8f5-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "松山-2",
+        "car_seq": "第2車",
+        "arrival_time": "2035",
+        "leave_time": "2050",
+        "district": "松山區",
+        "team": "松山分隊",
+        "car_no": "KEA-0298",
+        "route_code": "106-G08",
+        "stop_name": "臺北市松山區吉祥路29號(中崙高中)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56095,
+          25.05021
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e9e8f5-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "松山-2",
+        "car_seq": "第2車",
+        "arrival_time": "2100",
+        "leave_time": "2110",
+        "district": "松山區",
+        "team": "松山分隊",
+        "car_no": "KEA-0298",
+        "route_code": "106-G08",
+        "stop_name": "臺北市松山區光復北路11巷76號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56545,
+          25.04929
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e9e8f5-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "松山-2",
+        "car_seq": "第2車",
+        "arrival_time": "2130",
+        "leave_time": "2140",
+        "district": "松山區",
+        "team": "松山分隊",
+        "car_no": "KEA-0298",
+        "route_code": "106-G08",
+        "stop_name": "臺北市松山區東興路14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56477,
+          25.04892
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e9e8f5-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "松山-2",
+        "car_seq": "第2車",
+        "arrival_time": "2145",
+        "leave_time": "2155",
+        "district": "松山區",
+        "team": "松山分隊",
+        "car_no": "KEA-0298",
+        "route_code": "106-G08",
+        "stop_name": "臺北市松山區八德路4段239號"
+      }
+    }
+  ]
+}

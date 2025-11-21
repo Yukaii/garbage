@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.460479636228,
+          25.0936454634479
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247001",
+        "city": "new-taipei",
+        "lineid": "247001",
+        "linename": "路線1下午",
+        "rank": "1",
+        "village": "南港里",
+        "name": "永平街32巷74號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.459333125165,
+          25.0918318182073
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247001",
+        "city": "new-taipei",
+        "lineid": "247001",
+        "linename": "路線1下午",
+        "rank": "2",
+        "village": "南港里",
+        "name": "永平街32巷29號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.45825407905055,
+          25.09113158855649
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247001",
+        "city": "new-taipei",
+        "lineid": "247001",
+        "linename": "路線1下午",
+        "rank": "3",
+        "village": "南港里",
+        "name": "永平街42號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.45942040827458,
+          25.090518348319826
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247001",
+        "city": "new-taipei",
+        "lineid": "247001",
+        "linename": "路線1下午",
+        "rank": "4",
+        "village": "永樂里",
+        "name": "永平市場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.458019233423,
+          25.0889988630673
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247001",
+        "city": "new-taipei",
+        "lineid": "247001",
+        "linename": "路線1下午",
+        "rank": "5",
+        "village": "永樂里",
+        "name": "永樂街38巷19弄4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.45644608433831,
+          25.089983936448043
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247001",
+        "city": "new-taipei",
+        "lineid": "247001",
+        "linename": "路線1下午",
+        "rank": "6",
+        "village": "永樂里",
+        "name": "永樂街38巷33弄60號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.45767490296102,
+          25.09004706541925
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247001",
+        "city": "new-taipei",
+        "lineid": "247001",
+        "linename": "路線1下午",
+        "rank": "7",
+        "village": "永樂里",
+        "name": "永樂街38巷45弄12號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.457313855831,
+          25.0871720009187
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247001",
+        "city": "new-taipei",
+        "lineid": "247001",
+        "linename": "路線1下午",
+        "rank": "8",
+        "village": "成功里",
+        "name": "長安街276號"
+      }
+    }
+  ]
+}

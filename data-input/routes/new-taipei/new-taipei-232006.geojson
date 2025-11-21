@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232006",
+        "city": "new-taipei",
+        "lineid": "232006",
+        "linename": "大林線1",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.733651,
+          24.894144
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232006",
+        "city": "new-taipei",
+        "lineid": "232006",
+        "linename": "大林線1",
+        "rank": "2",
+        "village": "石曹里",
+        "name": "石嘈49號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.736259,
+          24.894575
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232006",
+        "city": "new-taipei",
+        "lineid": "232006",
+        "linename": "大林線1",
+        "rank": "3",
+        "village": "石曹里",
+        "name": "石嘈48-1號"
+      }
+    }
+  ]
+}

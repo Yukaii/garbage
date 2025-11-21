@@ -1,0 +1,556 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42100215551385,
+          25.06198067692105
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "1",
+        "village": "黎明里",
+        "name": "黎明停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4215454,
+          25.06348298
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "2",
+        "village": "黎明里",
+        "name": "泰林路二段599巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.422702090772,
+          25.0636209328537
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "3",
+        "village": "黎明里",
+        "name": "泰林路二段557巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.425165326966,
+          25.06398453331121
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "4",
+        "village": "山腳里",
+        "name": "台北圓山"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.428714809279,
+          25.0636722950294
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "5",
+        "village": "山腳里",
+        "name": "憲訓路口對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.431471973628,
+          25.0623885178498
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "6",
+        "village": "山腳里",
+        "name": "泰山國小"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433126766864,
+          25.0615231954046
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "7",
+        "village": "福泰里",
+        "name": "泰山農會"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.434480005539,
+          25.0593671290403
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "8",
+        "village": "福泰里",
+        "name": "福泰街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4346969,
+          25.05901816
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "9",
+        "village": "福興里",
+        "name": "泰林路二段99巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4356196,
+          25.05745856
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "10",
+        "village": "福興里",
+        "name": "泰林路二段(仁德路口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.432479262565,
+          25.0525241472871
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "11",
+        "village": "全興里",
+        "name": "中港西路498巷內大樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43176378331,
+          25.0531796020954
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "12",
+        "village": "全興里",
+        "name": "仁愛路6巷內"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4322389,
+          25.05501413
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "13",
+        "village": "全興里",
+        "name": "仁愛路口（7-11止）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.435593906919,
+          25.0575560343494
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "14",
+        "village": "福泰里",
+        "name": "泰林路二段46號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.434579361359,
+          25.0592647538679
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "15",
+        "village": "福泰里",
+        "name": "泰林路二段116巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433075221478,
+          25.0616247109412
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "16",
+        "village": "福泰里",
+        "name": "泰林路二段（派出所）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433050592013,
+          25.0621371035527
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "17",
+        "village": "福泰里",
+        "name": "明志路一段（周外科）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4335379,
+          25.06471394
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "18",
+        "village": "楓樹里",
+        "name": "明志路一段（和平街口）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4336358,
+          25.06603504
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "19",
+        "village": "楓樹里",
+        "name": "明志路一段（黑橋頭）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433574151537,
+          25.0655898175552
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "20",
+        "village": "楓樹里",
+        "name": "明志路一段20號（海德堡）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433406151537,
+          25.0638282593747
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "21",
+        "village": "楓樹里",
+        "name": "明志路一段（陽信銀行）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433044811009,
+          25.0622031556975
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "22",
+        "village": "山腳里",
+        "name": "明志路一段（普生眼科）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4322654,
+          25.06204042
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "23",
+        "village": "山腳里",
+        "name": "泰林路二段福德街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.430029484044,
+          25.0631423859067
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "24",
+        "village": "山腳里",
+        "name": "泰林路二段美寧街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.427340682208,
+          25.06427588144
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "25",
+        "village": "山腳里",
+        "name": "泰林路二段414巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.425699688902,
+          25.0640782145744
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "26",
+        "village": "山腳里",
+        "name": "泰林路二段台北花園廣場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4240147,
+          25.06384051
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "27",
+        "village": "山腳里",
+        "name": "泰林路二段麗池樂章"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.422712819608,
+          25.0636591997837
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "28",
+        "village": "黎明里",
+        "name": "泰林路二段557巷口對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.422114306134,
+          25.063563740583
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243014",
+        "city": "new-taipei",
+        "lineid": "243014",
+        "linename": "路線6晚上",
+        "rank": "29",
+        "village": "黎明里",
+        "name": "泰林路二段579巷口對面"
+      }
+    }
+  ]
+}

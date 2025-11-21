@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.476417256448,
+          25.0899486514333
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247017",
+        "city": "new-taipei",
+        "lineid": "247017",
+        "linename": "路線9下午",
+        "rank": "1",
+        "village": "福安里",
+        "name": "民族路255巷13號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.475406660506,
+          25.0893504613868
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247017",
+        "city": "new-taipei",
+        "lineid": "247017",
+        "linename": "路線9下午",
+        "rank": "2",
+        "village": "仁愛里",
+        "name": "民族路327巷142號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47737107271,
+          25.0896673972541
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247017",
+        "city": "new-taipei",
+        "lineid": "247017",
+        "linename": "路線9下午",
+        "rank": "3",
+        "village": "福安里",
+        "name": "民族路227巷2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.477559,
+          25.088926
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247017",
+        "city": "new-taipei",
+        "lineid": "247017",
+        "linename": "路線9下午",
+        "rank": "4",
+        "village": "福安里",
+        "name": "民族路201巷5號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.475423965318,
+          25.0869602092936
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247017",
+        "city": "new-taipei",
+        "lineid": "247017",
+        "linename": "路線9下午",
+        "rank": "5",
+        "village": "福安里",
+        "name": "民權路56號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4772,
+          25.090921
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247017",
+        "city": "new-taipei",
+        "lineid": "247017",
+        "linename": "路線9下午",
+        "rank": "6",
+        "village": "復興里",
+        "name": "民族路336巷19弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47787711489254,
+          25.089666559595585
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247017",
+        "city": "new-taipei",
+        "lineid": "247017",
+        "linename": "路線9下午",
+        "rank": "7",
+        "village": "復興里",
+        "name": "民族路290巷口"
+      }
+    }
+  ]
+}

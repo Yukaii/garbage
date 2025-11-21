@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.505957,
+          25.042014
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e44e55-1-ebe684",
+        "city": "taipei",
+        "route_name": "昆明-2",
+        "car_seq": "第1車",
+        "arrival_time": "1600",
+        "leave_time": "1605",
+        "district": "萬華區",
+        "team": "昆明分隊",
+        "car_no": "KEA-1696",
+        "route_code": "108-G19",
+        "stop_name": "臺北市萬華區西寧南路94號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50597,
+          25.04043
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e44e55-1-ebe684",
+        "city": "taipei",
+        "route_name": "昆明-2",
+        "car_seq": "第1車",
+        "arrival_time": "1606",
+        "leave_time": "1612",
+        "district": "萬華區",
+        "team": "昆明分隊",
+        "car_no": "KEA-1696",
+        "route_code": "108-G19",
+        "stop_name": "臺北市萬華區西寧南路146號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50611,
+          25.03933
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e44e55-1-ebe684",
+        "city": "taipei",
+        "route_name": "昆明-2",
+        "car_seq": "第1車",
+        "arrival_time": "1614",
+        "leave_time": "1617",
+        "district": "萬華區",
+        "team": "昆明分隊",
+        "car_no": "KEA-1696",
+        "route_code": "108-G19",
+        "stop_name": "臺北市萬華區西寧南路186號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5062,
+          25.03872
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e44e55-1-ebe684",
+        "city": "taipei",
+        "route_name": "昆明-2",
+        "car_seq": "第1車",
+        "arrival_time": "1618",
+        "leave_time": "1625",
+        "district": "萬華區",
+        "team": "昆明分隊",
+        "car_no": "KEA-1696",
+        "route_code": "108-G19",
+        "stop_name": "臺北市萬華區西寧南路198號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50485,
+          25.04165
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e44e55-1-ebe684",
+        "city": "taipei",
+        "route_name": "昆明-2",
+        "car_seq": "第1車",
+        "arrival_time": "1628",
+        "leave_time": "1635",
+        "district": "萬華區",
+        "team": "昆明分隊",
+        "car_no": "KEA-1696",
+        "route_code": "108-G19",
+        "stop_name": "臺北市萬華區內江街67號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50725,
+          25.04169
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e44e55-1-ebe684",
+        "city": "taipei",
+        "route_name": "昆明-2",
+        "car_seq": "第1車",
+        "arrival_time": "1636",
+        "leave_time": "1640",
+        "district": "萬華區",
+        "team": "昆明分隊",
+        "car_no": "KEA-1696",
+        "route_code": "108-G19",
+        "stop_name": "臺北市萬華區漢中街145號"
+      }
+    }
+  ]
+}

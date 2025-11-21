@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557648,
+          25.276852
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253002",
+        "city": "new-taipei",
+        "lineid": "253002",
+        "linename": "B路線上午",
+        "rank": "1",
+        "village": "山溪里",
+        "name": "北19-1線曹洞宗"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.552911,
+          25.274631
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253002",
+        "city": "new-taipei",
+        "lineid": "253002",
+        "linename": "B路線上午",
+        "rank": "2",
+        "village": "老梅里",
+        "name": "聖明宮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5665,
+          25.26045
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253002",
+        "city": "new-taipei",
+        "lineid": "253002",
+        "linename": "B路線上午",
+        "rank": "3",
+        "village": "石門里",
+        "name": "重門製茶廠"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.558644,
+          25.246925
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253002",
+        "city": "new-taipei",
+        "lineid": "253002",
+        "linename": "B路線上午",
+        "rank": "4",
+        "village": "老梅里",
+        "name": "青山瀑布路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.552753,
+          25.261243
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253002",
+        "city": "new-taipei",
+        "lineid": "253002",
+        "linename": "B路線上午",
+        "rank": "5",
+        "village": "老梅里",
+        "name": "自來水廠"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.548607,
+          25.249664
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253002",
+        "city": "new-taipei",
+        "lineid": "253002",
+        "linename": "B路線上午",
+        "rank": "6",
+        "village": "老梅里",
+        "name": "妙法寺"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.540233021179,
+          25.2888204091151
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253002",
+        "city": "new-taipei",
+        "lineid": "253002",
+        "linename": "B路線上午",
+        "rank": "7",
+        "village": "富基里",
+        "name": "燈台口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.572,
+          25.296
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253002",
+        "city": "new-taipei",
+        "lineid": "253002",
+        "linename": "B路線上午",
+        "rank": "8",
+        "village": "尖鹿里",
+        "name": "周宅"
+      }
+    }
+  ]
+}

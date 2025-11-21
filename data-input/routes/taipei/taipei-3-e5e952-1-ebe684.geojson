@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5222,
+          25.10483
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e5e952-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-3",
+        "car_seq": "第1車",
+        "arrival_time": "1640",
+        "leave_time": "1650",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "233-BV",
+        "route_code": "102-061",
+        "stop_name": "臺北市士林區德行西路77號右對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52209,
+          25.10379
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e5e952-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-3",
+        "car_seq": "第1車",
+        "arrival_time": "1652",
+        "leave_time": "1657",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "233-BV",
+        "route_code": "102-061",
+        "stop_name": "臺北市士林區福華路159號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52164,
+          25.10194
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e5e952-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-3",
+        "car_seq": "第1車",
+        "arrival_time": "1658",
+        "leave_time": "1703",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "233-BV",
+        "route_code": "102-061",
+        "stop_name": "臺北市士林區福國路108號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52031,
+          25.10277
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e5e952-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-3",
+        "car_seq": "第1車",
+        "arrival_time": "1704",
+        "leave_time": "1709",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "233-BV",
+        "route_code": "102-061",
+        "stop_name": "臺北市士林區文林路738號送車"
+      }
+    }
+  ]
+}

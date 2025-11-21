@@ -1,0 +1,214 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.481819,
+          25.263647
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "1",
+        "village": "古庄里",
+        "name": "車新路路口(四棧橋41-44號)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47723930498023,
+          25.258704768867844
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "2",
+        "village": "錫板里",
+        "name": "錫板海尾14-26號(智成堂路口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.469704,
+          25.250933
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "3",
+        "village": "後厝里",
+        "name": "後厝派出所北勢子45-28號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.466316,
+          25.249634
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "4",
+        "village": "後厝里",
+        "name": "海都市餐廳北勢子47-17號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.458916,
+          25.244383
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "5",
+        "village": "後厝里",
+        "name": "大片頭85號(勤通金屬公司)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.458771,
+          25.243956
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "6",
+        "village": "後厝里",
+        "name": "大片頭83-5號(楊里長路口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.460571,
+          25.247377
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "7",
+        "village": "後厝里",
+        "name": "土地公坑9鄰73-24號(路口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.472389,
+          25.252802
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "8",
+        "village": "後厝里",
+        "name": "北勢子42-5號(佛朗明哥橋下)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.475204,
+          25.255625
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "9",
+        "village": "後厝里",
+        "name": "北勢子7號(往楊德路口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.477661,
+          25.25926
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "10",
+        "village": "錫板里",
+        "name": "錫板海尾14-5號(凱陽汽車)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.480713,
+          25.262959
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-252003",
+        "city": "new-taipei",
+        "lineid": "252003",
+        "linename": "海線下午",
+        "rank": "11",
+        "village": "錫板里",
+        "name": "錫板南勢崗5-5號(路口)"
+      }
+    }
+  ]
+}

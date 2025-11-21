@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56743,
+          25.04499
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-7a2e12-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-1",
+        "car_seq": "第1車",
+        "arrival_time": "1800",
+        "leave_time": "1810",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "KEA-1695",
+        "route_code": "108-G18",
+        "stop_name": "臺北市信義區基隆路1段101巷2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56741,
+          25.04348
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-7a2e12-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-1",
+        "car_seq": "第1車",
+        "arrival_time": "1815",
+        "leave_time": "1845",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "KEA-1695",
+        "route_code": "108-G18",
+        "stop_name": "臺北市信義區松隆路36號全聯社前"
+      }
+    }
+  ]
+}

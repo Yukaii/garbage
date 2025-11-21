@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53831,
+          25.03546
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c69df3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-2",
+        "car_seq": "第2車",
+        "arrival_time": "2050",
+        "leave_time": "2105",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "AAB-285",
+        "route_code": "104-092",
+        "stop_name": "臺北市大安區建國南路1段299號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53827,
+          25.03623
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c69df3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-2",
+        "car_seq": "第2車",
+        "arrival_time": "2106",
+        "leave_time": "2116",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "AAB-285",
+        "route_code": "104-092",
+        "stop_name": "臺北市大安區建國南路1段283號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53682,
+          25.03759
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c69df3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-2",
+        "car_seq": "第2車",
+        "arrival_time": "2118",
+        "leave_time": "2121",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "AAB-285",
+        "route_code": "104-092",
+        "stop_name": "臺北市大安區仁愛路3段32號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53572,
+          25.03757
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c69df3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-2",
+        "car_seq": "第2車",
+        "arrival_time": "2122",
+        "leave_time": "2126",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "AAB-285",
+        "route_code": "104-092",
+        "stop_name": "臺北市大安區仁愛路3段26號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53451,
+          25.03519
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c69df3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-2",
+        "car_seq": "第2車",
+        "arrival_time": "2131",
+        "leave_time": "2148",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "AAB-285",
+        "route_code": "104-092",
+        "stop_name": "臺北市大安區信義路3段31巷16號（民榮公園旁）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53463,
+          25.03378
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c69df3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-2",
+        "car_seq": "第2車",
+        "arrival_time": "2150",
+        "leave_time": "2157",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "AAB-285",
+        "route_code": "104-092",
+        "stop_name": "臺北市大安區信義路3段29號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53714,
+          25.03371
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-c69df3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "新生-2",
+        "car_seq": "第2車",
+        "arrival_time": "2158",
+        "leave_time": "2210",
+        "district": "大安區",
+        "team": "新生分隊",
+        "car_no": "AAB-285",
+        "route_code": "104-092",
+        "stop_name": "臺北市大安區信義路3段75號"
+      }
+    }
+  ]
+}

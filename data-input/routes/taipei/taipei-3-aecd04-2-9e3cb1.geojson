@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57487,
+          25.0358
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-aecd04-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "三張犁-3",
+        "car_seq": "第2車",
+        "arrival_time": "2030",
+        "leave_time": "2045",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "118-BQ",
+        "route_code": "100-035",
+        "stop_name": "臺北市信義區松德路171號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57655,
+          25.03897
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-aecd04-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "三張犁-3",
+        "car_seq": "第2車",
+        "arrival_time": "2047",
+        "leave_time": "2100",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "118-BQ",
+        "route_code": "100-035",
+        "stop_name": "臺北市信義區松德路46號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57258,
+          25.04078
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-aecd04-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "三張犁-3",
+        "car_seq": "第2車",
+        "arrival_time": "2105",
+        "leave_time": "2120",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "118-BQ",
+        "route_code": "100-035",
+        "stop_name": "臺北市信義區忠孝東路5段248號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57535,
+          25.0407
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-aecd04-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "三張犁-3",
+        "car_seq": "第2車",
+        "arrival_time": "2125",
+        "leave_time": "2130",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "118-BQ",
+        "route_code": "100-035",
+        "stop_name": "臺北市信義區忠孝東路5段420號"
+      }
+    }
+  ]
+}

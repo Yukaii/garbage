@@ -1,0 +1,613 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5156964,
+          25.01476577
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "1",
+        "village": "上溪里",
+        "name": "永和路二段文化路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5155227,
+          25.01411927
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "2",
+        "village": "上溪里",
+        "name": "永和路二段217號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5153488,
+          25.01339327
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "3",
+        "village": "上溪里",
+        "name": "仁愛路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51516,
+          25.012741
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "4",
+        "village": "後溪里",
+        "name": "永和路二段157巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514915,
+          25.011871
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "5",
+        "village": "上溪里",
+        "name": "信義路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.513892388885,
+          25.0105158420163
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "6",
+        "village": "信義里",
+        "name": "中山路一段18巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51162,
+          25.010756
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "7",
+        "village": "信義里",
+        "name": "中山路一段98巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510506,
+          25.009987
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "8",
+        "village": "中溪里",
+        "name": "中山路一段128巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.509956,
+          25.009558
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "9",
+        "village": "保安里",
+        "name": "中山路一段永平路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.509117,
+          25.008883
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "10",
+        "village": "保安里",
+        "name": "中山路一段184巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508667,
+          25.00853
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "11",
+        "village": "保安里",
+        "name": "中山路一段210號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508247,
+          25.008186
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "12",
+        "village": "保安里",
+        "name": "中山路一段222號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5061637,
+          25.0065548
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "13",
+        "village": "保安里",
+        "name": "中山路一段328巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5059093,
+          25.00631925
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "14",
+        "village": "保安里",
+        "name": "中山路一段338號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5056815,
+          25.00611328
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "15",
+        "village": "保安里",
+        "name": "中山路一段346號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.505834,
+          25.00603828
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "16",
+        "village": "保平里",
+        "name": "中山路一段341號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5064691,
+          25.00655398
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "17",
+        "village": "保平里",
+        "name": "中山路一段309號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5076472,
+          25.00755108
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "18",
+        "village": "保平里",
+        "name": "中山路一段255巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5099667,
+          25.00945348
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "19",
+        "village": "和平里",
+        "name": "中山路一段153號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510602559524,
+          25.009928662963
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "20",
+        "village": "和平里",
+        "name": "中山路一段131號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512242272491,
+          25.0107171088886
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "21",
+        "village": "前溪里",
+        "name": "中山路一段79號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.513409591262,
+          25.0104672280301
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "22",
+        "village": "前溪里",
+        "name": "中山路一段29號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5130341,
+          25.00685065
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "23",
+        "village": "協和里",
+        "name": "永和路一段65巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512947,
+          25.006193
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "24",
+        "village": "水源里",
+        "name": "永和路一段37巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512993,
+          25.005102
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "25",
+        "village": "水源里",
+        "name": "水源街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5118779,
+          25.00365074
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "26",
+        "village": "水源里",
+        "name": "水源街21巷底"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5116045,
+          25.00329668
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "27",
+        "village": "安和里",
+        "name": "中和路547巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5102361,
+          25.00175911
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "28",
+        "village": "安和里",
+        "name": "中和路475巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5092406,
+          25.0006338
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "29",
+        "village": "雙和里",
+        "name": "中和路421巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5086998,
+          25.00007514
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "30",
+        "village": "雙和里",
+        "name": "中和路389巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5074151,
+          24.99966933
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "31",
+        "village": "雙和里",
+        "name": "中和路335巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.506775,
+          24.9996977
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234007",
+        "city": "new-taipei",
+        "lineid": "234007",
+        "linename": "四區晚12",
+        "rank": "32",
+        "village": "雙和里",
+        "name": "中和路313號"
+      }
+    }
+  ]
+}

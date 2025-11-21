@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54659,
+          25.08049
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第2車",
+        "arrival_time": "2100",
+        "leave_time": "2130",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區大直街2號(大直國小前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54503,
+          25.08354
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第2車",
+        "arrival_time": "2132",
+        "leave_time": "2140",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區大直街62巷5弄5號(實踐大學大門口旁)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54636,
+          25.08357
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第2車",
+        "arrival_time": "2141",
+        "leave_time": "2156",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區大直街65號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54884,
+          25.08419
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第2車",
+        "arrival_time": "2157",
+        "leave_time": "2200",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區大直街129號前"
+      }
+    }
+  ]
+}

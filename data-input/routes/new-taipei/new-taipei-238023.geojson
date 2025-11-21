@@ -1,0 +1,879 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.405934038028,
+          25.016299808849
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "1",
+        "village": "三福里",
+        "name": "三福街(三多國小門前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.405327515955,
+          25.016275490933
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "2",
+        "village": "三福里",
+        "name": "三福街58號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.404878177909,
+          25.016260187105
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "3",
+        "village": "三福里",
+        "name": "三福街(三多派出所旁)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.404288317791,
+          25.017009456673
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "4",
+        "village": "三興里",
+        "name": "福興街8號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.404078,
+          25.016683
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "5",
+        "village": "三福里",
+        "name": "龍興街13巷19號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.403380626983,
+          25.016480185188
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "6",
+        "village": "三福里",
+        "name": "龍興街13巷14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.40248089757,
+          25.016137181172
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "7",
+        "village": "三興里",
+        "name": "龍興街14巷7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.401700562871,
+          25.015692335672
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "8",
+        "village": "三興里",
+        "name": "龍興街14巷29號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4018044082,
+          25.015469808746
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "9",
+        "village": "三興里",
+        "name": "龍興街32巷30號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.40298053344,
+          25.015895026194
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "10",
+        "village": "三興里",
+        "name": "龍興街32巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.403625883432,
+          25.016080440586
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "11",
+        "village": "三興里",
+        "name": "龍興街31巷21號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.403946163483,
+          25.015325531142
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "12",
+        "village": "三興里",
+        "name": "龍興街59巷11號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.403103719949,
+          25.015555076498
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "13",
+        "village": "三興里",
+        "name": "龍興街46巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.402181,
+          25.015229
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "14",
+        "village": "三興里",
+        "name": "龍興街46巷20號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.406626367476,
+          25.015583643739
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "15",
+        "village": "三福里",
+        "name": "三寶街17號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.40739067915,
+          25.0155043541
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "16",
+        "village": "三福里",
+        "name": "三福街67巷21號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.407908816261,
+          25.0159034646
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "17",
+        "village": "三福里",
+        "name": "三福街67巷7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.407729329447,
+          25.015350846985
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "18",
+        "village": "三福里",
+        "name": "三福街47巷20號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.409576833746,
+          25.014903708164
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "19",
+        "village": "三福里",
+        "name": "忠義街6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.409581005539,
+          25.01435325359
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "20",
+        "village": "三福里",
+        "name": "忠義街(軍人公墓旁巷口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.409636058283,
+          25.015604303825
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "21",
+        "village": "三福里",
+        "name": "忠義街11號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.39918681011,
+          25.013884965539
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "22",
+        "village": "三興里",
+        "name": "工興街14巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.401565115326,
+          25.013261725409
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "23",
+        "village": "三興里",
+        "name": "工興街34巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.396823011656,
+          25.013128365919
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "24",
+        "village": "三興里",
+        "name": "大慶街160號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.396826029141,
+          25.013514301267
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "25",
+        "village": "三興里",
+        "name": "大慶街152號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.395995,
+          25.013613
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "26",
+        "village": "三興里",
+        "name": "大慶街102號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.396140335276,
+          25.013953165091
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "27",
+        "village": "三興里",
+        "name": "大慶街57號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.396563,
+          25.013953418695
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "28",
+        "village": "三興里",
+        "name": "大慶街49號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.397204970858,
+          25.01401443063
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "29",
+        "village": "三興里",
+        "name": "大慶街46號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.397075999999,
+          25.014379466506
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "30",
+        "village": "三興里",
+        "name": "大慶街40號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.395238122396,
+          25.014378928247
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "31",
+        "village": "三興里",
+        "name": "三興路50號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.393494623925,
+          25.01463656704
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "32",
+        "village": "三興里",
+        "name": "三興路62號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.392091766864,
+          25.014069251145
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "33",
+        "village": "三興里",
+        "name": "三興路87巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.393758358589,
+          25.014474976068
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "34",
+        "village": "三興里",
+        "name": "三興路51號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.394792011656,
+          25.014284674678
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "35",
+        "village": "三興里",
+        "name": "三興路33號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.409107,
+          25.016968
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "36",
+        "village": "三福里",
+        "name": "三福街2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.408653,
+          25.016786
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "37",
+        "village": "三福里",
+        "name": "三福街16巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.408396,
+          25.016706
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "38",
+        "village": "三福里",
+        "name": "三福街26巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.40789621565,
+          25.016520973858
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "39",
+        "village": "三福里",
+        "name": "三福街42巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.404668740492,
+          25.015964963849
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "40",
+        "village": "三福里",
+        "name": "三福街127巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.405547629753,
+          25.015992440566
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "41",
+        "village": "三福里",
+        "name": "三福街123巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.405982583126,
+          25.016008581464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "42",
+        "village": "三福里",
+        "name": "三福街121巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.406006757977,
+          25.015753535423
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "43",
+        "village": "三福里",
+        "name": "三福街121巷8號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.406335,
+          25.015434
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "44",
+        "village": "三福里",
+        "name": "三寶街14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42215167,
+          25.00445629
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "45",
+        "village": "圳民里",
+        "name": "中正路253巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42398846627,
+          25.002411435597
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238023",
+        "city": "new-taipei",
+        "lineid": "238023",
+        "linename": "路線10晚上",
+        "rank": "46",
+        "village": "圳民里",
+        "name": "中正路161號"
+      }
+    }
+  ]
+}

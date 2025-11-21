@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.563,
+          25.0416
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a904d9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "三張犁-2",
+        "car_seq": "第2車",
+        "arrival_time": "2100",
+        "leave_time": "2125",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "058-BV",
+        "route_code": "101-045",
+        "stop_name": "臺北市信義區忠孝東路4段556號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56293,
+          25.04437
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a904d9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "三張犁-2",
+        "car_seq": "第2車",
+        "arrival_time": "2130",
+        "leave_time": "2150",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "058-BV",
+        "route_code": "101-045",
+        "stop_name": "臺北市信義區忠孝東路4段553巷48號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56405,
+          25.04159
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a904d9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "三張犁-2",
+        "car_seq": "第2車",
+        "arrival_time": "2155",
+        "leave_time": "2200",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "058-BV",
+        "route_code": "101-045",
+        "stop_name": "臺北市信義區忠孝東路4段563號"
+      }
+    }
+  ]
+}

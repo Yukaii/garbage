@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54354,
+          25.02574
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4ce228-1-ebe684",
+        "city": "taipei",
+        "route_name": "臥龍-2",
+        "car_seq": "第1車",
+        "arrival_time": "1750",
+        "leave_time": "1800",
+        "district": "大安區",
+        "team": "臥龍分隊",
+        "car_no": "KEA-1678",
+        "route_code": "108-G04",
+        "stop_name": "臺北市大安區復興南路2段237號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54356,
+          25.02738
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4ce228-1-ebe684",
+        "city": "taipei",
+        "route_name": "臥龍-2",
+        "car_seq": "第1車",
+        "arrival_time": "1802",
+        "leave_time": "1807",
+        "district": "大安區",
+        "team": "臥龍分隊",
+        "car_no": "KEA-1678",
+        "route_code": "108-G04",
+        "stop_name": "臺北市大安區復興南路2段175號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54534,
+          25.02823
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4ce228-1-ebe684",
+        "city": "taipei",
+        "route_name": "臥龍-2",
+        "car_seq": "第1車",
+        "arrival_time": "1810",
+        "leave_time": "1825",
+        "district": "大安區",
+        "team": "臥龍分隊",
+        "car_no": "KEA-1678",
+        "route_code": "108-G04",
+        "stop_name": "臺北市大安區復興南路2段151巷30弄1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54519,
+          25.02637
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-4ce228-1-ebe684",
+        "city": "taipei",
+        "route_name": "臥龍-2",
+        "car_seq": "第1車",
+        "arrival_time": "1835",
+        "leave_time": "1920",
+        "district": "大安區",
+        "team": "臥龍分隊",
+        "car_no": "KEA-1678",
+        "route_code": "108-G04",
+        "stop_name": "臺北市大安區和平東路2段311巷50號前"
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53907,
+          25.06826
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-bf33f4-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-1",
+        "car_seq": "第1車",
+        "arrival_time": "1645",
+        "leave_time": "1653",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEG-1116",
+        "route_code": "109-G05",
+        "stop_name": "臺北市中山區民族東路125號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53637,
+          25.06828
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-bf33f4-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-1",
+        "car_seq": "第1車",
+        "arrival_time": "1654",
+        "leave_time": "1700",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEG-1116",
+        "route_code": "109-G05",
+        "stop_name": "臺北市中山區民族東路95號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53367,
+          25.06995
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-bf33f4-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-1",
+        "car_seq": "第1車",
+        "arrival_time": "1702",
+        "leave_time": "1704",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEG-1116",
+        "route_code": "109-G05",
+        "stop_name": "臺北市中山區松江路579號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53684,
+          25.07251
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-bf33f4-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-1",
+        "car_seq": "第1車",
+        "arrival_time": "1705",
+        "leave_time": "1714",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEG-1116",
+        "route_code": "109-G05",
+        "stop_name": "臺北市中山區濱江街152號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54071,
+          25.0723
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-bf33f4-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-1",
+        "car_seq": "第1車",
+        "arrival_time": "1715",
+        "leave_time": "1718",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEG-1116",
+        "route_code": "109-G05",
+        "stop_name": "臺北市中山區濱江街228號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54298,
+          25.07222
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-bf33f4-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-1",
+        "car_seq": "第1車",
+        "arrival_time": "1720",
+        "leave_time": "1724",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEG-1116",
+        "route_code": "109-G05",
+        "stop_name": "臺北市中山區濱江街262號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54972,
+          25.07199
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-bf33f4-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-1",
+        "car_seq": "第1車",
+        "arrival_time": "1725",
+        "leave_time": "1728",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEG-1116",
+        "route_code": "109-G05",
+        "stop_name": "臺北市中山區濱江街358號前"
+      }
+    }
+  ]
+}

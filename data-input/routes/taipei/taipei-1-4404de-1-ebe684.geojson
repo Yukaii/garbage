@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51548,
+          25.08939
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-4404de-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-1",
+        "car_seq": "第1車",
+        "arrival_time": "1630",
+        "leave_time": "1658",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "650-BS",
+        "route_code": "101-038",
+        "stop_name": "臺北市士林區大南路與通河東街1段口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51778,
+          25.08891
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-4404de-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-1",
+        "car_seq": "第1車",
+        "arrival_time": "1659",
+        "leave_time": "1703",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "650-BS",
+        "route_code": "101-038",
+        "stop_name": "臺北市士林區大南路323號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51783,
+          25.08752
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-4404de-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-1",
+        "car_seq": "第1車",
+        "arrival_time": "1704",
+        "leave_time": "1713",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "650-BS",
+        "route_code": "101-038",
+        "stop_name": "臺北市士林區福港街152號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51755,
+          25.08554
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-4404de-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-1",
+        "car_seq": "第1車",
+        "arrival_time": "1714",
+        "leave_time": "1722",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "650-BS",
+        "route_code": "101-038",
+        "stop_name": "臺北市士林區福港街218號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51962,
+          25.08687
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-4404de-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-1",
+        "car_seq": "第1車",
+        "arrival_time": "1723",
+        "leave_time": "1728",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "650-BS",
+        "route_code": "101-038",
+        "stop_name": "臺北市士林區華齡街168號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52131,
+          25.08678
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-4404de-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-1",
+        "car_seq": "第1車",
+        "arrival_time": "1729",
+        "leave_time": "1733",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "650-BS",
+        "route_code": "101-038",
+        "stop_name": "臺北市士林區後港街134巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52129,
+          25.0848
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-4404de-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-1",
+        "car_seq": "第1車",
+        "arrival_time": "1734",
+        "leave_time": "1738",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "650-BS",
+        "route_code": "101-038",
+        "stop_name": "臺北市士林區前港街與後港街口(前港街16號前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52277,
+          25.08409
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-4404de-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-1",
+        "car_seq": "第1車",
+        "arrival_time": "1739",
+        "leave_time": "1748",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "650-BS",
+        "route_code": "101-038",
+        "stop_name": "臺北市士林區後港街與劍潭路口"
+      }
+    }
+  ]
+}

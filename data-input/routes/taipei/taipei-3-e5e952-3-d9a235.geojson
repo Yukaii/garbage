@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53241,
+          25.10437
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e5e952-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-3",
+        "car_seq": "第3車",
+        "arrival_time": "2040",
+        "leave_time": "2110",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "233-BV",
+        "route_code": "102-061",
+        "stop_name": "臺北市士林區陽明醫院對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52462,
+          25.10089
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e5e952-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-3",
+        "car_seq": "第3車",
+        "arrival_time": "2120",
+        "leave_time": "2125",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "233-BV",
+        "route_code": "102-061",
+        "stop_name": "臺北市士林區福國路15巷31號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52382,
+          25.1021
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e5e952-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-3",
+        "car_seq": "第3車",
+        "arrival_time": "2127",
+        "leave_time": "2132",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "233-BV",
+        "route_code": "102-061",
+        "stop_name": "臺北市士林區福國路48號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52277,
+          25.10298
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e5e952-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-3",
+        "car_seq": "第3車",
+        "arrival_time": "2133",
+        "leave_time": "2138",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "233-BV",
+        "route_code": "102-061",
+        "stop_name": "臺北市士林區福華路130號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52262,
+          25.10391
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e5e952-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-3",
+        "car_seq": "第3車",
+        "arrival_time": "2139",
+        "leave_time": "2144",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "233-BV",
+        "route_code": "102-061",
+        "stop_name": "臺北市士林區福華路160號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52254,
+          25.10431
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e5e952-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-3",
+        "car_seq": "第3車",
+        "arrival_time": "2145",
+        "leave_time": "2150",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "233-BV",
+        "route_code": "102-061",
+        "stop_name": "臺北市士林區福華路164-1號"
+      }
+    }
+  ]
+}

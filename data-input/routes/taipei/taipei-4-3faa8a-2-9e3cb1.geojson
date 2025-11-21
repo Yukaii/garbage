@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56352,
+          25.01288
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-3faa8a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-4",
+        "car_seq": "第2車",
+        "arrival_time": "1945",
+        "leave_time": "1948",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "443-BN",
+        "route_code": "96-S406",
+        "stop_name": "臺北市信義區和平東路3段641號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56678,
+          25.0121
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-3faa8a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-4",
+        "car_seq": "第2車",
+        "arrival_time": "1949",
+        "leave_time": "1954",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "443-BN",
+        "route_code": "96-S406",
+        "stop_name": "臺北市信義區和平東路3段631巷4-2號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56575,
+          25.01285
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-3faa8a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-4",
+        "car_seq": "第2車",
+        "arrival_time": "1955",
+        "leave_time": "2000",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "443-BN",
+        "route_code": "96-S406",
+        "stop_name": "臺北市信義區和平東路3段627巷41弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56495,
+          25.01444
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-3faa8a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-4",
+        "car_seq": "第2車",
+        "arrival_time": "2001",
+        "leave_time": "2004",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "443-BN",
+        "route_code": "96-S406",
+        "stop_name": "臺北市信義區和平東路3段627巷5弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56238,
+          25.01423
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-3faa8a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-4",
+        "car_seq": "第2車",
+        "arrival_time": "2006",
+        "leave_time": "2011",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "443-BN",
+        "route_code": "96-S406",
+        "stop_name": "臺北市信義區和平東路3段599號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56233,
+          25.01543
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-3faa8a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-4",
+        "car_seq": "第2車",
+        "arrival_time": "2012",
+        "leave_time": "2017",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "443-BN",
+        "route_code": "96-S406",
+        "stop_name": "臺北市信義區和平東路3段575巷11號前"
+      }
+    }
+  ]
+}

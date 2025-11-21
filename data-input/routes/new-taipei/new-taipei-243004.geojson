@@ -1,0 +1,575 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4341014,
+          25.05762491
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "1",
+        "village": "福興里",
+        "name": "福興三街(電信局)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43286142,
+          25.057070315512
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "2",
+        "village": "全興里",
+        "name": "福興三街160號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43218349570088,
+          25.0573351608775
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "3",
+        "village": "全興里",
+        "name": "即成道路(全聯社)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43132638,
+          25.057791747916
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "4",
+        "village": "同興里",
+        "name": "明志路一段373巷(群賢莊)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4299957,
+          25.05780056
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "5",
+        "village": "同榮里",
+        "name": "辭修路10號(忠孝新村)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4278545,
+          25.05840691
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "6",
+        "village": "同榮里",
+        "name": "辭修路36巷8弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43101354,
+          25.0568302318352
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "7",
+        "village": "同興里",
+        "name": "同義街1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43168209,
+          25.0561650773802
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "8",
+        "village": "同興里",
+        "name": "同義街30巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4324967,
+          25.05423665
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "9",
+        "village": "全興里",
+        "name": "仁武街102號（優仕園）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43243346,
+          25.0533798208734
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "10",
+        "village": "全興里",
+        "name": "左轉仁武街139巷9號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4327721,
+          25.05349524
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "11",
+        "village": "全興里",
+        "name": "仁義路220巷16號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4331205,
+          25.0538521
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "12",
+        "village": "全興里",
+        "name": "左轉仁義路187號（華納生活）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4314827,
+          25.05461137
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "13",
+        "village": "全興里",
+        "name": "仁愛路明志秀樹"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4307028,
+          25.0539787
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "14",
+        "village": "同興里",
+        "name": "仁愛路6巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4318817,
+          25.05833748
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "15",
+        "village": "同興里",
+        "name": "全興路18巷20號（晶華園）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43222634,
+          25.0589084697113
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "16",
+        "village": "同興里",
+        "name": "全興路18巷與全興路交叉口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4330636,
+          25.05776796
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "17",
+        "village": "全興里",
+        "name": "全興路與福興二街交叉口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4334471,
+          25.055089788973
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "18",
+        "village": "全興里",
+        "name": "仁愛路100巷內"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4336739,
+          25.0624562723235
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "19",
+        "village": "福泰里",
+        "name": "楓江路郵局"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4355867,
+          25.0615624779738
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "20",
+        "village": "楓樹里",
+        "name": "楓江路46巷內住家"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4374016718798,
+          25.0624748251864
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "21",
+        "village": "楓樹里",
+        "name": "楓江路86巷內住家"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43978012,
+          25.0650872994177
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "22",
+        "village": "楓樹里",
+        "name": "楓江路142號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4403989069329,
+          25.06630239025663
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "23",
+        "village": "楓樹里",
+        "name": "楓江路169號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4399256,
+          25.06521911
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "24",
+        "village": "楓樹里",
+        "name": "楓江路143巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4367945,
+          25.06349984
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "25",
+        "village": "楓樹里",
+        "name": "楓江路83巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43518011,
+          25.0636968567391
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "26",
+        "village": "楓樹里",
+        "name": "楓樹街內"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43460209,
+          25.0645636296066
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "27",
+        "village": "楓樹里",
+        "name": "和平街21巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43485422,
+          25.0635735522742
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "28",
+        "village": "楓樹里",
+        "name": "文化街22號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42763145,
+          25.0650514904492
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "29",
+        "village": "山腳里",
+        "name": "忠孝街16巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42755030919261,
+          25.0655033986305
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-243004",
+        "city": "new-taipei",
+        "lineid": "243004",
+        "linename": "路線4下午",
+        "rank": "30",
+        "village": "山腳里",
+        "name": "忠孝街19巷口"
+      }
+    }
+  ]
+}

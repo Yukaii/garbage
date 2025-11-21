@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56742,
+          25.05724
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-53a6f2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "上塔悠-2",
+        "car_seq": "第2車",
+        "arrival_time": "2030",
+        "leave_time": "2100",
+        "district": "松山區",
+        "team": "上塔悠分隊",
+        "car_no": "AAB-839",
+        "route_code": "105-G04",
+        "stop_name": "臺北市松山區延壽街35號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56897,
+          25.0585
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-53a6f2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "上塔悠-2",
+        "car_seq": "第2車",
+        "arrival_time": "2110",
+        "leave_time": "2150",
+        "district": "松山區",
+        "team": "上塔悠分隊",
+        "car_no": "AAB-839",
+        "route_code": "105-G04",
+        "stop_name": "臺北市松山區撫遠街266號(新東公園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5672,
+          25.06281
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-53a6f2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "上塔悠-2",
+        "car_seq": "第2車",
+        "arrival_time": "2155",
+        "leave_time": "2215",
+        "district": "松山區",
+        "team": "上塔悠分隊",
+        "car_no": "AAB-839",
+        "route_code": "105-G04",
+        "stop_name": "臺北市松山區富錦街581巷口"
+      }
+    }
+  ]
+}

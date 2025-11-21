@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46952487569938,
+          25.084597664328033
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247013",
+        "city": "new-taipei",
+        "lineid": "247013",
+        "linename": "路線7下午",
+        "rank": "1",
+        "village": "保和里",
+        "name": "中正路110號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47057147623481,
+          25.086514733906732
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247013",
+        "city": "new-taipei",
+        "lineid": "247013",
+        "linename": "路線7下午",
+        "rank": "2",
+        "village": "保和里",
+        "name": "保和街29號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.471498515956,
+          25.0868701556851
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247013",
+        "city": "new-taipei",
+        "lineid": "247013",
+        "linename": "路線7下午",
+        "rank": "3",
+        "village": "保和里",
+        "name": "三民路155號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.475543487102,
+          25.081637404191
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247013",
+        "city": "new-taipei",
+        "lineid": "247013",
+        "linename": "路線7下午",
+        "rank": "4",
+        "village": "溪墘里",
+        "name": "中山一路三角公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473157866235,
+          25.0810236963373
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247013",
+        "city": "new-taipei",
+        "lineid": "247013",
+        "linename": "路線7下午",
+        "rank": "5",
+        "village": "樹德里",
+        "name": "成功路70號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.470073434647,
+          25.0799618587376
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247013",
+        "city": "new-taipei",
+        "lineid": "247013",
+        "linename": "路線7下午",
+        "rank": "6",
+        "village": "得勝里",
+        "name": "中山二路243號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473252626695,
+          25.08239625123
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247013",
+        "city": "new-taipei",
+        "lineid": "247013",
+        "linename": "路線7下午",
+        "rank": "7",
+        "village": "仁復里",
+        "name": "中央路5號"
+      }
+    }
+  ]
+}

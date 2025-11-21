@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54617,
+          25.07976
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第1車",
+        "arrival_time": "1800",
+        "leave_time": "1810",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區北安路520號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54555,
+          25.07848
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第1車",
+        "arrival_time": "1815",
+        "leave_time": "1835",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區北安路458巷41弄16號前(大直市場)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54806,
+          25.07975
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第1車",
+        "arrival_time": "1837",
+        "leave_time": "1848",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區北安路538巷1弄1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54872,
+          25.08037
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第1車",
+        "arrival_time": "1850",
+        "leave_time": "1900",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區北安路578巷8弄9號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55027,
+          25.07947
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第1車",
+        "arrival_time": "1903",
+        "leave_time": "1920",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區北安路554巷8弄3號對面(永安國小東側面)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54877,
+          25.07806
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第1車",
+        "arrival_time": "1921",
+        "leave_time": "1927",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區明水路397巷7弄25號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54747,
+          25.07808
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-6dc937-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-3",
+        "car_seq": "第1車",
+        "arrival_time": "1928",
+        "leave_time": "1935",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "KEA-0858",
+        "route_code": "107-G05",
+        "stop_name": "臺北市中山區明水路397巷2弄6號前"
+      }
+    }
+  ]
+}

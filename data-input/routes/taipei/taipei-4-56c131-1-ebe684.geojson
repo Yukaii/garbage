@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5403,
+          24.9998
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-56c131-1-ebe684",
+        "city": "taipei",
+        "route_name": "景美-4",
+        "car_seq": "第1車",
+        "arrival_time": "1700",
+        "leave_time": "1705",
+        "district": "文山區",
+        "team": "景美分隊",
+        "car_no": "KES-7386",
+        "route_code": "112-G06",
+        "stop_name": "臺北市文山區景隆街12號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54003,
+          25.00134
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-56c131-1-ebe684",
+        "city": "taipei",
+        "route_name": "景美-4",
+        "car_seq": "第1車",
+        "arrival_time": "1711",
+        "leave_time": "1716",
+        "district": "文山區",
+        "team": "景美分隊",
+        "car_no": "KES-7386",
+        "route_code": "112-G06",
+        "stop_name": "臺北市文山區羅斯福路5段269巷11號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54005,
+          25.00187
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-56c131-1-ebe684",
+        "city": "taipei",
+        "route_name": "景美-4",
+        "car_seq": "第1車",
+        "arrival_time": "1717",
+        "leave_time": "1721",
+        "district": "文山區",
+        "team": "景美分隊",
+        "car_no": "KES-7386",
+        "route_code": "112-G06",
+        "stop_name": "臺北市文山區興隆路1段70巷5號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54127,
+          25.0023
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-56c131-1-ebe684",
+        "city": "taipei",
+        "route_name": "景美-4",
+        "car_seq": "第1車",
+        "arrival_time": "1722",
+        "leave_time": "1725",
+        "district": "文山區",
+        "team": "景美分隊",
+        "car_no": "KES-7386",
+        "route_code": "112-G06",
+        "stop_name": "臺北市文山區興隆路1段102巷15號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54139,
+          25.00204
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-56c131-1-ebe684",
+        "city": "taipei",
+        "route_name": "景美-4",
+        "car_seq": "第1車",
+        "arrival_time": "1726",
+        "leave_time": "1728",
+        "district": "文山區",
+        "team": "景美分隊",
+        "car_no": "KES-7386",
+        "route_code": "112-G06",
+        "stop_name": "臺北市文山區景明街14巷4號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54082,
+          25.00147
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-56c131-1-ebe684",
+        "city": "taipei",
+        "route_name": "景美-4",
+        "car_seq": "第1車",
+        "arrival_time": "1729",
+        "leave_time": "1734",
+        "district": "文山區",
+        "team": "景美分隊",
+        "car_no": "KES-7386",
+        "route_code": "112-G06",
+        "stop_name": "臺北市文山區羅斯福路5段269巷30號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54147,
+          25.00076
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-56c131-1-ebe684",
+        "city": "taipei",
+        "route_name": "景美-4",
+        "car_seq": "第1車",
+        "arrival_time": "1735",
+        "leave_time": "1739",
+        "district": "文山區",
+        "team": "景美分隊",
+        "car_no": "KES-7386",
+        "route_code": "112-G06",
+        "stop_name": "臺北市文山區景明街11巷6弄14號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54246,
+          25.00055
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-56c131-1-ebe684",
+        "city": "taipei",
+        "route_name": "景美-4",
+        "car_seq": "第1車",
+        "arrival_time": "1740",
+        "leave_time": "1745",
+        "district": "文山區",
+        "team": "景美分隊",
+        "car_no": "KES-7386",
+        "route_code": "112-G06",
+        "stop_name": "臺北市文山區興隆路1段184巷11號旁"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57605,
+          25.08139
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-843a54-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-2",
+        "car_seq": "第1車",
+        "arrival_time": "1820",
+        "leave_time": "1850",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEG-1591",
+        "route_code": "109-GA12",
+        "stop_name": "臺北市內湖區內湖路1段629巷42號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57704,
+          25.07778
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-843a54-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-2",
+        "car_seq": "第1車",
+        "arrival_time": "1905",
+        "leave_time": "1935",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEG-1591",
+        "route_code": "109-GA12",
+        "stop_name": "臺北市內湖區港墘路127巷16弄2號"
+      }
+    }
+  ]
+}

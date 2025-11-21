@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53047,
+          25.06668
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第2車",
+        "arrival_time": "1930",
+        "leave_time": "1938",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區吉林路421號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53051,
+          25.06784
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第2車",
+        "arrival_time": "1939",
+        "leave_time": "1945",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區吉林路463號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53036,
+          25.06748
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第2車",
+        "arrival_time": "1946",
+        "leave_time": "1950",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區吉林路470號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53031,
+          25.06558
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第2車",
+        "arrival_time": "1951",
+        "leave_time": "2000",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區吉林路410號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53028,
+          25.06438
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第2車",
+        "arrival_time": "2001",
+        "leave_time": "2010",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區吉林路376號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53024,
+          25.0635
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第2車",
+        "arrival_time": "2011",
+        "leave_time": "2020",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區吉林路348號旁(新壽公園旁)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52599,
+          25.0269
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2a411f-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-3",
+        "car_seq": "第2車",
+        "arrival_time": "2015",
+        "leave_time": "2020",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "KEA-1676",
+        "route_code": "108-G02",
+        "stop_name": "臺北市大安區金山南路2段239號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52787,
+          25.03389
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2a411f-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-3",
+        "car_seq": "第2車",
+        "arrival_time": "2024",
+        "leave_time": "2029",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "KEA-1676",
+        "route_code": "108-G02",
+        "stop_name": "臺北市大安區信義路2段116號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52904,
+          25.03269
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2a411f-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-3",
+        "car_seq": "第2車",
+        "arrival_time": "2032",
+        "leave_time": "2040",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "KEA-1676",
+        "route_code": "108-G02",
+        "stop_name": "臺北市大安區金山南路2段31巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52861,
+          25.03058
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2a411f-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-3",
+        "car_seq": "第2車",
+        "arrival_time": "2042",
+        "leave_time": "2050",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "KEA-1676",
+        "route_code": "108-G02",
+        "stop_name": "臺北市大安區金華街 199 巷3弄8號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53062,
+          25.02977
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-2a411f-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-3",
+        "car_seq": "第2車",
+        "arrival_time": "2052",
+        "leave_time": "2100",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "KEA-1676",
+        "route_code": "108-G02",
+        "stop_name": "臺北市大安區金華街243巷口"
+      }
+    }
+  ]
+}

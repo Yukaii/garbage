@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50595,
+          25.10051
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-1-ebe684",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第1車",
+        "arrival_time": "1730",
+        "leave_time": "1739",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區福美路178號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50595,
+          25.10051
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-1-ebe684",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第1車",
+        "arrival_time": "1740",
+        "leave_time": "1749",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區福美路236號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50239,
+          25.10114
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-1-ebe684",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第1車",
+        "arrival_time": "1750",
+        "leave_time": "1753",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區洲美街196巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50156,
+          25.10159
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-1-ebe684",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第1車",
+        "arrival_time": "1753",
+        "leave_time": "1758",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區洲美街230巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50006,
+          25.103
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-1-ebe684",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第1車",
+        "arrival_time": "1758",
+        "leave_time": "1800",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區洲美街275號對面"
+      }
+    }
+  ]
+}

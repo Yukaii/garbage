@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56379,
+          25.05296
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-456591-1-ebe684",
+        "city": "taipei",
+        "route_name": "東社-2",
+        "car_seq": "第1車",
+        "arrival_time": "1725",
+        "leave_time": "1730",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "KEA-0297",
+        "route_code": "106-G07",
+        "stop_name": "臺北市松山區三民路3巷口(西松國小)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55635,
+          25.05168
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-456591-1-ebe684",
+        "city": "taipei",
+        "route_name": "東社-2",
+        "car_seq": "第1車",
+        "arrival_time": "1740",
+        "leave_time": "1755",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "KEA-0297",
+        "route_code": "106-G07",
+        "stop_name": "臺北市松山區南京東路4段179巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55356,
+          25.05177
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-456591-1-ebe684",
+        "city": "taipei",
+        "route_name": "東社-2",
+        "car_seq": "第1車",
+        "arrival_time": "1757",
+        "leave_time": "1810",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "KEA-0297",
+        "route_code": "106-G07",
+        "stop_name": "臺北市松山區南京東路4段75巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55101,
+          25.05184
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-456591-1-ebe684",
+        "city": "taipei",
+        "route_name": "東社-2",
+        "car_seq": "第1車",
+        "arrival_time": "1812",
+        "leave_time": "1825",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "KEA-0297",
+        "route_code": "106-G07",
+        "stop_name": "臺北市松山區南京東路4段53巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55908,
+          25.05377
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-456591-1-ebe684",
+        "city": "taipei",
+        "route_name": "東社-2",
+        "car_seq": "第1車",
+        "arrival_time": "1835",
+        "leave_time": "1855",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "KEA-0297",
+        "route_code": "106-G07",
+        "stop_name": "臺北市松山區健康路170號旁(長壽公園)"
+      }
+    }
+  ]
+}

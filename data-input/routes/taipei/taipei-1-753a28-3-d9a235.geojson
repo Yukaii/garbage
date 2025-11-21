@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58004,
+          25.05745
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-753a28-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-1",
+        "car_seq": "第3車",
+        "arrival_time": "2205",
+        "leave_time": "2208",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "829-BT",
+        "route_code": "103-080",
+        "stop_name": "臺北市內湖區行善路59巷40弄41號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.574808,
+          25.056127
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-753a28-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-1",
+        "car_seq": "第3車",
+        "arrival_time": "2212",
+        "leave_time": "2218",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "829-BT",
+        "route_code": "103-080",
+        "stop_name": "臺北市內湖區行善路9號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57781,
+          25.05765
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-753a28-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-1",
+        "car_seq": "第3車",
+        "arrival_time": "2219",
+        "leave_time": "2225",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "829-BT",
+        "route_code": "103-080",
+        "stop_name": "臺北市內湖區行善路55號"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51934,
+          25.05391
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-bd8678-3-d9a235",
+        "city": "taipei",
+        "route_name": "建成-3",
+        "car_seq": "第3車",
+        "arrival_time": "2045",
+        "leave_time": "2049",
+        "district": "大同區",
+        "team": "建成分隊",
+        "car_no": "302-TS",
+        "route_code": "96-S400",
+        "stop_name": "臺北市大同區赤峰街19號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51966,
+          25.05476
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-bd8678-3-d9a235",
+        "city": "taipei",
+        "route_name": "建成-3",
+        "car_seq": "第3車",
+        "arrival_time": "2050",
+        "leave_time": "2053",
+        "district": "大同區",
+        "team": "建成分隊",
+        "car_no": "302-TS",
+        "route_code": "96-S400",
+        "stop_name": "臺北市大同區赤峰街39號之2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51966,
+          25.05574
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-bd8678-3-d9a235",
+        "city": "taipei",
+        "route_name": "建成-3",
+        "car_seq": "第3車",
+        "arrival_time": "2054",
+        "leave_time": "2056",
+        "district": "大同區",
+        "team": "建成分隊",
+        "car_no": "302-TS",
+        "route_code": "96-S400",
+        "stop_name": "臺北市大同區赤峰街49巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51969,
+          25.05618
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-bd8678-3-d9a235",
+        "city": "taipei",
+        "route_name": "建成-3",
+        "car_seq": "第3車",
+        "arrival_time": "2057",
+        "leave_time": "2100",
+        "district": "大同區",
+        "team": "建成分隊",
+        "car_no": "302-TS",
+        "route_code": "96-S400",
+        "stop_name": "臺北市大同區赤峰街53巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51972,
+          25.05665
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-bd8678-3-d9a235",
+        "city": "taipei",
+        "route_name": "建成-3",
+        "car_seq": "第3車",
+        "arrival_time": "2101",
+        "leave_time": "2103",
+        "district": "大同區",
+        "team": "建成分隊",
+        "car_no": "302-TS",
+        "route_code": "96-S400",
+        "stop_name": "臺北市大同區赤峰街71巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51974,
+          25.05708
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-bd8678-3-d9a235",
+        "city": "taipei",
+        "route_name": "建成-3",
+        "car_seq": "第3車",
+        "arrival_time": "2104",
+        "leave_time": "2107",
+        "district": "大同區",
+        "team": "建成分隊",
+        "car_no": "302-TS",
+        "route_code": "96-S400",
+        "stop_name": "臺北市大同區赤峰街77巷口"
+      }
+    }
+  ]
+}

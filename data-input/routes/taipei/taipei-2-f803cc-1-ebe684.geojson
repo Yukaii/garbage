@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55157,
+          25.03265
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-1-ebe684",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第1車",
+        "arrival_time": "1700",
+        "leave_time": "1703",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區信義路4段186巷與文昌街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55256,
+          25.03215
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-1-ebe684",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第1車",
+        "arrival_time": "1705",
+        "leave_time": "1708",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區安和路2段21號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55547,
+          25.03292
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-1-ebe684",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第1車",
+        "arrival_time": "1710",
+        "leave_time": "1713",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區信義路4段374號加油站前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55727,
+          25.03272
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f803cc-1-ebe684",
+        "city": "taipei",
+        "route_name": "安和-2",
+        "car_seq": "第1車",
+        "arrival_time": "1715",
+        "leave_time": "1720",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "KEA-0302",
+        "route_code": "106-G12",
+        "stop_name": "臺北市大安區光復南路606號"
+      }
+    }
+  ]
+}

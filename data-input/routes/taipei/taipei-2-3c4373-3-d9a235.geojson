@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58026,
+          25.04557
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-3c4373-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-2",
+        "car_seq": "第3車",
+        "arrival_time": "2240",
+        "leave_time": "2250",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEJ-0051",
+        "route_code": "110-G04",
+        "stop_name": "臺北市信義區永吉路517號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57839,
+          25.04668
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-3c4373-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-2",
+        "car_seq": "第3車",
+        "arrival_time": "2252",
+        "leave_time": "2300",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEJ-0051",
+        "route_code": "110-G04",
+        "stop_name": "臺北市信義區永吉路443巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57928,
+          25.04808
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-3c4373-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-2",
+        "car_seq": "第3車",
+        "arrival_time": "2302",
+        "leave_time": "2317",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEJ-0051",
+        "route_code": "110-G04",
+        "stop_name": "臺北市信義區松隆路333號對面(中坡公園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57928,
+          25.04808
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-3c4373-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-2",
+        "car_seq": "第3車",
+        "arrival_time": "2318",
+        "leave_time": "2323",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEJ-0051",
+        "route_code": "110-G04",
+        "stop_name": "臺北市信義區中坡公園地下停車場前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57816,
+          25.04631
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-3c4373-3-d9a235",
+        "city": "taipei",
+        "route_name": "五分埔-2",
+        "car_seq": "第3車",
+        "arrival_time": "2325",
+        "leave_time": "2330",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEJ-0051",
+        "route_code": "110-G04",
+        "stop_name": "臺北市信義區松山路161巷口"
+      }
+    }
+  ]
+}

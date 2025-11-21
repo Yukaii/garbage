@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56002,
+          25.08507
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-db01d7-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-5",
+        "car_seq": "第1車",
+        "arrival_time": "1750",
+        "leave_time": "1800",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEU-5822",
+        "route_code": "113-G03",
+        "stop_name": "臺北市內湖區內湖路1段59號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56409,
+          25.08691
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-db01d7-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-5",
+        "car_seq": "第1車",
+        "arrival_time": "1830",
+        "leave_time": "1840",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEU-5822",
+        "route_code": "113-G03",
+        "stop_name": "臺北市內湖區文湖街81巷12號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56167,
+          25.08696
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-db01d7-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-5",
+        "car_seq": "第1車",
+        "arrival_time": "1845",
+        "leave_time": "1900",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEU-5822",
+        "route_code": "113-G03",
+        "stop_name": "臺北市內湖區內湖路1段91巷25弄15號之1對面"
+      }
+    }
+  ]
+}

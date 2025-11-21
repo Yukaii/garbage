@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5613,
+          25.0266
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3340f2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-3",
+        "car_seq": "第2車",
+        "arrival_time": "2115",
+        "leave_time": "2130",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "468-BL",
+        "route_code": "95-022",
+        "stop_name": "臺北市信義區吳興街220巷59弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56136,
+          25.02901
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3340f2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-3",
+        "car_seq": "第2車",
+        "arrival_time": "2135",
+        "leave_time": "2150",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "468-BL",
+        "route_code": "95-022",
+        "stop_name": "臺北市信義區吳興街156巷6號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56068,
+          25.0285
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3340f2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-3",
+        "car_seq": "第2車",
+        "arrival_time": "2155",
+        "leave_time": "2210",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "468-BL",
+        "route_code": "95-022",
+        "stop_name": "臺北市信義區吳興街156巷67號前"
+      }
+    }
+  ]
+}

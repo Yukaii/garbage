@@ -1,0 +1,974 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42840767638,
+          25.000855872971
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "1",
+        "village": "圳安里",
+        "name": "千歲街101號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.429138796006,
+          25.001763061076
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "2",
+        "village": "圳安里",
+        "name": "俊英街24號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.428136792659,
+          25.003979688891
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "3",
+        "village": "圳安里",
+        "name": "俊英街78之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.427417,
+          25.006916
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "4",
+        "village": "圳安里",
+        "name": "俊英街160巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.428113653067,
+          25.006619107591
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "5",
+        "village": "圳安里",
+        "name": "俊英街116巷29弄12號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.428938011656,
+          25.00648785762
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "6",
+        "village": "圳安里",
+        "name": "俊英街116巷41弄6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.426809,
+          25.007078
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "7",
+        "village": "圳安里",
+        "name": "俊英街166巷4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.426313,
+          25.007391
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "8",
+        "village": "圳安里",
+        "name": "俊寶路路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.424923,
+          25.009925
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "9",
+        "village": "圳安里",
+        "name": "俊英街218號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423904,
+          25.013066
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "10",
+        "village": "圳生里",
+        "name": "俊英街288號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42321828864,
+          25.014051920972
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "11",
+        "village": "圳生里",
+        "name": "三俊街285號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.421011238963,
+          25.015149653436
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "12",
+        "village": "圳生里",
+        "name": "三俊街235巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.420658373593,
+          25.018397741854
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "13",
+        "village": "圳生里",
+        "name": "三俊街199巷16號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.420492,
+          25.017798
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "14",
+        "village": "圳生里",
+        "name": "三俊街199巷35之4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.419921816261,
+          25.015590744297
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "15",
+        "village": "圳生里",
+        "name": "三俊街193號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.417972399676,
+          25.015833701476
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "16",
+        "village": "圳生里",
+        "name": "俊興街236號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.418718612268,
+          25.017135494871
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "17",
+        "village": "圳生里",
+        "name": "三俊街135巷48號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.418502160424,
+          25.017652152788
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "18",
+        "village": "圳生里",
+        "name": "俊興街296號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.418193,
+          25.018216
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "19",
+        "village": "三龍里",
+        "name": "三龍街133號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.417729970858,
+          25.018268517457
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "20",
+        "village": "三龍里",
+        "name": "三龍街119號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.415439577298,
+          25.018150659657
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "21",
+        "village": "三龍里",
+        "name": "三龍街79巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.414345568411,
+          25.017095416589
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "22",
+        "village": "三龍里",
+        "name": "三龍街94巷31號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.41451485429,
+          25.018610796933
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "23",
+        "village": "三龍里",
+        "name": "三龍街94巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.413355346932,
+          25.016940300927
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "24",
+        "village": "三龍里",
+        "name": "三俊街65巷40弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.412399912574,
+          25.01929222894
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "25",
+        "village": "三龍里",
+        "name": "三龍街6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.413458046627,
+          25.018933760295
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "26",
+        "village": "三龍里",
+        "name": "三龍街42巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.41499585706,
+          25.018588229044
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "27",
+        "village": "三龍里",
+        "name": "三龍街106巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.417861064112,
+          25.015534026223
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "28",
+        "village": "圳生里",
+        "name": "三俊街176號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.419340717179,
+          25.01327984678
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "29",
+        "village": "圳生里",
+        "name": "俊安街2之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.418528565641,
+          25.013369100413
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "30",
+        "village": "圳生里",
+        "name": "俊安街66巷4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.421121201223,
+          25.013553239147
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "31",
+        "village": "圳生里",
+        "name": "三俊街252巷27號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423098868717,
+          25.014077129257
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "32",
+        "village": "圳生里",
+        "name": "三俊街292巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423790658895,
+          25.012234191656
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "33",
+        "village": "圳民里",
+        "name": "俊英街155巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.422857577298,
+          25.011584088496
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "34",
+        "village": "圳民里",
+        "name": "俊英街155巷43弄11號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423387988343,
+          25.011852014708
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "35",
+        "village": "圳民里",
+        "name": "俊英街155巷9弄14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.424311556754,
+          25.011996784665
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "36",
+        "village": "圳民里",
+        "name": "俊英街145之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423978093254,
+          25.011409362799
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "37",
+        "village": "圳民里",
+        "name": "俊英街133巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423824664723,
+          25.01138698821
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "38",
+        "village": "圳民里",
+        "name": "俊英街133巷9號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423271329447,
+          25.010771191837
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "39",
+        "village": "圳安里",
+        "name": "俊英街125巷21號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423915994171,
+          25.010853091576
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "40",
+        "village": "圳安里",
+        "name": "俊英街125巷7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.424112693865,
+          25.010597085356
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "41",
+        "village": "圳安里",
+        "name": "俊英街123巷10號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423208367476,
+          25.010065489288
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "42",
+        "village": "圳安里",
+        "name": "俊英街121巷24號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.424724416873,
+          25.009758485917
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "43",
+        "village": "圳安里",
+        "name": "俊英街111巷1之4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.422497,
+          25.00939
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "44",
+        "village": "圳安里",
+        "name": "俊英街111巷10號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423540717179,
+          25.009408347195
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "45",
+        "village": "圳安里",
+        "name": "俊英街121巷53號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.425076061053,
+          25.009647300521
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "46",
+        "village": "圳安里",
+        "name": "俊英街105之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.427383297247,
+          25.005464661791
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "47",
+        "village": "圳安里",
+        "name": "俊英街81巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.429315176467,
+          25.00127288538
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "48",
+        "village": "圳福里",
+        "name": "千歲街111之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.428871,
+          25.001733
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "49",
+        "village": "圳福里",
+        "name": "俊英街11號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.429648,
+          25.00016
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "50",
+        "village": "圳福里",
+        "name": "俊英街5-7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.429798,
+          24.99969
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-238020",
+        "city": "new-taipei",
+        "lineid": "238020",
+        "linename": "路線7晚上",
+        "rank": "51",
+        "village": "圳福里",
+        "name": "俊英街3-1、2、3號"
+      }
+    }
+  ]
+}

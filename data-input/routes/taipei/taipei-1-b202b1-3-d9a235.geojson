@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49969,
+          25.02532
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b202b1-3-d9a235",
+        "city": "taipei",
+        "route_name": "東園-1",
+        "car_seq": "第3車",
+        "arrival_time": "2106",
+        "leave_time": "2112",
+        "district": "萬華區",
+        "team": "東園分隊",
+        "car_no": "KEA-1705",
+        "route_code": "108-G27",
+        "stop_name": "臺北市萬華區德昌街11號前(守望相助亭)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4988,
+          25.02509
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b202b1-3-d9a235",
+        "city": "taipei",
+        "route_name": "東園-1",
+        "car_seq": "第3車",
+        "arrival_time": "2113",
+        "leave_time": "2118",
+        "district": "萬華區",
+        "team": "東園分隊",
+        "car_no": "KEA-1705",
+        "route_code": "108-G27",
+        "stop_name": "臺北市萬華區德昌街42號前(慈安宮)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49809,
+          25.02482
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b202b1-3-d9a235",
+        "city": "taipei",
+        "route_name": "東園-1",
+        "car_seq": "第3車",
+        "arrival_time": "2119",
+        "leave_time": "2123",
+        "district": "萬華區",
+        "team": "東園分隊",
+        "car_no": "KEA-1705",
+        "route_code": "108-G27",
+        "stop_name": "臺北市萬華區德昌街76號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4958,
+          25.02052
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b202b1-3-d9a235",
+        "city": "taipei",
+        "route_name": "東園-1",
+        "car_seq": "第3車",
+        "arrival_time": "2126",
+        "leave_time": "2133",
+        "district": "萬華區",
+        "team": "東園分隊",
+        "car_no": "KEA-1705",
+        "route_code": "108-G27",
+        "stop_name": "臺北市萬華區萬大路486巷61號(東興市場)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.495,
+          25.01913
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b202b1-3-d9a235",
+        "city": "taipei",
+        "route_name": "東園-1",
+        "car_seq": "第3車",
+        "arrival_time": "2135",
+        "leave_time": "2140",
+        "district": "萬華區",
+        "team": "東園分隊",
+        "car_no": "KEA-1705",
+        "route_code": "108-G27",
+        "stop_name": "臺北市萬華區武成街56巷27號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49487,
+          25.01879
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b202b1-3-d9a235",
+        "city": "taipei",
+        "route_name": "東園-1",
+        "car_seq": "第3車",
+        "arrival_time": "2141",
+        "leave_time": "2146",
+        "district": "萬華區",
+        "team": "東園分隊",
+        "car_no": "KEA-1705",
+        "route_code": "108-G27",
+        "stop_name": "臺北市萬華區武成街61號"
+      }
+    }
+  ]
+}

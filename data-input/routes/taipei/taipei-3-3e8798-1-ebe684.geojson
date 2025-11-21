@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.537,
+          25.11332
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3e8798-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-3",
+        "car_seq": "第1車",
+        "arrival_time": "1630",
+        "leave_time": "1640",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "AAB-836",
+        "route_code": "105-G02",
+        "stop_name": "臺北市士林區士東路272號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53748,
+          25.11158
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3e8798-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-3",
+        "car_seq": "第1車",
+        "arrival_time": "1642",
+        "leave_time": "1655",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "AAB-836",
+        "route_code": "105-G02",
+        "stop_name": "臺北市士林區士東路286巷30號(芝山國小)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53898,
+          25.11626
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3e8798-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-3",
+        "car_seq": "第1車",
+        "arrival_time": "1658",
+        "leave_time": "1715",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "AAB-836",
+        "route_code": "105-G02",
+        "stop_name": "臺北市士林區天母轉運站"
+      }
+    }
+  ]
+}

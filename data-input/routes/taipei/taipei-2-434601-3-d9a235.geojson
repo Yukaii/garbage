@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51895,
+          25.0706
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-434601-3-d9a235",
+        "city": "taipei",
+        "route_name": "大龍-2",
+        "car_seq": "第3車",
+        "arrival_time": "2130",
+        "leave_time": "2134",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "KEJ-0039",
+        "route_code": "110-G02",
+        "stop_name": "臺北市大同區酒泉街37號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51846,
+          25.07148
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-434601-3-d9a235",
+        "city": "taipei",
+        "route_name": "大龍-2",
+        "car_seq": "第3車",
+        "arrival_time": "2135",
+        "leave_time": "2138",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "KEJ-0039",
+        "route_code": "110-G02",
+        "stop_name": "臺北市大同區承德路3段214巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51781,
+          25.07048
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-434601-3-d9a235",
+        "city": "taipei",
+        "route_name": "大龍-2",
+        "car_seq": "第3車",
+        "arrival_time": "2139",
+        "leave_time": "2142",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "KEJ-0039",
+        "route_code": "110-G02",
+        "stop_name": "臺北市大同區承德路3段208巷17號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51591,
+          25.07053
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-434601-3-d9a235",
+        "city": "taipei",
+        "route_name": "大龍-2",
+        "car_seq": "第3車",
+        "arrival_time": "2143",
+        "leave_time": "2153",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "KEJ-0039",
+        "route_code": "110-G02",
+        "stop_name": "臺北市大同區大龍街215巷口大龍公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51592,
+          25.06919
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-434601-3-d9a235",
+        "city": "taipei",
+        "route_name": "大龍-2",
+        "car_seq": "第3車",
+        "arrival_time": "2154",
+        "leave_time": "2158",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "KEJ-0039",
+        "route_code": "110-G02",
+        "stop_name": "臺北市大同區大龍街187巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51487,
+          25.07203
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-434601-3-d9a235",
+        "city": "taipei",
+        "route_name": "大龍-2",
+        "car_seq": "第3車",
+        "arrival_time": "2159",
+        "leave_time": "2205",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "KEJ-0039",
+        "route_code": "110-G02",
+        "stop_name": "臺北市大同區酒泉街78號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51666,
+          25.07196
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-434601-3-d9a235",
+        "city": "taipei",
+        "route_name": "大龍-2",
+        "car_seq": "第3車",
+        "arrival_time": "2206",
+        "leave_time": "2208",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "KEJ-0039",
+        "route_code": "110-G02",
+        "stop_name": "臺北市大同區酒泉街50巷口"
+      }
+    }
+  ]
+}

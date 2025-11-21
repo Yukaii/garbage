@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58822,
+          25.04111
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-32e00a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-1",
+        "car_seq": "第2車",
+        "arrival_time": "2033",
+        "leave_time": "2041",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEG-1131",
+        "route_code": "109-G14",
+        "stop_name": "臺北市南港區成福路165號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58732,
+          25.04211
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-32e00a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-1",
+        "car_seq": "第2車",
+        "arrival_time": "2042",
+        "leave_time": "2057",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEG-1131",
+        "route_code": "109-G14",
+        "stop_name": "臺北市南港區成福路121巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58678,
+          25.04315
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-32e00a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-1",
+        "car_seq": "第2車",
+        "arrival_time": "2059",
+        "leave_time": "2109",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEG-1131",
+        "route_code": "109-G14",
+        "stop_name": "臺北市南港區成福路81號對面公園旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58779,
+          25.04147
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-32e00a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-1",
+        "car_seq": "第2車",
+        "arrival_time": "2110",
+        "leave_time": "2120",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEG-1131",
+        "route_code": "109-G14",
+        "stop_name": "臺北市南港區成福路176號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58884,
+          25.04016
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-32e00a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-1",
+        "car_seq": "第2車",
+        "arrival_time": "2121",
+        "leave_time": "2131",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEG-1131",
+        "route_code": "109-G14",
+        "stop_name": "臺北市南港區成福路206巷2號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59015,
+          25.03884
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-32e00a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-1",
+        "car_seq": "第2車",
+        "arrival_time": "2132",
+        "leave_time": "2142",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEG-1131",
+        "route_code": "109-G14",
+        "stop_name": "臺北市南港區成福路253號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59056,
+          25.03773
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-32e00a-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "玉成-1",
+        "car_seq": "第2車",
+        "arrival_time": "2143",
+        "leave_time": "2150",
+        "district": "南港區",
+        "team": "玉成分隊",
+        "car_no": "KEG-1131",
+        "route_code": "109-G14",
+        "stop_name": "臺北市南港區成福路266號旁"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57352,
+          25.07397
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-0be62d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "內湖-3",
+        "car_seq": "第2車",
+        "arrival_time": "1730",
+        "leave_time": "1900",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "KEA-0867",
+        "route_code": "107-G13",
+        "stop_name": "臺北市內湖區港墘路221巷2號鄰舊宗路"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58355,
+          25.08968
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-0be62d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "內湖-3",
+        "car_seq": "第2車",
+        "arrival_time": "2005",
+        "leave_time": "2015",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "KEA-0867",
+        "route_code": "107-G13",
+        "stop_name": "臺北市內湖區內湖路3段326巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58486,
+          25.08839
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-0be62d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "內湖-3",
+        "car_seq": "第2車",
+        "arrival_time": "2020",
+        "leave_time": "2030",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "KEA-0867",
+        "route_code": "107-G13",
+        "stop_name": "臺北市內湖區內湖路3段329巷8號"
+      }
+    }
+  ]
+}

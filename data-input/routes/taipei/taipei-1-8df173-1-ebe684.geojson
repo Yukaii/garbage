@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55303,
+          25.03924
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-8df173-1-ebe684",
+        "city": "taipei",
+        "route_name": "敦化-1",
+        "car_seq": "第1車",
+        "arrival_time": "1720",
+        "leave_time": "1735",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "KEG-1115",
+        "route_code": "109-G04",
+        "stop_name": "臺北市大安區忠孝東路4段216巷39號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55308,
+          25.0398
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-8df173-1-ebe684",
+        "city": "taipei",
+        "route_name": "敦化-1",
+        "car_seq": "第1車",
+        "arrival_time": "1738",
+        "leave_time": "1743",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "KEG-1115",
+        "route_code": "109-G04",
+        "stop_name": "臺北市大安區忠孝東路4段216巷29號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55204,
+          25.04156
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-8df173-1-ebe684",
+        "city": "taipei",
+        "route_name": "敦化-1",
+        "car_seq": "第1車",
+        "arrival_time": "1750",
+        "leave_time": "1755",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "KEG-1115",
+        "route_code": "109-G04",
+        "stop_name": "臺北市大安區忠孝東路4段209號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54976,
+          25.04162
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-8df173-1-ebe684",
+        "city": "taipei",
+        "route_name": "敦化-1",
+        "car_seq": "第1車",
+        "arrival_time": "1758",
+        "leave_time": "1808",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "KEG-1115",
+        "route_code": "109-G04",
+        "stop_name": "臺北市大安區忠孝東路4段151號"
+      }
+    }
+  ]
+}

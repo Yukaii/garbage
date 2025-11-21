@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53202,
+          25.05606
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-20edf5-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-2",
+        "car_seq": "第3車",
+        "arrival_time": "2040",
+        "leave_time": "2050",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "KEG-1532",
+        "route_code": "109-GA01",
+        "stop_name": "臺北市中山區松江路170巷20號對面(中吉公園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53147,
+          25.05553
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-20edf5-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-2",
+        "car_seq": "第3車",
+        "arrival_time": "2051",
+        "leave_time": "2059",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "KEG-1532",
+        "route_code": "109-GA01",
+        "stop_name": "臺北市中山區長春路137巷6號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5314,
+          25.05392
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-20edf5-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-2",
+        "car_seq": "第3車",
+        "arrival_time": "2100",
+        "leave_time": "2119",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "KEG-1532",
+        "route_code": "109-GA01",
+        "stop_name": "臺北市中山區一江街42號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5302,
+          25.05386
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-20edf5-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-2",
+        "car_seq": "第3車",
+        "arrival_time": "2121",
+        "leave_time": "2125",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "KEG-1532",
+        "route_code": "109-GA01",
+        "stop_name": "臺北市中山區吉林路69號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53017,
+          25.05522
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-20edf5-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-2",
+        "car_seq": "第3車",
+        "arrival_time": "2126",
+        "leave_time": "2130",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "KEG-1532",
+        "route_code": "109-GA01",
+        "stop_name": "臺北市中山區吉林路79號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53015,
+          25.05703
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-20edf5-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-2",
+        "car_seq": "第3車",
+        "arrival_time": "2131",
+        "leave_time": "2140",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "KEG-1532",
+        "route_code": "109-GA01",
+        "stop_name": "臺北市中山區吉林路121號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53073,
+          25.05783
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-20edf5-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-2",
+        "car_seq": "第3車",
+        "arrival_time": "2141",
+        "leave_time": "2145",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "KEG-1532",
+        "route_code": "109-GA01",
+        "stop_name": "臺北市中山區民生東路2段92號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53195,
+          25.05764
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-20edf5-3-d9a235",
+        "city": "taipei",
+        "route_name": "南京-2",
+        "car_seq": "第3車",
+        "arrival_time": "2146",
+        "leave_time": "2150",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "KEG-1532",
+        "route_code": "109-GA01",
+        "stop_name": "臺北市中山區民生東路2段132號"
+      }
+    }
+  ]
+}

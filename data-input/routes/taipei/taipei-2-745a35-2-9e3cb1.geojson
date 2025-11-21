@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51959,
+          25.08217
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-745a35-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "後港-2",
+        "car_seq": "第2車",
+        "arrival_time": "1850",
+        "leave_time": "1910",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "230-BV",
+        "route_code": "102-058",
+        "stop_name": "臺北市士林區華齡街口(靠近2巷口公園邊)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51949,
+          25.08365
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-745a35-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "後港-2",
+        "car_seq": "第2車",
+        "arrival_time": "1911",
+        "leave_time": "1925",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "230-BV",
+        "route_code": "102-058",
+        "stop_name": "臺北市士林區華齡街38號"
+      }
+    }
+  ]
+}

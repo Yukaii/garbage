@@ -1,0 +1,100 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232016",
+        "city": "new-taipei",
+        "lineid": "232016",
+        "linename": "粗窟線4",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.68106,
+          24.918525
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232016",
+        "city": "new-taipei",
+        "lineid": "232016",
+        "linename": "粗窟線4",
+        "rank": "2",
+        "village": "粗窟里",
+        "name": "金瓜寮3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.682618,
+          24.917346
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232016",
+        "city": "new-taipei",
+        "lineid": "232016",
+        "linename": "粗窟線4",
+        "rank": "3",
+        "village": "粗窟里",
+        "name": "金瓜寮14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.679443,
+          24.910955
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232016",
+        "city": "new-taipei",
+        "lineid": "232016",
+        "linename": "粗窟線4",
+        "rank": "4",
+        "village": "粗窟里",
+        "name": "金瓜寮23號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.696898,
+          24.934878
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232016",
+        "city": "new-taipei",
+        "lineid": "232016",
+        "linename": "粗窟線4",
+        "rank": "5",
+        "village": "粗窟里",
+        "name": "北宜路7段338號"
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53886,
+          25.05761
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-1-ebe684",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第1車",
+        "arrival_time": "1700",
+        "leave_time": "1705",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區民生東路3段10號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54012,
+          25.05766
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-1-ebe684",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第1車",
+        "arrival_time": "1706",
+        "leave_time": "1711",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區民生東路3段36號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5421,
+          25.0577
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-1-ebe684",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第1車",
+        "arrival_time": "1712",
+        "leave_time": "1720",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區民生東路3段67號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54389,
+          25.05738
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-1-ebe684",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第1車",
+        "arrival_time": "1721",
+        "leave_time": "1730",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區復興北路234號(土地銀行前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54284,
+          25.05625
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-1-ebe684",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第1車",
+        "arrival_time": "1731",
+        "leave_time": "1745",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區興安街75號"
+      }
+    }
+  ]
+}

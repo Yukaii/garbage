@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55751,
+          25.0326
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-64f4c4-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-4",
+        "car_seq": "第1車",
+        "arrival_time": "1800",
+        "leave_time": "1810",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "KEG-1129",
+        "route_code": "109-G13",
+        "stop_name": "臺北市信義區光復南路487號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5577,
+          25.03691
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-64f4c4-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-4",
+        "car_seq": "第1車",
+        "arrival_time": "1815",
+        "leave_time": "1830",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "KEG-1129",
+        "route_code": "109-G13",
+        "stop_name": "臺北市信義區光復南路417號之8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5591,
+          25.037
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-64f4c4-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-4",
+        "car_seq": "第1車",
+        "arrival_time": "1835",
+        "leave_time": "1900",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "KEG-1129",
+        "route_code": "109-G13",
+        "stop_name": "臺北市信義區仁愛路4段452巷3號(正和里里民活動中心)"
+      }
+    }
+  ]
+}

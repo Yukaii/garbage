@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55969,
+          25.03463
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a904d9-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-2",
+        "car_seq": "第1車",
+        "arrival_time": "1800",
+        "leave_time": "1840",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "058-BV",
+        "route_code": "101-045",
+        "stop_name": "臺北市信義區基隆路1段380巷5號旁(中興公園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55816,
+          25.03093
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a904d9-1-ebe684",
+        "city": "taipei",
+        "route_name": "三張犁-2",
+        "car_seq": "第1車",
+        "arrival_time": "1845",
+        "leave_time": "1900",
+        "district": "信義區",
+        "team": "三張犁分隊",
+        "car_no": "058-BV",
+        "route_code": "101-045",
+        "stop_name": "臺北市信義區基隆路2段72號前"
+      }
+    }
+  ]
+}

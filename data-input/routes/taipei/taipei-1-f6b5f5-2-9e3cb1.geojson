@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57131,
+          25.08267
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6b5f5-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "西湖-1",
+        "car_seq": "第2車",
+        "arrival_time": "1950",
+        "leave_time": "2010",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEG-1121",
+        "route_code": "109-G09",
+        "stop_name": "臺北市內湖區內湖路1段411巷12號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56659,
+          25.08651
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-f6b5f5-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "西湖-1",
+        "car_seq": "第2車",
+        "arrival_time": "2015",
+        "leave_time": "2030",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEG-1121",
+        "route_code": "109-G09",
+        "stop_name": "臺北市內湖區環山路1段62號"
+      }
+    }
+  ]
+}

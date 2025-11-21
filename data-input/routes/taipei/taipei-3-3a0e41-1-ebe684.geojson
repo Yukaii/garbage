@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55483,
+          25.0603
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3a0e41-1-ebe684",
+        "city": "taipei",
+        "route_name": "東社-3",
+        "car_seq": "第1車",
+        "arrival_time": "1730",
+        "leave_time": "1745",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "KEA-1691",
+        "route_code": "108-G15",
+        "stop_name": "臺北市松山區光復北路與富錦街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55394,
+          25.05886
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3a0e41-1-ebe684",
+        "city": "taipei",
+        "route_name": "東社-3",
+        "car_seq": "第1車",
+        "arrival_time": "1750",
+        "leave_time": "1815",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "KEA-1691",
+        "route_code": "108-G15",
+        "stop_name": "臺北市松山區民生東路4段131巷3號斜對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55123,
+          25.06015
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3a0e41-1-ebe684",
+        "city": "taipei",
+        "route_name": "東社-3",
+        "car_seq": "第1車",
+        "arrival_time": "1820",
+        "leave_time": "1830",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "KEA-1691",
+        "route_code": "108-G15",
+        "stop_name": "臺北市松山區富錦街12巷8號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55212,
+          25.05659
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3a0e41-1-ebe684",
+        "city": "taipei",
+        "route_name": "東社-3",
+        "car_seq": "第1車",
+        "arrival_time": "1835",
+        "leave_time": "1845",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "KEA-1691",
+        "route_code": "108-G15",
+        "stop_name": "臺北市松山區敦化北路199巷19號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55575,
+          25.0558
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-3a0e41-1-ebe684",
+        "city": "taipei",
+        "route_name": "東社-3",
+        "car_seq": "第1車",
+        "arrival_time": "1850",
+        "leave_time": "1900",
+        "district": "松山區",
+        "team": "東社分隊",
+        "car_no": "KEA-1691",
+        "route_code": "108-G15",
+        "stop_name": "臺北市松山區光復北路161巷口"
+      }
+    }
+  ]
+}

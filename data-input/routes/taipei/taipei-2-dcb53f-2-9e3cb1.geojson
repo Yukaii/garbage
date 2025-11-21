@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52166,
+          25.05796
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dcb53f-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "圓山-2",
+        "car_seq": "第2車",
+        "arrival_time": "1900",
+        "leave_time": "1910",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "069-BV",
+        "route_code": "101-055",
+        "stop_name": "臺北市中山區民生西路7號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52086,
+          25.05953
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dcb53f-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "圓山-2",
+        "car_seq": "第2車",
+        "arrival_time": "1911",
+        "leave_time": "1916",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "069-BV",
+        "route_code": "101-055",
+        "stop_name": "臺北市中山區民生西路45巷39號前(巷口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52078,
+          25.06034
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dcb53f-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "圓山-2",
+        "car_seq": "第2車",
+        "arrival_time": "1920",
+        "leave_time": "1930",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "069-BV",
+        "route_code": "101-055",
+        "stop_name": "臺北市中山區錦西街34號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52174,
+          25.06038
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-dcb53f-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "圓山-2",
+        "car_seq": "第2車",
+        "arrival_time": "1935",
+        "leave_time": "1945",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "069-BV",
+        "route_code": "101-055",
+        "stop_name": "臺北市中山區錦西街7號前"
+      }
+    }
+  ]
+}

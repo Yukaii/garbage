@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52861,
+          25.12182
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-9d03c9-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-5",
+        "car_seq": "第1車",
+        "arrival_time": "1710",
+        "leave_time": "1716",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "KEA-0880",
+        "route_code": "107-G25",
+        "stop_name": "臺北市士林區中山北路7段81巷41弄7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53177,
+          25.12545
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-9d03c9-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-5",
+        "car_seq": "第1車",
+        "arrival_time": "1730",
+        "leave_time": "1738",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "KEA-0880",
+        "route_code": "107-G25",
+        "stop_name": "臺北市士林區中山北路7段191巷18號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53275,
+          25.12772
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-9d03c9-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-5",
+        "car_seq": "第1車",
+        "arrival_time": "1739",
+        "leave_time": "1744",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "KEA-0880",
+        "route_code": "107-G25",
+        "stop_name": "臺北市士林區中山北路7段227巷8號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53389,
+          25.12703
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-9d03c9-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-5",
+        "car_seq": "第1車",
+        "arrival_time": "1745",
+        "leave_time": "1750",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "KEA-0880",
+        "route_code": "107-G25",
+        "stop_name": "臺北市士林區中山北路7段232巷16號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53513,
+          25.12586
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-9d03c9-1-ebe684",
+        "city": "taipei",
+        "route_name": "天母-5",
+        "car_seq": "第1車",
+        "arrival_time": "1751",
+        "leave_time": "1756",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "KEA-0880",
+        "route_code": "107-G25",
+        "stop_name": "臺北市士林區中山北路7段190巷32號"
+      }
+    }
+  ]
+}

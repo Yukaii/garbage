@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232013",
+        "city": "new-taipei",
+        "lineid": "232013",
+        "linename": "粗窟線1",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.688869,
+          24.935527
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232013",
+        "city": "new-taipei",
+        "lineid": "232013",
+        "linename": "粗窟線1",
+        "rank": "2",
+        "village": "粗窟里",
+        "name": "北宜路7段225號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.682305,
+          24.937982
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232013",
+        "city": "new-taipei",
+        "lineid": "232013",
+        "linename": "粗窟線1",
+        "rank": "3",
+        "village": "粗窟里",
+        "name": "粗窟3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.677038,
+          24.93431
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232013",
+        "city": "new-taipei",
+        "lineid": "232013",
+        "linename": "粗窟線1",
+        "rank": "4",
+        "village": "粗窟里",
+        "name": "灣潭7-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.675258,
+          24.931967
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232013",
+        "city": "new-taipei",
+        "lineid": "232013",
+        "linename": "粗窟線1",
+        "rank": "5",
+        "village": "粗窟里",
+        "name": "灣潭8號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.696898,
+          24.934878
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232013",
+        "city": "new-taipei",
+        "lineid": "232013",
+        "linename": "粗窟線1",
+        "rank": "6",
+        "village": "粗窟里",
+        "name": "北宜路7段338號"
+      }
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50111,
+          25.04417
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-2d2286-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "武昌-1",
+        "car_seq": "第2車",
+        "arrival_time": "1855",
+        "leave_time": "1858",
+        "district": "萬華區",
+        "team": "武昌分隊",
+        "car_no": "KEA-0295",
+        "route_code": "106-G05",
+        "stop_name": "臺北市萬華區環河南路1段81號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50197,
+          25.04505
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-2d2286-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "武昌-1",
+        "car_seq": "第2車",
+        "arrival_time": "1859",
+        "leave_time": "1903",
+        "district": "萬華區",
+        "team": "武昌分隊",
+        "car_no": "KEA-0295",
+        "route_code": "106-G05",
+        "stop_name": "臺北市萬華區環河南路1段71號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50437,
+          25.04617
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-2d2286-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "武昌-1",
+        "car_seq": "第2車",
+        "arrival_time": "1905",
+        "leave_time": "1910",
+        "district": "萬華區",
+        "team": "武昌分隊",
+        "car_no": "KEA-0295",
+        "route_code": "106-G05",
+        "stop_name": "臺北市萬華區漢口街2段90號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50601,
+          25.04702
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-2d2286-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "武昌-1",
+        "car_seq": "第2車",
+        "arrival_time": "1913",
+        "leave_time": "1916",
+        "district": "萬華區",
+        "team": "武昌分隊",
+        "car_no": "KEA-0295",
+        "route_code": "106-G05",
+        "stop_name": "臺北市萬華區昆明街34號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50636,
+          25.04821
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-2d2286-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "武昌-1",
+        "car_seq": "第2車",
+        "arrival_time": "1917",
+        "leave_time": "1927",
+        "district": "萬華區",
+        "team": "武昌分隊",
+        "car_no": "KEA-0295",
+        "route_code": "106-G05",
+        "stop_name": "臺北市萬華區昆明街1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5075,
+          25.04599
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-2d2286-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "武昌-1",
+        "car_seq": "第2車",
+        "arrival_time": "1930",
+        "leave_time": "1935",
+        "district": "萬華區",
+        "team": "武昌分隊",
+        "car_no": "KEA-0295",
+        "route_code": "106-G05",
+        "stop_name": "臺北市萬華區西寧南路71巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5066,
+          25.04493
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-2d2286-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "武昌-1",
+        "car_seq": "第2車",
+        "arrival_time": "1936",
+        "leave_time": "1941",
+        "district": "萬華區",
+        "team": "武昌分隊",
+        "car_no": "KEA-0295",
+        "route_code": "106-G05",
+        "stop_name": "臺北市萬華區西寧南路119號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50637,
+          25.04382
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-2d2286-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "武昌-1",
+        "car_seq": "第2車",
+        "arrival_time": "1942",
+        "leave_time": "1946",
+        "district": "萬華區",
+        "team": "武昌分隊",
+        "car_no": "KEA-0295",
+        "route_code": "106-G05",
+        "stop_name": "臺北市萬華區西寧南路151號"
+      }
+    }
+  ]
+}

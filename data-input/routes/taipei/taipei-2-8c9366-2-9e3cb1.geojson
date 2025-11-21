@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53249,
+          25.02247
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-8c9366-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-2",
+        "car_seq": "第2車",
+        "arrival_time": "2020",
+        "leave_time": "2030",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-862",
+        "route_code": "105-G14",
+        "stop_name": "臺北市大安區辛亥路1段137號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52635,
+          25.02243
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-8c9366-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-2",
+        "car_seq": "第2車",
+        "arrival_time": "2035",
+        "leave_time": "2043",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-862",
+        "route_code": "105-G14",
+        "stop_name": "臺北市大安區羅斯福路3段105號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52475,
+          25.0238
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-8c9366-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-2",
+        "car_seq": "第2車",
+        "arrival_time": "2045",
+        "leave_time": "2055",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-862",
+        "route_code": "105-G14",
+        "stop_name": "臺北市大安區羅斯福路3段19號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52347,
+          25.02584
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-8c9366-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-2",
+        "car_seq": "第2車",
+        "arrival_time": "2057",
+        "leave_time": "2105",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-862",
+        "route_code": "105-G14",
+        "stop_name": "臺北市大安區羅斯福路2段79號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52342,
+          25.02694
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-8c9366-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-2",
+        "car_seq": "第2車",
+        "arrival_time": "2108",
+        "leave_time": "2113",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-862",
+        "route_code": "105-G14",
+        "stop_name": "臺北市大安區和平東路1段14號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52502,
+          25.02681
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-8c9366-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "和平-2",
+        "car_seq": "第2車",
+        "arrival_time": "2115",
+        "leave_time": "2120",
+        "district": "大安區",
+        "team": "和平分隊",
+        "car_no": "AAB-862",
+        "route_code": "105-G14",
+        "stop_name": "臺北市大安區和平東路1段104巷口"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53569,
+          25.01206
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b1a734-3-d9a235",
+        "city": "taipei",
+        "route_name": "公館-1",
+        "car_seq": "第3車",
+        "arrival_time": "2100",
+        "leave_time": "2104",
+        "district": "中正區",
+        "team": "公館分隊",
+        "car_no": "KEP-3619",
+        "route_code": "111-G20",
+        "stop_name": "臺北市中正區汀州路3段291號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53435,
+          25.01367
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b1a734-3-d9a235",
+        "city": "taipei",
+        "route_name": "公館-1",
+        "car_seq": "第3車",
+        "arrival_time": "2105",
+        "leave_time": "2109",
+        "district": "中正區",
+        "team": "公館分隊",
+        "car_no": "KEP-3619",
+        "route_code": "111-G20",
+        "stop_name": "臺北市中正區汀州路3段249號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53328,
+          25.01452
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b1a734-3-d9a235",
+        "city": "taipei",
+        "route_name": "公館-1",
+        "car_seq": "第3車",
+        "arrival_time": "2110",
+        "leave_time": "2114",
+        "district": "中正區",
+        "team": "公館分隊",
+        "car_no": "KEP-3619",
+        "route_code": "111-G20",
+        "stop_name": "臺北市中正區汀州路3段199之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53253,
+          25.0151
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b1a734-3-d9a235",
+        "city": "taipei",
+        "route_name": "公館-1",
+        "car_seq": "第3車",
+        "arrival_time": "2115",
+        "leave_time": "2120",
+        "district": "中正區",
+        "team": "公館分隊",
+        "car_no": "KEP-3619",
+        "route_code": "111-G20",
+        "stop_name": "臺北市中正區汀州路3段173號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53452,
+          25.01337
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b1a734-3-d9a235",
+        "city": "taipei",
+        "route_name": "公館-1",
+        "car_seq": "第3車",
+        "arrival_time": "2121",
+        "leave_time": "2123",
+        "district": "中正區",
+        "team": "公館分隊",
+        "car_no": "KEP-3619",
+        "route_code": "111-G20",
+        "stop_name": "臺北市中正區汀州路3段162號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53522,
+          25.01247
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b1a734-3-d9a235",
+        "city": "taipei",
+        "route_name": "公館-1",
+        "car_seq": "第3車",
+        "arrival_time": "2124",
+        "leave_time": "2126",
+        "district": "中正區",
+        "team": "公館分隊",
+        "car_no": "KEP-3619",
+        "route_code": "111-G20",
+        "stop_name": "臺北市中正區汀州路3段194號前"
+      }
+    }
+  ]
+}

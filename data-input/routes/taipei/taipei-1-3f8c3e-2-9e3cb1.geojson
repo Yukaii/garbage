@@ -1,0 +1,580 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52708,
+          25.14253
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2035",
+        "leave_time": "2036",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區第一公墓"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50638,
+          25.14085
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2040",
+        "leave_time": "2042",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區泉源路39之39號(回收車)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52127,
+          25.14373
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2044",
+        "leave_time": "2045",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區東昇路3號青濂橋(回收車)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53075,
+          25.14816
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2054",
+        "leave_time": "2055",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區泉源路242號龍鳳谷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53371,
+          25.1486
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2057",
+        "leave_time": "2059",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區紗帽路14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54859,
+          25.14839
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2101",
+        "leave_time": "2102",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區紗帽路111號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54836,
+          25.14923
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2103",
+        "leave_time": "2104",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區紗帽路117號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54738,
+          25.15064
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2105",
+        "leave_time": "2106",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區紗帽路140號(養老院)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5465,
+          25.15176
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2107",
+        "leave_time": "2108",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區勝利街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5473,
+          25.15238
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2109",
+        "leave_time": "2110",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區湖山路1段11巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5495,
+          25.14966
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2111",
+        "leave_time": "2112",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區陽明路1段67號(回收車)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54913,
+          25.1468
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2112",
+        "leave_time": "2113",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區陽明路1段15之1號(回收車)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54734,
+          25.1524
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2114",
+        "leave_time": "2115",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區湖山路1段17號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53276,
+          25.16064
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2116",
+        "leave_time": "2117",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區東昇路201號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5302,
+          25.1563
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2118",
+        "leave_time": "2120",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區東昇路80-89號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5254,
+          25.15051
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2121",
+        "leave_time": "2122",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區東昇路47號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52455,
+          25.14938
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2122",
+        "leave_time": "2123",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區東昇路41號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52296,
+          25.15045
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2123",
+        "leave_time": "2124",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區東昇路33號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52292,
+          25.14585
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2125",
+        "leave_time": "2127",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區大同之家"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5279,
+          25.13825
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2155",
+        "leave_time": "2156",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區行義路301巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5282,
+          25.13147
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2157",
+        "leave_time": "2159",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區行義路170巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52633,
+          25.12947
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2200",
+        "leave_time": "2201",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區行義路137巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52923,
+          25.12817
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2202",
+        "leave_time": "2204",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區行義路117巷口(明山宮)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5278,
+          25.12607
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2205",
+        "leave_time": "2206",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區行義路55巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52594,
+          25.12419
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3f8c3e-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "陽明-1",
+        "car_seq": "第2車",
+        "arrival_time": "2207",
+        "leave_time": "2208",
+        "district": "北投區",
+        "team": "陽明分隊",
+        "car_no": "KEJ-0059",
+        "route_code": "110-G09",
+        "stop_name": "臺北市北投區行義路5巷口"
+      }
+    }
+  ]
+}

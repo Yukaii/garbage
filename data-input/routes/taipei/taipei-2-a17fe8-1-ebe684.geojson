@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55316,
+          25.04453
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a17fe8-1-ebe684",
+        "city": "taipei",
+        "route_name": "中崙-2",
+        "car_seq": "第1車",
+        "arrival_time": "1645",
+        "leave_time": "1653",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-1690",
+        "route_code": "108-G14",
+        "stop_name": "臺北市松山區市民大道4段215號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55509,
+          25.05149
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a17fe8-1-ebe684",
+        "city": "taipei",
+        "route_name": "中崙-2",
+        "car_seq": "第1車",
+        "arrival_time": "1715",
+        "leave_time": "1740",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-1690",
+        "route_code": "108-G14",
+        "stop_name": "臺北市松山區南京東路4段118號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55712,
+          25.04849
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a17fe8-1-ebe684",
+        "city": "taipei",
+        "route_name": "中崙-2",
+        "car_seq": "第1車",
+        "arrival_time": "1755",
+        "leave_time": "1805",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-1690",
+        "route_code": "108-G14",
+        "stop_name": "臺北市松山區八德路3段241號(頂好超市)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55268,
+          25.04991
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a17fe8-1-ebe684",
+        "city": "taipei",
+        "route_name": "中崙-2",
+        "car_seq": "第1車",
+        "arrival_time": "1808",
+        "leave_time": "1816",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-1690",
+        "route_code": "108-G14",
+        "stop_name": "臺北市松山區北寧路58號(台北體院斜對面)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55363,
+          25.05157
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-a17fe8-1-ebe684",
+        "city": "taipei",
+        "route_name": "中崙-2",
+        "car_seq": "第1車",
+        "arrival_time": "1818",
+        "leave_time": "1825",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-1690",
+        "route_code": "108-G14",
+        "stop_name": "臺北市松山區南京東路4段56號"
+      }
+    }
+  ]
+}

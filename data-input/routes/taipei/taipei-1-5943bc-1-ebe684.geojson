@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55774,
+          25.0476
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-5943bc-1-ebe684",
+        "city": "taipei",
+        "route_name": "中崙-1",
+        "car_seq": "第1車",
+        "arrival_time": "1715",
+        "leave_time": "1725",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-0296",
+        "route_code": "106-G06",
+        "stop_name": "臺北市松山區光復南路6巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55768,
+          25.046
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-5943bc-1-ebe684",
+        "city": "taipei",
+        "route_name": "中崙-1",
+        "car_seq": "第1車",
+        "arrival_time": "1725",
+        "leave_time": "1740",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-0296",
+        "route_code": "106-G06",
+        "stop_name": "臺北市松山區光復南路50號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54914,
+          25.04624
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-5943bc-1-ebe684",
+        "city": "taipei",
+        "route_name": "中崙-1",
+        "car_seq": "第1車",
+        "arrival_time": "1750",
+        "leave_time": "1809",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-0296",
+        "route_code": "106-G06",
+        "stop_name": "臺北市松山區敦化南路1段25號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55076,
+          25.04818
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-5943bc-1-ebe684",
+        "city": "taipei",
+        "route_name": "中崙-1",
+        "car_seq": "第1車",
+        "arrival_time": "1815",
+        "leave_time": "1830",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-0296",
+        "route_code": "106-G06",
+        "stop_name": "臺北市松山區八德路3段10號"
+      }
+    }
+  ]
+}

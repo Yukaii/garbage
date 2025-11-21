@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58033,
+          25.04
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-676832-1-ebe684",
+        "city": "taipei",
+        "route_name": "福德-1",
+        "car_seq": "第1車",
+        "arrival_time": "1820",
+        "leave_time": "1840",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "057-BV",
+        "route_code": "101-044",
+        "stop_name": "臺北市信義區大道路108號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58094,
+          25.03805
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-676832-1-ebe684",
+        "city": "taipei",
+        "route_name": "福德-1",
+        "car_seq": "第1車",
+        "arrival_time": "1842",
+        "leave_time": "1850",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "057-BV",
+        "route_code": "101-044",
+        "stop_name": "臺北市信義區福德街84巷與林口街24巷交叉口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5806,
+          25.039
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-676832-1-ebe684",
+        "city": "taipei",
+        "route_name": "福德-1",
+        "car_seq": "第1車",
+        "arrival_time": "1852",
+        "leave_time": "1900",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "057-BV",
+        "route_code": "101-044",
+        "stop_name": "臺北市信義區大道路96巷口與福德街84巷交叉口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57792,
+          25.03627
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-676832-1-ebe684",
+        "city": "taipei",
+        "route_name": "福德-1",
+        "car_seq": "第1車",
+        "arrival_time": "1905",
+        "leave_time": "1920",
+        "district": "信義區",
+        "team": "福德分隊",
+        "car_no": "057-BV",
+        "route_code": "101-044",
+        "stop_name": "臺北市信義區信義路6段103號前"
+      }
+    }
+  ]
+}

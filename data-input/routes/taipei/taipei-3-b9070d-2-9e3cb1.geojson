@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54399,
+          25.04553
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-b9070d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中崙-3",
+        "car_seq": "第2車",
+        "arrival_time": "2015",
+        "leave_time": "2024",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-1693",
+        "route_code": "108-G17",
+        "stop_name": "臺北市松山區復興南路1段45號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54413,
+          25.04934
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-b9070d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中崙-3",
+        "car_seq": "第2車",
+        "arrival_time": "2025",
+        "leave_time": "2030",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-1693",
+        "route_code": "108-G17",
+        "stop_name": "臺北市松山區復興北路15號(加油站前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54575,
+          25.05172
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-b9070d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中崙-3",
+        "car_seq": "第2車",
+        "arrival_time": "2032",
+        "leave_time": "2040",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-1693",
+        "route_code": "108-G17",
+        "stop_name": "臺北市松山區南京東路3段280號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5537,
+          25.04818
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-b9070d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "中崙-3",
+        "car_seq": "第2車",
+        "arrival_time": "2100",
+        "leave_time": "2200",
+        "district": "松山區",
+        "team": "中崙分隊",
+        "car_no": "KEA-1693",
+        "route_code": "108-G17",
+        "stop_name": "臺北市松山區八德路3段106巷口"
+      }
+    }
+  ]
+}

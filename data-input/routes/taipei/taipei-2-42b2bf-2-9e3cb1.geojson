@@ -1,0 +1,465 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61697,
+          25.03766
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "1945",
+        "leave_time": "1950",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路2段178號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61592,
+          25.03656
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "1951",
+        "leave_time": "2000",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路3段2巷16號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61521,
+          25.03583
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2001",
+        "leave_time": "2006",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路3段2巷10號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61427,
+          25.03502
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2007",
+        "leave_time": "2012",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路3段2巷68巷9號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61318,
+          25.03463
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2013",
+        "leave_time": "2018",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路3段86巷13號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60987,
+          25.03368
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2019",
+        "leave_time": "2024",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路3段245號右側"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61191,
+          25.03327
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2025",
+        "leave_time": "2027",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路3段203號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61364,
+          25.03413
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2028",
+        "leave_time": "2031",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路3段151號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61633,
+          25.03499
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2032",
+        "leave_time": "2036",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路3段27號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61567,
+          25.05015
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2042",
+        "leave_time": "2047",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路1段165號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61596,
+          25.05158
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2049",
+        "leave_time": "2052",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路1段119號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61556,
+          25.0532
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2055",
+        "leave_time": "2100",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區忠孝東路7段623號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61422,
+          25.05304
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2101",
+        "leave_time": "2106",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區忠孝東路7段575號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6127,
+          25.05285
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2107",
+        "leave_time": "2112",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區忠孝東路7段529號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61154,
+          25.05279
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2112",
+        "leave_time": "2115",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區忠孝東路7段487巷1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60972,
+          25.05237
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2116",
+        "leave_time": "2119",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區忠孝東路7段478巷1-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61364,
+          25.05281
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2121",
+        "leave_time": "2131",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區忠孝東路7段596號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61575,
+          25.05306
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2132",
+        "leave_time": "2134",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區忠孝東路7段616號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61605,
+          25.05241
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2135",
+        "leave_time": "2137",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區研究院路1段96號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61523,
+          25.05212
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-42b2bf-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "舊莊-2",
+        "car_seq": "第2車",
+        "arrival_time": "2138",
+        "leave_time": "2145",
+        "district": "南港區",
+        "team": "舊莊分隊",
+        "car_no": "KEJ-0573",
+        "route_code": "111-G07",
+        "stop_name": "臺北市南港區中南街130號前"
+      }
+    }
+  ]
+}

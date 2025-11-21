@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55799,
+          25.02006
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-23d124-3-d9a235",
+        "city": "taipei",
+        "route_name": "六張犁-1",
+        "car_seq": "第3車",
+        "arrival_time": "2135",
+        "leave_time": "2145",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEA-0300",
+        "route_code": "106-G10",
+        "stop_name": "臺北市信義區和平東路3段391巷8弄1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55653,
+          25.02127
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-23d124-3-d9a235",
+        "city": "taipei",
+        "route_name": "六張犁-1",
+        "car_seq": "第3車",
+        "arrival_time": "2150",
+        "leave_time": "2200",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEA-0300",
+        "route_code": "106-G10",
+        "stop_name": "臺北市信義區富陽街83號前"
+      }
+    }
+  ]
+}

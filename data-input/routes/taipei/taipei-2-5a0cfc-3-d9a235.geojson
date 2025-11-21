@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56362,
+          24.98689
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5a0cfc-3-d9a235",
+        "city": "taipei",
+        "route_name": "復興-2",
+        "car_seq": "第3車",
+        "arrival_time": "2130",
+        "leave_time": "2132",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "KEA-1683",
+        "route_code": "108-G09",
+        "stop_name": "臺北市文山區興隆路4段109巷94號對面(明道國小後門)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56278,
+          24.98206
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5a0cfc-3-d9a235",
+        "city": "taipei",
+        "route_name": "復興-2",
+        "car_seq": "第3車",
+        "arrival_time": "2142",
+        "leave_time": "2145",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "KEA-1683",
+        "route_code": "108-G09",
+        "stop_name": "臺北市文山區木新路3段97號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56432,
+          24.98239
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5a0cfc-3-d9a235",
+        "city": "taipei",
+        "route_name": "復興-2",
+        "car_seq": "第3車",
+        "arrival_time": "2145",
+        "leave_time": "2149",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "KEA-1683",
+        "route_code": "108-G09",
+        "stop_name": "臺北市文山區木新路3段41號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56546,
+          24.98271
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5a0cfc-3-d9a235",
+        "city": "taipei",
+        "route_name": "復興-2",
+        "car_seq": "第3車",
+        "arrival_time": "2150",
+        "leave_time": "2153",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "KEA-1683",
+        "route_code": "108-G09",
+        "stop_name": "臺北市文山區木新路2段295號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56695,
+          24.98318
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5a0cfc-3-d9a235",
+        "city": "taipei",
+        "route_name": "復興-2",
+        "car_seq": "第3車",
+        "arrival_time": "2154",
+        "leave_time": "2158",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "KEA-1683",
+        "route_code": "108-G09",
+        "stop_name": "臺北市文山區木新路2段251號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56793,
+          24.98348
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5a0cfc-3-d9a235",
+        "city": "taipei",
+        "route_name": "復興-2",
+        "car_seq": "第3車",
+        "arrival_time": "2159",
+        "leave_time": "2202",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "KEA-1683",
+        "route_code": "108-G09",
+        "stop_name": "臺北市文山區木新路2段199號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56898,
+          24.98326
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5a0cfc-3-d9a235",
+        "city": "taipei",
+        "route_name": "復興-2",
+        "car_seq": "第3車",
+        "arrival_time": "2203",
+        "leave_time": "2205",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "KEA-1683",
+        "route_code": "108-G09",
+        "stop_name": "臺北市文山區木新路2段161巷8號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56791,
+          24.98242
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5a0cfc-3-d9a235",
+        "city": "taipei",
+        "route_name": "復興-2",
+        "car_seq": "第3車",
+        "arrival_time": "2206",
+        "leave_time": "2210",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "KEA-1683",
+        "route_code": "108-G09",
+        "stop_name": "臺北市文山區木新路2段211巷10弄15號前"
+      }
+    }
+  ]
+}

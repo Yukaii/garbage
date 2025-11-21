@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53239,
+          25.1044
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第3車",
+        "arrival_time": "2050",
+        "leave_time": "2100",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區雨聲街105號(陽明醫院急診室側)僅收運一般專用袋垃圾)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52847,
+          25.10503
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第3車",
+        "arrival_time": "2120",
+        "leave_time": "2125",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區忠誠路1段103號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52986,
+          25.10657
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第3車",
+        "arrival_time": "2126",
+        "leave_time": "2135",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區忠誠路1段149號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53021,
+          25.10745
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第3車",
+        "arrival_time": "2136",
+        "leave_time": "2142",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區忠誠路1段169號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53028,
+          25.10464
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第3車",
+        "arrival_time": "2143",
+        "leave_time": "2147",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區忠義街1號(雨農國小後門、雨聲街側)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232005",
+        "city": "new-taipei",
+        "lineid": "232005",
+        "linename": "大林線",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.703825,
+          24.917493
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232005",
+        "city": "new-taipei",
+        "lineid": "232005",
+        "linename": "大林線",
+        "rank": "2",
+        "village": "大林里",
+        "name": "逮魚堀17-5號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.696864,
+          24.932508
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232005",
+        "city": "new-taipei",
+        "lineid": "232005",
+        "linename": "大林線",
+        "rank": "3",
+        "village": "大林里",
+        "name": "福德宮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.696062,
+          24.923493
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232005",
+        "city": "new-taipei",
+        "lineid": "232005",
+        "linename": "大林線",
+        "rank": "4",
+        "village": "大林里",
+        "name": "逮魚堀33-10號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.70141,
+          24.92991
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232005",
+        "city": "new-taipei",
+        "lineid": "232005",
+        "linename": "大林線",
+        "rank": "5",
+        "village": "大林里",
+        "name": "逮魚堀49號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.70669,
+          24.921673
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232005",
+        "city": "new-taipei",
+        "lineid": "232005",
+        "linename": "大林線",
+        "rank": "6",
+        "village": "大林里",
+        "name": "九芎林41號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.705992,
+          24.914201
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232005",
+        "city": "new-taipei",
+        "lineid": "232005",
+        "linename": "大林線",
+        "rank": "7",
+        "village": "大林里",
+        "name": "鶯子瀨3-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.70556,
+          24.909179
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232005",
+        "city": "new-taipei",
+        "lineid": "232005",
+        "linename": "大林線",
+        "rank": "8",
+        "village": "大林里",
+        "name": "逮魚堀9-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.708406,
+          24.905051
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232005",
+        "city": "new-taipei",
+        "lineid": "232005",
+        "linename": "大林線",
+        "rank": "9",
+        "village": "大林里",
+        "name": "逮魚堀9-15號"
+      }
+    }
+  ]
+}

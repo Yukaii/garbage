@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59944,
+          25.08814
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第2車",
+        "arrival_time": "1920",
+        "leave_time": "1930",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區大湖山莊街219巷1號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60149,
+          25.08769
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第2車",
+        "arrival_time": "1935",
+        "leave_time": "1940",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區大湖山莊街171號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60167,
+          25.0859
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第2車",
+        "arrival_time": "1945",
+        "leave_time": "1950",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區大湖山莊街117號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59347,
+          25.07949
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第2車",
+        "arrival_time": "2000",
+        "leave_time": "2020",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區康寧路1段116號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59157,
+          25.07863
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第2車",
+        "arrival_time": "2022",
+        "leave_time": "2025",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區星雲街35號前"
+      }
+    }
+  ]
+}

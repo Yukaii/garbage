@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232002",
+        "city": "new-taipei",
+        "lineid": "232002",
+        "linename": "上德線1",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.711958,
+          24.966697
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232002",
+        "city": "new-taipei",
+        "lineid": "232002",
+        "linename": "上德線1",
+        "rank": "2",
+        "village": "上德里",
+        "name": "大粗坑31號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.706884,
+          24.964097
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232002",
+        "city": "new-taipei",
+        "lineid": "232002",
+        "linename": "上德線1",
+        "rank": "3",
+        "village": "上德里",
+        "name": "大粗坑28號"
+      }
+    }
+  ]
+}

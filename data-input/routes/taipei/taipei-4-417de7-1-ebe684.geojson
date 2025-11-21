@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57444,
+          25.08049
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-417de7-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-4",
+        "car_seq": "第1車",
+        "arrival_time": "1810",
+        "leave_time": "1820",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEJ-0055",
+        "route_code": "110-G06",
+        "stop_name": "臺北市內湖區內湖路1段625號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58158,
+          25.07944
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-417de7-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-4",
+        "car_seq": "第1車",
+        "arrival_time": "1830",
+        "leave_time": "1900",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEJ-0055",
+        "route_code": "110-G06",
+        "stop_name": "臺北市內湖區內湖路2段82號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55965,
+          25.09055
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-417de7-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-4",
+        "car_seq": "第1車",
+        "arrival_time": "1925",
+        "leave_time": "1935",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEJ-0055",
+        "route_code": "110-G06",
+        "stop_name": "臺北市內湖區文湖街21巷98弄1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55987,
+          25.08839
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-417de7-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-4",
+        "car_seq": "第1車",
+        "arrival_time": "1940",
+        "leave_time": "1950",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEJ-0055",
+        "route_code": "110-G06",
+        "stop_name": "臺北市內湖區內湖路1段47巷22弄15號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55908,
+          25.08668
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-417de7-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-4",
+        "car_seq": "第1車",
+        "arrival_time": "1955",
+        "leave_time": "2010",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEJ-0055",
+        "route_code": "110-G06",
+        "stop_name": "臺北市內湖區內湖路1段47巷7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56449,
+          25.08289
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-417de7-1-ebe684",
+        "city": "taipei",
+        "route_name": "西湖-4",
+        "car_seq": "第1車",
+        "arrival_time": "2020",
+        "leave_time": "2035",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEJ-0055",
+        "route_code": "110-G06",
+        "stop_name": "臺北市內湖區內湖路1段215號"
+      }
+    }
+  ]
+}

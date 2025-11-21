@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5173,
+          25.09015
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-419d95-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-3",
+        "car_seq": "第1車",
+        "arrival_time": "1630",
+        "leave_time": "1635",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "448-BN",
+        "route_code": "96-S410",
+        "stop_name": "臺北市士林區承德路4段344號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51846,
+          25.08966
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-419d95-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-3",
+        "car_seq": "第1車",
+        "arrival_time": "1636",
+        "leave_time": "1641",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "448-BN",
+        "route_code": "96-S410",
+        "stop_name": "臺北市士林區承德路4段310號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51978,
+          25.0894
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-419d95-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-3",
+        "car_seq": "第1車",
+        "arrival_time": "1642",
+        "leave_time": "1647",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "448-BN",
+        "route_code": "96-S410",
+        "stop_name": "臺北市士林區承德路4段268號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52174,
+          25.08826
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-419d95-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-3",
+        "car_seq": "第1車",
+        "arrival_time": "1648",
+        "leave_time": "1653",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "448-BN",
+        "route_code": "96-S410",
+        "stop_name": "臺北市士林區承德路4段218號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52235,
+          25.08711
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-419d95-1-ebe684",
+        "city": "taipei",
+        "route_name": "後港-3",
+        "car_seq": "第1車",
+        "arrival_time": "1654",
+        "leave_time": "1659",
+        "district": "士林區",
+        "team": "後港分隊",
+        "car_no": "448-BN",
+        "route_code": "96-S410",
+        "stop_name": "臺北市士林區承德路4段188號前"
+      }
+    }
+  ]
+}

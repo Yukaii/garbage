@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51573,
+          25.13636
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-274a3d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "光明-4",
+        "car_seq": "第2車",
+        "arrival_time": "1900",
+        "leave_time": "1902",
+        "district": "北投區",
+        "team": "光明分隊",
+        "car_no": "KEP-0131",
+        "route_code": "111-G13",
+        "stop_name": "臺北市北投區溫泉路銀光巷21號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51344,
+          25.13623
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-274a3d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "光明-4",
+        "car_seq": "第2車",
+        "arrival_time": "1903",
+        "leave_time": "1905",
+        "district": "北投區",
+        "team": "光明分隊",
+        "car_no": "KEP-0131",
+        "route_code": "111-G13",
+        "stop_name": "臺北市北投區溫泉路銀光巷4弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50602,
+          25.13461
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-274a3d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "光明-4",
+        "car_seq": "第2車",
+        "arrival_time": "1911",
+        "leave_time": "1913",
+        "district": "北投區",
+        "team": "光明分隊",
+        "car_no": "KEP-0131",
+        "route_code": "111-G13",
+        "stop_name": "臺北市北投區溫泉路68巷14-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50621,
+          25.13397
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-274a3d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "光明-4",
+        "car_seq": "第2車",
+        "arrival_time": "1914",
+        "leave_time": "1915",
+        "district": "北投區",
+        "team": "光明分隊",
+        "car_no": "KEP-0131",
+        "route_code": "111-G13",
+        "stop_name": "臺北市北投區民族路43巷22號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50631,
+          25.1333
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-274a3d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "光明-4",
+        "car_seq": "第2車",
+        "arrival_time": "1916",
+        "leave_time": "1918",
+        "district": "北投區",
+        "team": "光明分隊",
+        "car_no": "KEP-0131",
+        "route_code": "111-G13",
+        "stop_name": "臺北市北投區民族路48巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50543,
+          25.13271
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-274a3d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "光明-4",
+        "car_seq": "第2車",
+        "arrival_time": "1920",
+        "leave_time": "1921",
+        "district": "北投區",
+        "team": "光明分隊",
+        "car_no": "KEP-0131",
+        "route_code": "111-G13",
+        "stop_name": "臺北市北投區民族路19巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50477,
+          25.13287
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-274a3d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "光明-4",
+        "car_seq": "第2車",
+        "arrival_time": "1922",
+        "leave_time": "1924",
+        "district": "北投區",
+        "team": "光明分隊",
+        "car_no": "KEP-0131",
+        "route_code": "111-G13",
+        "stop_name": "臺北市北投區公館路63巷21弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50528,
+          25.13375
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-274a3d-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "光明-4",
+        "car_seq": "第2車",
+        "arrival_time": "1925",
+        "leave_time": "1929",
+        "district": "北投區",
+        "team": "光明分隊",
+        "car_no": "KEP-0131",
+        "route_code": "111-G13",
+        "stop_name": "臺北市北投區溫泉路58巷11號"
+      }
+    }
+  ]
+}

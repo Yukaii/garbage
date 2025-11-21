@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6127,
+          25.06669
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-91c7c8-1-ebe684",
+        "city": "taipei",
+        "route_name": "東湖-3",
+        "car_seq": "第1車",
+        "arrival_time": "1735",
+        "leave_time": "1745",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "482-BH",
+        "route_code": "94-S385",
+        "stop_name": "臺北市內湖區康寧路3段245巷42號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61457,
+          25.06654
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-91c7c8-1-ebe684",
+        "city": "taipei",
+        "route_name": "東湖-3",
+        "car_seq": "第1車",
+        "arrival_time": "1747",
+        "leave_time": "1750",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "482-BH",
+        "route_code": "94-S385",
+        "stop_name": "臺北市內湖區安康路313號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61591,
+          25.06785
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-91c7c8-1-ebe684",
+        "city": "taipei",
+        "route_name": "東湖-3",
+        "car_seq": "第1車",
+        "arrival_time": "1752",
+        "leave_time": "1757",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "482-BH",
+        "route_code": "94-S385",
+        "stop_name": "臺北市內湖區安康路480號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6198,
+          25.07392
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-91c7c8-1-ebe684",
+        "city": "taipei",
+        "route_name": "東湖-3",
+        "car_seq": "第1車",
+        "arrival_time": "1803",
+        "leave_time": "1810",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "482-BH",
+        "route_code": "94-S385",
+        "stop_name": "臺北市內湖區康樂街133號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61874,
+          25.07303
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-91c7c8-1-ebe684",
+        "city": "taipei",
+        "route_name": "東湖-3",
+        "car_seq": "第1車",
+        "arrival_time": "1813",
+        "leave_time": "1820",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "482-BH",
+        "route_code": "94-S385",
+        "stop_name": "臺北市內湖區康樂街162巷19號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60283,
+          25.06015
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-91c7c8-1-ebe684",
+        "city": "taipei",
+        "route_name": "東湖-3",
+        "car_seq": "第1車",
+        "arrival_time": "1840",
+        "leave_time": "1910",
+        "district": "內湖區",
+        "team": "東湖分隊",
+        "car_no": "482-BH",
+        "route_code": "94-S385",
+        "stop_name": "臺北市內湖區安美街181號前200公尺"
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52562,
+          25.06411
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d57f92-3-d9a235",
+        "city": "taipei",
+        "route_name": "圓山-3",
+        "car_seq": "第3車",
+        "arrival_time": "2105",
+        "leave_time": "2110",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "KEA-0862",
+        "route_code": "107-G09",
+        "stop_name": "臺北市中山區林森北路554號前(新光銀行前)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52498,
+          25.06159
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d57f92-3-d9a235",
+        "city": "taipei",
+        "route_name": "圓山-3",
+        "car_seq": "第3車",
+        "arrival_time": "2120",
+        "leave_time": "2130",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "KEA-0862",
+        "route_code": "107-G09",
+        "stop_name": "臺北市中山區民權東路1段70巷28號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52301,
+          25.06196
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d57f92-3-d9a235",
+        "city": "taipei",
+        "route_name": "圓山-3",
+        "car_seq": "第3車",
+        "arrival_time": "2131",
+        "leave_time": "2135",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "KEA-0862",
+        "route_code": "107-G09",
+        "stop_name": "臺北市中山區中山北路2段145號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52455,
+          25.06262
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d57f92-3-d9a235",
+        "city": "taipei",
+        "route_name": "圓山-3",
+        "car_seq": "第3車",
+        "arrival_time": "2138",
+        "leave_time": "2145",
+        "district": "中山區",
+        "team": "圓山分隊",
+        "car_no": "KEA-0862",
+        "route_code": "107-G09",
+        "stop_name": "臺北市中山區民權東路1段56號前"
+      }
+    }
+  ]
+}

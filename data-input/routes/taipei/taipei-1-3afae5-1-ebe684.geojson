@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53705,
+          25.0239
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3afae5-1-ebe684",
+        "city": "taipei",
+        "route_name": "台大-1",
+        "car_seq": "第1車",
+        "arrival_time": "1820",
+        "leave_time": "1825",
+        "district": "大安區",
+        "team": "台大分隊",
+        "car_no": "KEA-0306",
+        "route_code": "106-G15",
+        "stop_name": "臺北市大安區建國南路2段314號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53582,
+          25.02269
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3afae5-1-ebe684",
+        "city": "taipei",
+        "route_name": "台大-1",
+        "car_seq": "第1車",
+        "arrival_time": "1826",
+        "leave_time": "1830",
+        "district": "大安區",
+        "team": "台大分隊",
+        "car_no": "KEA-0306",
+        "route_code": "106-G15",
+        "stop_name": "臺北市大安區辛亥路2段35號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53492,
+          25.02471
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3afae5-1-ebe684",
+        "city": "taipei",
+        "route_name": "台大-1",
+        "car_seq": "第1車",
+        "arrival_time": "1831",
+        "leave_time": "1837",
+        "district": "大安區",
+        "team": "台大分隊",
+        "car_no": "KEA-0306",
+        "route_code": "106-G15",
+        "stop_name": "臺北市大安區新生南路3段23號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53622,
+          25.02562
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3afae5-1-ebe684",
+        "city": "taipei",
+        "route_name": "台大-1",
+        "car_seq": "第1車",
+        "arrival_time": "1838",
+        "leave_time": "1846",
+        "district": "大安區",
+        "team": "台大分隊",
+        "car_no": "KEA-0306",
+        "route_code": "106-G15",
+        "stop_name": "臺北市大安區和平東路2段20號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5371,
+          25.02549
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3afae5-1-ebe684",
+        "city": "taipei",
+        "route_name": "台大-1",
+        "car_seq": "第1車",
+        "arrival_time": "1847",
+        "leave_time": "1852",
+        "district": "大安區",
+        "team": "台大分隊",
+        "car_no": "KEA-0306",
+        "route_code": "106-G15",
+        "stop_name": "臺北市大安區和平東路2段38號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53817,
+          25.02546
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3afae5-1-ebe684",
+        "city": "taipei",
+        "route_name": "台大-1",
+        "car_seq": "第1車",
+        "arrival_time": "1855",
+        "leave_time": "1858",
+        "district": "大安區",
+        "team": "台大分隊",
+        "car_no": "KEA-0306",
+        "route_code": "106-G15",
+        "stop_name": "臺北市大安區和平東路2段48號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54103,
+          25.02321
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-3afae5-1-ebe684",
+        "city": "taipei",
+        "route_name": "台大-1",
+        "car_seq": "第1車",
+        "arrival_time": "1900",
+        "leave_time": "1950",
+        "district": "大安區",
+        "team": "台大分隊",
+        "car_no": "KEA-0306",
+        "route_code": "106-G15",
+        "stop_name": "臺北市大安區和平東路2段96巷12之2號對面"
+      }
+    }
+  ]
+}

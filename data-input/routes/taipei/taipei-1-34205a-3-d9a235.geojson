@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51124,
+          25.11361
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-34205a-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-1",
+        "car_seq": "第3車",
+        "arrival_time": "2100",
+        "leave_time": "2105",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "819-BT",
+        "route_code": "103-078",
+        "stop_name": "臺北市北投區石牌路1段71巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51025,
+          25.11309
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-34205a-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-1",
+        "car_seq": "第3車",
+        "arrival_time": "2106",
+        "leave_time": "2110",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "819-BT",
+        "route_code": "103-078",
+        "stop_name": "臺北市北投區石牌路1段39巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50811,
+          25.11375
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-34205a-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-1",
+        "car_seq": "第3車",
+        "arrival_time": "2115",
+        "leave_time": "2118",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "819-BT",
+        "route_code": "103-078",
+        "stop_name": "臺北市北投區承德路7段168號巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50779,
+          25.11401
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-34205a-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-1",
+        "car_seq": "第3車",
+        "arrival_time": "2119",
+        "leave_time": "2130",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "819-BT",
+        "route_code": "103-078",
+        "stop_name": "臺北市北投區承德路7段188號巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51032,
+          25.11306
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-34205a-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-1",
+        "car_seq": "第3車",
+        "arrival_time": "2138",
+        "leave_time": "2143",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "819-BT",
+        "route_code": "103-078",
+        "stop_name": "臺北市北投區石牌路1段自強街5巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51094,
+          25.11337
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-34205a-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-1",
+        "car_seq": "第3車",
+        "arrival_time": "2144",
+        "leave_time": "2148",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "819-BT",
+        "route_code": "103-078",
+        "stop_name": "臺北市北投區石牌路1段58巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51587,
+          25.11546
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-34205a-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-1",
+        "car_seq": "第3車",
+        "arrival_time": "2152",
+        "leave_time": "2156",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "819-BT",
+        "route_code": "103-078",
+        "stop_name": "臺北市北投區裕民四路4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51699,
+          25.11593
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-34205a-3-d9a235",
+        "city": "taipei",
+        "route_name": "石牌-1",
+        "car_seq": "第3車",
+        "arrival_time": "2157",
+        "leave_time": "2207",
+        "district": "北投區",
+        "team": "石牌分隊",
+        "car_no": "819-BT",
+        "route_code": "103-078",
+        "stop_name": "臺北市北投區裕民二路、裕民三路口"
+      }
+    }
+  ]
+}

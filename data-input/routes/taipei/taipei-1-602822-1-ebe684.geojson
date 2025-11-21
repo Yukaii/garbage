@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.525006,
+          25.049113
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-602822-1-ebe684",
+        "city": "taipei",
+        "route_name": "中山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1650",
+        "leave_time": "1658",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "AAB-860",
+        "route_code": "105-G12",
+        "stop_name": "臺北市中山區長安東路1段35號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52557,
+          25.05182
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-602822-1-ebe684",
+        "city": "taipei",
+        "route_name": "中山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1700",
+        "leave_time": "1710",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "AAB-860",
+        "route_code": "105-G12",
+        "stop_name": "臺北市中山區南京東路1段86號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52689,
+          25.05186
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-602822-1-ebe684",
+        "city": "taipei",
+        "route_name": "中山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1712",
+        "leave_time": "1722",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "AAB-860",
+        "route_code": "105-G12",
+        "stop_name": "臺北市中山區南京東路1段130號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5301652,
+          25.047427
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-602822-1-ebe684",
+        "city": "taipei",
+        "route_name": "中山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1725",
+        "leave_time": "1730",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "AAB-860",
+        "route_code": "105-G12",
+        "stop_name": "臺北市中山區新生北路1段78號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52952,
+          25.04669
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-602822-1-ebe684",
+        "city": "taipei",
+        "route_name": "中山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1736",
+        "leave_time": "1741",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "AAB-860",
+        "route_code": "105-G12",
+        "stop_name": "臺北市中山區市民大道2段71號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52789,
+          25.04789
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-602822-1-ebe684",
+        "city": "taipei",
+        "route_name": "中山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1745",
+        "leave_time": "1755",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "AAB-860",
+        "route_code": "105-G12",
+        "stop_name": "臺北市中山區長安東路1段52巷7弄華山公園旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52634,
+          25.04864
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-602822-1-ebe684",
+        "city": "taipei",
+        "route_name": "中山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1806",
+        "leave_time": "1821",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "AAB-860",
+        "route_code": "105-G12",
+        "stop_name": "臺北市中山區長安東路1段34號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52834,
+          25.04814
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-602822-1-ebe684",
+        "city": "taipei",
+        "route_name": "中山-1",
+        "car_seq": "第1車",
+        "arrival_time": "1822",
+        "leave_time": "1830",
+        "district": "中山區",
+        "team": "中山分隊",
+        "car_no": "AAB-860",
+        "route_code": "105-G12",
+        "stop_name": "臺北市中山區長安東路1段54號〈正守公園〉"
+      }
+    }
+  ]
+}

@@ -1,0 +1,955 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515968,
+          25.015821
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "1",
+        "village": "河堤里",
+        "name": "永和路二段忠孝街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5152862,
+          25.01581901
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "2",
+        "village": "河堤里",
+        "name": "忠孝街26巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514702,
+          25.015783
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "3",
+        "village": "河堤里",
+        "name": "忠孝街36號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5144569,
+          25.0157404
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "4",
+        "village": "河堤里",
+        "name": "忠孝街40號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5139826,
+          25.01566968
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "5",
+        "village": "河堤里",
+        "name": "忠孝街文化路90巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5138787,
+          25.01583214
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "6",
+        "village": "新部里",
+        "name": "文化路90巷16號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5137958,
+          25.01614129
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "7",
+        "village": "新部里",
+        "name": "文化路90巷22弄"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5135644,
+          25.0163398
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "8",
+        "village": "新部里",
+        "name": "文化路90巷32弄"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5128475,
+          25.01665961
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "9",
+        "village": "新部里",
+        "name": "文化路90巷42弄"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512474,
+          25.016735
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "10",
+        "village": "新部里",
+        "name": "文化路144巷31弄6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5121796,
+          25.01678635
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "11",
+        "village": "新部里",
+        "name": "文化路144巷31弄14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5120109,
+          25.01689767
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "12",
+        "village": "新部里",
+        "name": "文化路144巷31弄9號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5117547,
+          25.01706907
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "13",
+        "village": "河堤里",
+        "name": "環河西路一段95巷19弄4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5117083,
+          25.01733751
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "14",
+        "village": "河堤里",
+        "name": "環河西路一段95巷14號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5122247,
+          25.01788028
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "15",
+        "village": "河堤里",
+        "name": "環河西路一段95巷2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5127193,
+          25.01800442
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "16",
+        "village": "河堤里",
+        "name": "環河西路一段85巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5133269,
+          25.01807714
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "17",
+        "village": "河堤里",
+        "name": "環河西路一段75巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5141028,
+          25.0180851
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "18",
+        "village": "河堤里",
+        "name": "環河西路一段51巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515244,
+          25.01798382
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "19",
+        "village": "河堤里",
+        "name": "環河西路一段1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5147572,
+          25.01768725
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "20",
+        "village": "河堤里",
+        "name": "永和路二段425巷21號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5144104,
+          25.01759725
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "21",
+        "village": "河堤里",
+        "name": "永和路二段425巷31號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5141496,
+          25.01754328
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "22",
+        "village": "河堤里",
+        "name": "永和路二段425巷37弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5135309,
+          25.01710479
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "23",
+        "village": "河堤里",
+        "name": "永和路二段425巷70號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.513412,
+          25.016855
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "24",
+        "village": "河堤里",
+        "name": "文化路90巷32弄9號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5151944,
+          25.01740418
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "25",
+        "village": "河堤里",
+        "name": "永和路二段417巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5151953,
+          25.01718345
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "26",
+        "village": "河堤里",
+        "name": "永和路二段405巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5151916,
+          25.01695824
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "27",
+        "village": "頂溪里",
+        "name": "忠孝街26巷27弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515229,
+          25.01669639
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "28",
+        "village": "頂溪里",
+        "name": "忠孝街26巷21號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515785,
+          25.016663
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "29",
+        "village": "頂溪里",
+        "name": "永和路二段391號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515913,
+          25.01622686
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "30",
+        "village": "頂溪里",
+        "name": "永和路二段305號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515846,
+          25.01523
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "31",
+        "village": "頂溪里",
+        "name": "永和路二段251號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515312,
+          25.01503
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "32",
+        "village": "頂溪里",
+        "name": "文化路16巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514801,
+          25.015091
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "33",
+        "village": "頂溪里",
+        "name": "文化路36號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514549,
+          25.015123
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "34",
+        "village": "頂溪里",
+        "name": "文化路48號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5142121,
+          25.01513125
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "35",
+        "village": "頂溪里",
+        "name": "文化路66號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5138302,
+          25.0151684
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "36",
+        "village": "頂溪里",
+        "name": "文化路90巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5133935,
+          25.01520883
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "37",
+        "village": "新部里",
+        "name": "文化路110號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512955,
+          25.015285
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "38",
+        "village": "新部里",
+        "name": "文化路126巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512589,
+          25.015322
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "39",
+        "village": "新部里",
+        "name": "文化路144巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.511971,
+          25.015478
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "40",
+        "village": "新部里",
+        "name": "文化路168號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5128259,
+          25.01521765
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "41",
+        "village": "上溪里",
+        "name": "文化路113巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5134947,
+          25.01513121
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "42",
+        "village": "上溪里",
+        "name": "文化路89巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5140145,
+          25.01507993
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "43",
+        "village": "上溪里",
+        "name": "文化路67巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5154051,
+          25.01493823
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "44",
+        "village": "上溪里",
+        "name": "文化路9巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515266,
+          25.013561
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "45",
+        "village": "上溪里",
+        "name": "仁愛路2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5146065,
+          25.01347812
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "46",
+        "village": "上溪里",
+        "name": "仁愛路26巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5141765,
+          25.013428
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "47",
+        "village": "後溪里",
+        "name": "仁愛路40巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5137477,
+          25.01337843
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "48",
+        "village": "後溪里",
+        "name": "仁愛路52巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5132812,
+          25.01332429
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "49",
+        "village": "後溪里",
+        "name": "仁愛路64巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5129441,
+          25.01328186
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-234017",
+        "city": "new-taipei",
+        "lineid": "234017",
+        "linename": "四區晚14",
+        "rank": "50",
+        "village": "後溪里",
+        "name": "仁愛路70號"
+      }
+    }
+  ]
+}

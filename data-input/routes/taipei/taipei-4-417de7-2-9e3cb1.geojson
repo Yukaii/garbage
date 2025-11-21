@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56865,
+          25.08223
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-417de7-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "西湖-4",
+        "car_seq": "第2車",
+        "arrival_time": "2140",
+        "leave_time": "2150",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEJ-0055",
+        "route_code": "110-G06",
+        "stop_name": "臺北市內湖區內湖路1段337號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57579,
+          25.07578
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-417de7-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "西湖-4",
+        "car_seq": "第2車",
+        "arrival_time": "2200",
+        "leave_time": "2230",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEJ-0055",
+        "route_code": "110-G06",
+        "stop_name": "臺北市內湖區瑞光路309號"
+      }
+    }
+  ]
+}

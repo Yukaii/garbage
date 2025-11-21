@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55975,
+          25.02511
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-3faa8a-1-ebe684",
+        "city": "taipei",
+        "route_name": "六張犁-4",
+        "car_seq": "第1車",
+        "arrival_time": "1755",
+        "leave_time": "1805",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "443-BN",
+        "route_code": "96-S406",
+        "stop_name": "臺北市信義區信安街103巷22之1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55698,
+          25.02567
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-3faa8a-1-ebe684",
+        "city": "taipei",
+        "route_name": "六張犁-4",
+        "car_seq": "第1車",
+        "arrival_time": "1810",
+        "leave_time": "1815",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "443-BN",
+        "route_code": "96-S406",
+        "stop_name": "臺北市信義區信安街93號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55815,
+          25.0269
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-3faa8a-1-ebe684",
+        "city": "taipei",
+        "route_name": "六張犁-4",
+        "car_seq": "第1車",
+        "arrival_time": "1818",
+        "leave_time": "1825",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "443-BN",
+        "route_code": "96-S406",
+        "stop_name": "臺北市信義區信安街52號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55846,
+          25.02302
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-3faa8a-1-ebe684",
+        "city": "taipei",
+        "route_name": "六張犁-4",
+        "car_seq": "第1車",
+        "arrival_time": "1830",
+        "leave_time": "1840",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "443-BN",
+        "route_code": "96-S406",
+        "stop_name": "臺北市信義區崇德街206巷口"
+      }
+    }
+  ]
+}

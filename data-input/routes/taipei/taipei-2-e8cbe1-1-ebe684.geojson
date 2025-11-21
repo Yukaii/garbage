@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52854,
+          25.10959
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e8cbe1-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-2",
+        "car_seq": "第1車",
+        "arrival_time": "1620",
+        "leave_time": "1640",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "232-BV",
+        "route_code": "102-060",
+        "stop_name": "臺北市士林區德行東路109巷77號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53274,
+          25.10857
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e8cbe1-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-2",
+        "car_seq": "第1車",
+        "arrival_time": "1645",
+        "leave_time": "1650",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "232-BV",
+        "route_code": "102-060",
+        "stop_name": "臺北市士林區忠義街147號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53246,
+          25.10694
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e8cbe1-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-2",
+        "car_seq": "第1車",
+        "arrival_time": "1651",
+        "leave_time": "1655",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "232-BV",
+        "route_code": "102-060",
+        "stop_name": "臺北市士林區忠義街98號對面送車"
+      }
+    }
+  ]
+}

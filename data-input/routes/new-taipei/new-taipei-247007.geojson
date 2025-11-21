@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473799017485,
+          25.0808649421442
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247007",
+        "city": "new-taipei",
+        "lineid": "247007",
+        "linename": "路線4下午",
+        "rank": "1",
+        "village": "樹德里",
+        "name": "中山一路223巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.477016,
+          25.081422
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247007",
+        "city": "new-taipei",
+        "lineid": "247007",
+        "linename": "路線4下午",
+        "rank": "2",
+        "village": "溪墘里",
+        "name": "中山一路95巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47668375264942,
+          25.079583157884002
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247007",
+        "city": "new-taipei",
+        "lineid": "247007",
+        "linename": "路線4下午",
+        "rank": "3",
+        "village": "溪墘里",
+        "name": "信義路77號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47467657633555,
+          25.07884508306653
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247007",
+        "city": "new-taipei",
+        "lineid": "247007",
+        "linename": "路線4下午",
+        "rank": "4",
+        "village": "民和里",
+        "name": "民生街30號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.472050705522,
+          25.0796956649699
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247007",
+        "city": "new-taipei",
+        "lineid": "247007",
+        "linename": "路線4下午",
+        "rank": "5",
+        "village": "得仁里",
+        "name": "中山一路275號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47385852368859,
+          25.079254902095425
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247007",
+        "city": "new-taipei",
+        "lineid": "247007",
+        "linename": "路線4下午",
+        "rank": "6",
+        "village": "民和里",
+        "name": "信義路16號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.475743,
+          25.08117
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247007",
+        "city": "new-taipei",
+        "lineid": "247007",
+        "linename": "路線4下午",
+        "rank": "7",
+        "village": "溪墘里",
+        "name": "中山一路135巷6弄口"
+      }
+    }
+  ]
+}

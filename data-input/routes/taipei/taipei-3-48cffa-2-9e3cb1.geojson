@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5689,
+          25.08646
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-48cffa-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "西湖-3",
+        "car_seq": "第2車",
+        "arrival_time": "1910",
+        "leave_time": "1920",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEG-1120",
+        "route_code": "109-G08",
+        "stop_name": "臺北市內湖區環山路1段134號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56788,
+          25.08643
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-48cffa-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "西湖-3",
+        "car_seq": "第2車",
+        "arrival_time": "1920",
+        "leave_time": "1930",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEG-1120",
+        "route_code": "109-G08",
+        "stop_name": "臺北市內湖區環山路1段98號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57452,
+          25.08497
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-48cffa-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "西湖-3",
+        "car_seq": "第2車",
+        "arrival_time": "2000",
+        "leave_time": "2020",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEG-1120",
+        "route_code": "109-G08",
+        "stop_name": "臺北市內湖區環山路2段81號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57273,
+          25.08571
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-48cffa-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "西湖-3",
+        "car_seq": "第2車",
+        "arrival_time": "2025",
+        "leave_time": "2050",
+        "district": "內湖區",
+        "team": "西湖分隊",
+        "car_no": "KEG-1120",
+        "route_code": "109-G08",
+        "stop_name": "臺北市內湖區環山路2段29巷1號"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52625,
+          25.0883
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-fa4ff8-3-d9a235",
+        "city": "taipei",
+        "route_name": "文林-2",
+        "car_seq": "第3車",
+        "arrival_time": "2350",
+        "leave_time": "2410",
+        "district": "士林區",
+        "team": "文林分隊",
+        "car_no": "229-BV",
+        "route_code": "102-057",
+        "stop_name": "臺北市士林區文林路113號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52549,
+          25.08664
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-fa4ff8-3-d9a235",
+        "city": "taipei",
+        "route_name": "文林-2",
+        "car_seq": "第3車",
+        "arrival_time": "2411",
+        "leave_time": "2413",
+        "district": "士林區",
+        "team": "文林分隊",
+        "car_no": "229-BV",
+        "route_code": "102-057",
+        "stop_name": "臺北市士林區文林路16號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52458,
+          25.08679
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-fa4ff8-3-d9a235",
+        "city": "taipei",
+        "route_name": "文林-2",
+        "car_seq": "第3車",
+        "arrival_time": "2417",
+        "leave_time": "2420",
+        "district": "士林區",
+        "team": "文林分隊",
+        "car_no": "229-BV",
+        "route_code": "102-057",
+        "stop_name": "臺北市士林區基河路13號"
+      }
+    }
+  ]
+}

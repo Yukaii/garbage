@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53897,
+          25.11619
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-fcc204-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "天母-4",
+        "car_seq": "第2車",
+        "arrival_time": "1730",
+        "leave_time": "1800",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "AAB-838",
+        "route_code": "105-G03",
+        "stop_name": "臺北市士林區天母轉運站天母國中後門"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53396,
+          25.11064
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-fcc204-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "天母-4",
+        "car_seq": "第2車",
+        "arrival_time": "1810",
+        "leave_time": "1825",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "AAB-838",
+        "route_code": "105-G03",
+        "stop_name": "臺北市士林區士東路200巷2號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53877,
+          25.11826
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-fcc204-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "天母-4",
+        "car_seq": "第2車",
+        "arrival_time": "1830",
+        "leave_time": "1835",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "AAB-838",
+        "route_code": "105-G03",
+        "stop_name": "臺北市士林區天母東路120號(天母國中)對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53688,
+          25.11822
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-fcc204-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "天母-4",
+        "car_seq": "第2車",
+        "arrival_time": "1836",
+        "leave_time": "1847",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "AAB-838",
+        "route_code": "105-G03",
+        "stop_name": "臺北市士林區天母東路109號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5353,
+          25.11817
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-fcc204-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "天母-4",
+        "car_seq": "第2車",
+        "arrival_time": "1848",
+        "leave_time": "1856",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "AAB-838",
+        "route_code": "105-G03",
+        "stop_name": "臺北市士林區天母東路79號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5327,
+          25.11478
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-fcc204-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "天母-4",
+        "car_seq": "第2車",
+        "arrival_time": "1900",
+        "leave_time": "1915",
+        "district": "士林區",
+        "team": "天母分隊",
+        "car_no": "AAB-838",
+        "route_code": "105-G03",
+        "stop_name": "臺北市士林區忠誠路2段150號前"
+      }
+    }
+  ]
+}

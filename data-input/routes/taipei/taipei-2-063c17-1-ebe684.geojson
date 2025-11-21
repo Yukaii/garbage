@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5514,
+          25.08523
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-063c17-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-2",
+        "car_seq": "第1車",
+        "arrival_time": "1700",
+        "leave_time": "1704",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "825-BT",
+        "route_code": "103-077",
+        "stop_name": "臺北市中山區明水路709號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56181,
+          25.07838
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-063c17-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-2",
+        "car_seq": "第1車",
+        "arrival_time": "1710",
+        "leave_time": "1713",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "825-BT",
+        "route_code": "103-077",
+        "stop_name": "臺北市中山區樂群二路266巷28號旁(中430公園對面)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56051,
+          25.08284
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-063c17-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-2",
+        "car_seq": "第1車",
+        "arrival_time": "1715",
+        "leave_time": "1735",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "825-BT",
+        "route_code": "103-077",
+        "stop_name": "臺北市中山區植福路215號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55961,
+          25.0792
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-063c17-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-2",
+        "car_seq": "第1車",
+        "arrival_time": "1742",
+        "leave_time": "1750",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "825-BT",
+        "route_code": "103-077",
+        "stop_name": "臺北市中山區敬業三路162巷109號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55938,
+          25.07821
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-063c17-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-2",
+        "car_seq": "第1車",
+        "arrival_time": "1752",
+        "leave_time": "1800",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "825-BT",
+        "route_code": "103-077",
+        "stop_name": "臺北市中山區敬業三路162巷71號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55806,
+          25.07819
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-063c17-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-2",
+        "car_seq": "第1車",
+        "arrival_time": "1802",
+        "leave_time": "1810",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "825-BT",
+        "route_code": "103-077",
+        "stop_name": "臺北市中山區敬業三路162巷36號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55697,
+          25.07907
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-063c17-1-ebe684",
+        "city": "taipei",
+        "route_name": "大直-2",
+        "car_seq": "第1車",
+        "arrival_time": "1812",
+        "leave_time": "1820",
+        "district": "中山區",
+        "team": "大直分隊",
+        "car_no": "825-BT",
+        "route_code": "103-077",
+        "stop_name": "臺北市中山區敬業三路162巷9號前"
+      }
+    }
+  ]
+}

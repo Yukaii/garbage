@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58982,
+          25.07931
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-3-d9a235",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第3車",
+        "arrival_time": "2140",
+        "leave_time": "2200",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區成功路3段133號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59861,
+          25.08451
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-3-d9a235",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第3車",
+        "arrival_time": "2205",
+        "leave_time": "2215",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區成功路4段317號前10公尺處"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5898,
+          25.07983
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-3-d9a235",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第3車",
+        "arrival_time": "2220",
+        "leave_time": "2225",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區成功路3段146號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5922,
+          25.08011
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-dbe80b-3-d9a235",
+        "city": "taipei",
+        "route_name": "內湖-1",
+        "car_seq": "第3車",
+        "arrival_time": "2230",
+        "leave_time": "2235",
+        "district": "內湖區",
+        "team": "內湖分隊",
+        "car_no": "AAB-278",
+        "route_code": "104-086",
+        "stop_name": "臺北市內湖區康寧路1段66號旁"
+      }
+    }
+  ]
+}

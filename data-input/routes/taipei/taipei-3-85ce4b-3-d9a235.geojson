@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53799,
+          25.02953
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-85ce4b-3-d9a235",
+        "city": "taipei",
+        "route_name": "瑞安-3",
+        "car_seq": "第3車",
+        "arrival_time": "2110",
+        "leave_time": "2124",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0305",
+        "route_code": "106-G14",
+        "stop_name": "臺北市大安區建國南路2段117號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53799,
+          25.03084
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-85ce4b-3-d9a235",
+        "city": "taipei",
+        "route_name": "瑞安-3",
+        "car_seq": "第3車",
+        "arrival_time": "2125",
+        "leave_time": "2130",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0305",
+        "route_code": "106-G14",
+        "stop_name": "臺北市大安區建國南路2段85號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53936,
+          25.03084
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-85ce4b-3-d9a235",
+        "city": "taipei",
+        "route_name": "瑞安-3",
+        "car_seq": "第3車",
+        "arrival_time": "2131",
+        "leave_time": "2140",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0305",
+        "route_code": "106-G14",
+        "stop_name": "臺北市大安區建國南路2段79巷33號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53939,
+          25.02883
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-85ce4b-3-d9a235",
+        "city": "taipei",
+        "route_name": "瑞安-3",
+        "car_seq": "第3車",
+        "arrival_time": "2141",
+        "leave_time": "2154",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0305",
+        "route_code": "106-G14",
+        "stop_name": "臺北市大安區建國南路2段151巷38號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54056,
+          25.02962
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-85ce4b-3-d9a235",
+        "city": "taipei",
+        "route_name": "瑞安-3",
+        "car_seq": "第3車",
+        "arrival_time": "2155",
+        "leave_time": "2205",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0305",
+        "route_code": "106-G14",
+        "stop_name": "臺北市大安區瑞安街208巷50號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54059,
+          25.03072
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-85ce4b-3-d9a235",
+        "city": "taipei",
+        "route_name": "瑞安-3",
+        "car_seq": "第3車",
+        "arrival_time": "2206",
+        "leave_time": "2210",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0305",
+        "route_code": "106-G14",
+        "stop_name": "臺北市大安區瑞安街208巷63之1號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54188,
+          25.03109
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-85ce4b-3-d9a235",
+        "city": "taipei",
+        "route_name": "瑞安-3",
+        "car_seq": "第3車",
+        "arrival_time": "2211",
+        "leave_time": "2215",
+        "district": "大安區",
+        "team": "瑞安分隊",
+        "car_no": "KEA-0305",
+        "route_code": "106-G14",
+        "stop_name": "臺北市大安區復興南路2段78巷42弄1號前"
+      }
+    }
+  ]
+}

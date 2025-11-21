@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52881,
+          25.06274
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-3-d9a235",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第3車",
+        "arrival_time": "2140",
+        "leave_time": "2145",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區民權東路2段17號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52793,
+          25.06365
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-3-d9a235",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第3車",
+        "arrival_time": "2146",
+        "leave_time": "2155",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區新生北路3段15號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52802,
+          25.06693
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-3-d9a235",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第3車",
+        "arrival_time": "2157",
+        "leave_time": "2204",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區新生北路3段73號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52803,
+          25.06787
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-3-d9a235",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第3車",
+        "arrival_time": "2205",
+        "leave_time": "2213",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區新生北路3段95號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53195,
+          25.06821
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-326690-3-d9a235",
+        "city": "taipei",
+        "route_name": "民一-2",
+        "car_seq": "第3車",
+        "arrival_time": "2215",
+        "leave_time": "2220",
+        "district": "中山區",
+        "team": "民一分隊",
+        "car_no": "KEA-0863",
+        "route_code": "107-G10",
+        "stop_name": "臺北市中山區民族東路230號前"
+      }
+    }
+  ]
+}

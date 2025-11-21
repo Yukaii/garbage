@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53453,
+          25.06813
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5eb1c2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-2",
+        "car_seq": "第2車",
+        "arrival_time": "1732",
+        "leave_time": "1740",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEA-0861",
+        "route_code": "107-G08",
+        "stop_name": "臺北市中山區民族東路254號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53955,
+          25.06806
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5eb1c2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-2",
+        "car_seq": "第2車",
+        "arrival_time": "1742",
+        "leave_time": "1755",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEA-0861",
+        "route_code": "107-G08",
+        "stop_name": "臺北市中山區民族東路438號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53698,
+          25.06525
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5eb1c2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-2",
+        "car_seq": "第2車",
+        "arrival_time": "1800",
+        "leave_time": "1806",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEA-0861",
+        "route_code": "107-G08",
+        "stop_name": "臺北市中山區建國北路3段73號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5383,
+          25.06699
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5eb1c2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-2",
+        "car_seq": "第2車",
+        "arrival_time": "1810",
+        "leave_time": "1820",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEA-0861",
+        "route_code": "107-G08",
+        "stop_name": "臺北市中山區民族東路410巷2弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.538593,
+          25.064354
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5eb1c2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-2",
+        "car_seq": "第2車",
+        "arrival_time": "1822",
+        "leave_time": "1835",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEA-0861",
+        "route_code": "107-G08",
+        "stop_name": "臺北市中山區五常街33號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53964,
+          25.06428
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-5eb1c2-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-2",
+        "car_seq": "第2車",
+        "arrival_time": "1837",
+        "leave_time": "1850",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEA-0861",
+        "route_code": "107-G08",
+        "stop_name": "臺北市中山區五常街55號對面"
+      }
+    }
+  ]
+}

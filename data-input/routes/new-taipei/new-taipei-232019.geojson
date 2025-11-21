@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232019",
+        "city": "new-taipei",
+        "lineid": "232019",
+        "linename": "漁光線2",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.726519,
+          24.962312
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232019",
+        "city": "new-taipei",
+        "lineid": "232019",
+        "linename": "漁光線2",
+        "rank": "2",
+        "village": "上德里",
+        "name": "九芎坑3-4號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.722618,
+          24.965632
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232019",
+        "city": "new-taipei",
+        "lineid": "232019",
+        "linename": "漁光線2",
+        "rank": "3",
+        "village": "上德里",
+        "name": "九芎坑2-2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.740821,
+          24.975977
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232019",
+        "city": "new-taipei",
+        "lineid": "232019",
+        "linename": "漁光線2",
+        "rank": "4",
+        "village": "漁光里",
+        "name": "乾溪2-1號"
+      }
+    }
+  ]
+}

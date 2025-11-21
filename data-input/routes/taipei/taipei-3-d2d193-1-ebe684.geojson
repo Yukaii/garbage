@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57395,
+          24.99268
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d2d193-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-3",
+        "car_seq": "第1車",
+        "arrival_time": "1730",
+        "leave_time": "1735",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEG-1538",
+        "route_code": "109-GA06",
+        "stop_name": "臺北市文山區新光路1段161號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57342,
+          24.9921
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d2d193-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-3",
+        "car_seq": "第1車",
+        "arrival_time": "1736",
+        "leave_time": "1739",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEG-1538",
+        "route_code": "109-GA06",
+        "stop_name": "臺北市文山區新光路1段130號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57468,
+          24.99168
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d2d193-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-3",
+        "car_seq": "第1車",
+        "arrival_time": "1740",
+        "leave_time": "1745",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEG-1538",
+        "route_code": "109-GA06",
+        "stop_name": "臺北市文山區秀明路2段22號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57622,
+          24.9914
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d2d193-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-3",
+        "car_seq": "第1車",
+        "arrival_time": "1746",
+        "leave_time": "1750",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEG-1538",
+        "route_code": "109-GA06",
+        "stop_name": "臺北市文山區秀明路2段88號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57575,
+          24.99035
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d2d193-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-3",
+        "car_seq": "第1車",
+        "arrival_time": "1751",
+        "leave_time": "1754",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEG-1538",
+        "route_code": "109-GA06",
+        "stop_name": "臺北市文山區秀明路2段112巷11號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57454,
+          24.99048
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d2d193-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-3",
+        "car_seq": "第1車",
+        "arrival_time": "1755",
+        "leave_time": "1800",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEG-1538",
+        "route_code": "109-GA06",
+        "stop_name": "臺北市文山區新光路1段65巷20號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57528,
+          24.98912
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-d2d193-1-ebe684",
+        "city": "taipei",
+        "route_name": "木柵-3",
+        "car_seq": "第1車",
+        "arrival_time": "1801",
+        "leave_time": "1805",
+        "district": "文山區",
+        "team": "木柵分隊",
+        "car_no": "KEG-1538",
+        "route_code": "109-GA06",
+        "stop_name": "臺北市文山區指南路2段45巷10弄1號旁"
+      }
+    }
+  ]
+}

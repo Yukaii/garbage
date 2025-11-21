@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232015",
+        "city": "new-taipei",
+        "lineid": "232015",
+        "linename": "粗窟線3",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.675258,
+          24.931967
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232015",
+        "city": "new-taipei",
+        "lineid": "232015",
+        "linename": "粗窟線3",
+        "rank": "2",
+        "village": "粗窟里",
+        "name": "灣潭8號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.692769,
+          24.944695
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232015",
+        "city": "new-taipei",
+        "lineid": "232015",
+        "linename": "粗窟線3",
+        "rank": "3",
+        "village": "粗窟里",
+        "name": "嶺腳坑7-2號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.688543,
+          24.934876
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232015",
+        "city": "new-taipei",
+        "lineid": "232015",
+        "linename": "粗窟線3",
+        "rank": "4",
+        "village": "粗窟里",
+        "name": "黃舉皮寮14號"
+      }
+    }
+  ]
+}

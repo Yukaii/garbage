@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51572,
+          25.07625
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c826e9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大龍-1",
+        "car_seq": "第2車",
+        "arrival_time": "1930",
+        "leave_time": "1937",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "AAB-853",
+        "route_code": "105-G06",
+        "stop_name": "臺北市大同區哈密街59巷底敦煌橋旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51574,
+          25.07494
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c826e9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大龍-1",
+        "car_seq": "第2車",
+        "arrival_time": "1938",
+        "leave_time": "1948",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "AAB-853",
+        "route_code": "105-G06",
+        "stop_name": "臺北市大同區哈密街59巷哈密公園"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51736,
+          25.072
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c826e9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大龍-1",
+        "car_seq": "第2車",
+        "arrival_time": "1950",
+        "leave_time": "1953",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "AAB-853",
+        "route_code": "105-G06",
+        "stop_name": "臺北市大同區庫倫街13巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5174,
+          25.0734
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c826e9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大龍-1",
+        "car_seq": "第2車",
+        "arrival_time": "1954",
+        "leave_time": "2000",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "AAB-853",
+        "route_code": "105-G06",
+        "stop_name": "臺北市大同區哈密街45巷、大龍國小東南角"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5173,
+          25.0746
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c826e9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大龍-1",
+        "car_seq": "第2車",
+        "arrival_time": "2001",
+        "leave_time": "2009",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "AAB-853",
+        "route_code": "105-G06",
+        "stop_name": "臺北市大同區哈密街23巷、大龍國小東北角"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5182,
+          25.07566
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c826e9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大龍-1",
+        "car_seq": "第2車",
+        "arrival_time": "2010",
+        "leave_time": "2013",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "AAB-853",
+        "route_code": "105-G06",
+        "stop_name": "臺北市大同區敦煌路78號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51956,
+          25.07529
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c826e9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大龍-1",
+        "car_seq": "第2車",
+        "arrival_time": "2014",
+        "leave_time": "2017",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "AAB-853",
+        "route_code": "105-G06",
+        "stop_name": "臺北市大同區敦煌路24巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52026,
+          25.07524
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c826e9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "大龍-1",
+        "car_seq": "第2車",
+        "arrival_time": "2018",
+        "leave_time": "2021",
+        "district": "大同區",
+        "team": "大龍分隊",
+        "car_no": "AAB-853",
+        "route_code": "105-G06",
+        "stop_name": "臺北市大同區敦煌路15號前"
+      }
+    }
+  ]
+}

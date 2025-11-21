@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56823,
+          25.02838
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-d32a59-1-ebe684",
+        "city": "taipei",
+        "route_name": "吳興-2",
+        "car_seq": "第1車",
+        "arrival_time": "1830",
+        "leave_time": "1900",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEA-0872",
+        "route_code": "107-G18",
+        "stop_name": "臺北市信義區松仁路160號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5649,
+          25.02855
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-d32a59-1-ebe684",
+        "city": "taipei",
+        "route_name": "吳興-2",
+        "car_seq": "第1車",
+        "arrival_time": "1905",
+        "leave_time": "1930",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEA-0872",
+        "route_code": "107-G18",
+        "stop_name": "臺北市信義區莊敬路341巷口"
+      }
+    }
+  ]
+}

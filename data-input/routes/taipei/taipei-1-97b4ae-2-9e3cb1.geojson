@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53726,
+          25.05554
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第2車",
+        "arrival_time": "1915",
+        "leave_time": "1925",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區建國北路2段51號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53813,
+          25.0562
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第2車",
+        "arrival_time": "1926",
+        "leave_time": "1931",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區興安街24號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53918,
+          25.05612
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第2車",
+        "arrival_time": "1932",
+        "leave_time": "1940",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區興安街50號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54016,
+          25.05596
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第2車",
+        "arrival_time": "1941",
+        "leave_time": "1950",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區興安街64號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54045,
+          25.05538
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第2車",
+        "arrival_time": "1951",
+        "leave_time": "2000",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區龍江路172之2號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53932,
+          25.05475
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-97b4ae-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "南京-1",
+        "car_seq": "第2車",
+        "arrival_time": "2001",
+        "leave_time": "2015",
+        "district": "中山區",
+        "team": "南京分隊",
+        "car_no": "121-BQ",
+        "route_code": "100-022",
+        "stop_name": "臺北市中山區長春路235號前"
+      }
+    }
+  ]
+}

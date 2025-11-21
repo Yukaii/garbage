@@ -1,0 +1,784 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.612206,
+          25.001184
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "1",
+        "village": "深坑里",
+        "name": "北深路2段189號 (聚祥商店)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61409,
+          25.002228
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "2",
+        "village": "深坑里",
+        "name": "北深路2段155號  (約納家園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.616844,
+          25.003271
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "3",
+        "village": "深坑里",
+        "name": "北深路2段115號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.618942,
+          25.004108
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "4",
+        "village": "埔新里",
+        "name": "北深路2段51號 (儒昌茶行)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.62231767,
+          25.004894959
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "5",
+        "village": "賴仲里",
+        "name": "北深路1段361號(黃世德)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.629509,
+          25.008734
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "6",
+        "village": "賴仲里",
+        "name": "北深路1段213號 (賴仲坑站牌)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.63033672,
+          25.008911445
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "7",
+        "village": "賴仲里",
+        "name": "北深路1段201巷 (文化芳鄰)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633781,
+          25.010752
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "8",
+        "village": "土庫里",
+        "name": "北深路1段153號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.634247,
+          25.0107
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "9",
+        "village": "土庫里",
+        "name": "北深路1段146號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.63548176,
+          25.010678355
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "10",
+        "village": "土庫里",
+        "name": "北深路1段112巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.636375,
+          25.010698
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "11",
+        "village": "土庫里",
+        "name": "北深路1段83 巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.63881723,
+          25.012051597
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "12",
+        "village": "土庫里",
+        "name": "松柏街43巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.637154,
+          25.010698
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "13",
+        "village": "土庫里",
+        "name": "北深路1段60 巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.63655074,
+          25.010803614
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "14",
+        "village": "土庫里",
+        "name": "北深路1段78號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.634918,
+          25.0107
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "15",
+        "village": "土庫里",
+        "name": "北深路1段104號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.633904,
+          25.010735
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "16",
+        "village": "土庫里",
+        "name": "北深路1段170 號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.62912543,
+          25.008671667
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "17",
+        "village": "賴仲里",
+        "name": "北深路1段264號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.619728,
+          25.004417
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "18",
+        "village": "埔新里",
+        "name": "北深路2段40號 (韓琳小吃店)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61779,
+          25.003645
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "19",
+        "village": "埔新里",
+        "name": "北深路2段82 號(深坑動物醫院)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.616714,
+          25.003222
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "20",
+        "village": "深坑里",
+        "name": "北深路2段118 號(林振得診所)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61599,
+          25.002937
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "21",
+        "village": "深坑里",
+        "name": "北深路2段132 巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.614296,
+          25.002308
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "22",
+        "village": "深坑里",
+        "name": "北深路2段178 號 (松竹涮涮鍋)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.612968,
+          25.00156
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "23",
+        "village": "深坑里",
+        "name": "北深路2段202 巷口 (謝醫師診所)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60980626,
+          25.001017985
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "24",
+        "village": "萬福里",
+        "name": "北深路3段24號  (蘭亭便當)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.608109,
+          25.001329
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "25",
+        "village": "萬福里",
+        "name": "北深路3段60 號(瓦斯行)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.607033,
+          25.001534
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "26",
+        "village": "萬福里",
+        "name": "北深路3段104 號 (振發茶行)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.602287,
+          25.003429
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "27",
+        "village": "萬福里",
+        "name": "北深路3段166 號 (我家牛排)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60163293,
+          25.003655857
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "28",
+        "village": "萬福里",
+        "name": "北深路3段192 巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60054,
+          25.004023
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "29",
+        "village": "萬福里",
+        "name": "北深路3段236 巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59948,
+          25.004351
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "30",
+        "village": "萬福里",
+        "name": "北深路3段260號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59648158,
+          25.005141803
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "31",
+        "village": "萬福里",
+        "name": "北深路3段286巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5969683,
+          25.005130491
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "32",
+        "village": "萬順里",
+        "name": "北深路3段345號 (佳麗堡)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59806029,
+          25.004780913
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "33",
+        "village": "萬順里",
+        "name": "北深路3段305號 (燦坤)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.599541,
+          25.004309
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "34",
+        "village": "萬順里",
+        "name": "北深路3段243巷"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.600441,
+          25.004
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "35",
+        "village": "萬順里",
+        "name": "北深路3段215巷(老實小鎮)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.601288,
+          25.003735
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "36",
+        "village": "萬順里",
+        "name": "北深路3段189巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.601898,
+          25.003538
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "37",
+        "village": "萬順里",
+        "name": "北深路3段167巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60383195,
+          25.002604555
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "38",
+        "village": "萬順里",
+        "name": "北深路3段135號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.607231,
+          25.001493
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "39",
+        "village": "萬順里",
+        "name": "北深路3段61號 (洗車場)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60861538,
+          25.001206749
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "40",
+        "village": "萬順里",
+        "name": "北深路3段31號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.608818,
+          25.000271
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-222001",
+        "city": "new-taipei",
+        "lineid": "222001",
+        "linename": "A路線 晚上1",
+        "rank": "41",
+        "village": "萬順里",
+        "name": "北深路3段25 巷 (明志加油站)"
+      }
+    }
+  ]
+}

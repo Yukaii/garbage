@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53483,
+          25.06464
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c20b6b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-1",
+        "car_seq": "第2車",
+        "arrival_time": "1955",
+        "leave_time": "2005",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEA-0860",
+        "route_code": "107-G07",
+        "stop_name": "臺北市中山區農安街182號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53934,
+          25.06022
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c20b6b-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-1",
+        "car_seq": "第2車",
+        "arrival_time": "2010",
+        "leave_time": "2040",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEA-0860",
+        "route_code": "107-G07",
+        "stop_name": "臺北市中山區錦州街350號"
+      }
+    }
+  ]
+}

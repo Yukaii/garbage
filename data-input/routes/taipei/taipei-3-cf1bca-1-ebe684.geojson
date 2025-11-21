@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56861,
+          25.02576
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-cf1bca-1-ebe684",
+        "city": "taipei",
+        "route_name": "吳興-3",
+        "car_seq": "第1車",
+        "arrival_time": "1830",
+        "leave_time": "1839",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEA-0871",
+        "route_code": "107-G17",
+        "stop_name": "臺北市信義區松仁路226號(吳興國小門口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5702,
+          25.02398
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-cf1bca-1-ebe684",
+        "city": "taipei",
+        "route_name": "吳興-3",
+        "car_seq": "第1車",
+        "arrival_time": "1840",
+        "leave_time": "1910",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEA-0871",
+        "route_code": "107-G17",
+        "stop_name": "臺北市信義區松仁路281巷4號(吳興街公車總站)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56835,
+          25.02439
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-cf1bca-1-ebe684",
+        "city": "taipei",
+        "route_name": "吳興-3",
+        "car_seq": "第1車",
+        "arrival_time": "1915",
+        "leave_time": "1925",
+        "district": "信義區",
+        "team": "吳興分隊",
+        "car_no": "KEA-0871",
+        "route_code": "107-G17",
+        "stop_name": "臺北市信義區松仁路240巷22號旁"
+      }
+    }
+  ]
+}

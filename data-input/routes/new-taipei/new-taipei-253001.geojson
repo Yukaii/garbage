@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.545522,
+          25.28975
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253001",
+        "city": "new-taipei",
+        "lineid": "253001",
+        "linename": "A路線上午",
+        "rank": "1",
+        "village": "老梅里",
+        "name": "老梅老人活動中心"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.519404,
+          25.283087
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253001",
+        "city": "new-taipei",
+        "lineid": "253001",
+        "linename": "A路線上午",
+        "rank": "2",
+        "village": "德茂里",
+        "name": "白沙灣風管所"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52627,
+          25.271234
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253001",
+        "city": "new-taipei",
+        "lineid": "253001",
+        "linename": "A路線上午",
+        "rank": "3",
+        "village": "德茂里",
+        "name": "中八甲路(三清宮)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.529983,
+          25.263473
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253001",
+        "city": "new-taipei",
+        "lineid": "253001",
+        "linename": "A路線上午",
+        "rank": "4",
+        "village": "德茂里",
+        "name": "德茂里14鄰"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524605,
+          25.280863
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253001",
+        "city": "new-taipei",
+        "lineid": "253001",
+        "linename": "A路線上午",
+        "rank": "5",
+        "village": "德茂里",
+        "name": "八甲13號(花宅)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.535496,
+          25.270006
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253001",
+        "city": "new-taipei",
+        "lineid": "253001",
+        "linename": "A路線上午",
+        "rank": "6",
+        "village": "富基里",
+        "name": "頂山寺"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5363067,
+          25.28234833
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253001",
+        "city": "new-taipei",
+        "lineid": "253001",
+        "linename": "A路線上午",
+        "rank": "7",
+        "village": "富基里",
+        "name": "徐家莊"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5373,
+          25.28887
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253001",
+        "city": "new-taipei",
+        "lineid": "253001",
+        "linename": "A路線上午",
+        "rank": "8",
+        "village": "富基里",
+        "name": "江宅"
+      }
+    }
+  ]
+}

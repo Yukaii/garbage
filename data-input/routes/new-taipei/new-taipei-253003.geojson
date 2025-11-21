@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5660165,
+          25.29017656
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253003",
+        "city": "new-taipei",
+        "lineid": "253003",
+        "linename": "C路線上午",
+        "rank": "1",
+        "village": "石門里",
+        "name": "石門衛生所"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5642488,
+          25.28009388
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253003",
+        "city": "new-taipei",
+        "lineid": "253003",
+        "linename": "C路線上午",
+        "rank": "2",
+        "village": "尖鹿里",
+        "name": "王家莊"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56612,
+          25.266161
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253003",
+        "city": "new-taipei",
+        "lineid": "253003",
+        "linename": "C路線上午",
+        "rank": "3",
+        "village": "石門里",
+        "name": "朱家莊"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5716406,
+          25.27325402
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253003",
+        "city": "new-taipei",
+        "lineid": "253003",
+        "linename": "C路線上午",
+        "rank": "4",
+        "village": "尖鹿里",
+        "name": "林厝"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.580627,
+          25.273087
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253003",
+        "city": "new-taipei",
+        "lineid": "253003",
+        "linename": "C路線上午",
+        "rank": "5",
+        "village": "尖鹿里",
+        "name": "慈清宮"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.578047,
+          25.265838
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253003",
+        "city": "new-taipei",
+        "lineid": "253003",
+        "linename": "C路線上午",
+        "rank": "6",
+        "village": "尖鹿里",
+        "name": "尖鹿14鄰61號(江豐農場)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.580247,
+          25.288931
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253003",
+        "city": "new-taipei",
+        "lineid": "253003",
+        "linename": "C路線上午",
+        "rank": "7",
+        "village": "尖鹿里",
+        "name": "尖鹿13鄰91號(江宅)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.586319,
+          25.292004
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-253003",
+        "city": "new-taipei",
+        "lineid": "253003",
+        "linename": "C路線上午",
+        "rank": "8",
+        "village": "乾華里",
+        "name": "十八王公"
+      }
+    }
+  ]
+}

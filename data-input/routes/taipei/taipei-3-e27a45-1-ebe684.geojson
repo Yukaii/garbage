@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53936,
+          25.06225
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-1-ebe684",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第1車",
+        "arrival_time": "1650",
+        "leave_time": "1710",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區民權東路3段8號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54225,
+          25.06223
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-1-ebe684",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第1車",
+        "arrival_time": "1712",
+        "leave_time": "1730",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區民權東路3段58號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53897,
+          25.05797
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-1-ebe684",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第1車",
+        "arrival_time": "1735",
+        "leave_time": "1745",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區民生東路3段31號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54258,
+          25.06428
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-1-ebe684",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第1車",
+        "arrival_time": "1755",
+        "leave_time": "1840",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區五常街16號前(五常國小前右側10公尺處)"
+      }
+    }
+  ]
+}

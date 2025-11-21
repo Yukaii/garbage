@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5325,
+          25.03671
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-178aa9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "仁愛-2",
+        "car_seq": "第2車",
+        "arrival_time": "2005",
+        "leave_time": "2012",
+        "district": "中正區",
+        "team": "仁愛分隊",
+        "car_no": "KEA-0866",
+        "route_code": "107-G12",
+        "stop_name": "臺北市中正區新生南路1段134-3號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53257,
+          25.03622
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-178aa9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "仁愛-2",
+        "car_seq": "第2車",
+        "arrival_time": "2012",
+        "leave_time": "2019",
+        "district": "中正區",
+        "team": "仁愛分隊",
+        "car_no": "KEA-0866",
+        "route_code": "107-G12",
+        "stop_name": "臺北市中正區新生南路1段140號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53245,
+          25.03526
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-178aa9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "仁愛-2",
+        "car_seq": "第2車",
+        "arrival_time": "2020",
+        "leave_time": "2027",
+        "district": "中正區",
+        "team": "仁愛分隊",
+        "car_no": "KEA-0866",
+        "route_code": "107-G12",
+        "stop_name": "臺北市中正區新生南路1段148號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53245,
+          25.03456
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-178aa9-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "仁愛-2",
+        "car_seq": "第2車",
+        "arrival_time": "2028",
+        "leave_time": "2035",
+        "district": "中正區",
+        "team": "仁愛分隊",
+        "car_no": "KEA-0866",
+        "route_code": "107-G12",
+        "stop_name": "臺北市中正區新生南路1段162號前"
+      }
+    }
+  ]
+}

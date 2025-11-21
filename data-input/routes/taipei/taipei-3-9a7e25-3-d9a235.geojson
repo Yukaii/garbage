@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58903,
+          25.06747
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-9a7e25-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-3",
+        "car_seq": "第3車",
+        "arrival_time": "2130",
+        "leave_time": "2140",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEA-1682",
+        "route_code": "108-G08",
+        "stop_name": "臺北市內湖區成功路2段320巷32號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58117,
+          25.07552
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-9a7e25-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-3",
+        "car_seq": "第3車",
+        "arrival_time": "2150",
+        "leave_time": "2158",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEA-1682",
+        "route_code": "108-G08",
+        "stop_name": "臺北市內湖區文德路22巷74弄10號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58963,
+          25.0735
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-9a7e25-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-3",
+        "car_seq": "第3車",
+        "arrival_time": "2205",
+        "leave_time": "2212",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEA-1682",
+        "route_code": "108-G08",
+        "stop_name": "臺北市內湖區成功路2段496號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58965,
+          25.07148
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-9a7e25-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-3",
+        "car_seq": "第3車",
+        "arrival_time": "2215",
+        "leave_time": "2220",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEA-1682",
+        "route_code": "108-G08",
+        "stop_name": "臺北市內湖區成功路2段432號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59037,
+          25.06612
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-9a7e25-3-d9a235",
+        "city": "taipei",
+        "route_name": "文德-3",
+        "car_seq": "第3車",
+        "arrival_time": "2225",
+        "leave_time": "2230",
+        "district": "內湖區",
+        "team": "文德分隊",
+        "car_no": "KEA-1682",
+        "route_code": "108-G08",
+        "stop_name": "臺北市內湖區成功路2段252號"
+      }
+    }
+  ]
+}

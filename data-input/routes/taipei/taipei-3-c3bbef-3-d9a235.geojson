@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55591,
+          25.04291
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-c3bbef-3-d9a235",
+        "city": "taipei",
+        "route_name": "敦化-3",
+        "car_seq": "第3車",
+        "arrival_time": "2140",
+        "leave_time": "2145",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "AAB-852",
+        "route_code": "105-G05",
+        "stop_name": "臺北市大安區延吉街131巷43號對面(第2次收集）"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55311,
+          25.04223
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-c3bbef-3-d9a235",
+        "city": "taipei",
+        "route_name": "敦化-3",
+        "car_seq": "第3車",
+        "arrival_time": "2150",
+        "leave_time": "2155",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "AAB-852",
+        "route_code": "105-G05",
+        "stop_name": "臺北市大安區忠孝東路4段223巷10弄1-6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55164,
+          25.04246
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-c3bbef-3-d9a235",
+        "city": "taipei",
+        "route_name": "敦化-3",
+        "car_seq": "第3車",
+        "arrival_time": "2158",
+        "leave_time": "2202",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "AAB-852",
+        "route_code": "105-G05",
+        "stop_name": "臺北市大安區敦化南路1段187巷48號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55062,
+          25.04269
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-c3bbef-3-d9a235",
+        "city": "taipei",
+        "route_name": "敦化-3",
+        "car_seq": "第3車",
+        "arrival_time": "2205",
+        "leave_time": "2208",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "AAB-852",
+        "route_code": "105-G05",
+        "stop_name": "臺北市大安區敦化南路1段187巷27號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55001,
+          25.04267
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-c3bbef-3-d9a235",
+        "city": "taipei",
+        "route_name": "敦化-3",
+        "car_seq": "第3車",
+        "arrival_time": "2210",
+        "leave_time": "2212",
+        "district": "大安區",
+        "team": "敦化分隊",
+        "car_no": "AAB-852",
+        "route_code": "105-G05",
+        "stop_name": "臺北市大安區敦化南路1段187巷15號"
+      }
+    }
+  ]
+}

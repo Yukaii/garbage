@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55065,
+          25.03335
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-cb5478-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "安和-1",
+        "car_seq": "第2車",
+        "arrival_time": "2000",
+        "leave_time": "2003",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "AAB-863",
+        "route_code": "105-G15",
+        "stop_name": "臺北市大安區信義路4段165號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55162,
+          25.03332
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-cb5478-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "安和-1",
+        "car_seq": "第2車",
+        "arrival_time": "2005",
+        "leave_time": "2013",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "AAB-863",
+        "route_code": "105-G15",
+        "stop_name": "臺北市大安區信義路4段203號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55256,
+          25.03326
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-cb5478-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "安和-1",
+        "car_seq": "第2車",
+        "arrival_time": "2015",
+        "leave_time": "2018",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "AAB-863",
+        "route_code": "105-G15",
+        "stop_name": "臺北市大安區信義路4段225號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5558,
+          25.03323
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-cb5478-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "安和-1",
+        "car_seq": "第2車",
+        "arrival_time": "2020",
+        "leave_time": "2023",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "AAB-863",
+        "route_code": "105-G15",
+        "stop_name": "臺北市大安區信義路4段307號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5564,
+          25.03417
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-cb5478-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "安和-1",
+        "car_seq": "第2車",
+        "arrival_time": "2028",
+        "leave_time": "2033",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "AAB-863",
+        "route_code": "105-G15",
+        "stop_name": "臺北市大安區延吉街256號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55571,
+          25.03566
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-cb5478-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "安和-1",
+        "car_seq": "第2車",
+        "arrival_time": "2035",
+        "leave_time": "2038",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "AAB-863",
+        "route_code": "105-G15",
+        "stop_name": "臺北市大安區延吉街241巷2弄17號光信公園前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5574,
+          25.03643
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-cb5478-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "安和-1",
+        "car_seq": "第2車",
+        "arrival_time": "2040",
+        "leave_time": "2050",
+        "district": "大安區",
+        "team": "安和分隊",
+        "car_no": "AAB-863",
+        "route_code": "105-G15",
+        "stop_name": "臺北市大安區光復南路422號前"
+      }
+    }
+  ]
+}

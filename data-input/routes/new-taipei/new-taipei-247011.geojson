@@ -1,0 +1,100 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.479486,
+          25.086176
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247011",
+        "city": "new-taipei",
+        "lineid": "247011",
+        "linename": "路線6下午",
+        "rank": "1",
+        "village": "信義里",
+        "name": "民族路87號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.477856577586,
+          25.0872002145894
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247011",
+        "city": "new-taipei",
+        "lineid": "247011",
+        "linename": "路線6下午",
+        "rank": "2",
+        "village": "信義里",
+        "name": "信義路278號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47613332358192,
+          25.086482624504175
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247011",
+        "city": "new-taipei",
+        "lineid": "247011",
+        "linename": "路線6下午",
+        "rank": "3",
+        "village": "信義里",
+        "name": "民權路38巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47469902295433,
+          25.08456747658786
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247011",
+        "city": "new-taipei",
+        "lineid": "247011",
+        "linename": "路線6下午",
+        "rank": "4",
+        "village": "鷺江里",
+        "name": "民權路3巷尾"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48196240752662,
+          25.089848279183368
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-247011",
+        "city": "new-taipei",
+        "lineid": "247011",
+        "linename": "路線6下午",
+        "rank": "5",
+        "village": "樓厝里",
+        "name": "中興街169號"
+      }
+    }
+  ]
+}

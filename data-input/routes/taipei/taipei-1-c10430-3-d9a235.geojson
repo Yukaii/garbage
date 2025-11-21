@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51129,
+          25.06352
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c10430-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-1",
+        "car_seq": "第3車",
+        "arrival_time": "2130",
+        "leave_time": "2135",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "063-BT",
+        "route_code": "102-070",
+        "stop_name": "臺北市大同區民權西路、延平北路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51116,
+          25.06381
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c10430-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-1",
+        "car_seq": "第3車",
+        "arrival_time": "2136",
+        "leave_time": "2139",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "063-BT",
+        "route_code": "102-070",
+        "stop_name": "臺北市大同區延平北路3段17巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5111,
+          25.06512
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c10430-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-1",
+        "car_seq": "第3車",
+        "arrival_time": "2140",
+        "leave_time": "2145",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "063-BT",
+        "route_code": "102-070",
+        "stop_name": "臺北市大同區延平北路3段、景化街口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51107,
+          25.06594
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c10430-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-1",
+        "car_seq": "第3車",
+        "arrival_time": "2146",
+        "leave_time": "2151",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "063-BT",
+        "route_code": "102-070",
+        "stop_name": "臺北市大同區延平北路3段63號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51105,
+          25.06737
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c10430-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-1",
+        "car_seq": "第3車",
+        "arrival_time": "2152",
+        "leave_time": "2157",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "063-BT",
+        "route_code": "102-070",
+        "stop_name": "臺北市大同區延平北路3段85號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.511,
+          25.06806
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c10430-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-1",
+        "car_seq": "第3車",
+        "arrival_time": "2158",
+        "leave_time": "2202",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "063-BT",
+        "route_code": "102-070",
+        "stop_name": "臺北市大同區延平北路3段107號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51097,
+          25.06929
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c10430-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-1",
+        "car_seq": "第3車",
+        "arrival_time": "2203",
+        "leave_time": "2208",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "063-BT",
+        "route_code": "102-070",
+        "stop_name": "臺北市大同區延平北路4段19號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51101,
+          25.07084
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-c10430-3-d9a235",
+        "city": "taipei",
+        "route_name": "蘭州-1",
+        "car_seq": "第3車",
+        "arrival_time": "2209",
+        "leave_time": "2215",
+        "district": "大同區",
+        "team": "蘭州分隊",
+        "car_no": "063-BT",
+        "route_code": "102-070",
+        "stop_name": "臺北市大同區延平北路4段93號"
+      }
+    }
+  ]
+}

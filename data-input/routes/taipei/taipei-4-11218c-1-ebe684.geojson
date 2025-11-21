@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53773,
+          25.10092
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第1車",
+        "arrival_time": "1600",
+        "leave_time": "1605",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區仰德大道1段12巷1號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53692,
+          25.10119
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第1車",
+        "arrival_time": "1607",
+        "leave_time": "1614",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區至誠路1段16號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53553,
+          25.10242
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第1車",
+        "arrival_time": "1616",
+        "leave_time": "1623",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區至誠路1段62巷70號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53403,
+          25.10132
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第1車",
+        "arrival_time": "1624",
+        "leave_time": "1629",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區至誠路1段150號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52895,
+          25.10408
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第1車",
+        "arrival_time": "1631",
+        "leave_time": "1639",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區雨聲街81號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52862,
+          25.10297
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第1車",
+        "arrival_time": "1640",
+        "leave_time": "1645",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區雨聲街61號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52665,
+          25.10409
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第1車",
+        "arrival_time": "1650",
+        "leave_time": "1654",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區忠誠路1段21號對面(靠公園側)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52636,
+          25.10193
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-4-11218c-1-ebe684",
+        "city": "taipei",
+        "route_name": "蘭雅-4",
+        "car_seq": "第1車",
+        "arrival_time": "1655",
+        "leave_time": "1700",
+        "district": "士林區",
+        "team": "蘭雅分隊",
+        "car_no": "235-BV",
+        "route_code": "102-062",
+        "stop_name": "臺北市士林區中山北路5段848號對面(靠公園側)"
+      }
+    }
+  ]
+}

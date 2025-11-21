@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54081,
+          25.06061
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第2車",
+        "arrival_time": "2010",
+        "leave_time": "2030",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區龍江路297號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54096,
+          25.0635
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第2車",
+        "arrival_time": "2032",
+        "leave_time": "2045",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區龍江路335號旁(345巷口)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54406,
+          25.06031
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第2車",
+        "arrival_time": "2050",
+        "leave_time": "2107",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區復興北路356號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54405,
+          25.05862
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第2車",
+        "arrival_time": "2109",
+        "leave_time": "2116",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區復興北路278號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54038,
+          25.05793
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第2車",
+        "arrival_time": "2119",
+        "leave_time": "2126",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區民生東路3段51號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53787,
+          25.05801
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第2車",
+        "arrival_time": "2128",
+        "leave_time": "2138",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區民生東路3段7號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53725,
+          25.06043
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-3-e27a45-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "民二-3",
+        "car_seq": "第2車",
+        "arrival_time": "2140",
+        "leave_time": "2145",
+        "district": "中山區",
+        "team": "民二分隊",
+        "car_no": "KEG-1535",
+        "route_code": "109-GA03",
+        "stop_name": "臺北市中山區建國北路2段135號"
+      }
+    }
+  ]
+}

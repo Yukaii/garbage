@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56699,
+          25.04914
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e9e8f5-1-ebe684",
+        "city": "taipei",
+        "route_name": "松山-2",
+        "car_seq": "第1車",
+        "arrival_time": "1720",
+        "leave_time": "1740",
+        "district": "松山區",
+        "team": "松山分隊",
+        "car_no": "KEA-0298",
+        "route_code": "106-G08",
+        "stop_name": "臺北市松山區八德路4段319號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55998,
+          25.04841
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e9e8f5-1-ebe684",
+        "city": "taipei",
+        "route_name": "松山-2",
+        "car_seq": "第1車",
+        "arrival_time": "1750",
+        "leave_time": "1807",
+        "district": "松山區",
+        "team": "松山分隊",
+        "car_no": "KEA-0298",
+        "route_code": "106-G08",
+        "stop_name": "臺北市松山區八德路4段70號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56389,
+          25.0488
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e9e8f5-1-ebe684",
+        "city": "taipei",
+        "route_name": "松山-2",
+        "car_seq": "第1車",
+        "arrival_time": "1812",
+        "leave_time": "1820",
+        "district": "松山區",
+        "team": "松山分隊",
+        "car_no": "KEA-0298",
+        "route_code": "106-G08",
+        "stop_name": "臺北市松山區八德路4段196號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5636,
+          25.04761
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e9e8f5-1-ebe684",
+        "city": "taipei",
+        "route_name": "松山-2",
+        "car_seq": "第1車",
+        "arrival_time": "1825",
+        "leave_time": "1830",
+        "district": "松山區",
+        "team": "松山分隊",
+        "car_no": "KEA-0298",
+        "route_code": "106-G08",
+        "stop_name": "臺北市松山區市民大道5段133號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56167,
+          25.04684
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e9e8f5-1-ebe684",
+        "city": "taipei",
+        "route_name": "松山-2",
+        "car_seq": "第1車",
+        "arrival_time": "1835",
+        "leave_time": "1840",
+        "district": "松山區",
+        "team": "松山分隊",
+        "car_no": "KEA-0298",
+        "route_code": "106-G08",
+        "stop_name": "臺北市松山區市民大道5段99號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55789,
+          25.04665
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-e9e8f5-1-ebe684",
+        "city": "taipei",
+        "route_name": "松山-2",
+        "car_seq": "第1車",
+        "arrival_time": "1845",
+        "leave_time": "1905",
+        "district": "松山區",
+        "team": "松山分隊",
+        "car_no": "KEA-0298",
+        "route_code": "106-G08",
+        "stop_name": "臺北市松山區光復南路31號"
+      }
+    }
+  ]
+}

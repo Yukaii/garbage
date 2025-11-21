@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57337,
+          25.04725
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-3c4373-1-ebe684",
+        "city": "taipei",
+        "route_name": "五分埔-2",
+        "car_seq": "第1車",
+        "arrival_time": "1800",
+        "leave_time": "1815",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEJ-0051",
+        "route_code": "110-G04",
+        "stop_name": "臺北市信義區永吉路225巷52弄23號前(五常公園)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57553,
+          25.04611
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-3c4373-1-ebe684",
+        "city": "taipei",
+        "route_name": "五分埔-2",
+        "car_seq": "第1車",
+        "arrival_time": "1818",
+        "leave_time": "1838",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEJ-0051",
+        "route_code": "110-G04",
+        "stop_name": "臺北市信義區永吉路321巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57282,
+          25.04578
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-3c4373-1-ebe684",
+        "city": "taipei",
+        "route_name": "五分埔-2",
+        "car_seq": "第1車",
+        "arrival_time": "1840",
+        "leave_time": "1850",
+        "district": "信義區",
+        "team": "五分埔分隊",
+        "car_no": "KEJ-0051",
+        "route_code": "110-G04",
+        "stop_name": "臺北市信義區永吉路189號"
+      }
+    }
+  ]
+}

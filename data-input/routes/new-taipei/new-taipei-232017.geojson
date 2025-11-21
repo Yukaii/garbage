@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.718185,
+          24.909464
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232017",
+        "city": "new-taipei",
+        "lineid": "232017",
+        "linename": "漁光線",
+        "rank": "1",
+        "village": "石曹里",
+        "name": "石嘈停車場"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.727534,
+          24.963426
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232017",
+        "city": "new-taipei",
+        "lineid": "232017",
+        "linename": "漁光線",
+        "rank": "2",
+        "village": "上德里",
+        "name": "九芎坑3-3號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.727365,
+          24.967257
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232017",
+        "city": "new-taipei",
+        "lineid": "232017",
+        "linename": "漁光線",
+        "rank": "3",
+        "village": "漁光里",
+        "name": "樟空子5號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.725966,
+          24.970316
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232017",
+        "city": "new-taipei",
+        "lineid": "232017",
+        "linename": "漁光線",
+        "rank": "4",
+        "village": "漁光里",
+        "name": "樟空子6-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.740821,
+          24.975977
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232017",
+        "city": "new-taipei",
+        "lineid": "232017",
+        "linename": "漁光線",
+        "rank": "5",
+        "village": "漁光里",
+        "name": "乾溪2-1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.766688,
+          24.961964
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232017",
+        "city": "new-taipei",
+        "lineid": "232017",
+        "linename": "漁光線",
+        "rank": "6",
+        "village": "漁光里",
+        "name": "坪雙路二段152號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77709,
+          24.941385
+        ]
+      },
+      "properties": {
+        "routeId": "new-taipei-232017",
+        "city": "new-taipei",
+        "lineid": "232017",
+        "linename": "漁光線",
+        "rank": "7",
+        "village": "漁光里",
+        "name": "中心崙16-1號"
+      }
+    }
+  ]
+}

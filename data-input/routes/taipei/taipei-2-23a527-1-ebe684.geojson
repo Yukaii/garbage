@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52972,
+          25.04833
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-23a527-1-ebe684",
+        "city": "taipei",
+        "route_name": "長安-2",
+        "car_seq": "第1車",
+        "arrival_time": "1630",
+        "leave_time": "1638",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "KEJ-6172",
+        "route_code": "110-G10",
+        "stop_name": "臺北市中山區新生北路1段51號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5301,
+          25.05086
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-23a527-1-ebe684",
+        "city": "taipei",
+        "route_name": "長安-2",
+        "car_seq": "第1車",
+        "arrival_time": "1640",
+        "leave_time": "1648",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "KEJ-6172",
+        "route_code": "110-G10",
+        "stop_name": "臺北市中山區吉林路31號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53146,
+          25.05085
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-23a527-1-ebe684",
+        "city": "taipei",
+        "route_name": "長安-2",
+        "car_seq": "第1車",
+        "arrival_time": "1650",
+        "leave_time": "1658",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "KEJ-6172",
+        "route_code": "110-G10",
+        "stop_name": "臺北市中山區一江街3號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53287,
+          25.04928
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-23a527-1-ebe684",
+        "city": "taipei",
+        "route_name": "長安-2",
+        "car_seq": "第1車",
+        "arrival_time": "1700",
+        "leave_time": "1710",
+        "district": "中山區",
+        "team": "長安分隊",
+        "car_no": "KEJ-6172",
+        "route_code": "110-G10",
+        "stop_name": "臺北市中山區松江路68號"
+      }
+    }
+  ]
+}

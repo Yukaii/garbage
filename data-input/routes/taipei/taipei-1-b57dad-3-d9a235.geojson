@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46953,
+          25.12228
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-3-d9a235",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第3車",
+        "arrival_time": "2127",
+        "leave_time": "2130",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區知行路316巷關渡路口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46879,
+          25.12242
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-3-d9a235",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第3車",
+        "arrival_time": "2130",
+        "leave_time": "2132",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區知行路316巷22弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46836,
+          25.12244
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-3-d9a235",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第3車",
+        "arrival_time": "2135",
+        "leave_time": "2138",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區知行路316巷20弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46715,
+          25.12256
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-3-d9a235",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第3車",
+        "arrival_time": "2139",
+        "leave_time": "2141",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區知行路316巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46741,
+          25.12187
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-3-d9a235",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第3車",
+        "arrival_time": "2142",
+        "leave_time": "2146",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區知行路293巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46715,
+          25.12067
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-3-d9a235",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第3車",
+        "arrival_time": "2147",
+        "leave_time": "2151",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區知行路245巷口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46679,
+          25.11945
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-3-d9a235",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第3車",
+        "arrival_time": "2152",
+        "leave_time": "2154",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區知行路208號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46635,
+          25.11915
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-b57dad-3-d9a235",
+        "city": "taipei",
+        "route_name": "關渡-1",
+        "car_seq": "第3車",
+        "arrival_time": "2155",
+        "leave_time": "2200",
+        "district": "北投區",
+        "team": "關渡分隊",
+        "car_no": "965-BS",
+        "route_code": "102-069",
+        "stop_name": "臺北市北投區知行路201巷口"
+      }
+    }
+  ]
+}

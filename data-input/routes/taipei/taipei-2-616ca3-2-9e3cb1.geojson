@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50692,
+          25.08581
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-616ca3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "社子-2",
+        "car_seq": "第2車",
+        "arrival_time": "2030",
+        "leave_time": "2040",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "820-BT",
+        "route_code": "103-073",
+        "stop_name": "臺北市士林區中正路707巷1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50874,
+          25.08641
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-616ca3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "社子-2",
+        "car_seq": "第2車",
+        "arrival_time": "2042",
+        "leave_time": "2049",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "820-BT",
+        "route_code": "103-073",
+        "stop_name": "臺北市士林區中正路625號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50953,
+          25.0856
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-616ca3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "社子-2",
+        "car_seq": "第2車",
+        "arrival_time": "2051",
+        "leave_time": "2100",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "820-BT",
+        "route_code": "103-073",
+        "stop_name": "臺北市士林區延平北路5段283號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50968,
+          25.08498
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-616ca3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "社子-2",
+        "car_seq": "第2車",
+        "arrival_time": "2101",
+        "leave_time": "2110",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "820-BT",
+        "route_code": "103-073",
+        "stop_name": "臺北市士林區延平北路5段259號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51002,
+          25.08343
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-616ca3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "社子-2",
+        "car_seq": "第2車",
+        "arrival_time": "2111",
+        "leave_time": "2120",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "820-BT",
+        "route_code": "103-073",
+        "stop_name": "臺北市士林區延平北路5段193號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51018,
+          25.08259
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-616ca3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "社子-2",
+        "car_seq": "第2車",
+        "arrival_time": "2121",
+        "leave_time": "2130",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "820-BT",
+        "route_code": "103-073",
+        "stop_name": "臺北市士林區延平北路5段161號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51072,
+          25.08041
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-616ca3-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "社子-2",
+        "car_seq": "第2車",
+        "arrival_time": "2131",
+        "leave_time": "2140",
+        "district": "士林區",
+        "team": "社子分隊",
+        "car_no": "820-BT",
+        "route_code": "103-073",
+        "stop_name": "臺北市士林區延平北路5段57號"
+      }
+    }
+  ]
+}

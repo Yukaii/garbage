@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56117,
+          25.0227
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f68fff-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-2",
+        "car_seq": "第2車",
+        "arrival_time": "1942",
+        "leave_time": "1950",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEG-1586",
+        "route_code": "109-GA16",
+        "stop_name": "臺北市信義區吳興街284巷24弄84號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56341,
+          25.0221
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f68fff-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-2",
+        "car_seq": "第2車",
+        "arrival_time": "1952",
+        "leave_time": "2000",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEG-1586",
+        "route_code": "109-GA16",
+        "stop_name": "臺北市信義區吳興街284巷59弄口"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56328,
+          25.02318
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f68fff-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-2",
+        "car_seq": "第2車",
+        "arrival_time": "2002",
+        "leave_time": "2010",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEG-1586",
+        "route_code": "109-GA16",
+        "stop_name": "臺北市信義區吳興街284巷30弄47號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56357,
+          25.02423
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f68fff-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-2",
+        "car_seq": "第2車",
+        "arrival_time": "2012",
+        "leave_time": "2020",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEG-1586",
+        "route_code": "109-GA16",
+        "stop_name": "臺北市信義區吳興街284巷24弄2號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56409,
+          25.02577
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-f68fff-2-9e3cb1",
+        "city": "taipei",
+        "route_name": "六張犁-2",
+        "car_seq": "第2車",
+        "arrival_time": "2022",
+        "leave_time": "2030",
+        "district": "信義區",
+        "team": "六張犁分隊",
+        "car_no": "KEG-1586",
+        "route_code": "109-GA16",
+        "stop_name": "臺北市信義區吳興街284巷3號前"
+      }
+    }
+  ]
+}

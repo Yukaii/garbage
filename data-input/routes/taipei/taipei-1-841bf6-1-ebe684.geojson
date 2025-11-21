@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55743,
+          24.98293
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-841bf6-1-ebe684",
+        "city": "taipei",
+        "route_name": "復興-1",
+        "car_seq": "第1車",
+        "arrival_time": "1755",
+        "leave_time": "1800",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "123-BQ",
+        "route_code": "100-032",
+        "stop_name": "臺北市文山區忠順街1段26巷11弄2號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55911,
+          24.98128
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-841bf6-1-ebe684",
+        "city": "taipei",
+        "route_name": "復興-1",
+        "car_seq": "第1車",
+        "arrival_time": "1801",
+        "leave_time": "1804",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "123-BQ",
+        "route_code": "100-032",
+        "stop_name": "臺北市文山區木新路3段236號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55693,
+          24.98201
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-841bf6-1-ebe684",
+        "city": "taipei",
+        "route_name": "復興-1",
+        "car_seq": "第1車",
+        "arrival_time": "1805",
+        "leave_time": "1809",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "123-BQ",
+        "route_code": "100-032",
+        "stop_name": "臺北市文山區木新路3段310巷12弄1號旁"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55819,
+          24.98384
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-841bf6-1-ebe684",
+        "city": "taipei",
+        "route_name": "復興-1",
+        "car_seq": "第1車",
+        "arrival_time": "1811",
+        "leave_time": "1814",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "123-BQ",
+        "route_code": "100-032",
+        "stop_name": "臺北市文山區忠順街1段8號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56005,
+          24.98419
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-841bf6-1-ebe684",
+        "city": "taipei",
+        "route_name": "復興-1",
+        "car_seq": "第1車",
+        "arrival_time": "1815",
+        "leave_time": "1820",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "123-BQ",
+        "route_code": "100-032",
+        "stop_name": "臺北市文山區忠順街1段50號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56185,
+          24.98392
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-841bf6-1-ebe684",
+        "city": "taipei",
+        "route_name": "復興-1",
+        "car_seq": "第1車",
+        "arrival_time": "1821",
+        "leave_time": "1824",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "123-BQ",
+        "route_code": "100-032",
+        "stop_name": "臺北市文山區興隆路4段76號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5621,
+          24.98323
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-841bf6-1-ebe684",
+        "city": "taipei",
+        "route_name": "復興-1",
+        "car_seq": "第1車",
+        "arrival_time": "1824",
+        "leave_time": "1828",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "123-BQ",
+        "route_code": "100-032",
+        "stop_name": "臺北市文山區興隆路4段98號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56221,
+          24.98251
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-1-841bf6-1-ebe684",
+        "city": "taipei",
+        "route_name": "復興-1",
+        "car_seq": "第1車",
+        "arrival_time": "1828",
+        "leave_time": "1830",
+        "district": "文山區",
+        "team": "復興分隊",
+        "car_no": "123-BQ",
+        "route_code": "100-032",
+        "stop_name": "臺北市文山區興隆路4段124號前"
+      }
+    }
+  ]
+}

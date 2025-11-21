@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52731,
+          25.03849
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-178aa9-3-d9a235",
+        "city": "taipei",
+        "route_name": "仁愛-2",
+        "car_seq": "第3車",
+        "arrival_time": "2115",
+        "leave_time": "2120",
+        "district": "中正區",
+        "team": "仁愛分隊",
+        "car_no": "KEA-0866",
+        "route_code": "107-G12",
+        "stop_name": "臺北市中正區仁愛路2段25之1號"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52572,
+          25.03943
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-178aa9-3-d9a235",
+        "city": "taipei",
+        "route_name": "仁愛-2",
+        "car_seq": "第3車",
+        "arrival_time": "2121",
+        "leave_time": "2125",
+        "district": "中正區",
+        "team": "仁愛分隊",
+        "car_no": "KEA-0866",
+        "route_code": "107-G12",
+        "stop_name": "臺北市中正區杭州南路1段75號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52384,
+          25.03982
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-178aa9-3-d9a235",
+        "city": "taipei",
+        "route_name": "仁愛-2",
+        "car_seq": "第3車",
+        "arrival_time": "2126",
+        "leave_time": "2130",
+        "district": "中正區",
+        "team": "仁愛分隊",
+        "car_no": "KEA-0866",
+        "route_code": "107-G12",
+        "stop_name": "臺北市中正區紹興南街18-15號對面"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52211,
+          25.03995
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-178aa9-3-d9a235",
+        "city": "taipei",
+        "route_name": "仁愛-2",
+        "car_seq": "第3車",
+        "arrival_time": "2131",
+        "leave_time": "2135",
+        "district": "中正區",
+        "team": "仁愛分隊",
+        "car_no": "KEA-0866",
+        "route_code": "107-G12",
+        "stop_name": "臺北市中正區林森南路57號前"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52323,
+          25.04063
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-2-178aa9-3-d9a235",
+        "city": "taipei",
+        "route_name": "仁愛-2",
+        "car_seq": "第3車",
+        "arrival_time": "2136",
+        "leave_time": "2140",
+        "district": "中正區",
+        "team": "仁愛分隊",
+        "car_no": "KEA-0866",
+        "route_code": "107-G12",
+        "stop_name": "臺北市中正區徐州路20號前"
+      }
+    }
+  ]
+}
