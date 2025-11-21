@@ -6,7 +6,7 @@ Place ordered waypoint definitions here to generate road-following routes with V
 - One GeoJSON FeatureCollection per file under `data-input/routes/{city}/`.
 - Features must be Point geometries listed in ride order for a single route.
 - Include `properties.routeId` (string) and optional `truckOptions` (height, weight, width, length, axle_load) to override defaults.
-- Taipei/New Taipei inputs live in the `data` branch under `data-input/routes/` to keep main light. Generate them with `node scripts/generate-waypoints-from-data.js` (pulls `data:` branch JSON, orders by arrival time / rank) and commit to the `data` branch.
+- Taipei/New Taipei inputs live in the `data` branch under `data-input/routes/` to keep main light. Generate them from a data worktree with `node scripts/generate-waypoints-from-data.js` (script lives in the `data` branch under `scripts/`; it pulls `data:` branch JSON and orders by arrival time / rank) and commit to the `data` branch.
 
 Minimal example:
 ```json
