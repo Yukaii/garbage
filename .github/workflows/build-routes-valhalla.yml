@@ -30,6 +30,11 @@ jobs:
           git fetch origin data
           rm -rf ../data-branch || true
           git worktree add ../data-branch data
+          git -C ../data-branch pull --ff-only
+          echo "Data worktree contents:"
+          ls -la ../data-branch
+          echo "Data input routes dir:"
+          ls -la ../data-branch/data-input || true
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -57,7 +62,11 @@ jobs:
       - name: Build routed GeoJSON from waypoints
         run: |
           ROUTE_DIR=../data-branch/data-input/routes
-          if [ ! -d "$ROUTE_DIR" ]; then
+          echo "Listing route definitions under $ROUTE_DIR"
+          ls -la "$ROUTE_DIR" || true
+          find "$ROUTE_DIR" -maxdepth 2 -type f -name "*.geojson" | head -n 20
+          ROUTE_COUNT=$(find "$ROUTE_DIR" -name "*.geojson" | wc -l || echo 0)
+          if [ "$ROUTE_COUNT" -eq 0 ]; then
             echo "No route definitions found in data branch; skipping."
             exit 0
           fi
