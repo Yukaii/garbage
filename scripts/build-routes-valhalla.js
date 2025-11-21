@@ -46,7 +46,6 @@ const valhallaConfigContainer =
 const valhallaRouteCmd =
   args["valhalla-route-cmd"] || args["valhalla_route_cmd"] || "valhalla_run_route";
 const maxLocationsPerRequest = Number(args["max-locations"] || process.env.MAX_VALHALLA_LOCS || 100);
-const maxDistancePerRequest = Number(args["max-distance"] || process.env.MAX_VALHALLA_DISTANCE || 5000);
 
 async function pathExists(p) {
   try {
@@ -148,91 +147,13 @@ function buildRequest(locations, truckOptions) {
 
 async function routeWithValhalla(requestFileHost, configPathContainer) {
   const requestFileContainer = toContainerPath(requestFileHost);
-  const inlineConfig = {
-    service_limits: {
-      auto: {
-        max_locations: 500,
-        max_distance: maxDistancePerRequest,
-        max_matrix_distance: maxDistancePerRequest,
-        max_matrix_duration: maxDistancePerRequest,
-        max_matrix_location_pairs: 500 * 500,
-      },
-      auto_shorter: {
-        max_locations: 500,
-        max_distance: maxDistancePerRequest,
-        max_matrix_distance: maxDistancePerRequest,
-        max_matrix_duration: maxDistancePerRequest,
-        max_matrix_location_pairs: 500 * 500,
-      },
-      truck: {
-        max_locations: 500,
-        max_distance: maxDistancePerRequest,
-        max_matrix_distance: maxDistancePerRequest,
-        max_matrix_duration: maxDistancePerRequest,
-        max_matrix_location_pairs: 500 * 500,
-      },
-      bus: {
-        max_locations: 500,
-        max_distance: maxDistancePerRequest,
-        max_matrix_distance: maxDistancePerRequest,
-        max_matrix_duration: maxDistancePerRequest,
-        max_matrix_location_pairs: 500 * 500,
-      },
-      motorcycle: {
-        max_locations: 500,
-        max_distance: maxDistancePerRequest,
-        max_matrix_distance: maxDistancePerRequest,
-        max_matrix_duration: maxDistancePerRequest,
-        max_matrix_location_pairs: 500 * 500,
-      },
-      motor_scooter: {
-        max_locations: 500,
-        max_distance: maxDistancePerRequest,
-        max_matrix_distance: maxDistancePerRequest,
-        max_matrix_duration: maxDistancePerRequest,
-        max_matrix_location_pairs: 500 * 500,
-      },
-      pedestrian: {
-        max_locations: 500,
-        max_distance: maxDistancePerRequest,
-        max_matrix_distance: maxDistancePerRequest,
-        max_matrix_duration: maxDistancePerRequest,
-        max_matrix_location_pairs: 500 * 500,
-      },
-      bicycle: {
-        max_locations: 500,
-        max_distance: maxDistancePerRequest,
-        max_matrix_distance: maxDistancePerRequest,
-        max_matrix_duration: maxDistancePerRequest,
-        max_matrix_location_pairs: 500 * 500,
-      },
-      matrix: {
-        max_locations: 500,
-        max_distance: maxDistancePerRequest,
-        max_matrix_distance: maxDistancePerRequest,
-        max_matrix_duration: maxDistancePerRequest,
-        max_matrix_location_pairs: 500 * 500,
-      },
-      optimized_route: {
-        max_locations: 500,
-        max_distance: maxDistancePerRequest,
-        max_matrix_distance: maxDistancePerRequest,
-        max_matrix_duration: maxDistancePerRequest,
-        max_matrix_location_pairs: 500 * 500,
-      },
-    },
-  };
-  const inlineJson = JSON.stringify(inlineConfig);
-  const inlineArg = `'${inlineJson.replace(/'/g, `'\"'\"'`)}'`;
   const stdout = await runCommand(
     valhallaRouteCmd,
     [
       "--json-file",
       requestFileContainer,
       "-c",
-      configPathContainer,
-      "--inline-config",
-      inlineArg,
+      configPathContainer
     ],
     null
   );
