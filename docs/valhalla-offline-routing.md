@@ -69,7 +69,8 @@ File: `.github/workflows/build-routes-valhalla.yml`
 ### Implemented CI (current)
 - Workflow: `.github/workflows/build-routes-valhalla.yml`
 - Routing script: `scripts/build-routes-valhalla.js`
-- Triggered on route input changes, weekly refresh, or manual dispatch.
+- Inputs are stored in the `data` branch under `data-input/routes/` (fetched via worktree); outputs are written back to `data` as `routes/{city}/*.geojson` plus manifests.
+- Triggered weekly and via manual dispatch; path filters cover workflow/script/doc updates on `main`.
 - Uses Valhalla Docker image to build tiles from the Taiwan extract and generate routed GeoJSON. Publishes to the `data` branch via worktree.
 
 ## Routing Script Expectations
