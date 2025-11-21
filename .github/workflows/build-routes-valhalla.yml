@@ -75,7 +75,7 @@ jobs:
             --routes-dir="$ROUTE_DIR" \
             --out-dir=build/routes \
             --valhalla-config=valhalla.json \
-            --valhalla-route-cmd="docker run --rm -i -v $PWD:/data -w /data $VALHALLA_IMAGE valhalla_route"
+            --valhalla-route-cmd="docker run --rm -i -v $PWD:/data -w /data $VALHALLA_IMAGE /usr/local/bin/valhalla_run_route"
 
       - name: Publish to data branch
         run: |

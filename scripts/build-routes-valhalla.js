@@ -35,7 +35,9 @@ const args = parseArgs(process.argv.slice(2));
 const routesDir = path.resolve(args["routes-dir"] || path.join(__dirname, "..", "data-input", "routes"));
 const outDir = path.resolve(args["out-dir"] || path.join(__dirname, "..", "build", "routes"));
 const valhallaConfig = path.resolve(args["valhalla-config"] || path.join(process.cwd(), "valhalla.json"));
-const valhallaRouteCmd = args["valhalla-route-cmd"] || "valhalla_route";
+// ghcr.io/valhalla/valhalla images expose valhalla_run_route (not valhalla_route)
+const valhallaRouteCmd =
+  args["valhalla-route-cmd"] || args["valhalla_route_cmd"] || "valhalla_run_route";
 
 async function pathExists(p) {
   try {
