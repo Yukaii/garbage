@@ -17,6 +17,8 @@ permissions:
 jobs:
   build-routes:
     runs-on: ubuntu-latest
+    env:
+      VALHALLA_IMAGE: ghcr.io/valhalla/valhalla:latest
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
@@ -38,13 +40,16 @@ jobs:
         run: |
           mkdir -p build valhalla
 
+      - name: Pull Valhalla image
+        run: docker pull $VALHALLA_IMAGE
+
       - name: Download Taiwan OSM extract
         run: |
           curl -L https://download.geofabrik.de/asia/taiwan-latest.osm.pbf -o build/taiwan.osm.pbf
 
       - name: Build Valhalla config and tiles
         run: |
-          docker run --rm -v $PWD:/data -w /data valhalla/valhalla:latest bash -c "\
+          docker run --rm -v $PWD:/data -w /data $VALHALLA_IMAGE bash -c "\
             valhalla_build_config --mjolnir-tile-dir /data/valhalla/tiles --mjolnir-admin /usr/local/share/admins.sqlite --mjolnir-timezone /usr/share/zoneinfo > /data/valhalla.json && \
             mkdir -p /data/valhalla/tiles && \
             valhalla_build_tiles -c /data/valhalla.json /data/build/taiwan.osm.pbf"
@@ -60,7 +65,7 @@ jobs:
             --routes-dir="$ROUTE_DIR" \
             --out-dir=build/routes \
             --valhalla-config=valhalla.json \
-            --valhalla-route-cmd="docker run --rm -i -v $PWD:/data -w /data valhalla/valhalla:latest valhalla_route"
+            --valhalla-route-cmd="docker run --rm -i -v $PWD:/data -w /data $VALHALLA_IMAGE valhalla_route"
 
       - name: Publish to data branch
         run: |
