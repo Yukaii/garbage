@@ -66,6 +66,12 @@ File: `.github/workflows/build-routes-valhalla.yml`
 
 - **Env/dev tooling**: install `osmium-tool` for clipping; use `actions/cache` to reuse tiles and reduce build minutes.
 
+### Implemented CI (current)
+- Workflow: `.github/workflows/build-routes-valhalla.yml`
+- Routing script: `scripts/build-routes-valhalla.js`
+- Triggered on route input changes, weekly refresh, or manual dispatch.
+- Uses Valhalla Docker image to build tiles from the Taiwan extract and generate routed GeoJSON. Publishes to the `data` branch via worktree.
+
 ## Routing Script Expectations
 - Read each route definition (ordered waypoints). Validate min 2 points.
 - Build Valhalla request with per-route truck options (fallback to defaults).
@@ -89,7 +95,12 @@ routes/
 - Defer until routing data is produced.
 
 ## Operational Notes
-- Keep OSM extract clipped to Taipei to control CI time/storage.
-- Pin Valhalla version in workflow to avoid accidental changes; surface it in manifest.
-- If caching tiles, invalidate cache on OSM timestamp or Valhalla version bump.
+- Keep OSM extract clipped to Taipei to control CI time/storage.  
+- Pin Valhalla version in workflow to avoid accidental changes; surface it in manifest.  
+- If caching tiles, invalidate cache on OSM timestamp or Valhalla version bump.  
 - Monitor failed routes; script should fail the workflow if any route cannot be generated.
+
+## City Onboarding Order
+- **Taipei / New Taipei first**: existing official lat/lon points are considered accurate; use them directly as ordered waypoints for initial routing runs.  
+- As soon as waypoint files are added under `data-input/routes/{city}/`, the workflow can be enabled to build and publish routed lines.  
+- Defer frontend wiring until these routed outputs exist.

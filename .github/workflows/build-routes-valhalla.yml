@@ -1,0 +1,83 @@
+name: Build routed truck lines (Valhalla)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 18 * * 0" # Weekly rebuild to pick up OSM changes
+  push:
+    branches: [main]
+    paths:
+      - "data-input/routes/**"
+      - "scripts/build-routes-valhalla.js"
+      - ".github/workflows/build-routes-valhalla.yml"
+      - "docs/valhalla-offline-routing.md"
+
+permissions:
+  contents: write
+
+jobs:
+  build-routes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Prepare directories
+        run: |
+          mkdir -p build valhalla
+
+      - name: Download Taiwan OSM extract
+        run: |
+          curl -L https://download.geofabrik.de/asia/taiwan-latest.osm.pbf -o build/taiwan.osm.pbf
+
+      - name: Build Valhalla config and tiles
+        run: |
+          docker run --rm -v $PWD:/data -w /data valhalla/valhalla:latest bash -c "\
+            valhalla_build_config --mjolnir-tile-dir /data/valhalla/tiles --mjolnir-admin /usr/local/share/admins.sqlite --mjolnir-timezone /usr/share/zoneinfo > /data/valhalla.json && \
+            mkdir -p /data/valhalla/tiles && \
+            valhalla_build_tiles -c /data/valhalla.json /data/build/taiwan.osm.pbf"
+
+      - name: Build routed GeoJSON from waypoints
+        run: |
+          if [ ! -d data-input/routes ]; then
+            echo "No route definitions found; skipping."
+            exit 0
+          fi
+          node scripts/build-routes-valhalla.js \
+            --routes-dir=data-input/routes \
+            --out-dir=build/routes \
+            --valhalla-config=valhalla.json \
+            --valhalla-route-cmd="docker run --rm -i -v $PWD:/data -w /data valhalla/valhalla:latest valhalla_route"
+
+      - name: Publish to data branch
+        run: |
+          if [ ! -d build/routes ]; then
+            echo "No routes generated; skipping publish."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin data || git fetch origin data:data
+          git worktree add ../data-branch data
+
+          rsync -a --delete build/routes/ ../data-branch/routes/
+
+          cd ../data-branch
+          git add routes
+
+          if git diff --cached --quiet; then
+            echo "No route changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update routed garbage truck lines"
+          git push origin HEAD:data
