@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { promises as fs } from "fs";
 import path from "path";
-import { spawn } from "child_process";
+import { spawn, execSync } from "child_process";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -9,15 +9,23 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 function parseArgs(argv) {
   const args = {};
   for (let i = 0; i < argv.length; i++) {
-    const key = argv[i];
-    if (key.startsWith("--")) {
-      const next = argv[i + 1];
-      if (next && !next.startsWith("--")) {
-        args[key.slice(2)] = next;
-        i++;
-      } else {
-        args[key.slice(2)] = true;
-      }
+    let key = argv[i];
+    if (!key.startsWith("--")) continue;
+
+    // Support --key=value form
+    if (key.includes("=")) {
+      const [k, ...rest] = key.split("=");
+      const value = rest.join("=");
+      args[k.slice(2)] = value;
+      continue;
+    }
+
+    const next = argv[i + 1];
+    if (next && !next.startsWith("--")) {
+      args[key.slice(2)] = next;
+      i++;
+    } else {
+      args[key.slice(2)] = true;
     }
   }
   return args;
