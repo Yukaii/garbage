@@ -5,6 +5,7 @@ import { spawn, execSync } from "child_process";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const repoRoot = process.cwd();
 
 function parseArgs(argv) {
   const args = {};
@@ -34,10 +35,18 @@ function parseArgs(argv) {
 const args = parseArgs(process.argv.slice(2));
 const routesDir = path.resolve(args["routes-dir"] || path.join(__dirname, "..", "data-input", "routes"));
 const outDir = path.resolve(args["out-dir"] || path.join(__dirname, "..", "build", "routes"));
-const valhallaConfig = path.resolve(args["valhalla-config"] || path.join(process.cwd(), "valhalla.json"));
+const valhallaConfigHost = path.resolve(
+  args["valhalla-config-host"] ||
+    args["valhalla-config"] ||
+    path.join(process.cwd(), "valhalla.json")
+);
+const valhallaConfigContainer =
+  args["valhalla-config-container"] || valhallaConfigHost;
 // ghcr.io/valhalla/valhalla images expose valhalla_run_route (not valhalla_route)
 const valhallaRouteCmd =
   args["valhalla-route-cmd"] || args["valhalla_route_cmd"] || "valhalla_run_route";
+const maxLocationsPerRequest = Number(args["max-locations"] || process.env.MAX_VALHALLA_LOCS || 100);
+const maxDistancePerRequest = Number(args["max-distance"] || process.env.MAX_VALHALLA_DISTANCE || 5000);
 
 async function pathExists(p) {
   try {
@@ -137,13 +146,127 @@ function buildRequest(locations, truckOptions) {
   return request;
 }
 
-async function routeWithValhalla(request) {
-  const stdout = await runCommand(valhallaRouteCmd, ["-j", JSON.stringify(request), "-c", valhallaConfig], null);
+async function routeWithValhalla(requestFileHost, configPathContainer) {
+  const requestFileContainer = toContainerPath(requestFileHost);
+  const inlineConfig = {
+    service_limits: {
+      auto: {
+        max_locations: 500,
+        max_distance: maxDistancePerRequest,
+        max_matrix_distance: maxDistancePerRequest,
+        max_matrix_duration: maxDistancePerRequest,
+        max_matrix_location_pairs: 500 * 500,
+      },
+      auto_shorter: {
+        max_locations: 500,
+        max_distance: maxDistancePerRequest,
+        max_matrix_distance: maxDistancePerRequest,
+        max_matrix_duration: maxDistancePerRequest,
+        max_matrix_location_pairs: 500 * 500,
+      },
+      truck: {
+        max_locations: 500,
+        max_distance: maxDistancePerRequest,
+        max_matrix_distance: maxDistancePerRequest,
+        max_matrix_duration: maxDistancePerRequest,
+        max_matrix_location_pairs: 500 * 500,
+      },
+      bus: {
+        max_locations: 500,
+        max_distance: maxDistancePerRequest,
+        max_matrix_distance: maxDistancePerRequest,
+        max_matrix_duration: maxDistancePerRequest,
+        max_matrix_location_pairs: 500 * 500,
+      },
+      motorcycle: {
+        max_locations: 500,
+        max_distance: maxDistancePerRequest,
+        max_matrix_distance: maxDistancePerRequest,
+        max_matrix_duration: maxDistancePerRequest,
+        max_matrix_location_pairs: 500 * 500,
+      },
+      motor_scooter: {
+        max_locations: 500,
+        max_distance: maxDistancePerRequest,
+        max_matrix_distance: maxDistancePerRequest,
+        max_matrix_duration: maxDistancePerRequest,
+        max_matrix_location_pairs: 500 * 500,
+      },
+      pedestrian: {
+        max_locations: 500,
+        max_distance: maxDistancePerRequest,
+        max_matrix_distance: maxDistancePerRequest,
+        max_matrix_duration: maxDistancePerRequest,
+        max_matrix_location_pairs: 500 * 500,
+      },
+      bicycle: {
+        max_locations: 500,
+        max_distance: maxDistancePerRequest,
+        max_matrix_distance: maxDistancePerRequest,
+        max_matrix_duration: maxDistancePerRequest,
+        max_matrix_location_pairs: 500 * 500,
+      },
+      matrix: {
+        max_locations: 500,
+        max_distance: maxDistancePerRequest,
+        max_matrix_distance: maxDistancePerRequest,
+        max_matrix_duration: maxDistancePerRequest,
+        max_matrix_location_pairs: 500 * 500,
+      },
+      optimized_route: {
+        max_locations: 500,
+        max_distance: maxDistancePerRequest,
+        max_matrix_distance: maxDistancePerRequest,
+        max_matrix_duration: maxDistancePerRequest,
+        max_matrix_location_pairs: 500 * 500,
+      },
+    },
+  };
+  const inlineJson = JSON.stringify(inlineConfig);
+  const inlineArg = `'${inlineJson.replace(/'/g, `'\"'\"'`)}'`;
+  const stdout = await runCommand(
+    valhallaRouteCmd,
+    [
+      "--json-file",
+      requestFileContainer,
+      "-c",
+      configPathContainer,
+      "--inline-config",
+      inlineArg,
+    ],
+    null
+  );
   return JSON.parse(stdout);
+}
+
+async function routeInChunks(coords, truckOptions, tempReqDir, baseName, configPathContainer) {
+  // Chunk waypoints to respect Valhalla max locations; overlap by 1 to keep continuity.
+  const segments = [];
+  let start = 0;
+  while (start < coords.length - 1) {
+    const end = Math.min(start + maxLocationsPerRequest - 1, coords.length - 1);
+    segments.push(coords.slice(start, end + 1));
+    start = end;
+  }
+
+  const legs = [];
+  for (let idx = 0; idx < segments.length; idx++) {
+    const segment = segments[idx];
+    if (segment.length < 2) continue;
+    const req = buildRequest(segment, truckOptions);
+    const reqFileHost = path.join(tempReqDir, `${baseName}-seg-${idx}.json`);
+    await fs.writeFile(reqFileHost, JSON.stringify(req));
+    legs.push(await routeWithValhalla(reqFileHost, configPathContainer));
+  }
+  return legs;
 }
 
 async function ensureDir(dir) {
   await fs.mkdir(dir, { recursive: true });
+}
+
+function toContainerPath(hostPath) {
+  return hostPath.startsWith(repoRoot) ? hostPath.replace(repoRoot, "/data") : hostPath;
 }
 
 async function loadFeatureCollection(filePath) {
@@ -160,8 +283,8 @@ async function main() {
     console.log(`No routes directory found at ${routesDir}. Nothing to do.`);
     return;
   }
-  if (!(await pathExists(valhallaConfig))) {
-    throw new Error(`Valhalla config not found at ${valhallaConfig}`);
+  if (!(await pathExists(valhallaConfigHost))) {
+    throw new Error(`Valhalla config not found at host path ${valhallaConfigHost}`);
   }
 
   const files = await listGeojsonFiles(routesDir);
@@ -170,6 +293,9 @@ async function main() {
     console.log("No route definition files found. Nothing to do.");
     return;
   }
+
+  const tempReqDir = path.join(outDir, "..", ".valhalla-requests");
+  await ensureDir(tempReqDir);
 
   const cityManifests = new Map();
   let totalProcessed = 0;
@@ -214,11 +340,25 @@ async function main() {
       return [Number(coord[0]), Number(coord[1])];
     });
 
-    const request = buildRequest(coords, truckOptions);
-
-    let response;
+    let tripLegs = [];
+    let summary = {};
     try {
-      response = await routeWithValhalla(request);
+      if (coords.length <= maxLocationsPerRequest) {
+        const req = buildRequest(coords, truckOptions);
+        const reqFileHost = path.join(tempReqDir, `${routeId}.json`);
+        await fs.writeFile(reqFileHost, JSON.stringify(req));
+        const response = await routeWithValhalla(reqFileHost, valhallaConfigContainer);
+        tripLegs = response?.trip?.legs || [];
+        summary = response?.trip?.summary || {};
+      } else {
+        const responses = await routeInChunks(coords, truckOptions, tempReqDir, routeId, valhallaConfigContainer);
+        tripLegs = responses.flatMap((r) => r?.trip?.legs || []);
+        // Sum distances/times across chunks if available
+        summary = {
+          length: responses.reduce((acc, r) => acc + (r?.trip?.summary?.length || 0), 0),
+          time: responses.reduce((acc, r) => acc + (r?.trip?.summary?.time || 0), 0),
+        };
+      }
     } catch (err) {
       totalFailed++;
       if (!cityManifests.has(city)) {
@@ -229,9 +369,7 @@ async function main() {
       continue;
     }
 
-    const legs = response?.trip?.legs || [];
-    const summary = response?.trip?.summary || {};
-    const shapes = legs.map((leg) => decodePolyline(leg.shape || ""));
+    const shapes = tripLegs.map((leg) => decodePolyline(leg.shape || ""));
     const merged = [];
     for (let i = 0; i < shapes.length; i++) {
       const legCoords = shapes[i];
@@ -298,7 +436,7 @@ async function main() {
       routes: data.routes,
       route_count: data.routes.length,
       failed_routes: data.failed,
-      valhalla_config: path.basename(valhallaConfig),
+      valhalla_config: path.basename(valhallaConfigHost),
       notes: "Generated offline via valhalla_route; Taipei/New Taipei waypoints come from official lat/lon sources.",
     };
     const cityOutDir = path.join(outDir, city);
