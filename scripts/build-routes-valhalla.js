@@ -45,7 +45,7 @@ const valhallaConfigContainer =
 // ghcr.io/valhalla/valhalla images expose valhalla_run_route (not valhalla_route)
 const valhallaRouteCmd =
   args["valhalla-route-cmd"] || args["valhalla_route_cmd"] || "valhalla_run_route";
-const maxLocationsPerRequest = Number(args["max-locations"] || process.env.MAX_VALHALLA_LOCS || 100);
+const maxLocationsPerRequest = Number(args["max-locations"] || process.env.MAX_VALHALLA_LOCS || 20);
 
 async function pathExists(p) {
   try {

@@ -68,6 +68,11 @@ jobs:
               (.service_limits[name].max_matrix_location_pairs //= (500*500));
 
             (.service_limits //= {}) |
+            (.service_limits.max_locations = 500) |
+            (.service_limits.max_distance = 5000) |
+            (.service_limits.max_matrix_distance = 5000) |
+            (.service_limits.max_matrix_duration = 5000) |
+            (.service_limits.max_matrix_location_pairs = 500*500) |
             init_limits("auto") |
             init_limits("auto_shorter") |
             init_limits("truck") |
