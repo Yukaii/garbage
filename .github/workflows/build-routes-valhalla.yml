@@ -108,14 +108,12 @@ jobs:
             echo "No routes generated; skipping metadata generation."
             exit 0
           fi
-
-          cd ../data-branch
           
           # Copy generated routes first (needed for metadata generation)
-          rsync -a --delete ../taipei-trash/build/routes/ ./routes/
+          rsync -a --delete build/routes/ ../data-branch/routes/
           
-          # Generate metadata from waypoint files
-          node generate-route-metadata.js
+          # Generate metadata from waypoint files using script from main branch
+          node scripts/generate-route-metadata.js ../data-branch
 
       - name: Publish to data branch
         run: |
