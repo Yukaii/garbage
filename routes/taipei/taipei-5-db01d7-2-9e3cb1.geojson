@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.568369,
+            25.084884
+          ],
+          [
+            121.568303,
+            25.084816
+          ],
+          [
+            121.568016,
+            25.084842
+          ],
+          [
+            121.567876,
+            25.084879
+          ],
+          [
+            121.567576,
+            25.084982
+          ],
+          [
+            121.566906,
+            25.084994
+          ],
+          [
+            121.566908,
+            25.084596
+          ],
+          [
+            121.566908,
+            25.084549
+          ],
+          [
+            121.567,
+            25.084543
+          ],
+          [
+            121.568059,
+            25.084481
+          ],
+          [
+            121.56922,
+            25.084431
+          ]
+        ]
+      },
+      "properties": {
+        "routeId": "taipei-5-db01d7-2-9e3cb1",
+        "city": "taipei",
+        "source_file": "taipei/taipei-5-db01d7-2-9e3cb1.geojson",
+        "distance_km": 0.435,
+        "duration_min": 1.1443,
+        "valhalla_config": "valhalla.json"
+      }
+    }
+  ]
+}
