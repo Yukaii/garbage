@@ -1,0 +1,994 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33404,
+          22.882823
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1312",
+        "departure_time": "1315",
+        "district": "阿蓮區",
+        "village": "阿蓮里",
+        "location": "成功街71號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328903,
+          22.879491
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1322",
+        "departure_time": "1325",
+        "district": "阿蓮區",
+        "village": "清蓮里",
+        "location": "中山路69號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328817,
+          22.880735
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1325",
+        "departure_time": "1330",
+        "district": "阿蓮區",
+        "village": "清蓮里",
+        "location": "中正路559號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330347,
+          22.878848
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1415",
+        "departure_time": "1418",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "忠孝路173號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321507,
+          22.879933
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1650",
+        "departure_time": "1653",
+        "district": "阿蓮區",
+        "village": "和蓮里",
+        "location": "中正路897號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324937,
+          22.880506
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1651",
+        "departure_time": "1654",
+        "district": "阿蓮區",
+        "village": "和蓮里",
+        "location": "中正路749號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327875,
+          22.880808
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1655",
+        "departure_time": "1658",
+        "district": "阿蓮區",
+        "village": "和蓮里",
+        "location": "中正路603號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330066,
+          22.880663
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1656",
+        "departure_time": "1659",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中正路505號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328714,
+          22.878962
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1700",
+        "departure_time": "1703",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "忠孝路228號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331948,
+          22.878737
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1706",
+        "departure_time": "1709",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "忠孝路95巷2弄8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331022,
+          22.878599
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1708",
+        "departure_time": "1711",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "忠孝路147巷9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332348,
+          22.878945
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1710",
+        "departure_time": "1713",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "忠孝路85號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333672,
+          22.879327
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1711",
+        "departure_time": "1714",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "忠孝路26號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332336,
+          22.879287
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1713",
+        "departure_time": "1716",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "忠孝路84號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332038,
+          22.879483
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1715",
+        "departure_time": "1718",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "和平路11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330983,
+          22.879504
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1718",
+        "departure_time": "1721",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中正路467巷41號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330569,
+          22.880161
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1719",
+        "departure_time": "1722",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "民族路38巷13號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33076,
+          22.880469
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1720",
+        "departure_time": "1723",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中正路473號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332125,
+          22.880499
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1721",
+        "departure_time": "1724",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中正路409號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33298,
+          22.880538
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1723",
+        "departure_time": "1726",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中正路383號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334273,
+          22.875596
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1728",
+        "departure_time": "1731",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "仁愛路228號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335448,
+          22.872413
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1732",
+        "departure_time": "1735",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "仁愛路367號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333479,
+          22.879762
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1737",
+        "departure_time": "1740",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中正路381巷35號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333214,
+          22.880566
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1738",
+        "departure_time": "1741",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中正路377號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334703,
+          22.880738
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1741",
+        "departure_time": "1744",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中正路321號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337069,
+          22.881129
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1743",
+        "departure_time": "1747",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中正路215號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.339598,
+          22.880773
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1745",
+        "departure_time": "1748",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中正路141巷41弄12號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329181,
+          22.880716
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1805",
+        "departure_time": "1808",
+        "district": "阿蓮區",
+        "village": "清蓮里",
+        "location": "中山路2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331886,
+          22.876878
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1809",
+        "departure_time": "1812",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中山路171巷136號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332173,
+          22.875356
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1810",
+        "departure_time": "1813",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "仁愛路180巷45弄15之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330528,
+          22.87467
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1813",
+        "departure_time": "1816",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "忠孝路201巷215-60號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328163,
+          22.878499
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1828",
+        "departure_time": "1831",
+        "district": "阿蓮區",
+        "village": "清蓮里",
+        "location": "中山路92號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326774,
+          22.875744
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1830",
+        "departure_time": "1833",
+        "district": "阿蓮區",
+        "village": "清蓮里",
+        "location": "中山路262巷2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326273,
+          22.876353
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1832",
+        "departure_time": "1835",
+        "district": "阿蓮區",
+        "village": "清蓮里",
+        "location": "中山路246巷36號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323964,
+          22.868877
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1841",
+        "departure_time": "1844",
+        "district": "阿蓮區",
+        "village": "清蓮里",
+        "location": "中山路572號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330061,
+          22.8698
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1845",
+        "departure_time": "1848",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中山路521巷96號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325201,
+          22.870806
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1846",
+        "departure_time": "1849",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中山路481號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327278,
+          22.875333
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1848",
+        "departure_time": "1851",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中山路257巷2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327659,
+          22.876556
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1849",
+        "departure_time": "1852",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中山路201巷140號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328261,
+          22.876626
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1852",
+        "departure_time": "1855",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中山路171巷14弄7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327631,
+          22.875736
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1854",
+        "departure_time": "1857",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中山路217巷14弄24號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327945,
+          22.877056
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1857",
+        "departure_time": "1900",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中山路173號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328512,
+          22.878432
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5360-119dd3",
+        "city": "kaohsiung",
+        "route_name": "KEH-5360",
+        "car_seq": "KEH-5360",
+        "arrival_time": "1900",
+        "departure_time": "1903",
+        "district": "阿蓮區",
+        "village": "南蓮里",
+        "location": "中山路103號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

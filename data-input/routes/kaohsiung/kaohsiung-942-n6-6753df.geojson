@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311331,
+          22.611986
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "1614",
+        "departure_time": "1616",
+        "district": "前鎮區",
+        "village": "興中里",
+        "location": "復興三路146號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311443,
+          22.612518
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "1617",
+        "departure_time": "1619",
+        "district": "前鎮區",
+        "village": "興中里",
+        "location": "復興三路160號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311644,
+          22.61308
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "1620",
+        "departure_time": "1622",
+        "district": "前鎮區",
+        "village": "興中里",
+        "location": "復興三路192號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311368,
+          22.614099
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "1623",
+        "departure_time": "1624",
+        "district": "前鎮區",
+        "village": "興中里",
+        "location": "二聖二路223號旁巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.313512,
+          22.61177
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "1631",
+        "departure_time": "1633",
+        "district": "前鎮區",
+        "village": "興中里",
+        "location": "民權二路405號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310241,
+          22.610094
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "1851",
+        "departure_time": "1852",
+        "district": "前鎮區",
+        "village": "西山里",
+        "location": "復興三路96號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304919,
+          22.601134
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "2045",
+        "departure_time": "2052",
+        "district": "前鎮區",
+        "village": "忠誠里",
+        "location": "中華五路969巷7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.305825,
+          22.601447
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "2053",
+        "departure_time": "2057",
+        "district": "前鎮區",
+        "village": "忠誠里",
+        "location": "中華五路969巷3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.306714,
+          22.604972
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "2101",
+        "departure_time": "2102",
+        "district": "前鎮區",
+        "village": "建隆里",
+        "location": "建隆街77號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.306067,
+          22.605269
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "2103",
+        "departure_time": "2105",
+        "district": "前鎮區",
+        "village": "建隆里",
+        "location": "建盛街50號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.305563,
+          22.606839
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-942-n6-6753df",
+        "city": "kaohsiung",
+        "route_name": "942-N6",
+        "car_seq": "942-N6",
+        "arrival_time": "2117",
+        "departure_time": "2118",
+        "district": "前鎮區",
+        "village": "建隆里",
+        "location": "復興三路47號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

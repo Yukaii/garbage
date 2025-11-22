@@ -1,0 +1,971 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65157,
+          23.005835
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1616",
+        "departure_time": "1620",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠134之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649815,
+          23.004916
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1620",
+        "departure_time": "1623",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠120號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.651133,
+          23.002759
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1623",
+        "departure_time": "1626",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠116號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.646812,
+          23.002987
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1626",
+        "departure_time": "1630",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠109之2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.641231,
+          22.996199
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1635",
+        "departure_time": "1635",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65142,
+          22.934567
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1638",
+        "departure_time": "1639",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄60巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.643645,
+          23.012626
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1638",
+        "departure_time": "1639",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄60巷27號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.643345,
+          23.002804
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1640",
+        "departure_time": "1643",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "土壠1之46號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644469,
+          22.998878
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1650",
+        "departure_time": "1653",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄269之17號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.645292,
+          22.998479
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1650",
+        "departure_time": "1653",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄265號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.646221,
+          22.997665
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1653",
+        "departure_time": "1700",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄234號門口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.645405,
+          22.997116
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1653",
+        "departure_time": "1700",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄230之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644767,
+          22.996199
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1653",
+        "departure_time": "1700",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄225之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.645562,
+          22.994685
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1653",
+        "departure_time": "1700",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄210之10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644435,
+          22.993966
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1701",
+        "departure_time": "1705",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄201之1號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.643403,
+          22.993583
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1701",
+        "departure_time": "1705",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄196號門口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64498,
+          22.989397
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1701",
+        "departure_time": "1705",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄198之10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64888,
+          22.982189
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1715",
+        "departure_time": "1717",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "尾庄68之30號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.653103,
+          22.984127
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1715",
+        "departure_time": "1717",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "尾庄76號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649342,
+          22.989574
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1723",
+        "departure_time": "1725",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "尾庄103之22號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.648458,
+          22.989502
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1723",
+        "departure_time": "1725",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "尾庄103之39號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.643427,
+          22.994436
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1727",
+        "departure_time": "1730",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄153號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64312,
+          22.995138
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1727",
+        "departure_time": "1730",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄146號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.643145,
+          22.995488
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1727",
+        "departure_time": "1730",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄139號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.645403,
+          22.998826
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1727",
+        "departure_time": "1730",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄266號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.646381,
+          23.000174
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1727",
+        "departure_time": "1730",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄296號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.645943,
+          23.000527
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1727",
+        "departure_time": "1730",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄299號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644401,
+          22.999177
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1731",
+        "departure_time": "1733",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄269號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.643849,
+          22.998206
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1731",
+        "departure_time": "1733",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄253號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64339,
+          22.998297
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1731",
+        "departure_time": "1733",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄107之2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644188,
+          22.99907
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1731",
+        "departure_time": "1733",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄262號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644994,
+          23.000413
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1731",
+        "departure_time": "1733",
+        "district": "六龜區",
+        "village": "中興里",
+        "location": "中庄290之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647581,
+          23.004669
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1735",
+        "departure_time": "1740",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠80號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64858,
+          23.004981
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1735",
+        "departure_time": "1740",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠92號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.648651,
+          23.005112
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1735",
+        "departure_time": "1740",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠66號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.633673,
+          22.99961
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1735",
+        "departure_time": "1740",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠灣27號門口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.634512,
+          22.998529
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1735",
+        "departure_time": "1740",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠灣43之1號門口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.654066,
+          23.006366
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1735",
+        "departure_time": "1740",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠38之30號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.657231,
+          23.006264
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1735",
+        "departure_time": "1740",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "土壠37之3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.665558,
+          23.012367
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1743",
+        "departure_time": "1745",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "舊潭13之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.665547,
+          23.015744
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1743",
+        "departure_time": "1745",
+        "district": "六龜區",
+        "village": "興龍里",
+        "location": "舊潭31之19號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64446,
+          23.011786
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-2893-6eda88",
+        "city": "kaohsiung",
+        "route_name": "KEP-2893",
+        "car_seq": "KEP-2893",
+        "arrival_time": "1800",
+        "departure_time": "1810",
+        "district": "六龜區",
+        "village": "六龜里",
+        "location": "紅水坑37之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

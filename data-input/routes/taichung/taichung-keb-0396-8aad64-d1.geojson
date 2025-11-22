@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647056,
+          24.097277
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0396-8aad64-d1",
+        "city": "taichung",
+        "route_name": "KEB-0396",
+        "car_seq": "KEB-0396",
+        "arrival_time": "0655",
+        "departure_time": "0705",
+        "district": "烏日區",
+        "village": "前竹里",
+        "location": "光明路157巷6號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647056,
+          24.097277
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0396-8aad64-d1",
+        "city": "taichung",
+        "route_name": "KEB-0396",
+        "car_seq": "KEB-0396",
+        "arrival_time": "0655",
+        "departure_time": "0705",
+        "district": "烏日區",
+        "village": "前竹里",
+        "location": "光明路157巷6號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649987,
+          24.106715
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0396-8aad64-d1",
+        "city": "taichung",
+        "route_name": "KEB-0396",
+        "car_seq": "KEB-0396",
+        "arrival_time": "0715",
+        "departure_time": "0720",
+        "district": "烏日區",
+        "village": "前竹里",
+        "location": "光明路299巷1號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649987,
+          24.106715
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0396-8aad64-d1",
+        "city": "taichung",
+        "route_name": "KEB-0396",
+        "car_seq": "KEB-0396",
+        "arrival_time": "0715",
+        "departure_time": "0720",
+        "district": "烏日區",
+        "village": "前竹里",
+        "location": "光明路299巷1號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

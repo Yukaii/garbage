@@ -1,0 +1,350 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323832,
+          22.629189
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "1651",
+        "departure_time": "1652",
+        "district": "苓雅區",
+        "village": "福南里",
+        "location": "河北路194號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333763,
+          22.625147
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "1850",
+        "departure_time": "1852",
+        "district": "苓雅區",
+        "village": "福西里",
+        "location": "輔仁路48巷46號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334039,
+          22.62349
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "1853",
+        "departure_time": "1854",
+        "district": "苓雅區",
+        "village": "福西里",
+        "location": "三多一路71號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330762,
+          22.625326
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "1907",
+        "departure_time": "1911",
+        "district": "苓雅區",
+        "village": "永康里",
+        "location": "福安路33號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321139,
+          22.628744
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "1933",
+        "departure_time": "1935",
+        "district": "苓雅區",
+        "village": "凱旋里",
+        "location": "江都街28號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320652,
+          22.628408
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "1936",
+        "departure_time": "1940",
+        "district": "苓雅區",
+        "village": "凱旋里",
+        "location": "江都街51號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320446,
+          22.627451
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "1941",
+        "departure_time": "1945",
+        "district": "苓雅區",
+        "village": "同慶里",
+        "location": "同慶路88號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32037,
+          22.627711
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "1946",
+        "departure_time": "1947",
+        "district": "苓雅區",
+        "village": "同慶里",
+        "location": "同慶路110號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320741,
+          22.629491
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "1948",
+        "departure_time": "1954",
+        "district": "苓雅區",
+        "village": "凱旋里",
+        "location": "五福一路19號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326862,
+          22.627863
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "2127",
+        "departure_time": "2128",
+        "district": "苓雅區",
+        "village": "福南里",
+        "location": "福安路342號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325836,
+          22.628212
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "2129",
+        "departure_time": "2131",
+        "district": "苓雅區",
+        "village": "福南里",
+        "location": "福安路400號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324428,
+          22.629137
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "2136",
+        "departure_time": "2139",
+        "district": "苓雅區",
+        "village": "福南里",
+        "location": "福安路496號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325475,
+          22.629467
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "2140",
+        "departure_time": "2142",
+        "district": "苓雅區",
+        "village": "福南里",
+        "location": "中正一路265號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328092,
+          22.625847
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "2148",
+        "departure_time": "2149",
+        "district": "苓雅區",
+        "village": "福壽里",
+        "location": "福壽街122號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326627,
+          22.625715
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5375-894760",
+        "city": "kaohsiung",
+        "route_name": "KEH-5375",
+        "car_seq": "KEH-5375",
+        "arrival_time": "2206",
+        "departure_time": "2208",
+        "district": "苓雅區",
+        "village": "福壽里",
+        "location": "福德三路140號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

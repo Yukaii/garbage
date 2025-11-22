@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66038370054216,
+          24.193361190070778
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keg-8205-d8427f-d6",
+        "city": "taichung",
+        "route_name": "KEG-8205",
+        "car_seq": "KEG-8205",
+        "arrival_time": "0700",
+        "departure_time": "0725",
+        "district": "北屯區",
+        "village": "同榮里",
+        "location": "同榮路號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6861237883522,
+          24.174591146830092
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keg-8205-d8427f-d6",
+        "city": "taichung",
+        "route_name": "KEG-8205",
+        "car_seq": "KEG-8205",
+        "arrival_time": "0745",
+        "departure_time": "0805",
+        "district": "北屯區",
+        "village": "平福里",
+        "location": "旅順路號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67699771517887,
+          24.175373032647872
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keg-8205-d8427f-d6",
+        "city": "taichung",
+        "route_name": "KEG-8205",
+        "car_seq": "KEG-8205",
+        "arrival_time": "0810",
+        "departure_time": "0835",
+        "district": "北屯區",
+        "village": "平福里",
+        "location": "旅順路一段20號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

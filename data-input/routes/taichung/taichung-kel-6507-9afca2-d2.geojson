@@ -1,0 +1,1397 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65649706070836,
+          24.332928379396197
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0638",
+        "departure_time": "0643",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "外埔路775號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65649706070836,
+          24.332928379396197
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0643",
+        "departure_time": "0643",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "外埔路775號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67001411615995,
+          24.33328042203036
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0643",
+        "departure_time": "0648",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "六分路152號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67891403834683,
+          24.331634982210897
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0646",
+        "departure_time": "0651",
+        "district": "外埔區",
+        "village": "永豐里",
+        "location": "六分路88號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67001411615995,
+          24.33328042203036
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0648",
+        "departure_time": "0648",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "六分路152號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67891403834683,
+          24.331634982210897
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0651",
+        "departure_time": "0651",
+        "district": "外埔區",
+        "village": "永豐里",
+        "location": "六分路88號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6993356330199,
+          24.33484248838245
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0652",
+        "departure_time": "0657",
+        "district": "外埔區",
+        "village": "永豐里",
+        "location": "外埔路308號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6993356330199,
+          24.33484248838245
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0657",
+        "departure_time": "0657",
+        "district": "外埔區",
+        "village": "永豐里",
+        "location": "外埔路308號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68200752270738,
+          24.336627395235777
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0701",
+        "departure_time": "0706",
+        "district": "外埔區",
+        "village": "永豐里",
+        "location": "外埔路520巷36號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68200752270738,
+          24.336627395235777
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0706",
+        "departure_time": "0706",
+        "district": "外埔區",
+        "village": "永豐里",
+        "location": "外埔路520巷36號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67912319317274,
+          24.334295358380906
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0708",
+        "departure_time": "0713",
+        "district": "外埔區",
+        "village": "永豐里",
+        "location": "外埔路550號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67912319317274,
+          24.334295358380906
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0713",
+        "departure_time": "0713",
+        "district": "外埔區",
+        "village": "永豐里",
+        "location": "外埔路550號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66863302195576,
+          24.3252393662401
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0715",
+        "departure_time": "0720",
+        "district": "外埔區",
+        "village": "永豐里",
+        "location": "六分路六支巷38號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6639771157929,
+          24.328642388284244
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0720",
+        "departure_time": "0725",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "六分路中興巷19號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66863302195576,
+          24.3252393662401
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0720",
+        "departure_time": "0720",
+        "district": "外埔區",
+        "village": "永豐里",
+        "location": "六分路六支巷38號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6639771157929,
+          24.328642388284244
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0725",
+        "departure_time": "0725",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "六分路中興巷19號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66528059678643,
+          24.32651593857184
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0725",
+        "departure_time": "0730",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "六分路六支巷46號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66528059678643,
+          24.32651593857184
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0730",
+        "departure_time": "0730",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "六分路六支巷46號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67144230325455,
+          24.321236941991902
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0732",
+        "departure_time": "0737",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "水頭一路308巷32號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67144230325455,
+          24.321236941991902
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0737",
+        "departure_time": "0737",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "水頭一路308巷32號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67581745464423,
+          24.32301234949205
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0742",
+        "departure_time": "0747",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "水頭一路168巷68號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67581745464423,
+          24.32301234949205
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0749",
+        "departure_time": "0749",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "水頭一路168巷68號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67214959347457,
+          24.31734456241649
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0750",
+        "departure_time": "0755",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "甲后路三段406號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67214959347457,
+          24.31734456241649
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0755",
+        "departure_time": "0755",
+        "district": "外埔區",
+        "village": "六分里",
+        "location": "甲后路三段406號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66138544038463,
+          24.322957819827266
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0842",
+        "departure_time": "0847",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "甲后路三段599巷13號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66138544038463,
+          24.322957819827266
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0847",
+        "departure_time": "0847",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "甲后路三段599巷13號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66101773754738,
+          24.324462672205897
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0849",
+        "departure_time": "0854",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "甲后路三段690號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66101773754738,
+          24.324462672205897
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0854",
+        "departure_time": "0854",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "甲后路三段690號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66441467409108,
+          24.316479803935007
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0854",
+        "departure_time": "0859",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "三崁路10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65807962551818,
+          24.320974646407826
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0859",
+        "departure_time": "0904",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "三崁路28之5號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66441467409108,
+          24.316479803935007
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0859",
+        "departure_time": "0859",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "三崁路10號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65807962551818,
+          24.320974646407826
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0904",
+        "departure_time": "0904",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "三崁路28之5號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65904314519014,
+          24.318607479930865
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0906",
+        "departure_time": "0911",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "三崁路31之2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65904314519014,
+          24.318607479930865
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0911",
+        "departure_time": "0911",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "三崁路31之2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65311902050955,
+          24.31913238403248
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0911",
+        "departure_time": "0916",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "三崁路53號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65081946410554,
+          24.318969934328454
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0916",
+        "departure_time": "0921",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "五穀路19號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65311902050955,
+          24.31913238403248
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0916",
+        "departure_time": "0916",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "三崁路53號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65081946410554,
+          24.318969934328454
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0921",
+        "departure_time": "0921",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "五穀路19號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65002454210311,
+          24.311653888497794
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0925",
+        "departure_time": "0930",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "五穀路167號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65002454210311,
+          24.311653888497794
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0930",
+        "departure_time": "0930",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "五穀路167號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6359669386269,
+          24.3203648485605
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0931",
+        "departure_time": "0936",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "三崁路85號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6359669386269,
+          24.3203648485605
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0936",
+        "departure_time": "0936",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "三崁路85號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63738140401009,
+          24.315343594685043
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0936",
+        "departure_time": "0941",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "溪底路21之1號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63738140401009,
+          24.315343594685043
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0941",
+        "departure_time": "0941",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "溪底路21之1號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62319668496083,
+          24.32085966114571
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0945",
+        "departure_time": "0950",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "溪底路37之5號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62319668496083,
+          24.32085966114571
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0950",
+        "departure_time": "0950",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "溪底路37之5號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63688699608876,
+          24.32368150853936
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "0955",
+        "departure_time": "1000",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "二崁路385巷7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62915859492817,
+          24.324837823369172
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1000",
+        "departure_time": "1005",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "二崁路589號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63688699608876,
+          24.32368150853936
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1000",
+        "departure_time": "1000",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "二崁路385巷7號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63680465899066,
+          24.325597687260185
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1005",
+        "departure_time": "1010",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "二崁路390巷29號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62915859492817,
+          24.324837823369172
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1005",
+        "departure_time": "1005",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "二崁路589號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63680465899066,
+          24.325597687260185
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1010",
+        "departure_time": "1010",
+        "district": "外埔區",
+        "village": "水美里",
+        "location": "二崁路390巷29號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64643832484346,
+          24.32529396742654
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1015",
+        "departure_time": "1020",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "二崁路219號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64643832484346,
+          24.32529396742654
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1020",
+        "departure_time": "1020",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "二崁路219號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64569886495478,
+          24.327840582887813
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1020",
+        "departure_time": "1025",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "三環路599巷41號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64569886495478,
+          24.327840582887813
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1025",
+        "departure_time": "1025",
+        "district": "外埔區",
+        "village": "三崁里",
+        "location": "三環路599巷41號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65933978502815,
+          24.325490570436717
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1029",
+        "departure_time": "1034",
+        "district": "外埔區",
+        "village": "大同里",
+        "location": "甲后路三段703號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65933978502815,
+          24.325490570436717
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6507-9afca2-d2",
+        "city": "taichung",
+        "route_name": "KEL-6507",
+        "car_seq": "KEL-6507",
+        "arrival_time": "1034",
+        "departure_time": "1034",
+        "district": "外埔區",
+        "village": "大同里",
+        "location": "甲后路三段703號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

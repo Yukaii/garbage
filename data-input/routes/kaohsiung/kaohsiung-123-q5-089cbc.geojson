@@ -1,0 +1,1040 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38887,
+          22.562006
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1620",
+        "departure_time": "1621",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十三路704號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.389563,
+          22.564392
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1630",
+        "departure_time": "1631",
+        "district": "小港區",
+        "village": "大坪里",
+        "location": "永和街97號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.390086,
+          22.564062
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1632",
+        "departure_time": "1633",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "永和街90號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.387277,
+          22.564592
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1635",
+        "departure_time": "1636",
+        "district": "小港區",
+        "village": "大坪里",
+        "location": "大平路47號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.388794,
+          22.565004
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1637",
+        "departure_time": "1638",
+        "district": "小港區",
+        "village": "大坪里",
+        "location": "大潭路5號對面巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.391334,
+          22.564067
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1640",
+        "departure_time": "1641",
+        "district": "小港區",
+        "village": "大坪里",
+        "location": "新厝路62號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.392185,
+          22.563195
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1645",
+        "departure_time": "1646",
+        "district": "小港區",
+        "village": "大坪里",
+        "location": "新厝路18-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.389607,
+          22.565908
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1651",
+        "departure_time": "1652",
+        "district": "小港區",
+        "village": "大坪里",
+        "location": "大潭路9號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.377223,
+          22.555333
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1659",
+        "departure_time": "1700",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪七十六街316號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38827,
+          22.557563
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1817",
+        "departure_time": "1818",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十三路237號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.388863,
+          22.554527
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1823",
+        "departure_time": "1824",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十三路113號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.39503,
+          22.554863
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1833",
+        "departure_time": "1834",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪十五路92號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.389315,
+          22.561107
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1840",
+        "departure_time": "1841",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪三十二街100號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.389978,
+          22.560027
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1845",
+        "departure_time": "1846",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十八街228號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.390874,
+          22.559542
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1848",
+        "departure_time": "1849",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十六街186號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.392015,
+          22.559062
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1851",
+        "departure_time": "1852",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十二路52號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.389985,
+          22.564153
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1902",
+        "departure_time": "1903",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "永和街90-1號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.377273,
+          22.55414
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1923",
+        "departure_time": "1924",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十二路713號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.384594,
+          22.557345
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1928",
+        "departure_time": "1929",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪六十街52號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.382497,
+          22.55635
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1930",
+        "departure_time": "1931",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪六十街186號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.383934,
+          22.556245
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1934",
+        "departure_time": "1935",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十九路200號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38419,
+          22.55579
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1936",
+        "departure_time": "1937",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十九路176號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.384456,
+          22.555264
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1941",
+        "departure_time": "1942",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪五十二街65號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.385981,
+          22.554392
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1944",
+        "departure_time": "1945",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十九路60巷51號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.385186,
+          22.555275
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1948",
+        "departure_time": "1949",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪五十路40號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.383846,
+          22.554679
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1950",
+        "departure_time": "1951",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪五十路112號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.382172,
+          22.555844
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1952",
+        "departure_time": "1953",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪七路1198號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.383564,
+          22.549629
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1954",
+        "departure_time": "1955",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪三十五街139號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.379647,
+          22.553546
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "1956",
+        "departure_time": "1957",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪七十二街97號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.379133,
+          22.552731
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2000",
+        "departure_time": "2001",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪七十街125號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.381139,
+          22.55309
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2003",
+        "departure_time": "2004",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪五十路237號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.382925,
+          22.552181
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2010",
+        "departure_time": "2011",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪十三街300號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.380646,
+          22.55215
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2012",
+        "departure_time": "2013",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪三十九街128號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.381165,
+          22.552612
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2015",
+        "departure_time": "2016",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪六十八街25號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.383371,
+          22.560894
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2050",
+        "departure_time": "2053",
+        "district": "小港區",
+        "village": "大坪里",
+        "location": "高坪二十七街580號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38711,
+          22.564919
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2058",
+        "departure_time": "2059",
+        "district": "小港區",
+        "village": "大坪里",
+        "location": "大平路52號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.389264,
+          22.566005
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2059",
+        "departure_time": "2100",
+        "district": "小港區",
+        "village": "大坪里",
+        "location": "大潭路5-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.39115,
+          22.56419
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2103",
+        "departure_time": "2104",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "新厝路59號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38633,
+          22.564571
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2118",
+        "departure_time": "2119",
+        "district": "小港區",
+        "village": "大坪里",
+        "location": "大平路79號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38552,
+          22.558703
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2121",
+        "departure_time": "2122",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十二路266號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.383579,
+          22.559735
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2123",
+        "departure_time": "2124",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十七街401巷16號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.382771,
+          22.55837
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2125",
+        "departure_time": "2126",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪二十九路298號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.381162,
+          22.558812
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2127",
+        "departure_time": "2128",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪七路1360號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38068,
+          22.557088
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2133",
+        "departure_time": "2134",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪七十六街2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.378584,
+          22.556975
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-123-q5-089cbc",
+        "city": "kaohsiung",
+        "route_name": "123-Q5",
+        "car_seq": "123-Q5",
+        "arrival_time": "2135",
+        "departure_time": "2136",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "高坪七十八街113號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

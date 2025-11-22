@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6273342367695,
+          24.117795655114755
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-489-vc-0dea70-d2",
+        "city": "taichung",
+        "route_name": "489-VC",
+        "car_seq": "489-VC",
+        "arrival_time": "0700",
+        "departure_time": "0725",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "黎明路一段255號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63613049256675,
+          24.138556071240437
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-489-vc-0dea70-d2",
+        "city": "taichung",
+        "route_name": "489-VC",
+        "car_seq": "489-VC",
+        "arrival_time": "0730",
+        "departure_time": "0755",
+        "district": "南屯區",
+        "village": "永定里",
+        "location": "文昌街210號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

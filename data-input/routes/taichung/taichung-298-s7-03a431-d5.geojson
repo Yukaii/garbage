@@ -1,0 +1,1301 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708091,
+          24.271661
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0700",
+        "departure_time": "0720",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路310號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.699792,
+          24.264664
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0730",
+        "departure_time": "0745",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "大明路6號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704472,
+          24.26142
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0750",
+        "departure_time": "0755",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "前寮路2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.703253,
+          24.260292
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0755",
+        "departure_time": "0800",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "前寮路36之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.702444,
+          24.260567
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0805",
+        "departure_time": "0810",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "大洲路123巷123之5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70182,
+          24.259053
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0810",
+        "departure_time": "0815",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "前寮路46之2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.700225,
+          24.257017
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0815",
+        "departure_time": "0820",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "前寮路60之8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.699057,
+          24.258766
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0820",
+        "departure_time": "0825",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "前寮路86之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.703774,
+          24.258122
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0825",
+        "departure_time": "0830",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "前寮路53之21號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.702558,
+          24.254909
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0830",
+        "departure_time": "0835",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "前寮路57之27號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704472,
+          24.254953
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0830",
+        "departure_time": "0835",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐原大道八段312之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.703584,
+          24.254147
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0835",
+        "departure_time": "0840",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐原大道八段340之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.703678,
+          24.254714
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0840",
+        "departure_time": "0845",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "前寮路57之13號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.706232,
+          24.261837
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0850",
+        "departure_time": "0855",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路456巷26弄20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707159,
+          24.261334
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0855",
+        "departure_time": "0900",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路412之22號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707973,
+          24.261278
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0900",
+        "departure_time": "0905",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路332巷20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.706436,
+          24.262817
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0905",
+        "departure_time": "0910",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路332巷31號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.706379,
+          24.259388
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0915",
+        "departure_time": "0920",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路301巷11弄10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.711029,
+          24.261323
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0925",
+        "departure_time": "0930",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐原大道七段507號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.709321,
+          24.25972
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0930",
+        "departure_time": "0935",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐原大道七段619號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708583,
+          24.26033
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0930",
+        "departure_time": "0935",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路256巷15號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.709128,
+          24.260591
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "0935",
+        "departure_time": "0940",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路256巷28號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.710573,
+          24.259145
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1015",
+        "departure_time": "1020",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路180巷16號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.710247,
+          24.259062
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1015",
+        "departure_time": "1020",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路180巷2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708963,
+          24.257213
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1020",
+        "departure_time": "1025",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路135巷1弄41之15號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708838,
+          24.257842
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1030",
+        "departure_time": "1035",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路135巷1弄63號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.709725,
+          24.258092
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1035",
+        "departure_time": "1040",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路135巷1弄36號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708168,
+          24.256988
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1035",
+        "departure_time": "1040",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "五權路88巷81弄16號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.710511,
+          24.256792
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1040",
+        "departure_time": "1045",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "五權路88巷56號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.71044,
+          24.257394
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1040",
+        "departure_time": "1045",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐洲路135巷36號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.713221,
+          24.25897
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1045",
+        "departure_time": "1050",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路3之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.711206,
+          24.259917
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1050",
+        "departure_time": "1055",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路23巷7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.711068,
+          24.260943
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1050",
+        "departure_time": "1055",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲三街10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.709939,
+          24.260593
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1055",
+        "departure_time": "1100",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲一街77號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708415,
+          24.266238
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1100",
+        "departure_time": "1105",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路131號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707886,
+          24.264887
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1105",
+        "departure_time": "1110",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路105巷26號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.711004,
+          24.262053
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1110",
+        "departure_time": "1115",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路45號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.709219,
+          24.263555
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1115",
+        "departure_time": "1120",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路79巷18號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704558,
+          24.264005
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1120",
+        "departure_time": "1125",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "神洲路66巷10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70609,
+          24.272237
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1300",
+        "departure_time": "1305",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路211之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.701584,
+          24.270302
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1310",
+        "departure_time": "1315",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "神洲路261之26號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.703087,
+          24.271276
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1310",
+        "departure_time": "1315",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "神洲路279巷8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704749,
+          24.270212
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1315",
+        "departure_time": "1320",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "神洲路262巷20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707514,
+          24.270923
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1315",
+        "departure_time": "1320",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路205巷3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707911,
+          24.269798
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1320",
+        "departure_time": "1325",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路197號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707657,
+          24.266245
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1325",
+        "departure_time": "1330",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路135號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708569,
+          24.267194
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1325",
+        "departure_time": "1330",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路234巷20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708678,
+          24.272061
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1330",
+        "departure_time": "1335",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路223號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.711616,
+          24.275047
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1335",
+        "departure_time": "1340",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "東洲路271號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708519,
+          24.273821
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1335",
+        "departure_time": "1340",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "豐工路652巷15弄12號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707865,
+          24.275855
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1340",
+        "departure_time": "1345",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "國豐路一段200巷6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707553,
+          24.27582
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1345",
+        "departure_time": "1350",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "國豐路一段170號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.709577,
+          24.276277
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1350",
+        "departure_time": "1355",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "國豐路一段236巷8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.71211,
+          24.27718
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-298-s7-03a431-d5",
+        "city": "taichung",
+        "route_name": "298-S7",
+        "car_seq": "298-S7",
+        "arrival_time": "1350",
+        "departure_time": "1355",
+        "district": "神岡區",
+        "village": "豐洲里",
+        "location": "國豐路一段270號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

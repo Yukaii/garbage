@@ -1,0 +1,603 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.344458,
+          22.612468
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1620",
+        "departure_time": "1622",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "新康街294號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.338708,
+          22.612942
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1624",
+        "departure_time": "1625",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "新富路231號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337584,
+          22.611324
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1630",
+        "departure_time": "1631",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "武營路236號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33739,
+          22.612431
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1636",
+        "departure_time": "1637",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "武營路290號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345293,
+          22.611905
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1640",
+        "departure_time": "1641",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "南京路237號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345274,
+          22.611076
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1641",
+        "departure_time": "1642",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "南京路197號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.344078,
+          22.610278
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1652",
+        "departure_time": "1654",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "新國街6號﹝達文西大樓﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34327,
+          22.610005
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1654",
+        "departure_time": "1656",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "海洋ㄧ路67號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.341935,
+          22.609884
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1657",
+        "departure_time": "1659",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "海洋一路5號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.341745,
+          22.610568
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1700",
+        "departure_time": "1701",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "大明路174號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.340107,
+          22.610901
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1705",
+        "departure_time": "1706",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "新強路166號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.339592,
+          22.612151
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1709",
+        "departure_time": "1713",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "新強路222號（大學園大樓）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.341623,
+          22.611761
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1717",
+        "departure_time": "1719",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "大明路222號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.341629,
+          22.612307
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1719",
+        "departure_time": "1721",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "大明路246號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.338477,
+          22.616467
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1853",
+        "departure_time": "1854",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "輜汽路172號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.339676,
+          22.612655
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1902",
+        "departure_time": "1904",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "新富路214號（大學園大樓）前門",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.344479,
+          22.612839
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1909",
+        "departure_time": "1910",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "新富路406號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3448,
+          22.612736
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1910",
+        "departure_time": "1912",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "新富路422巷8號﹝歡喜京城大樓﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34517,
+          22.612207
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1912",
+        "departure_time": "1914",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "新富路422巷19號﹝大三園大樓﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.342782,
+          22.611895
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1917",
+        "departure_time": "1918",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "新民街36號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.343564,
+          22.612373
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1919",
+        "departure_time": "1920",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "新安街84號﹝長春藤大樓﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.342614,
+          22.610803
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1922",
+        "departure_time": "1923",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "新強路65號﹝南京天廈大樓﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.343486,
+          22.610302
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1924",
+        "departure_time": "1925",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "海洋一路71巷12號﹝海洋DC大樓﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.343596,
+          22.611364
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1929",
+        "departure_time": "1931",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "新強路42號﹝長谷秀拉大樓﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.344241,
+          22.610937
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1934",
+        "departure_time": "1936",
+        "district": "鳳山區",
+        "village": "新泰里",
+        "location": "新強路3號﹝美麗新世紀大樓﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352295,
+          22.616547
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7767-da4ffa",
+        "city": "kaohsiung",
+        "route_name": "KEB-7767",
+        "car_seq": "KEB-7767",
+        "arrival_time": "1940",
+        "departure_time": "1941",
+        "district": "鳳山區",
+        "village": "國泰里",
+        "location": "國泰路二段11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

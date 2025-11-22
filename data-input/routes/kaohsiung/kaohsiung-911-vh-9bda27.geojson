@@ -1,0 +1,511 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346683,
+          22.609974
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1710",
+        "departure_time": "1712",
+        "district": "鳳山區",
+        "village": "老爺里",
+        "location": "七聖街151號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3462,
+          22.608167
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1715",
+        "departure_time": "1716",
+        "district": "鳳山區",
+        "village": "老爺里",
+        "location": "七聖街40號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.347607,
+          22.619543
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1725",
+        "departure_time": "1726",
+        "district": "鳳山區",
+        "village": "國光里",
+        "location": "國泰路二段73號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34807,
+          22.619188
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1726",
+        "departure_time": "1727",
+        "district": "鳳山區",
+        "village": "國光里",
+        "location": "國泰路二段63號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348394,
+          22.618966
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1727",
+        "departure_time": "1728",
+        "district": "鳳山區",
+        "village": "國光里",
+        "location": "國泰路二段57號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348384,
+          22.617808
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1731",
+        "departure_time": "1732",
+        "district": "鳳山區",
+        "village": "國光里",
+        "location": "國民街14號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.347759,
+          22.618957
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1738",
+        "departure_time": "1739",
+        "district": "鳳山區",
+        "village": "國光里",
+        "location": "國興街4號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346988,
+          22.615966
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1747",
+        "departure_time": "1749",
+        "district": "鳳山區",
+        "village": "國隆里",
+        "location": "國隆路11巷18號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345913,
+          22.615956
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1749",
+        "departure_time": "1750",
+        "district": "鳳山區",
+        "village": "國隆里",
+        "location": "南京路324巷2之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34649,
+          22.618618
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1756",
+        "departure_time": "1757",
+        "district": "鳳山區",
+        "village": "國隆里",
+        "location": "國興街27號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34674,
+          22.618621
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1757",
+        "departure_time": "1758",
+        "district": "鳳山區",
+        "village": "國隆里",
+        "location": "國興街21號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348232,
+          22.615866
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1945",
+        "departure_time": "1950",
+        "district": "鳳山區",
+        "village": "國光里",
+        "location": "新富路383號﹝新甲派出所﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345958,
+          22.613347
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1952",
+        "departure_time": "1953",
+        "district": "鳳山區",
+        "village": "新富里",
+        "location": "新富路347號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346267,
+          22.615179
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "1959",
+        "departure_time": "2000",
+        "district": "鳳山區",
+        "village": "新富里",
+        "location": "凱旋路357號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346446,
+          22.615575
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "2003",
+        "departure_time": "2004",
+        "district": "鳳山區",
+        "village": "國隆里",
+        "location": "凱旋路336巷2號﹝後門﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345294,
+          22.616385
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "2009",
+        "departure_time": "2010",
+        "district": "鳳山區",
+        "village": "新富里",
+        "location": "凱旋路342號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.343895,
+          22.617025
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "2013",
+        "departure_time": "2014",
+        "district": "鳳山區",
+        "village": "新富里",
+        "location": "凱旋路358號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.344279,
+          22.616492
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "2016",
+        "departure_time": "2017",
+        "district": "鳳山區",
+        "village": "新富里",
+        "location": "凱旋路409號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345008,
+          22.614652
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "2020",
+        "departure_time": "2022",
+        "district": "鳳山區",
+        "village": "新富里",
+        "location": "南京路393巷9之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.344378,
+          22.614045
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "2023",
+        "departure_time": "2025",
+        "district": "鳳山區",
+        "village": "新富里",
+        "location": "南京路387巷10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.344892,
+          22.613779
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "2026",
+        "departure_time": "2027",
+        "district": "鳳山區",
+        "village": "新富里",
+        "location": "南京路387巷11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.344944,
+          22.613261
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-911-vh-9bda27",
+        "city": "kaohsiung",
+        "route_name": "911-VH",
+        "car_seq": "911-VH",
+        "arrival_time": "2028",
+        "departure_time": "2029",
+        "district": "鳳山區",
+        "village": "新富里",
+        "location": "新富路333號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

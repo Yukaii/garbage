@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26102036604115,
+          24.25749463533496
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-051-q3-5b479b-d3",
+        "city": "taichung",
+        "route_name": "051-Q3",
+        "car_seq": "051-Q3",
+        "arrival_time": "0750",
+        "departure_time": "0750",
+        "district": "和平區",
+        "village": "梨山里",
+        "location": "梨山里舊佳陽部落",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26102036604115,
+          24.25749463533496
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-051-q3-5b479b-d3",
+        "city": "taichung",
+        "route_name": "051-Q3",
+        "car_seq": "051-Q3",
+        "arrival_time": "0750",
+        "departure_time": "0750",
+        "district": "和平區",
+        "village": "梨山里",
+        "location": "梨山里舊佳陽部落",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 3
+      }
+    }
+  ]
+}

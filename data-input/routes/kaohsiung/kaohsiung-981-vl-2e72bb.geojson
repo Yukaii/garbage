@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325614,
+          22.624392
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-981-vl-2e72bb",
+        "city": "kaohsiung",
+        "route_name": "981-VL",
+        "car_seq": "981-VL",
+        "arrival_time": "1637",
+        "departure_time": "1638",
+        "district": "苓雅區",
+        "village": "林靖里",
+        "location": "四維一路149號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327019,
+          22.619668
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-981-vl-2e72bb",
+        "city": "kaohsiung",
+        "route_name": "981-VL",
+        "car_seq": "981-VL",
+        "arrival_time": "1710",
+        "departure_time": "1712",
+        "district": "苓雅區",
+        "village": "朝陽里",
+        "location": "宜昌街87號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327348,
+          22.625257
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-981-vl-2e72bb",
+        "city": "kaohsiung",
+        "route_name": "981-VL",
+        "car_seq": "981-VL",
+        "arrival_time": "1918",
+        "departure_time": "1920",
+        "district": "苓雅區",
+        "village": "福祥里",
+        "location": "四維一路186號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323622,
+          22.627472
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-981-vl-2e72bb",
+        "city": "kaohsiung",
+        "route_name": "981-VL",
+        "car_seq": "981-VL",
+        "arrival_time": "2112",
+        "departure_time": "2114",
+        "district": "苓雅區",
+        "village": "奏捷里",
+        "location": "安業路24號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327408,
+          22.626531
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-981-vl-2e72bb",
+        "city": "kaohsiung",
+        "route_name": "981-VL",
+        "car_seq": "981-VL",
+        "arrival_time": "2116",
+        "departure_time": "2118",
+        "district": "苓雅區",
+        "village": "福壽里",
+        "location": "河南路96號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328014,
+          22.626225
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-981-vl-2e72bb",
+        "city": "kaohsiung",
+        "route_name": "981-VL",
+        "car_seq": "981-VL",
+        "arrival_time": "2119",
+        "departure_time": "2121",
+        "district": "苓雅區",
+        "village": "福壽里",
+        "location": "河南路80號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335352,
+          22.618734
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-981-vl-2e72bb",
+        "city": "kaohsiung",
+        "route_name": "981-VL",
+        "car_seq": "981-VL",
+        "arrival_time": "2139",
+        "departure_time": "2142",
+        "district": "苓雅區",
+        "village": "福居里",
+        "location": "武昌路42號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332131,
+          22.620114
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-981-vl-2e72bb",
+        "city": "kaohsiung",
+        "route_name": "981-VL",
+        "car_seq": "981-VL",
+        "arrival_time": "2155",
+        "departure_time": "2157",
+        "district": "苓雅區",
+        "village": "福人里",
+        "location": "武仁街192號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

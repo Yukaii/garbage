@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67780874184824,
+          24.144534084403634
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-3675-dde0c9-d2",
+        "city": "taichung",
+        "route_name": "KEL-3675",
+        "car_seq": "KEL-3675",
+        "arrival_time": "0700",
+        "departure_time": "0710",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "大誠街9號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67968658751049,
+          24.144174588553643
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-3675-dde0c9-d2",
+        "city": "taichung",
+        "route_name": "KEL-3675",
+        "car_seq": "KEL-3675",
+        "arrival_time": "0712",
+        "departure_time": "0720",
+        "district": "中區",
+        "village": "柳川里",
+        "location": "興中街82號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68122722955994,
+          24.14528591815282
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-3675-dde0c9-d2",
+        "city": "taichung",
+        "route_name": "KEL-3675",
+        "car_seq": "KEL-3675",
+        "arrival_time": "0722",
+        "departure_time": "0730",
+        "district": "中區",
+        "village": "柳川里",
+        "location": "公園路30號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

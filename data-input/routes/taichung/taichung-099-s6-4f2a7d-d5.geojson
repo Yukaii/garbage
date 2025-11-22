@@ -1,0 +1,341 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.675496,
+          24.049178
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1800",
+        "departure_time": "1810",
+        "district": "霧峰區",
+        "village": "丁台里",
+        "location": "丁台路450號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.675496,
+          24.049178
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1800",
+        "departure_time": "1810",
+        "district": "霧峰區",
+        "village": "丁台里",
+        "location": "丁台路450號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.664376,
+          24.04653
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1815",
+        "departure_time": "1825",
+        "district": "霧峰區",
+        "village": "北勢里",
+        "location": "北豐路190號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.664376,
+          24.04653
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1815",
+        "departure_time": "1825",
+        "district": "霧峰區",
+        "village": "北勢里",
+        "location": "北豐路190號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.665488,
+          24.036695
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1830",
+        "departure_time": "1840",
+        "district": "霧峰區",
+        "village": "南勢里",
+        "location": "丁台路667號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.665488,
+          24.036695
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1830",
+        "departure_time": "1840",
+        "district": "霧峰區",
+        "village": "南勢里",
+        "location": "丁台路667號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.689519,
+          24.026036
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1845",
+        "departure_time": "1855",
+        "district": "霧峰區",
+        "village": "舊正里",
+        "location": "光明路116巷33號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.689519,
+          24.026036
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1845",
+        "departure_time": "1855",
+        "district": "霧峰區",
+        "village": "舊正里",
+        "location": "光明路116巷33號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.692705,
+          24.038012
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1913",
+        "departure_time": "1918",
+        "district": "霧峰區",
+        "village": "六股里",
+        "location": "六股路8號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.692705,
+          24.038012
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1913",
+        "departure_time": "1918",
+        "district": "霧峰區",
+        "village": "六股里",
+        "location": "六股路8號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.706785,
+          24.041445
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1925",
+        "departure_time": "1930",
+        "district": "霧峰區",
+        "village": "峰谷里",
+        "location": "峰谷路218巷1號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.706785,
+          24.041445
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1925",
+        "departure_time": "1930",
+        "district": "霧峰區",
+        "village": "峰谷里",
+        "location": "峰谷路218巷1號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.692532,
+          24.045729
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1940",
+        "departure_time": "1950",
+        "district": "霧峰區",
+        "village": "坑口里",
+        "location": "中正路582號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.692532,
+          24.045729
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-099-s6-4f2a7d-d5",
+        "city": "taichung",
+        "route_name": "099-S6",
+        "car_seq": "099-S6",
+        "arrival_time": "1940",
+        "departure_time": "1950",
+        "district": "霧峰區",
+        "village": "坑口里",
+        "location": "中正路582號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

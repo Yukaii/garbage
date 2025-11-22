@@ -1,0 +1,787 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32597,
+          22.670469
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1637",
+        "departure_time": "1638",
+        "district": "三民區",
+        "village": "鼎強里",
+        "location": "鼎強街460號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326078,
+          22.671562
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1643",
+        "departure_time": "1644",
+        "district": "三民區",
+        "village": "鼎強里",
+        "location": "鼎強街461巷12弄15號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324461,
+          22.670173
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1646",
+        "departure_time": "1648",
+        "district": "三民區",
+        "village": "鼎強里",
+        "location": "鼎強街267號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323567,
+          22.670369
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1649",
+        "departure_time": "1651",
+        "district": "三民區",
+        "village": "鼎強里",
+        "location": "鼎正街14號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323666,
+          22.669764
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1651",
+        "departure_time": "1653",
+        "district": "三民區",
+        "village": "鼎強里",
+        "location": "鼎強街231號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32405,
+          22.669115
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1658",
+        "departure_time": "1659",
+        "district": "三民區",
+        "village": "鼎強里",
+        "location": "鼎力路313號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323688,
+          22.668897
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1659",
+        "departure_time": "1700",
+        "district": "三民區",
+        "village": "鼎強里",
+        "location": "鼎力路291號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322677,
+          22.668098
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1704",
+        "departure_time": "1705",
+        "district": "三民區",
+        "village": "鼎力里",
+        "location": "鼎力路223號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.318017,
+          22.66769
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1713",
+        "departure_time": "1715",
+        "district": "三民區",
+        "village": "鼎泰里",
+        "location": "天祥一路195號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.318595,
+          22.666564
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1716",
+        "departure_time": "1718",
+        "district": "三民區",
+        "village": "鼎泰里",
+        "location": "鼎泰街258號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324005,
+          22.673929
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1805",
+        "departure_time": "1806",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎貴路130號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324006,
+          22.674579
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1806",
+        "departure_time": "1807",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎富路152號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322365,
+          22.674346
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1808",
+        "departure_time": "1812",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎貴路193號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322574,
+          22.674609
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1812",
+        "departure_time": "1814",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎貴路194號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323635,
+          22.674702
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1915",
+        "departure_time": "1919",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎富路65號前圓環",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32543,
+          22.675118
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1926",
+        "departure_time": "1928",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "大中一路141號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325968,
+          22.674461
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1929",
+        "departure_time": "1931",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "大中一路110巷14號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326398,
+          22.672827
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "1936",
+        "departure_time": "1940",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "大中一路110巷64號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322646,
+          22.676109
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2024",
+        "departure_time": "2025",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎中路795號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321794,
+          22.675267
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2026",
+        "departure_time": "2027",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎中路751巷38弄42號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321569,
+          22.674135
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2028",
+        "departure_time": "2031",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎中路753號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321205,
+          22.674333
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2033",
+        "departure_time": "2034",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎中路751巷18號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320678,
+          22.674222
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2034",
+        "departure_time": "2035",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎中路751巷35號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320466,
+          22.674077
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2036",
+        "departure_time": "2040",
+        "district": "三民區",
+        "village": "鼎盛里",
+        "location": "鼎中路751巷49號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320204,
+          22.673127
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2041",
+        "departure_time": "2042",
+        "district": "三民區",
+        "village": "鼎力里",
+        "location": "鼎中路685巷43號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320618,
+          22.672732
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2042",
+        "departure_time": "2043",
+        "district": "三民區",
+        "village": "鼎力里",
+        "location": "鼎中路685巷17弄10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320214,
+          22.672585
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2043",
+        "departure_time": "2044",
+        "district": "三民區",
+        "village": "鼎力里",
+        "location": "鼎中路685巷49弄3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320117,
+          22.672151
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2044",
+        "departure_time": "2045",
+        "district": "三民區",
+        "village": "鼎力里",
+        "location": "鼎中路635巷37號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320438,
+          22.671935
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2045",
+        "departure_time": "2046",
+        "district": "三民區",
+        "village": "鼎力里",
+        "location": "鼎中路635巷17弄2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320075,
+          22.67169
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2046",
+        "departure_time": "2047",
+        "district": "三民區",
+        "village": "鼎力里",
+        "location": "鼎中路603巷22號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320419,
+          22.67142
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2047",
+        "departure_time": "2048",
+        "district": "三民區",
+        "village": "鼎力里",
+        "location": "鼎中路603巷9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319788,
+          22.668149
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2054",
+        "departure_time": "2055",
+        "district": "三民區",
+        "village": "鼎力里",
+        "location": "鼎中路401號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.316323,
+          22.663011
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2140",
+        "departure_time": "2144",
+        "district": "三民區",
+        "village": "鼎泰里",
+        "location": "民族一路702號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.317565,
+          22.664961
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-500-t8-da4d19",
+        "city": "kaohsiung",
+        "route_name": "500-T8",
+        "car_seq": "500-T8",
+        "arrival_time": "2151",
+        "departure_time": "2154",
+        "district": "三民區",
+        "village": "鼎泰里",
+        "location": "金鼎路393號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.355885,
+          22.611834
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1700",
+        "departure_time": "1703",
+        "district": "鳳山區",
+        "village": "和興里",
+        "location": "國泰路一段219巷9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.355316,
+          22.606808
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1703",
+        "departure_time": "1706",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "油管路12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.355852,
+          22.609
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1709",
+        "departure_time": "1712",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "油管路3巷22-15號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350789,
+          22.603128
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1715",
+        "departure_time": "1717",
+        "district": "鳳山區",
+        "village": "中民里",
+        "location": "中崙一路573號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350693,
+          22.602653
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1717",
+        "departure_time": "1719",
+        "district": "鳳山區",
+        "village": "中民里",
+        "location": "中崙一路593號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.351915,
+          22.602007
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1720",
+        "departure_time": "1727",
+        "district": "鳳山區",
+        "village": "中民里",
+        "location": "中崙路586號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353683,
+          22.601913
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1730",
+        "departure_time": "1731",
+        "district": "鳳山區",
+        "village": "中榮里",
+        "location": "中崙路626號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353555,
+          22.603304
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1801",
+        "departure_time": "1802",
+        "district": "鳳山區",
+        "village": "中榮里",
+        "location": "中崙二路487號﹝中崙國中門口﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354049,
+          22.605007
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1802",
+        "departure_time": "1803",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "油管路20巷25之3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354209,
+          22.60562
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1803",
+        "departure_time": "1804",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "油管路20巷12之5號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354654,
+          22.606545
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1804",
+        "departure_time": "1805",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "中崙二路1之3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.359065,
+          22.606334
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1925",
+        "departure_time": "1930",
+        "district": "鳳山區",
+        "village": "過埤里",
+        "location": "凱旋路1號﹝中正預校﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352936,
+          22.602906
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1935",
+        "departure_time": "1937",
+        "district": "鳳山區",
+        "village": "中民里",
+        "location": "中崙二路528號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352412,
+          22.597436
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1956",
+        "departure_time": "1959",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "中崙五路6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.351767,
+          22.597474
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "1959",
+        "departure_time": "2001",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "中崙五路16號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.351538,
+          22.599302
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "2011",
+        "departure_time": "2018",
+        "district": "鳳山區",
+        "village": "中民里",
+        "location": "中崙四路19號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352671,
+          22.599681
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-403-uk-251331",
+        "city": "kaohsiung",
+        "route_name": "403-UK",
+        "car_seq": "403-UK",
+        "arrival_time": "2040",
+        "departure_time": "2044",
+        "district": "鳳山區",
+        "village": "中民里",
+        "location": "中崙四路2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

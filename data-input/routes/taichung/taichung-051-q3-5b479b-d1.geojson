@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26102036604115,
+          24.25749463533496
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-051-q3-5b479b-d1",
+        "city": "taichung",
+        "route_name": "051-Q3",
+        "car_seq": "051-Q3",
+        "arrival_time": "0715",
+        "departure_time": "0715",
+        "district": "和平區",
+        "village": "梨山里",
+        "location": "梨山里臺8線86公里處",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26102036604115,
+          24.25749463533496
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-051-q3-5b479b-d1",
+        "city": "taichung",
+        "route_name": "051-Q3",
+        "car_seq": "051-Q3",
+        "arrival_time": "0715",
+        "departure_time": "0715",
+        "district": "和平區",
+        "village": "梨山里",
+        "location": "梨山里臺8線86公里處",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.25595751498123,
+          24.25480367489096
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-051-q3-5b479b-d1",
+        "city": "taichung",
+        "route_name": "051-Q3",
+        "car_seq": "051-Q3",
+        "arrival_time": "0910",
+        "departure_time": "0910",
+        "district": "和平區",
+        "village": "梨山里",
+        "location": "民族街",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.25595751498123,
+          24.25480367489096
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-051-q3-5b479b-d1",
+        "city": "taichung",
+        "route_name": "051-Q3",
+        "car_seq": "051-Q3",
+        "arrival_time": "0910",
+        "departure_time": "0910",
+        "district": "和平區",
+        "village": "梨山里",
+        "location": "民族街",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26109742757555,
+          24.257054500569037
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-051-q3-5b479b-d1",
+        "city": "taichung",
+        "route_name": "051-Q3",
+        "car_seq": "051-Q3",
+        "arrival_time": "0940",
+        "departure_time": "0940",
+        "district": "和平區",
+        "village": "梨山里",
+        "location": "福壽路",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26109742757555,
+          24.257054500569037
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-051-q3-5b479b-d1",
+        "city": "taichung",
+        "route_name": "051-Q3",
+        "car_seq": "051-Q3",
+        "arrival_time": "0940",
+        "departure_time": "0940",
+        "district": "和平區",
+        "village": "梨山里",
+        "location": "福壽路",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

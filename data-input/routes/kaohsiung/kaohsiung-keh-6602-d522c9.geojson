@@ -1,0 +1,2282 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.339886,
+          22.692269
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1710",
+        "departure_time": "1712",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路102巷39號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.338945,
+          22.692823
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1712",
+        "departure_time": "1714",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路102巷56號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.338887,
+          22.69225
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1714",
+        "departure_time": "1716",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德北路535號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.339484,
+          22.691853
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1716",
+        "departure_time": "1718",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德北路505號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.339057,
+          22.688509
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1718",
+        "departure_time": "1720",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路122號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.338542,
+          22.687897
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1720",
+        "departure_time": "1722",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路158號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337365,
+          22.688061
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1722",
+        "departure_time": "1724",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路2270號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336145,
+          22.689584
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1724",
+        "departure_time": "1726",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "同和路68號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335837,
+          22.689981
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1725",
+        "departure_time": "1727",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "同和路88號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335522,
+          22.69046
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1726",
+        "departure_time": "1728",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "大同一街28號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336341,
+          22.690999
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1727",
+        "departure_time": "1729",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "大同一街82號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335766,
+          22.691541
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1728",
+        "departure_time": "1730",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "大同一街130號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335448,
+          22.691358
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1729",
+        "departure_time": "1731",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "大同一街148-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334834,
+          22.691517
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1730",
+        "departure_time": "1732",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "同和路178號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335527,
+          22.691907
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1731",
+        "departure_time": "1733",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "大同二街46號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335358,
+          22.692481
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1732",
+        "departure_time": "1734",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "大同二街82號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334373,
+          22.692383
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1733",
+        "departure_time": "1735",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路384巷2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334183,
+          22.692824
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1735",
+        "departure_time": "1737",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路384巷28號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334643,
+          22.693082
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1736",
+        "departure_time": "1738",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路1798號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335404,
+          22.692869
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1737",
+        "departure_time": "1739",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路1836號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336319,
+          22.692021
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1739",
+        "departure_time": "1741",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路1880號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336697,
+          22.691351
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1740",
+        "departure_time": "1742",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路1928號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337003,
+          22.690581
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1741",
+        "departure_time": "1743",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路2012號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33716,
+          22.690031
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1742",
+        "departure_time": "1744",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路2040號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336652,
+          22.689225
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1743",
+        "departure_time": "1745",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "仁愛巷30之42號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336789,
+          22.688641
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1744",
+        "departure_time": "1746",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "仁愛巷30號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336296,
+          22.688661
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1746",
+        "departure_time": "1748",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路228號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334345,
+          22.691313
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1747",
+        "departure_time": "1749",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路346號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333406,
+          22.692478
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1748",
+        "departure_time": "1750",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路402號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332851,
+          22.691644
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1750",
+        "departure_time": "1752",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路357號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334055,
+          22.690764
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1751",
+        "departure_time": "1753",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路315號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334279,
+          22.690601
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1753",
+        "departure_time": "1755",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路299號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334941,
+          22.689791
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1755",
+        "departure_time": "1757",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路259號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33539,
+          22.689222
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1756",
+        "departure_time": "1758",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德一路249號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332038,
+          22.690638
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1759",
+        "departure_time": "1801",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新七街9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332764,
+          22.691268
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1800",
+        "departure_time": "1802",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新七街57號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333258,
+          22.690626
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1802",
+        "departure_time": "1804",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新七街93號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332783,
+          22.690066
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1804",
+        "departure_time": "1806",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新七街121號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333234,
+          22.689681
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1806",
+        "departure_time": "1808",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新六街1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334025,
+          22.690296
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1807",
+        "departure_time": "1809",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新六街45號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334159,
+          22.6898
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1808",
+        "departure_time": "1810",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新六街60號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334481,
+          22.689526
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1809",
+        "departure_time": "1811",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新六街79號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334066,
+          22.68831
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1811",
+        "departure_time": "1811",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永仁街527號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334352,
+          22.687805
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1812",
+        "departure_time": "1814",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永仁街507號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334518,
+          22.687407
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1813",
+        "departure_time": "1815",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永仁街487號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333831,
+          22.687252
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1814",
+        "departure_time": "1816",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新五街151號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333248,
+          22.687814
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1816",
+        "departure_time": "1818",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新五街162號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335916,
+          22.687456
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1818",
+        "departure_time": "1820",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "後港巷23號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337644,
+          22.686157
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1826",
+        "departure_time": "1828",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德中路115號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.338072,
+          22.685796
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1828",
+        "departure_time": "1830",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德中路85號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.338483,
+          22.685468
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1830",
+        "departure_time": "1832",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德中路57號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.338905,
+          22.685133
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1831",
+        "departure_time": "1833",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德中路37號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337802,
+          22.686546
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1947",
+        "departure_time": "1949",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德中路122號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337096,
+          22.686979
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1949",
+        "departure_time": "1951",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德中路152號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335775,
+          22.685959
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1951",
+        "departure_time": "1953",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新四街327號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334674,
+          22.685393
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1953",
+        "departure_time": "1955",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新四街242號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334272,
+          22.685666
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1954",
+        "departure_time": "1956",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新四街223號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334272,
+          22.68506
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1956",
+        "departure_time": "1958",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新四街176號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335142,
+          22.684902
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "1958",
+        "departure_time": "2000",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新四街146號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335874,
+          22.68451
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2000",
+        "departure_time": "2002",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新四街55號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335628,
+          22.683789
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2002",
+        "departure_time": "2004",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新四街58號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335207,
+          22.684208
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2004",
+        "departure_time": "2006",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新四街17號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334537,
+          22.683983
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2006",
+        "departure_time": "2008",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永仁街332號與永新三街路口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33486,
+          22.683479
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2007",
+        "departure_time": "2009",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新三街140號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333876,
+          22.684163
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2010",
+        "departure_time": "2012",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新三街86號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333116,
+          22.684002
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2011",
+        "departure_time": "2013",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新三街35號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333721,
+          22.683712
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2012",
+        "departure_time": "2014",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新三街6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33444,
+          22.684507
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2017",
+        "departure_time": "2021",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永仁街102號巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331559,
+          22.682314
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2021",
+        "departure_time": "2023",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永仁街152號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332453,
+          22.682632
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2022",
+        "departure_time": "2025",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永仁街200巷2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334155,
+          22.68286
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2025",
+        "departure_time": "2027",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新二街135號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334385,
+          22.682604
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2026",
+        "departure_time": "2028",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新二街121號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333836,
+          22.682151
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2027",
+        "departure_time": "2030",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新二街108號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333509,
+          22.682448
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2029",
+        "departure_time": "2031",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新二街92號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333243,
+          22.682703
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2030",
+        "departure_time": "2032",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永新二街78號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332924,
+          22.683095
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2031",
+        "departure_time": "2033",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永仁街177號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329244,
+          22.682344
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2035",
+        "departure_time": "2037",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路462號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329168,
+          22.683076
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2037",
+        "departure_time": "2039",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路510號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329267,
+          22.685476
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2038",
+        "departure_time": "2040",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路1110號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330021,
+          22.685887
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2039",
+        "departure_time": "2041",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德中路439號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329913,
+          22.685072
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2041",
+        "departure_time": "2043",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "德新街137號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330562,
+          22.685279
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2042",
+        "departure_time": "2044",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "德新街126號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331164,
+          22.684995
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2044",
+        "departure_time": "2046",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "德新街81號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332779,
+          22.685126
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2046",
+        "departure_time": "2048",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "德新街35號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332791,
+          22.686682
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2050",
+        "departure_time": "2052",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永榮一街56號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332071,
+          22.687128
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2052",
+        "departure_time": "2054",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永榮一街69號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331066,
+          22.687132
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2053",
+        "departure_time": "2055",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永榮三街98號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330389,
+          22.686948
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2055",
+        "departure_time": "2057",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永榮三街35號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3297,
+          22.687079
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2056",
+        "departure_time": "2058",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永榮三街5號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330185,
+          22.688493
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2058",
+        "departure_time": "2100",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路1260號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33049,
+          22.689308
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2100",
+        "departure_time": "2102",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路1502號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331376,
+          22.690791
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2101",
+        "departure_time": "2103",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路1580號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332112,
+          22.691749
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2103",
+        "departure_time": "2105",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德西路1640號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329843,
+          22.687532
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2105",
+        "departure_time": "2107",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永榮一街165號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330489,
+          22.687607
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2107",
+        "departure_time": "2109",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "永榮一街196號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331255,
+          22.686882
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2109",
+        "departure_time": "2111",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "德榮街85號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3332,
+          22.686243
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2111",
+        "departure_time": "2113",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德中路356號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334325,
+          22.685984
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2114",
+        "departure_time": "2116",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "後港巷69號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33604,
+          22.68672
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6602-d522c9",
+        "city": "kaohsiung",
+        "route_name": "KEH-6602",
+        "car_seq": "KEH-6602",
+        "arrival_time": "2116",
+        "departure_time": "2118",
+        "district": "仁武區",
+        "village": "八卦里",
+        "location": "八德中路197號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

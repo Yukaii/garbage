@@ -1,0 +1,509 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57545921387124,
+          24.345176718180927
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0650",
+        "departure_time": "0653",
+        "district": "大安區",
+        "village": "南庄里",
+        "location": "南安路237巷19號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58600085551771,
+          24.346536422160927
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0658",
+        "departure_time": "0701",
+        "district": "大安區",
+        "village": "中庄里",
+        "location": "中山南路345號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59303129007151,
+          24.349146665186705
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0706",
+        "departure_time": "0709",
+        "district": "大安區",
+        "village": "中庄里",
+        "location": "中松路136巷61號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5943172987645,
+          24.3520310875045
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0712",
+        "departure_time": "0715",
+        "district": "大安區",
+        "village": "福興里",
+        "location": "中松路171號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59768894701982,
+          24.353917841107677
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0722",
+        "departure_time": "0725",
+        "district": "大安區",
+        "village": "福興里",
+        "location": "中松路263號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5866652363847,
+          24.364068573061527
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0731",
+        "departure_time": "0734",
+        "district": "大安區",
+        "village": "龜殼里",
+        "location": "中山南路730號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58655232799569,
+          24.370298031740877
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0736",
+        "departure_time": "0739",
+        "district": "大安區",
+        "village": "龜殼里",
+        "location": "中山南路832號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.593682638476,
+          24.36257511228299
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0747",
+        "departure_time": "0750",
+        "district": "大安區",
+        "village": "龜殼里",
+        "location": "溪洲路108號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.60500279930545,
+          24.361091998588034
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0757",
+        "departure_time": "0800",
+        "district": "大安區",
+        "village": "松雅里",
+        "location": "松一街25號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5985884997921,
+          24.354482262580845
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0807",
+        "departure_time": "0810",
+        "district": "大安區",
+        "village": "龜殼里",
+        "location": "中松路271號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.60761959085066,
+          24.349133421858113
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0813",
+        "departure_time": "0816",
+        "district": "大安區",
+        "village": "福興里",
+        "location": "福安路42號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.60726418807073,
+          24.34763049670135
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0830",
+        "departure_time": "0833",
+        "district": "大安區",
+        "village": "福興里",
+        "location": "興安路48號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59831014733788,
+          24.34393816136675
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0838",
+        "departure_time": "0841",
+        "district": "大安區",
+        "village": "福興里",
+        "location": "福東路70號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58888727650232,
+          24.345485177772307
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0850",
+        "departure_time": "0853",
+        "district": "大安區",
+        "village": "中庄里",
+        "location": "興安路378號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59046803084472,
+          24.336551616186792
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0906",
+        "departure_time": "0909",
+        "district": "大安區",
+        "village": "東安里",
+        "location": "福東一路95號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58821449597815,
+          24.346454125508732
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0915",
+        "departure_time": "0918",
+        "district": "大安區",
+        "village": "中庄里",
+        "location": "中松路56巷46號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58732034085456,
+          24.346913665076062
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0926",
+        "departure_time": "0929",
+        "district": "大安區",
+        "village": "中庄里",
+        "location": "中松路36號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58727498212774,
+          24.344026677086624
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0931",
+        "departure_time": "0934",
+        "district": "大安區",
+        "village": "東安里",
+        "location": "中山南路257巷35號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58421727811978,
+          24.35110514259534
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0938",
+        "departure_time": "0941",
+        "district": "大安區",
+        "village": "中庄里",
+        "location": "中山南路536號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57825320898782,
+          24.355576033782118
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "0948",
+        "departure_time": "0951",
+        "district": "大安區",
+        "village": "中庄里",
+        "location": "中海路76號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57230684530167,
+          24.344717921215764
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-7212-6bd996-d4",
+        "city": "taichung",
+        "route_name": "KES-7212",
+        "car_seq": "KES-7212",
+        "arrival_time": "1002",
+        "departure_time": "1005",
+        "district": "大安區",
+        "village": "南埔里",
+        "location": "南安路258號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    }
+  ]
+}

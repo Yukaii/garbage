@@ -1,0 +1,965 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5490672293282,
+          24.141993800962954
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1607",
+        "departure_time": "1608",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段284巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5490672293282,
+          24.141993800962954
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1608",
+        "departure_time": "1608",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段284巷1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55079994313111,
+          24.139457353811252
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1613",
+        "departure_time": "1614",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段132巷43弄5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55079994313111,
+          24.139457353811252
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1614",
+        "departure_time": "1614",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段132巷43弄5號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55580336541176,
+          24.14097099948871
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1620",
+        "departure_time": "1621",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段132巷5弄60號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55580336541176,
+          24.14097099948871
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1621",
+        "departure_time": "1621",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段132巷5弄60號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55475198221613,
+          24.142291188135346
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1633",
+        "departure_time": "1634",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段132巷2弄10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55475198221613,
+          24.142291188135346
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1634",
+        "departure_time": "1634",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段132巷2弄10號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55335654400656,
+          24.139973055979628
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1642",
+        "departure_time": "1644",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段132巷80弄204號(領袖天下社區）",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55335654400656,
+          24.139973055979628
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1644",
+        "departure_time": "1644",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段132巷80弄204號(領袖天下社區）",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55388222117944,
+          24.13869616234139
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1648",
+        "departure_time": "1650",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段102巷38號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55388222117944,
+          24.13869616234139
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1650",
+        "departure_time": "1650",
+        "district": "大肚區",
+        "village": "新興里",
+        "location": "沙田路2段102巷38號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55511814605724,
+          24.134802019844738
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1700",
+        "departure_time": "1705",
+        "district": "大肚區",
+        "village": "社腳里",
+        "location": "沙田路1段918巷12號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55511814605724,
+          24.134802019844738
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1705",
+        "departure_time": "1705",
+        "district": "大肚區",
+        "village": "社腳里",
+        "location": "沙田路1段918巷12號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55860529192817,
+          24.128164404917694
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1709",
+        "departure_time": "1711",
+        "district": "大肚區",
+        "village": "社腳里",
+        "location": "沙田路1段710巷47號（埔仔土地公廟）",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55860529192817,
+          24.128164404917694
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1709",
+        "departure_time": "1709",
+        "district": "大肚區",
+        "village": "社腳里",
+        "location": "沙田路1段710巷47號（埔仔土地公廟）",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56222006928942,
+          24.127622842476946
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1715",
+        "departure_time": "1717",
+        "district": "大肚區",
+        "village": "福山里",
+        "location": "王福街1082巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56222006928942,
+          24.127622842476946
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1717",
+        "departure_time": "1717",
+        "district": "大肚區",
+        "village": "福山里",
+        "location": "王福街1082巷1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56523612413112,
+          24.127899879830125
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1722",
+        "departure_time": "1724",
+        "district": "大肚區",
+        "village": "福山里",
+        "location": "沙田路1段512巷44之2號（福安宮）",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56523612413112,
+          24.127899879830125
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1724",
+        "departure_time": "1724",
+        "district": "大肚區",
+        "village": "福山里",
+        "location": "沙田路1段512巷44之2號（福安宮）",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56450248270248,
+          24.125003416974103
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1730",
+        "departure_time": "1732",
+        "district": "大肚區",
+        "village": "福山里",
+        "location": "王福街937巷56號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56450248270248,
+          24.125003416974103
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1732",
+        "departure_time": "1732",
+        "district": "大肚區",
+        "village": "福山里",
+        "location": "王福街937巷56號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56767141764887,
+          24.12655644985433
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1741",
+        "departure_time": "1743",
+        "district": "大肚區",
+        "village": "福山里",
+        "location": "王福街858巷66弄9號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56767141764887,
+          24.12655644985433
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1743",
+        "departure_time": "1743",
+        "district": "大肚區",
+        "village": "福山里",
+        "location": "王福街858巷66弄9號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56332726676419,
+          24.124536436374154
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1801",
+        "departure_time": "1802",
+        "district": "大肚區",
+        "village": "福山里",
+        "location": "沙田路1段524巷12號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56332726676419,
+          24.124536436374154
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1802",
+        "departure_time": "1802",
+        "district": "大肚區",
+        "village": "福山里",
+        "location": "沙田路1段524巷12號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55236768151264,
+          24.12435919474751
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1836",
+        "departure_time": "1838",
+        "district": "大肚區",
+        "village": "營埔里",
+        "location": "船頭二街86巷2弄2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55236768151264,
+          24.12435919474751
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1838",
+        "departure_time": "1838",
+        "district": "大肚區",
+        "village": "營埔里",
+        "location": "船頭二街86巷2弄2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55168397465991,
+          24.12005286532225
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1846",
+        "departure_time": "1848",
+        "district": "大肚區",
+        "village": "營埔里",
+        "location": "船頭三街165巷2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55168397465991,
+          24.12005286532225
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1848",
+        "departure_time": "1848",
+        "district": "大肚區",
+        "village": "營埔里",
+        "location": "船頭三街165巷2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55985057912157,
+          24.120807776492946
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1902",
+        "departure_time": "1905",
+        "district": "大肚區",
+        "village": "營埔里",
+        "location": "營埔一街331號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.55985057912157,
+          24.120807776492946
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1905",
+        "departure_time": "1905",
+        "district": "大肚區",
+        "village": "營埔里",
+        "location": "營埔一街331號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56014867959725,
+          24.117807426802006
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1912",
+        "departure_time": "1914",
+        "district": "大肚區",
+        "village": "營埔里",
+        "location": "營埔三街43號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56014867959725,
+          24.117807426802006
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1914",
+        "departure_time": "1914",
+        "district": "大肚區",
+        "village": "營埔里",
+        "location": "營埔三街43號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56798629793221,
+          24.115223366823777
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1930",
+        "departure_time": "1932",
+        "district": "大肚區",
+        "village": "中和里",
+        "location": "南榮路456號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56798629793221,
+          24.115223366823777
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1932",
+        "departure_time": "1932",
+        "district": "大肚區",
+        "village": "中和里",
+        "location": "南榮路456號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57837367443139,
+          24.111827028683525
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1945",
+        "departure_time": "1947",
+        "district": "大肚區",
+        "village": "中和里",
+        "location": "興和路46號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57837367443139,
+          24.111827028683525
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "1947",
+        "departure_time": "1947",
+        "district": "大肚區",
+        "village": "中和里",
+        "location": "興和路46號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57647790957569,
+          24.11671718949145
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "2000",
+        "departure_time": "2002",
+        "district": "大肚區",
+        "village": "王田里",
+        "location": "興和路121巷10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57647790957569,
+          24.11671718949145
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9050-40ac6f-d2",
+        "city": "taichung",
+        "route_name": "KED-9050",
+        "car_seq": "KED-9050",
+        "arrival_time": "2002",
+        "departure_time": "2002",
+        "district": "大肚區",
+        "village": "王田里",
+        "location": "興和路121巷10號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

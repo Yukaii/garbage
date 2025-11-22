@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66868880439311,
+          24.15939436652952
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-318-ux-fbdf88-d4",
+        "city": "taichung",
+        "route_name": "318-UX",
+        "car_seq": "318-UX",
+        "arrival_time": "0700",
+        "departure_time": "0720",
+        "district": "北區",
+        "village": "健行里",
+        "location": "健行路870號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67070409949208,
+          24.160126399856864
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-318-ux-fbdf88-d4",
+        "city": "taichung",
+        "route_name": "318-UX",
+        "car_seq": "318-UX",
+        "arrival_time": "0725",
+        "departure_time": "0740",
+        "district": "北區",
+        "village": "健行里",
+        "location": "民權路500號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6767037208018,
+          24.160509431984416
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-318-ux-fbdf88-d4",
+        "city": "taichung",
+        "route_name": "318-UX",
+        "car_seq": "318-UX",
+        "arrival_time": "0745",
+        "departure_time": "0805",
+        "district": "北區",
+        "village": "賴村里",
+        "location": "梅川東路三段139號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68032700776769,
+          24.159302545270886
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-318-ux-fbdf88-d4",
+        "city": "taichung",
+        "route_name": "318-UX",
+        "car_seq": "318-UX",
+        "arrival_time": "0810",
+        "departure_time": "0830",
+        "district": "北區",
+        "village": "邱厝里",
+        "location": "健行路464號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    }
+  ]
+}

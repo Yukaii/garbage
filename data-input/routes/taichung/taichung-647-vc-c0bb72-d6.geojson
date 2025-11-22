@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65755,
+          24.136679
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-647-vc-c0bb72-d6",
+        "city": "taichung",
+        "route_name": "647-VC",
+        "car_seq": "647-VC",
+        "arrival_time": "0700",
+        "departure_time": "0725",
+        "district": "西區",
+        "village": "土庫里",
+        "location": "忠明南路483號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.660799,
+          24.157993
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-647-vc-c0bb72-d6",
+        "city": "taichung",
+        "route_name": "647-VC",
+        "car_seq": "647-VC",
+        "arrival_time": "0700",
+        "departure_time": "0725",
+        "district": "西區",
+        "village": "忠誠里",
+        "location": "博館三街136號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.654949,
+          24.152419
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-647-vc-c0bb72-d6",
+        "city": "taichung",
+        "route_name": "647-VC",
+        "car_seq": "647-VC",
+        "arrival_time": "0730",
+        "departure_time": "0755",
+        "district": "西區",
+        "village": "公平里",
+        "location": "精誠路154號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.662364,
+          24.136745
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-647-vc-c0bb72-d6",
+        "city": "taichung",
+        "route_name": "647-VC",
+        "car_seq": "647-VC",
+        "arrival_time": "0730",
+        "departure_time": "0755",
+        "district": "西區",
+        "village": "吉龍里",
+        "location": "五權五街68號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.660302,
+          24.151054
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-647-vc-c0bb72-d6",
+        "city": "taichung",
+        "route_name": "647-VC",
+        "car_seq": "647-VC",
+        "arrival_time": "0800",
+        "departure_time": "0830",
+        "district": "西區",
+        "village": "公益里",
+        "location": "公益路132號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.662011,
+          24.144907
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-647-vc-c0bb72-d6",
+        "city": "taichung",
+        "route_name": "647-VC",
+        "car_seq": "647-VC",
+        "arrival_time": "0800",
+        "departure_time": "0830",
+        "district": "西區",
+        "village": "昇平里",
+        "location": "美村路一段367號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.360159,
+          22.571296
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1630",
+        "departure_time": "1632",
+        "district": "小港區",
+        "village": "濟南里",
+        "location": "青山街124巷108號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.361025,
+          22.57119
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1633",
+        "departure_time": "1635",
+        "district": "小港區",
+        "village": "濟南里",
+        "location": "青山街83號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.36444,
+          22.571041
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1637",
+        "departure_time": "1639",
+        "district": "小港區",
+        "village": "泰山里",
+        "location": "宏裕街108號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.362973,
+          22.566645
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1643",
+        "departure_time": "1645",
+        "district": "小港區",
+        "village": "山明里",
+        "location": "山明路407號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.361536,
+          22.573269
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1653",
+        "departure_time": "1654",
+        "district": "小港區",
+        "village": "濟南里",
+        "location": "飛機路212號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.362662,
+          22.573066
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1657",
+        "departure_time": "1658",
+        "district": "小港區",
+        "village": "泰山里",
+        "location": "飛機路119號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.36475,
+          22.572975
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1700",
+        "departure_time": "1702",
+        "district": "小港區",
+        "village": "泰山里",
+        "location": "飛機路21號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.361684,
+          22.570886
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1713",
+        "departure_time": "1715",
+        "district": "小港區",
+        "village": "濟南里",
+        "location": "青山街71巷22號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.367949,
+          22.560832
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1850",
+        "departure_time": "1851",
+        "district": "小港區",
+        "village": "山明里",
+        "location": "山明路307巷158號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.365654,
+          22.563749
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1853",
+        "departure_time": "1855",
+        "district": "小港區",
+        "village": "山明里",
+        "location": "山明路307巷50號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.360337,
+          22.568514
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1910",
+        "departure_time": "1911",
+        "district": "小港區",
+        "village": "六苓里",
+        "location": "華盛街106巷29號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.360547,
+          22.568154
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1912",
+        "departure_time": "1913",
+        "district": "小港區",
+        "village": "六苓里",
+        "location": "華盛街86巷43號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.362157,
+          22.568494
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1924",
+        "departure_time": "1925",
+        "district": "小港區",
+        "village": "宏亮里",
+        "location": "山明路511號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.362782,
+          22.567052
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1926",
+        "departure_time": "1927",
+        "district": "小港區",
+        "village": "宏亮里",
+        "location": "山明路423號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.368115,
+          22.566057
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1938",
+        "departure_time": "1939",
+        "district": "小港區",
+        "village": "山明里",
+        "location": "華山路116號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.367617,
+          22.566704
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1940",
+        "departure_time": "1941",
+        "district": "小港區",
+        "village": "山明里",
+        "location": "華山路142號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.367904,
+          22.56737
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1942",
+        "departure_time": "1945",
+        "district": "小港區",
+        "village": "山明里",
+        "location": "宏光街483號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.364493,
+          22.566362
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "1958",
+        "departure_time": "2002",
+        "district": "小港區",
+        "village": "山明里",
+        "location": "宏光街334號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.364164,
+          22.571425
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "2100",
+        "departure_time": "2101",
+        "district": "小港區",
+        "village": "泰山里",
+        "location": "宏平路73號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.365589,
+          22.573212
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "2111",
+        "departure_time": "2112",
+        "district": "小港區",
+        "village": "泰山里",
+        "location": "飛機路6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.364178,
+          22.572037
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "2117",
+        "departure_time": "2118",
+        "district": "小港區",
+        "village": "泰山里",
+        "location": "宏平路68號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.360833,
+          22.570143
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "2120",
+        "departure_time": "2122",
+        "district": "小港區",
+        "village": "泰山里",
+        "location": "宏平路316號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349179,
+          22.569697
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "2132",
+        "departure_time": "2133",
+        "district": "小港區",
+        "village": "山東里",
+        "location": "沿海一路37號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350738,
+          22.569486
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "2133",
+        "departure_time": "2134",
+        "district": "小港區",
+        "village": "正苓里",
+        "location": "宏平路683號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352379,
+          22.569656
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "2134",
+        "departure_time": "2135",
+        "district": "小港區",
+        "village": "正苓里",
+        "location": "宏平路647號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.355403,
+          22.569638
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "2138",
+        "departure_time": "2139",
+        "district": "小港區",
+        "village": "順苓里",
+        "location": "宏平路481號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.365617,
+          22.568487
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-289-n6-a07354",
+        "city": "kaohsiung",
+        "route_name": "289-N6",
+        "car_seq": "289-N6",
+        "arrival_time": "2146",
+        "departure_time": "2148",
+        "district": "小港區",
+        "village": "山明里",
+        "location": "華山路221號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

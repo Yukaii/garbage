@@ -1,0 +1,1385 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353244,
+          22.634305
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1626",
+        "departure_time": "1628",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文化路50號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352396,
+          22.634188
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1628",
+        "departure_time": "1629",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文化路109號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.351353,
+          22.634401
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1630",
+        "departure_time": "1631",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文化路133號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350723,
+          22.634771
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1631",
+        "departure_time": "1633",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文化路158號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.351434,
+          22.637138
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1638",
+        "departure_time": "1639",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段261號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.351861,
+          22.637053
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1639",
+        "departure_time": "1640",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段243號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352784,
+          22.636887
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1640",
+        "departure_time": "1641",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段203號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.355036,
+          22.636507
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1641",
+        "departure_time": "1642",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "建國路三段97號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.355817,
+          22.635802
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1642",
+        "departure_time": "1643",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "建國路三段55巷4弄1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.355726,
+          22.635299
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1643",
+        "departure_time": "1644",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "建國路三段55巷26號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.355062,
+          22.635218
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1646",
+        "departure_time": "1647",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文雅街26號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354651,
+          22.634136
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1647",
+        "departure_time": "1648",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文明街1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354505,
+          22.634329
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1648",
+        "departure_time": "1649",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文化路10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353509,
+          22.63475
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1649",
+        "departure_time": "1650",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文昌街21號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354245,
+          22.634741
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1650",
+        "departure_time": "1651",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文華街26號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35474,
+          22.634475
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1651",
+        "departure_time": "1652",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文華街1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354637,
+          22.634927
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1652",
+        "departure_time": "1653",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文明街35號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354299,
+          22.635358
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1653",
+        "departure_time": "1655",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文雅街60號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353803,
+          22.635456
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1655",
+        "departure_time": "1656",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文雅街82號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353903,
+          22.635829
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1656",
+        "departure_time": "1657",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文昌街58號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353917,
+          22.63594
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1657",
+        "departure_time": "1658",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文昌街62號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353807,
+          22.636157
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1658",
+        "departure_time": "1659",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文昌街77巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35321,
+          22.636247
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1659",
+        "departure_time": "1700",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文昌街77巷49號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352478,
+          22.636507
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1700",
+        "departure_time": "1701",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段209巷16號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352194,
+          22.636562
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1701",
+        "departure_time": "1702",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段209巷18弄8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35148,
+          22.636669
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1702",
+        "departure_time": "1703",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段267巷5弄7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.351271,
+          22.636268
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1703",
+        "departure_time": "1704",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段267巷13號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.351159,
+          22.635759
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1704",
+        "departure_time": "1705",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文雅街121號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350935,
+          22.635375
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1705",
+        "departure_time": "1706",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段267巷76號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35086,
+          22.635
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1706",
+        "departure_time": "1707",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段267巷96號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350027,
+          22.636137
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1709",
+        "departure_time": "1711",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文雅街146號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.360203,
+          22.63549
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1713",
+        "departure_time": "1717",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "建國路二段73號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353891,
+          22.640143
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1839",
+        "departure_time": "1842",
+        "district": "鳳山區",
+        "village": "文衡里",
+        "location": "文衡路269號後面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345428,
+          22.636399
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1846",
+        "departure_time": "1847",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段537號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34592,
+          22.636937
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1847",
+        "departure_time": "1848",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段501號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34659,
+          22.637286
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1848",
+        "departure_time": "1849",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段475號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.347361,
+          22.637508
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1849",
+        "departure_time": "1850",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段437號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348337,
+          22.637578
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1851",
+        "departure_time": "1852",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段401號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348882,
+          22.637566
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1852",
+        "departure_time": "1853",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段377號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349427,
+          22.637461
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1854",
+        "departure_time": "1855",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段337號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350004,
+          22.637369
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1856",
+        "departure_time": "1857",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段317號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349103,
+          22.635012
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1903",
+        "departure_time": "1904",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文化西路38號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348635,
+          22.635083
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1904",
+        "departure_time": "1905",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文化西路56號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348217,
+          22.63518
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1905",
+        "departure_time": "1906",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文化西路74號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.347236,
+          22.635339
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1906",
+        "departure_time": "1907",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文化西路116號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346552,
+          22.635373
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1907",
+        "departure_time": "1908",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文化西路148號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346091,
+          22.635223
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1908",
+        "departure_time": "1909",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文化西路168號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345523,
+          22.634763
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1909",
+        "departure_time": "1910",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文化西路192號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345314,
+          22.634502
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1910",
+        "departure_time": "1912",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文武街160巷3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345112,
+          22.635017
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1912",
+        "departure_time": "1913",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文武街150號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345071,
+          22.635369
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1913",
+        "departure_time": "1914",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文武街132號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345377,
+          22.635864
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1914",
+        "departure_time": "1915",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文武街99號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345837,
+          22.635867
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "1915",
+        "departure_time": "1916",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文化西路160巷23號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.357607,
+          22.634284
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "2028",
+        "departure_time": "2029",
+        "district": "鳳山區",
+        "village": "文華里",
+        "location": "文衡路51號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350633,
+          22.636696
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "2037",
+        "departure_time": "2042",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "青年路二段180號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350354,
+          22.636707
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "2042",
+        "departure_time": "2043",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "青年路二段217號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349312,
+          22.636894
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "2043",
+        "departure_time": "2044",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段319巷10弄9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349084,
+          22.636939
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "2044",
+        "departure_time": "2045",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "建國路三段319巷10弄13號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.347756,
+          22.636172
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "2046",
+        "departure_time": "2100",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "文建街203號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35056,
+          22.636161
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-5763-6ee791",
+        "city": "kaohsiung",
+        "route_name": "KEH-5763",
+        "car_seq": "KEH-5763",
+        "arrival_time": "2103",
+        "departure_time": "2105",
+        "district": "鳳山區",
+        "village": "文福里",
+        "location": "青年路二段152號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

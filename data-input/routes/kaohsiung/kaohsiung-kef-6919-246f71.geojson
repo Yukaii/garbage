@@ -1,0 +1,511 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.261455,
+          22.854825
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1632",
+        "departure_time": "1635",
+        "district": "路竹區",
+        "village": "竹南里",
+        "location": "中山路1175號第一銀行",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.260985,
+          22.856594
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1636",
+        "departure_time": "1639",
+        "district": "路竹區",
+        "village": "竹南里",
+        "location": "中山路口1089號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.263987,
+          22.854658
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1645",
+        "departure_time": "1648",
+        "district": "路竹區",
+        "village": "竹南里",
+        "location": "中正路197-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.262238,
+          22.857545
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1706",
+        "departure_time": "1709",
+        "district": "路竹區",
+        "village": "竹南里",
+        "location": "中興路211號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.262863,
+          22.858989
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1710",
+        "departure_time": "1713",
+        "district": "路竹區",
+        "village": "竹東里",
+        "location": "博愛街9巷11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.262313,
+          22.859728
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1715",
+        "departure_time": "1718",
+        "district": "路竹區",
+        "village": "竹東里",
+        "location": "中興路59巷28弄36號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.260812,
+          22.857603
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1820",
+        "departure_time": "1823",
+        "district": "路竹區",
+        "village": "竹南里",
+        "location": "中正路1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.259806,
+          22.860344
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1822",
+        "departure_time": "1825",
+        "district": "路竹區",
+        "village": "竹東里",
+        "location": "忠孝路12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.259451,
+          22.860503
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1838",
+        "departure_time": "1841",
+        "district": "路竹區",
+        "village": "竹東里",
+        "location": "中山路925號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.257904,
+          22.863389
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1843",
+        "departure_time": "1846",
+        "district": "路竹區",
+        "village": "竹東里",
+        "location": "中山路769-4號瑞益汽車材料行",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.25742,
+          22.866536
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1847",
+        "departure_time": "1850",
+        "district": "路竹區",
+        "village": "竹東里",
+        "location": "自由街132巷13號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.256685,
+          22.86919
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1852",
+        "departure_time": "1855",
+        "district": "路竹區",
+        "village": "竹東里",
+        "location": "自由街8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.256378,
+          22.867203
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1902",
+        "departure_time": "1905",
+        "district": "路竹區",
+        "village": "竹東里",
+        "location": "中山路539號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.256877,
+          22.869353
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1905",
+        "departure_time": "1908",
+        "district": "路竹區",
+        "village": "竹東里",
+        "location": "自由街21號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.254622,
+          22.872969
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1911",
+        "departure_time": "1914",
+        "district": "路竹區",
+        "village": "竹東里",
+        "location": "中山路215號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.269989,
+          22.869951
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1942",
+        "departure_time": "1945",
+        "district": "路竹區",
+        "village": "甲南里",
+        "location": "大仁路387-6號新合豐超市",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267363,
+          22.867425
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "1956",
+        "departure_time": "1959",
+        "district": "路竹區",
+        "village": "社中里",
+        "location": "仁愛路43-1號金星音樂團前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267489,
+          22.851859
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "2007",
+        "departure_time": "2010",
+        "district": "路竹區",
+        "village": "鴨寮里",
+        "location": "新民路76號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.271193,
+          22.846819
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "2014",
+        "departure_time": "2017",
+        "district": "路竹區",
+        "village": "鴨寮里",
+        "location": "新民路317號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.268046,
+          22.847279
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "2022",
+        "departure_time": "2025",
+        "district": "路竹區",
+        "village": "鴨寮里",
+        "location": "保安路135號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267662,
+          22.849843
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "2031",
+        "departure_time": "2034",
+        "district": "路竹區",
+        "village": "鴨寮里",
+        "location": "保安路88號鴨寮保安宮廟前巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.265103,
+          22.844315
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6919-246f71",
+        "city": "kaohsiung",
+        "route_name": "KEF-6919",
+        "car_seq": "KEF-6919",
+        "arrival_time": "2033",
+        "departure_time": "2036",
+        "district": "路竹區",
+        "village": "鴨寮里",
+        "location": "保民路300號高苑後門",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

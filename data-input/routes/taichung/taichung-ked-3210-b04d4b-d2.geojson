@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68837947743621,
+          24.154394730339206
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3210-b04d4b-d2",
+        "city": "taichung",
+        "route_name": "KED-3210",
+        "car_seq": "KED-3210",
+        "arrival_time": "0700",
+        "departure_time": "0755",
+        "district": "北區",
+        "village": "樂英里",
+        "location": "錦南街28-1號日間",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68526574897606,
+          24.160486838429375
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3210-b04d4b-d2",
+        "city": "taichung",
+        "route_name": "KED-3210",
+        "car_seq": "KED-3210",
+        "arrival_time": "0800",
+        "departure_time": "0830",
+        "district": "北區",
+        "village": "建興里",
+        "location": "崇德路一段230號日間",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

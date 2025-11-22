@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.593394,
+          24.110596
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ker-3371-7c01a0-d6",
+        "city": "taichung",
+        "route_name": "KER-3371",
+        "car_seq": "KER-3371",
+        "arrival_time": "1830",
+        "departure_time": "1835",
+        "district": "烏日區",
+        "village": "榮泉里",
+        "location": "榮泉路129號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.593394,
+          24.110596
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ker-3371-7c01a0-d6",
+        "city": "taichung",
+        "route_name": "KER-3371",
+        "car_seq": "KER-3371",
+        "arrival_time": "1830",
+        "departure_time": "1835",
+        "district": "烏日區",
+        "village": "榮泉里",
+        "location": "榮泉路129號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.608608,
+          24.105533
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ker-3371-7c01a0-d6",
+        "city": "taichung",
+        "route_name": "KER-3371",
+        "car_seq": "KER-3371",
+        "arrival_time": "1855",
+        "departure_time": "1900",
+        "district": "烏日區",
+        "village": "榮泉里",
+        "location": "三榮路一段127號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.608608,
+          24.105533
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ker-3371-7c01a0-d6",
+        "city": "taichung",
+        "route_name": "KER-3371",
+        "car_seq": "KER-3371",
+        "arrival_time": "1855",
+        "departure_time": "1900",
+        "district": "烏日區",
+        "village": "榮泉里",
+        "location": "三榮路一段127號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.628,
+          24.110258
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ker-3371-7c01a0-d6",
+        "city": "taichung",
+        "route_name": "KER-3371",
+        "car_seq": "KER-3371",
+        "arrival_time": "1930",
+        "departure_time": "1935",
+        "district": "烏日區",
+        "village": "烏日里",
+        "location": "大同路75號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.628,
+          24.110258
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ker-3371-7c01a0-d6",
+        "city": "taichung",
+        "route_name": "KER-3371",
+        "car_seq": "KER-3371",
+        "arrival_time": "1930",
+        "departure_time": "1935",
+        "district": "烏日區",
+        "village": "烏日里",
+        "location": "大同路75號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

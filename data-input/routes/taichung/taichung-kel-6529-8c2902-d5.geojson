@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67497683511151,
+          24.155567741087022
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6529-8c2902-d5",
+        "city": "taichung",
+        "route_name": "KEL-6529",
+        "car_seq": "KEL-6529",
+        "arrival_time": "0700",
+        "departure_time": "0730",
+        "district": "北區",
+        "village": "中達里",
+        "location": "英才路189號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67068785391776,
+          24.1568668086772
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6529-8c2902-d5",
+        "city": "taichung",
+        "route_name": "KEL-6529",
+        "car_seq": "KEL-6529",
+        "arrival_time": "0735",
+        "departure_time": "0805",
+        "district": "北區",
+        "village": "育德里",
+        "location": "民權路440號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6662587978588,
+          24.15567132361437
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6529-8c2902-d5",
+        "city": "taichung",
+        "route_name": "KEL-6529",
+        "car_seq": "KEL-6529",
+        "arrival_time": "0810",
+        "departure_time": "0830",
+        "district": "北區",
+        "village": "淡溝里",
+        "location": "博館路100號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,989 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.712827,
+          24.24594
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0630",
+        "departure_time": "0800",
+        "district": "豐原區",
+        "village": "西勢里",
+        "location": "圓環南路50號旁",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.710983,
+          24.23964
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0805",
+        "departure_time": "0805",
+        "district": "豐原區",
+        "village": "田心里",
+        "location": "大明路6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.710983,
+          24.23964
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0805",
+        "departure_time": "0805",
+        "district": "豐原區",
+        "village": "田心里",
+        "location": "大明路6號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708084,
+          24.242211
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0820",
+        "departure_time": "0820",
+        "district": "豐原區",
+        "village": "田心里",
+        "location": "大明路165號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708084,
+          24.242211
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0820",
+        "departure_time": "0820",
+        "district": "豐原區",
+        "village": "田心里",
+        "location": "大明路165號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708374,
+          24.239553
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0832",
+        "departure_time": "0832",
+        "district": "豐原區",
+        "village": "三村里",
+        "location": "合作街82號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.708374,
+          24.239553
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0832",
+        "departure_time": "0832",
+        "district": "豐原區",
+        "village": "三村里",
+        "location": "合作街82號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.702918,
+          24.238394
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0845",
+        "departure_time": "0845",
+        "district": "豐原區",
+        "village": "三村里",
+        "location": "西勢路488號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.702918,
+          24.238394
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0845",
+        "departure_time": "0845",
+        "district": "豐原區",
+        "village": "三村里",
+        "location": "西勢路488號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707054,
+          24.237855
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0857",
+        "departure_time": "0857",
+        "district": "豐原區",
+        "village": "三村里",
+        "location": "三和路78巷76號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707054,
+          24.237855
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0857",
+        "departure_time": "0857",
+        "district": "豐原區",
+        "village": "三村里",
+        "location": "三和路78巷76號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704756,
+          24.239581
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0907",
+        "departure_time": "0907",
+        "district": "豐原區",
+        "village": "三村里",
+        "location": "互助街3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704756,
+          24.239581
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0907",
+        "departure_time": "0907",
+        "district": "豐原區",
+        "village": "三村里",
+        "location": "互助街3號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.706986,
+          24.244043
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0915",
+        "departure_time": "0915",
+        "district": "豐原區",
+        "village": "西勢里",
+        "location": "西勢路192號對面",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.706986,
+          24.244043
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "0915",
+        "departure_time": "0915",
+        "district": "豐原區",
+        "village": "西勢里",
+        "location": "西勢路192號對面",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.701956,
+          24.246348
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1013",
+        "departure_time": "1013",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "一心路185巷8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.701956,
+          24.246348
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1013",
+        "departure_time": "1013",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "一心路185巷8號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704873,
+          24.247188
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1024",
+        "departure_time": "1024",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "一心路52之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704873,
+          24.247188
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1024",
+        "departure_time": "1024",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "一心路52之1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.703905,
+          24.241807
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1312",
+        "departure_time": "1312",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "社皮路295號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.703905,
+          24.241807
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1312",
+        "departure_time": "1312",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "社皮路295號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.702974,
+          24.2395
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1326",
+        "departure_time": "1326",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "豐原大道一段622號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.702974,
+          24.2395
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1326",
+        "departure_time": "1326",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "豐原大道一段622號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.699479,
+          24.245476
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1350",
+        "departure_time": "1350",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "社皮路41巷20弄2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.699479,
+          24.245476
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1350",
+        "departure_time": "1350",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "社皮路41巷20弄2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.69938,
+          24.247803
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1400",
+        "departure_time": "1400",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "大豐路五段536號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.69938,
+          24.247803
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1400",
+        "departure_time": "1400",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "大豐路五段536號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.697326,
+          24.243417
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1420",
+        "departure_time": "1420",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "大豐路五段228號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.697326,
+          24.243417
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1420",
+        "departure_time": "1420",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "大豐路五段228號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.698849,
+          24.246217
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1428",
+        "departure_time": "1428",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "大豐路五段422號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.698849,
+          24.246217
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1428",
+        "departure_time": "1428",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "大豐路五段422號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.713009,
+          24.249614
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1435",
+        "departure_time": "1435",
+        "district": "豐原區",
+        "village": "西安里",
+        "location": "瑞安街74號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.713009,
+          24.249614
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1435",
+        "departure_time": "1435",
+        "district": "豐原區",
+        "village": "西安里",
+        "location": "瑞安街74號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.712284,
+          24.252579
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1440",
+        "departure_time": "1440",
+        "district": "豐原區",
+        "village": "西安里",
+        "location": "瑞安街181號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.712284,
+          24.252579
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1440",
+        "departure_time": "1440",
+        "district": "豐原區",
+        "village": "西安里",
+        "location": "瑞安街181號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.711889,
+          24.254496
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1450",
+        "departure_time": "1450",
+        "district": "豐原區",
+        "village": "豐圳里",
+        "location": "圳寮路仁愛新村126號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.711889,
+          24.254496
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1450",
+        "departure_time": "1450",
+        "district": "豐原區",
+        "village": "豐圳里",
+        "location": "圳寮路仁愛新村126號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.709951,
+          24.252732
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1509",
+        "departure_time": "1509",
+        "district": "豐原區",
+        "village": "豐西里",
+        "location": "豐社路120號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.709951,
+          24.252732
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1509",
+        "departure_time": "1509",
+        "district": "豐原區",
+        "village": "豐西里",
+        "location": "豐社路120號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.712397,
+          24.255417
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1513",
+        "departure_time": "1513",
+        "district": "豐原區",
+        "village": "豐圳里",
+        "location": "圓環西路222號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.712397,
+          24.255417
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6303-27d111-d4",
+        "city": "taichung",
+        "route_name": "KEE-6303",
+        "car_seq": "KEE-6303",
+        "arrival_time": "1513",
+        "departure_time": "1513",
+        "district": "豐原區",
+        "village": "豐圳里",
+        "location": "圓環西路222號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.309124,
+          22.616834
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2613-25598e",
+        "city": "kaohsiung",
+        "route_name": "KEM-2613",
+        "car_seq": "KEM-2613",
+        "arrival_time": "1625",
+        "departure_time": "1630",
+        "district": "苓雅區",
+        "village": "日中里",
+        "location": "忠孝二路21號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310239,
+          22.617757
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2613-25598e",
+        "city": "kaohsiung",
+        "route_name": "KEM-2613",
+        "car_seq": "KEM-2613",
+        "arrival_time": "1633",
+        "departure_time": "1636",
+        "district": "苓雅區",
+        "village": "日中里",
+        "location": "興中一路138號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.309893,
+          22.616008
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2613-25598e",
+        "city": "kaohsiung",
+        "route_name": "KEM-2613",
+        "car_seq": "KEM-2613",
+        "arrival_time": "1655",
+        "departure_time": "1657",
+        "district": "苓雅區",
+        "village": "日中里",
+        "location": "三多三路156號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.307596,
+          22.616828
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2613-25598e",
+        "city": "kaohsiung",
+        "route_name": "KEM-2613",
+        "car_seq": "KEM-2613",
+        "arrival_time": "1704",
+        "departure_time": "1706",
+        "district": "苓雅區",
+        "village": "華堂里",
+        "location": "興中一路222號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302753,
+          22.615877
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2613-25598e",
+        "city": "kaohsiung",
+        "route_name": "KEM-2613",
+        "car_seq": "KEM-2613",
+        "arrival_time": "1857",
+        "departure_time": "1900",
+        "district": "苓雅區",
+        "village": "城東里",
+        "location": "仁義街4~3號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.309199,
+          22.616199
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2613-25598e",
+        "city": "kaohsiung",
+        "route_name": "KEM-2613",
+        "car_seq": "KEM-2613",
+        "arrival_time": "1935",
+        "departure_time": "1937",
+        "district": "苓雅區",
+        "village": "華堂里",
+        "location": "忠孝二路3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310368,
+          22.616163
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2613-25598e",
+        "city": "kaohsiung",
+        "route_name": "KEM-2613",
+        "car_seq": "KEM-2613",
+        "arrival_time": "1945",
+        "departure_time": "1947",
+        "district": "苓雅區",
+        "village": "日中里",
+        "location": "三多三路136號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.312983,
+          22.618365
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2613-25598e",
+        "city": "kaohsiung",
+        "route_name": "KEM-2613",
+        "car_seq": "KEM-2613",
+        "arrival_time": "1949",
+        "departure_time": "1951",
+        "district": "苓雅區",
+        "village": "日中里",
+        "location": "興中一路159號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.318032,
+          22.621514
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2613-25598e",
+        "city": "kaohsiung",
+        "route_name": "KEM-2613",
+        "car_seq": "KEM-2613",
+        "arrival_time": "2135",
+        "departure_time": "2137",
+        "district": "苓雅區",
+        "village": "林中里",
+        "location": "廣州一街109號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320908,
+          22.620733
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2613-25598e",
+        "city": "kaohsiung",
+        "route_name": "KEM-2613",
+        "car_seq": "KEM-2613",
+        "arrival_time": "2158",
+        "departure_time": "2200",
+        "district": "苓雅區",
+        "village": "林西里",
+        "location": "五權街65號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

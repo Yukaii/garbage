@@ -1,0 +1,442 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.236684,
+          22.823183
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1748",
+        "departure_time": "1749",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "永安路9-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.238288,
+          22.822434
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1753",
+        "departure_time": "1754",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路9巷1弄32號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.240534,
+          22.817826
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1757",
+        "departure_time": "1758",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路57-2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.245103,
+          22.816506
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1809",
+        "departure_time": "1810",
+        "district": "永安區",
+        "village": "維新里",
+        "location": "保安路6巷105-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.238992,
+          22.823017
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1816",
+        "departure_time": "1817",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保興一路1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.23753,
+          22.822734
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1819",
+        "departure_time": "1820",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路69-9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.238778,
+          22.826038
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1828",
+        "departure_time": "1829",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保興二路1-10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.236217,
+          22.828341
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1830",
+        "departure_time": "1831",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路106-22號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.235676,
+          22.831498
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1834",
+        "departure_time": "1835",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路130巷31號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.237506,
+          22.831873
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1840",
+        "departure_time": "1841",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路130巷6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.235251,
+          22.832339
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1915",
+        "departure_time": "1916",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路8巷6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.235029,
+          22.83381
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1924",
+        "departure_time": "1925",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路10巷7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.235106,
+          22.8354
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1930",
+        "departure_time": "1931",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路16巷2-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.236301,
+          22.836731
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1934",
+        "departure_time": "1935",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保寧路6-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.234476,
+          22.833465
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1943",
+        "departure_time": "1944",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路283號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.234455,
+          22.832557
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1945",
+        "departure_time": "1946",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路243號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.234768,
+          22.833138
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1946",
+        "departure_time": "1947",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路166號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.233742,
+          22.832858
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "1953",
+        "departure_time": "1954",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路11巷14-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.237609,
+          22.824171
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-873-t7-cf76e0",
+        "city": "kaohsiung",
+        "route_name": "873-T7",
+        "car_seq": "873-T7",
+        "arrival_time": "2004",
+        "departure_time": "2005",
+        "district": "永安區",
+        "village": "保寧里",
+        "location": "保安路75-3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

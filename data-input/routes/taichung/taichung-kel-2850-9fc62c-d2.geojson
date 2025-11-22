@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.92476209619593,
+          24.29751581535488
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2850-9fc62c-d2",
+        "city": "taichung",
+        "route_name": "KEL-2850",
+        "car_seq": "KEL-2850",
+        "arrival_time": "0710",
+        "departure_time": "0710",
+        "district": "和平區",
+        "village": "自由里",
+        "location": "自由里東崎路二段三叉坑部落",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.92476209619593,
+          24.29751581535488
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2850-9fc62c-d2",
+        "city": "taichung",
+        "route_name": "KEL-2850",
+        "car_seq": "KEL-2850",
+        "arrival_time": "0710",
+        "departure_time": "0710",
+        "district": "和平區",
+        "village": "自由里",
+        "location": "自由里東崎路二段三叉坑部落",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.92056413007495,
+          24.334279004673977
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2850-9fc62c-d2",
+        "city": "taichung",
+        "route_name": "KEL-2850",
+        "car_seq": "KEL-2850",
+        "arrival_time": "0750",
+        "departure_time": "0750",
+        "district": "和平區",
+        "village": "達觀里",
+        "location": "達觀里東崎路一段竹林部落",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.92056413007495,
+          24.334279004673977
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2850-9fc62c-d2",
+        "city": "taichung",
+        "route_name": "KEL-2850",
+        "car_seq": "KEL-2850",
+        "arrival_time": "0750",
+        "departure_time": "0750",
+        "district": "和平區",
+        "village": "達觀里",
+        "location": "達觀里東崎路一段竹林部落",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67127427278297,
+          24.170175624145713
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-311-ux-b56067-d5",
+        "city": "taichung",
+        "route_name": "311-UX",
+        "car_seq": "311-UX",
+        "arrival_time": "0700",
+        "departure_time": "0720",
+        "district": "北區",
+        "village": "立人里",
+        "location": "天津路一段203號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66853947648626,
+          24.16896542563877
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-311-ux-b56067-d5",
+        "city": "taichung",
+        "route_name": "311-UX",
+        "car_seq": "311-UX",
+        "arrival_time": "0722",
+        "departure_time": "0742",
+        "district": "北區",
+        "village": "長青里",
+        "location": "陝西路66號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66969100930639,
+          24.167038818117977
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-311-ux-b56067-d5",
+        "city": "taichung",
+        "route_name": "311-UX",
+        "car_seq": "311-UX",
+        "arrival_time": "0745",
+        "departure_time": "0805",
+        "district": "北區",
+        "village": "明德里",
+        "location": "漢口路三段119號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66762236067058,
+          24.163112826282006
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-311-ux-b56067-d5",
+        "city": "taichung",
+        "route_name": "311-UX",
+        "car_seq": "311-UX",
+        "arrival_time": "0810",
+        "departure_time": "0830",
+        "district": "北區",
+        "village": "明德里",
+        "location": "忠明路361號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68036051420927,
+          24.154494062283135
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-311-ux-b56067-d5",
+        "city": "taichung",
+        "route_name": "311-UX",
+        "car_seq": "311-UX",
+        "arrival_time": "0900",
+        "departure_time": "0920",
+        "district": "北區",
+        "village": "五常里",
+        "location": "五常街71號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.248267,
+          22.781606
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1805",
+        "departure_time": "1808",
+        "district": "彌陀區",
+        "village": "彌仁里",
+        "location": "中正路9巷11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.248677,
+          22.781917
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1805",
+        "departure_time": "1808",
+        "district": "彌陀區",
+        "village": "彌仁里",
+        "location": "中正路9巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.248205,
+          22.781931
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1808",
+        "departure_time": "1811",
+        "district": "彌陀區",
+        "village": "彌仁里",
+        "location": "中正路10巷3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.24663,
+          22.781271
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1810",
+        "departure_time": "1813",
+        "district": "彌陀區",
+        "village": "彌仁里",
+        "location": "中正西路2巷8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.248903,
+          22.781358
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1813",
+        "departure_time": "1816",
+        "district": "彌陀區",
+        "village": "彌壽里",
+        "location": "中正路7巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.248549,
+          22.781321
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1814",
+        "departure_time": "1817",
+        "district": "彌陀區",
+        "village": "彌仁里",
+        "location": "中正路7巷28號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.24833,
+          22.779959
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1816",
+        "departure_time": "1819",
+        "district": "彌陀區",
+        "village": "彌陀里",
+        "location": "中正路4巷23號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.250864,
+          22.780487
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1820",
+        "departure_time": "1823",
+        "district": "彌陀區",
+        "village": "彌陀里",
+        "location": "中正路1巷6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.250124,
+          22.780065
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1821",
+        "departure_time": "1824",
+        "district": "彌陀區",
+        "village": "彌陀里",
+        "location": "中正路1巷36號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.248215,
+          22.77971
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1823",
+        "departure_time": "1826",
+        "district": "彌陀區",
+        "village": "彌陀里",
+        "location": "中正路2巷30號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.244981,
+          22.778306
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1826",
+        "departure_time": "1829",
+        "district": "彌陀區",
+        "village": "海尾里",
+        "location": "海尾路49巷10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.245397,
+          22.778106
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1826",
+        "departure_time": "1829",
+        "district": "彌陀區",
+        "village": "彌壽里",
+        "location": "中正西路廟後巷61號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.245895,
+          22.778113
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1828",
+        "departure_time": "1831",
+        "district": "彌陀區",
+        "village": "彌壽里",
+        "location": "中正西路廟後巷39號前三叉路口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.246222,
+          22.778616
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1830",
+        "departure_time": "1833",
+        "district": "彌陀區",
+        "village": "彌壽里",
+        "location": "中正西路廟前巷15號巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.246835,
+          22.77916
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1832",
+        "departure_time": "1835",
+        "district": "彌陀區",
+        "village": "彌壽里",
+        "location": "中正西路1巷3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.243795,
+          22.764309
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1834",
+        "departure_time": "1837",
+        "district": "彌陀區",
+        "village": "漯底里",
+        "location": "樂安路2巷8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.244654,
+          22.765666
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1837",
+        "departure_time": "1840",
+        "district": "彌陀區",
+        "village": "漯底里",
+        "location": "樂安路82號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.237745,
+          22.761281
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1922",
+        "departure_time": "1925",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路光華巷19號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.237281,
+          22.762271
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1924",
+        "departure_time": "1927",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路光華巷15之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.236877,
+          22.761835
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1925",
+        "departure_time": "1928",
+        "district": "彌陀區",
+        "village": "漯底里",
+        "location": "南寮路光華北巷13號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.236295,
+          22.760719
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1926",
+        "departure_time": "1929",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路光華1巷4號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.236283,
+          22.760824
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1929",
+        "departure_time": "1932",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路光華3巷6號之1",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.236448,
+          22.760469
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1931",
+        "departure_time": "1934",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路光華5巷2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.237448,
+          22.759468
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1932",
+        "departure_time": "1935",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路光明巷18號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.238474,
+          22.760206
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1933",
+        "departure_time": "1936",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路中山巷1弄二橫16號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.238572,
+          22.759454
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1935",
+        "departure_time": "1938",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路中山巷1弄50號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.23853,
+          22.760328
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1937",
+        "departure_time": "1940",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路中山巷1之2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.239213,
+          22.760012
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1939",
+        "departure_time": "1942",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路中山巷7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.240126,
+          22.760674
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1940",
+        "departure_time": "1943",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮路山下巷2弄4號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.242639,
+          22.762398
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1942",
+        "departure_time": "1945",
+        "district": "彌陀區",
+        "village": "漯底里",
+        "location": "公園路107之3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.246011,
+          22.754667
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1946",
+        "departure_time": "1949",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "南寮里山下巷37號路口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.246636,
+          22.755973
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1951",
+        "departure_time": "1954",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "新庄路1巷12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.246697,
+          22.755804
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1952",
+        "departure_time": "1955",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "新庄路2巷12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.246041,
+          22.754069
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1955",
+        "departure_time": "1958",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "新庄路1之3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.246809,
+          22.754923
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "1958",
+        "departure_time": "2001",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "復興街2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.247913,
+          22.755603
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "2002",
+        "departure_time": "2005",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "復興街3巷16號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.24596,
+          22.755904
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "2003",
+        "departure_time": "2006",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "新庄路2巷23號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.246024,
+          22.755569
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "2005",
+        "departure_time": "2008",
+        "district": "彌陀區",
+        "village": "南寮里",
+        "location": "新庄路46號之1",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.253341,
+          22.770126
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7651-687c75",
+        "city": "kaohsiung",
+        "route_name": "KEB-7651",
+        "car_seq": "KEB-7651",
+        "arrival_time": "2010",
+        "departure_time": "2013",
+        "district": "彌陀區",
+        "village": "漯底里",
+        "location": "山頂路6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

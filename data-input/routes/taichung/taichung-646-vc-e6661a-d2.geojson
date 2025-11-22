@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.587984,
+          24.176144
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-646-vc-e6661a-d2",
+        "city": "taichung",
+        "route_name": "646-VC",
+        "car_seq": "646-VC",
+        "arrival_time": "0700",
+        "departure_time": "0705",
+        "district": "西屯區",
+        "village": "協和里",
+        "location": "工業區三十八路166號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.620099,
+          24.18346
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-646-vc-e6661a-d2",
+        "city": "taichung",
+        "route_name": "646-VC",
+        "car_seq": "646-VC",
+        "arrival_time": "0755",
+        "departure_time": "0800",
+        "district": "西屯區",
+        "village": "福雅里",
+        "location": "永福路39號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

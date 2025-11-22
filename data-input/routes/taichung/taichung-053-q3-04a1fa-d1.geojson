@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.32574080133844,
+          24.356197218725764
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-053-q3-04a1fa-d1",
+        "city": "taichung",
+        "route_name": "053-Q3",
+        "car_seq": "053-Q3",
+        "arrival_time": "0700",
+        "departure_time": "0700",
+        "district": "和平區",
+        "village": "平等里",
+        "location": "平等里環山部落",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.32574080133844,
+          24.356197218725764
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-053-q3-04a1fa-d1",
+        "city": "taichung",
+        "route_name": "053-Q3",
+        "car_seq": "053-Q3",
+        "arrival_time": "0700",
+        "departure_time": "0700",
+        "district": "和平區",
+        "village": "平等里",
+        "location": "平等里環山部落",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

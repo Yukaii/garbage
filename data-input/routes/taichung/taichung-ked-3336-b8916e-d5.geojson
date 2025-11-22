@@ -1,0 +1,1205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.677867,
+          24.20755
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0700",
+        "departure_time": "0750",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "昌平路三段492巷170弄21號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.677867,
+          24.20755
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0700",
+        "departure_time": "0750",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "昌平路三段492巷170弄21號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.674695,
+          24.203044
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0753",
+        "departure_time": "0758",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "昌平路三段50號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.674695,
+          24.203044
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0753",
+        "departure_time": "0758",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "昌平路三段50號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.672143,
+          24.205994
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0758",
+        "departure_time": "0802",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "昌平路三斷241巷56號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.672143,
+          24.205994
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0758",
+        "departure_time": "0802",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "昌平路三斷241巷56號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67487,
+          24.204445
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0802",
+        "departure_time": "0810",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "昌平路三段150巷15弄20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67487,
+          24.204445
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0802",
+        "departure_time": "0810",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "昌平路三段150巷15弄20號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.675962,
+          24.203903
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0810",
+        "departure_time": "0815",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大明一路72號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.675962,
+          24.203903
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0810",
+        "departure_time": "0815",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大明一路72號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.677413,
+          24.204294
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0815",
+        "departure_time": "0820",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大德一路54號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.677413,
+          24.204294
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0815",
+        "departure_time": "0820",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大德一路54號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.678118,
+          24.203576
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0820",
+        "departure_time": "0825",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段3巷5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.678118,
+          24.203576
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0820",
+        "departure_time": "0825",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段3巷5號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.681719,
+          24.206437
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0825",
+        "departure_time": "0835",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段30之7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.681719,
+          24.206437
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0825",
+        "departure_time": "0835",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段30之7號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.678765,
+          24.206636
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0835",
+        "departure_time": "0840",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段23巷40號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.678765,
+          24.206636
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0835",
+        "departure_time": "0840",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段23巷40號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.676993,
+          24.206059
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0840",
+        "departure_time": "0855",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大德北路35巷23號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.676993,
+          24.206059
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0840",
+        "departure_time": "0855",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大德北路35巷23號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.676621,
+          24.205151
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0855",
+        "departure_time": "0905",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大明二路36號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.676621,
+          24.205151
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0855",
+        "departure_time": "0905",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大明二路36號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.686269,
+          24.220005
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0940",
+        "departure_time": "0945",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段439號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.686269,
+          24.220005
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0940",
+        "departure_time": "0945",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段439號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.680943,
+          24.210811
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0945",
+        "departure_time": "0955",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段107巷9號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.680943,
+          24.210811
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0945",
+        "departure_time": "0955",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段107巷9號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.685505,
+          24.219256
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0955",
+        "departure_time": "1005",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段327號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.685505,
+          24.219256
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "0955",
+        "departure_time": "1005",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段327號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.687076,
+          24.223672
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1005",
+        "departure_time": "1015",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路二段12之10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.687076,
+          24.223672
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1005",
+        "departure_time": "1015",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路二段12之10號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.690896,
+          24.216079
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1015",
+        "departure_time": "1020",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "雅潭路二段274號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.690896,
+          24.216079
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1015",
+        "departure_time": "1020",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "雅潭路二段274號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.690209,
+          24.212982
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1020",
+        "departure_time": "1030",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大豐路一段205號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.690209,
+          24.212982
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1020",
+        "departure_time": "1030",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大豐路一段205號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.689345,
+          24.22006
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1030",
+        "departure_time": "1040",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "崇德路五段158之2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.689345,
+          24.22006
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1030",
+        "departure_time": "1040",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "崇德路五段158之2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.687728,
+          24.216199
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1050",
+        "departure_time": "1055",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "雅潭路二段370號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.687728,
+          24.216199
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1050",
+        "departure_time": "1055",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "雅潭路二段370號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.680034,
+          24.213951
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1055",
+        "departure_time": "1111",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "雅潭路三段13巷3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.680034,
+          24.213951
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1055",
+        "departure_time": "1111",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "雅潭路三段13巷3號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.686746,
+          24.211748
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1111",
+        "departure_time": "1118",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "崇德路四段273號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.686746,
+          24.211748
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1111",
+        "departure_time": "1118",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "崇德路四段273號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68055,
+          24.203534
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1118",
+        "departure_time": "1128",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段2巷58弄19號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68055,
+          24.203534
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1118",
+        "departure_time": "1128",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大富路一段2巷58弄19號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.687434,
+          24.209937
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1128",
+        "departure_time": "1136",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大豐一路155巷2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.687434,
+          24.209937
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1128",
+        "departure_time": "1136",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "大豐一路155巷2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.692909,
+          24.215821
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1135",
+        "departure_time": "1143",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "雅潭路二段167號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.692909,
+          24.215821
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1135",
+        "departure_time": "1143",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "雅潭路二段167號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704983,
+          24.215527
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1143",
+        "departure_time": "1150",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "雅潭路一段1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704983,
+          24.215527
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3336-b8916e-d5",
+        "city": "taichung",
+        "route_name": "KED-3336",
+        "car_seq": "KED-3336",
+        "arrival_time": "1143",
+        "departure_time": "1150",
+        "district": "潭子區",
+        "village": "東寶里",
+        "location": "雅潭路一段1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

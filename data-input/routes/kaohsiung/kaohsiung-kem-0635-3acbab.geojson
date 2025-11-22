@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34403,
+          22.527664
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0635-3acbab",
+        "city": "kaohsiung",
+        "route_name": "KEM-0635",
+        "car_seq": "KEM-0635",
+        "arrival_time": "0825",
+        "departure_time": "0840",
+        "district": "小港區",
+        "village": "鳳林里",
+        "location": "鳳北路191巷21-4號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.342147,
+          22.527163
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0635-3acbab",
+        "city": "kaohsiung",
+        "route_name": "KEM-0635",
+        "car_seq": "KEM-0635",
+        "arrival_time": "0841",
+        "departure_time": "0842",
+        "district": "小港區",
+        "village": "鳳源里",
+        "location": "鳳林路166巷17號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.343141,
+          22.526499
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0635-3acbab",
+        "city": "kaohsiung",
+        "route_name": "KEM-0635",
+        "car_seq": "KEM-0635",
+        "arrival_time": "0843",
+        "departure_time": "0845",
+        "district": "小港區",
+        "village": "順苓里",
+        "location": "鳳西街152-1號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346411,
+          22.523574
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0635-3acbab",
+        "city": "kaohsiung",
+        "route_name": "KEM-0635",
+        "car_seq": "KEM-0635",
+        "arrival_time": "0848",
+        "departure_time": "0853",
+        "district": "小港區",
+        "village": "鳳森里",
+        "location": "鳳西街9-6號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.360473,
+          22.512422
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0635-3acbab",
+        "city": "kaohsiung",
+        "route_name": "KEM-0635",
+        "car_seq": "KEM-0635",
+        "arrival_time": "0907",
+        "departure_time": "0915",
+        "district": "小港區",
+        "village": "鳳鳴里",
+        "location": "鳳鳴路65號前空地",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.374016,
+          22.574916
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0635-3acbab",
+        "city": "kaohsiung",
+        "route_name": "KEM-0635",
+        "car_seq": "KEM-0635",
+        "arrival_time": "1220",
+        "departure_time": "1240",
+        "district": "小港區",
+        "village": "高松里",
+        "location": "松崗路27號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.366811,
+          22.564395
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0635-3acbab",
+        "city": "kaohsiung",
+        "route_name": "KEM-0635",
+        "car_seq": "KEM-0635",
+        "arrival_time": "1245",
+        "departure_time": "1300",
+        "district": "小港區",
+        "village": "山明里",
+        "location": "水秀路37號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62132078531715,
+          24.35384857019595
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6519-0ddfe8-d2",
+        "city": "taichung",
+        "route_name": "KEL-6519",
+        "car_seq": "KEL-6519",
+        "arrival_time": "0720",
+        "departure_time": "0740",
+        "district": "大甲區",
+        "village": "文武里",
+        "location": "和平路223號前",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62132078531715,
+          24.35384857019595
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6519-0ddfe8-d2",
+        "city": "taichung",
+        "route_name": "KEL-6519",
+        "car_seq": "KEL-6519",
+        "arrival_time": "0740",
+        "departure_time": "0740",
+        "district": "大甲區",
+        "village": "文武里",
+        "location": "和平路223號前",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

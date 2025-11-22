@@ -1,0 +1,580 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.358774,
+          22.622073
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1656",
+        "departure_time": "1658",
+        "district": "鳳山區",
+        "village": "國泰里",
+        "location": "五甲一路與國富路1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350983,
+          22.613198
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1704",
+        "departure_time": "1705",
+        "district": "鳳山區",
+        "village": "國泰里",
+        "location": "五甲一路358巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35066,
+          22.612732
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1705",
+        "departure_time": "1706",
+        "district": "鳳山區",
+        "village": "國泰里",
+        "location": "五甲一路368號﹝春天藝術﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348719,
+          22.613917
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1706",
+        "departure_time": "1708",
+        "district": "鳳山區",
+        "village": "國富里",
+        "location": "凱旋路288號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348282,
+          22.614228
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1708",
+        "departure_time": "1710",
+        "district": "鳳山區",
+        "village": "國富里",
+        "location": "凱旋路312號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349244,
+          22.61547
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1712",
+        "departure_time": "1714",
+        "district": "鳳山區",
+        "village": "國富里",
+        "location": "國富路29號﹝國富D型大廈後門﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34868,
+          22.604509
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1727",
+        "departure_time": "1728",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "中崙路7之20號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34854,
+          22.603764
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1728",
+        "departure_time": "1729",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "中崙路7之11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348425,
+          22.603269
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1729",
+        "departure_time": "1730",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "中崙路7之29號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34844,
+          22.602267
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1730",
+        "departure_time": "1731",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "中崙路6之7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349142,
+          22.600435
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1732",
+        "departure_time": "1733",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "中崙一路496巷39號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34925,
+          22.599816
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1733",
+        "departure_time": "1734",
+        "district": "鳳山區",
+        "village": "中崙里",
+        "location": "中崙四路60號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3573,
+          22.593101
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1928",
+        "departure_time": "1929",
+        "district": "鳳山區",
+        "village": "過埤里",
+        "location": "保生路248號與園茂路",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354804,
+          22.588394
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1934",
+        "departure_time": "1937",
+        "district": "鳳山區",
+        "village": "過埤里",
+        "location": "頂明路與頂庄路343號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.358321,
+          22.586807
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1938",
+        "departure_time": "1940",
+        "district": "鳳山區",
+        "village": "過埤里",
+        "location": "過雄一街12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.361227,
+          22.586831
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1940",
+        "departure_time": "1942",
+        "district": "鳳山區",
+        "village": "過埤里",
+        "location": "過昌街60號與過雄街",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.365404,
+          22.587937
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "1945",
+        "departure_time": "1946",
+        "district": "鳳山區",
+        "village": "過埤里",
+        "location": "頂新路92號與頂新二街",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333568,
+          22.597835
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "2003",
+        "departure_time": "2005",
+        "district": "鳳山區",
+        "village": "鎮南里",
+        "location": "永安街6號（校邊好大樓）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33253,
+          22.597349
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "2008",
+        "departure_time": "2009",
+        "district": "鳳山區",
+        "village": "鎮南里",
+        "location": "永安街48號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332311,
+          22.597306
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "2009",
+        "departure_time": "2010",
+        "district": "鳳山區",
+        "village": "鎮南里",
+        "location": "永安街56之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331706,
+          22.598616
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "2013",
+        "departure_time": "2015",
+        "district": "鳳山區",
+        "village": "鎮南里",
+        "location": "永安街104號（快樂國城大樓）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326437,
+          22.598535
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "2022",
+        "departure_time": "2023",
+        "district": "鳳山區",
+        "village": "福祥里",
+        "location": "自強二路247號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327135,
+          22.59636
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "2024",
+        "departure_time": "2026",
+        "district": "鳳山區",
+        "village": "福祥里",
+        "location": "自強二路139號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327292,
+          22.595866
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "2026",
+        "departure_time": "2028",
+        "district": "鳳山區",
+        "village": "福祥里",
+        "location": "自強二路113號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327883,
+          22.594169
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-ket-9590-15c7d1",
+        "city": "kaohsiung",
+        "route_name": "KET-9590",
+        "car_seq": "KET-9590",
+        "arrival_time": "2028",
+        "departure_time": "2030",
+        "district": "鳳山區",
+        "village": "福祥里",
+        "location": "自強二路29號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

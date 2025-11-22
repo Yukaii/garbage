@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.186031,
+          22.888687
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-359-uv-b0fd15",
+        "city": "kaohsiung",
+        "route_name": "359-UV",
+        "car_seq": "359-UV",
+        "arrival_time": "1721",
+        "departure_time": "1722",
+        "district": "茄萣區",
+        "village": "福德里",
+        "location": "成功路1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.187664,
+          22.881181
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-359-uv-b0fd15",
+        "city": "kaohsiung",
+        "route_name": "359-UV",
+        "car_seq": "359-UV",
+        "arrival_time": "1727",
+        "departure_time": "1728",
+        "district": "茄萣區",
+        "village": "福德里",
+        "location": "濱海路一段781號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.183331,
+          22.891807
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-359-uv-b0fd15",
+        "city": "kaohsiung",
+        "route_name": "359-UV",
+        "car_seq": "359-UV",
+        "arrival_time": "1734",
+        "departure_time": "1735",
+        "district": "茄萣區",
+        "village": "福德里",
+        "location": "濱海路二段61-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.180463,
+          22.898872
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-359-uv-b0fd15",
+        "city": "kaohsiung",
+        "route_name": "359-UV",
+        "car_seq": "359-UV",
+        "arrival_time": "1747",
+        "departure_time": "1748",
+        "district": "茄萣區",
+        "village": "福德里",
+        "location": "濱海路三段56號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.177781,
+          22.907646
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-359-uv-b0fd15",
+        "city": "kaohsiung",
+        "route_name": "359-UV",
+        "car_seq": "359-UV",
+        "arrival_time": "1753",
+        "departure_time": "1754",
+        "district": "茄萣區",
+        "village": "福德里",
+        "location": "濱海路四段69號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.184808,
+          22.910723
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-359-uv-b0fd15",
+        "city": "kaohsiung",
+        "route_name": "359-UV",
+        "car_seq": "359-UV",
+        "arrival_time": "1802",
+        "departure_time": "1803",
+        "district": "茄萣區",
+        "village": "福德里",
+        "location": "白砂路136號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.179503,
+          22.911636
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-359-uv-b0fd15",
+        "city": "kaohsiung",
+        "route_name": "359-UV",
+        "car_seq": "359-UV",
+        "arrival_time": "1817",
+        "departure_time": "1818",
+        "district": "茄萣區",
+        "village": "嘉賜里",
+        "location": "福德路98-2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.185047,
+          22.913145
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-359-uv-b0fd15",
+        "city": "kaohsiung",
+        "route_name": "359-UV",
+        "car_seq": "359-UV",
+        "arrival_time": "1828",
+        "departure_time": "1829",
+        "district": "茄萣區",
+        "village": "嘉賜里",
+        "location": "白砂路243號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.182948,
+          22.907029
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-359-uv-b0fd15",
+        "city": "kaohsiung",
+        "route_name": "359-UV",
+        "car_seq": "359-UV",
+        "arrival_time": "1832",
+        "departure_time": "1833",
+        "district": "茄萣區",
+        "village": "嘉賜里",
+        "location": "濱海路四段40號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.182972,
+          22.912293
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-359-uv-b0fd15",
+        "city": "kaohsiung",
+        "route_name": "359-UV",
+        "car_seq": "359-UV",
+        "arrival_time": "1840",
+        "departure_time": "1841",
+        "district": "茄萣區",
+        "village": "嘉定里",
+        "location": "文化路96號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293437,
+          22.683599
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1613",
+        "departure_time": "1618",
+        "district": "左營區",
+        "village": "廍南里",
+        "location": "左營下路18號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295332,
+          22.689176
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1643",
+        "departure_time": "1645",
+        "district": "左營區",
+        "village": "廍南里",
+        "location": "左營大路512號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295739,
+          22.689755
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1646",
+        "departure_time": "1648",
+        "district": "左營區",
+        "village": "廍南里",
+        "location": "左營大路528號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.300337,
+          22.685016
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1844",
+        "departure_time": "1845",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "洲仔路2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30163,
+          22.686755
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1847",
+        "departure_time": "1850",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "洲仔路25號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.300042,
+          22.685241
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1850",
+        "departure_time": "1852",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "洲仔巷11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.299316,
+          22.683456
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1855",
+        "departure_time": "1856",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "洲仔巷2-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301143,
+          22.685787
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1856",
+        "departure_time": "1857",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "洲仔路127巷3弄11號後面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30163,
+          22.689727
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1908",
+        "departure_time": "1912",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "菜公路62號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.299006,
+          22.691196
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1917",
+        "departure_time": "1920",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "菜公路156-3號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.29692,
+          22.688956
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1924",
+        "departure_time": "1926",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "左營下路149號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296327,
+          22.688175
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1926",
+        "departure_time": "1928",
+        "district": "左營區",
+        "village": "廍南里",
+        "location": "左營下路137之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295417,
+          22.687479
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1930",
+        "departure_time": "1931",
+        "district": "左營區",
+        "village": "廍南里",
+        "location": "左營下路115號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295392,
+          22.687152
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "1931",
+        "departure_time": "1933",
+        "district": "左營區",
+        "village": "廍南里",
+        "location": "左營下路111號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295542,
+          22.687071
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "2041",
+        "departure_time": "2043",
+        "district": "左營區",
+        "village": "廍南里",
+        "location": "左營下路158巷11號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296311,
+          22.686578
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "2043",
+        "departure_time": "2047",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "蓮潭路150號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.290395,
+          22.686769
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "2056",
+        "departure_time": "2100",
+        "district": "左營區",
+        "village": "頂西里",
+        "location": "西陵街39號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.289378,
+          22.685376
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "2106",
+        "departure_time": "2108",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "海德路8號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288849,
+          22.685544
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "2108",
+        "departure_time": "2111",
+        "district": "左營區",
+        "village": "廍北里",
+        "location": "海德路27號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288546,
+          22.686139
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "2111",
+        "departure_time": "2113",
+        "district": "左營區",
+        "village": "廍南里",
+        "location": "海德路76號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287578,
+          22.684548
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "2120",
+        "departure_time": "2122",
+        "district": "左營區",
+        "village": "廍南里",
+        "location": "廍後街39號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28796,
+          22.684429
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7657-08b6d6",
+        "city": "kaohsiung",
+        "route_name": "KEB-7657",
+        "car_seq": "KEB-7657",
+        "arrival_time": "2128",
+        "departure_time": "2130",
+        "district": "左營區",
+        "village": "路東里",
+        "location": "廍後街28號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.374204,
+          22.618977
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7766-2ab510",
+        "city": "kaohsiung",
+        "route_name": "KEB-7766",
+        "car_seq": "KEB-7766",
+        "arrival_time": "2047",
+        "departure_time": "2055",
+        "district": "鳳山區",
+        "village": "誠智里",
+        "location": "杭州西街141號及146號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.373929,
+          22.62
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7766-2ab510",
+        "city": "kaohsiung",
+        "route_name": "KEB-7766",
+        "car_seq": "KEB-7766",
+        "arrival_time": "2055",
+        "departure_time": "2100",
+        "district": "鳳山區",
+        "village": "誠信里",
+        "location": "杭州西街108號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.374951,
+          22.620273
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7766-2ab510",
+        "city": "kaohsiung",
+        "route_name": "KEB-7766",
+        "car_seq": "KEB-7766",
+        "arrival_time": "2100",
+        "departure_time": "2105",
+        "district": "鳳山區",
+        "village": "誠信里",
+        "location": "西湖街87號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

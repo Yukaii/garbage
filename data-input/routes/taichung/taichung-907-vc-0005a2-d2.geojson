@@ -1,0 +1,341 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.632029,
+          24.239004
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1720",
+        "departure_time": "1730",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "中清路4段815號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.632029,
+          24.239004
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1720",
+        "departure_time": "1730",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "中清路4段815號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.650246,
+          24.21974
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1750",
+        "departure_time": "1755",
+        "district": "大雅區",
+        "village": "四德里",
+        "location": "學府路129號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.650246,
+          24.21974
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1750",
+        "departure_time": "1755",
+        "district": "大雅區",
+        "village": "四德里",
+        "location": "學府路129號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.650805,
+          24.217699
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1800",
+        "departure_time": "1810",
+        "district": "大雅區",
+        "village": "二和里",
+        "location": "學府路103號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.650805,
+          24.217699
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1800",
+        "departure_time": "1810",
+        "district": "大雅區",
+        "village": "二和里",
+        "location": "學府路103號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.665839,
+          24.216336
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1820",
+        "departure_time": "1830",
+        "district": "大雅區",
+        "village": "三和里",
+        "location": "建興路137號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.665839,
+          24.216336
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1820",
+        "departure_time": "1830",
+        "district": "大雅區",
+        "village": "三和里",
+        "location": "建興路137號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.653706,
+          24.222867
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1840",
+        "departure_time": "1850",
+        "district": "大雅區",
+        "village": "二和里",
+        "location": "雅環路1段288號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.653706,
+          24.222867
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1840",
+        "departure_time": "1850",
+        "district": "大雅區",
+        "village": "二和里",
+        "location": "雅環路1段288號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.655559,
+          24.227685
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1915",
+        "departure_time": "1920",
+        "district": "大雅區",
+        "village": "上雅里",
+        "location": "神林南路79號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.655559,
+          24.227685
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1915",
+        "departure_time": "1920",
+        "district": "大雅區",
+        "village": "上雅里",
+        "location": "神林南路79號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.613755,
+          24.236114
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "1955",
+        "departure_time": "2000",
+        "district": "大雅區",
+        "village": "忠義里",
+        "location": "東大路2段1099巷1號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.613755,
+          24.236114
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-vc-0005a2-d2",
+        "city": "taichung",
+        "route_name": "907-VC",
+        "car_seq": "907-VC",
+        "arrival_time": "2005",
+        "departure_time": "2010",
+        "district": "大雅區",
+        "village": "忠義里",
+        "location": "東大路2段1099巷1號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

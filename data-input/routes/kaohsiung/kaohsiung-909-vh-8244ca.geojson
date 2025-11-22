@@ -1,0 +1,1477 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304484,
+          22.758237
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1748",
+        "departure_time": "1751",
+        "district": "橋頭區",
+        "village": "白樹里",
+        "location": "白樹路新興巷2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.303242,
+          22.757777
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1750",
+        "departure_time": "1753",
+        "district": "橋頭區",
+        "village": "白樹里",
+        "location": "通樹路226號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30303,
+          22.759909
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1752",
+        "departure_time": "1755",
+        "district": "橋頭區",
+        "village": "白樹里",
+        "location": "美德街196號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302406,
+          22.759878
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1754",
+        "departure_time": "1757",
+        "district": "橋頭區",
+        "village": "白樹里",
+        "location": "合興街65號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304349,
+          22.761257
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1756",
+        "departure_time": "1759",
+        "district": "橋頭區",
+        "village": "白樹里",
+        "location": "樹德路75-8號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.305381,
+          22.765591
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1758",
+        "departure_time": "1801",
+        "district": "橋頭區",
+        "village": "德松里",
+        "location": "德松路45-3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30568,
+          22.766423
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1759",
+        "departure_time": "1800",
+        "district": "橋頭區",
+        "village": "德松里",
+        "location": "德松路67號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.303503,
+          22.768543
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1802",
+        "departure_time": "1805",
+        "district": "橋頭區",
+        "village": "筆秀里",
+        "location": "林頭路2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311014,
+          22.749959
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1804",
+        "departure_time": "1807",
+        "district": "橋頭區",
+        "village": "筆秀里",
+        "location": "自立巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302757,
+          22.768042
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1805",
+        "departure_time": "1808",
+        "district": "橋頭區",
+        "village": "筆秀里",
+        "location": "林西路109號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301739,
+          22.768235
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1807",
+        "departure_time": "1810",
+        "district": "橋頭區",
+        "village": "筆秀里",
+        "location": "林西路25號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301993,
+          22.767482
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1808",
+        "departure_time": "1811",
+        "district": "橋頭區",
+        "village": "筆秀里",
+        "location": "林西路35號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302246,
+          22.768341
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1808",
+        "departure_time": "1811",
+        "district": "橋頭區",
+        "village": "筆秀里",
+        "location": "林西路14號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302719,
+          22.769265
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1809",
+        "departure_time": "1812",
+        "district": "橋頭區",
+        "village": "筆秀里",
+        "location": "林西路1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302268,
+          22.769341
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1810",
+        "departure_time": "1813",
+        "district": "橋頭區",
+        "village": "筆秀里",
+        "location": "林西路5-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304059,
+          22.766247
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1817",
+        "departure_time": "1820",
+        "district": "橋頭區",
+        "village": "德松里",
+        "location": "鐵道北路79號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302691,
+          22.764647
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1820",
+        "departure_time": "1823",
+        "district": "橋頭區",
+        "village": "德松里",
+        "location": "瑞祥二街52號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30206,
+          22.763546
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1821",
+        "departure_time": "1824",
+        "district": "橋頭區",
+        "village": "德松里",
+        "location": "瑞祥五街87號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.300278,
+          22.7631
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1823",
+        "departure_time": "1826",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "里林東路興樹巷1號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.299764,
+          22.764074
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1824",
+        "departure_time": "1827",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "里林東路興樹巷53號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.298038,
+          22.763764
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1825",
+        "departure_time": "1828",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "東林里公路巷96號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.294391,
+          22.762782
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1826",
+        "departure_time": "1829",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "東林里公路巷31號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.306234,
+          22.751871
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1828",
+        "departure_time": "1830",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "公路巷11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310243,
+          22.749217
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1830",
+        "departure_time": "1833",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "頂頭巷50號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.291867,
+          22.741481
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1832",
+        "departure_time": "1835",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "頂頭巷11之3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.299015,
+          22.758187
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1834",
+        "departure_time": "1837",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "頂頭巷1號1之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310909,
+          22.749901
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1836",
+        "departure_time": "1839",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "溪北巷7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.306182,
+          22.751933
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1838",
+        "departure_time": "1841",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "溪北巷15號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295179,
+          22.764054
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1839",
+        "departure_time": "1842",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "東林路12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.294066,
+          22.764344
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1842",
+        "departure_time": "1845",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "東林路24號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293587,
+          22.764047
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1843",
+        "departure_time": "1846",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "五林路2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293623,
+          22.763801
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1844",
+        "departure_time": "1847",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "五林路16號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293589,
+          22.762982
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1845",
+        "departure_time": "1848",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "五林路86號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293657,
+          22.762269
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1846",
+        "departure_time": "1849",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "五林路108號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.309715,
+          22.754861
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1848",
+        "departure_time": "1851",
+        "district": "橋頭區",
+        "village": "西林里",
+        "location": "文化巷52號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304863,
+          22.758165
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1858",
+        "departure_time": "1901",
+        "district": "橋頭區",
+        "village": "白樹里",
+        "location": "隆豐路6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296796,
+          22.754971
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1956",
+        "departure_time": "1959",
+        "district": "橋頭區",
+        "village": "新莊里",
+        "location": "仕田路右邊巷56號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295867,
+          22.753587
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1957",
+        "departure_time": "2000",
+        "district": "橋頭區",
+        "village": "新莊里",
+        "location": "仕田路左邊巷6之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296848,
+          22.752344
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1958",
+        "departure_time": "2001",
+        "district": "橋頭區",
+        "village": "新莊里",
+        "location": "仕元路右邊巷27號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297464,
+          22.75211
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "1959",
+        "departure_time": "2002",
+        "district": "橋頭區",
+        "village": "新莊里",
+        "location": "仕元路右邊巷36號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296499,
+          22.753202
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2000",
+        "departure_time": "2003",
+        "district": "橋頭區",
+        "village": "新莊里",
+        "location": "仕元路右邊巷18號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297048,
+          22.753187
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2002",
+        "departure_time": "2005",
+        "district": "橋頭區",
+        "village": "新莊里",
+        "location": "仕元路左邊巷7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297144,
+          22.753705
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2003",
+        "departure_time": "2006",
+        "district": "橋頭區",
+        "village": "新莊里",
+        "location": "仕元路左邊巷6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297859,
+          22.755102
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2005",
+        "departure_time": "2008",
+        "district": "橋頭區",
+        "village": "新莊里",
+        "location": "仕元路左邊巷1-3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293546,
+          22.764354
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2010",
+        "departure_time": "2013",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "東林里東林路31號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293648,
+          22.765675
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2012",
+        "departure_time": "2015",
+        "district": "橋頭區",
+        "village": "東林里",
+        "location": "公厝北路18號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310036,
+          22.754992
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2014",
+        "departure_time": "2017",
+        "district": "橋頭區",
+        "village": "西林里",
+        "location": "通黃巷22號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.292319,
+          22.764564
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2015",
+        "departure_time": "2018",
+        "district": "橋頭區",
+        "village": "西林里",
+        "location": "東林路通黃巷3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.292175,
+          22.764505
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2017",
+        "departure_time": "2020",
+        "district": "橋頭區",
+        "village": "西林里",
+        "location": "西林路1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.291415,
+          22.764209
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2019",
+        "departure_time": "2022",
+        "district": "橋頭區",
+        "village": "西林里",
+        "location": "西林路29號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.290871,
+          22.764437
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2021",
+        "departure_time": "2022",
+        "district": "橋頭區",
+        "village": "西林里",
+        "location": "西林路45號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.291636,
+          22.764104
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2023",
+        "departure_time": "2026",
+        "district": "橋頭區",
+        "village": "西林里",
+        "location": "西林路2-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.283535,
+          22.761457
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2033",
+        "departure_time": "2036",
+        "district": "橋頭區",
+        "village": "芋寮里",
+        "location": "芋寮路信義巷5號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.286998,
+          22.75843
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2036",
+        "departure_time": "2039",
+        "district": "橋頭區",
+        "village": "芋寮里",
+        "location": "芋寮路忠孝巷16之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287425,
+          22.757598
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2037",
+        "departure_time": "2040",
+        "district": "橋頭區",
+        "village": "芋寮里",
+        "location": "芋寮路忠孝巷23之2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288319,
+          22.75325
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2038",
+        "departure_time": "2041",
+        "district": "橋頭區",
+        "village": "三德里",
+        "location": "三德西路31之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.289654,
+          22.753622
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2040",
+        "departure_time": "2043",
+        "district": "橋頭區",
+        "village": "三德里",
+        "location": "三德西路14號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.290448,
+          22.753668
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2041",
+        "departure_time": "2044",
+        "district": "橋頭區",
+        "village": "三德里",
+        "location": "三德西路1號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.290823,
+          22.755095
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2043",
+        "departure_time": "2046",
+        "district": "橋頭區",
+        "village": "三德里",
+        "location": "三德路19-3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.290738,
+          22.755419
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2045",
+        "departure_time": "2048",
+        "district": "橋頭區",
+        "village": "三德里",
+        "location": "三德里三德路11之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.290476,
+          22.755735
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2047",
+        "departure_time": "2050",
+        "district": "橋頭區",
+        "village": "三德里",
+        "location": "三德路8-4號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.291529,
+          22.755495
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2049",
+        "departure_time": "2052",
+        "district": "橋頭區",
+        "village": "三德里",
+        "location": "三德路17之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.291199,
+          22.752511
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2051",
+        "departure_time": "2054",
+        "district": "橋頭區",
+        "village": "三德里",
+        "location": "三仙路德美巷1號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2908,
+          22.750219
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-909-vh-8244ca",
+        "city": "kaohsiung",
+        "route_name": "909-VH",
+        "car_seq": "909-VH",
+        "arrival_time": "2052",
+        "departure_time": "2055",
+        "district": "橋頭區",
+        "village": "三德里",
+        "location": "三仙路101號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

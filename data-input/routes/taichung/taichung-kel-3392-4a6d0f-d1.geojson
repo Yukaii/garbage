@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68623396235316,
+          24.192544724464696
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-3392-4a6d0f-d1",
+        "city": "taichung",
+        "route_name": "KEL-3392",
+        "car_seq": "KEL-3392",
+        "arrival_time": "0645",
+        "departure_time": "0700",
+        "district": "北屯區",
+        "village": "仁美里",
+        "location": "崇德路三段539號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6986065530655,
+          24.187642455749053
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-3392-4a6d0f-d1",
+        "city": "taichung",
+        "route_name": "KEL-3392",
+        "car_seq": "KEL-3392",
+        "arrival_time": "0710",
+        "departure_time": "0730",
+        "district": "北屯區",
+        "village": "松茂里",
+        "location": "松義街332號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

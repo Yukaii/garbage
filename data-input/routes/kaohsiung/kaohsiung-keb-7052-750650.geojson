@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324922,
+          22.619133
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "1615",
+        "departure_time": "1618",
+        "district": "苓雅區",
+        "village": "林榮里",
+        "location": "英義街374號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321298,
+          22.619181
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "1849",
+        "departure_time": "1851",
+        "district": "苓雅區",
+        "village": "林華里",
+        "location": "三多二路227號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322396,
+          22.616918
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "1856",
+        "departure_time": "1900",
+        "district": "苓雅區",
+        "village": "林華里",
+        "location": "和平二路365號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323363,
+          22.616489
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "1925",
+        "departure_time": "1927",
+        "district": "苓雅區",
+        "village": "林貴里",
+        "location": "和平二路322巷1弄37號與建華街口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324597,
+          22.617514
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "1928",
+        "departure_time": "1931",
+        "district": "苓雅區",
+        "village": "林榮里",
+        "location": "英明路200號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32567,
+          22.623417
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "1943",
+        "departure_time": "1945",
+        "district": "苓雅區",
+        "village": "林靖里",
+        "location": "德安街3巷2號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324522,
+          22.62019
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "2105",
+        "departure_time": "2108",
+        "district": "苓雅區",
+        "village": "林榮里",
+        "location": "三多二路93號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326638,
+          22.616567
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "2113",
+        "departure_time": "2116",
+        "district": "苓雅區",
+        "village": "林榮里",
+        "location": "凱旋三路647號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326981,
+          22.615563
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "2117",
+        "departure_time": "2119",
+        "district": "苓雅區",
+        "village": "林榮里",
+        "location": "凱旋三路573號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325976,
+          22.616834
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "2142",
+        "departure_time": "2144",
+        "district": "苓雅區",
+        "village": "林榮里",
+        "location": "英義街252號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323006,
+          22.623491
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7052-750650",
+        "city": "kaohsiung",
+        "route_name": "KEB-7052",
+        "car_seq": "KEB-7052",
+        "arrival_time": "2154",
+        "departure_time": "2157",
+        "district": "苓雅區",
+        "village": "林德里",
+        "location": "四維二路29號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

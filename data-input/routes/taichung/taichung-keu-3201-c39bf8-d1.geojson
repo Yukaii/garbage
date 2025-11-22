@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67212167139725,
+          24.181945911670624
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-3201-c39bf8-d1",
+        "city": "taichung",
+        "route_name": "KEU-3201",
+        "car_seq": "KEU-3201",
+        "arrival_time": "0700",
+        "departure_time": "0800",
+        "district": "北屯區",
+        "village": "大德里",
+        "location": "平德路30號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66505508055594,
+          24.183227297489235
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-3201-c39bf8-d1",
+        "city": "taichung",
+        "route_name": "KEU-3201",
+        "car_seq": "KEU-3201",
+        "arrival_time": "0810",
+        "departure_time": "0830",
+        "district": "北屯區",
+        "village": "新平里",
+        "location": "中清路二段609號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

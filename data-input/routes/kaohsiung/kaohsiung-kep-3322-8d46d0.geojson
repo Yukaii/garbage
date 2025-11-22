@@ -1,0 +1,672 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296465,
+          22.637425
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1614",
+        "departure_time": "1616",
+        "district": "三民區",
+        "village": "興德里",
+        "location": "自立一路105號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295152,
+          22.636507
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1617",
+        "departure_time": "1619",
+        "district": "三民區",
+        "village": "興德里",
+        "location": "立德街26號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.294118,
+          22.636015
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1621",
+        "departure_time": "1624",
+        "district": "三民區",
+        "village": "興德里",
+        "location": "河北二路134號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.29652,
+          22.63701
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1629",
+        "departure_time": "1631",
+        "district": "三民區",
+        "village": "興德里",
+        "location": "自立一路95號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297701,
+          22.637042
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1632",
+        "departure_time": "1633",
+        "district": "三民區",
+        "village": "建東里",
+        "location": "南台路195巷7-15號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297938,
+          22.637028
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1633",
+        "departure_time": "1636",
+        "district": "三民區",
+        "village": "建東里",
+        "location": "南台路169號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302734,
+          22.637163
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1646",
+        "departure_time": "1648",
+        "district": "三民區",
+        "village": "港東里",
+        "location": "中山一路324號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.303286,
+          22.637219
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1649",
+        "departure_time": "1650",
+        "district": "三民區",
+        "village": "長明里",
+        "location": "南華路342號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304717,
+          22.638355
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1654",
+        "departure_time": "1655",
+        "district": "三民區",
+        "village": "長明里",
+        "location": "長明街285號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.305491,
+          22.638494
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1656",
+        "departure_time": "1657",
+        "district": "三民區",
+        "village": "長明里",
+        "location": "長明街214號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.305328,
+          22.638069
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1701",
+        "departure_time": "1703",
+        "district": "三民區",
+        "village": "長明里",
+        "location": "林森一路316號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.294287,
+          22.636521
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1836",
+        "departure_time": "1839",
+        "district": "三民區",
+        "village": "興德里",
+        "location": "三民街80號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295551,
+          22.63673
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1841",
+        "departure_time": "1842",
+        "district": "三民區",
+        "village": "興德里",
+        "location": "三民街39-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296423,
+          22.637018
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1843",
+        "departure_time": "1845",
+        "district": "三民區",
+        "village": "興德里",
+        "location": "三民街5號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.29669,
+          22.637723
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1846",
+        "departure_time": "1848",
+        "district": "三民區",
+        "village": "建東里",
+        "location": "建國三路237號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297399,
+          22.637691
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1848",
+        "departure_time": "1849",
+        "district": "三民區",
+        "village": "建東里",
+        "location": "建國三路201號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.298997,
+          22.637633
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1849",
+        "departure_time": "1851",
+        "district": "三民區",
+        "village": "建東里",
+        "location": "建國三路131號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.300348,
+          22.638779
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1857",
+        "departure_time": "1900",
+        "district": "三民區",
+        "village": "港西里",
+        "location": "建國三路46巷10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301576,
+          22.637574
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1902",
+        "departure_time": "1904",
+        "district": "三民區",
+        "village": "港西里",
+        "location": "建國三路23號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.299785,
+          22.637195
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "1913",
+        "departure_time": "1914",
+        "district": "三民區",
+        "village": "港西里",
+        "location": "河北二路50之7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.313278,
+          22.641335
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "2035",
+        "departure_time": "2037",
+        "district": "三民區",
+        "village": "同德里",
+        "location": "旅順街22號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.312306,
+          22.636952
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "2044",
+        "departure_time": "2045",
+        "district": "三民區",
+        "village": "港新里",
+        "location": "河北一路167號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311918,
+          22.636968
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "2046",
+        "departure_time": "2046",
+        "district": "三民區",
+        "village": "港新里",
+        "location": "河北一路175號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.306151,
+          22.638217
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "2103",
+        "departure_time": "2104",
+        "district": "三民區",
+        "village": "博愛里",
+        "location": "長明街150號與長明街190巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.308284,
+          22.638127
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "2105",
+        "departure_time": "2106",
+        "district": "三民區",
+        "village": "博愛里",
+        "location": "長明街179號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.312717,
+          22.637522
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "2108",
+        "departure_time": "2110",
+        "district": "三民區",
+        "village": "博愛里",
+        "location": "建國二路18號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311905,
+          22.637591
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "2111",
+        "departure_time": "2112",
+        "district": "三民區",
+        "village": "博愛里",
+        "location": "建國二路40號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.309773,
+          22.637684
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "2112",
+        "departure_time": "2115",
+        "district": "三民區",
+        "village": "博愛里",
+        "location": "建國二路100號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304447,
+          22.637758
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-3322-8d46d0",
+        "city": "kaohsiung",
+        "route_name": "KEP-3322",
+        "car_seq": "KEP-3322",
+        "arrival_time": "2126",
+        "departure_time": "2128",
+        "district": "三民區",
+        "village": "長明里",
+        "location": "建國二路284號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

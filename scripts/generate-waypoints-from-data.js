@@ -15,6 +15,11 @@ function readJsonFromGit(refPath) {
   return JSON.parse(stdout);
 }
 
+async function readJsonFromFile(filePath) {
+  const content = await fs.readFile(filePath, "utf8");
+  return JSON.parse(content);
+}
+
 function slugify(value, fallback) {
   const base = (value || "").toString().normalize("NFKD");
   const cleaned = base.replace(/[^\w-]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
@@ -163,10 +168,139 @@ async function buildNewTaipei() {
   console.log(`New Taipei route waypoint files written: ${written}`);
 }
 
+async function buildTaichung() {
+  // Read from file directly (too large for git show)
+  const data = await readJsonFromFile(path.join(root, "taichung-trash-collection-points.json"));
+  const groups = new Map();
+
+  // Group by vehicle license (route identifier)
+  for (const row of data) {
+    const vehicleLicense = row.route?.toString().trim() || "unknown";
+    const dayOfWeek = row.dayOfWeek || 1;
+    // Create unique key per vehicle and day since routes vary by day
+    const key = `${vehicleLicense}__day${dayOfWeek}`;
+    
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push({
+      lon: toNumber(row.longitude),
+      lat: toNumber(row.latitude),
+      arrival: parseTimeHHMM(row.arrivalTime),
+      raw: row,
+      vehicleLicense,
+      dayOfWeek,
+    });
+  }
+
+  const cityDir = path.join(outBase, "taichung");
+  await ensureDir(cityDir);
+
+  let written = 0;
+  for (const [key, points] of groups.entries()) {
+    // Sort by arrival time
+    const sorted = points
+      .filter((p) => Number.isFinite(p.lon) && Number.isFinite(p.lat))
+      .sort((a, b) => a.arrival - b.arrival);
+
+    if (sorted.length < 2) continue; // Skip routes with < 2 stops
+
+    const routeId = ["taichung", slugify(sorted[0].vehicleLicense, "route"), `d${sorted[0].dayOfWeek}`].join("-");
+
+    const fc = featureCollectionFromPoints(
+      sorted.map((p) => ({
+        lon: p.lon,
+        lat: p.lat,
+        properties: {
+          routeId,
+          city: "taichung",
+          route_name: p.vehicleLicense,
+          car_seq: p.vehicleLicense, // Same as route_name for Taichung
+          arrival_time: p.raw.arrivalTime,
+          departure_time: p.raw.departureTime,
+          district: p.raw.area,
+          village: p.raw.village,
+          location: p.raw.location,
+          type: p.raw.type,
+          collection_type: p.raw.collectionType,
+          day_of_week: p.raw.dayOfWeek,
+        },
+      }))
+    );
+
+    const outPath = path.join(cityDir, `${routeId}.geojson`);
+    await fs.writeFile(outPath, JSON.stringify(fc, null, 2));
+    written++;
+  }
+
+  console.log(`Taichung route waypoint files written: ${written}`);
+}
+
+async function buildKaohsiung() {
+  // Read from file directly (more reliable than git show)
+  const data = await readJsonFromFile(path.join(root, "kaohsiung-trash-collection-points.json"));
+  const groups = new Map();
+
+  // Group by vehicle license/route (route identifier)
+  for (const row of data) {
+    const vehicleLicense = row.route?.toString().trim() || "unknown";
+    if (!groups.has(vehicleLicense)) groups.set(vehicleLicense, []);
+    
+    groups.get(vehicleLicense).push({
+      lon: toNumber(row.longitude),
+      lat: toNumber(row.latitude),
+      arrival: parseTimeHHMM(row.arrivalTime),
+      raw: row,
+      vehicleLicense,
+    });
+  }
+
+  const cityDir = path.join(outBase, "kaohsiung");
+  await ensureDir(cityDir);
+
+  let written = 0;
+  for (const [vehicleLicense, points] of groups.entries()) {
+    // Sort by arrival time
+    const sorted = points
+      .filter((p) => Number.isFinite(p.lon) && Number.isFinite(p.lat))
+      .sort((a, b) => a.arrival - b.arrival);
+
+    if (sorted.length < 2) continue; // Skip routes with < 2 stops
+
+    const routeId = ["kaohsiung", slugify(vehicleLicense, "route")].join("-");
+
+    const fc = featureCollectionFromPoints(
+      sorted.map((p) => ({
+        lon: p.lon,
+        lat: p.lat,
+        properties: {
+          routeId,
+          city: "kaohsiung",
+          route_name: p.vehicleLicense,
+          car_seq: p.vehicleLicense, // Same as route_name for Kaohsiung
+          arrival_time: p.raw.arrivalTime,
+          departure_time: p.raw.departureTime,
+          district: p.raw.area,
+          village: p.raw.village,
+          location: p.raw.location,
+          type: p.raw.type,
+          collection_type: p.raw.collectionType,
+        },
+      }))
+    );
+
+    const outPath = path.join(cityDir, `${routeId}.geojson`);
+    await fs.writeFile(outPath, JSON.stringify(fc, null, 2));
+    written++;
+  }
+
+  console.log(`Kaohsiung route waypoint files written: ${written}`);
+}
+
 async function main() {
   await ensureDir(outBase);
   await buildTaipei();
   await buildNewTaipei();
+  await buildTaichung();
+  await buildKaohsiung();
 }
 
 main().catch((err) => {

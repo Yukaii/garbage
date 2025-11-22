@@ -1,0 +1,718 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329376,
+          22.652792
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1625",
+        "departure_time": "1628",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "昌裕街191號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331007,
+          22.654305
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1634",
+        "departure_time": "1635",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "昌裕街87號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329554,
+          22.654093
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1638",
+        "departure_time": "1639",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "大興街29號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329188,
+          22.654101
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1639",
+        "departure_time": "1642",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "大興街13號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329762,
+          22.654826
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1645",
+        "departure_time": "1650",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "大興街67號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331738,
+          22.657173
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1725",
+        "departure_time": "1728",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "昌富街2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33119,
+          22.65792
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1730",
+        "departure_time": "1733",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "大豐一路174號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330834,
+          22.657596
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1733",
+        "departure_time": "1735",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "大豐一路163號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327474,
+          22.659151
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1736",
+        "departure_time": "1738",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大豐一路448號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326094,
+          22.658819
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1738",
+        "departure_time": "1740",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大豐一路478號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325951,
+          22.658647
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1740",
+        "departure_time": "1742",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大福街263號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325987,
+          22.657871
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1743",
+        "departure_time": "1746",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大福街215號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326038,
+          22.657229
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1746",
+        "departure_time": "1748",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大福街193號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326204,
+          22.656545
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1748",
+        "departure_time": "1751",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大福街163號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326477,
+          22.65604
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1751",
+        "departure_time": "1752",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大福街115號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327619,
+          22.657553
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1806",
+        "departure_time": "1809",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大享路56號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327533,
+          22.658373
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "1809",
+        "departure_time": "1813",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大享路124號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325729,
+          22.655207
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2012",
+        "departure_time": "2015",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "本和街186號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326555,
+          22.654682
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2015",
+        "departure_time": "2016",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "本和街128號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326916,
+          22.654442
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2016",
+        "departure_time": "2020",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "本和街98號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327986,
+          22.653517
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2021",
+        "departure_time": "2023",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "本和街19號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327839,
+          22.659378
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2115",
+        "departure_time": "2116",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大豐一路342巷8弄6號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332821,
+          22.656435
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2122",
+        "departure_time": "2123",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "昌裕街31巷30號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332013,
+          22.656361
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2123",
+        "departure_time": "2125",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "昌裕街31巷12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330089,
+          22.655422
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2127",
+        "departure_time": "2130",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "大豐一路89巷43號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329297,
+          22.657821
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2138",
+        "departure_time": "2141",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "大裕路180巷10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328494,
+          22.657042
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2142",
+        "departure_time": "2144",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "大裕路161號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332404,
+          22.653545
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2153",
+        "departure_time": "2155",
+        "district": "三民區",
+        "village": "本元里",
+        "location": "建工路287號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330336,
+          22.652985
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2157",
+        "departure_time": "2159",
+        "district": "三民區",
+        "village": "本館里",
+        "location": "建工路348號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327382,
+          22.654454
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2207",
+        "departure_time": "2209",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大和街63號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326548,
+          22.654931
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5610-4db150",
+        "city": "kaohsiung",
+        "route_name": "KEF-5610",
+        "car_seq": "KEF-5610",
+        "arrival_time": "2210",
+        "departure_time": "2211",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大和街117號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62748024920913,
+          24.348647723372494
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-912-vc-1e22bb-d2",
+        "city": "taichung",
+        "route_name": "912-VC",
+        "car_seq": "912-VC",
+        "arrival_time": "0720",
+        "departure_time": "0800",
+        "district": "大甲區",
+        "village": "朝陽里",
+        "location": "中山路一段1037號旁",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62748024920913,
+          24.348647723372494
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-912-vc-1e22bb-d2",
+        "city": "taichung",
+        "route_name": "912-VC",
+        "car_seq": "912-VC",
+        "arrival_time": "0800",
+        "departure_time": "0800",
+        "district": "大甲區",
+        "village": "朝陽里",
+        "location": "中山路一段1037號旁",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62097211489,
+          24.34671214526585
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-912-vc-1e22bb-d2",
+        "city": "taichung",
+        "route_name": "912-VC",
+        "car_seq": "912-VC",
+        "arrival_time": "0800",
+        "departure_time": "0820",
+        "district": "大甲區",
+        "village": "順天里",
+        "location": "蔣公路188號旁",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62097211489,
+          24.34671214526585
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-912-vc-1e22bb-d2",
+        "city": "taichung",
+        "route_name": "912-VC",
+        "car_seq": "912-VC",
+        "arrival_time": "0820",
+        "departure_time": "0820",
+        "district": "大甲區",
+        "village": "順天里",
+        "location": "蔣公路188號旁",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

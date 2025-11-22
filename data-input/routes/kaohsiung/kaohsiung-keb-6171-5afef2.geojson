@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.343188,
+          22.61342
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6171-5afef2",
+        "city": "kaohsiung",
+        "route_name": "KEB-6171",
+        "car_seq": "KEB-6171",
+        "arrival_time": "0825",
+        "departure_time": "0830",
+        "district": "鳳山區",
+        "village": "新強里",
+        "location": "新富路257號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323885,
+          22.590487
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6171-5afef2",
+        "city": "kaohsiung",
+        "route_name": "KEB-6171",
+        "car_seq": "KEB-6171",
+        "arrival_time": "0950",
+        "departure_time": "0955",
+        "district": "鳳山區",
+        "village": "福祥里",
+        "location": "五甲三路176號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

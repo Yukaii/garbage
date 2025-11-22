@@ -1,0 +1,327 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.188033,
+          22.901159
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1730",
+        "departure_time": "1731",
+        "district": "茄萣區",
+        "village": "大定里",
+        "location": "和平路三段47號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.186147,
+          22.897068
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1737",
+        "departure_time": "1740",
+        "district": "茄萣區",
+        "village": "吉定里",
+        "location": "金鑾路160號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.183744,
+          22.895064
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1742",
+        "departure_time": "1745",
+        "district": "茄萣區",
+        "village": "白雲里",
+        "location": "港東街111號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.183284,
+          22.897532
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1750",
+        "departure_time": "1752",
+        "district": "茄萣區",
+        "village": "白雲里",
+        "location": "茄萣路二段3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.183153,
+          22.900547
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1753",
+        "departure_time": "1754",
+        "district": "茄萣區",
+        "village": "保定里",
+        "location": "茄萣路二段200號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.182939,
+          22.903389
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1800",
+        "departure_time": "1803",
+        "district": "茄萣區",
+        "village": "保定里",
+        "location": "茄萣路二段309號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.183321,
+          22.905035
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1808",
+        "departure_time": "1810",
+        "district": "茄萣區",
+        "village": "保定里",
+        "location": "茄萣路二段351號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.185199,
+          22.893882
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1812",
+        "departure_time": "1813",
+        "district": "茄萣區",
+        "village": "嘉福里",
+        "location": "忠孝街70號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.186246,
+          22.890332
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1815",
+        "departure_time": "1818",
+        "district": "茄萣區",
+        "village": "嘉安里",
+        "location": "忠孝街22號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.185027,
+          22.896944
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1823",
+        "departure_time": "1825",
+        "district": "茄萣區",
+        "village": "嘉賜里",
+        "location": "仁愛路二段118號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.185447,
+          22.895005
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1827",
+        "departure_time": "1830",
+        "district": "茄萣區",
+        "village": "嘉賜里",
+        "location": "仁愛路二段42號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.188085,
+          22.904216
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1832",
+        "departure_time": "1833",
+        "district": "茄萣區",
+        "village": "嘉賜里",
+        "location": "進學路218號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.185399,
+          22.912132
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1837",
+        "departure_time": "1840",
+        "district": "茄萣區",
+        "village": "嘉樂里",
+        "location": "公園路139號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.183014,
+          22.907416
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5657-8005f0",
+        "city": "kaohsiung",
+        "route_name": "KEF-5657",
+        "car_seq": "KEF-5657",
+        "arrival_time": "1845",
+        "departure_time": "1846",
+        "district": "茄萣區",
+        "village": "嘉樂里",
+        "location": "文化路16號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

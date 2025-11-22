@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352611,
+          22.725777
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6673-892878",
+        "city": "kaohsiung",
+        "route_name": "KEH-6673",
+        "car_seq": "KEH-6673",
+        "arrival_time": "1722",
+        "departure_time": "1728",
+        "district": "大社區",
+        "village": "神農里",
+        "location": "中華路14巷70號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348961,
+          22.725242
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6673-892878",
+        "city": "kaohsiung",
+        "route_name": "KEH-6673",
+        "car_seq": "KEH-6673",
+        "arrival_time": "1733",
+        "departure_time": "1739",
+        "district": "大社區",
+        "village": "觀音里",
+        "location": "大新路1-6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349031,
+          22.724647
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6673-892878",
+        "city": "kaohsiung",
+        "route_name": "KEH-6673",
+        "car_seq": "KEH-6673",
+        "arrival_time": "1802",
+        "departure_time": "1808",
+        "district": "大社區",
+        "village": "觀音里",
+        "location": "三民路148號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.356274,
+          22.728836
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6673-892878",
+        "city": "kaohsiung",
+        "route_name": "KEH-6673",
+        "car_seq": "KEH-6673",
+        "arrival_time": "2045",
+        "departure_time": "2050",
+        "district": "大社區",
+        "village": "神農里",
+        "location": "成功一巷60號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

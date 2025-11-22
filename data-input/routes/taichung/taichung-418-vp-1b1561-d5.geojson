@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.661894,
+          24.176421
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-418-vp-1b1561-d5",
+        "city": "taichung",
+        "route_name": "418-VP",
+        "car_seq": "418-VP",
+        "arrival_time": "0700",
+        "departure_time": "0705",
+        "district": "西屯區",
+        "village": "大石里",
+        "location": "中平路117號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.659407,
+          24.196331
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-418-vp-1b1561-d5",
+        "city": "taichung",
+        "route_name": "418-VP",
+        "car_seq": "418-VP",
+        "arrival_time": "0815",
+        "departure_time": "0820",
+        "district": "西屯區",
+        "village": "港尾里",
+        "location": "中康街81號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66833,
+          24.175584
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-418-vp-1b1561-d5",
+        "city": "taichung",
+        "route_name": "418-VP",
+        "car_seq": "418-VP",
+        "arrival_time": "1503",
+        "departure_time": "1508",
+        "district": "西屯區",
+        "village": "大福里",
+        "location": "華美西街二段483號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

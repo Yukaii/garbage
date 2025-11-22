@@ -1,0 +1,1592 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420531,
+          22.583659
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1635",
+        "departure_time": "1635",
+        "district": "大寮區",
+        "village": "大寮里",
+        "location": "光明路二段29-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420789,
+          22.58256
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1636",
+        "departure_time": "1636",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "光明路一段1237號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.42148,
+          22.577874
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1637",
+        "departure_time": "1637",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "光明路一段1069號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.42155,
+          22.575538
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1638",
+        "departure_time": "1638",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "光明路一段943號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.430026,
+          22.562778
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1641",
+        "departure_time": "1641",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮寮路678號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420906,
+          22.564506
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1644",
+        "departure_time": "1644",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮寮路168巷46號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.423002,
+          22.562595
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1647",
+        "departure_time": "1647",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮興路30號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.423058,
+          22.559919
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1648",
+        "departure_time": "1648",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮興路47巷38號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.426928,
+          22.563094
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1651",
+        "departure_time": "1651",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮寮路250號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.425641,
+          22.564416
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1653",
+        "departure_time": "1653",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮德路123巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.428203,
+          22.562355
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1657",
+        "departure_time": "1657",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "華中南路326號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.424685,
+          22.557157
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1703",
+        "departure_time": "1703",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "華中南路828號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.426451,
+          22.557098
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1704",
+        "departure_time": "1704",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會興三街350號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.425109,
+          22.554993
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1706",
+        "departure_time": "1706",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會興三街151號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.425773,
+          22.55412
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1708",
+        "departure_time": "1708",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會興二街36號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.426095,
+          22.554093
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1710",
+        "departure_time": "1710",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會興一街2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.42634,
+          22.555147
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1712",
+        "departure_time": "1712",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "河堤路三段457巷13號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.424903,
+          22.552759
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1716",
+        "departure_time": "1716",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會興三街50號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.425022,
+          22.553763
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1717",
+        "departure_time": "1717",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會興三街108號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.424634,
+          22.553784
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1719",
+        "departure_time": "1719",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會結一路7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.418998,
+          22.554179
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1720",
+        "departure_time": "1720",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會結二路88號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.41818,
+          22.55432
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1721",
+        "departure_time": "1721",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會結二路140號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.419518,
+          22.554739
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1723",
+        "departure_time": "1723",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會祥一街29號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420101,
+          22.555167
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1725",
+        "departure_time": "1725",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會祥二街88號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.419973,
+          22.556439
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1726",
+        "departure_time": "1726",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會富街70號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420683,
+          22.556851
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1727",
+        "departure_time": "1727",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會安街32號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.418861,
+          22.556073
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1729",
+        "departure_time": "1729",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會和一街101號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.41865,
+          22.554773
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1730",
+        "departure_time": "1730",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會和二街41號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.418914,
+          22.556182
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1731",
+        "departure_time": "1731",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "會和一街2號巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.423025,
+          22.553864
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1732",
+        "departure_time": "1732",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "華中南路1066號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.422901,
+          22.549384
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1734",
+        "departure_time": "1734",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "河堤路三段606號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.423873,
+          22.55505
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1735",
+        "departure_time": "1735",
+        "district": "大寮區",
+        "village": "會結里",
+        "location": "華中南路619號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.42885,
+          22.561954
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1736",
+        "departure_time": "1736",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "華中南路301號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.428882,
+          22.563749
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1738",
+        "departure_time": "1738",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "華中南路245號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.428966,
+          22.564312
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1741",
+        "departure_time": "1741",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "華中南路227號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.42867,
+          22.569196
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1743",
+        "departure_time": "1743",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "華中南路8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.42988,
+          22.566033
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1747",
+        "departure_time": "1747",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮安路123號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.429751,
+          22.567108
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1751",
+        "departure_time": "1751",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮安路88號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.42953,
+          22.563821
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1753",
+        "departure_time": "1753",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮安路248號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.430364,
+          22.562899
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1841",
+        "departure_time": "1841",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮龍路133號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.430666,
+          22.563594
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1843",
+        "departure_time": "1843",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮龍路101號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.431056,
+          22.564537
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1845",
+        "departure_time": "1845",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮龍路59號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.432089,
+          22.566089
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1847",
+        "departure_time": "1847",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮發路158號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.432227,
+          22.567791
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1848",
+        "departure_time": "1848",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮發路53號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.432068,
+          22.568866
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1850",
+        "departure_time": "1850",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮發路7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.432909,
+          22.567557
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1852",
+        "departure_time": "1852",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "河堤路三段135號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.432038,
+          22.564318
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1854",
+        "departure_time": "1854",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "河堤路三段238號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.430865,
+          22.562062
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1856",
+        "departure_time": "1856",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "河堤路三段288號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.430575,
+          22.561397
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1858",
+        "departure_time": "1858",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮龍路201號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.429214,
+          22.561647
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1900",
+        "departure_time": "1900",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮和路11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.430297,
+          22.562514
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1902",
+        "departure_time": "1902",
+        "district": "大寮區",
+        "village": "潮寮里",
+        "location": "潮龍路149號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420445,
+          22.586877
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1908",
+        "departure_time": "1908",
+        "district": "大寮區",
+        "village": "大寮里",
+        "location": "光明路二段186-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420232,
+          22.588906
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1909",
+        "departure_time": "1909",
+        "district": "大寮區",
+        "village": "大寮里",
+        "location": "光明路二段302-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.419652,
+          22.589808
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1911",
+        "departure_time": "1911",
+        "district": "大寮區",
+        "village": "大寮里",
+        "location": "光明路二段307-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.419798,
+          22.588312
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1913",
+        "departure_time": "1913",
+        "district": "大寮區",
+        "village": "大寮里",
+        "location": "光明路二段239-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.42106,
+          22.576059
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1917",
+        "departure_time": "1917",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "永群街20號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420227,
+          22.575765
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1918",
+        "departure_time": "1918",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "過溪路173號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.419417,
+          22.576353
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1920",
+        "departure_time": "1920",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "過溪路121號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420001,
+          22.576882
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1921",
+        "departure_time": "1921",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "永盛街53號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420119,
+          22.576681
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1923",
+        "departure_time": "1923",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "永盛街76號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.418781,
+          22.576405
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1924",
+        "departure_time": "1924",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "過溪路99號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.415434,
+          22.573955
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1925",
+        "departure_time": "1925",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "濃公路262號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.414968,
+          22.574214
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1926",
+        "departure_time": "1926",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "濃公路257號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.413225,
+          22.575132
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1928",
+        "departure_time": "1928",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "濃三街171號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.413956,
+          22.5757
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1930",
+        "departure_time": "1930",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "濃二街43號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.413859,
+          22.575348
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1931",
+        "departure_time": "1931",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "濃中街41號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.413647,
+          22.574732
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1932",
+        "departure_time": "1932",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "濃中街21號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.412958,
+          22.573505
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1933",
+        "departure_time": "1933",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "濃三街268號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.413338,
+          22.572452
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-903-vh-b9e9ef",
+        "city": "kaohsiung",
+        "route_name": "903-VH",
+        "car_seq": "903-VH",
+        "arrival_time": "1935",
+        "departure_time": "1935",
+        "district": "大寮區",
+        "village": "過溪里",
+        "location": "濃三街263號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

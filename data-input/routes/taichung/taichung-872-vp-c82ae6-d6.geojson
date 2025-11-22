@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.686456,
+          24.144461
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-872-vp-c82ae6-d6",
+        "city": "taichung",
+        "route_name": "872-VP",
+        "car_seq": "872-VP",
+        "arrival_time": "0700",
+        "departure_time": "0715",
+        "district": "東區",
+        "village": "富仁里",
+        "location": "雙十路一段8號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.694633,
+          24.143221
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-872-vp-c82ae6-d6",
+        "city": "taichung",
+        "route_name": "872-VP",
+        "car_seq": "872-VP",
+        "arrival_time": "0720",
+        "departure_time": "0735",
+        "district": "東區",
+        "village": "干城里",
+        "location": "進化路66號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.696826,
+          24.151465
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-872-vp-c82ae6-d6",
+        "city": "taichung",
+        "route_name": "872-VP",
+        "car_seq": "872-VP",
+        "arrival_time": "0740",
+        "departure_time": "0800",
+        "district": "東區",
+        "village": "合作里",
+        "location": "自強街20號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.688965,
+          24.127538
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-872-vp-c82ae6-d6",
+        "city": "taichung",
+        "route_name": "872-VP",
+        "car_seq": "872-VP",
+        "arrival_time": "0810",
+        "departure_time": "0830",
+        "district": "東區",
+        "village": "東興里",
+        "location": "立德東街33號對面",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

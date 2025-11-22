@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323397,
+          22.667532
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-1781-ddb4ac",
+        "city": "kaohsiung",
+        "route_name": "KEU-1781",
+        "car_seq": "KEU-1781",
+        "arrival_time": "0920",
+        "departure_time": "0930",
+        "district": "三民區",
+        "village": "鼎金里",
+        "location": "鼎昌街252號鼎金公園旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328258,
+          22.659181
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-1781-ddb4ac",
+        "city": "kaohsiung",
+        "route_name": "KEU-1781",
+        "car_seq": "KEU-1781",
+        "arrival_time": "1220",
+        "departure_time": "1230",
+        "district": "三民區",
+        "village": "本和里",
+        "location": "大豐一路320號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321618,
+          22.644
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-1781-ddb4ac",
+        "city": "kaohsiung",
+        "route_name": "KEU-1781",
+        "car_seq": "KEU-1781",
+        "arrival_time": "1320",
+        "departure_time": "1330",
+        "district": "三民區",
+        "village": "安發里",
+        "location": "覺民路840號之1斜對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67940725801611,
+          24.15185842259596
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-056-q3-5ec1d7-d2",
+        "city": "taichung",
+        "route_name": "056-Q3",
+        "car_seq": "056-Q3",
+        "arrival_time": "0630",
+        "departure_time": "0650",
+        "district": "北區",
+        "village": "錦平里",
+        "location": "五權路318號日間",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68849790434732,
+          24.158831872832586
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-056-q3-5ec1d7-d2",
+        "city": "taichung",
+        "route_name": "056-Q3",
+        "car_seq": "056-Q3",
+        "arrival_time": "0700",
+        "departure_time": "0730",
+        "district": "北區",
+        "village": "金龍里",
+        "location": "健行路87號日間",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67868610513622,
+          24.15763707589785
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-056-q3-5ec1d7-d2",
+        "city": "taichung",
+        "route_name": "056-Q3",
+        "car_seq": "056-Q3",
+        "arrival_time": "0740",
+        "departure_time": "0800",
+        "district": "北區",
+        "village": "育德里",
+        "location": "育德路30號日間",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68354135294025,
+          24.161482688097248
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-056-q3-5ec1d7-d2",
+        "city": "taichung",
+        "route_name": "056-Q3",
+        "car_seq": "056-Q3",
+        "arrival_time": "0810",
+        "departure_time": "0830",
+        "district": "北區",
+        "village": "建興里",
+        "location": "德化街261號日間",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

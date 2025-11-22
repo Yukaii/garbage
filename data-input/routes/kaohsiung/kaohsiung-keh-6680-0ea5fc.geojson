@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.373441,
+          22.742501
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "1717",
+        "departure_time": "1723",
+        "district": "大社區",
+        "village": "保安里",
+        "location": "大社路401巷145號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.37347,
+          22.739623
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "1725",
+        "departure_time": "1731",
+        "district": "大社區",
+        "village": "保安里",
+        "location": "大社路401巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.358357,
+          22.751628
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "1806",
+        "departure_time": "1812",
+        "district": "大社區",
+        "village": "保社里",
+        "location": "保糖街226號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35487,
+          22.752313
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "1810",
+        "departure_time": "1816",
+        "district": "大社區",
+        "village": "保社里",
+        "location": "保糖街16號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353048,
+          22.733049
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "2005",
+        "departure_time": "2011",
+        "district": "大社區",
+        "village": "大社里",
+        "location": "大社路120巷8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354404,
+          22.728249
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "2013",
+        "departure_time": "2019",
+        "district": "大社區",
+        "village": "神農里",
+        "location": "成功四巷10-12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.356711,
+          22.728351
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "2017",
+        "departure_time": "2023",
+        "district": "大社區",
+        "village": "神農里",
+        "location": "自由路218號學府傳",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.351856,
+          22.730692
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "2026",
+        "departure_time": "2032",
+        "district": "大社區",
+        "village": "神農里",
+        "location": "翠屏路90-3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350291,
+          22.731072
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "2028",
+        "departure_time": "2034",
+        "district": "大社區",
+        "village": "大社里",
+        "location": "中正路66巷38-2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.347392,
+          22.731034
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "2032",
+        "departure_time": "2038",
+        "district": "大社區",
+        "village": "大社里",
+        "location": "自強街16巷27號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346408,
+          22.724111
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6680-0ea5fc",
+        "city": "kaohsiung",
+        "route_name": "KEH-6680",
+        "car_seq": "KEH-6680",
+        "arrival_time": "2048",
+        "departure_time": "2053",
+        "district": "大社區",
+        "village": "中里里",
+        "location": "民生路203號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

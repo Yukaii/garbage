@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.89173029964208,
+          24.247130960346468
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-878-vp-ca5d2b-d1",
+        "city": "taichung",
+        "route_name": "878-VP",
+        "car_seq": "878-VP",
+        "arrival_time": "0710",
+        "departure_time": "0710",
+        "district": "和平區",
+        "village": "博愛里",
+        "location": "中坑路北坑巷40號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.89173029964208,
+          24.247130960346468
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-878-vp-ca5d2b-d1",
+        "city": "taichung",
+        "route_name": "878-VP",
+        "car_seq": "878-VP",
+        "arrival_time": "0710",
+        "departure_time": "0710",
+        "district": "和平區",
+        "village": "博愛里",
+        "location": "中坑路北坑巷40號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

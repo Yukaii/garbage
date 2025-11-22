@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.02349732788066,
+          24.210772730857354
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-5162-87ea21-d3",
+        "city": "taichung",
+        "route_name": "KEE-5162",
+        "car_seq": "KEE-5162",
+        "arrival_time": "1540",
+        "departure_time": "1540",
+        "district": "和平區",
+        "village": "博愛里",
+        "location": "博愛里麗陽社區",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.02349732788066,
+          24.210772730857354
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-5162-87ea21-d3",
+        "city": "taichung",
+        "route_name": "KEE-5162",
+        "car_seq": "KEE-5162",
+        "arrival_time": "1540",
+        "departure_time": "1540",
+        "district": "和平區",
+        "village": "博愛里",
+        "location": "博愛里麗陽社區",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.93104060129782,
+          24.176162753679368
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-5162-87ea21-d3",
+        "city": "taichung",
+        "route_name": "KEE-5162",
+        "car_seq": "KEE-5162",
+        "arrival_time": "1720",
+        "departure_time": "1720",
+        "district": "和平區",
+        "village": "天輪里",
+        "location": "天輪里天輪社區",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.93104060129782,
+          24.176162753679368
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-5162-87ea21-d3",
+        "city": "taichung",
+        "route_name": "KEE-5162",
+        "car_seq": "KEE-5162",
+        "arrival_time": "1720",
+        "departure_time": "1720",
+        "district": "和平區",
+        "village": "天輪里",
+        "location": "天輪里天輪社區",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.90922864864278,
+          24.176553489115612
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-5162-87ea21-d3",
+        "city": "taichung",
+        "route_name": "KEE-5162",
+        "car_seq": "KEE-5162",
+        "arrival_time": "1750",
+        "departure_time": "1750",
+        "district": "和平區",
+        "village": "南勢里",
+        "location": "南勢里南勢社區",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.90922864864278,
+          24.176553489115612
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-5162-87ea21-d3",
+        "city": "taichung",
+        "route_name": "KEE-5162",
+        "car_seq": "KEE-5162",
+        "arrival_time": "1750",
+        "departure_time": "1750",
+        "district": "和平區",
+        "village": "南勢里",
+        "location": "南勢里南勢社區",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.88254030469614,
+          24.17600002542841
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-5162-87ea21-d3",
+        "city": "taichung",
+        "route_name": "KEE-5162",
+        "car_seq": "KEE-5162",
+        "arrival_time": "1810",
+        "departure_time": "1810",
+        "district": "和平區",
+        "village": "南勢里",
+        "location": "南勢里巴新街",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.88254030469614,
+          24.17600002542841
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-5162-87ea21-d3",
+        "city": "taichung",
+        "route_name": "KEE-5162",
+        "car_seq": "KEE-5162",
+        "arrival_time": "1810",
+        "departure_time": "1810",
+        "district": "和平區",
+        "village": "南勢里",
+        "location": "南勢里巴新街",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 3
+      }
+    }
+  ]
+}

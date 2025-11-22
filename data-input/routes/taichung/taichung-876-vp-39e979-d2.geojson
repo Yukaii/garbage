@@ -1,0 +1,605 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5460319303782,
+          24.158426763484986
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1559",
+        "departure_time": "1600",
+        "district": "大肚區",
+        "village": "頂街里",
+        "location": "頂街里榮華街102巷15弄7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.54503287429185,
+          24.16149906961569
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1603",
+        "departure_time": "1604",
+        "district": "大肚區",
+        "village": "頂街里",
+        "location": "自由路888號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.54587061685156,
+          24.161987896237004
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1606",
+        "departure_time": "1607",
+        "district": "大肚區",
+        "village": "頂街里",
+        "location": "平等街175號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.54266456174562,
+          24.16773398592663
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1619",
+        "departure_time": "1620",
+        "district": "大肚區",
+        "village": "山陽里",
+        "location": "沙田路3段800號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.54391666863778,
+          24.16798220925298
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1622",
+        "departure_time": "1623",
+        "district": "大肚區",
+        "village": "山陽里",
+        "location": "沙田路3段734巷52號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.54287335411992,
+          24.16942368373698
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1628",
+        "departure_time": "1629",
+        "district": "大肚區",
+        "village": "山陽里",
+        "location": "沙田路3段888巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5414608320762,
+          24.170249072322655
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1634",
+        "departure_time": "1635",
+        "district": "大肚區",
+        "village": "山陽里",
+        "location": "沙田路3段889巷23號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.54476861365144,
+          24.161180363290654
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1640",
+        "departure_time": "1641",
+        "district": "大肚區",
+        "village": "山陽里",
+        "location": "自由路949號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57850071798202,
+          24.172909816856713
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1728",
+        "departure_time": "1729",
+        "district": "大肚區",
+        "village": "自強里",
+        "location": "中沙路164巷7弄102號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57702099321324,
+          24.17186879655221
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1737",
+        "departure_time": "1738",
+        "district": "大肚區",
+        "village": "蔗廍里",
+        "location": "遊園路2段133巷81號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57969165955271,
+          24.16627516759258
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1746",
+        "departure_time": "1747",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "遊園路1段150巷123號（中和社區）",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5797100052099,
+          24.174740061492177
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1755",
+        "departure_time": "1756",
+        "district": "大肚區",
+        "village": "自強里",
+        "location": "中沙路164巷1弄117號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57353170719458,
+          24.160935039320893
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1819",
+        "departure_time": "1820",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "瑞井里遊園路1段87巷2弄38號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57350698958885,
+          24.16502059224099
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1831",
+        "departure_time": "1832",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "瑞井路84-1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57422038749571,
+          24.16746989066718
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1836",
+        "departure_time": "1837",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "瑞井路150-2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57443111769747,
+          24.168688465423497
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1841",
+        "departure_time": "1842",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "太平路2-1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5724784473681,
+          24.167930844417803
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1847",
+        "departure_time": "1848",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "太平路1巷2弄23號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57166814582975,
+          24.16422412869499
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1856",
+        "departure_time": "1857",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "瑞井路65巷50號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57235258805565,
+          24.162835486341965
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1858",
+        "departure_time": "1859",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "瑞井路5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57347233563937,
+          24.160022723349535
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1901",
+        "departure_time": "1902",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "遊園路1段63巷34號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57526445060525,
+          24.160055939218317
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1905",
+        "departure_time": "1906",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "遊園路1段72北巷4弄2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57591151598669,
+          24.157799656414362
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1915",
+        "departure_time": "1916",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "遊園路1段70巷2弄9號（中富國宅社區）",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.571345739512,
+          24.15599430792385
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1921",
+        "departure_time": "1922",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "遊園路1段3巷12號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57293691863366,
+          24.155948756696056
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1929",
+        "departure_time": "1930",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "遊園路1段10巷35號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57482142909615,
+          24.157729987004416
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-876-vp-39e979-d2",
+        "city": "taichung",
+        "route_name": "876-VP",
+        "car_seq": "876-VP",
+        "arrival_time": "1933",
+        "departure_time": "1934",
+        "district": "大肚區",
+        "village": "瑞井里",
+        "location": "遊園路1段62巷3弄2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

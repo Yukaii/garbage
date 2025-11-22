@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.61571659046204,
+          24.150956958090923
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-423-vp-af49bb-d1",
+        "city": "taichung",
+        "route_name": "423-VP",
+        "car_seq": "423-VP",
+        "arrival_time": "0700",
+        "departure_time": "0725",
+        "district": "南屯區",
+        "village": "寶山里",
+        "location": "忠勇路105-11號旁",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.61484596253989,
+          24.146287508549836
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-423-vp-af49bb-d1",
+        "city": "taichung",
+        "route_name": "423-VP",
+        "car_seq": "423-VP",
+        "arrival_time": "0730",
+        "departure_time": "0755",
+        "district": "南屯區",
+        "village": "文山里",
+        "location": "忠勇路77號對面",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.61152595612529,
+          24.135864650427816
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-423-vp-af49bb-d1",
+        "city": "taichung",
+        "route_name": "423-VP",
+        "car_seq": "423-VP",
+        "arrival_time": "0800",
+        "departure_time": "0830",
+        "district": "南屯區",
+        "village": "春社里",
+        "location": "忠勇路23之5號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

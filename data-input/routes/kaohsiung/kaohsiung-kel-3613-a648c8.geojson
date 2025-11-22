@@ -1,0 +1,396 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.29418,
+          22.630262
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1550",
+        "departure_time": "1552",
+        "district": "前金區",
+        "village": "東金里",
+        "location": "六合二路173號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295329,
+          22.631395
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1553",
+        "departure_time": "1555",
+        "district": "前金區",
+        "village": "草江里",
+        "location": "中華三路152號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.294489,
+          22.634834
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1559",
+        "departure_time": "1600",
+        "district": "前金區",
+        "village": "長城里",
+        "location": "河南二路105號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.294625,
+          22.634879
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1600",
+        "departure_time": "1602",
+        "district": "前金區",
+        "village": "長城里",
+        "location": "河南二路103號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296847,
+          22.633333
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1608",
+        "departure_time": "1611",
+        "district": "前金區",
+        "village": "草江里",
+        "location": "七賢二路157號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295862,
+          22.631163
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1621",
+        "departure_time": "1625",
+        "district": "前金區",
+        "village": "草江里",
+        "location": "六合二路132號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.294932,
+          22.632325
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1626",
+        "departure_time": "1628",
+        "district": "前金區",
+        "village": "草江里",
+        "location": "中華三路196號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2946,
+          22.633326
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1629",
+        "departure_time": "1633",
+        "district": "前金區",
+        "village": "長城里",
+        "location": "中華三路216號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.294213,
+          22.633167
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1640",
+        "departure_time": "1642",
+        "district": "前金區",
+        "village": "北金里",
+        "location": "中華三路215之3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295339,
+          22.629648
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1648",
+        "departure_time": "1651",
+        "district": "前金區",
+        "village": "東金里",
+        "location": "中華三路121號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.292109,
+          22.631716
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1708",
+        "departure_time": "1711",
+        "district": "前金區",
+        "village": "新生里",
+        "location": "七賢二路255號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293086,
+          22.634437
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1849",
+        "departure_time": "1850",
+        "district": "前金區",
+        "village": "北金里",
+        "location": "河南二路126號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.298644,
+          22.631257
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1914",
+        "departure_time": "1917",
+        "district": "前金區",
+        "village": "長興里",
+        "location": "中山橫路90號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293614,
+          22.632662
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1942",
+        "departure_time": "1945",
+        "district": "前金區",
+        "village": "北金里",
+        "location": "七賢二路220之9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.292422,
+          22.633139
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1946",
+        "departure_time": "1950",
+        "district": "前金區",
+        "village": "北金里",
+        "location": "自強一路158號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.291901,
+          22.63214
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1955",
+        "departure_time": "1957",
+        "district": "前金區",
+        "village": "新生里",
+        "location": "七賢二路276號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.291199,
+          22.633762
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3613-a648c8",
+        "city": "kaohsiung",
+        "route_name": "KEL-3613",
+        "car_seq": "KEL-3613",
+        "arrival_time": "1959",
+        "departure_time": "2003",
+        "district": "前金區",
+        "village": "新生里",
+        "location": "河南二路155號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

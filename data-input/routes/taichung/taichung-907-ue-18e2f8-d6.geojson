@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.587697,
+          24.186751
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-ue-18e2f8-d6",
+        "city": "taichung",
+        "route_name": "907-UE",
+        "car_seq": "907-UE",
+        "arrival_time": "0619",
+        "departure_time": "0622",
+        "district": "龍井區",
+        "village": "東海里",
+        "location": "遊園北路24巷32號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.587697,
+          24.186751
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-907-ue-18e2f8-d6",
+        "city": "taichung",
+        "route_name": "907-UE",
+        "car_seq": "907-UE",
+        "arrival_time": "0619",
+        "departure_time": "0622",
+        "district": "龍井區",
+        "village": "東海里",
+        "location": "遊園北路24巷32號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

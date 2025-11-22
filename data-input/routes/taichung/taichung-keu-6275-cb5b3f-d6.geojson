@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.656333,
+          24.160668
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-6275-cb5b3f-d6",
+        "city": "taichung",
+        "route_name": "KEU-6275",
+        "car_seq": "KEU-6275",
+        "arrival_time": "0735",
+        "departure_time": "0740",
+        "district": "西屯區",
+        "village": "何厝里",
+        "location": "漢口路一段37號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.656091,
+          24.164103
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-6275-cb5b3f-d6",
+        "city": "taichung",
+        "route_name": "KEU-6275",
+        "car_seq": "KEU-6275",
+        "arrival_time": "0800",
+        "departure_time": "0805",
+        "district": "西屯區",
+        "village": "何安里",
+        "location": "青海路一段60號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

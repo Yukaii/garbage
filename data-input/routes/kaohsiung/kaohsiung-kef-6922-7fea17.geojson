@@ -1,0 +1,465 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.268711,
+          22.752761
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1746",
+        "departure_time": "1748",
+        "district": "梓官區",
+        "village": "同安里",
+        "location": "同安路340號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.266722,
+          22.760023
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1753",
+        "departure_time": "1755",
+        "district": "梓官區",
+        "village": "梓義里",
+        "location": "梓官路243巷14號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.264083,
+          22.761455
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1800",
+        "departure_time": "1802",
+        "district": "梓官區",
+        "village": "梓義里",
+        "location": "樹德街38號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.265531,
+          22.763687
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1807",
+        "departure_time": "1809",
+        "district": "梓官區",
+        "village": "梓信里",
+        "location": "梓官路425巷34號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.264866,
+          22.761053
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1823",
+        "departure_time": "1825",
+        "district": "梓官區",
+        "village": "梓義里",
+        "location": "中學路33號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.271758,
+          22.760297
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1830",
+        "departure_time": "1832",
+        "district": "梓官區",
+        "village": "中崙里",
+        "location": "中崙路145巷36號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.273923,
+          22.761097
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1834",
+        "departure_time": "1836",
+        "district": "梓官區",
+        "village": "中崙里",
+        "location": "中崙路53巷35號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.268012,
+          22.762114
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1849",
+        "departure_time": "1851",
+        "district": "梓官區",
+        "village": "梓義里",
+        "location": "梓官路330巷71號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.266558,
+          22.762923
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1853",
+        "departure_time": "1855",
+        "district": "梓官區",
+        "village": "梓信里",
+        "location": "信安街1之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.266518,
+          22.761624
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1859",
+        "departure_time": "1901",
+        "district": "梓官區",
+        "village": "梓義里",
+        "location": "梓官路319巷2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.269204,
+          22.760355
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1950",
+        "departure_time": "1952",
+        "district": "梓官區",
+        "village": "梓義里",
+        "location": "自由路236號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267672,
+          22.759557
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "1956",
+        "departure_time": "1958",
+        "district": "梓官區",
+        "village": "梓和里",
+        "location": "梓官路城隍巷20號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.265666,
+          22.756163
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "2008",
+        "departure_time": "2010",
+        "district": "梓官區",
+        "village": "梓平里",
+        "location": "梓官路大宅巷107號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.265902,
+          22.75719
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "2013",
+        "departure_time": "2015",
+        "district": "梓官區",
+        "village": "梓平里",
+        "location": "梓官路87巷112號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.263767,
+          22.75898
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "2018",
+        "departure_time": "2020",
+        "district": "梓官區",
+        "village": "梓和里",
+        "location": "仁愛路188號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.263479,
+          22.757666
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "2030",
+        "departure_time": "2032",
+        "district": "梓官區",
+        "village": "梓和里",
+        "location": "仁愛路必信巷50號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.264081,
+          22.75629
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "2033",
+        "departure_time": "2036",
+        "district": "梓官區",
+        "village": "梓平里",
+        "location": "平安街77巷2弄50號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.272049,
+          22.761368
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "2038",
+        "departure_time": "2040",
+        "district": "梓官區",
+        "village": "梓平里",
+        "location": "和平100巷105號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.26496,
+          22.742588
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "2040",
+        "departure_time": "2042",
+        "district": "梓官區",
+        "village": "梓和里",
+        "location": "和平258巷65號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.261989,
+          22.746521
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6922-7fea17",
+        "city": "kaohsiung",
+        "route_name": "KEF-6922",
+        "car_seq": "KEF-6922",
+        "arrival_time": "2042",
+        "departure_time": "2045",
+        "district": "梓官區",
+        "village": "梓和里",
+        "location": "和平220巷35號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

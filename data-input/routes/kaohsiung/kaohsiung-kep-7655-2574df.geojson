@@ -1,0 +1,649 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.274334,
+          22.783066
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1700",
+        "departure_time": "1708",
+        "district": "岡山區",
+        "village": "協榮里",
+        "location": "介壽西路421號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.269632,
+          22.779146
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1702",
+        "departure_time": "1710",
+        "district": "岡山區",
+        "village": "福興里",
+        "location": "頂潭路167號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267527,
+          22.768272
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1713",
+        "departure_time": "1721",
+        "district": "岡山區",
+        "village": "石潭里",
+        "location": "石潭路73號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.268919,
+          22.774612
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1722",
+        "departure_time": "1730",
+        "district": "岡山區",
+        "village": "石潭里",
+        "location": "石潭路250號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267993,
+          22.77821
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1729",
+        "departure_time": "1737",
+        "district": "岡山區",
+        "village": "福興里",
+        "location": "頂潭北路67號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.268055,
+          22.775366
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1732",
+        "departure_time": "1740",
+        "district": "岡山區",
+        "village": "福興里",
+        "location": "石潭路239巷3弄1號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267728,
+          22.774516
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1737",
+        "departure_time": "1745",
+        "district": "岡山區",
+        "village": "石潭里",
+        "location": "石潭路205巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.285452,
+          22.792933
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1900",
+        "departure_time": "1908",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "民族路165號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287825,
+          22.79219
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1903",
+        "departure_time": "1908",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "民族南一街71號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287501,
+          22.792287
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1907",
+        "departure_time": "1915",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "中華西三街2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28592,
+          22.792214
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1909",
+        "departure_time": "1917",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "正言街62巷29號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.286879,
+          22.792508
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1910",
+        "departure_time": "1918",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "中華西一街43號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288787,
+          22.791744
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1911",
+        "departure_time": "1919",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "正言街1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288138,
+          22.792791
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1915",
+        "departure_time": "1923",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "中華路39-4號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.286027,
+          22.791134
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1923",
+        "departure_time": "1931",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "正言街37巷1弄18號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.284994,
+          22.791129
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1925",
+        "departure_time": "1933",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "公園西路3段207號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288255,
+          22.791657
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1930",
+        "departure_time": "1938",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "中華路13-5號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288573,
+          22.79126
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1933",
+        "departure_time": "1941",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "中華路2-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287013,
+          22.790782
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1933",
+        "departure_time": "1941",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "柳橋西路62巷12號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287975,
+          22.790455
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1935",
+        "departure_time": "1943",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "柳橋西路9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.290008,
+          22.790991
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1937",
+        "departure_time": "1945",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "柳橋西路10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.285979,
+          22.790547
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1941",
+        "departure_time": "1949",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "柳橋西路88號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.284833,
+          22.793137
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1945",
+        "departure_time": "1953",
+        "district": "岡山區",
+        "village": "前峰里",
+        "location": "公園西路3段127號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.286006,
+          22.796436
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "1950",
+        "departure_time": "1958",
+        "district": "岡山區",
+        "village": "前峰里",
+        "location": "前峰路99號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.289145,
+          22.791381
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "2037",
+        "departure_time": "2045",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "仁壽路53號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28998,
+          22.793129
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "2040",
+        "departure_time": "2048",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "仁壽路17-4號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.289252,
+          22.792511
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "2044",
+        "departure_time": "2052",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "民族路11巷25號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28931,
+          22.792325
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-7655-2574df",
+        "city": "kaohsiung",
+        "route_name": "KEP-7655",
+        "car_seq": "KEP-7655",
+        "arrival_time": "2050",
+        "departure_time": "2058",
+        "district": "岡山區",
+        "village": "仁壽里",
+        "location": "仁壽路60號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

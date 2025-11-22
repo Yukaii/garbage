@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.700654,
+          24.245471
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-265-ur-de7cc8-d6",
+        "city": "taichung",
+        "route_name": "265-UR",
+        "car_seq": "265-UR",
+        "arrival_time": "1830",
+        "departure_time": "2000",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "社皮路69號旁",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.700654,
+          24.245471
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-265-ur-de7cc8-d6",
+        "city": "taichung",
+        "route_name": "265-UR",
+        "car_seq": "265-UR",
+        "arrival_time": "1830",
+        "departure_time": "2000",
+        "district": "豐原區",
+        "village": "社皮里",
+        "location": "社皮路69號旁",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

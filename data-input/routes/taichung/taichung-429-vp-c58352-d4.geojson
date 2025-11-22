@@ -1,0 +1,1157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.569138,
+          24.272175
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0620",
+        "departure_time": "0630",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "鎮新北路15號南側",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56692,
+          24.264761
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0635",
+        "departure_time": "0645",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南新路201巷5之9號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.568732,
+          24.260534
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0655",
+        "departure_time": "0705",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "星海路67號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570065,
+          24.260878
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0705",
+        "departure_time": "0715",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "星海一街52號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.578968,
+          24.271813
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0723",
+        "departure_time": "0728",
+        "district": "清水區",
+        "village": "鰲峰里",
+        "location": "光明路30-1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.578273,
+          24.272952
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0728",
+        "departure_time": "0733",
+        "district": "清水區",
+        "village": "鰲峰里",
+        "location": "中山路後車巷6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.577327,
+          24.272593
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0735",
+        "departure_time": "0740",
+        "district": "清水區",
+        "village": "北寧里",
+        "location": "董公街17號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.57677,
+          24.273785
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0737",
+        "departure_time": "0742",
+        "district": "清水區",
+        "village": "西寧里",
+        "location": "中山路417巷22號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.575269,
+          24.272352
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0741",
+        "departure_time": "0746",
+        "district": "清水區",
+        "village": "西寧里",
+        "location": "西寧路127號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.572522,
+          24.265681
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0746",
+        "departure_time": "0751",
+        "district": "清水區",
+        "village": "南寧里",
+        "location": "光華路117巷5弄3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.571386,
+          24.263795
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0751",
+        "departure_time": "0756",
+        "district": "清水區",
+        "village": "清水里",
+        "location": "光華路53巷27號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570397,
+          24.265077
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0756",
+        "departure_time": "0801",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "中正北街92號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.571405,
+          24.263147
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0805",
+        "departure_time": "0810",
+        "district": "清水區",
+        "village": "清水里",
+        "location": "中正北街6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.571807,
+          24.26168
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0809",
+        "departure_time": "0814",
+        "district": "清水區",
+        "village": "清水里",
+        "location": "中山路67巷3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.571,
+          24.261317
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0813",
+        "departure_time": "0818",
+        "district": "清水區",
+        "village": "清水里",
+        "location": "星海三街63號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570815,
+          24.26032
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0821",
+        "departure_time": "0826",
+        "district": "清水區",
+        "village": "清水里",
+        "location": "中山路27巷13號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.567931,
+          24.260905
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0827",
+        "departure_time": "0832",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "星海路77巷31號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.568096,
+          24.25916
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0833",
+        "departure_time": "0838",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "星海路3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.569618,
+          24.26123
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0840",
+        "departure_time": "0845",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "中正街73巷68號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.568999,
+          24.261897
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0845",
+        "departure_time": "0850",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "星海路125巷3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570063,
+          24.262923
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0850",
+        "departure_time": "0855",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "星海路188號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56795,
+          24.26959
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0900",
+        "departure_time": "0905",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "鰲峰路160巷14號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.567622,
+          24.268241
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0904",
+        "departure_time": "0909",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "鰲峰路192之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.565969,
+          24.268813
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0907",
+        "departure_time": "0912",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "鰲峰一街2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.566266,
+          24.270294
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0912",
+        "departure_time": "0917",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "中清路九段31號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.564483,
+          24.27022
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0917",
+        "departure_time": "0922",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "中清路九段91巷13號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.564746,
+          24.266255
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0924",
+        "departure_time": "0929",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "中華路243號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.561064,
+          24.261965
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0928",
+        "departure_time": "0933",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "中華路81號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.560456,
+          24.260103
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0932",
+        "departure_time": "0937",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "中華路92號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56583,
+          24.266642
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0936",
+        "departure_time": "0941",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "中華路302號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.569822,
+          24.267312
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0939",
+        "departure_time": "0944",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "鰲峰路141巷32號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.566972,
+          24.265395
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0947",
+        "departure_time": "0952",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "鰲峰路161巷70之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.566507,
+          24.263774
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0954",
+        "departure_time": "0959",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南社路95之23號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.563821,
+          24.258095
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "0958",
+        "departure_time": "1003",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "民族路一段2巷17號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.567402,
+          24.261436
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1005",
+        "departure_time": "1010",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南社路187之5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.568332,
+          24.264285
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1008",
+        "departure_time": "1013",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南新路202巷26號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.568248,
+          24.266024
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1012",
+        "departure_time": "1017",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南新路230巷9弄25號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.564635,
+          24.263791
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1015",
+        "departure_time": "1020",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南社路99之17號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.566432,
+          24.266746
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1020",
+        "departure_time": "1025",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南華路417號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.564293,
+          24.26218
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1025",
+        "departure_time": "1030",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南社路187號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.563562,
+          24.260636
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1029",
+        "departure_time": "1034",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南華路6巷79號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.561347,
+          24.25927
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1036",
+        "departure_time": "1041",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南華路90巷30號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.559907,
+          24.258113
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1041",
+        "departure_time": "1046",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "南華路57號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570215,
+          24.269601
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1048",
+        "departure_time": "1053",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "西社路2-5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570038,
+          24.273029
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1056",
+        "departure_time": "1101",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "鎮新北路60號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570871,
+          24.272414
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1059",
+        "departure_time": "1104",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "鎮新一街41號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.569547,
+          24.270955
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1102",
+        "departure_time": "1107",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "西社路51號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570646,
+          24.270947
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-429-vp-c58352-d4",
+        "city": "taichung",
+        "route_name": "429-VP",
+        "car_seq": "429-VP",
+        "arrival_time": "1106",
+        "departure_time": "1111",
+        "district": "清水區",
+        "village": "西社里",
+        "location": "鎮新南路116巷35號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    }
+  ]
+}

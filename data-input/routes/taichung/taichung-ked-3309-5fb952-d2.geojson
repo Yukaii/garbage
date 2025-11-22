@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70188728306545,
+          24.157091034427914
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3309-5fb952-d2",
+        "city": "taichung",
+        "route_name": "KED-3309",
+        "car_seq": "KED-3309",
+        "arrival_time": "0700",
+        "departure_time": "0710",
+        "district": "北區",
+        "village": "建成里",
+        "location": "東成路71號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7006730598995,
+          24.15932381762251
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3309-5fb952-d2",
+        "city": "taichung",
+        "route_name": "KED-3309",
+        "car_seq": "KED-3309",
+        "arrival_time": "0712",
+        "departure_time": "0725",
+        "district": "北區",
+        "village": "建成里",
+        "location": "東光八街29號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.69461267167462,
+          24.15573019790787
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3309-5fb952-d2",
+        "city": "taichung",
+        "route_name": "KED-3309",
+        "car_seq": "KED-3309",
+        "arrival_time": "0730",
+        "departure_time": "0800",
+        "district": "北區",
+        "village": "錦洲里",
+        "location": "興進路150號日間",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.69464395706086,
+          24.15967453237999
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-3309-5fb952-d2",
+        "city": "taichung",
+        "route_name": "KED-3309",
+        "car_seq": "KED-3309",
+        "arrival_time": "0805",
+        "departure_time": "0830",
+        "district": "北區",
+        "village": "錦洲里",
+        "location": "進化路580號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

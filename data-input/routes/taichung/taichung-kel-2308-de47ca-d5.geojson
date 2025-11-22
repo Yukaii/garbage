@@ -1,0 +1,989 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6440326466712,
+          24.137989971888754
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "0700",
+        "departure_time": "0725",
+        "district": "南屯區",
+        "village": "向心里",
+        "location": "南屯路二段389號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64030901493189,
+          24.140487497023013
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "0730",
+        "departure_time": "0755",
+        "district": "南屯區",
+        "village": "南屯里",
+        "location": "萬和路二段36之6號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64942331009489,
+          24.136123176344913
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "0800",
+        "departure_time": "0830",
+        "district": "南屯區",
+        "village": "向心里",
+        "location": "大墩南路457號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63198832698563,
+          24.123291963940204
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1413",
+        "departure_time": "1418",
+        "district": "南屯區",
+        "village": "鎮平里",
+        "location": "永春東三路165號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6294244917597,
+          24.122975021732003
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1430",
+        "departure_time": "1435",
+        "district": "南屯區",
+        "village": "鎮平里",
+        "location": "楓平路717號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62782732611976,
+          24.121939982735054
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1435",
+        "departure_time": "1440",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "黎明路一段395巷30號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62749024371676,
+          24.11991931398064
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1440",
+        "departure_time": "1445",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "黎明路一段323巷10弄7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6267028468553,
+          24.117266305229837
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1450",
+        "departure_time": "1455",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "中和南一巷19號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62419724560742,
+          24.118738531052447
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1455",
+        "departure_time": "1500",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "中和巷3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6210775004755,
+          24.117697971339744
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1500",
+        "departure_time": "1505",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "中和巷11號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62604959329354,
+          24.11700440161624
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1510",
+        "departure_time": "1515",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "黎明路一段203巷18號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62501466663866,
+          24.11694761679418
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1515",
+        "departure_time": "1520",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "楓樹南街488號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6256130650527,
+          24.116512237279675
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1520",
+        "departure_time": "1525",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "黎明路一段173巷30號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62581225745836,
+          24.115367998087386
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1525",
+        "departure_time": "1530",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "南光路22號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624944481959,
+          24.115611901006492
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1530",
+        "departure_time": "1535",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "南光路60號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62466644538748,
+          24.115152980618106
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1535",
+        "departure_time": "1540",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "黎明路一段123巷26號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62438116124927,
+          24.11507476286478
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1540",
+        "departure_time": "1545",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "南光路45巷18弄20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6256458474071,
+          24.114072326354286
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1545",
+        "departure_time": "1550",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "黎明路一段85巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62429003706659,
+          24.114178253096718
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1550",
+        "departure_time": "1555",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "和成巷46號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62390653346189,
+          24.113859513857523
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1555",
+        "departure_time": "1600",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "和仁巷60號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62515244605878,
+          24.112842055345606
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1600",
+        "departure_time": "1605",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "黎明路一段37巷3弄18號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62471100606307,
+          24.11312618973579
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1610",
+        "departure_time": "1615",
+        "district": "南屯區",
+        "village": "中和里",
+        "location": "黎明路一段37巷39號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62734806678709,
+          24.114911645033512
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1805",
+        "departure_time": "1810",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "互愛巷64號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62795431952173,
+          24.114261242065954
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1810",
+        "departure_time": "1815",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "楓樹西街153號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62746488361479,
+          24.113933684864993
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1815",
+        "departure_time": "1820",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "楓樹二街135號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62851306770537,
+          24.115449342620405
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1820",
+        "departure_time": "1825",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "楓樹西街196號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6293212761528,
+          24.113402978079343
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1830",
+        "departure_time": "1835",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "永春東三路30-9號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62835537270036,
+          24.11440345468599
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1835",
+        "departure_time": "1840",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "互愛巷35號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62680234464689,
+          24.11545456393199
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1840",
+        "departure_time": "1845",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "黎明路一段148巷2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62814332996867,
+          24.11619028257983
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1845",
+        "departure_time": "1850",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "黎明路一段206巷46號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62797321841613,
+          24.11701079552692
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1855",
+        "departure_time": "1900",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "黎明路一段242巷22號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62893240561698,
+          24.11775401950139
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1900",
+        "departure_time": "1905",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "楓和路713號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63042379538891,
+          24.118815572168806
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1910",
+        "departure_time": "1915",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "永春東三路110巷10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62998660935388,
+          24.11990939913701
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1915",
+        "departure_time": "1920",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "楓樹西街366巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63090695514433,
+          24.121638743024224
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1920",
+        "departure_time": "1925",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "楓樹西街446號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62885826035658,
+          24.11968092916229
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1925",
+        "departure_time": "1930",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "楓樹西街351巷36號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62891776656718,
+          24.117157155402104
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1930",
+        "departure_time": "1935",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "楓樹西街261號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62866432937416,
+          24.115575299075992
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1935",
+        "departure_time": "1940",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "楓樹南街249號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63017364985173,
+          24.116029351318037
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1940",
+        "departure_time": "1945",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "楓樹六街56號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63013187813038,
+          24.117594292217102
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "1948",
+        "departure_time": "1958",
+        "district": "南屯區",
+        "village": "楓樹里",
+        "location": "永春東三路100號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62972588661482,
+          24.1228532700972
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2308-de47ca-d5",
+        "city": "taichung",
+        "route_name": "KEL-2308",
+        "car_seq": "KEL-2308",
+        "arrival_time": "2000",
+        "departure_time": "2010",
+        "district": "南屯區",
+        "village": "鎮平里",
+        "location": "楓平路701號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

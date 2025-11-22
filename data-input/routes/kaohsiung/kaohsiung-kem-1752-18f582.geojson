@@ -1,0 +1,925 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.404443,
+          22.499307
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1626",
+        "departure_time": "1629",
+        "district": "林園區",
+        "village": "五福里",
+        "location": "沿海路一段73巷8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.396533,
+          22.502763
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1635",
+        "departure_time": "1638",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "林園南路34巷16號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.397167,
+          22.501304
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1637",
+        "departure_time": "1640",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "林園南路92巷46號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.396069,
+          22.501024
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1643",
+        "departure_time": "1646",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "林園南路95號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.395971,
+          22.503457
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1649",
+        "departure_time": "1652",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "東林東路5號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.395777,
+          22.507166
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1653",
+        "departure_time": "1655",
+        "district": "林園區",
+        "village": "林園里",
+        "location": "忠孝東路24號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.395034,
+          22.507736
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1655",
+        "departure_time": "1658",
+        "district": "林園區",
+        "village": "林園里",
+        "location": "林園北路190號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.394644,
+          22.507272
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1657",
+        "departure_time": "1700",
+        "district": "林園區",
+        "village": "林園里",
+        "location": "文化街247號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.392515,
+          22.507068
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1700",
+        "departure_time": "1703",
+        "district": "林園區",
+        "village": "林園里",
+        "location": "忠孝西路20號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.392277,
+          22.505393
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1705",
+        "departure_time": "1708",
+        "district": "林園區",
+        "village": "仁愛里",
+        "location": "仁愛路67巷2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.392582,
+          22.504633
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1707",
+        "departure_time": "1710",
+        "district": "林園區",
+        "village": "仁愛里",
+        "location": "仁愛路33號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.393238,
+          22.503387
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1715",
+        "departure_time": "1718",
+        "district": "林園區",
+        "village": "文賢里",
+        "location": "東林西路105巷7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.393745,
+          22.502918
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1758",
+        "departure_time": "1801",
+        "district": "林園區",
+        "village": "文賢里",
+        "location": "文化街71號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.392803,
+          22.500775
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1800",
+        "departure_time": "1803",
+        "district": "林園區",
+        "village": "文賢里",
+        "location": "文賢南路114巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.393967,
+          22.503005
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1804",
+        "departure_time": "1807",
+        "district": "林園區",
+        "village": "文賢里",
+        "location": "康樂街39號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.395545,
+          22.502669
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1811",
+        "departure_time": "1814",
+        "district": "林園區",
+        "village": "文賢里",
+        "location": "福興街2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.394892,
+          22.503584
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1815",
+        "departure_time": "1818",
+        "district": "林園區",
+        "village": "文賢里",
+        "location": "康樂街1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.393593,
+          22.504622
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1820",
+        "departure_time": "1823",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "文化街118號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.393685,
+          22.506008
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1825",
+        "departure_time": "1828",
+        "district": "林園區",
+        "village": "林園里",
+        "location": "文化街164號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.386643,
+          22.507169
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1831",
+        "departure_time": "1834",
+        "district": "林園區",
+        "village": "廣應里",
+        "location": "廣應街22巷8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38502,
+          22.50729
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1834",
+        "departure_time": "1837",
+        "district": "林園區",
+        "village": "廣應里",
+        "location": "廣應街33巷30號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.383859,
+          22.506616
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1838",
+        "departure_time": "1841",
+        "district": "林園區",
+        "village": "廣應里",
+        "location": "王公路414巷42弄3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.384685,
+          22.505089
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1840",
+        "departure_time": "1843",
+        "district": "林園區",
+        "village": "廣應里",
+        "location": "東林西路436巷49號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.383821,
+          22.503381
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1842",
+        "departure_time": "1845",
+        "district": "林園區",
+        "village": "頂厝里",
+        "location": "椰樹南巷2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.385926,
+          22.501358
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1850",
+        "departure_time": "1853",
+        "district": "林園區",
+        "village": "頂厝里",
+        "location": "田厝路124巷46號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.387282,
+          22.502216
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1852",
+        "departure_time": "1855",
+        "district": "林園區",
+        "village": "頂厝里",
+        "location": "田厝路64巷10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.389999,
+          22.502877
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1939",
+        "departure_time": "1942",
+        "district": "林園區",
+        "village": "頂厝里",
+        "location": "東林西路251巷2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.392428,
+          22.503447
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1941",
+        "departure_time": "1944",
+        "district": "林園區",
+        "village": "文賢里",
+        "location": "東林西路135號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.394571,
+          22.503881
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1948",
+        "departure_time": "1951",
+        "district": "林園區",
+        "village": "文賢里",
+        "location": "東林西路37號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.395906,
+          22.504041
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1950",
+        "departure_time": "1953",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "林園北路20號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.395473,
+          22.506035
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1955",
+        "departure_time": "1958",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "林園北路118號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.39529,
+          22.506833
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1957",
+        "departure_time": "2000",
+        "district": "林園區",
+        "village": "林園里",
+        "location": "林園北路158號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.393934,
+          22.506592
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "1959",
+        "departure_time": "2002",
+        "district": "林園區",
+        "village": "林園里",
+        "location": "福興街171號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.394782,
+          22.504522
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "2007",
+        "departure_time": "2010",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "福興街73號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.398934,
+          22.503011
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "2016",
+        "departure_time": "2019",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "鳳林路一段42巷53號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.400702,
+          22.502976
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "2018",
+        "departure_time": "2021",
+        "district": "林園區",
+        "village": "五福里",
+        "location": "五福路249巷6弄5號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.399002,
+          22.503197
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "2021",
+        "departure_time": "2024",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "立志街20號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.398712,
+          22.501541
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "2023",
+        "departure_time": "2026",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "成功街61號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.396406,
+          22.503722
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "2030",
+        "departure_time": "2033",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "東林東路20號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.392246,
+          22.503582
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1752-18f582",
+        "city": "kaohsiung",
+        "route_name": "KEM-1752",
+        "car_seq": "KEM-1752",
+        "arrival_time": "2035",
+        "departure_time": "2038",
+        "district": "林園區",
+        "village": "仁愛里",
+        "location": "東林西路136號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

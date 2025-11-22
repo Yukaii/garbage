@@ -1,0 +1,557 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337954,
+          22.592236
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1702",
+        "departure_time": "1704",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "南二街21號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.338661,
+          22.593509
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1704",
+        "departure_time": "1710",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "南一街42~66號﹝敦王明珠大樓﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.340193,
+          22.592381
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1716",
+        "departure_time": "1718",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "和成路403號﹝寶弘保養廠﹞",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33775,
+          22.58949
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1722",
+        "departure_time": "1723",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "和成路47號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337581,
+          22.588823
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1723",
+        "departure_time": "1725",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "和成路9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337248,
+          22.589037
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1725",
+        "departure_time": "1726",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "保安一街283號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337404,
+          22.590413
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1730",
+        "departure_time": "1731",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "祥和街21號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334442,
+          22.586727
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1738",
+        "departure_time": "1739",
+        "district": "鳳山區",
+        "village": "大德里",
+        "location": "明鳳十三街23號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333912,
+          22.586562
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1740",
+        "departure_time": "1741",
+        "district": "鳳山區",
+        "village": "大德里",
+        "location": "公園三街81號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.344078,
+          22.594204
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1940",
+        "departure_time": "1942",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "和成路46~52號之間",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.340478,
+          22.591699
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "1957",
+        "departure_time": "1959",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "國慶十二街60~62號之間",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.342517,
+          22.590845
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2001",
+        "departure_time": "2003",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "鳳南一路232號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346453,
+          22.587143
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2039",
+        "departure_time": "2040",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "保華一路111號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348018,
+          22.586728
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2044",
+        "departure_time": "2045",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "二成街62號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.347314,
+          22.586919
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2046",
+        "departure_time": "2047",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "三成街99號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348258,
+          22.586887
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2047",
+        "departure_time": "2048",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "三成街55號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349594,
+          22.587537
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2049",
+        "departure_time": "2050",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "五成街72號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348363,
+          22.587312
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2050",
+        "departure_time": "2051",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "五成街81號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.347416,
+          22.587662
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2051",
+        "departure_time": "2053",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "六成街123之1號與六成街125號之間",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348271,
+          22.587736
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2053",
+        "departure_time": "2054",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "六成街91號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349322,
+          22.587986
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2054",
+        "departure_time": "2055",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "六成街96號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349827,
+          22.587702
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2055",
+        "departure_time": "2056",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "六成街53號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350368,
+          22.587693
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2056",
+        "departure_time": "2057",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "六成街33號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348104,
+          22.588415
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-043-uv-05defa",
+        "city": "kaohsiung",
+        "route_name": "043-UV",
+        "car_seq": "043-UV",
+        "arrival_time": "2058",
+        "departure_time": "2059",
+        "district": "鳳山區",
+        "village": "南成里",
+        "location": "七成街140號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

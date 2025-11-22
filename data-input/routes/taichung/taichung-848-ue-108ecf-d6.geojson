@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.712521,
+          24.158331
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-848-ue-108ecf-d6",
+        "city": "taichung",
+        "route_name": "848-UE",
+        "car_seq": "848-UE",
+        "arrival_time": "1800",
+        "departure_time": "1820",
+        "district": "太平區",
+        "village": "新興里",
+        "location": "振福路685號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70344,
+          24.1505
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-848-ue-108ecf-d6",
+        "city": "taichung",
+        "route_name": "848-UE",
+        "car_seq": "848-UE",
+        "arrival_time": "1835",
+        "departure_time": "1845",
+        "district": "太平區",
+        "village": "新福里",
+        "location": "新福路102號對面",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

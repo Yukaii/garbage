@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.616204,
+          24.179784
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6527-47d228-d5",
+        "city": "taichung",
+        "route_name": "KEL-6527",
+        "car_seq": "KEL-6527",
+        "arrival_time": "0700",
+        "departure_time": "0755",
+        "district": "西屯區",
+        "village": "福中里",
+        "location": "中工二路92號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.616204,
+          24.179784
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6527-47d228-d5",
+        "city": "taichung",
+        "route_name": "KEL-6527",
+        "car_seq": "KEL-6527",
+        "arrival_time": "0700",
+        "departure_time": "0755",
+        "district": "西屯區",
+        "village": "福中里",
+        "location": "中工二路92號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

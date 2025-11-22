@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68430012205648,
+          24.171079271491188
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-6291-89fd12-d6",
+        "city": "taichung",
+        "route_name": "KEU-6291",
+        "car_seq": "KEU-6291",
+        "arrival_time": "0657",
+        "departure_time": "0703",
+        "district": "北屯區",
+        "village": "平德里",
+        "location": "北平路三段163號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.69059768734812,
+          24.166738650120617
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-6291-89fd12-d6",
+        "city": "taichung",
+        "route_name": "KEU-6291",
+        "car_seq": "KEU-6291",
+        "arrival_time": "0732",
+        "departure_time": "0738",
+        "district": "北屯區",
+        "village": "北屯里",
+        "location": "漢口路五段180號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.69384397807214,
+          24.163605442710743
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-6291-89fd12-d6",
+        "city": "taichung",
+        "route_name": "KEU-6291",
+        "car_seq": "KEU-6291",
+        "arrival_time": "0807",
+        "departure_time": "0813",
+        "district": "北屯區",
+        "village": "北興里",
+        "location": "北屯路104號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

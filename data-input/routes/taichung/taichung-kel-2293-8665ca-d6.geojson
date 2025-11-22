@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.707722,
+          24.146588
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2293-8665ca-d6",
+        "city": "taichung",
+        "route_name": "KEL-2293",
+        "car_seq": "KEL-2293",
+        "arrival_time": "0725",
+        "departure_time": "0745",
+        "district": "東區",
+        "village": "東英里",
+        "location": "三賢街243號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704629,
+          24.141355
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2293-8665ca-d6",
+        "city": "taichung",
+        "route_name": "KEL-2293",
+        "car_seq": "KEL-2293",
+        "arrival_time": "0750",
+        "departure_time": "0810",
+        "district": "東區",
+        "village": "十甲里",
+        "location": "東英八街42號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.698175,
+          24.139319
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-2293-8665ca-d6",
+        "city": "taichung",
+        "route_name": "KEL-2293",
+        "car_seq": "KEL-2293",
+        "arrival_time": "0815",
+        "departure_time": "0830",
+        "district": "東區",
+        "village": "樂成里",
+        "location": "育英路82-8號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

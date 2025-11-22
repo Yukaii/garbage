@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.698728,
+          24.259174
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-225-ur-7a1917-d6",
+        "city": "taichung",
+        "route_name": "225-UR",
+        "car_seq": "225-UR",
+        "arrival_time": "0700",
+        "departure_time": "0720",
+        "district": "神岡區",
+        "village": "神洲里",
+        "location": "大洲路151號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.651134,
+          24.278482
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-225-ur-7a1917-d6",
+        "city": "taichung",
+        "route_name": "225-UR",
+        "car_seq": "225-UR",
+        "arrival_time": "0735",
+        "departure_time": "0755",
+        "district": "神岡區",
+        "village": "新庄里",
+        "location": "新興路155號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.651134,
+          24.278482
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-225-ur-7a1917-d6",
+        "city": "taichung",
+        "route_name": "225-UR",
+        "car_seq": "225-UR",
+        "arrival_time": "0735",
+        "departure_time": "0755",
+        "district": "神岡區",
+        "village": "新庄里",
+        "location": "新興路155號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.695172,
+          24.241112
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-225-ur-7a1917-d6",
+        "city": "taichung",
+        "route_name": "225-UR",
+        "car_seq": "225-UR",
+        "arrival_time": "0740",
+        "departure_time": "0750",
+        "district": "神岡區",
+        "village": "三角里",
+        "location": "大豐路70巷1號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

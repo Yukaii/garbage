@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.715288,
+          24.138594
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-861-ue-d68b94-d4",
+        "city": "taichung",
+        "route_name": "861-UE",
+        "car_seq": "861-UE",
+        "arrival_time": "1830",
+        "departure_time": "1920",
+        "district": "太平區",
+        "village": "光華里",
+        "location": "宜昌東路1號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.724618,
+          24.116954
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-861-ue-d68b94-d4",
+        "city": "taichung",
+        "route_name": "861-UE",
+        "car_seq": "861-UE",
+        "arrival_time": "1940",
+        "departure_time": "2000",
+        "district": "太平區",
+        "village": "長億里",
+        "location": "太平路12號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    }
+  ]
+}

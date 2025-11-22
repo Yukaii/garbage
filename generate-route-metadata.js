@@ -19,13 +19,19 @@ function generateRouteMetadata(city) {
 
 const taipei = generateRouteMetadata('taipei');
 const newTaipei = generateRouteMetadata('new-taipei');
+const taichung = generateRouteMetadata('taichung');
+const kaohsiung = generateRouteMetadata('kaohsiung');
 
 const output = { 
   taipei,
-  'new-taipei': newTaipei
+  'new-taipei': newTaipei,
+  taichung,
+  kaohsiung,
 };
 
 fs.writeFileSync('routes/route-metadata.json', JSON.stringify(output, null, 2));
 console.log('Generated routes/route-metadata.json');
 console.log('Taipei routes:', Object.keys(taipei).length);
 console.log('New Taipei routes:', Object.keys(newTaipei).length);
+console.log('Taichung routes:', Object.keys(taichung).length);
+console.log('Kaohsiung routes:', Object.keys(kaohsiung).length);

@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.706202,
+          24.131719
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-320-ux-1c6098-d1",
+        "city": "taichung",
+        "route_name": "320-UX",
+        "car_seq": "320-UX",
+        "arrival_time": "0700",
+        "departure_time": "0710",
+        "district": "東區",
+        "village": "東信里",
+        "location": "振興路437巷44號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.706514,
+          24.135836
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-320-ux-1c6098-d1",
+        "city": "taichung",
+        "route_name": "320-UX",
+        "car_seq": "320-UX",
+        "arrival_time": "0715",
+        "departure_time": "0720",
+        "district": "東區",
+        "village": "東信里",
+        "location": "樂業路460巷26號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.706263,
+          24.133852
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-320-ux-1c6098-d1",
+        "city": "taichung",
+        "route_name": "320-UX",
+        "car_seq": "320-UX",
+        "arrival_time": "0725",
+        "departure_time": "0740",
+        "district": "東區",
+        "village": "東信里",
+        "location": "振興路437巷59弄102號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.694864,
+          24.127452
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-320-ux-1c6098-d1",
+        "city": "taichung",
+        "route_name": "320-UX",
+        "car_seq": "320-UX",
+        "arrival_time": "0750",
+        "departure_time": "0830",
+        "district": "東區",
+        "village": "東門里",
+        "location": "東光園路142號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

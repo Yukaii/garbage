@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319502,
+          22.618618
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-982-vl-332e39",
+        "city": "kaohsiung",
+        "route_name": "982-VL",
+        "car_seq": "982-VL",
+        "arrival_time": "1622",
+        "departure_time": "1624",
+        "district": "苓雅區",
+        "village": "林興里",
+        "location": "三多二路291號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3178,
+          22.618715
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-982-vl-332e39",
+        "city": "kaohsiung",
+        "route_name": "982-VL",
+        "car_seq": "982-VL",
+        "arrival_time": "2120",
+        "departure_time": "2121",
+        "district": "苓雅區",
+        "village": "林西里",
+        "location": "光華一路14號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.314787,
+          22.621172
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-982-vl-332e39",
+        "city": "kaohsiung",
+        "route_name": "982-VL",
+        "car_seq": "982-VL",
+        "arrival_time": "2131",
+        "departure_time": "2134",
+        "district": "苓雅區",
+        "village": "林富里",
+        "location": "四維二路148號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311769,
+          22.617027
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-982-vl-332e39",
+        "city": "kaohsiung",
+        "route_name": "982-VL",
+        "car_seq": "982-VL",
+        "arrival_time": "2149",
+        "departure_time": "2152",
+        "district": "苓雅區",
+        "village": "普照里",
+        "location": "復興二路20號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31121,
+          22.618487
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-982-vl-332e39",
+        "city": "kaohsiung",
+        "route_name": "982-VL",
+        "car_seq": "982-VL",
+        "arrival_time": "2156",
+        "departure_time": "2158",
+        "district": "苓雅區",
+        "village": "普照里",
+        "location": "復興二路86號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311905,
+          22.617913
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-982-vl-332e39",
+        "city": "kaohsiung",
+        "route_name": "982-VL",
+        "car_seq": "982-VL",
+        "arrival_time": "2159",
+        "departure_time": "2200",
+        "district": "苓雅區",
+        "village": "普照里",
+        "location": "永定街59號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

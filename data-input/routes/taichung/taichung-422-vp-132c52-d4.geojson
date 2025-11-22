@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70633121114516,
+          24.16896543380636
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-422-vp-132c52-d4",
+        "city": "taichung",
+        "route_name": "422-VP",
+        "car_seq": "422-VP",
+        "arrival_time": "0657",
+        "departure_time": "0703",
+        "district": "北屯區",
+        "village": "水景里",
+        "location": "東山路一段148號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70321848736306,
+          24.16901417172212
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-422-vp-132c52-d4",
+        "city": "taichung",
+        "route_name": "422-VP",
+        "car_seq": "422-VP",
+        "arrival_time": "0732",
+        "departure_time": "0738",
+        "district": "北屯區",
+        "village": "三和里",
+        "location": "東山路一段140巷13號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.69828245710269,
+          24.16841586786769
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-422-vp-132c52-d4",
+        "city": "taichung",
+        "route_name": "422-VP",
+        "car_seq": "422-VP",
+        "arrival_time": "0807",
+        "departure_time": "0813",
+        "district": "北屯區",
+        "village": "三光里",
+        "location": "三光北一街110號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    }
+  ]
+}

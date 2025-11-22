@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31537,
+          22.617782
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6201-e585a8",
+        "city": "kaohsiung",
+        "route_name": "KEP-6201",
+        "car_seq": "KEP-6201",
+        "arrival_time": "1858",
+        "departure_time": "1900",
+        "district": "苓雅區",
+        "village": "普天里",
+        "location": "三多二路390號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.317206,
+          22.619181
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6201-e585a8",
+        "city": "kaohsiung",
+        "route_name": "KEP-6201",
+        "car_seq": "KEP-6201",
+        "arrival_time": "1934",
+        "departure_time": "1936",
+        "district": "苓雅區",
+        "village": "普天里",
+        "location": "光華一路35號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.313982,
+          22.625453
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6201-e585a8",
+        "city": "kaohsiung",
+        "route_name": "KEP-6201",
+        "car_seq": "KEP-6201",
+        "arrival_time": "2122",
+        "departure_time": "2124",
+        "district": "苓雅區",
+        "village": "林圍里",
+        "location": "福建街315號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.313743,
+          22.624224
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6201-e585a8",
+        "city": "kaohsiung",
+        "route_name": "KEP-6201",
+        "car_seq": "KEP-6201",
+        "arrival_time": "2128",
+        "departure_time": "2130",
+        "district": "苓雅區",
+        "village": "林圍里",
+        "location": "青年一路28號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

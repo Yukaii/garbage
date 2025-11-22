@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320001,
+          22.623555
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-3711-8ad6a2",
+        "city": "kaohsiung",
+        "route_name": "KEU-3711",
+        "car_seq": "KEU-3711",
+        "arrival_time": "1651",
+        "departure_time": "1655",
+        "district": "苓雅區",
+        "village": "林泉里",
+        "location": "林泉街9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321619,
+          22.619696
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-3711-8ad6a2",
+        "city": "kaohsiung",
+        "route_name": "KEU-3711",
+        "car_seq": "KEU-3711",
+        "arrival_time": "1850",
+        "departure_time": "1851",
+        "district": "苓雅區",
+        "village": "林西里",
+        "location": "三多二路112號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.317496,
+          22.62392
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-3711-8ad6a2",
+        "city": "kaohsiung",
+        "route_name": "KEU-3711",
+        "car_seq": "KEU-3711",
+        "arrival_time": "1943",
+        "departure_time": "1946",
+        "district": "苓雅區",
+        "village": "林南里",
+        "location": "林德街37號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319975,
+          22.624593
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-3711-8ad6a2",
+        "city": "kaohsiung",
+        "route_name": "KEU-3711",
+        "car_seq": "KEU-3711",
+        "arrival_time": "1951",
+        "departure_time": "1952",
+        "district": "苓雅區",
+        "village": "林南里",
+        "location": "和平一路149-13號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320324,
+          22.622952
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-3711-8ad6a2",
+        "city": "kaohsiung",
+        "route_name": "KEU-3711",
+        "car_seq": "KEU-3711",
+        "arrival_time": "2132",
+        "departure_time": "2135",
+        "district": "苓雅區",
+        "village": "林泉里",
+        "location": "四維二路94號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.315633,
+          22.6277
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-3711-8ad6a2",
+        "city": "kaohsiung",
+        "route_name": "KEU-3711",
+        "car_seq": "KEU-3711",
+        "arrival_time": "2149",
+        "departure_time": "2150",
+        "district": "苓雅區",
+        "village": "林泉里",
+        "location": "廣州一街127~7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.283778,
+          22.710432
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "1545",
+        "departure_time": "1548",
+        "district": "楠梓區",
+        "village": "久昌里",
+        "location": "久昌街85號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.284332,
+          22.708224
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "1600",
+        "departure_time": "1603",
+        "district": "楠梓區",
+        "village": "久昌里",
+        "location": "啟昌街與盛昌街2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287751,
+          22.71069
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "1836",
+        "departure_time": "1839",
+        "district": "楠梓區",
+        "village": "福昌里",
+        "location": "右昌一巷134-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.285085,
+          22.707545
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "1901",
+        "departure_time": "1904",
+        "district": "楠梓區",
+        "village": "廣昌里",
+        "location": "廣昌街175巷37號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.285604,
+          22.710626
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "1909",
+        "departure_time": "1912",
+        "district": "楠梓區",
+        "village": "廣昌里",
+        "location": "廣昌街182巷61弄18號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.292452,
+          22.722667
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2037",
+        "departure_time": "2038",
+        "district": "楠梓區",
+        "village": "仁昌里",
+        "location": "藍昌路360巷51號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.290896,
+          22.722733
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2040",
+        "departure_time": "2041",
+        "district": "楠梓區",
+        "village": "國昌里",
+        "location": "藍昌路327號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287533,
+          22.715413
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2054",
+        "departure_time": "2055",
+        "district": "楠梓區",
+        "village": "興昌里",
+        "location": "興文街21號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287726,
+          22.714178
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2057",
+        "departure_time": "2058",
+        "district": "楠梓區",
+        "village": "興昌里",
+        "location": "盛昌街218號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288597,
+          22.714848
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2100",
+        "departure_time": "2101",
+        "district": "楠梓區",
+        "village": "興昌里",
+        "location": "右昌街369號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.289238,
+          22.714269
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2101",
+        "departure_time": "2102",
+        "district": "楠梓區",
+        "village": "興昌里",
+        "location": "右昌街327號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288623,
+          22.712636
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2107",
+        "departure_time": "2108",
+        "district": "楠梓區",
+        "village": "興昌里",
+        "location": "右昌街223巷31號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287826,
+          22.713246
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2109",
+        "departure_time": "2110",
+        "district": "楠梓區",
+        "village": "興昌里",
+        "location": "右昌街223巷59號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.286925,
+          22.713213
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2111",
+        "departure_time": "2112",
+        "district": "楠梓區",
+        "village": "興昌里",
+        "location": "盛昌街170號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28694,
+          22.712544
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2112",
+        "departure_time": "2113",
+        "district": "楠梓區",
+        "village": "泰昌里",
+        "location": "右昌街187巷180號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287653,
+          22.712033
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2113",
+        "departure_time": "2114",
+        "district": "楠梓區",
+        "village": "福昌里",
+        "location": "右昌街187巷49號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.282538,
+          22.719629
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2119",
+        "departure_time": "2120",
+        "district": "楠梓區",
+        "village": "興昌里",
+        "location": "右昌街789號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.285636,
+          22.718409
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2123",
+        "departure_time": "2124",
+        "district": "楠梓區",
+        "village": "裕昌里",
+        "location": "德民路1025號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.286648,
+          22.719253
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2124",
+        "departure_time": "2125",
+        "district": "楠梓區",
+        "village": "裕昌里",
+        "location": "德民路1003-5號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288083,
+          22.720084
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2125",
+        "departure_time": "2126",
+        "district": "楠梓區",
+        "village": "裕昌里",
+        "location": "德民路981號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28908,
+          22.720516
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2126",
+        "departure_time": "2127",
+        "district": "楠梓區",
+        "village": "裕昌里",
+        "location": "德民路951號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.289762,
+          22.720866
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2127",
+        "departure_time": "2128",
+        "district": "楠梓區",
+        "village": "裕昌里",
+        "location": "德民路909號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.291783,
+          22.721419
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0623-e514a5",
+        "city": "kaohsiung",
+        "route_name": "KEM-0623",
+        "car_seq": "KEM-0623",
+        "arrival_time": "2130",
+        "departure_time": "2132",
+        "district": "楠梓區",
+        "village": "宏昌里",
+        "location": "德民路829號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

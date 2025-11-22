@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319962,
+          22.58653
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "1600",
+        "departure_time": "1601",
+        "district": "前鎮區",
+        "village": "平等里",
+        "location": "鎮中路133號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32333,
+          22.577362
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "1614",
+        "departure_time": "1616",
+        "district": "前鎮區",
+        "village": "草衙里",
+        "location": "草衙二路335號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330561,
+          22.571808
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "1658",
+        "departure_time": "1659",
+        "district": "前鎮區",
+        "village": "明義里",
+        "location": "向榮街6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327633,
+          22.57958
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "1836",
+        "departure_time": "1837",
+        "district": "前鎮區",
+        "village": "明義里",
+        "location": "中平路42號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326562,
+          22.578825
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "1838",
+        "departure_time": "1839",
+        "district": "前鎮區",
+        "village": "明義里",
+        "location": "中平路100號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325543,
+          22.578108
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "1841",
+        "departure_time": "1842",
+        "district": "前鎮區",
+        "village": "明義里",
+        "location": "中平路162號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324703,
+          22.57572
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "1844",
+        "departure_time": "1846",
+        "district": "前鎮區",
+        "village": "草衙里",
+        "location": "草衙二路251號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324105,
+          22.572144
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "1913",
+        "departure_time": "1916",
+        "district": "前鎮區",
+        "village": "草衙里",
+        "location": "佛公路43號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324743,
+          22.570889
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "1917",
+        "departure_time": "1918",
+        "district": "前鎮區",
+        "village": "草衙里",
+        "location": "佛南街88號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319711,
+          22.578256
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "1933",
+        "departure_time": "1934",
+        "district": "前鎮區",
+        "village": "明孝里",
+        "location": "和祥街170號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322451,
+          22.584136
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "2052",
+        "departure_time": "2053",
+        "district": "前鎮區",
+        "village": "明禮里",
+        "location": "衙東街98號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323687,
+          22.576958
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "2114",
+        "departure_time": "2115",
+        "district": "前鎮區",
+        "village": "草衙里",
+        "location": "草衙二路309號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322912,
+          22.575389
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "2120",
+        "departure_time": "2122",
+        "district": "前鎮區",
+        "village": "草衙里",
+        "location": "佛佑路191號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330914,
+          22.570613
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "2141",
+        "departure_time": "2142",
+        "district": "前鎮區",
+        "village": "明義里",
+        "location": "崇本街156號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330551,
+          22.570353
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "2142",
+        "departure_time": "2143",
+        "district": "前鎮區",
+        "village": "明義里",
+        "location": "崇本街176號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329704,
+          22.570385
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-917-n6-41c03c",
+        "city": "kaohsiung",
+        "route_name": "917-N6",
+        "car_seq": "917-N6",
+        "arrival_time": "2144",
+        "departure_time": "2145",
+        "district": "前鎮區",
+        "village": "明義里",
+        "location": "草衙三路16號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

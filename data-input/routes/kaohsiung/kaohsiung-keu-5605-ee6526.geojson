@@ -1,0 +1,695 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.42519,
+          22.679089
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1620",
+        "departure_time": "1626",
+        "district": "大樹區",
+        "village": "大樹里",
+        "location": "中正一路32號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.426171,
+          22.675552
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1625",
+        "departure_time": "1631",
+        "district": "大樹區",
+        "village": "竹寮里",
+        "location": "竹寮路1-1號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.424988,
+          22.676276
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1627",
+        "departure_time": "1633",
+        "district": "大樹區",
+        "village": "竹寮里",
+        "location": "竹寮路922號前（僑紘社區）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.423861,
+          22.674356
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1632",
+        "departure_time": "1638",
+        "district": "大樹區",
+        "village": "竹寮里",
+        "location": "竹寮路28號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.424707,
+          22.671299
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1636",
+        "departure_time": "1642",
+        "district": "大樹區",
+        "village": "竹寮里",
+        "location": "竹寮路150號前（合家歡公寓）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.426137,
+          22.664918
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1639",
+        "departure_time": "1645",
+        "district": "大樹區",
+        "village": "竹寮里",
+        "location": "竹寮路149號前（吉林餐廳）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.424192,
+          22.664061
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1645",
+        "departure_time": "1651",
+        "district": "大樹區",
+        "village": "竹寮里",
+        "location": "竹寮路107-1號前（玫瑰山莊）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.421931,
+          22.662452
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1649",
+        "departure_time": "1655",
+        "district": "大樹區",
+        "village": "竹寮里",
+        "location": "竹寮路300號前（九曲堂工業城）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420953,
+          22.661535
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1652",
+        "departure_time": "1658",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "久堂路城隍巷7號（清河堂大樓前）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.421278,
+          22.660243
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1656",
+        "departure_time": "1702",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "久堂路城隍巷15號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.419751,
+          22.658973
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1706",
+        "departure_time": "1712",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "久堂路86號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.41825,
+          22.662219
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1707",
+        "departure_time": "1713",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "久堂路112號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.419141,
+          22.657644
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1709",
+        "departure_time": "1715",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "新社街26號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.418037,
+          22.656583
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1715",
+        "departure_time": "1721",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "立竹街21號巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.417528,
+          22.656074
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1727",
+        "departure_time": "1733",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "新鎮路818號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.418028,
+          22.658553
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1730",
+        "departure_time": "1736",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "久堂路自強巷1號巷口前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.413472,
+          22.659842
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1735",
+        "departure_time": "1741",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "久堂路298號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.414777,
+          22.658297
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1737",
+        "departure_time": "1743",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "久堂路185號前（43砲指部大門前）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.418234,
+          22.658341
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1742",
+        "departure_time": "1748",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "久堂路128號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.420387,
+          22.65668
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1752",
+        "departure_time": "1758",
+        "district": "大樹區",
+        "village": "久堂里",
+        "location": "建村街16號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.426488,
+          22.675747
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1800",
+        "departure_time": "1806",
+        "district": "大樹區",
+        "village": "竹寮里",
+        "location": "竹寮路蓬萊5號（蓬萊山莊）",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.421822,
+          22.647438
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1902",
+        "departure_time": "1908",
+        "district": "大樹區",
+        "village": "九曲里",
+        "location": "新鎮路2號新鎮大樓前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.422714,
+          22.650632
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "1918",
+        "departure_time": "1924",
+        "district": "大樹區",
+        "village": "九曲里",
+        "location": "九曲路272號北極殿前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.432824,
+          22.688319
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "2004",
+        "departure_time": "2010",
+        "district": "大樹區",
+        "village": "大樹里",
+        "location": "中興南路111號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.433484,
+          22.689498
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "2006",
+        "departure_time": "2012",
+        "district": "大樹區",
+        "village": "檨腳里",
+        "location": "中興南路55號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.43331,
+          22.689101
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "2007",
+        "departure_time": "2013",
+        "district": "大樹區",
+        "village": "檨腳里",
+        "location": "中興南路75號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.433319,
+          22.691064
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "2008",
+        "departure_time": "2014",
+        "district": "大樹區",
+        "village": "檨腳里",
+        "location": "中興東路2-8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.434591,
+          22.687763
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "2015",
+        "departure_time": "2021",
+        "district": "大樹區",
+        "village": "檨腳里",
+        "location": "中正一路249號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.431983,
+          22.69123
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "2022",
+        "departure_time": "2028",
+        "district": "大樹區",
+        "village": "檨腳里",
+        "location": "中興西路20號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.431386,
+          22.691196
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5605-ee6526",
+        "city": "kaohsiung",
+        "route_name": "KEU-5605",
+        "car_seq": "KEU-5605",
+        "arrival_time": "2023",
+        "departure_time": "2029",
+        "district": "大樹區",
+        "village": "檨腳里",
+        "location": "中興西路40號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

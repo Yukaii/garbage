@@ -1,0 +1,533 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.631106,
+          24.273233
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1730",
+        "departure_time": "1750",
+        "district": "清水區",
+        "village": "東山里",
+        "location": "神清路46號對面",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.631106,
+          24.273233
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1730",
+        "departure_time": "1750",
+        "district": "清水區",
+        "village": "東山里",
+        "location": "神清路46號對面",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.632594,
+          24.291695
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1800",
+        "departure_time": "1810",
+        "district": "清水區",
+        "village": "海風里",
+        "location": "和睦路二段35號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.632594,
+          24.291695
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1800",
+        "departure_time": "1810",
+        "district": "清水區",
+        "village": "海風里",
+        "location": "和睦路二段35號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.612043,
+          24.296513
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1815",
+        "departure_time": "1825",
+        "district": "清水區",
+        "village": "海風里",
+        "location": "海風二街482號旁",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.612043,
+          24.296513
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1815",
+        "departure_time": "1825",
+        "district": "清水區",
+        "village": "海風里",
+        "location": "海風二街482號旁",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.613422,
+          24.290797
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1830",
+        "departure_time": "1850",
+        "district": "清水區",
+        "village": "楊厝里",
+        "location": "頂三庄路77號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.613422,
+          24.290797
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1830",
+        "departure_time": "1850",
+        "district": "清水區",
+        "village": "楊厝里",
+        "location": "頂三庄路77號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.613062,
+          24.280076
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1853",
+        "departure_time": "1855",
+        "district": "清水區",
+        "village": "吳厝里",
+        "location": "和睦路三段26號前",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.613062,
+          24.280076
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1853",
+        "departure_time": "1855",
+        "district": "清水區",
+        "village": "吳厝里",
+        "location": "和睦路三段26號前",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.605836,
+          24.269707
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1900",
+        "departure_time": "1903",
+        "district": "清水區",
+        "village": "吳厝里",
+        "location": "吳厝六街62號前",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.605836,
+          24.269707
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1900",
+        "departure_time": "1903",
+        "district": "清水區",
+        "village": "吳厝里",
+        "location": "吳厝六街62號前",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.599759,
+          24.268426
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1905",
+        "departure_time": "1923",
+        "district": "清水區",
+        "village": "吳厝里",
+        "location": "吳厝路222號前",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.599759,
+          24.268426
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1905",
+        "departure_time": "1923",
+        "district": "清水區",
+        "village": "吳厝里",
+        "location": "吳厝路222號前",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.578599,
+          24.271305
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1935",
+        "departure_time": "2000",
+        "district": "清水區",
+        "village": "鰲峰里",
+        "location": "光明路35之6號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.578599,
+          24.271305
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "1935",
+        "departure_time": "2000",
+        "district": "清水區",
+        "village": "鰲峰里",
+        "location": "光明路35之6號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.576479,
+          24.268397
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "2005",
+        "departure_time": "2030",
+        "district": "清水區",
+        "village": "清水里",
+        "location": "鎮北街42號前",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.576479,
+          24.268397
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "2005",
+        "departure_time": "2030",
+        "district": "清水區",
+        "village": "清水里",
+        "location": "鎮北街42號前",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.574648,
+          24.271235
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "2035",
+        "departure_time": "2100",
+        "district": "清水區",
+        "village": "西寧里",
+        "location": "西寧路69之1號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.574648,
+          24.271235
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "2035",
+        "departure_time": "2100",
+        "district": "清水區",
+        "village": "西寧里",
+        "location": "西寧路69之1號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570409,
+          24.263034
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "2105",
+        "departure_time": "2130",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "中正街71之1號對面",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.570409,
+          24.263034
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-420-vp-5d756e-d5",
+        "city": "taichung",
+        "route_name": "420-VP",
+        "car_seq": "420-VP",
+        "arrival_time": "2105",
+        "departure_time": "2130",
+        "district": "清水區",
+        "village": "南社里",
+        "location": "中正街71之1號對面",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

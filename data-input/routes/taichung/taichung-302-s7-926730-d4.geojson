@@ -1,0 +1,1949 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.519547,
+          24.20043
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0604",
+        "departure_time": "0609",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "龍津街153巷38號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.521714,
+          24.198132
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0605",
+        "departure_time": "0610",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中央路一段29巷31弄16號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.521714,
+          24.198132
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0605",
+        "departure_time": "0610",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中央路一段29巷31弄16號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.521423,
+          24.201931
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0622",
+        "departure_time": "0627",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中央路一段165巷80弄32號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.521423,
+          24.201931
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0622",
+        "departure_time": "0627",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中央路一段165巷80弄32號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.525189,
+          24.206977
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0635",
+        "departure_time": "0640",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路29巷6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.525189,
+          24.206977
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0635",
+        "departure_time": "0640",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路29巷6號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.52546,
+          24.206924
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0640",
+        "departure_time": "0645",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路51巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.52546,
+          24.206924
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0640",
+        "departure_time": "0645",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路51巷1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.52087,
+          24.21712
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0645",
+        "departure_time": "0650",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "海尾路216之238號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.52087,
+          24.21712
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0645",
+        "departure_time": "0650",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "海尾路216之238號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.524541,
+          24.214604
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0650",
+        "departure_time": "0655",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "中央路三段165巷30號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.524541,
+          24.214604
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0650",
+        "departure_time": "0655",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "中央路三段165巷30號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.523067,
+          24.211155
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0700",
+        "departure_time": "0705",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "工業路46號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.523067,
+          24.211155
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0700",
+        "departure_time": "0705",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "工業路46號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.527837,
+          24.206499
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0710",
+        "departure_time": "0715",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路107巷32弄6號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.527837,
+          24.206499
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0710",
+        "departure_time": "0715",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路107巷32弄6號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.520583,
+          24.203128
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0715",
+        "departure_time": "0720",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "三港路145巷41號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.520583,
+          24.203128
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0715",
+        "departure_time": "0720",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "三港路145巷41號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.520912,
+          24.202826
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0720",
+        "departure_time": "0725",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "龍津街352號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.520912,
+          24.202826
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0720",
+        "departure_time": "0725",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "龍津街352號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.522606,
+          24.203409
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0725",
+        "departure_time": "0730",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "三港路45號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.522606,
+          24.203409
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0725",
+        "departure_time": "0730",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "三港路45號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.514683,
+          24.205611
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0730",
+        "departure_time": "0735",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "三港路328號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.514683,
+          24.205611
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0730",
+        "departure_time": "0735",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "三港路328號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.512457,
+          24.207215
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0736",
+        "departure_time": "0741",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "蚵寮路191巷6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.512457,
+          24.207215
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0736",
+        "departure_time": "0741",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "蚵寮路191巷6號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.512544,
+          24.204668
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0737",
+        "departure_time": "0742",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "三港路427巷37號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.512544,
+          24.204668
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0737",
+        "departure_time": "0742",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "三港路427巷37號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.510651,
+          24.205188
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0740",
+        "departure_time": "0745",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "三港路467巷49號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.510651,
+          24.205188
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0740",
+        "departure_time": "0745",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "三港路467巷49號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.507378,
+          24.208902
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0745",
+        "departure_time": "0750",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "蚵寮路251巷307號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.507378,
+          24.208902
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0745",
+        "departure_time": "0750",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "蚵寮路251巷307號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.524416,
+          24.202694
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0830",
+        "departure_time": "0835",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中央路一段238巷29弄15號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.522402,
+          24.202753
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0840",
+        "departure_time": "0845",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中央路一段243巷21號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.522402,
+          24.202753
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0840",
+        "departure_time": "0845",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中央路一段243巷21號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.523455,
+          24.197507
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0845",
+        "departure_time": "0850",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中央路一段16巷1號、4巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.523455,
+          24.197507
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0845",
+        "departure_time": "0850",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中央路一段16巷1號、4巷1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.531537,
+          24.19883
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0850",
+        "departure_time": "0855",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "觀光路208巷99號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.531537,
+          24.19883
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0850",
+        "departure_time": "0855",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "觀光路208巷99號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.536147,
+          24.205196
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0856",
+        "departure_time": "0901",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路391巷46號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.536147,
+          24.205196
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0856",
+        "departure_time": "0901",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路391巷46號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.533238,
+          24.202997
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0900",
+        "departure_time": "0905",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路326巷41號、262巷35號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.529561,
+          24.206139
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0904",
+        "departure_time": "0909",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路175巷11號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.529561,
+          24.206139
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0904",
+        "departure_time": "0909",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路175巷11號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.528577,
+          24.200016
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0907",
+        "departure_time": "0912",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "觀光路250巷80號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.528577,
+          24.200016
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0907",
+        "departure_time": "0912",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "觀光路250巷80號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.525094,
+          24.197963
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0910",
+        "departure_time": "0915",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "觀光路298巷33號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.525094,
+          24.197963
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0910",
+        "departure_time": "0915",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "觀光路298巷33號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.527435,
+          24.205226
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0914",
+        "departure_time": "0919",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中厝路108巷19號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.527435,
+          24.205226
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0914",
+        "departure_time": "0919",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "中厝路108巷19號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.523213,
+          24.206923
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0915",
+        "departure_time": "0920",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中央路二段149巷10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.523213,
+          24.206923
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0915",
+        "departure_time": "0920",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中央路二段149巷10號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.523895,
+          24.206284
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0920",
+        "departure_time": "0925",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路6巷6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.52517,
+          24.204737
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0926",
+        "departure_time": "0931",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路50巷49號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.52517,
+          24.204737
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0926",
+        "departure_time": "0931",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路50巷49號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.527535,
+          24.206879
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0930",
+        "departure_time": "0935",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路107巷42號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.527535,
+          24.206879
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0930",
+        "departure_time": "0935",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "中厝路107巷42號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.523498,
+          24.212505
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0940",
+        "departure_time": "0945",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "工業路52巷40號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.523498,
+          24.212505
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0940",
+        "departure_time": "0945",
+        "district": "龍井區",
+        "village": "三德里",
+        "location": "工業路52巷40號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.524685,
+          24.21563
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0945",
+        "departure_time": "0950",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "海尾路26巷3號、海尾路306巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.524685,
+          24.21563
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0945",
+        "departure_time": "0950",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "海尾路26巷3號、海尾路306巷1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.52588,
+          24.218731
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0950",
+        "departure_time": "0955",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "台西南路46巷92號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.52588,
+          24.218731
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0950",
+        "departure_time": "0955",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "台西南路46巷92號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.522816,
+          24.211286
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0955",
+        "departure_time": "1000",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "工業路58號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.522816,
+          24.211286
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "0955",
+        "departure_time": "1000",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "工業路58號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.522409,
+          24.219484
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1000",
+        "departure_time": "1005",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "西濱路三段237號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.522409,
+          24.219484
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1000",
+        "departure_time": "1005",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "西濱路三段237號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.517456,
+          24.207236
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1005",
+        "departure_time": "1010",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "西濱路二段357號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.517456,
+          24.207236
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1005",
+        "departure_time": "1010",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "西濱路二段357號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.518629,
+          24.2126
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1018",
+        "departure_time": "1023",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "工業路172號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.518629,
+          24.2126
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1018",
+        "departure_time": "1023",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "工業路172號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.512727,
+          24.209638
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1020",
+        "departure_time": "1025",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "蚵寮路280號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.512727,
+          24.209638
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1020",
+        "departure_time": "1025",
+        "district": "龍井區",
+        "village": "龍津里",
+        "location": "蚵寮路280號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.515467,
+          24.217048
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1025",
+        "departure_time": "1030",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "工業路216巷52號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.515467,
+          24.217048
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1025",
+        "departure_time": "1030",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "工業路216巷52號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.515853,
+          24.219611
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1030",
+        "departure_time": "1035",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "海尾路278巷21號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.515853,
+          24.219611
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1030",
+        "departure_time": "1035",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "海尾路278巷21號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.518581,
+          24.223115
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1035",
+        "departure_time": "1040",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "台西南路228巷40弄10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.518581,
+          24.223115
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1035",
+        "departure_time": "1040",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "台西南路228巷40弄10號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.514926,
+          24.222197
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-302-s7-926730-d4",
+        "city": "taichung",
+        "route_name": "302-S7",
+        "car_seq": "302-S7",
+        "arrival_time": "1037",
+        "departure_time": "1042",
+        "district": "龍井區",
+        "village": "忠和里",
+        "location": "台西南路254號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    }
+  ]
+}

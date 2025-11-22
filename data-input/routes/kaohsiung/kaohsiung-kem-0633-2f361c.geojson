@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28406,
+          22.636377
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0633-2f361c",
+        "city": "kaohsiung",
+        "route_name": "KEM-0633",
+        "car_seq": "KEM-0633",
+        "arrival_time": "0730",
+        "departure_time": "0740",
+        "district": "鼓山區",
+        "village": "綠川里",
+        "location": "興隆路1號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.279291,
+          22.654534
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0633-2f361c",
+        "city": "kaohsiung",
+        "route_name": "KEM-0633",
+        "car_seq": "KEM-0633",
+        "arrival_time": "0750",
+        "departure_time": "0800",
+        "district": "鼓山區",
+        "village": "忠正里",
+        "location": "九如四路918號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.276674,
+          22.651658
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0633-2f361c",
+        "city": "kaohsiung",
+        "route_name": "KEM-0633",
+        "car_seq": "KEM-0633",
+        "arrival_time": "0805",
+        "departure_time": "0815",
+        "district": "鼓山區",
+        "village": "平和里",
+        "location": "青海路635號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.275485,
+          22.655809
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0633-2f361c",
+        "city": "kaohsiung",
+        "route_name": "KEM-0633",
+        "car_seq": "KEM-0633",
+        "arrival_time": "0820",
+        "departure_time": "0830",
+        "district": "鼓山區",
+        "village": "忠正里",
+        "location": "鼓山三路56-2號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.292095,
+          22.668268
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0633-2f361c",
+        "city": "kaohsiung",
+        "route_name": "KEM-0633",
+        "car_seq": "KEM-0633",
+        "arrival_time": "0845",
+        "departure_time": "0855",
+        "district": "鼓山區",
+        "village": "裕豐里",
+        "location": "華泰路152號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297213,
+          22.664041
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0633-2f361c",
+        "city": "kaohsiung",
+        "route_name": "KEM-0633",
+        "car_seq": "KEM-0633",
+        "arrival_time": "0900",
+        "departure_time": "0910",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "華榮路214號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.29991,
+          22.66399
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0633-2f361c",
+        "city": "kaohsiung",
+        "route_name": "KEM-0633",
+        "car_seq": "KEM-0633",
+        "arrival_time": "0915",
+        "departure_time": "0925",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "南屏路552號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.298641,
+          22.654909
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-0633-2f361c",
+        "city": "kaohsiung",
+        "route_name": "KEM-0633",
+        "car_seq": "KEM-0633",
+        "arrival_time": "0930",
+        "departure_time": "0940",
+        "district": "鼓山區",
+        "village": "龍子里",
+        "location": "大順一路911號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67642684779115,
+          24.15166703173756
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-6278-221d61-d1",
+        "city": "taichung",
+        "route_name": "KEU-6278",
+        "car_seq": "KEU-6278",
+        "arrival_time": "0700",
+        "departure_time": "0750",
+        "district": "北區",
+        "village": "文莊里",
+        "location": "日興街206號日間",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67655626604493,
+          24.14839919433811
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-6278-221d61-d1",
+        "city": "taichung",
+        "route_name": "KEU-6278",
+        "car_seq": "KEU-6278",
+        "arrival_time": "0800",
+        "departure_time": "0830",
+        "district": "北區",
+        "village": "六合里",
+        "location": "原子街128號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

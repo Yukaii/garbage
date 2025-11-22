@@ -1,0 +1,626 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334332,
+          22.640806
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1655",
+        "departure_time": "1656",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "覺民路362號加油站旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333713,
+          22.640772
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1657",
+        "departure_time": "1700",
+        "district": "三民區",
+        "village": "寶泰里",
+        "location": "覺民路366號三民第二分局",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3334,
+          22.64161
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1701",
+        "departure_time": "1703",
+        "district": "三民區",
+        "village": "寶泰里",
+        "location": "義昌路68號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332768,
+          22.641689
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1703",
+        "departure_time": "1704",
+        "district": "三民區",
+        "village": "寶泰里",
+        "location": "義昌路80號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336454,
+          22.643321
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1749",
+        "departure_time": "1750",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "義華路295號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336389,
+          22.642734
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1751",
+        "departure_time": "1752",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "義華路299巷30號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336215,
+          22.642561
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1752",
+        "departure_time": "1753",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "義德路2巷29號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33591,
+          22.642424
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1753",
+        "departure_time": "1754",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "義德路2巷20號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335616,
+          22.642477
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1754",
+        "departure_time": "1755",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "義德路2巷6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335216,
+          22.64271
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1755",
+        "departure_time": "1758",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "義德路11號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335116,
+          22.644317
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1759",
+        "departure_time": "1805",
+        "district": "三民區",
+        "village": "寶泰里",
+        "location": "義德路69號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336454,
+          22.641107
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1913",
+        "departure_time": "1915",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "覺民路288巷20號便道",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336372,
+          22.640277
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1916",
+        "departure_time": "1918",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "覺民路306號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335438,
+          22.640073
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1921",
+        "departure_time": "1923",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "覺民路345號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336087,
+          22.639956
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1923",
+        "departure_time": "1924",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "覺民路313號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.336556,
+          22.639032
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1925",
+        "departure_time": "1928",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "覺民路285巷19號便道",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335759,
+          22.638287
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1935",
+        "departure_time": "1940",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "淵源街5號前大樓",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335674,
+          22.641051
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1947",
+        "departure_time": "1951",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "光武路154號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334385,
+          22.641632
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "1953",
+        "departure_time": "1954",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "義昌路42號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335545,
+          22.64208
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "2037",
+        "departure_time": "2039",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "褒忠街54號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33289,
+          22.64199
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "2044",
+        "departure_time": "2045",
+        "district": "三民區",
+        "village": "寶泰里",
+        "location": "褒忠街155號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334794,
+          22.64223
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "2045",
+        "departure_time": "2048",
+        "district": "三民區",
+        "village": "寶德里",
+        "location": "褒忠街86號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332679,
+          22.646258
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "2152",
+        "departure_time": "2154",
+        "district": "三民區",
+        "village": "寶玉里",
+        "location": "修武街47號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331856,
+          22.643536
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "2157",
+        "departure_time": "2200",
+        "district": "三民區",
+        "village": "寶興里",
+        "location": "大昌二路123號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331965,
+          22.641667
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "2202",
+        "departure_time": "2209",
+        "district": "三民區",
+        "village": "寶興里",
+        "location": "大昌二路111-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331762,
+          22.639779
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "2215",
+        "departure_time": "2220",
+        "district": "三民區",
+        "village": "寶安里",
+        "location": "寶安街3號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332024,
+          22.639049
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-1539-9b87e5",
+        "city": "kaohsiung",
+        "route_name": "KEM-1539",
+        "car_seq": "KEM-1539",
+        "arrival_time": "2220",
+        "departure_time": "2223",
+        "district": "三民區",
+        "village": "寶安里",
+        "location": "大昌二路11號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

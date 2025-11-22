@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.704195,
+          24.12911
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-315-ux-0997b2-d5",
+        "city": "taichung",
+        "route_name": "315-UX",
+        "car_seq": "315-UX",
+        "arrival_time": "0700",
+        "departure_time": "0720",
+        "district": "東區",
+        "village": "東信里",
+        "location": "振興路412巷34號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.696162,
+          24.128482
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-315-ux-0997b2-d5",
+        "city": "taichung",
+        "route_name": "315-UX",
+        "car_seq": "315-UX",
+        "arrival_time": "0725",
+        "departure_time": "0745",
+        "district": "東區",
+        "village": "東門里",
+        "location": "東光園路188號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.703121,
+          24.130763
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-315-ux-0997b2-d5",
+        "city": "taichung",
+        "route_name": "315-UX",
+        "car_seq": "315-UX",
+        "arrival_time": "0750",
+        "departure_time": "0810",
+        "district": "東區",
+        "village": "東信里",
+        "location": "振興路336號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.703798,
+          24.136513
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-315-ux-0997b2-d5",
+        "city": "taichung",
+        "route_name": "315-UX",
+        "car_seq": "315-UX",
+        "arrival_time": "0815",
+        "departure_time": "0830",
+        "district": "東區",
+        "village": "東門里",
+        "location": "長福路245號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,3917 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.662272,
+          24.164763
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "0700",
+        "departure_time": "0705",
+        "district": "西屯區",
+        "village": "何福里",
+        "location": "寧夏路57之1號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.646814,
+          24.167548
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "0725",
+        "departure_time": "0730",
+        "district": "西屯區",
+        "village": "惠來里",
+        "location": "智惠街36號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.642443,
+          24.167023
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "0750",
+        "departure_time": "0755",
+        "district": "西屯區",
+        "village": "上德里",
+        "location": "臺灣大道三段412號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.641555,
+          24.190463
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1430",
+        "departure_time": "1431",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "經貿九路566號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.641555,
+          24.190463
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1431",
+        "departure_time": "1431",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "經貿九路566號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64019,
+          24.187044
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1435",
+        "departure_time": "1436",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段551號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64019,
+          24.187044
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1436",
+        "departure_time": "1436",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段551號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.640151,
+          24.186793
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1436",
+        "departure_time": "1437",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段543號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.640151,
+          24.186793
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1437",
+        "departure_time": "1437",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段543號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639945,
+          24.185867
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1437",
+        "departure_time": "1438",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段527號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639945,
+          24.185867
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1438",
+        "departure_time": "1438",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段527號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637452,
+          24.185108
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1442",
+        "departure_time": "1443",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段989號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637452,
+          24.185108
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1443",
+        "departure_time": "1443",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段989號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638767,
+          24.187279
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1444",
+        "departure_time": "1445",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段929號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638767,
+          24.187279
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1445",
+        "departure_time": "1445",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段929號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644063,
+          24.196601
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1453",
+        "departure_time": "1454",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路150巷20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644063,
+          24.196601
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1454",
+        "departure_time": "1454",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路150巷20號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64543,
+          24.196383
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1454",
+        "departure_time": "1455",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路150巷32號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64543,
+          24.196383
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1455",
+        "departure_time": "1455",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路150巷32號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.646455,
+          24.196459
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1455",
+        "departure_time": "1456",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路150巷60號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.646455,
+          24.196459
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1456",
+        "departure_time": "1456",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路150巷60號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647459,
+          24.19706
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1456",
+        "departure_time": "1457",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路150巷71號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647459,
+          24.19706
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1457",
+        "departure_time": "1457",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路150巷71號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647683,
+          24.197368
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1457",
+        "departure_time": "1458",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路150巷89之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647683,
+          24.197368
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1458",
+        "departure_time": "1458",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路150巷89之1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647004,
+          24.196437
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1459",
+        "departure_time": "1500",
+        "district": "西屯區",
+        "village": "港尾里",
+        "location": "環中路二段662號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647004,
+          24.196437
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1500",
+        "departure_time": "1500",
+        "district": "西屯區",
+        "village": "港尾里",
+        "location": "環中路二段662號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64388,
+          24.194844
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1504",
+        "departure_time": "1505",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路85號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64388,
+          24.194844
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1505",
+        "departure_time": "1505",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "廣福路85號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.642336,
+          24.193612
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1506",
+        "departure_time": "1507",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "環中路二段766號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.642336,
+          24.193612
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1507",
+        "departure_time": "1507",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "環中路二段766號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.640694,
+          24.191714
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1508",
+        "departure_time": "1509",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "環中路二段852之2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.640694,
+          24.191714
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1509",
+        "departure_time": "1509",
+        "district": "西屯區",
+        "village": "廣福里",
+        "location": "環中路二段852之2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639673,
+          24.190659
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1509",
+        "departure_time": "1510",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段888號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639673,
+          24.190659
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1510",
+        "departure_time": "1510",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段888號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63908,
+          24.18954
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1512",
+        "departure_time": "1513",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段920號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63908,
+          24.18954
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1513",
+        "departure_time": "1513",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段920號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637694,
+          24.187315
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1513",
+        "departure_time": "1514",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段992號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637694,
+          24.187315
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1514",
+        "departure_time": "1514",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段992號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637043,
+          24.186202
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1514",
+        "departure_time": "1515",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1026號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637043,
+          24.186202
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1515",
+        "departure_time": "1515",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1026號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636561,
+          24.185426
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1515",
+        "departure_time": "1516",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1056號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636561,
+          24.185426
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1516",
+        "departure_time": "1516",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1056號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635848,
+          24.183959
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1516",
+        "departure_time": "1517",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1110之3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635848,
+          24.183959
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1517",
+        "departure_time": "1517",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1110之3號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635532,
+          24.18313
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1517",
+        "departure_time": "1518",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1150號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635532,
+          24.18313
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1518",
+        "departure_time": "1518",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1150號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635368,
+          24.18271
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1518",
+        "departure_time": "1519",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1166之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635368,
+          24.18271
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1519",
+        "departure_time": "1519",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1166之1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.634581,
+          24.180477
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1519",
+        "departure_time": "1520",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1258號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.634581,
+          24.180477
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1520",
+        "departure_time": "1520",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1258號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.633852,
+          24.178056
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1520",
+        "departure_time": "1521",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1336號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.633852,
+          24.178056
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1521",
+        "departure_time": "1521",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1336號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63367,
+          24.175443
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1522",
+        "departure_time": "1523",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1388之6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63367,
+          24.175443
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1523",
+        "departure_time": "1523",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "環中路二段1388之6號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636155,
+          24.175471
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1524",
+        "departure_time": "1525",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科二路88號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636155,
+          24.175471
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1525",
+        "departure_time": "1525",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科二路88號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63722,
+          24.173887
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1526",
+        "departure_time": "1527",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段119號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63722,
+          24.173887
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1527",
+        "departure_time": "1527",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段119號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637035,
+          24.172916
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1527",
+        "departure_time": "1528",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段71號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637035,
+          24.172916
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1528",
+        "departure_time": "1528",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段71號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636917,
+          24.172561
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1528",
+        "departure_time": "1529",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段55號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636621,
+          24.171472
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1529",
+        "departure_time": "1530",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路三段7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636917,
+          24.172561
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1529",
+        "departure_time": "1529",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段55號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636621,
+          24.171472
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1530",
+        "departure_time": "1530",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路三段7號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636228,
+          24.170415
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1533",
+        "departure_time": "1534",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段951號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636228,
+          24.170415
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1534",
+        "departure_time": "1534",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段951號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636073,
+          24.170114
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1534",
+        "departure_time": "1535",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段935號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636073,
+          24.170114
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1535",
+        "departure_time": "1535",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段935號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635898,
+          24.169481
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1536",
+        "departure_time": "1537",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段903號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635898,
+          24.169481
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1537",
+        "departure_time": "1537",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段903號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636377,
+          24.169657
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1554",
+        "departure_time": "1555",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段1020號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636377,
+          24.169657
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1555",
+        "departure_time": "1555",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段1020號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636441,
+          24.169858
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1555",
+        "departure_time": "1556",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段1030號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636441,
+          24.169858
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1556",
+        "departure_time": "1556",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段1030號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636523,
+          24.170185
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1556",
+        "departure_time": "1557",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段1048號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636523,
+          24.170185
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1557",
+        "departure_time": "1557",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路二段1048號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636996,
+          24.171567
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1557",
+        "departure_time": "1558",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路三段20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636996,
+          24.171567
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1558",
+        "departure_time": "1558",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "黎明路三段20號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637262,
+          24.172229
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1558",
+        "departure_time": "1559",
+        "district": "西屯區",
+        "village": "至善里",
+        "location": "黎明路三段48號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637262,
+          24.172229
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1559",
+        "departure_time": "1559",
+        "district": "西屯區",
+        "village": "至善里",
+        "location": "黎明路三段48號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63731,
+          24.172687
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1559",
+        "departure_time": "1600",
+        "district": "西屯區",
+        "village": "至善里",
+        "location": "黎明路三段66之2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63731,
+          24.172687
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1600",
+        "departure_time": "1600",
+        "district": "西屯區",
+        "village": "至善里",
+        "location": "黎明路三段66之2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637531,
+          24.173463
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1601",
+        "departure_time": "1602",
+        "district": "西屯區",
+        "village": "至善里",
+        "location": "黎明路三段76號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637531,
+          24.173463
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1602",
+        "departure_time": "1602",
+        "district": "西屯區",
+        "village": "至善里",
+        "location": "黎明路三段76號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637646,
+          24.176653
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1605",
+        "departure_time": "1606",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段130號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637646,
+          24.176653
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1606",
+        "departure_time": "1606",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段130號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637642,
+          24.17724
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1608",
+        "departure_time": "1609",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段146號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637642,
+          24.17724
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1609",
+        "departure_time": "1609",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段146號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637636,
+          24.178061
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1610",
+        "departure_time": "1611",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段180號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637636,
+          24.178061
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1611",
+        "departure_time": "1611",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段180號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637634,
+          24.178329
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1612",
+        "departure_time": "1613",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段196號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637634,
+          24.178329
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1613",
+        "departure_time": "1613",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段196號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637623,
+          24.179414
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1614",
+        "departure_time": "1615",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段232號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637623,
+          24.179414
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1615",
+        "departure_time": "1615",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段232號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637942,
+          24.179912
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1616",
+        "departure_time": "1617",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段248巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637942,
+          24.179912
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1617",
+        "departure_time": "1617",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段248巷1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637852,
+          24.180223
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1618",
+        "departure_time": "1619",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段270號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637852,
+          24.180223
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1619",
+        "departure_time": "1619",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段270號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638406,
+          24.181121
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1620",
+        "departure_time": "1621",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段292號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638406,
+          24.181121
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1621",
+        "departure_time": "1621",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段292號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639762,
+          24.183802
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1623",
+        "departure_time": "1624",
+        "district": "西屯區",
+        "village": "西安里",
+        "location": "黎明路三段388之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639762,
+          24.183802
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1624",
+        "departure_time": "1624",
+        "district": "西屯區",
+        "village": "西安里",
+        "location": "黎明路三段388之1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637929,
+          24.182715
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1625",
+        "departure_time": "1626",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福星西路50號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637929,
+          24.182715
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1626",
+        "departure_time": "1626",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福星西路50號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636917,
+          24.183185
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1626",
+        "departure_time": "1627",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福星西路80號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636917,
+          24.183185
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1627",
+        "departure_time": "1627",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福星西路80號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63855,
+          24.18597
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1630",
+        "departure_time": "1631",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "西苑三街179號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63855,
+          24.18597
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1631",
+        "departure_time": "1631",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "西苑三街179號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63891,
+          24.186699
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1632",
+        "departure_time": "1633",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩路327號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63891,
+          24.186699
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1633",
+        "departure_time": "1633",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩路327號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639616,
+          24.186425
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1633",
+        "departure_time": "1634",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "西苑三街53號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639616,
+          24.186425
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1634",
+        "departure_time": "1634",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "西苑三街53號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638752,
+          24.185877
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1635",
+        "departure_time": "1636",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩路167號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638752,
+          24.185877
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1636",
+        "departure_time": "1636",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩路167號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639616,
+          24.184517
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1830",
+        "departure_time": "1831",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段481號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639616,
+          24.184517
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1831",
+        "departure_time": "1831",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段481號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63942,
+          24.183999
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1832",
+        "departure_time": "1833",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段463號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63942,
+          24.183999
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1833",
+        "departure_time": "1833",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段463號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637846,
+          24.183996
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1834",
+        "departure_time": "1835",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩路63號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637846,
+          24.183996
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1835",
+        "departure_time": "1835",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩路63號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63758,
+          24.183713
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1836",
+        "departure_time": "1837",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩西街56號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63758,
+          24.183713
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1837",
+        "departure_time": "1837",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩西街56號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637479,
+          24.183994
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1837",
+        "departure_time": "1838",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩西街68號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637479,
+          24.183994
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1838",
+        "departure_time": "1838",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩西街68號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638514,
+          24.184659
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1839",
+        "departure_time": "1840",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩路138號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638514,
+          24.184659
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1840",
+        "departure_time": "1840",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩路138號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638706,
+          24.1846
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1840",
+        "departure_time": "1841",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩東街131號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638706,
+          24.1846
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1841",
+        "departure_time": "1841",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩東街131號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638848,
+          24.184387
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1841",
+        "departure_time": "1842",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩東街101號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638848,
+          24.184387
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1842",
+        "departure_time": "1842",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩東街101號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638146,
+          24.183292
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1842",
+        "departure_time": "1843",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩西街19號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.638146,
+          24.183292
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1843",
+        "departure_time": "1843",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "上墩西街19號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639864,
+          24.183968
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1843",
+        "departure_time": "1844",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段392號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639864,
+          24.183968
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1844",
+        "departure_time": "1844",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段392號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639937,
+          24.184325
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1844",
+        "departure_time": "1845",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段400號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639937,
+          24.184325
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1845",
+        "departure_time": "1845",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段400號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.640337,
+          24.186019
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1845",
+        "departure_time": "1846",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段458號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.640337,
+          24.186019
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1846",
+        "departure_time": "1846",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段458號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64051,
+          24.186762
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1846",
+        "departure_time": "1847",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段488號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64051,
+          24.186762
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1847",
+        "departure_time": "1847",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段488號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637607,
+          24.180551
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1851",
+        "departure_time": "1852",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段357號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637607,
+          24.180551
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1852",
+        "departure_time": "1852",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段357號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637026,
+          24.18024
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1855",
+        "departure_time": "1856",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段343巷17號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637026,
+          24.18024
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1856",
+        "departure_time": "1856",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段343巷17號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637366,
+          24.179877
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1900",
+        "departure_time": "1901",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段329號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637366,
+          24.179877
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1901",
+        "departure_time": "1901",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "黎明路三段329號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636371,
+          24.178336
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1903",
+        "departure_time": "1904",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科二路238號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636371,
+          24.178336
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1904",
+        "departure_time": "1904",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科二路238號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636684,
+          24.178667
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1904",
+        "departure_time": "1905",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科一街127號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636684,
+          24.178667
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1905",
+        "departure_time": "1905",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科一街127號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636685,
+          24.178263
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1905",
+        "departure_time": "1906",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科一街111號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636685,
+          24.178263
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1906",
+        "departure_time": "1906",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科一街111號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636714,
+          24.177686
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1906",
+        "departure_time": "1907",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科一街89號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636714,
+          24.177686
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1907",
+        "departure_time": "1907",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科一街89號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636261,
+          24.177254
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1907",
+        "departure_time": "1908",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科二路188號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636261,
+          24.177254
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1908",
+        "departure_time": "1908",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科二路188號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63521,
+          24.172567
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1909",
+        "departure_time": "1910",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "臺灣大道三段826號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63521,
+          24.172567
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1910",
+        "departure_time": "1910",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "臺灣大道三段826號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635907,
+          24.17672
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1923",
+        "departure_time": "1924",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科二路101巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635907,
+          24.17672
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1924",
+        "departure_time": "1924",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "福科二路101巷1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.640358,
+          24.17461
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1930",
+        "departure_time": "1955",
+        "district": "西屯區",
+        "village": "至善里",
+        "location": "青海路二段308號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.640358,
+          24.17461
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-aak-127-22e24a-d2",
+        "city": "taichung",
+        "route_name": "AAK-127",
+        "car_seq": "AAK-127",
+        "arrival_time": "1955",
+        "departure_time": "1955",
+        "district": "西屯區",
+        "village": "至善里",
+        "location": "青海路二段308號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.693262,
+          24.152042
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-3202-f73744-d6",
+        "city": "taichung",
+        "route_name": "KEU-3202",
+        "car_seq": "KEU-3202",
+        "arrival_time": "0700",
+        "departure_time": "0720",
+        "district": "東區",
+        "village": "合作里",
+        "location": "力行路200巷12號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.693262,
+          24.152042
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-3202-f73744-d6",
+        "city": "taichung",
+        "route_name": "KEU-3202",
+        "car_seq": "KEU-3202",
+        "arrival_time": "0700",
+        "departure_time": "0720",
+        "district": "東區",
+        "village": "合作里",
+        "location": "力行路200巷12號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.690377,
+          24.145688
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-3202-f73744-d6",
+        "city": "taichung",
+        "route_name": "KEU-3202",
+        "car_seq": "KEU-3202",
+        "arrival_time": "0725",
+        "departure_time": "0750",
+        "district": "東區",
+        "village": "富仁里",
+        "location": "富榮街36號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.690377,
+          24.145688
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-3202-f73744-d6",
+        "city": "taichung",
+        "route_name": "KEU-3202",
+        "car_seq": "KEU-3202",
+        "arrival_time": "0725",
+        "departure_time": "0750",
+        "district": "東區",
+        "village": "富仁里",
+        "location": "富榮街36號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.689514,
+          24.145674
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-3202-f73744-d6",
+        "city": "taichung",
+        "route_name": "KEU-3202",
+        "car_seq": "KEU-3202",
+        "arrival_time": "0751",
+        "departure_time": "0800",
+        "district": "東區",
+        "village": "富仁里",
+        "location": "復興路五段172號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.689514,
+          24.145674
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-3202-f73744-d6",
+        "city": "taichung",
+        "route_name": "KEU-3202",
+        "car_seq": "KEU-3202",
+        "arrival_time": "0751",
+        "departure_time": "0800",
+        "district": "東區",
+        "village": "富仁里",
+        "location": "復興路五段172號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

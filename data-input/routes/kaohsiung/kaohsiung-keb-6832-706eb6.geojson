@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.306303,
+          22.601538
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6832-706eb6",
+        "city": "kaohsiung",
+        "route_name": "KEB-6832",
+        "car_seq": "KEB-6832",
+        "arrival_time": "1559",
+        "departure_time": "1602",
+        "district": "前鎮區",
+        "village": "忠純里",
+        "location": "中華五路965號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310548,
+          22.615776
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6832-706eb6",
+        "city": "kaohsiung",
+        "route_name": "KEB-6832",
+        "car_seq": "KEB-6832",
+        "arrival_time": "1615",
+        "departure_time": "1617",
+        "district": "前鎮區",
+        "village": "盛豐里",
+        "location": "三多三路139號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319836,
+          22.612891
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6832-706eb6",
+        "city": "kaohsiung",
+        "route_name": "KEB-6832",
+        "car_seq": "KEB-6832",
+        "arrival_time": "1857",
+        "departure_time": "1859",
+        "district": "前鎮區",
+        "village": "竹中里",
+        "location": "二聖一路288號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322379,
+          22.61268
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6832-706eb6",
+        "city": "kaohsiung",
+        "route_name": "KEB-6832",
+        "car_seq": "KEB-6832",
+        "arrival_time": "2059",
+        "departure_time": "2101",
+        "district": "前鎮區",
+        "village": "竹中里",
+        "location": "和平二路195號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.317679,
+          22.617958
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6832-706eb6",
+        "city": "kaohsiung",
+        "route_name": "KEB-6832",
+        "car_seq": "KEB-6832",
+        "arrival_time": "2136",
+        "departure_time": "2137",
+        "district": "前鎮區",
+        "village": "復國里",
+        "location": "光華二路449號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

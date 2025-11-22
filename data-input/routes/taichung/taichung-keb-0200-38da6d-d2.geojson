@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65336807716858,
+          24.3892957975874
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0200-38da6d-d2",
+        "city": "taichung",
+        "route_name": "KEB-0200",
+        "car_seq": "KEB-0200",
+        "arrival_time": "0720",
+        "departure_time": "0740",
+        "district": "大甲區",
+        "village": "幸福里",
+        "location": "黎明路2之156號對面定點",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65336807716858,
+          24.3892957975874
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0200-38da6d-d2",
+        "city": "taichung",
+        "route_name": "KEB-0200",
+        "car_seq": "KEB-0200",
+        "arrival_time": "0740",
+        "departure_time": "0740",
+        "district": "大甲區",
+        "village": "幸福里",
+        "location": "黎明路2之156號對面定點",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

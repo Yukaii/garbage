@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.307422,
+          22.750637
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5661-c131cf",
+        "city": "kaohsiung",
+        "route_name": "KEF-5661",
+        "car_seq": "KEF-5661",
+        "arrival_time": "0802",
+        "departure_time": "0805",
+        "district": "橋頭區",
+        "village": "仕和里",
+        "location": "仕豐路61號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301047,
+          22.74485
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5661-c131cf",
+        "city": "kaohsiung",
+        "route_name": "KEF-5661",
+        "car_seq": "KEF-5661",
+        "arrival_time": "0806",
+        "departure_time": "0809",
+        "district": "橋頭區",
+        "village": "新莊里",
+        "location": "新莊路49-3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288608,
+          22.763006
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5661-c131cf",
+        "city": "kaohsiung",
+        "route_name": "KEF-5661",
+        "car_seq": "KEF-5661",
+        "arrival_time": "0830",
+        "departure_time": "0831",
+        "district": "橋頭區",
+        "village": "西林里",
+        "location": "里林西路78號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304759,
+          22.759017
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-5661-c131cf",
+        "city": "kaohsiung",
+        "route_name": "KEF-5661",
+        "car_seq": "KEF-5661",
+        "arrival_time": "0925",
+        "departure_time": "0928",
+        "district": "橋頭區",
+        "village": "白樹里",
+        "location": "樹德路11之5號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

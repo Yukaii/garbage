@@ -1,0 +1,2069 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67848791948403,
+          24.140753624104295
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "0700",
+        "departure_time": "0710",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "民族路128號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67582555692466,
+          24.144107124176944
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "0712",
+        "departure_time": "0720",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中山路321號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68219531319359,
+          24.14255379690696
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "0722",
+        "departure_time": "0730",
+        "district": "中區",
+        "village": "光復里",
+        "location": "光復路119號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68182779314166,
+          24.142073403044623
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1430",
+        "departure_time": "1430",
+        "district": "中區",
+        "village": "光復里",
+        "location": "成功路202巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68206447496037,
+          24.142116668039694
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1430",
+        "departure_time": "1430",
+        "district": "中區",
+        "village": "公園里",
+        "location": "成功路202巷12號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68202203817778,
+          24.142028661186867
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1430",
+        "departure_time": "1430",
+        "district": "中區",
+        "village": "公園里",
+        "location": "成功路202巷8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68151173065375,
+          24.141567562684546
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1430",
+        "departure_time": "1430",
+        "district": "中區",
+        "village": "公園里",
+        "location": "臺灣大道一段258巷28號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6813439633132,
+          24.141394373382425
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1430",
+        "departure_time": "1430",
+        "district": "中區",
+        "village": "公園里",
+        "location": "臺灣大道一段258巷16號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68034022943851,
+          24.140577875607864
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1435",
+        "departure_time": "1435",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段253巷38號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6807179532216,
+          24.1409750079753
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1435",
+        "departure_time": "1435",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段253巷8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68007694264803,
+          24.140136296062646
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1435",
+        "departure_time": "1435",
+        "district": "中區",
+        "village": "公園里",
+        "location": "中山路143巷3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68059406251034,
+          24.140655020660898
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1435",
+        "departure_time": "1435",
+        "district": "中區",
+        "village": "公園里",
+        "location": "臺灣大道一段253巷21號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6800358115187,
+          24.140097735936823
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1440",
+        "departure_time": "1440",
+        "district": "中區",
+        "village": "公園里",
+        "location": "中山路143巷7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6796150733895,
+          24.139945919465347
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1440",
+        "departure_time": "1440",
+        "district": "中區",
+        "village": "公園里",
+        "location": "中山路143巷16號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67743511679569,
+          24.140903186043012
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1445",
+        "departure_time": "1445",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "三民路二段17巷2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67796110108546,
+          24.14044510157852
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1445",
+        "departure_time": "1445",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "三民路二段18巷5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67811874252367,
+          24.140298093638414
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1445",
+        "departure_time": "1445",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "三民路二段18巷21號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67811462206984,
+          24.14008104724881
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1445",
+        "departure_time": "1445",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "三民路二段18巷30號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67854576112356,
+          24.139893622156006
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1445",
+        "departure_time": "1445",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "三民路二段18巷47號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67721760412748,
+          24.141119348614367
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1445",
+        "departure_time": "1445",
+        "district": "中區",
+        "village": "柳川里",
+        "location": "三民路二段17巷10號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68029484856737,
+          24.142445892113187
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1450",
+        "departure_time": "1450",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段336巷26號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6804361049732,
+          24.14250154661877
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1450",
+        "departure_time": "1450",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段336巷32號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68048448285923,
+          24.142605819103256
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1450",
+        "departure_time": "1450",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段336巷40號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68076371799641,
+          24.14307441080544
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1455",
+        "departure_time": "1455",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "成功路248巷3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68086570997434,
+          24.143171788529312
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1455",
+        "departure_time": "1455",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "成功路248巷17號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68068038629772,
+          24.144698330290066
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1455",
+        "departure_time": "1455",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "光復路82巷49號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68083100248457,
+          24.14450452407674
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1500",
+        "departure_time": "1500",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "三民路二段183巷15號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68095646000772,
+          24.144385247259155
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1500",
+        "departure_time": "1500",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "三民路二段183巷7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68122848770545,
+          24.14440169814507
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1500",
+        "departure_time": "1500",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "三民路二段183巷2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68015382947064,
+          24.146877897001684
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1505",
+        "departure_time": "1505",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "中華路二段24巷33號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67987595112986,
+          24.14711848733032
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1505",
+        "departure_time": "1505",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "中華路二段24巷15號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67957930692769,
+          24.147299886733773
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1505",
+        "departure_time": "1505",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "中華路二段24巷7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67910110034387,
+          24.146351987355526
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1505",
+        "departure_time": "1505",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "光復路164之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68043373669671,
+          24.1420253445483
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1510",
+        "departure_time": "1510",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段306巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68049925677033,
+          24.14206552671107
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1510",
+        "departure_time": "1510",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段306巷5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68060282629682,
+          24.142188930406935
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1510",
+        "departure_time": "1510",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段306巷25號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67963680621679,
+          24.141253825638096
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1515",
+        "departure_time": "1515",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段299巷36號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67989115493167,
+          24.14138504952271
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1515",
+        "departure_time": "1515",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段299巷20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68026528429624,
+          24.141475187692222
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1515",
+        "departure_time": "1515",
+        "district": "中區",
+        "village": "光復里",
+        "location": "臺灣大道一段299巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67934117866126,
+          24.140768673749445
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1520",
+        "departure_time": "1520",
+        "district": "中區",
+        "village": "光復里",
+        "location": "中山路175巷5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67892603237435,
+          24.140622979973696
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1520",
+        "departure_time": "1520",
+        "district": "中區",
+        "village": "光復里",
+        "location": "中山路175巷23號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67862800746344,
+          24.140724573789498
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1520",
+        "departure_time": "1520",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "中山路175巷24號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67627572390923,
+          24.144966432936865
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1525",
+        "departure_time": "1525",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華路一段143號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67509697657547,
+          24.143830533310528
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1535",
+        "departure_time": "1535",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華路一段81號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67627220236243,
+          24.144497181208568
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1545",
+        "departure_time": "1545",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華路一段100號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67781204544886,
+          24.14597572926628
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1550",
+        "departure_time": "1550",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華路一段156號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.679512502724,
+          24.147655329718454
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1555",
+        "departure_time": "1555",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華路二段38號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67964243165868,
+          24.147634844101578
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1600",
+        "departure_time": "1600",
+        "district": "中區",
+        "village": "中華里",
+        "location": "福音街87號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67898946900131,
+          24.147635449608476
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1600",
+        "departure_time": "1600",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華路二段39號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6803879498924,
+          24.146988996482712
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1600",
+        "departure_time": "1600",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "福音街41號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68164102137003,
+          24.145973659649645
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1600",
+        "departure_time": "1600",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "福音街21號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67947651577332,
+          24.147999442386624
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1600",
+        "departure_time": "1600",
+        "district": "中區",
+        "village": "柳川里",
+        "location": "中華路二段65號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67760928683026,
+          24.1469009859803
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1605",
+        "departure_time": "1605",
+        "district": "中區",
+        "village": "中華里",
+        "location": "篤行路24號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67712874246362,
+          24.146412206940866
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1605",
+        "departure_time": "1605",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華西街94號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67692477304242,
+          24.14617675145018
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1605",
+        "departure_time": "1605",
+        "district": "中區",
+        "village": "中華里",
+        "location": "成功路404號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67777566873781,
+          24.14549248503604
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1610",
+        "departure_time": "1610",
+        "district": "中區",
+        "village": "中華里",
+        "location": "成功路364號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67829266437057,
+          24.14497664745715
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1610",
+        "departure_time": "1610",
+        "district": "中區",
+        "village": "中華里",
+        "location": "成功路338號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67947356079085,
+          24.144252290096844
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1615",
+        "departure_time": "1615",
+        "district": "中區",
+        "village": "大墩里",
+        "location": "吉祥街1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6794510095545,
+          24.14493431704459
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1615",
+        "departure_time": "1615",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "吉祥街17號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68037012153292,
+          24.142841542801573
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1615",
+        "departure_time": "1615",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "成功路227號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67936043707716,
+          24.145943026013782
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1620",
+        "departure_time": "1620",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "大誠街67號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67868123009393,
+          24.145329708384146
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1620",
+        "departure_time": "1620",
+        "district": "中區",
+        "village": "柳川里",
+        "location": "大誠街49號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67781734143972,
+          24.1444517823161
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1620",
+        "departure_time": "1620",
+        "district": "中區",
+        "village": "柳川里",
+        "location": "大誠街7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67734684011904,
+          24.14494756318526
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1625",
+        "departure_time": "1625",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "興民街13號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67833849597794,
+          24.14585032991807
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1630",
+        "departure_time": "1630",
+        "district": "中區",
+        "village": "中華里",
+        "location": "興民街47號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67682402221504,
+          24.14296002654622
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1635",
+        "departure_time": "1635",
+        "district": "中區",
+        "village": "中華里",
+        "location": "柳川西路三段22號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67603442470279,
+          24.142084595237517
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1635",
+        "departure_time": "1635",
+        "district": "中區",
+        "village": "中華里",
+        "location": "柳川西路三段6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67570983088423,
+          24.142594333129395
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1645",
+        "departure_time": "1645",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "仁愛街6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67624039548924,
+          24.14345215149435
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1645",
+        "departure_time": "1645",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "仁愛街39號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67480442338994,
+          24.144180473341898
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1650",
+        "departure_time": "1650",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華西街20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67503856432661,
+          24.14442756244852
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1650",
+        "departure_time": "1650",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華西街36號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67519255053901,
+          24.144585505832524
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1650",
+        "departure_time": "1650",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華西街50號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67530586935042,
+          24.144564302305874
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1650",
+        "departure_time": "1650",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中山路343號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67690753834414,
+          24.14316851862002
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1650",
+        "departure_time": "1650",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中山路263號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67618961341385,
+          24.142752813797145
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1650",
+        "departure_time": "1650",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "民族路192號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67603423288844,
+          24.142875192486226
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1650",
+        "departure_time": "1650",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "民族路196-1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67474546370526,
+          24.144001657663306
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1650",
+        "departure_time": "1650",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "民族路234號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67552401060973,
+          24.14483552809904
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1700",
+        "departure_time": "1700",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華西街54號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6758838809775,
+          24.145217600433526
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1700",
+        "departure_time": "1700",
+        "district": "中區",
+        "village": "中華里",
+        "location": "中華西街70號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67604219787198,
+          24.145282171031713
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1705",
+        "departure_time": "1705",
+        "district": "中區",
+        "village": "中華里",
+        "location": "台灣大道一段581號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67633070513848,
+          24.14506156496699
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1705",
+        "departure_time": "1705",
+        "district": "中區",
+        "village": "中華里",
+        "location": "台灣大道一段561號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67668297600807,
+          24.144679405540135
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1705",
+        "departure_time": "1705",
+        "district": "中區",
+        "village": "中華里",
+        "location": "台灣大道一段545號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67720035941653,
+          24.14426033054543
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1705",
+        "departure_time": "1705",
+        "district": "中區",
+        "village": "中華里",
+        "location": "台灣大道一段513號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6776490975041,
+          24.14428474601355
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1705",
+        "departure_time": "1705",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "台灣大道一段496號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67626002856264,
+          24.145478560190732
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1710",
+        "departure_time": "1710",
+        "district": "中區",
+        "village": "中華里",
+        "location": "台灣大道一段590號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6764551489453,
+          24.14532731760922
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keq-0315-a17c2c-d5",
+        "city": "taichung",
+        "route_name": "KEQ-0315",
+        "car_seq": "KEQ-0315",
+        "arrival_time": "1710",
+        "departure_time": "1710",
+        "district": "中區",
+        "village": "大誠里",
+        "location": "台灣大道一段568號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

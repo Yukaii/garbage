@@ -1,0 +1,869 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67352249022748,
+          24.34454485268234
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1710",
+        "departure_time": "1715",
+        "district": "外埔區",
+        "village": "馬鳴里",
+        "location": "土城路462號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67352249022748,
+          24.34454485268234
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1710",
+        "departure_time": "1715",
+        "district": "外埔區",
+        "village": "馬鳴里",
+        "location": "土城路462號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66385601087842,
+          24.349371076604168
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1712",
+        "departure_time": "1717",
+        "district": "外埔區",
+        "village": "鐵山里",
+        "location": "長生路162號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66385601087842,
+          24.349371076604168
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1712",
+        "departure_time": "1717",
+        "district": "外埔區",
+        "village": "鐵山里",
+        "location": "長生路162號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66242029315644,
+          24.34972728086755
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1715",
+        "departure_time": "1720",
+        "district": "外埔區",
+        "village": "鐵山里",
+        "location": "長生路392號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66242029315644,
+          24.34972728086755
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1715",
+        "departure_time": "1720",
+        "district": "外埔區",
+        "village": "鐵山里",
+        "location": "長生路392號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64480753161111,
+          24.346948332191687
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1725",
+        "departure_time": "1730",
+        "district": "外埔區",
+        "village": "鐵山里",
+        "location": "長生路1050號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64480753161111,
+          24.346948332191687
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1725",
+        "departure_time": "1730",
+        "district": "外埔區",
+        "village": "鐵山里",
+        "location": "長生路1050號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63555368261126,
+          24.34357860072445
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1740",
+        "departure_time": "1745",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段159號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63555368261126,
+          24.34357860072445
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1740",
+        "departure_time": "1745",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段159號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63800719471044,
+          24.34236734950735
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1752",
+        "departure_time": "1757",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段92號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63800719471044,
+          24.34236734950735
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1752",
+        "departure_time": "1757",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段92號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6393638611166,
+          24.34277240040753
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1800",
+        "departure_time": "1805",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段128巷59號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6393638611166,
+          24.34277240040753
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1800",
+        "departure_time": "1805",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段128巷59號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64050962990869,
+          24.342660568037612
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1803",
+        "departure_time": "1808",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段128巷85弄2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64050962990869,
+          24.342660568037612
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1803",
+        "departure_time": "1808",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段128巷85弄2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63917453765818,
+          24.343847021524436
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1810",
+        "departure_time": "1815",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段130巷46弄55號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63917453765818,
+          24.343847021524436
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1810",
+        "departure_time": "1815",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段130巷46弄55號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63744455027633,
+          24.343581135842925
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1822",
+        "departure_time": "1827",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段130巷29號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63744455027633,
+          24.343581135842925
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1822",
+        "departure_time": "1827",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段130巷29號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63636469741043,
+          24.343404308767926
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1830",
+        "departure_time": "1835",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段202號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63636469741043,
+          24.343404308767926
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1830",
+        "departure_time": "1835",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段202號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63487765667323,
+          24.34430056325063
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1850",
+        "departure_time": "1855",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段296號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63487765667323,
+          24.34430056325063
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1850",
+        "departure_time": "1855",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲后路五段296號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6352288205223,
+          24.342144178263013
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1856",
+        "departure_time": "1901",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲東路36巷63號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6352288205223,
+          24.342144178263013
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1856",
+        "departure_time": "1901",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "甲東路36巷63號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64203084131235,
+          24.341111113048985
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1905",
+        "departure_time": "1910",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "大馬路470號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64203084131235,
+          24.341111113048985
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1905",
+        "departure_time": "1910",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "大馬路470號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64258595116455,
+          24.341168600539493
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1910",
+        "departure_time": "1915",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "大馬路莊內巷171號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64258595116455,
+          24.341168600539493
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1910",
+        "departure_time": "1915",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "大馬路莊內巷171號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64575823489518,
+          24.340910757561417
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1918",
+        "departure_time": "1923",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "大馬路莊內巷37之2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.64575823489518,
+          24.340910757561417
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1918",
+        "departure_time": "1923",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "大馬路莊內巷37之2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6489332895582,
+          24.34008656978193
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1920",
+        "departure_time": "1925",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "大馬路296號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6489332895582,
+          24.34008656978193
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1920",
+        "departure_time": "1925",
+        "district": "外埔區",
+        "village": "大東里",
+        "location": "大馬路296號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70409647982669,
+          24.34527321956085
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1930",
+        "departure_time": "1935",
+        "district": "外埔區",
+        "village": "土城里",
+        "location": "土城路110號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.70409647982669,
+          24.34527321956085
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6680-b94837-d6",
+        "city": "taichung",
+        "route_name": "KEE-6680",
+        "car_seq": "KEE-6680",
+        "arrival_time": "1930",
+        "departure_time": "1935",
+        "district": "外埔區",
+        "village": "土城里",
+        "location": "土城路110號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

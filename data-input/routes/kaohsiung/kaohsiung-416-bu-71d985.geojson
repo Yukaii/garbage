@@ -1,0 +1,856 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322248,
+          22.806965
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1625",
+        "departure_time": "1633",
+        "district": "岡山區",
+        "village": "大莊里",
+        "location": "大莊路77號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327037,
+          22.810527
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1630",
+        "departure_time": "1638",
+        "district": "岡山區",
+        "village": "大莊里",
+        "location": "大莊路60巷36號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334993,
+          22.832274
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1638",
+        "departure_time": "1646",
+        "district": "岡山區",
+        "village": "三和里",
+        "location": "中崙寮路31巷10號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.337935,
+          22.833034
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1645",
+        "departure_time": "1653",
+        "district": "岡山區",
+        "village": "三和里",
+        "location": "中崙寮路58巷42號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321927,
+          22.824693
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1720",
+        "departure_time": "1728",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "華崗路166號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323035,
+          22.825441
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1730",
+        "departure_time": "1738",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "拕子中街26號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321957,
+          22.82578
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1732",
+        "departure_time": "1740",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "拕子中街58號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320742,
+          22.826201
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1736",
+        "departure_time": "1744",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "拕子中街110號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319957,
+          22.825724
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1738",
+        "departure_time": "1746",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "拕子三街38號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319864,
+          22.825227
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1740",
+        "departure_time": "1748",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "拕子南街58號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321043,
+          22.825364
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1742",
+        "departure_time": "1750",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "拕子二街25號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.321389,
+          22.826362
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1742",
+        "departure_time": "1750",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "拕子二街59號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322188,
+          22.825337
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1748",
+        "departure_time": "1754",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "拕子一街32號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322751,
+          22.823872
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1752",
+        "departure_time": "1800",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "大埔一街104號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324064,
+          22.823941
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1757",
+        "departure_time": "1805",
+        "district": "岡山區",
+        "village": "華崗里",
+        "location": "大埔一街68巷22號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319468,
+          22.805187
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1840",
+        "departure_time": "1848",
+        "district": "岡山區",
+        "village": "大莊里",
+        "location": "大莊路200巷28號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.320151,
+          22.804613
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1846",
+        "departure_time": "1854",
+        "district": "岡山區",
+        "village": "大莊里",
+        "location": "大莊路223號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319473,
+          22.803851
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1850",
+        "departure_time": "1858",
+        "district": "岡山區",
+        "village": "大莊里",
+        "location": "大莊路267巷7號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31795,
+          22.804427
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1854",
+        "departure_time": "1902",
+        "district": "岡山區",
+        "village": "大莊里",
+        "location": "大莊路320號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.318198,
+          22.805599
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1857",
+        "departure_time": "1905",
+        "district": "岡山區",
+        "village": "大莊里",
+        "location": "大莊路326巷81號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.318278,
+          22.807739
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1902",
+        "departure_time": "1910",
+        "district": "岡山區",
+        "village": "大莊里",
+        "location": "大莊路100號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.315144,
+          22.777794
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1915",
+        "departure_time": "1923",
+        "district": "岡山區",
+        "village": "大遼里",
+        "location": "大遼路18號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.314674,
+          22.773185
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "1952",
+        "departure_time": "2000",
+        "district": "岡山區",
+        "village": "大遼里",
+        "location": "大遼路160號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.26268,
+          22.807084
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2020",
+        "departure_time": "2028",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲路321巷20號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.260819,
+          22.807932
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2025",
+        "departure_time": "2033",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲路370號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.260541,
+          22.807369
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2030",
+        "departure_time": "2038",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲路381巷9號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.259964,
+          22.809607
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2035",
+        "departure_time": "2043",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲一街108號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.258895,
+          22.81067
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2040",
+        "departure_time": "2048",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲一街150號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.257859,
+          22.811779
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2041",
+        "departure_time": "2049",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲一街200號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.259906,
+          22.810934
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2042",
+        "departure_time": "2050",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲一街140巷15號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.259811,
+          22.8108
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2043",
+        "departure_time": "2051",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲一街140巷26號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.261317,
+          22.811001
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2050",
+        "departure_time": "2058",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲三街30號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.260682,
+          22.809806
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2055",
+        "departure_time": "2103",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲二街15號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.259983,
+          22.808869
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2100",
+        "departure_time": "2108",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲一街75巷3號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.256073,
+          22.80769
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2102",
+        "departure_time": "2110",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲路398號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.260737,
+          22.807637
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2105",
+        "departure_time": "2113",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲路357號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.265206,
+          22.80706
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-416-bu-71d985",
+        "city": "kaohsiung",
+        "route_name": "416-BU",
+        "car_seq": "416-BU",
+        "arrival_time": "2110",
+        "departure_time": "2118",
+        "district": "岡山區",
+        "village": "本洲里",
+        "location": "本洲路209號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

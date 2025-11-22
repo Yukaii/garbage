@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.358267,
+          22.571142
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-5815-ce0558",
+        "city": "kaohsiung",
+        "route_name": "KEP-5815",
+        "car_seq": "KEP-5815",
+        "arrival_time": "0700",
+        "departure_time": "0720",
+        "district": "小港區",
+        "village": "濟南里",
+        "location": "廠邊三路47號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.390632,
+          22.563361
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-5815-ce0558",
+        "city": "kaohsiung",
+        "route_name": "KEP-5815",
+        "car_seq": "KEP-5815",
+        "arrival_time": "0930",
+        "departure_time": "0940",
+        "district": "小港區",
+        "village": "坪頂里",
+        "location": "永和街16號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.347775,
+          22.56729
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-5815-ce0558",
+        "city": "kaohsiung",
+        "route_name": "KEP-5815",
+        "car_seq": "KEP-5815",
+        "arrival_time": "1200",
+        "departure_time": "1215",
+        "district": "小港區",
+        "village": "大苓里",
+        "location": "民益路61號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349635,
+          22.570675
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-5815-ce0558",
+        "city": "kaohsiung",
+        "route_name": "KEP-5815",
+        "car_seq": "KEP-5815",
+        "arrival_time": "1340",
+        "departure_time": "1355",
+        "district": "小港區",
+        "village": "山東里",
+        "location": "民治路52號對面",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

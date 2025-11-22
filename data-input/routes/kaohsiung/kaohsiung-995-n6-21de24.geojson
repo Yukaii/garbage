@@ -1,0 +1,442 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297611,
+          22.665634
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1610",
+        "departure_time": "1611",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "裕誠路1145號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297717,
+          22.664027
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1613",
+        "departure_time": "1615",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "昌盛路332及334號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297171,
+          22.664873
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1616",
+        "departure_time": "1617",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "華榮路238號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297366,
+          22.665316
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1618",
+        "departure_time": "1620",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "文忠路100號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.299559,
+          22.665077
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1622",
+        "departure_time": "1623",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "文忠路79號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.300785,
+          22.665006
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1624",
+        "departure_time": "1625",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "文忠路53號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301742,
+          22.665308
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1625",
+        "departure_time": "1627",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "文忠路24號對面停車場前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.300771,
+          22.664688
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1630",
+        "departure_time": "1632",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "文信路226號空地",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301332,
+          22.663692
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1635",
+        "departure_time": "1637",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "昌盛路45號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.300642,
+          22.663316
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1639",
+        "departure_time": "1642",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "明華路309號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302632,
+          22.663262
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1644",
+        "departure_time": "1645",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "明華路251~255號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.297227,
+          22.662295
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1810",
+        "departure_time": "1812",
+        "district": "鼓山區",
+        "village": "明誠里",
+        "location": "華榮路40號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.290901,
+          22.668538
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "1839",
+        "departure_time": "1845",
+        "district": "鼓山區",
+        "village": "裕興里",
+        "location": "裕興路11號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.271483,
+          22.626024
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "2042",
+        "departure_time": "2046",
+        "district": "鼓山區",
+        "village": "惠安里",
+        "location": "千光路85巷3號前至千光路2號沿路收",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.271257,
+          22.623578
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "2053",
+        "departure_time": "2055",
+        "district": "鼓山區",
+        "village": "惠安里",
+        "location": "臨海二路50號旁",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.269219,
+          22.622195
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "2104",
+        "departure_time": "2107",
+        "district": "鼓山區",
+        "village": "哨船頭里",
+        "location": "哨船街75號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.269088,
+          22.621063
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "2107",
+        "departure_time": "2108",
+        "district": "鼓山區",
+        "village": "哨船頭里",
+        "location": "哨船街69號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267762,
+          22.618796
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "2113",
+        "departure_time": "2114",
+        "district": "鼓山區",
+        "village": "哨船頭里",
+        "location": "安海街32巷35號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267133,
+          22.619184
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-995-n6-21de24",
+        "city": "kaohsiung",
+        "route_name": "995-N6",
+        "car_seq": "995-N6",
+        "arrival_time": "2119",
+        "departure_time": "2120",
+        "district": "鼓山區",
+        "village": "哨船頭里",
+        "location": "蓮海路18號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

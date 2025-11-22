@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353775,
+          22.727544
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "1733",
+        "departure_time": "1739",
+        "district": "大社區",
+        "village": "神農里",
+        "location": "金龍路114號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353505,
+          22.723544
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "1748",
+        "departure_time": "1754",
+        "district": "大社區",
+        "village": "神農里",
+        "location": "金龍路399號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353922,
+          22.726457
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "1754",
+        "departure_time": "1800",
+        "district": "大社區",
+        "village": "神農里",
+        "location": "金龍路117號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353578,
+          22.73128
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "1952",
+        "departure_time": "1958",
+        "district": "大社區",
+        "village": "翠屏里",
+        "location": "中山路449號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350686,
+          22.731725
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "1958",
+        "departure_time": "2004",
+        "district": "大社區",
+        "village": "大社里",
+        "location": "中山路331號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348596,
+          22.732012
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "2000",
+        "departure_time": "2006",
+        "district": "大社區",
+        "village": "大社里",
+        "location": "中山路253號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.344722,
+          22.732353
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "2008",
+        "departure_time": "2014",
+        "district": "大社區",
+        "village": "大社里",
+        "location": "中山路49號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353179,
+          22.734095
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "2025",
+        "departure_time": "2031",
+        "district": "大社區",
+        "village": "大社里",
+        "location": "大社路166號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34095,
+          22.731839
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "2032",
+        "departure_time": "2038",
+        "district": "大社區",
+        "village": "大社里",
+        "location": "中山路2-12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346771,
+          22.731869
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "2036",
+        "departure_time": "2042",
+        "district": "大社區",
+        "village": "大社里",
+        "location": "中山路128號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353516,
+          22.731
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keu-5601-f0fb28",
+        "city": "kaohsiung",
+        "route_name": "KEU-5601",
+        "car_seq": "KEU-5601",
+        "arrival_time": "2050",
+        "departure_time": "2054",
+        "district": "大社區",
+        "village": "翠屏里",
+        "location": "中山路412-9號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

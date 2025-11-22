@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.37829,
+          22.653299
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2250-6028cf",
+        "city": "kaohsiung",
+        "route_name": "KEM-2250",
+        "car_seq": "KEM-2250",
+        "arrival_time": "1100",
+        "departure_time": "1103",
+        "district": "鳥松區",
+        "village": "仁美里",
+        "location": "水管路8巷2號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.378341,
+          22.653661
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2250-6028cf",
+        "city": "kaohsiung",
+        "route_name": "KEM-2250",
+        "car_seq": "KEM-2250",
+        "arrival_time": "1102",
+        "departure_time": "1105",
+        "district": "鳥松區",
+        "village": "仁美里",
+        "location": "水管路8巷4號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.376216,
+          22.655273
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kem-2250-6028cf",
+        "city": "kaohsiung",
+        "route_name": "KEM-2250",
+        "car_seq": "KEM-2250",
+        "arrival_time": "1107",
+        "departure_time": "1110",
+        "district": "鳥松區",
+        "village": "坔埔里",
+        "location": "水管路10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

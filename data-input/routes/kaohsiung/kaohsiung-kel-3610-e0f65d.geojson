@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.314299,
+          22.635777
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3610-e0f65d",
+        "city": "kaohsiung",
+        "route_name": "KEL-3610",
+        "car_seq": "KEL-3610",
+        "arrival_time": "1613",
+        "departure_time": "1616",
+        "district": "新興區",
+        "village": "順昌里",
+        "location": "民族二路166號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.317389,
+          22.631221
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3610-e0f65d",
+        "city": "kaohsiung",
+        "route_name": "KEL-3610",
+        "car_seq": "KEL-3610",
+        "arrival_time": "1641",
+        "departure_time": "1643",
+        "district": "新興區",
+        "village": "文昌里",
+        "location": "和平一路215號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31588,
+          22.631404
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3610-e0f65d",
+        "city": "kaohsiung",
+        "route_name": "KEL-3610",
+        "car_seq": "KEL-3610",
+        "arrival_time": "1652",
+        "departure_time": "1655",
+        "district": "新興區",
+        "village": "文昌里",
+        "location": "信守街44號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.314488,
+          22.631578
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3610-e0f65d",
+        "city": "kaohsiung",
+        "route_name": "KEL-3610",
+        "car_seq": "KEL-3610",
+        "arrival_time": "1656",
+        "departure_time": "1700",
+        "district": "新興區",
+        "village": "文昌里",
+        "location": "信守街104號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

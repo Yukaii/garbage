@@ -1,0 +1,1253 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.600917,
+          24.304836
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0615",
+        "departure_time": "0620",
+        "district": "清水區",
+        "village": "菁埔里",
+        "location": "甲南路50號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.590059,
+          24.296935
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0630",
+        "departure_time": "0640",
+        "district": "清水區",
+        "village": "菁埔里",
+        "location": "中央北路1之28號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.574361,
+          24.29249
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0650",
+        "departure_time": "0700",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "中央北路12之5號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.575418,
+          24.288309
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0705",
+        "departure_time": "0710",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "華美街226號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.576244,
+          24.284966
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0710",
+        "departure_time": "0715",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "高美路210巷5之5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.575712,
+          24.280844
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0716",
+        "departure_time": "0720",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "高美路160巷1之9號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.578532,
+          24.28253
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0727",
+        "departure_time": "0732",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "中華路699巷158號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.588814,
+          24.296111
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0730",
+        "departure_time": "0735",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "菁埔路38之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.580939,
+          24.285693
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0734",
+        "departure_time": "0739",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "華美街8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.579296,
+          24.28159
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0738",
+        "departure_time": "0743",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "菁埔路140號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.582679,
+          24.284879
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0741",
+        "departure_time": "0746",
+        "district": "清水區",
+        "village": "下湳里",
+        "location": "中山路539之2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.584377,
+          24.29156
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0745",
+        "departure_time": "0750",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "菁埔路73號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.582009,
+          24.288705
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0749",
+        "departure_time": "0754",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "三田路11之8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.584349,
+          24.288074
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0752",
+        "departure_time": "0757",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "三田路1之6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.582443,
+          24.290973
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0755",
+        "departure_time": "0800",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "三田路3之13號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.580887,
+          24.290649
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0759",
+        "departure_time": "0804",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "三田路7之7號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.579196,
+          24.289307
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0802",
+        "departure_time": "0807",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "三田路36號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.577438,
+          24.289878
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0812",
+        "departure_time": "0817",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "三田路18之20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.580536,
+          24.29285
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0817",
+        "departure_time": "0822",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "三田路15之2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.584202,
+          24.291029
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0820",
+        "departure_time": "0825",
+        "district": "清水區",
+        "village": "田寮里",
+        "location": "菁埔路71之2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.583824,
+          24.28932
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0822",
+        "departure_time": "0827",
+        "district": "清水區",
+        "village": "下湳里",
+        "location": "菁埔路278號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.587174,
+          24.29331
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0825",
+        "departure_time": "0830",
+        "district": "清水區",
+        "village": "菁埔里",
+        "location": "菁埔路87之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.589053,
+          24.296074
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0830",
+        "departure_time": "0835",
+        "district": "清水區",
+        "village": "菁埔里",
+        "location": "菁埔路368號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.588904,
+          24.297096
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0834",
+        "departure_time": "0839",
+        "district": "清水區",
+        "village": "菁埔里",
+        "location": "中央北路2之68號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.579072,
+          24.295107
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0836",
+        "departure_time": "0841",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "中央北路9之20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.574432,
+          24.290172
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0841",
+        "departure_time": "0846",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "三美路27號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.574338,
+          24.291112
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0845",
+        "departure_time": "0850",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "三田路71號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.571524,
+          24.291024
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0849",
+        "departure_time": "0854",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "中央北路23號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.574714,
+          24.295832
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0854",
+        "departure_time": "0859",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "三美路81巷12號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.577496,
+          24.297958
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0900",
+        "departure_time": "0905",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "三美路120號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.577122,
+          24.2999
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0908",
+        "departure_time": "0913",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "三美路147之46號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.579021,
+          24.299638
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0912",
+        "departure_time": "0917",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "三美路156巷55號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.585459,
+          24.30247
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0918",
+        "departure_time": "0923",
+        "district": "清水區",
+        "village": "國姓里",
+        "location": "臨港路七段632號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.575164,
+          24.27768
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0931",
+        "departure_time": "0936",
+        "district": "清水區",
+        "village": "西寧里",
+        "location": "中華路592之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.576683,
+          24.276743
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0935",
+        "departure_time": "0940",
+        "district": "清水區",
+        "village": "下湳里",
+        "location": "高美路40號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.577665,
+          24.276906
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0939",
+        "departure_time": "0944",
+        "district": "清水區",
+        "village": "下湳里",
+        "location": "中山路507巷1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.579511,
+          24.277643
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0942",
+        "departure_time": "0947",
+        "district": "清水區",
+        "village": "下湳里",
+        "location": "中山路402巷24號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.583156,
+          24.27954
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0946",
+        "departure_time": "0951",
+        "district": "清水區",
+        "village": "下湳里",
+        "location": "中山路438之12號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.586349,
+          24.281586
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0950",
+        "departure_time": "0955",
+        "district": "清水區",
+        "village": "下湳里",
+        "location": "福圳街一段281巷20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.585098,
+          24.283297
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "0955",
+        "departure_time": "1000",
+        "district": "清水區",
+        "village": "下湳里",
+        "location": "荷園街36巷20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.587954,
+          24.2859
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1000",
+        "departure_time": "1005",
+        "district": "清水區",
+        "village": "下湳里",
+        "location": "荷園街180號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.589045,
+          24.289052
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1004",
+        "departure_time": "1009",
+        "district": "清水區",
+        "village": "下湳里",
+        "location": "荷園街317號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.589127,
+          24.292539
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1009",
+        "departure_time": "1014",
+        "district": "清水區",
+        "village": "頂湳里",
+        "location": "荷園街526號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.591775,
+          24.293704
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1015",
+        "departure_time": "1018",
+        "district": "清水區",
+        "village": "頂湳里",
+        "location": "頂湳路4號路口",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.595536,
+          24.296894
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1020",
+        "departure_time": "1025",
+        "district": "清水區",
+        "village": "頂湳里",
+        "location": "頂湳路39號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.604946,
+          24.303678
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1030",
+        "departure_time": "1035",
+        "district": "清水區",
+        "village": "頂湳里",
+        "location": "客庄路19之1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.606427,
+          24.304061
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1033",
+        "departure_time": "1038",
+        "district": "清水區",
+        "village": "頂湳里",
+        "location": "客庄路44號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.609506,
+          24.304898
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1037",
+        "departure_time": "1042",
+        "district": "清水區",
+        "village": "頂湳里",
+        "location": "客庄路89之11號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.603126,
+          24.308365
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1040",
+        "departure_time": "1045",
+        "district": "清水區",
+        "village": "頂湳里",
+        "location": "海頂路399號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.599968,
+          24.304311
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1043",
+        "departure_time": "1048",
+        "district": "清水區",
+        "village": "菁埔里",
+        "location": "中山路599號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.600534,
+          24.304943
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1051",
+        "departure_time": "1056",
+        "district": "清水區",
+        "village": "菁埔里",
+        "location": "甲南路68號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59948,
+          24.306577
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kev-8152-30accf-d4",
+        "city": "taichung",
+        "route_name": "KEV-8152",
+        "car_seq": "KEV-8152",
+        "arrival_time": "1055",
+        "departure_time": "1100",
+        "district": "清水區",
+        "village": "菁埔里",
+        "location": "臨海路8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    }
+  ]
+}

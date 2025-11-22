@@ -1,0 +1,419 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302828,
+          22.62387
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1621",
+        "departure_time": "1624",
+        "district": "新興區",
+        "village": "玉衡里",
+        "location": "五福二路226號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301733,
+          22.626114
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1637",
+        "departure_time": "1641",
+        "district": "新興區",
+        "village": "玉衡里",
+        "location": "中山一路14號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.308328,
+          22.631489
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1830",
+        "departure_time": "1833",
+        "district": "新興區",
+        "village": "中東里",
+        "location": "復興一路60號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.308367,
+          22.631968
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1834",
+        "departure_time": "1838",
+        "district": "新興區",
+        "village": "中東里",
+        "location": "復興一路70之7號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.309642,
+          22.632344
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1844",
+        "departure_time": "1845",
+        "district": "新興區",
+        "village": "中東里",
+        "location": "六合一路49之2號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311356,
+          22.632214
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1846",
+        "departure_time": "1849",
+        "district": "新興區",
+        "village": "興昌里",
+        "location": "六合一路39之7號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.312123,
+          22.632092
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1850",
+        "departure_time": "1853",
+        "district": "新興區",
+        "village": "興昌里",
+        "location": "六合一路27號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.312147,
+          22.630898
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1902",
+        "departure_time": "1905",
+        "district": "新興區",
+        "village": "興昌里",
+        "location": "中正三路20號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310059,
+          22.634594
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1919",
+        "departure_time": "1921",
+        "district": "新興區",
+        "village": "開平里",
+        "location": "同心路87號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310166,
+          22.636206
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1930",
+        "departure_time": "1932",
+        "district": "新興區",
+        "village": "開平里",
+        "location": "興邦街82號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311806,
+          22.635729
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "1937",
+        "departure_time": "1940",
+        "district": "新興區",
+        "village": "開平里",
+        "location": "開封路435號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.308108,
+          22.626539
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "2007",
+        "departure_time": "2010",
+        "district": "新興區",
+        "village": "德生里",
+        "location": "復興二路340號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302414,
+          22.627859
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "2049",
+        "departure_time": "2052",
+        "district": "新興區",
+        "village": "漢民里",
+        "location": "中山一路18-1號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.303433,
+          22.627693
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "2126",
+        "departure_time": "2127",
+        "district": "新興區",
+        "village": "漢民里",
+        "location": "民生一路358號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304185,
+          22.623417
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "2136",
+        "departure_time": "2139",
+        "district": "新興區",
+        "village": "振成里",
+        "location": "文化路60號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30268,
+          22.623453
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "2155",
+        "departure_time": "2157",
+        "district": "新興區",
+        "village": "振成里",
+        "location": "五福二路171號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304072,
+          22.623947
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "2158",
+        "departure_time": "2159",
+        "district": "新興區",
+        "village": "振成里",
+        "location": "五福二路137之2號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.305015,
+          22.621756
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3736-171004",
+        "city": "kaohsiung",
+        "route_name": "KEL-3736",
+        "car_seq": "KEL-3736",
+        "arrival_time": "2206",
+        "departure_time": "2209",
+        "district": "新興區",
+        "village": "振華里",
+        "location": "民享街93之3號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

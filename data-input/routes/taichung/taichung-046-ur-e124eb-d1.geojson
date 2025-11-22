@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.72548,
+          24.253
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-046-ur-e124eb-d1",
+        "city": "taichung",
+        "route_name": "046-UR",
+        "car_seq": "046-UR",
+        "arrival_time": "1830",
+        "departure_time": "2000",
+        "district": "豐原區",
+        "village": "南村里",
+        "location": "南村路26號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.72548,
+          24.253
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-046-ur-e124eb-d1",
+        "city": "taichung",
+        "route_name": "046-UR",
+        "car_seq": "046-UR",
+        "arrival_time": "1830",
+        "departure_time": "2000",
+        "district": "豐原區",
+        "village": "南村里",
+        "location": "南村路26號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333536,
+          22.628381
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kev-8093-dc0a19",
+        "city": "kaohsiung",
+        "route_name": "KEV-8093",
+        "car_seq": "KEV-8093",
+        "arrival_time": "1855",
+        "departure_time": "1857",
+        "district": "苓雅區",
+        "village": "正大里",
+        "location": "建民路15號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330071,
+          22.629612
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kev-8093-dc0a19",
+        "city": "kaohsiung",
+        "route_name": "KEV-8093",
+        "car_seq": "KEV-8093",
+        "arrival_time": "1903",
+        "departure_time": "1907",
+        "district": "苓雅區",
+        "village": "正大里",
+        "location": "建民路68號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326509,
+          22.630433
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kev-8093-dc0a19",
+        "city": "kaohsiung",
+        "route_name": "KEV-8093",
+        "car_seq": "KEV-8093",
+        "arrival_time": "1921",
+        "departure_time": "1924",
+        "district": "苓雅區",
+        "village": "正言里",
+        "location": "建民路168號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327269,
+          22.632757
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kev-8093-dc0a19",
+        "city": "kaohsiung",
+        "route_name": "KEV-8093",
+        "car_seq": "KEV-8093",
+        "arrival_time": "1942",
+        "departure_time": "1944",
+        "district": "苓雅區",
+        "village": "正文里",
+        "location": "建國一路169號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

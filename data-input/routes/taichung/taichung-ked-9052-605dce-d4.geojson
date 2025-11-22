@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62648229744379,
+          24.348030355647268
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9052-605dce-d4",
+        "city": "taichung",
+        "route_name": "KED-9052",
+        "car_seq": "KED-9052",
+        "arrival_time": "1200",
+        "departure_time": "1300",
+        "district": "大甲區",
+        "village": "朝陽里",
+        "location": "新政路36號旁",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62648229744379,
+          24.348030355647268
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9052-605dce-d4",
+        "city": "taichung",
+        "route_name": "KED-9052",
+        "car_seq": "KED-9052",
+        "arrival_time": "1200",
+        "departure_time": "1300",
+        "district": "大甲區",
+        "village": "朝陽里",
+        "location": "新政路36號旁",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62244563753234,
+          24.34495280074345
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9052-605dce-d4",
+        "city": "taichung",
+        "route_name": "KED-9052",
+        "car_seq": "KED-9052",
+        "arrival_time": "1310",
+        "departure_time": "1330",
+        "district": "大甲區",
+        "village": "大甲里",
+        "location": "順天路146號旁",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62244563753234,
+          24.34495280074345
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-ked-9052-605dce-d4",
+        "city": "taichung",
+        "route_name": "KED-9052",
+        "car_seq": "KED-9052",
+        "arrival_time": "1310",
+        "departure_time": "1330",
+        "district": "大甲區",
+        "village": "大甲里",
+        "location": "順天路146號旁",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 4
+      }
+    }
+  ]
+}

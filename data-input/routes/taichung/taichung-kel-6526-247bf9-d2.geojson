@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67664,
+          24.137774
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6526-247bf9-d2",
+        "city": "taichung",
+        "route_name": "KEL-6526",
+        "car_seq": "KEL-6526",
+        "arrival_time": "0700",
+        "departure_time": "0725",
+        "district": "西區",
+        "village": "利民里",
+        "location": "民生路43號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.671655,
+          24.135161
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6526-247bf9-d2",
+        "city": "taichung",
+        "route_name": "KEL-6526",
+        "car_seq": "KEL-6526",
+        "arrival_time": "0730",
+        "departure_time": "0755",
+        "district": "西區",
+        "village": "三民里",
+        "location": "三民路一段143號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.666349,
+          24.139189
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6526-247bf9-d2",
+        "city": "taichung",
+        "route_name": "KEL-6526",
+        "car_seq": "KEL-6526",
+        "arrival_time": "0800",
+        "departure_time": "0830",
+        "district": "西區",
+        "village": "公民里",
+        "location": "貴和街201號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.359444,
+          22.872161
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1720",
+        "departure_time": "1723",
+        "district": "田寮區",
+        "village": "南安里",
+        "location": "崗安路75之2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.356405,
+          22.874195
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1721",
+        "departure_time": "1724",
+        "district": "田寮區",
+        "village": "南安里",
+        "location": "崗安路107號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.358918,
+          22.873407
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1723",
+        "departure_time": "1726",
+        "district": "田寮區",
+        "village": "南安里",
+        "location": "崗安路122號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.359922,
+          22.87272
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1726",
+        "departure_time": "1729",
+        "district": "田寮區",
+        "village": "南安里",
+        "location": "崗北路55號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.360454,
+          22.874048
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1727",
+        "departure_time": "1730",
+        "district": "田寮區",
+        "village": "南安里",
+        "location": "崗北路3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.373022,
+          22.878914
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1734",
+        "departure_time": "1737",
+        "district": "田寮區",
+        "village": "西德里",
+        "location": "西德路68之11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.375859,
+          22.879118
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1735",
+        "departure_time": "1738",
+        "district": "田寮區",
+        "village": "西德里",
+        "location": "西德路46號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.379606,
+          22.878399
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1737",
+        "departure_time": "1740",
+        "district": "田寮區",
+        "village": "崇德里",
+        "location": "崇德路116號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.380506,
+          22.880227
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1738",
+        "departure_time": "1741",
+        "district": "田寮區",
+        "village": "崇德里",
+        "location": "崇德路山頂巷12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.380444,
+          22.877526
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1741",
+        "departure_time": "1744",
+        "district": "田寮區",
+        "village": "崇德里",
+        "location": "崇德路49號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.381729,
+          22.87629
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1743",
+        "departure_time": "1746",
+        "district": "田寮區",
+        "village": "崇德里",
+        "location": "崇德路社區巷7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.383953,
+          22.87948
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1746",
+        "departure_time": "1749",
+        "district": "田寮區",
+        "village": "崇德里",
+        "location": "崇德路4號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38312,
+          22.879546
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1747",
+        "departure_time": "1750",
+        "district": "田寮區",
+        "village": "崇德里",
+        "location": "崇德路北勢巷3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.382402,
+          22.8804
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1748",
+        "departure_time": "1751",
+        "district": "田寮區",
+        "village": "崇德里",
+        "location": "崇德路北勢巷22號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.390506,
+          22.885173
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1750",
+        "departure_time": "1753",
+        "district": "田寮區",
+        "village": "崇德里",
+        "location": "月球路45號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.394296,
+          22.886593
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kef-6916-212b42",
+        "city": "kaohsiung",
+        "route_name": "KEF-6916",
+        "car_seq": "KEF-6916",
+        "arrival_time": "1753",
+        "departure_time": "1756",
+        "district": "田寮區",
+        "village": "崇德里",
+        "location": "月球路5之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

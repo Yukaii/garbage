@@ -1,0 +1,419 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.371358,
+          22.774289
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1720",
+        "departure_time": "1725",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "湖內巷10之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330803,
+          22.78758
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1741",
+        "departure_time": "1743",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "臥牛巷24號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.385056,
+          22.776799
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1745",
+        "departure_time": "1747",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "臥牛巷16之4號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.341618,
+          22.789031
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1750",
+        "departure_time": "1753",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "臥牛巷10-1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.385851,
+          22.771598
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1800",
+        "departure_time": "1803",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "大仁路2巷68號路口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.380684,
+          22.769313
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1808",
+        "departure_time": "1811",
+        "district": "燕巢區",
+        "village": "橫山里",
+        "location": "橫山路8巷10號路口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.377402,
+          22.764126
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1818",
+        "departure_time": "1821",
+        "district": "燕巢區",
+        "village": "橫山里",
+        "location": "大山巷1-2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.385326,
+          22.7708
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1825",
+        "departure_time": "1828",
+        "district": "燕巢區",
+        "village": "橫山里",
+        "location": "大仁路31號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.388278,
+          22.771605
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1853",
+        "departure_time": "1855",
+        "district": "燕巢區",
+        "village": "橫山里",
+        "location": "深興路203號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.391375,
+          22.7715
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1900",
+        "departure_time": "1903",
+        "district": "燕巢區",
+        "village": "橫山里",
+        "location": "深興路51巷55號巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.408606,
+          22.770285
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1918",
+        "departure_time": "1920",
+        "district": "燕巢區",
+        "village": "橫山里",
+        "location": "大占巷29號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.407236,
+          22.773278
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1923",
+        "departure_time": "1925",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "深中路13號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.41351,
+          22.776602
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "1929",
+        "departure_time": "1932",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "南勢巷4之3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.419653,
+          22.78152
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "2000",
+        "departure_time": "2003",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "深水路9之2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.407614,
+          22.773282
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "2010",
+        "departure_time": "2013",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "深中路21巷19號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.40463,
+          22.773914
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "2015",
+        "departure_time": "2017",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "深中路16之1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.393181,
+          22.773779
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "2026",
+        "departure_time": "2029",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "深興路26巷28之1號路口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.387426,
+          22.77156
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-6876-09a367",
+        "city": "kaohsiung",
+        "route_name": "KEB-6876",
+        "car_seq": "KEB-6876",
+        "arrival_time": "2033",
+        "departure_time": "2036",
+        "district": "燕巢區",
+        "village": "深水里",
+        "location": "深興路200號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

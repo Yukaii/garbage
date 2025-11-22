@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32951,
+          22.601804
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6208-7fa68f",
+        "city": "kaohsiung",
+        "route_name": "KEP-6208",
+        "car_seq": "KEP-6208",
+        "arrival_time": "1625",
+        "departure_time": "1626",
+        "district": "前鎮區",
+        "village": "瑞平里",
+        "location": "崗山西街34號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329184,
+          22.602173
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6208-7fa68f",
+        "city": "kaohsiung",
+        "route_name": "KEP-6208",
+        "car_seq": "KEP-6208",
+        "arrival_time": "1626",
+        "departure_time": "1627",
+        "district": "前鎮區",
+        "village": "瑞平里",
+        "location": "崗山西街62號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32885,
+          22.602595
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6208-7fa68f",
+        "city": "kaohsiung",
+        "route_name": "KEP-6208",
+        "car_seq": "KEP-6208",
+        "arrival_time": "1627",
+        "departure_time": "1628",
+        "district": "前鎮區",
+        "village": "瑞平里",
+        "location": "崗山西街102號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328377,
+          22.602305
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6208-7fa68f",
+        "city": "kaohsiung",
+        "route_name": "KEP-6208",
+        "car_seq": "KEP-6208",
+        "arrival_time": "1629",
+        "departure_time": "1630",
+        "district": "前鎮區",
+        "village": "瑞祥里",
+        "location": "瑞誠街99號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328717,
+          22.601863
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6208-7fa68f",
+        "city": "kaohsiung",
+        "route_name": "KEP-6208",
+        "car_seq": "KEP-6208",
+        "arrival_time": "1630",
+        "departure_time": "1631",
+        "district": "前鎮區",
+        "village": "瑞祥里",
+        "location": "瑞誠街59號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32859,
+          22.600553
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6208-7fa68f",
+        "city": "kaohsiung",
+        "route_name": "KEP-6208",
+        "car_seq": "KEP-6208",
+        "arrival_time": "1638",
+        "departure_time": "1640",
+        "district": "前鎮區",
+        "village": "瑞祥里",
+        "location": "福祥街10巷38號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32802,
+          22.602899
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6208-7fa68f",
+        "city": "kaohsiung",
+        "route_name": "KEP-6208",
+        "car_seq": "KEP-6208",
+        "arrival_time": "1840",
+        "departure_time": "1842",
+        "district": "前鎮區",
+        "village": "瑞祥里",
+        "location": "崗山中街163號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327149,
+          22.602046
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kep-6208-7fa68f",
+        "city": "kaohsiung",
+        "route_name": "KEP-6208",
+        "car_seq": "KEP-6208",
+        "arrival_time": "1846",
+        "departure_time": "1847",
+        "district": "前鎮區",
+        "village": "瑞祥里",
+        "location": "崗山中街216號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

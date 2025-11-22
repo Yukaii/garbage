@@ -1,0 +1,965 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647463,
+          24.214575
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0655",
+        "departure_time": "0710",
+        "district": "大雅區",
+        "village": "四德里",
+        "location": "中山路271號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647463,
+          24.214575
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0655",
+        "departure_time": "0710",
+        "district": "大雅區",
+        "village": "四德里",
+        "location": "中山路271號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.645088,
+          24.222833
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0725",
+        "departure_time": "0740",
+        "district": "大雅區",
+        "village": "文雅里",
+        "location": "中山北路452號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.645088,
+          24.222833
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0725",
+        "departure_time": "0740",
+        "district": "大雅區",
+        "village": "文雅里",
+        "location": "中山北路452號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.648876,
+          24.217272
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0750",
+        "departure_time": "0753",
+        "district": "大雅區",
+        "village": "文雅里",
+        "location": "中清路3段925號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.648876,
+          24.217272
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0750",
+        "departure_time": "0753",
+        "district": "大雅區",
+        "village": "文雅里",
+        "location": "中清路3段925號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647593,
+          24.215911
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0756",
+        "departure_time": "0759",
+        "district": "大雅區",
+        "village": "四德里",
+        "location": "中山路287號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.647593,
+          24.215911
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0756",
+        "departure_time": "0759",
+        "district": "大雅區",
+        "village": "四德里",
+        "location": "中山路287號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644453,
+          24.204546
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0800",
+        "departure_time": "0803",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "中山路3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644453,
+          24.204546
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0800",
+        "departure_time": "0803",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "中山路3號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.643232,
+          24.205929
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0807",
+        "departure_time": "0810",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "中山三路8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.643232,
+          24.205929
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0807",
+        "departure_time": "0810",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "中山三路8號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.640878,
+          24.204863
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0812",
+        "departure_time": "0815",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "中山一路29號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.640878,
+          24.204863
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0812",
+        "departure_time": "0815",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "中山一路29號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.646204,
+          24.208749
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0828",
+        "departure_time": "0831",
+        "district": "大雅區",
+        "village": "四德里",
+        "location": "中山十二路63號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.646204,
+          24.208749
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0828",
+        "departure_time": "0831",
+        "district": "大雅區",
+        "village": "四德里",
+        "location": "中山十二路63號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.648407,
+          24.219304
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0900",
+        "departure_time": "0903",
+        "district": "大雅區",
+        "village": "大雅里",
+        "location": "中清路三段988號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.648407,
+          24.219304
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0900",
+        "departure_time": "0903",
+        "district": "大雅區",
+        "village": "大雅里",
+        "location": "中清路三段988號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.645939,
+          24.224564
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0912",
+        "departure_time": "0915",
+        "district": "大雅區",
+        "village": "大雅里",
+        "location": "中清路3段1182號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.645939,
+          24.224564
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0912",
+        "departure_time": "0915",
+        "district": "大雅區",
+        "village": "大雅里",
+        "location": "中清路3段1182號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.641013,
+          24.230674
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0920",
+        "departure_time": "0923",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "中清路四段306號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.641013,
+          24.230674
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0920",
+        "departure_time": "0923",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "中清路四段306號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.630567,
+          24.24086
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0940",
+        "departure_time": "0943",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "中清路四段900號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.630567,
+          24.24086
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "0940",
+        "departure_time": "0943",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "中清路四段900號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624418,
+          24.242167
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1050",
+        "departure_time": "1053",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "中清路五段235號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624418,
+          24.242167
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1050",
+        "departure_time": "1053",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "中清路五段235號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624343,
+          24.235057
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1110",
+        "departure_time": "1113",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "月祥路447號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624343,
+          24.235057
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1110",
+        "departure_time": "1113",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "月祥路447號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624522,
+          24.241627
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1130",
+        "departure_time": "1133",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "文化路132號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624522,
+          24.241627
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1130",
+        "departure_time": "1133",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "文化路132號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63737,
+          24.233301
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1150",
+        "departure_time": "1153",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "中清路四段485號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.63737,
+          24.233301
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1150",
+        "departure_time": "1153",
+        "district": "大雅區",
+        "village": "六寶里",
+        "location": "中清路四段485號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644937,
+          24.225788
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1200",
+        "departure_time": "1203",
+        "district": "大雅區",
+        "village": "文雅里",
+        "location": "中清路4段15號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644937,
+          24.225788
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1200",
+        "departure_time": "1203",
+        "district": "大雅區",
+        "village": "文雅里",
+        "location": "中清路4段15號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.634962,
+          24.211559
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1208",
+        "departure_time": "1211",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "中和路20號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.634962,
+          24.211559
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1208",
+        "departure_time": "1211",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "中和路20號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644119,
+          24.212472
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1222",
+        "departure_time": "1225",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "中山十一路46號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644119,
+          24.212472
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1222",
+        "departure_time": "1225",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "中山十一路46號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635468,
+          24.206797
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1255",
+        "departure_time": "1258",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "永和路六甲巷4之5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.635468,
+          24.206797
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keb-0283-4462a0-d6",
+        "city": "taichung",
+        "route_name": "KEB-0283",
+        "car_seq": "KEB-0283",
+        "arrival_time": "1255",
+        "departure_time": "1258",
+        "district": "大雅區",
+        "village": "橫山里",
+        "location": "永和路六甲巷4之5號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 6
+      }
+    }
+  ]
+}

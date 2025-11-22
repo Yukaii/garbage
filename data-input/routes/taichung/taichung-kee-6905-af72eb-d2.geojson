@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644898,
+          24.18042
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6905-af72eb-d2",
+        "city": "taichung",
+        "route_name": "KEE-6905",
+        "car_seq": "KEE-6905",
+        "arrival_time": "0700",
+        "departure_time": "0705",
+        "district": "西屯區",
+        "village": "西平里",
+        "location": "福星路330-6號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637286,
+          24.181056
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6905-af72eb-d2",
+        "city": "taichung",
+        "route_name": "KEE-6905",
+        "car_seq": "KEE-6905",
+        "arrival_time": "0735",
+        "departure_time": "0740",
+        "district": "西屯區",
+        "village": "西墩里",
+        "location": "西屯路三段41-3號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.633382,
+          24.161951
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kee-6905-af72eb-d2",
+        "city": "taichung",
+        "route_name": "KEE-6905",
+        "car_seq": "KEE-6905",
+        "arrival_time": "0805",
+        "departure_time": "0810",
+        "district": "西屯區",
+        "village": "潮洋里",
+        "location": "市政路598號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

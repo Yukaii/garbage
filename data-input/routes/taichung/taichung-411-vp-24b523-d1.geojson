@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.69107,
+          24.143851
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-411-vp-24b523-d1",
+        "city": "taichung",
+        "route_name": "411-VP",
+        "car_seq": "411-VP",
+        "arrival_time": "0700",
+        "departure_time": "0720",
+        "district": "東區",
+        "village": "富台里",
+        "location": "富台東街52號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68919,
+          24.144023
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-411-vp-24b523-d1",
+        "city": "taichung",
+        "route_name": "411-VP",
+        "car_seq": "411-VP",
+        "arrival_time": "0725",
+        "departure_time": "0745",
+        "district": "東區",
+        "village": "富台里",
+        "location": "復興路5段117號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.688364,
+          24.13584
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-411-vp-24b523-d1",
+        "city": "taichung",
+        "route_name": "411-VP",
+        "car_seq": "411-VP",
+        "arrival_time": "0750",
+        "departure_time": "0810",
+        "district": "東區",
+        "village": "新庄里",
+        "location": "大智路19號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.690062,
+          24.134343
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-411-vp-24b523-d1",
+        "city": "taichung",
+        "route_name": "411-VP",
+        "car_seq": "411-VP",
+        "arrival_time": "0813",
+        "departure_time": "0830",
+        "district": "東區",
+        "village": "振興里",
+        "location": "信義街224號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

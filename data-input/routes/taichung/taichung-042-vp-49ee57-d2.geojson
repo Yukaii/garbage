@@ -1,0 +1,965 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.711132,
+          24.077525
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0700",
+        "departure_time": "0705",
+        "district": "霧峰區",
+        "village": "吉峰里",
+        "location": "吉峰路105巷8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.711132,
+          24.077525
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0705",
+        "departure_time": "0705",
+        "district": "霧峰區",
+        "village": "吉峰里",
+        "location": "吉峰路105巷8號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.724339,
+          24.077241
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0710",
+        "departure_time": "0715",
+        "district": "霧峰區",
+        "village": "吉峰里",
+        "location": "民生路417巷5號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.722378,
+          24.07636
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0713",
+        "departure_time": "0718",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路412巷96號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.724339,
+          24.077241
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0715",
+        "departure_time": "0715",
+        "district": "霧峰區",
+        "village": "吉峰里",
+        "location": "民生路417巷5號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.722378,
+          24.07636
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0718",
+        "departure_time": "0718",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路412巷96號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.728624,
+          24.075289
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0722",
+        "departure_time": "0727",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路八德巷6號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.724735,
+          24.074299
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0725",
+        "departure_time": "0730",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路426巷6弄8號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.728624,
+          24.075289
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0727",
+        "departure_time": "0727",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路八德巷6號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.724735,
+          24.074299
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0730",
+        "departure_time": "0730",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路426巷6弄8號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.725752,
+          24.07521
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0730",
+        "departure_time": "0735",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路430號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.733261,
+          24.070747
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0732",
+        "departure_time": "0737",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "暗坑巷24-2號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.725752,
+          24.07521
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0735",
+        "departure_time": "0735",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路430號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.733261,
+          24.070747
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0737",
+        "departure_time": "0737",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "暗坑巷24-2號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.732302,
+          24.068687
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0745",
+        "departure_time": "0750",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路606巷23-3號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.733446,
+          24.069051
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0747",
+        "departure_time": "0752",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路620號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.735512,
+          24.066704
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0749",
+        "departure_time": "0754",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路671巷30號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.732302,
+          24.068687
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0750",
+        "departure_time": "0750",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路606巷23-3號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.735907,
+          24.067392
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0751",
+        "departure_time": "0756",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路651巷16號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.733446,
+          24.069051
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0752",
+        "departure_time": "0752",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路620號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.735512,
+          24.066704
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0754",
+        "departure_time": "0754",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路671巷30號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.735695,
+          24.06589
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0755",
+        "departure_time": "0800",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路675號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.735907,
+          24.067392
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0756",
+        "departure_time": "0756",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路651巷16號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.737236,
+          24.064043
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0757",
+        "departure_time": "0802",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路711號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.735695,
+          24.06589
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0800",
+        "departure_time": "0800",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路675號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.738628,
+          24.062076
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0800",
+        "departure_time": "0805",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路769號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.737236,
+          24.064043
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0802",
+        "departure_time": "0802",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路711號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.737829,
+          24.060918
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0802",
+        "departure_time": "0807",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "南坑巷19號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.738628,
+          24.062076
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0805",
+        "departure_time": "0805",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路769號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.737829,
+          24.060918
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0807",
+        "departure_time": "0807",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "南坑巷19號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.740448,
+          24.062417
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0815",
+        "departure_time": "0820",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "中坑巷1-1號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.740448,
+          24.062417
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0820",
+        "departure_time": "0820",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "中坑巷1-1號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.740998,
+          24.064927
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0820",
+        "departure_time": "0825",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路780號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.740998,
+          24.064927
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0825",
+        "departure_time": "0825",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路780號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.750181,
+          24.069593
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0825",
+        "departure_time": "0830",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路867號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.75151,
+          24.070981
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0828",
+        "departure_time": "0833",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路895號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.750181,
+          24.069593
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0830",
+        "departure_time": "0830",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路867號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.75151,
+          24.070981
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0833",
+        "departure_time": "0833",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路895號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7556,
+          24.069184
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0835",
+        "departure_time": "0840",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路992號",
+        "type": "沿街",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.7556,
+          24.069184
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-042-vp-49ee57-d2",
+        "city": "taichung",
+        "route_name": "042-VP",
+        "car_seq": "042-VP",
+        "arrival_time": "0840",
+        "departure_time": "0840",
+        "district": "霧峰區",
+        "village": "桐林里",
+        "location": "民生路992號",
+        "type": "沿街",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

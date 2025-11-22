@@ -1,0 +1,419 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.526374,
+          22.95661
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1652",
+        "departure_time": "1655",
+        "district": "杉林區",
+        "village": "月眉里",
+        "location": "清水路公明巷21號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.528674,
+          22.948034
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1654",
+        "departure_time": "1657",
+        "district": "杉林區",
+        "village": "月美里",
+        "location": "桐竹路241號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.53218,
+          22.945799
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1659",
+        "departure_time": "1702",
+        "district": "杉林區",
+        "village": "月美里",
+        "location": "桐竹路181-2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.531794,
+          22.940073
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1702",
+        "departure_time": "1705",
+        "district": "杉林區",
+        "village": "月美里",
+        "location": "桐竹路191號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.532428,
+          22.938544
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1705",
+        "departure_time": "1708",
+        "district": "杉林區",
+        "village": "月美里",
+        "location": "桐竹路200號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.528803,
+          22.940653
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1709",
+        "departure_time": "1712",
+        "district": "杉林區",
+        "village": "月美里",
+        "location": "桐竹路212號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.526487,
+          22.945402
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1711",
+        "departure_time": "1714",
+        "district": "杉林區",
+        "village": "月美里",
+        "location": "桐竹路236號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5327,
+          22.946294
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1713",
+        "departure_time": "1716",
+        "district": "杉林區",
+        "village": "月美里",
+        "location": "桐竹路170號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.534688,
+          22.944462
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1716",
+        "departure_time": "1719",
+        "district": "杉林區",
+        "village": "月美里",
+        "location": "桐竹路145號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.534049,
+          22.953956
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1721",
+        "departure_time": "1724",
+        "district": "杉林區",
+        "village": "月美里",
+        "location": "桐竹路61號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.536719,
+          22.970348
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1800",
+        "departure_time": "1803",
+        "district": "杉林區",
+        "village": "月眉里",
+        "location": "清水路283號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.531724,
+          22.968509
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1807",
+        "departure_time": "1810",
+        "district": "杉林區",
+        "village": "月眉里",
+        "location": "清水路路西巷12號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.53183,
+          22.964338
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1812",
+        "departure_time": "1815",
+        "district": "杉林區",
+        "village": "月眉里",
+        "location": "清水路45號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.525034,
+          22.961279
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1816",
+        "departure_time": "1819",
+        "district": "杉林區",
+        "village": "月眉里",
+        "location": "清水路2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.531366,
+          22.963054
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1832",
+        "departure_time": "1835",
+        "district": "杉林區",
+        "village": "月眉里",
+        "location": "清水路36號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.534636,
+          22.968592
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1837",
+        "departure_time": "1840",
+        "district": "杉林區",
+        "village": "月眉里",
+        "location": "清水路路東巷7號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.535464,
+          22.966462
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1840",
+        "departure_time": "1843",
+        "district": "杉林區",
+        "village": "月眉里",
+        "location": "清水路朝雲巷10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.538292,
+          22.970044
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keh-6621-de226f",
+        "city": "kaohsiung",
+        "route_name": "KEH-6621",
+        "car_seq": "KEH-6621",
+        "arrival_time": "1842",
+        "departure_time": "1845",
+        "district": "杉林區",
+        "village": "月眉里",
+        "location": "清水路304號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

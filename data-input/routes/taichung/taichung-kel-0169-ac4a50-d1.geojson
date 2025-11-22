@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.67635455936393,
+          24.171541485815936
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-0169-ac4a50-d1",
+        "city": "taichung",
+        "route_name": "KEL-0169",
+        "car_seq": "KEL-0169",
+        "arrival_time": "0700",
+        "departure_time": "0725",
+        "district": "北區",
+        "village": "賴興里",
+        "location": "北平路二段95號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68123756271248,
+          24.166919457409605
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-0169-ac4a50-d1",
+        "city": "taichung",
+        "route_name": "KEL-0169",
+        "car_seq": "KEL-0169",
+        "arrival_time": "0730",
+        "departure_time": "0800",
+        "district": "北區",
+        "village": "賴厝里",
+        "location": "漢口路四段234號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.68483187015288,
+          24.164020036035843
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-0169-ac4a50-d1",
+        "city": "taichung",
+        "route_name": "KEL-0169",
+        "car_seq": "KEL-0169",
+        "arrival_time": "0805",
+        "departure_time": "0830",
+        "district": "北區",
+        "village": "崇德里",
+        "location": "崇德路一段481號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

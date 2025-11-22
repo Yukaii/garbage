@@ -1,0 +1,695 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32333,
+          22.612352
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1600",
+        "departure_time": "1601",
+        "district": "前鎮區",
+        "village": "竹北里",
+        "location": "二聖一路166號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322762,
+          22.612977
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1602",
+        "departure_time": "1603",
+        "district": "前鎮區",
+        "village": "竹北里",
+        "location": "和平二路220號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.323222,
+          22.613887
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1604",
+        "departure_time": "1605",
+        "district": "前鎮區",
+        "village": "竹北里",
+        "location": "英德街93號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33354,
+          22.604178
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1632",
+        "departure_time": "1633",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "永豐路21號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.335669,
+          22.604972
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1637",
+        "departure_time": "1639",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "崗山南街10號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334695,
+          22.603356
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1641",
+        "departure_time": "1643",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "保泰路359號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334515,
+          22.603214
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1643",
+        "departure_time": "1644",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "永豐路8號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.333147,
+          22.603562
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1645",
+        "departure_time": "1646",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "崗山南街293號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332807,
+          22.603344
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1646",
+        "departure_time": "1647",
+        "district": "前鎮區",
+        "village": "瑞平里",
+        "location": "崗山南街313號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32077,
+          22.61398
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1822",
+        "departure_time": "1823",
+        "district": "前鎮區",
+        "village": "竹中里",
+        "location": "英德街106號與廣西路1巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332142,
+          22.60848
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1848",
+        "departure_time": "1851",
+        "district": "前鎮區",
+        "village": "瑞興里",
+        "location": "武慶一路249號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332693,
+          22.606189
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1903",
+        "departure_time": "1905",
+        "district": "前鎮區",
+        "village": "瑞昌里",
+        "location": "武慶一路136號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332741,
+          22.604489
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1906",
+        "departure_time": "1910",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "武慶一路44號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332417,
+          22.603847
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1914",
+        "departure_time": "1915",
+        "district": "前鎮區",
+        "village": "瑞平里",
+        "location": "崗山橫街40號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332567,
+          22.602429
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1917",
+        "departure_time": "1921",
+        "district": "前鎮區",
+        "village": "瑞平里",
+        "location": "公正路11號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332285,
+          22.601842
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1921",
+        "departure_time": "1922",
+        "district": "前鎮區",
+        "village": "瑞平里",
+        "location": "保泰路267號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331643,
+          22.601451
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1923",
+        "departure_time": "1924",
+        "district": "前鎮區",
+        "village": "瑞平里",
+        "location": "保泰路229號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330662,
+          22.600978
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "1924",
+        "departure_time": "1925",
+        "district": "前鎮區",
+        "village": "瑞平里",
+        "location": "保泰路185號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325098,
+          22.611132
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2048",
+        "departure_time": "2049",
+        "district": "前鎮區",
+        "village": "竹東里",
+        "location": "英明一路111號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331507,
+          22.604755
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2100",
+        "departure_time": "2101",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "崗山橫街91號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33129,
+          22.605369
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2101",
+        "departure_time": "2103",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "瑞隆路361號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.332849,
+          22.605511
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2105",
+        "departure_time": "2107",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "瑞隆路263號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334038,
+          22.603213
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2108",
+        "departure_time": "2111",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "永豐路11號與瑞雄街口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334202,
+          22.603584
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2112",
+        "departure_time": "2113",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "永豐路18號與瑞雄街口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334194,
+          22.603006
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2117",
+        "departure_time": "2118",
+        "district": "前鎮區",
+        "village": "瑞隆里",
+        "location": "永豐路78號巷口",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329063,
+          22.605467
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2126",
+        "departure_time": "2127",
+        "district": "前鎮區",
+        "village": "瑞崗里",
+        "location": "瑞隆路472號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.328193,
+          22.605392
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2127",
+        "departure_time": "2128",
+        "district": "前鎮區",
+        "village": "瑞崗里",
+        "location": "瑞隆路518號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326742,
+          22.605287
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2129",
+        "departure_time": "2130",
+        "district": "前鎮區",
+        "village": "瑞崗里",
+        "location": "瑞隆路574號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327226,
+          22.605705
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2132",
+        "departure_time": "2133",
+        "district": "前鎮區",
+        "village": "瑞崗里",
+        "location": "瑞和街231號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.330179,
+          22.606736
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-899-n6-6783aa",
+        "city": "kaohsiung",
+        "route_name": "899-N6",
+        "car_seq": "899-N6",
+        "arrival_time": "2139",
+        "departure_time": "2141",
+        "district": "前鎮區",
+        "village": "瑞崗里",
+        "location": "瑞和街67號前",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

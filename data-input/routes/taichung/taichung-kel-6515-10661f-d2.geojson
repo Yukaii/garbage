@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.713742,
+          24.217331
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6515-10661f-d2",
+        "city": "taichung",
+        "route_name": "KEL-6515",
+        "car_seq": "KEL-6515",
+        "arrival_time": "1850",
+        "departure_time": "1910",
+        "district": "潭子區",
+        "village": "嘉仁里",
+        "location": "仁愛路二段44號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.713742,
+          24.217331
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6515-10661f-d2",
+        "city": "taichung",
+        "route_name": "KEL-6515",
+        "car_seq": "KEL-6515",
+        "arrival_time": "1850",
+        "departure_time": "1910",
+        "district": "潭子區",
+        "village": "嘉仁里",
+        "location": "仁愛路二段44號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.690065,
+          24.228411
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6515-10661f-d2",
+        "city": "taichung",
+        "route_name": "KEL-6515",
+        "car_seq": "KEL-6515",
+        "arrival_time": "1920",
+        "departure_time": "1940",
+        "district": "潭子區",
+        "village": "新田里",
+        "location": "龍興巷20之7號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.690065,
+          24.228411
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6515-10661f-d2",
+        "city": "taichung",
+        "route_name": "KEL-6515",
+        "car_seq": "KEL-6515",
+        "arrival_time": "1920",
+        "departure_time": "1940",
+        "district": "潭子區",
+        "village": "新田里",
+        "location": "龍興巷20之7號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.728228,
+          24.196783
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6515-10661f-d2",
+        "city": "taichung",
+        "route_name": "KEL-6515",
+        "car_seq": "KEL-6515",
+        "arrival_time": "1950",
+        "departure_time": "2010",
+        "district": "潭子區",
+        "village": "聚興里",
+        "location": "潭興路一段17巷10之1號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.728228,
+          24.196783
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6515-10661f-d2",
+        "city": "taichung",
+        "route_name": "KEL-6515",
+        "car_seq": "KEL-6515",
+        "arrival_time": "1950",
+        "departure_time": "2010",
+        "district": "潭子區",
+        "village": "聚興里",
+        "location": "潭興路一段17巷10之1號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.722234,
+          24.203288
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6515-10661f-d2",
+        "city": "taichung",
+        "route_name": "KEL-6515",
+        "car_seq": "KEL-6515",
+        "arrival_time": "2015",
+        "departure_time": "2035",
+        "district": "潭子區",
+        "village": "聚興里",
+        "location": "豐興路一段557巷2號旁",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.722234,
+          24.203288
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6515-10661f-d2",
+        "city": "taichung",
+        "route_name": "KEL-6515",
+        "car_seq": "KEL-6515",
+        "arrival_time": "2015",
+        "departure_time": "2035",
+        "district": "潭子區",
+        "village": "聚興里",
+        "location": "豐興路一段557巷2號旁",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 2
+      }
+    }
+  ]
+}

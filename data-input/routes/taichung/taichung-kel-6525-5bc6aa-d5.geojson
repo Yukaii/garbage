@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.71388982065449,
+          24.167524781109172
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6525-5bc6aa-d5",
+        "city": "taichung",
+        "route_name": "KEL-6525",
+        "car_seq": "KEL-6525",
+        "arrival_time": "0657",
+        "departure_time": "0703",
+        "district": "北屯區",
+        "village": "水景里",
+        "location": "景賢路396號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.71881399672284,
+          24.17466920951317
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6525-5bc6aa-d5",
+        "city": "taichung",
+        "route_name": "KEL-6525",
+        "car_seq": "KEL-6525",
+        "arrival_time": "0732",
+        "departure_time": "0738",
+        "district": "北屯區",
+        "village": "軍功里",
+        "location": "軍功路一段603號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.74005387462493,
+          24.17939463813798
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6525-5bc6aa-d5",
+        "city": "taichung",
+        "route_name": "KEL-6525",
+        "car_seq": "KEL-6525",
+        "arrival_time": "0807",
+        "departure_time": "0813",
+        "district": "北屯區",
+        "village": "東山里",
+        "location": "東山路二段31號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 5
+      }
+    }
+  ]
+}

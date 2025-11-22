@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624239,
+          24.104531
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-6302-690a49-d1",
+        "city": "taichung",
+        "route_name": "KES-6302",
+        "car_seq": "KES-6302",
+        "arrival_time": "0700",
+        "departure_time": "0705",
+        "district": "烏日區",
+        "village": "烏日里",
+        "location": "新興路312號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624239,
+          24.104531
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-6302-690a49-d1",
+        "city": "taichung",
+        "route_name": "KES-6302",
+        "car_seq": "KES-6302",
+        "arrival_time": "0700",
+        "departure_time": "0705",
+        "district": "烏日區",
+        "village": "烏日里",
+        "location": "新興路312號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639796,
+          24.10553
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-6302-690a49-d1",
+        "city": "taichung",
+        "route_name": "KES-6302",
+        "car_seq": "KES-6302",
+        "arrival_time": "1830",
+        "departure_time": "1835",
+        "district": "烏日區",
+        "village": "仁德里",
+        "location": "興祥街20巷28號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.639796,
+          24.10553
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-6302-690a49-d1",
+        "city": "taichung",
+        "route_name": "KES-6302",
+        "car_seq": "KES-6302",
+        "arrival_time": "1830",
+        "departure_time": "1835",
+        "district": "烏日區",
+        "village": "仁德里",
+        "location": "興祥街20巷28號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637366,
+          24.10934
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-6302-690a49-d1",
+        "city": "taichung",
+        "route_name": "KES-6302",
+        "car_seq": "KES-6302",
+        "arrival_time": "1905",
+        "departure_time": "1910",
+        "district": "烏日區",
+        "village": "九德里",
+        "location": "興祥街121號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.637366,
+          24.10934
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kes-6302-690a49-d1",
+        "city": "taichung",
+        "route_name": "KES-6302",
+        "car_seq": "KES-6302",
+        "arrival_time": "1905",
+        "departure_time": "1910",
+        "district": "烏日區",
+        "village": "九德里",
+        "location": "興祥街121號",
+        "type": "定點",
+        "collection_type": "recycling",
+        "day_of_week": 1
+      }
+    }
+  ]
+}

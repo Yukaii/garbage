@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.661548,
+          24.149127
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-0278-7be855-d4",
+        "city": "taichung",
+        "route_name": "KEL-0278",
+        "car_seq": "KEL-0278",
+        "arrival_time": "0700",
+        "departure_time": "0725",
+        "district": "西區",
+        "village": "中興里",
+        "location": "美村路214號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.666844,
+          24.14873
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-0278-7be855-d4",
+        "city": "taichung",
+        "route_name": "KEL-0278",
+        "car_seq": "KEL-0278",
+        "arrival_time": "0730",
+        "departure_time": "0755",
+        "district": "西區",
+        "village": "双龍里",
+        "location": "模範街與模範街34巷1號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.671381,
+          24.147804
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-0278-7be855-d4",
+        "city": "taichung",
+        "route_name": "KEL-0278",
+        "car_seq": "KEL-0278",
+        "arrival_time": "0800",
+        "departure_time": "0830",
+        "district": "西區",
+        "village": "後龍里",
+        "location": "梅川東路一段80號",
+        "type": "定點",
+        "collection_type": "garbage",
+        "day_of_week": 4
+      }
+    }
+  ]
+}

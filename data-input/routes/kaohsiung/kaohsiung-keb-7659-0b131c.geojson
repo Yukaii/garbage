@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350213,
+          22.721677
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7659-0b131c",
+        "city": "kaohsiung",
+        "route_name": "KEB-7659",
+        "car_seq": "KEB-7659",
+        "arrival_time": "1749",
+        "departure_time": "1755",
+        "district": "大社區",
+        "village": "中里里",
+        "location": "文化路3號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348052,
+          22.724739
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7659-0b131c",
+        "city": "kaohsiung",
+        "route_name": "KEB-7659",
+        "car_seq": "KEB-7659",
+        "arrival_time": "1809",
+        "departure_time": "1815",
+        "district": "大社區",
+        "village": "中里里",
+        "location": "文聖路142號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

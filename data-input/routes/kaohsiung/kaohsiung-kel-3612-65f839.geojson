@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.284862,
+          22.618545
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3612-65f839",
+        "city": "kaohsiung",
+        "route_name": "KEL-3612",
+        "car_seq": "KEL-3612",
+        "arrival_time": "0730",
+        "departure_time": "0745",
+        "district": "鹽埕區",
+        "village": "南端里",
+        "location": "大義街2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28446,
+          22.629642
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3612-65f839",
+        "city": "kaohsiung",
+        "route_name": "KEL-3612",
+        "car_seq": "KEL-3612",
+        "arrival_time": "0855",
+        "departure_time": "0905",
+        "district": "鹽埕區",
+        "village": "府北里",
+        "location": "七賢二路470號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.282535,
+          22.630002
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3612-65f839",
+        "city": "kaohsiung",
+        "route_name": "KEL-3612",
+        "car_seq": "KEL-3612",
+        "arrival_time": "0910",
+        "departure_time": "0915",
+        "district": "鹽埕區",
+        "village": "博愛里",
+        "location": "建國四路299號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28228,
+          22.630507
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3612-65f839",
+        "city": "kaohsiung",
+        "route_name": "KEL-3612",
+        "car_seq": "KEL-3612",
+        "arrival_time": "0950",
+        "departure_time": "1000",
+        "district": "鹽埕區",
+        "village": "慈愛里",
+        "location": "北端街6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.279948,
+          22.624483
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3612-65f839",
+        "city": "kaohsiung",
+        "route_name": "KEL-3612",
+        "car_seq": "KEL-3612",
+        "arrival_time": "1040",
+        "departure_time": "1045",
+        "district": "鹽埕區",
+        "village": "江西里",
+        "location": "建國四路124號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.281826,
+          22.629702
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kel-3612-65f839",
+        "city": "kaohsiung",
+        "route_name": "KEL-3612",
+        "car_seq": "KEL-3612",
+        "arrival_time": "1050",
+        "departure_time": "1055",
+        "district": "鹽埕區",
+        "village": "博愛里",
+        "location": "富野路168巷4弄6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}

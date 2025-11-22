@@ -1,0 +1,764 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.398289,
+          22.500499
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1620",
+        "departure_time": "1628",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "沿海路二段99號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.406034,
+          22.499497
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1628",
+        "departure_time": "1632",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "沿海路一段24號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.397977,
+          22.502257
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1632",
+        "departure_time": "1636",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "鳳林路一段2號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.398893,
+          22.503632
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1636",
+        "departure_time": "1652",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "東林東路151號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.403953,
+          22.500879
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1653",
+        "departure_time": "1657",
+        "district": "林園區",
+        "village": "五福里",
+        "location": "五福路20號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.403222,
+          22.504785
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1657",
+        "departure_time": "1705",
+        "district": "林園區",
+        "village": "五福里",
+        "location": "溪州三路46巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.402137,
+          22.502758
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1705",
+        "departure_time": "1710",
+        "district": "林園區",
+        "village": "五福里",
+        "location": "五福路165巷1號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.40136,
+          22.502112
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1713",
+        "departure_time": "1718",
+        "district": "林園區",
+        "village": "五福里",
+        "location": "沿海路一段280巷6弄41號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.399953,
+          22.504079
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1718",
+        "departure_time": "1723",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "東林東路186號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.397831,
+          22.504152
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1720",
+        "departure_time": "1725",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "鳳林路一段96號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.396638,
+          22.507518
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1725",
+        "departure_time": "1733",
+        "district": "林園區",
+        "village": "林園里",
+        "location": "鳳林路二段22號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.395712,
+          22.516967
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1743",
+        "departure_time": "1748",
+        "district": "林園區",
+        "village": "潭頭里",
+        "location": "鳳林路三段10號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.400822,
+          22.525576
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1748",
+        "departure_time": "1753",
+        "district": "林園區",
+        "village": "潭頭里",
+        "location": "鳳林路三段620號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.402559,
+          22.530055
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1750",
+        "departure_time": "1756",
+        "district": "林園區",
+        "village": "中厝里",
+        "location": "鳳林路三段887號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.400707,
+          22.526375
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1758",
+        "departure_time": "1802",
+        "district": "林園區",
+        "village": "潭頭里",
+        "location": "鳳林路三段683號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.39715,
+          22.523665
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1802",
+        "departure_time": "1810",
+        "district": "林園區",
+        "village": "潭頭里",
+        "location": "潭頭路149號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.398493,
+          22.525176
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1810",
+        "departure_time": "1815",
+        "district": "林園區",
+        "village": "潭頭里",
+        "location": "潭平路70號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.398559,
+          22.525445
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1813",
+        "departure_time": "1818",
+        "district": "林園區",
+        "village": "潭頭里",
+        "location": "潭平路73號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.39824,
+          22.527612
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1816",
+        "departure_time": "1821",
+        "district": "林園區",
+        "village": "中厝里",
+        "location": "中厝路30號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.401475,
+          22.536024
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1912",
+        "departure_time": "1917",
+        "district": "林園區",
+        "village": "林內里",
+        "location": "林內路250號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.399411,
+          22.531714
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1914",
+        "departure_time": "1919",
+        "district": "林園區",
+        "village": "中厝里",
+        "location": "林內路6號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.397068,
+          22.526568
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1916",
+        "departure_time": "1921",
+        "district": "林園區",
+        "village": "潭頭里",
+        "location": "潭頭路246號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.396598,
+          22.521699
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1918",
+        "departure_time": "1923",
+        "district": "林園區",
+        "village": "潭頭里",
+        "location": "鳳林路三段225號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.395107,
+          22.517399
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1920",
+        "departure_time": "1925",
+        "district": "林園區",
+        "village": "潭頭里",
+        "location": "清水岩路8號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.394612,
+          22.517226
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1930",
+        "departure_time": "1935",
+        "district": "林園區",
+        "village": "王公里",
+        "location": "清水岩路35號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.395082,
+          22.516397
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1936",
+        "departure_time": "1941",
+        "district": "林園區",
+        "village": "王公里",
+        "location": "林園北路551號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.395855,
+          22.512561
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1940",
+        "departure_time": "1945",
+        "district": "林園區",
+        "village": "林園里",
+        "location": "鳳林路二段725號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.396708,
+          22.505794
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1945",
+        "departure_time": "1950",
+        "district": "林園區",
+        "village": "東林里",
+        "location": "鳳林路一段157號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.396928,
+          22.507178
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1947",
+        "departure_time": "1952",
+        "district": "林園區",
+        "village": "林園里",
+        "location": "忠孝東路61號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.401075,
+          22.509436
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "1947",
+        "departure_time": "2005",
+        "district": "林園區",
+        "village": "溪州里",
+        "location": "溪州二路289號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.405513,
+          22.516802
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "2017",
+        "departure_time": "2022",
+        "district": "林園區",
+        "village": "溪州里",
+        "location": "溪州一路132號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.410608,
+          22.52571
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "2030",
+        "departure_time": "2035",
+        "district": "林園區",
+        "village": "溪州里",
+        "location": "工業二路300巷55之5號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.411951,
+          22.516297
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-kew-0078-365599",
+        "city": "kaohsiung",
+        "route_name": "KEW-0078",
+        "car_seq": "KEW-0078",
+        "arrival_time": "2036",
+        "departure_time": "2040",
+        "district": "林園區",
+        "village": "溪州里",
+        "location": "工業二路90號",
+        "type": "定點",
+        "collection_type": "garbage"
+      }
+    }
+  ]
+}
