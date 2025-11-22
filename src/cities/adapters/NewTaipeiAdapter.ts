@@ -45,6 +45,7 @@ export class NewTaipeiAdapter extends CityDataAdapter<NewTaipeiTrashCollectionPo
       village: point.village,
       location: point.name,
       route: point.linename,
+      carSeq: point.linename, // New Taipei uses linename as both route and car identifier
       arrivalTime,
       departureTime,
       longitude: point.longitude,
