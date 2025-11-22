@@ -102,6 +102,21 @@ jobs:
             --valhalla-config-host=valhalla.json \
             --valhalla-config-container=/data/valhalla.json
 
+      - name: Generate route metadata
+        run: |
+          if [ ! -d build/routes ]; then
+            echo "No routes generated; skipping metadata generation."
+            exit 0
+          fi
+
+          cd ../data-branch
+          
+          # Copy generated routes first (needed for metadata generation)
+          rsync -a --delete ../taipei-trash/build/routes/ ./routes/
+          
+          # Generate metadata from waypoint files
+          node generate-route-metadata.js
+
       - name: Publish to data branch
         run: |
           if [ ! -d build/routes ]; then
@@ -111,8 +126,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          rsync -a --delete build/routes/ ../data-branch/routes/
 
           cd ../data-branch
           git add routes
