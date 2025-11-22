@@ -88,6 +88,8 @@ export interface UnifiedTrashCollectionPoint {
   village: string; // Village/里 (may be empty for real-time data)
   location: string; // Location name
   route: string; // Route/Line name or ID
+  carSeq?: string; // Car sequence (e.g., "第1車") - for Taipei
+  team?: string; // Team/Squad name (e.g., "泉州分隊") - for Taipei
   arrivalTime: string; // Format: HHMM for internal use
   departureTime: string; // Format: HHMM for internal use
   longitude: string;

@@ -13,6 +13,7 @@ import {
   interpolateTruckPosition,
   fetchRouteGeometry,
   fetchRouteManifest,
+  fetchRouteMetadata,
 } from './api';
 import type { RouteGeometry, RouteManifest } from './types';
 import { Layers, Locate, Navigation, Route, X } from 'lucide-react';
@@ -74,6 +75,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   const [routeGeometry, setRouteGeometry] = useState<RouteGeometry | null>(null);
   const [loadingRoute, setLoadingRoute] = useState(false);
   const [routeManifests, setRouteManifests] = useState<Map<string, RouteManifest>>(new Map());
+  const [routeMetadata, setRouteMetadata] = useState<Record<string, Record<string, string>> | null>(null);
 
   useEffect(() => {
     // Update current time every minute for popup countdowns (only if not using prop)
@@ -148,6 +150,8 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
   // Fetch route geometry when route is selected
   useEffect(() => {
+    console.log('[Route Fetch] Effect triggered:', { selectedRoute, pointCount: filteredPoints.length });
+    
     if (!selectedRoute || filteredPoints.length === 0) {
       setRouteGeometry(null);
       return;
@@ -155,44 +159,120 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
     const firstPoint = filteredPoints[0];
     if (!firstPoint) {
+      console.log('[Route Fetch] No first point found');
       return;
     }
 
     const city = firstPoint.source;
+    console.log('[Route Fetch] City:', city, 'Route:', selectedRoute);
 
-    // Load manifest if not cached
+    // Load manifest and metadata, then fetch route geometry
     const loadAndFetchRoute = async () => {
       setLoadingRoute(true);
-
+      
       try {
         // Load manifest for this city if we don't have it
-        if (!routeManifests.has(city)) {
-          const manifest = await fetchRouteManifest(city as any);
-          if (manifest) {
-            setRouteManifests(prev => new Map(prev).set(city, manifest));
+        console.log('[Route Fetch] Checking manifest cache for:', city, 'Has cache:', routeManifests.has(city));
+        
+        let manifest = routeManifests.get(city);
+        if (!manifest) {
+          console.log('[Route Fetch] Fetching manifest for:', city);
+          const fetchedManifest = await fetchRouteManifest(city as any);
+          console.log('[Route Fetch] Manifest loaded:', fetchedManifest ? `${fetchedManifest.route_count} routes` : 'null');
+          
+          if (fetchedManifest) {
+            manifest = fetchedManifest;
+            setRouteManifests(prev => new Map(prev).set(city, manifest!));
+          } else {
+            console.error('[Route Fetch] Failed to load manifest');
+            setRouteGeometry(null);
+            setLoadingRoute(false);
+            return;
           }
         }
 
-        // For now, since we don't have the routeId directly in the point data,
-        // we'll try to derive it by matching route properties
-        // TODO: Add routeId to UnifiedTrashCollectionPoint or create a lookup table
+        // Load route metadata if we don't have it
+        if (!routeMetadata) {
+          console.log('[Route Fetch] Fetching route metadata...');
+          const metadata = await fetchRouteMetadata();
+          if (metadata) {
+            setRouteMetadata(metadata);
+            console.log('[Route Fetch] Metadata loaded for', Object.keys(metadata).length, 'cities');
+          } else {
+            console.error('[Route Fetch] Failed to load metadata');
+            setRouteGeometry(null);
+            setLoadingRoute(false);
+            return;
+          }
+        }
 
-        // Temporary workaround: Try common patterns or fetch first matching route
-        // This is a placeholder - ideally we should map route+car_seq -> routeId properly
-        console.warn('Route geometry fetching needs proper routeId mapping');
-        console.log('Selected route:', selectedRoute, 'First point:', firstPoint);
+        // Find all unique car sequences in this route
+        const uniqueCarSeqs = Array.from(new Set(
+          filteredPoints
+            .map(p => p.carSeq)
+            .filter((seq): seq is string => seq !== undefined)
+        ));
+        
+        console.log('[Route Fetch] Searching for route:', firstPoint.route);
+        console.log('[Route Fetch] Found', uniqueCarSeqs.length, 'unique car sequences:', uniqueCarSeqs);
 
-        setRouteGeometry(null);
+        if (uniqueCarSeqs.length === 0) {
+          console.warn('[Route Fetch] No carSeq field in point data, cannot match route');
+          setRouteGeometry(null);
+          setLoadingRoute(false);
+          return;
+        }
+
+        const cityMetadata = routeMetadata?.[city];
+        if (!cityMetadata) {
+          console.error('[Route Fetch] No metadata for city:', city);
+          setRouteGeometry(null);
+          setLoadingRoute(false);
+          return;
+        }
+
+        // Fetch geometry for all car sequences
+        const allGeometries: RouteGeometry[] = [];
+        for (const carSeq of uniqueCarSeqs) {
+          const lookupKey = `${firstPoint.route}|${carSeq}`;
+          console.log('[Route Fetch] Looking up routeId with key:', lookupKey);
+
+          const routeId = cityMetadata[lookupKey];
+          if (!routeId) {
+            console.warn('[Route Fetch] No routeId found for key:', lookupKey);
+            continue;
+          }
+
+          console.log('[Route Fetch] ✓ Found routeId:', routeId);
+          const geometry = await fetchRouteGeometry(city as any, routeId);
+          if (geometry) {
+            allGeometries.push(geometry);
+          }
+        }
+
+        // Combine all geometries into one FeatureCollection
+        if (allGeometries.length > 0) {
+          const combinedGeometry: RouteGeometry = {
+            type: 'FeatureCollection',
+            features: allGeometries.flatMap(g => g.features)
+          };
+          console.log('[Route Fetch] ✓ Combined', allGeometries.length, 'car route geometries with', combinedGeometry.features.length, 'total features');
+          setRouteGeometry(combinedGeometry);
+        } else {
+          console.warn('[Route Fetch] No geometries found for any car sequence');
+          setRouteGeometry(null);
+        }
+        
         setLoadingRoute(false);
       } catch (error) {
-        console.error('Failed to load route:', error);
+        console.error('[Route Fetch] Failed to load route:', error);
         setRouteGeometry(null);
         setLoadingRoute(false);
       }
     };
 
     loadAndFetchRoute();
-  }, [selectedRoute, filteredPoints, routeManifests]);
+  }, [selectedRoute, filteredPoints, routeManifests, routeMetadata]);
 
   // Auto-fit bounds when route is selected
   useEffect(() => {

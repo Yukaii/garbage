@@ -40,6 +40,8 @@ export class TaipeiAdapter extends CityDataAdapter<TaipeiTrashCollectionPoint> {
       village: point.里別,
       location: point.地點,
       route: point.路線,
+      carSeq: point.車次,
+      team: point.分隊,
       arrivalTime: point.抵達時間,
       departureTime: point.離開時間,
       longitude: point.經度,

@@ -293,18 +293,51 @@ export async function fetchRouteGeometry(city: City, routeId: string): Promise<R
  */
 export async function fetchRouteManifest(city: City): Promise<RouteManifest | null> {
   try {
-    // Use rawcdn.githack.com with specific commit for reliable access
-    // Commit: 659184e73e8c016afc4996816a7effc8c3ec2c2a (data branch)
+    // Use rawcdn.githack.com with data branch
     const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/data';
     const url = `${cdnBase}/routes/${city}/routes-manifest.json`;
+    console.log('[API] Fetching route manifest:', url);
+
     const response = await fetch(url);
+    console.log('[API] Manifest response:', response.status, response.statusText);
+
     if (!response.ok) {
-      console.warn(`Route manifest not found for city: ${city}`);
+      console.warn(`[API] Route manifest not found for city: ${city} (${response.status})`);
       return null;
     }
-    return await response.json() as RouteManifest;
+
+    const data = await response.json() as RouteManifest;
+    console.log('[API] Manifest loaded for', city, ':', data.route_count, 'routes');
+    return data;
   } catch (error) {
-    console.error(`Failed to fetch route manifest for ${city}:`, error);
+    console.error(`[API] Failed to fetch route manifest for ${city}:`, error);
     return null;
   }
 }
+
+/**
+ * Fetch route metadata mapping (route_name|car_seq -> routeId)
+ */
+export async function fetchRouteMetadata(): Promise<Record<string, Record<string, string>> | null> {
+  try {
+    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/data';
+    const url = `${cdnBase}/routes/route-metadata.json`;
+    console.log('[API] Fetching route metadata:', url);
+
+    const response = await fetch(url);
+    console.log('[API] Route metadata response:', response.status, response.statusText);
+
+    if (!response.ok) {
+      console.warn(`[API] Route metadata not found (${response.status})`);
+      return null;
+    }
+
+    const data = await response.json() as Record<string, Record<string, string>>;
+    console.log('[API] Route metadata loaded for cities:', Object.keys(data));
+    return data;
+  } catch (error) {
+    console.error('[API] Failed to fetch route metadata:', error);
+    return null;
+  }
+}
+
