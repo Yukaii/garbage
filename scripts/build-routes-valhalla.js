@@ -3,6 +3,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import { spawn, execSync } from "child_process";
 import { fileURLToPath } from "url";
+import http from "http";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = process.cwd();
@@ -46,6 +47,95 @@ const valhallaConfigContainer =
 const valhallaRouteCmd =
   args["valhalla-route-cmd"] || args["valhalla_route_cmd"] || "valhalla_run_route";
 const maxLocationsPerRequest = Number(args["max-locations"] || process.env.MAX_VALHALLA_LOCS || 20);
+const limitFiles = args["limit"] ? Number(args["limit"]) : null;
+
+const valhallaPort = 8002;
+const containerName = "valhalla_service_runner";
+
+async function startValhallaService(configPathContainer) {
+  console.log(`Starting Valhalla service (config: ${configPathContainer})...`);
+  
+  try {
+    execSync(`docker rm -f ${containerName}`, { stdio: 'ignore' });
+  } catch (e) {}
+
+  const args = [
+    "run",
+    "-d",
+    "--rm",
+    "--name", containerName,
+    "-v", `${repoRoot}:/data`,
+    "-p", `${valhallaPort}:8002`,
+    "ghcr.io/valhalla/valhalla:latest",
+    "valhalla_service",
+    configPathContainer,
+    "1"
+  ];
+
+  await runCommand("docker", args);
+
+  console.log("Waiting for Valhalla service to be ready...");
+  const start = Date.now();
+  while (Date.now() - start < 30000) {
+    if (await checkServiceHealth()) {
+      console.log("Valhalla service is ready.");
+      return;
+    }
+    await new Promise(r => setTimeout(r, 1000));
+  }
+  throw new Error("Timed out waiting for Valhalla service");
+}
+
+function stopValhallaService() {
+  try {
+    console.log("Stopping Valhalla service...");
+    execSync(`docker stop ${containerName}`, { stdio: 'ignore' });
+  } catch (e) {}
+}
+
+function checkServiceHealth() {
+  return new Promise((resolve) => {
+    const req = http.get(`http://localhost:${valhallaPort}/status`, (res) => {
+      if (res.statusCode === 200) resolve(true);
+      else resolve(false);
+    });
+    req.on('error', () => resolve(false));
+    req.end();
+  });
+}
+
+async function routeWithValhallaHttp(request) {
+  const postData = JSON.stringify(request);
+  return new Promise((resolve, reject) => {
+    const req = http.request({
+      hostname: 'localhost',
+      port: valhallaPort,
+      path: '/route',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(postData)
+      }
+    }, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        if (res.statusCode === 200) {
+          try {
+            resolve(JSON.parse(data));
+          } catch (e) {
+            reject(new Error("Failed to parse JSON response"));
+          }
+        } else {
+          reject(new Error(`Valhalla error ${res.statusCode}: ${data}`));
+        }
+      });
+    });
+    req.on('error', reject);
+    req.write(postData);
+    req.end();
+  });
+}
 
 async function pathExists(p) {
   try {
@@ -146,18 +236,9 @@ function buildRequest(locations, truckOptions) {
 }
 
 async function routeWithValhalla(requestFileHost, configPathContainer) {
-  const requestFileContainer = toContainerPath(requestFileHost);
-  const stdout = await runCommand(
-    valhallaRouteCmd,
-    [
-      "--json-file",
-      requestFileContainer,
-      "-c",
-      configPathContainer
-    ],
-    null
-  );
-  return JSON.parse(stdout);
+  const content = await fs.readFile(requestFileHost, "utf-8");
+  const request = JSON.parse(content);
+  return routeWithValhallaHttp(request);
 }
 
 async function routeInChunks(coords, truckOptions, tempReqDir, baseName, configPathContainer) {
@@ -208,12 +289,23 @@ async function main() {
     throw new Error(`Valhalla config not found at host path ${valhallaConfigHost}`);
   }
 
-  const files = await listGeojsonFiles(routesDir);
+  let files = await listGeojsonFiles(routesDir);
   console.log(`Found ${files.length} route definition files under ${routesDir}`);
   if (files.length === 0) {
     console.log("No route definition files found. Nothing to do.");
     return;
   }
+  
+  if (limitFiles !== null && limitFiles > 0) {
+    files = files.slice(0, limitFiles);
+    console.log(`Limiting processing to ${files.length} file(s) for testing`);
+  }
+
+  // Start the Valhalla service
+  const configContainer = toContainerPath(valhallaConfigHost);
+  await startValhallaService(configContainer);
+
+  try {
 
   const tempReqDir = path.join(outDir, "..", ".valhalla-requests");
   await ensureDir(tempReqDir);
@@ -326,7 +418,7 @@ async function main() {
             source_file: relative,
             distance_km: summary.length,
             duration_min: summary.time ? summary.time / 60 : null,
-            valhalla_config: path.basename(valhallaConfig),
+            valhalla_config: path.basename(valhallaConfigHost),
           },
         },
       ],
@@ -370,6 +462,9 @@ async function main() {
   } else {
     console.log(`Processed ${totalProcessed} routes. Failed: ${totalFailed}`);
     console.log(`Outputs written to ${outDir}`);
+  }
+  } finally {
+    stopValhallaService();
   }
 }
 

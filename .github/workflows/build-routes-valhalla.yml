@@ -62,17 +62,11 @@ jobs:
             def init_limits(name):
               (.service_limits[name] //= {}) |
               (.service_limits[name].max_locations //= 500) |
-              (.service_limits[name].max_distance //= 5000) |
-              (.service_limits[name].max_matrix_distance //= 5000) |
-              (.service_limits[name].max_matrix_duration //= 5000) |
-              (.service_limits[name].max_matrix_location_pairs //= (500*500));
+              (.service_limits[name].max_distance //= 50000000) |
+              (.service_limits[name].max_matrix_distance //= 50000000) |
+              (.service_limits[name].max_matrix_location_pairs //= 250000);
 
             (.service_limits //= {}) |
-            (.service_limits.max_locations = 500) |
-            (.service_limits.max_distance = 5000) |
-            (.service_limits.max_matrix_distance = 5000) |
-            (.service_limits.max_matrix_duration = 5000) |
-            (.service_limits.max_matrix_location_pairs = 500*500) |
             init_limits("auto") |
             init_limits("auto_shorter") |
             init_limits("truck") |
@@ -82,7 +76,8 @@ jobs:
             init_limits("pedestrian") |
             init_limits("bicycle") |
             init_limits("matrix") |
-            init_limits("optimized_route")
+            init_limits("optimized_route") |
+            (.mjolnir.tile_extract = null)
           ' valhalla.json > valhalla.json.tmp && mv valhalla.json.tmp valhalla.json
 
           docker run --rm -v $PWD:/data -w /data $VALHALLA_IMAGE bash -c "\
@@ -105,8 +100,7 @@ jobs:
             --routes-dir="$ROUTE_DIR" \
             --out-dir=build/routes \
             --valhalla-config-host=valhalla.json \
-            --valhalla-config-container=/data/valhalla.json \
-            --valhalla-route-cmd="docker run --rm -i -v $PWD:/data -w /data $VALHALLA_IMAGE /usr/local/bin/valhalla_run_route"
+            --valhalla-config-container=/data/valhalla.json
 
       - name: Publish to data branch
         run: |
