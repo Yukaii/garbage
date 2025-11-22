@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.616199,
+            24.179744
+          ],
+          [
+            120.616199,
+            24.179744
+          ]
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-kel-6527-47d228-d5",
+        "city": "taichung",
+        "source_file": "taichung/taichung-kel-6527-47d228-d5.geojson",
+        "distance_km": 0,
+        "duration_min": null,
+        "valhalla_config": "valhalla.json"
+      }
+    }
+  ]
+}

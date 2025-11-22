@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.656529,
+            24.160615
+          ],
+          [
+            120.656651,
+            24.160988
+          ],
+          [
+            120.656827,
+            24.161532
+          ],
+          [
+            120.657207,
+            24.16264
+          ],
+          [
+            120.657397,
+            24.16316
+          ],
+          [
+            120.657074,
+            24.163361
+          ],
+          [
+            120.656895,
+            24.163444
+          ],
+          [
+            120.656617,
+            24.16358
+          ],
+          [
+            120.656514,
+            24.16363
+          ],
+          [
+            120.655972,
+            24.163915
+          ]
+        ]
+      },
+      "properties": {
+        "routeId": "taichung-keu-6275-cb5b3f-d2",
+        "city": "taichung",
+        "source_file": "taichung/taichung-keu-6275-cb5b3f-d2.geojson",
+        "distance_km": 0.464,
+        "duration_min": 0.8135833333333333,
+        "valhalla_config": "valhalla.json"
+      }
+    }
+  ]
+}

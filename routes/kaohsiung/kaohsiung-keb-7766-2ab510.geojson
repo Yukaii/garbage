@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.374097,
+            22.618968
+          ],
+          [
+            120.374045,
+            22.619491
+          ],
+          [
+            120.374042,
+            22.620001
+          ],
+          [
+            120.374042,
+            22.620048
+          ],
+          [
+            120.374509,
+            22.620106
+          ],
+          [
+            120.374594,
+            22.620139
+          ],
+          [
+            120.374863,
+            22.620363
+          ]
+        ]
+      },
+      "properties": {
+        "routeId": "kaohsiung-keb-7766-2ab510",
+        "city": "kaohsiung",
+        "source_file": "kaohsiung/kaohsiung-keb-7766-2ab510.geojson",
+        "distance_km": 0.215,
+        "duration_min": 0.5032,
+        "valhalla_config": "valhalla.json"
+      }
+    }
+  ]
+}
