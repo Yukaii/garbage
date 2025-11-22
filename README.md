@@ -1,12 +1,44 @@
-# Taipei & New Taipei Trash Collection Data
+# Taiwan Trash Collection Data
 
-This orphan branch contains static JSON data for trash collection points in Taipei City and New Taipei City.
+This orphan branch contains static data for trash collection points across Taiwan cities.
 
-## Files
+## Structure
 
-- `trash-collection-points.json` - Complete dataset of 4000+ Taipei City trash collection points
-- `new-taipei-trash-collection-points.json` - Complete dataset of 26,822 New Taipei City trash collection points (29 districts)
-- `fetch-new-taipei-data.ts` - Script to fetch and update New Taipei City data from the API
+```
+data-branch/
+├── data-input/
+│   └── routes/          # Waypoint definitions for route generation
+│       ├── taipei/
+│       ├── new-taipei/
+│       ├── taichung/
+│       └── kaohsiung/
+├── routes/              # Generated route geometries (by GitHub Actions)
+│   ├── taipei/
+│   ├── new-taipei/
+│   ├── taichung/
+│   ├── kaohsiung/
+│   └── route-metadata.json  # Route lookup metadata
+├── trash-collection-points.json
+├── new-taipei-trash-collection-points.json
+├── taichung-trash-collection-points.json
+└── kaohsiung-trash-collection-points.json
+```
+
+## Important: Script Management
+
+**All scripts are managed in the main branch** under `scripts/`. This data branch contains **only data files**.
+
+Scripts in the main branch that operate on this data branch:
+- `scripts/generate-route-metadata.js` - Generates route-metadata.json from waypoint files
+- `scripts/build-routes-valhalla.js` - Generates route geometries using Valhalla
+- `scripts/generate-waypoints-from-data.js` - Creates waypoint files from raw data
+- GitHub Actions workflows in `.github/workflows/`
+
+This separation ensures:
+- Single source of truth for scripts (main branch)
+- Data branch remains clean with only data files
+- Scripts can be versioned and tested independently
+- Easier to maintain and update
 
 ## Data Sources
 
