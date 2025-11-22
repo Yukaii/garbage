@@ -273,7 +273,7 @@ export async function fetchRouteGeometry(city: City, routeId: string): Promise<R
   try {
     // Use rawcdn.githack.com with specific commit for reliable access
     // Commit: 659184e73e8c016afc4996816a7effc8c3ec2c2a (data branch)
-    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/data';
+    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/c8d2681';
     const url = `${cdnBase}/routes/${city}/${routeId}.geojson`;
     const response = await fetch(url);
     if (!response.ok) {
@@ -294,7 +294,7 @@ export async function fetchRouteGeometry(city: City, routeId: string): Promise<R
 export async function fetchRouteManifest(city: City): Promise<RouteManifest | null> {
   try {
     // Use rawcdn.githack.com with data branch
-    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/data';
+    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/c8d2681';
     const url = `${cdnBase}/routes/${city}/routes-manifest.json`;
     console.log('[API] Fetching route manifest:', url);
 
@@ -320,7 +320,7 @@ export async function fetchRouteManifest(city: City): Promise<RouteManifest | nu
  */
 export async function fetchRouteMetadata(): Promise<Record<string, Record<string, string>> | null> {
   try {
-    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/data';
+    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/c8d2681';
     const url = `${cdnBase}/routes/route-metadata.json`;
     console.log('[API] Fetching route metadata:', url);
 
