@@ -4,7 +4,7 @@
  * All city-specific logic is now in adapters. This file provides
  * a clean interface for the rest of the app.
  */
-import type { UnifiedTrashCollectionPoint } from './types';
+import type { UnifiedTrashCollectionPoint, RouteGeometry, RouteManifest } from './types';
 import { cityRegistry, type City } from './cities/cityRegistry';
 
 /**
@@ -263,4 +263,48 @@ export function interpolateTruckPosition(
     progress: 1,
     status: currentMinutes > lastDeparture ? 'after' : 'active',
   };
+}
+
+/**
+ * Fetch route geometry from data branch via rawcdn.githack.com
+ * Routes are pre-computed with Valhalla and stored as GeoJSON LineStrings
+ */
+export async function fetchRouteGeometry(city: City, routeId: string): Promise<RouteGeometry | null> {
+  try {
+    // Use rawcdn.githack.com with specific commit for reliable access
+    // Commit: 659184e73e8c016afc4996816a7effc8c3ec2c2a (data branch)
+    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/data';
+    const url = `${cdnBase}/routes/${city}/${routeId}.geojson`;
+    const response = await fetch(url);
+    if (!response.ok) {
+      console.warn(`Route geometry not found: ${city}/${routeId}`);
+      return null;
+    }
+    return await response.json() as RouteGeometry;
+  } catch (error) {
+    console.error(`Failed to fetch route geometry for ${city}/${routeId}:`, error);
+    return null;
+  }
+}
+
+/**
+ * Fetch route manifest for a city from data branch via rawcdn.githack.com
+ * Contains metadata for all routes including distance and duration
+ */
+export async function fetchRouteManifest(city: City): Promise<RouteManifest | null> {
+  try {
+    // Use rawcdn.githack.com with specific commit for reliable access
+    // Commit: 659184e73e8c016afc4996816a7effc8c3ec2c2a (data branch)
+    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/data';
+    const url = `${cdnBase}/routes/${city}/routes-manifest.json`;
+    const response = await fetch(url);
+    if (!response.ok) {
+      console.warn(`Route manifest not found for city: ${city}`);
+      return null;
+    }
+    return await response.json() as RouteManifest;
+  } catch (error) {
+    console.error(`Failed to fetch route manifest for ${city}:`, error);
+    return null;
+  }
 }

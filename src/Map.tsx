@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, useMemo } from 'react';
-import Map, { Source, Layer, Popup, NavigationControl, Marker } from 'react-map-gl/maplibre';
+import MapLibre, { Source, Layer, Popup, NavigationControl, Marker } from 'react-map-gl/maplibre';
 import type { MapRef } from 'react-map-gl';
 import type { CircleLayer, SymbolLayer } from 'maplibre-gl';
 import type { UnifiedTrashCollectionPoint } from './types';
@@ -11,7 +11,10 @@ import {
   formatTimeDifference,
   parseTimeToMinutes,
   interpolateTruckPosition,
+  fetchRouteGeometry,
+  fetchRouteManifest,
 } from './api';
+import type { RouteGeometry, RouteManifest } from './types';
 import { Layers, Locate, Navigation, Route, X } from 'lucide-react';
 import RouteSelector from './RouteSelector';
 import 'maplibre-gl/dist/maplibre-gl.css';
@@ -68,6 +71,9 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     east: number;
     west: number;
   } | null>(null);
+  const [routeGeometry, setRouteGeometry] = useState<RouteGeometry | null>(null);
+  const [loadingRoute, setLoadingRoute] = useState(false);
+  const [routeManifests, setRouteManifests] = useState<Map<string, RouteManifest>>(new Map());
 
   useEffect(() => {
     // Update current time every minute for popup countdowns (only if not using prop)
@@ -140,6 +146,54 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     return interpolateTruckPosition(sortedPoints, currentTimeMinutes);
   }, [selectedRoute, filteredPoints, currentTimeMinutes]);
 
+  // Fetch route geometry when route is selected
+  useEffect(() => {
+    if (!selectedRoute || filteredPoints.length === 0) {
+      setRouteGeometry(null);
+      return;
+    }
+
+    const firstPoint = filteredPoints[0];
+    if (!firstPoint) {
+      return;
+    }
+
+    const city = firstPoint.source;
+
+    // Load manifest if not cached
+    const loadAndFetchRoute = async () => {
+      setLoadingRoute(true);
+
+      try {
+        // Load manifest for this city if we don't have it
+        if (!routeManifests.has(city)) {
+          const manifest = await fetchRouteManifest(city as any);
+          if (manifest) {
+            setRouteManifests(prev => new Map(prev).set(city, manifest));
+          }
+        }
+
+        // For now, since we don't have the routeId directly in the point data,
+        // we'll try to derive it by matching route properties
+        // TODO: Add routeId to UnifiedTrashCollectionPoint or create a lookup table
+
+        // Temporary workaround: Try common patterns or fetch first matching route
+        // This is a placeholder - ideally we should map route+car_seq -> routeId properly
+        console.warn('Route geometry fetching needs proper routeId mapping');
+        console.log('Selected route:', selectedRoute, 'First point:', firstPoint);
+
+        setRouteGeometry(null);
+        setLoadingRoute(false);
+      } catch (error) {
+        console.error('Failed to load route:', error);
+        setRouteGeometry(null);
+        setLoadingRoute(false);
+      }
+    };
+
+    loadAndFetchRoute();
+  }, [selectedRoute, filteredPoints, routeManifests]);
+
   // Auto-fit bounds when route is selected
   useEffect(() => {
     if (selectedRoute && filteredPoints.length > 0 && mapRef.current) {
@@ -205,10 +259,16 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   }), [filteredPoints, currentTimeMinutes, selectedRoute]);
 
   // Create route line GeoJSON for selected route
+  // Use Valhalla geometry if available, otherwise fall back to straight-line connection
   const routeLineGeoJson = useMemo(() => {
     if (!selectedRoute || filteredPoints.length === 0) return null;
 
-    // Sort points by time/rank
+    // If we have fetched route geometry from Valhalla, use it
+    if (routeGeometry && routeGeometry.features.length > 0) {
+      return routeGeometry;
+    }
+
+    // Fallback: create straight-line connection between points
     const sortedPoints = [...filteredPoints].sort((a, b) => {
       if (a.source === 'new-taipei') {
         const rankA = parseInt(a.id.split('-').pop() || '0');
@@ -234,7 +294,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         },
       }],
     };
-  }, [selectedRoute, filteredPoints]);
+  }, [selectedRoute, filteredPoints, routeGeometry]);
 
   // Filter points to only those visible in viewport (for label rendering)
   // Show labels at high zoom OR when route is selected
@@ -530,7 +590,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
   return (
     <div className='absolute h-full w-full'>
-      <Map
+      <MapLibre
         ref={mapRef}
         initialViewState={getInitialViewState()}
         style={{ width: '100%', height: '100%' }}
@@ -864,7 +924,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       )}
 
       <NavigationControl position="top-right" />
-    </Map>
+    </MapLibre>
 
     {/* Route Name Label - Top Center */}
     {selectedRoute && filteredPoints.length > 0 && (

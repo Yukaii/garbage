@@ -109,3 +109,43 @@ export interface RouteInfo {
   points: UnifiedTrashCollectionPoint[]; // Ordered stops
   source: 'taipei' | 'new-taipei' | 'taichung';
 }
+
+// Valhalla route geometry (from data branch routes/)
+export interface RouteGeometry {
+  type: 'FeatureCollection';
+  features: Array<{
+    type: 'Feature';
+    geometry: {
+      type: 'LineString';
+      coordinates: [number, number][]; // [lng, lat]
+    };
+    properties: {
+      routeId: string;
+      city: string;
+      source_file: string;
+      distance_km: number;
+      duration_min: number | null;
+      valhalla_config: string;
+    };
+  }>;
+}
+
+// Route manifest from data branch
+export interface RouteManifest {
+  city: string;
+  generated_at: string;
+  routes: Array<{
+    routeId: string;
+    file: string;
+    distance_km: number;
+    duration_min: number | null;
+    source_file: string;
+  }>;
+  route_count: number;
+  failed_routes: Array<{
+    routeId: string;
+    reason: string;
+  }>;
+  valhalla_config: string;
+  notes: string;
+}
