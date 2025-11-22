@@ -122,11 +122,18 @@ mapRef.current.getSource('route-line').serialize()
 ### Current Coverage
 - **Taipei**: 465 routes in metadata
 - **New Taipei**: 1 route in metadata ⚠️ (needs fixing)
+- **Taichung**: Ready for waypoint generation (adapter supports carSeq)
+- **Kaohsiung**: Ready for waypoint generation (adapter supports carSeq)
 
-### Next Steps
-1. Generate missing New Taipei route metadata
-2. Run Valhalla routing for missing routes
-3. Update metadata.json with new entries
+### Next Steps for Taichung/Kaohsiung
+1. Generate waypoint files in data branch using `scripts/generate-waypoints-from-data.js`
+   - Add `buildTaichung()` and `buildKaohsiung()` functions to the script
+   - Group points by vehicle license (route identifier)
+   - Sort by arrival time within each route
+   - Output to `data-input/routes/taichung/` and `data-input/routes/kaohsiung/`
+2. Run Valhalla routing workflow to generate route geometries
+3. Update `generate-route-metadata.js` to include taichung and kaohsiung cities
+4. Verify route rendering in frontend with sample routes
 
 ## Files Modified
 

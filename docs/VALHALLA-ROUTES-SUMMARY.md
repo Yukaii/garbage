@@ -29,13 +29,16 @@ export interface UnifiedTrashCollectionPoint {
   // ... existing fields
   carSeq?: string;    // NEW: Vehicle sequence (e.g., "第1車")
   team?: string;      // NEW: Collection team name
+  source: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';  // UPDATED
 }
 ```
 
-✅ **TaipeiAdapter Enhanced** (`src/cities/adapters/TaipeiAdapter.ts`)
-- Now maps `車次` → `carSeq`
-- Now maps `分隊` → `team`
-- Enables route matching via car sequence number
+✅ **Adapter Enhancements**
+- **TaipeiAdapter**: Maps `車次` → `carSeq`
+- **NewTaipeiAdapter**: Maps line ID → `carSeq`
+- **TaichungAdapter**: Maps vehicle license → `carSeq` (e.g., "KEQ-0315")
+- **KaohsiungAdapter**: Maps vehicle license/route → `carSeq`
+- All adapters now provide route identifiers for geometry matching
 
 ### 3. API Functions Added (`src/api.ts`)
 
@@ -214,13 +217,22 @@ If route geometry not found:
 - **Fix Required**: Re-run metadata generation for New Taipei routes
 - **Priority**: Medium (Taipei routes working perfectly)
 
-### 2. Missing Routes
+### 2. Taichung & Kaohsiung Not Yet Generated ⚠️
+- **Status**: Frontend adapters ready with carSeq mapping
+- **Next Steps**:
+  1. Generate waypoint files in data branch (`scripts/generate-waypoints-from-data.js`)
+  2. Run Valhalla routing workflow
+  3. Update route metadata generation script
+- **Impact**: These cities will show straight-line fallback until route data is generated
+- **Priority**: Medium (infrastructure is ready)
+
+### 3. Missing Routes
 - **Issue**: Some routes may not have geometry files
 - **Impact**: Falls back to straight lines (graceful)
 - **Fix**: Run Valhalla routing for missing routes
 - **Priority**: Low (fallback works)
 
-### 3. Debug Logging
+### 4. Debug Logging
 - **Issue**: Verbose console.log statements in production
 - **Impact**: Console clutter, minor performance overhead
 - **Fix**: Remove after verification complete
@@ -234,6 +246,16 @@ If route geometry not found:
 1. ✅ **Test in browser** - Verify route "泉州-2" renders correctly
 2. 📝 **Fix New Taipei metadata** - Re-run generation script for all NT routes
 3. 🧹 **Clean up logs** - Remove debug console.log statements
+
+### Taichung & Kaohsiung Route Generation
+1. **Generate waypoint files** in data branch:
+   - Add `buildTaichung()` and `buildKaohsiung()` functions to `scripts/generate-waypoints-from-data.js`
+   - Group points by vehicle license (used as route identifier)
+   - Sort by arrival time within each route
+   - Output to `data-input/routes/taichung/` and `data-input/routes/kaohsiung/`
+2. **Run Valhalla routing workflow** to generate route geometries
+3. **Update route metadata script** (`generate-route-metadata.js`) to include taichung and kaohsiung
+4. **Test route rendering** with sample routes from both cities
 
 ### Future Enhancements
 - **Route Analytics**: Use manifest data to show distance/duration

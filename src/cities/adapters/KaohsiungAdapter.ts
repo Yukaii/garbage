@@ -63,7 +63,7 @@ export class KaohsiungAdapter extends CityDataAdapter<KaohsiungTrashCollectionPo
     return this.fetchJson<KaohsiungTrashCollectionPoint[]>(this.dataUrl);
   }
 
-  mapToUnified(point: KaohsiungTrashCollectionPoint): UnifiedTrashCollectionPoint {
+  override mapToUnified(point: KaohsiungTrashCollectionPoint): UnifiedTrashCollectionPoint {
     // Generate unique ID using coordinates and route
     const coordKey = `${parseFloat(point.longitude).toFixed(6)}_${parseFloat(point.latitude).toFixed(6)}`;
     const id = `kaohsiung-${coordKey}-${point.route}`;
@@ -75,10 +75,11 @@ export class KaohsiungAdapter extends CityDataAdapter<KaohsiungTrashCollectionPo
       village: point.village,
       location: point.location,
       route: point.route,
+      carSeq: point.route, // Use vehicle license/route as carSeq for route matching
       arrivalTime: point.arrivalTime,
       departureTime: point.departureTime,
-      longitude: parseFloat(point.longitude),
-      latitude: parseFloat(point.latitude),
+      longitude: point.longitude,
+      latitude: point.latitude,
       source: 'kaohsiung',
     };
   }
@@ -88,7 +89,7 @@ export class KaohsiungAdapter extends CityDataAdapter<KaohsiungTrashCollectionPo
    * - Data is already deduplicated by coordinates during merge
    * - No day-specific filtering needed
    */
-  postprocessData(unified: UnifiedTrashCollectionPoint[]): UnifiedTrashCollectionPoint[] {
+  override postprocessData(unified: UnifiedTrashCollectionPoint[]): UnifiedTrashCollectionPoint[] {
     console.log(`KaohsiungAdapter: ${unified.length} collection points loaded`);
     return unified;
   }

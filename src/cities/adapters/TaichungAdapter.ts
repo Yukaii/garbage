@@ -41,7 +41,7 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
     return this.fetchJson<TaichungTrashCollectionPoint[]>(this.dataUrl);
   }
 
-  mapToUnified(point: TaichungTrashCollectionPoint): UnifiedTrashCollectionPoint {
+  override mapToUnified(point: TaichungTrashCollectionPoint): UnifiedTrashCollectionPoint {
     // Generate unique ID: route-location-day-type
     const locationKey = point.location.replace(/[^a-zA-Z0-9]/g, '');
     const id = `taichung-${point.route}-${locationKey}-d${point.dayOfWeek}-${point.collectionType}`;
@@ -53,6 +53,7 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
       village: point.village,
       location: point.location,
       route: point.route,
+      carSeq: point.route, // Use vehicle license as carSeq for route matching
       arrivalTime: point.arrivalTime,
       departureTime: point.departureTime,
       longitude: point.longitude,
@@ -72,7 +73,7 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
    * - Same truck visits multiple times
    * - Different collection types (garbage/recycling)
    */
-  postprocessData(unified: UnifiedTrashCollectionPoint[]): UnifiedTrashCollectionPoint[] {
+  override postprocessData(unified: UnifiedTrashCollectionPoint[]): UnifiedTrashCollectionPoint[] {
     // Get current day of week (1 = Monday, 7 = Sunday)
     const now = new Date();
     const currentDay = now.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
@@ -82,9 +83,9 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
     const todaysPoints = unified.filter(point => {
       // Extract dayOfWeek from the ID (format: taichung-ROUTE-LOCATION-dN-TYPE)
       const match = point.id.match(/-d(\d)-/);
-      if (!match) return false;
+      if (!match || !match[1]) return false;
 
-      const pointDay = parseInt(match[1]);
+      const pointDay = parseInt(match[1], 10);
       return pointDay === taichungDay;
     });
 

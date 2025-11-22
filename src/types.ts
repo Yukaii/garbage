@@ -94,7 +94,7 @@ export interface UnifiedTrashCollectionPoint {
   departureTime: string; // Format: HHMM for internal use
   longitude: string;
   latitude: string;
-  source: 'taipei' | 'new-taipei' | 'taichung';
+  source: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';
 }
 
 // Legacy alias for backward compatibility
@@ -109,7 +109,7 @@ export interface RouteInfo {
   district: string; // District
   pointCount: number; // Number of stops
   points: UnifiedTrashCollectionPoint[]; // Ordered stops
-  source: 'taipei' | 'new-taipei' | 'taichung';
+  source: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';
 }
 
 // Valhalla route geometry (from data branch routes/)

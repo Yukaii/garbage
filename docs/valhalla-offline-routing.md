@@ -103,5 +103,17 @@ routes/
 
 ## City Onboarding Order
 - **Taipei / New Taipei first**: existing official lat/lon points are considered accurate; use them directly as ordered waypoints for initial routing runs.  
+- **Taichung / Kaohsiung**: added support with vehicle license as route identifier; waypoint files need to be generated in data branch from merged schedule + geocoded data.
 - As soon as waypoint files are added under `data-input/routes/{city}/`, the workflow can be enabled to build and publish routed lines.  
 - Defer frontend wiring until these routed outputs exist.
+
+## Frontend Route Matching
+
+For route geometry to render correctly, each city adapter must map its vehicle/route identifier to the `carSeq` field:
+
+- **Taipei**: Maps `車次` (e.g., "第1車") to `carSeq`
+- **New Taipei**: Maps line ID to `carSeq`  
+- **Taichung**: Maps vehicle license (e.g., "KEQ-0315") to `carSeq`
+- **Kaohsiung**: Maps vehicle license/route to `carSeq`
+
+The route metadata file (`routes/route-metadata.json`) uses the pattern `{route_name}|{car_seq}` as keys to map to generated `routeId` values. The frontend fetches route geometry by looking up this metadata.
