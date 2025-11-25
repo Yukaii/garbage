@@ -21,6 +21,19 @@ export function getPointIdFromUrl(): string | null {
 }
 
 /**
+ * Extract city/region from point ID
+ * Point IDs are formatted as: {city}-{rest} (e.g., taipei-123, new-taipei-lineid-rank)
+ */
+export function getCityFromPointId(pointId: string): string | null {
+  // Handle known city prefixes
+  if (pointId.startsWith('new-taipei-')) return 'new-taipei';
+  if (pointId.startsWith('taipei-')) return 'taipei';
+  if (pointId.startsWith('taichung-')) return 'taichung';
+  if (pointId.startsWith('kaohsiung-')) return 'kaohsiung';
+  return null;
+}
+
+/**
  * Remove point parameter from URL without page reload
  */
 export function clearPointFromUrl(): void {

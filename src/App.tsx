@@ -21,6 +21,7 @@ import AdSense from './AdSense';
 import { Logo } from './Logo';
 import { updateThemeColor, initializeThemeColor } from './utils/themeColor';
 import { useFavorites } from './hooks/useFavorites';
+import { getPointIdFromUrl, getCityFromPointId } from './utils/share';
 
 function App() {
   const [points, setPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
@@ -120,10 +121,21 @@ function App() {
   }, [selectedCity]);
 
   // Determine which cities should be loaded based on viewport
+  // Also include the city from shared point URL if present
   const citiesToLoad = useMemo(() => {
     const cities = getCitiesInViewport(viewportBounds, currentZoom);
-    // If no cities in viewport (zoomed out too far), fall back to selected city
-    return cities.length === 0 ? [selectedCity] : cities;
+    let result = cities.length === 0 ? [selectedCity] : cities;
+    
+    // Check if there's a shared point in URL and include its city
+    const sharedPointId = getPointIdFromUrl();
+    if (sharedPointId) {
+      const sharedPointCity = getCityFromPointId(sharedPointId);
+      if (sharedPointCity && cityRegistry.hasCity(sharedPointCity) && !result.includes(sharedPointCity as City)) {
+        result = [...result, sharedPointCity as City];
+      }
+    }
+    
+    return result;
   }, [viewportBounds, currentZoom, selectedCity]);
 
   // Check if user is viewing an unsupported area
