@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
-import { Info, Sun, Moon, ChevronDown, MessageSquarePlus, Star } from 'lucide-react';
+import { Info, Sun, Moon, ChevronDown, MessageSquarePlus, Star, X, MapPin, Navigation } from 'lucide-react';
 import Map from './Map';
 import TimeFilter, { type TimeFilterMode } from './TimeFilter';
 import {
@@ -59,6 +59,7 @@ function App() {
   const [isAboutOpen, setIsAboutOpen] = useState(false);
   const [scrollToSupport, setScrollToSupport] = useState(false);
   const [selectedRoute, setSelectedRoute] = useState<string | null>(null);
+  const [isStarredListOpen, setIsStarredListOpen] = useState(false);
   const [viewportBounds, setViewportBounds] = useState<{
     north: number;
     south: number;
@@ -338,27 +339,43 @@ function App() {
               activeCount={activeCount}
               upcomingCount={upcomingCount}
             />
-            {/* Starred filter button */}
-            <button
-              onClick={() => setShowStarredOnly(!showStarredOnly)}
-              className={`
-                flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-md transition-all
-                ${
-                  showStarredOnly
-                    ? 'bg-amber-500 text-white border-amber-500'
-                    : 'bg-white dark:bg-neutral-900 text-neutral-700 dark:text-neutral-300 border border-neutral-300 dark:border-neutral-700 hover:border-amber-500 dark:hover:border-amber-500'
-                }
-              `}
-              title={showStarredOnly ? '顯示全部站點' : '只顯示收藏站點'}
-            >
-              <Star size={14} fill={showStarredOnly ? 'currentColor' : 'none'} />
-              <span>收藏</span>
-              {starredCount > 0 && (
-                <span className={`${showStarredOnly ? 'text-amber-200' : 'text-neutral-500 dark:text-neutral-500'}`}>
-                  ({starredCount})
-                </span>
-              )}
-            </button>
+            {/* Starred filter and list buttons */}
+            <div className="flex items-center">
+              <button
+                onClick={() => setShowStarredOnly(!showStarredOnly)}
+                className={`
+                  flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-l-md transition-all border
+                  ${
+                    showStarredOnly
+                      ? 'bg-amber-500 text-white border-amber-500'
+                      : 'bg-white dark:bg-neutral-900 text-neutral-700 dark:text-neutral-300 border-neutral-300 dark:border-neutral-700 hover:border-amber-500 dark:hover:border-amber-500'
+                  }
+                `}
+                title={showStarredOnly ? '顯示全部站點' : '只顯示收藏站點'}
+              >
+                <Star size={14} fill={showStarredOnly ? 'currentColor' : 'none'} />
+                <span>收藏</span>
+                {starredCount > 0 && (
+                  <span className={`${showStarredOnly ? 'text-amber-200' : 'text-neutral-500 dark:text-neutral-500'}`}>
+                    ({starredCount})
+                  </span>
+                )}
+              </button>
+              <button
+                onClick={() => setIsStarredListOpen(!isStarredListOpen)}
+                className={`
+                  flex items-center justify-center px-2 py-1.5 text-xs font-medium rounded-r-md transition-all border border-l-0
+                  ${
+                    isStarredListOpen
+                      ? 'bg-amber-500 text-white border-amber-500'
+                      : 'bg-white dark:bg-neutral-900 text-neutral-700 dark:text-neutral-300 border-neutral-300 dark:border-neutral-700 hover:border-amber-500 dark:hover:border-amber-500'
+                  }
+                `}
+                title="查看收藏列表"
+              >
+                <ChevronDown size={14} className={`transition-transform ${isStarredListOpen ? 'rotate-180' : ''}`} />
+              </button>
+            </div>
           </div>
         </div>
         <div className="mt-2 hidden flex-wrap gap-2 text-[11px] text-neutral-600 dark:text-neutral-400 md:mt-3 md:flex md:text-xs">
@@ -413,6 +430,9 @@ function App() {
                 currentTimeMinutes={currentTimeMinutes}
                 starredPointIds={starredPointIds}
                 onToggleStar={toggleStar}
+                isStarredListOpen={isStarredListOpen}
+                onCloseStarredList={() => setIsStarredListOpen(false)}
+                allPoints={points}
               />
               {/* Subtle loading indicator for data updates */}
               {isUpdatingData && (

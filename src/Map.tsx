@@ -48,6 +48,10 @@ interface MapComponentProps {
   // Favorites feature props
   starredPointIds?: string[];
   onToggleStar?: (pointId: string) => void;
+  // Starred list panel
+  isStarredListOpen?: boolean;
+  onCloseStarredList?: () => void;
+  allPoints?: UnifiedTrashCollectionPoint[]; // All points for starred list lookup
 }
 
 type MapStyleType = 'street' | 'satellite';
@@ -56,7 +60,7 @@ type MapStyleType = 'street' | 'satellite';
 const MIN_LABEL_ZOOM_DESKTOP = 16.5;
 const MIN_LABEL_ZOOM_MOBILE = 17;
 
-export default function MapComponent({ points, darkMode, onMapLoaded, selectedRoute, onRouteSelect, onViewportChange, currentTimeMinutes: propCurrentTimeMinutes, starredPointIds = [], onToggleStar }: MapComponentProps) {
+export default function MapComponent({ points, darkMode, onMapLoaded, selectedRoute, onRouteSelect, onViewportChange, currentTimeMinutes: propCurrentTimeMinutes, starredPointIds = [], onToggleStar, isStarredListOpen = false, onCloseStarredList, allPoints = [] }: MapComponentProps) {
   const isDesktop = useIsDesktop();
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<UnifiedTrashCollectionPoint | null>(null);
@@ -168,6 +172,34 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       return () => clearTimeout(timer);
     }
   }, [shareToast]);
+
+  // Compute starred points for the list view
+  const starredPoints = useMemo(() => {
+    const pointsToSearch = allPoints.length > 0 ? allPoints : points;
+    return starredPointIds
+      .map(id => pointsToSearch.find(p => p.id === id))
+      .filter((p): p is UnifiedTrashCollectionPoint => p !== undefined);
+  }, [starredPointIds, allPoints, points]);
+
+  // Function to fly to a point and open its popup
+  const flyToPoint = useCallback((point: UnifiedTrashCollectionPoint) => {
+    const lng = parseFloat(point.longitude);
+    const lat = parseFloat(point.latitude);
+    mapRef.current?.flyTo({
+      center: [lng, lat],
+      zoom: isDesktop ? MIN_LABEL_ZOOM_DESKTOP : MIN_LABEL_ZOOM_MOBILE,
+      duration: 800,
+      essential: true,
+    });
+    // Open popup after a slight delay
+    setTimeout(() => {
+      setPopupInfo(point);
+    }, 900);
+    // Close the starred list on mobile
+    if (!isDesktop && onCloseStarredList) {
+      onCloseStarredList();
+    }
+  }, [isDesktop, onCloseStarredList]);
 
   // Filter points based on selected route
   const filteredPoints = useMemo(() => {
@@ -964,14 +996,16 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      width: '40px',
-                      padding: '8px',
+                      width: '36px',
+                      height: '36px',
+                      padding: '0',
                       backgroundColor: isPointStarred ? '#f59e0b' : (darkMode ? '#1a1a1a' : '#f5f5f5'),
                       color: isPointStarred ? '#ffffff' : (darkMode ? '#ffffff' : '#000000'),
                       border: `1px solid ${isPointStarred ? '#f59e0b' : (darkMode ? '#404040' : '#d4d4d4')}`,
                       borderRadius: '6px',
                       transition: 'all 0.2s',
                       cursor: 'pointer',
+                      flexShrink: 0,
                     }}
                     onMouseEnter={(e) => {
                       if (!isPointStarred) {
@@ -997,14 +1031,16 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    width: '40px',
-                    padding: '8px',
+                    width: '36px',
+                    height: '36px',
+                    padding: '0',
                     backgroundColor: darkMode ? '#1a1a1a' : '#f5f5f5',
                     color: darkMode ? '#ffffff' : '#000000',
                     border: `1px solid ${darkMode ? '#404040' : '#d4d4d4'}`,
                     borderRadius: '6px',
                     transition: 'all 0.2s',
                     cursor: 'pointer',
+                    flexShrink: 0,
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.borderColor = darkMode ? '#fff' : '#000';
@@ -1172,6 +1208,82 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         onLocateClick={handleLocate}
         isLocating={isLocating}
       />
+    )}
+
+    {/* Starred List Panel */}
+    {isStarredListOpen && (
+      <div className="absolute inset-0 z-40 md:inset-auto md:top-4 md:right-4 md:bottom-auto md:left-auto md:w-80 md:max-h-[calc(100vh-8rem)]">
+        {/* Backdrop for mobile */}
+        <div
+          className="absolute inset-0 bg-black/50 md:hidden"
+          onClick={onCloseStarredList}
+        />
+        {/* Panel */}
+        <div className="absolute bottom-0 left-0 right-0 md:relative md:bottom-auto max-h-[70vh] md:max-h-[calc(100vh-8rem)] rounded-t-2xl md:rounded-xl border border-neutral-200 bg-white shadow-2xl dark:border-neutral-800 dark:bg-neutral-900 flex flex-col overflow-hidden">
+          {/* Header */}
+          <div className="flex items-center justify-between border-b border-neutral-200 px-4 py-3 dark:border-neutral-800">
+            <div className="flex items-center gap-2">
+              <Star className="h-5 w-5 text-amber-500" fill="currentColor" />
+              <h3 className="text-sm font-semibold text-black dark:text-white">
+                收藏站點
+              </h3>
+              <span className="text-xs text-neutral-500 dark:text-neutral-400">
+                ({starredPoints.length})
+              </span>
+            </div>
+            <button
+              onClick={onCloseStarredList}
+              className="flex h-8 w-8 items-center justify-center rounded-md text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800"
+            >
+              <X className="h-5 w-5" />
+            </button>
+          </div>
+          {/* List */}
+          <div className="flex-1 overflow-y-auto p-2">
+            {starredPoints.length === 0 ? (
+              <div className="flex flex-col items-center justify-center py-8 text-center">
+                <Star className="h-12 w-12 text-neutral-300 dark:text-neutral-700 mb-3" />
+                <p className="text-sm text-neutral-500 dark:text-neutral-400">
+                  尚未收藏任何站點
+                </p>
+                <p className="text-xs text-neutral-400 dark:text-neutral-500 mt-1">
+                  點擊站點的星號圖示即可收藏
+                </p>
+              </div>
+            ) : (
+              starredPoints.map((point) => {
+                const timeStatus = getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes);
+                const statusColor = timeStatus === 'active' ? 'bg-green-500' : timeStatus === 'upcoming' ? 'bg-yellow-500' : 'bg-neutral-400';
+                return (
+                  <button
+                    key={point.id}
+                    onClick={() => flyToPoint(point)}
+                    className="w-full rounded-lg border border-neutral-200 bg-white p-3 text-left transition-colors hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-800 dark:hover:bg-neutral-750 mb-2"
+                  >
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2">
+                          <span className={`h-2 w-2 rounded-full ${statusColor} flex-shrink-0`} />
+                          <span className="font-medium text-sm text-black dark:text-white truncate">
+                            {point.district} - {point.village}
+                          </span>
+                        </div>
+                        <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 truncate">
+                          {point.location}
+                        </p>
+                        <p className="text-xs text-neutral-400 dark:text-neutral-500 mt-0.5">
+                          {formatTime(point.arrivalTime)} - {formatTime(point.departureTime)}
+                        </p>
+                      </div>
+                      <Navigation className="h-4 w-4 text-neutral-400 dark:text-neutral-500 flex-shrink-0 mt-1" />
+                    </div>
+                  </button>
+                );
+              })
+            )}
+          </div>
+        </div>
+      </div>
     )}
 
     {/* Share Toast */}
