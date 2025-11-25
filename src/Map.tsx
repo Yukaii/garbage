@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useMemo } from 'react';
+import { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import MapLibre, { Source, Layer, Popup, NavigationControl, Marker } from 'react-map-gl/maplibre';
 import type { MapRef } from 'react-map-gl';
 import type { CircleLayer, SymbolLayer } from 'maplibre-gl';
@@ -16,8 +16,9 @@ import {
   fetchRouteMetadata,
 } from './api';
 import type { RouteGeometry, RouteManifest } from './types';
-import { Layers, Locate, Navigation, Route, X } from 'lucide-react';
+import { Layers, Locate, Navigation, Route, X, Star, Share2 } from 'lucide-react';
 import RouteSelector from './RouteSelector';
+import { sharePoint, getPointIdFromUrl, clearPointFromUrl } from './utils/share';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 // Hook to detect if user is on desktop
@@ -44,6 +45,9 @@ interface MapComponentProps {
   onRouteSelect?: (routeKey: string | null) => void;
   onViewportChange?: (bounds: { north: number; south: number; east: number; west: number }, zoom: number) => void;
   currentTimeMinutes?: number; // Override for debug mode
+  // Favorites feature props
+  starredPointIds?: string[];
+  onToggleStar?: (pointId: string) => void;
 }
 
 type MapStyleType = 'street' | 'satellite';
@@ -52,7 +56,7 @@ type MapStyleType = 'street' | 'satellite';
 const MIN_LABEL_ZOOM_DESKTOP = 16.5;
 const MIN_LABEL_ZOOM_MOBILE = 17;
 
-export default function MapComponent({ points, darkMode, onMapLoaded, selectedRoute, onRouteSelect, onViewportChange, currentTimeMinutes: propCurrentTimeMinutes }: MapComponentProps) {
+export default function MapComponent({ points, darkMode, onMapLoaded, selectedRoute, onRouteSelect, onViewportChange, currentTimeMinutes: propCurrentTimeMinutes, starredPointIds = [], onToggleStar }: MapComponentProps) {
   const isDesktop = useIsDesktop();
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<UnifiedTrashCollectionPoint | null>(null);
@@ -60,6 +64,8 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   const [isLocating, setIsLocating] = useState(false);
   const [userLocation, setUserLocation] = useState<{ lng: number; lat: number } | null>(null);
   const [internalCurrentTimeMinutes, setInternalCurrentTimeMinutes] = useState(getCurrentTimeInMinutes());
+  const [shareToast, setShareToast] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
+  const hasHandledSharedPoint = useRef(false);
 
   // Use prop if provided (debug mode), otherwise use internal state
   const currentTimeMinutes = propCurrentTimeMinutes ?? internalCurrentTimeMinutes;
@@ -94,7 +100,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
     // Only request geolocation if there are no URL params (first time visit)
     const params = new URLSearchParams(window.location.search);
-    if (params.has('lat') || params.has('lng') || params.has('zoom')) {
+    if (params.has('lat') || params.has('lng') || params.has('zoom') || params.has('point')) {
       hasRequestedGeolocation.current = true;
       return;
     }
@@ -124,6 +130,44 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       }
     );
   }, []);
+
+  // Handle shared point from URL
+  useEffect(() => {
+    if (hasHandledSharedPoint.current || points.length === 0) return;
+
+    const sharedPointId = getPointIdFromUrl();
+    if (!sharedPointId) return;
+
+    const sharedPoint = points.find(p => p.id === sharedPointId);
+    if (sharedPoint) {
+      hasHandledSharedPoint.current = true;
+      // Fly to the shared point and open popup
+      const lng = parseFloat(sharedPoint.longitude);
+      const lat = parseFloat(sharedPoint.latitude);
+      mapRef.current?.flyTo({
+        center: [lng, lat],
+        zoom: isDesktop ? MIN_LABEL_ZOOM_DESKTOP : MIN_LABEL_ZOOM_MOBILE,
+        duration: 1200,
+        essential: true,
+      });
+      // Open popup after a slight delay to let the map fly
+      setTimeout(() => {
+        setPopupInfo(sharedPoint);
+      }, 1300);
+      // Clear the point from URL to avoid re-triggering
+      clearPointFromUrl();
+    }
+  }, [points, isDesktop]);
+
+  // Auto-hide share toast
+  useEffect(() => {
+    if (shareToast) {
+      const timer = setTimeout(() => {
+        setShareToast(null);
+      }, 2500);
+      return () => clearTimeout(timer);
+    }
+  }, [shareToast]);
 
   // Filter points based on selected route
   const filteredPoints = useMemo(() => {
@@ -315,6 +359,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     features: filteredPoints.map((point) => {
       const timeStatus = getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes);
       const isInSelectedRoute = !selectedRoute || `${point.source}-${point.route}` === selectedRoute;
+      const isStarred = starredPointIds.includes(point.id);
       return {
         type: 'Feature' as const,
         geometry: {
@@ -333,10 +378,11 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
           departureTimeFormatted: formatTime(point.departureTime),
           timeStatus: timeStatus,
           isInSelectedRoute: isInSelectedRoute,
+          isStarred: isStarred,
         },
       };
     }),
-  }), [filteredPoints, currentTimeMinutes, selectedRoute]);
+  }), [filteredPoints, currentTimeMinutes, selectedRoute, starredPointIds]);
 
   // Create route line GeoJSON for selected route
   // Use Valhalla geometry if available, otherwise fall back to straight-line connection
@@ -434,6 +480,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   }), []);
 
   // Color-code unclustered points by time status (memoized to prevent re-renders)
+  // Starred points get a gold/yellow stroke
   const unclusteredPointLayer: CircleLayer = useMemo(() => ({
     id: 'unclustered-point',
     type: 'circle',
@@ -449,22 +496,22 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         '#1a1a1a'               // Default black
       ],
       'circle-radius': [
-        'match',
-        ['get', 'timeStatus'],
-        'active', 12,           // Larger for active (increased from 10)
-        8                       // Normal size for others
+        'case',
+        ['get', 'isStarred'],
+        ['match', ['get', 'timeStatus'], 'active', 14, 10], // Larger for starred
+        ['match', ['get', 'timeStatus'], 'active', 12, 8]   // Normal size
       ],
       'circle-stroke-width': [
-        'match',
-        ['get', 'timeStatus'],
-        'active', 3,            // Thicker stroke for active
-        2                       // Normal stroke
+        'case',
+        ['get', 'isStarred'],
+        4,                      // Thicker stroke for starred
+        ['match', ['get', 'timeStatus'], 'active', 3, 2] // Normal stroke
       ],
       'circle-stroke-color': [
-        'match',
-        ['get', 'timeStatus'],
-        'active', '#22c55e',    // Green stroke for active (pulsing effect)
-        '#fff'                  // White stroke for others
+        'case',
+        ['get', 'isStarred'],
+        '#f59e0b',              // Gold/amber stroke for starred
+        ['match', ['get', 'timeStatus'], 'active', '#22c55e', '#fff'] // Normal colors
       ],
       'circle-opacity': [
         'match',
@@ -479,6 +526,16 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
   const onMouseEnter = () => setCursor('pointer');
   const onMouseLeave = () => setCursor('auto');
+
+  // Handle sharing a point
+  const handleShare = useCallback(async (point: UnifiedTrashCollectionPoint) => {
+    const pointName = `${point.district} - ${point.village} (${point.location})`;
+    const result = await sharePoint(point.id, pointName);
+    setShareToast({
+      message: result.message,
+      type: result.success ? 'success' : 'error',
+    });
+  }, []);
 
   const handleMapClick = (event: any) => {
     const features = event.features;
@@ -796,6 +853,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         const statusColor = timeStatus === 'active' ? '#22c55e' : timeStatus === 'upcoming' ? '#eab308' : '#a3a3a3';
         const statusText = timeStatus === 'active' ? '營運中' : timeStatus === 'upcoming' ? '即將抵達' : '已結束';
         const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${popupInfo.latitude},${popupInfo.longitude}`;
+        const isPointStarred = starredPointIds.includes(popupInfo.id);
 
         return (
           <Popup
@@ -858,40 +916,109 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
               <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
                 <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>離開:</strong> {formatTime(popupInfo.departureTime)}
               </p>
-              <a
-                href={googleMapsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  gap: '6px',
-                  width: '100%',
-                  padding: '8px',
-                  backgroundColor: darkMode ? '#1a1a1a' : '#f5f5f5',
-                  color: darkMode ? '#ffffff' : '#000000',
-                  border: `1px solid ${darkMode ? '#404040' : '#d4d4d4'}`,
-                  borderRadius: '6px',
-                  fontSize: '12px',
-                  fontWeight: '500',
-                  textDecoration: 'none',
-                  transition: 'all 0.2s',
-                  cursor: 'pointer',
-                  marginTop: '8px'
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.borderColor = darkMode ? '#fff' : '#000';
-                  e.currentTarget.style.backgroundColor = darkMode ? '#262626' : '#e5e5e5';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.borderColor = darkMode ? '#404040' : '#d4d4d4';
-                  e.currentTarget.style.backgroundColor = darkMode ? '#1a1a1a' : '#f5f5f5';
-                }}
-              >
-                <Navigation size={14} />
-                <span>導航至此地點</span>
-              </a>
+              {/* Action buttons row */}
+              <div style={{
+                display: 'flex',
+                gap: '8px',
+                marginTop: '10px',
+              }}>
+                {/* Navigation button */}
+                <a
+                  href={googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '6px',
+                    flex: 1,
+                    padding: '8px',
+                    backgroundColor: darkMode ? '#1a1a1a' : '#f5f5f5',
+                    color: darkMode ? '#ffffff' : '#000000',
+                    border: `1px solid ${darkMode ? '#404040' : '#d4d4d4'}`,
+                    borderRadius: '6px',
+                    fontSize: '12px',
+                    fontWeight: '500',
+                    textDecoration: 'none',
+                    transition: 'all 0.2s',
+                    cursor: 'pointer',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = darkMode ? '#fff' : '#000';
+                    e.currentTarget.style.backgroundColor = darkMode ? '#262626' : '#e5e5e5';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = darkMode ? '#404040' : '#d4d4d4';
+                    e.currentTarget.style.backgroundColor = darkMode ? '#1a1a1a' : '#f5f5f5';
+                  }}
+                >
+                  <Navigation size={14} />
+                  <span>導航</span>
+                </a>
+                {/* Star button */}
+                {onToggleStar && (
+                  <button
+                    onClick={() => onToggleStar(popupInfo.id)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: '40px',
+                      padding: '8px',
+                      backgroundColor: isPointStarred ? '#f59e0b' : (darkMode ? '#1a1a1a' : '#f5f5f5'),
+                      color: isPointStarred ? '#ffffff' : (darkMode ? '#ffffff' : '#000000'),
+                      border: `1px solid ${isPointStarred ? '#f59e0b' : (darkMode ? '#404040' : '#d4d4d4')}`,
+                      borderRadius: '6px',
+                      transition: 'all 0.2s',
+                      cursor: 'pointer',
+                    }}
+                    onMouseEnter={(e) => {
+                      if (!isPointStarred) {
+                        e.currentTarget.style.borderColor = '#f59e0b';
+                        e.currentTarget.style.backgroundColor = darkMode ? '#262626' : '#fef3c7';
+                      }
+                    }}
+                    onMouseLeave={(e) => {
+                      if (!isPointStarred) {
+                        e.currentTarget.style.borderColor = darkMode ? '#404040' : '#d4d4d4';
+                        e.currentTarget.style.backgroundColor = darkMode ? '#1a1a1a' : '#f5f5f5';
+                      }
+                    }}
+                    title={isPointStarred ? '取消收藏' : '收藏此站點'}
+                  >
+                    <Star size={14} fill={isPointStarred ? 'currentColor' : 'none'} />
+                  </button>
+                )}
+                {/* Share button */}
+                <button
+                  onClick={() => handleShare(popupInfo)}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: '40px',
+                    padding: '8px',
+                    backgroundColor: darkMode ? '#1a1a1a' : '#f5f5f5',
+                    color: darkMode ? '#ffffff' : '#000000',
+                    border: `1px solid ${darkMode ? '#404040' : '#d4d4d4'}`,
+                    borderRadius: '6px',
+                    transition: 'all 0.2s',
+                    cursor: 'pointer',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = darkMode ? '#fff' : '#000';
+                    e.currentTarget.style.backgroundColor = darkMode ? '#262626' : '#e5e5e5';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = darkMode ? '#404040' : '#d4d4d4';
+                    e.currentTarget.style.backgroundColor = darkMode ? '#1a1a1a' : '#f5f5f5';
+                  }}
+                  title="分享此站點"
+                >
+                  <Share2 size={14} />
+                </button>
+              </div>
             </div>
           </Popup>
         );
@@ -1045,6 +1172,19 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         onLocateClick={handleLocate}
         isLocating={isLocating}
       />
+    )}
+
+    {/* Share Toast */}
+    {shareToast && (
+      <div
+        className={`absolute bottom-20 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-lg shadow-lg text-sm font-medium transition-all duration-300 ${
+          shareToast.type === 'success'
+            ? 'bg-green-600 text-white'
+            : 'bg-red-600 text-white'
+        }`}
+      >
+        {shareToast.message}
+      </div>
     )}
   </div>
   );

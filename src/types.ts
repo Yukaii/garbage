@@ -151,3 +151,8 @@ export interface RouteManifest {
   valhalla_config: string;
   notes: string;
 }
+
+// Favorites feature state
+export interface FavoritesState {
+  starredPointIds: string[];
+}

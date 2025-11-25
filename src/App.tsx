@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
-import { Info, Sun, Moon, ChevronDown, MessageSquarePlus } from 'lucide-react';
+import { Info, Sun, Moon, ChevronDown, MessageSquarePlus, Star } from 'lucide-react';
 import Map from './Map';
 import TimeFilter, { type TimeFilterMode } from './TimeFilter';
 import {
@@ -20,6 +20,7 @@ import AboutModal from './AboutModal';
 import AdSense from './AdSense';
 import { Logo } from './Logo';
 import { updateThemeColor, initializeThemeColor } from './utils/themeColor';
+import { useFavorites } from './hooks/useFavorites';
 
 function App() {
   const [points, setPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
@@ -30,6 +31,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredPoints, setFilteredPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
   const [timeFilterMode, setTimeFilterMode] = useState<TimeFilterMode>('all');
+  const [showStarredOnly, setShowStarredOnly] = useState(false);
   const [currentTimeMinutes, setCurrentTimeMinutes] = useState(() => {
     // Initialize with debug time if available
     return getCurrentTimeInMinutes();
@@ -62,6 +64,9 @@ function App() {
     east: number;
     west: number;
   } | null>(null);
+
+  // Favorites hook
+  const { starredPointIds, toggleStar, isStarred, starredCount } = useFavorites();
 
   const handleViewportChange = (bounds: { north: number; south: number; east: number; west: number }, zoom: number) => {
     setViewportBounds(bounds);
@@ -166,6 +171,11 @@ function App() {
   useEffect(() => {
     let filtered = points;
 
+    // Apply starred filter first
+    if (showStarredOnly) {
+      filtered = filtered.filter((point) => starredPointIds.includes(point.id));
+    }
+
     // Apply text search filter
     if (searchTerm) {
       const search = searchTerm.toLowerCase();
@@ -202,7 +212,7 @@ function App() {
     }
 
     setFilteredPoints(filtered);
-  }, [searchTerm, points, timeFilterMode, currentTimeMinutes]);
+  }, [searchTerm, points, timeFilterMode, currentTimeMinutes, showStarredOnly, starredPointIds]);
 
   // Calculate active and upcoming counts for TimeFilter
   const activeCount = points.filter((point) =>
@@ -309,13 +319,34 @@ function App() {
           } mt-3 gap-3 md:mt-4 md:grid md:grid-cols-1`}
         >
           {renderSearchField('max-w-2xl md:hidden')}
-          <div className="max-w-4xl">
+          <div className="max-w-4xl flex flex-wrap items-center gap-3">
             <TimeFilter
               selectedMode={timeFilterMode}
               onModeChange={setTimeFilterMode}
               activeCount={activeCount}
               upcomingCount={upcomingCount}
             />
+            {/* Starred filter button */}
+            <button
+              onClick={() => setShowStarredOnly(!showStarredOnly)}
+              className={`
+                flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-md transition-all
+                ${
+                  showStarredOnly
+                    ? 'bg-amber-500 text-white border-amber-500'
+                    : 'bg-white dark:bg-neutral-900 text-neutral-700 dark:text-neutral-300 border border-neutral-300 dark:border-neutral-700 hover:border-amber-500 dark:hover:border-amber-500'
+                }
+              `}
+              title={showStarredOnly ? '顯示全部站點' : '只顯示收藏站點'}
+            >
+              <Star size={14} fill={showStarredOnly ? 'currentColor' : 'none'} />
+              <span>收藏</span>
+              {starredCount > 0 && (
+                <span className={`${showStarredOnly ? 'text-amber-200' : 'text-neutral-500 dark:text-neutral-500'}`}>
+                  ({starredCount})
+                </span>
+              )}
+            </button>
           </div>
         </div>
         <div className="mt-2 hidden flex-wrap gap-2 text-[11px] text-neutral-600 dark:text-neutral-400 md:mt-3 md:flex md:text-xs">
@@ -360,7 +391,17 @@ function App() {
           {/* Show map after initial load, even during data updates */}
           {initialLoadComplete && !error && (
             <>
-              <Map points={selectedRoute ? points : filteredPoints} darkMode={darkMode} onMapLoaded={handleMapLoaded} selectedRoute={selectedRoute} onRouteSelect={setSelectedRoute} onViewportChange={handleViewportChange} currentTimeMinutes={currentTimeMinutes} />
+              <Map
+                points={selectedRoute ? points : filteredPoints}
+                darkMode={darkMode}
+                onMapLoaded={handleMapLoaded}
+                selectedRoute={selectedRoute}
+                onRouteSelect={setSelectedRoute}
+                onViewportChange={handleViewportChange}
+                currentTimeMinutes={currentTimeMinutes}
+                starredPointIds={starredPointIds}
+                onToggleStar={toggleStar}
+              />
               {/* Subtle loading indicator for data updates */}
               {isUpdatingData && (
                 <div className="absolute top-4 right-4 z-20 flex items-center gap-2 rounded-lg border border-neutral-300 bg-white/95 backdrop-blur-sm px-3 py-2 shadow-lg dark:border-neutral-700 dark:bg-black/90">
