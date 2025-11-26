@@ -1212,14 +1212,14 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
     {/* Starred List Panel */}
     {isStarredListOpen && (
-      <div className="absolute inset-0 z-40 md:inset-auto md:top-4 md:right-4 md:bottom-auto md:left-auto md:w-80 md:max-h-[calc(100vh-8rem)]">
+      <div className="fixed inset-0 z-[60] md:absolute md:z-40 md:inset-auto md:top-4 md:right-4 md:bottom-auto md:left-auto md:w-80 md:max-h-[calc(100vh-8rem)]">
         {/* Backdrop for mobile */}
         <div
           className="absolute inset-0 bg-black/50 md:hidden"
           onClick={onCloseStarredList}
         />
         {/* Panel */}
-        <div className="absolute bottom-0 left-0 right-0 md:relative md:bottom-auto max-h-[70vh] md:max-h-[calc(100vh-8rem)] rounded-t-2xl md:rounded-xl border border-neutral-200 bg-white shadow-2xl dark:border-neutral-800 dark:bg-neutral-900 flex flex-col overflow-hidden">
+        <div className="absolute bottom-0 left-0 right-0 max-h-[80vh] rounded-t-2xl border border-neutral-200 bg-white shadow-2xl dark:border-neutral-800 dark:bg-neutral-900 flex flex-col overflow-hidden md:relative md:bottom-auto md:max-h-[calc(100vh-8rem)] md:rounded-xl">
           {/* Header */}
           <div className="flex items-center justify-between border-b border-neutral-200 px-4 py-3 dark:border-neutral-800">
             <div className="flex items-center gap-2">
