@@ -9,9 +9,16 @@ interface TimeFilterProps {
   onModeChange: (mode: TimeFilterMode) => void;
   activeCount: number;
   upcomingCount: number;
+  compact?: boolean;
 }
 
-export default function TimeFilter({ selectedMode, onModeChange, activeCount, upcomingCount }: TimeFilterProps) {
+export default function TimeFilter({ 
+  selectedMode, 
+  onModeChange, 
+  activeCount, 
+  upcomingCount,
+  compact = false 
+}: TimeFilterProps) {
   const [currentTime, setCurrentTime] = useState(getCurrentTimeFormatted());
 
   useEffect(() => {
@@ -24,26 +31,28 @@ export default function TimeFilter({ selectedMode, onModeChange, activeCount, up
   }, []);
 
   const filters: { mode: TimeFilterMode; label: string; count?: number }[] = [
-    { mode: 'all', label: '全部時段' },
-    { mode: 'now', label: '現在營運', count: activeCount },
-    { mode: '30min', label: '30 分鐘內' },
-    { mode: '1hour', label: '1 小時內' },
-    { mode: '3hours', label: '3 小時內' },
+    { mode: 'all', label: '全部' },
+    { mode: 'now', label: '現在', count: activeCount },
+    { mode: '30min', label: '30分內' },
+    { mode: '1hour', label: '1小時內' },
+    { mode: '3hours', label: '3小時內' },
   ];
 
   return (
-    <div className="space-y-2">
-      <div className="flex items-center gap-2 text-sm">
-        <Clock className="w-4 h-4 text-neutral-600 dark:text-neutral-400" />
-        <span className="font-medium text-black dark:text-white">
-          目前時間：{currentTime}
-        </span>
-        {activeCount > 0 && (
-          <span className="px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-full text-xs font-medium">
-            {activeCount} 輛營運中
+    <div className={compact ? "flex items-center gap-3" : "space-y-2"}>
+      {!compact && (
+        <div className="flex items-center gap-2 text-sm">
+          <Clock className="w-4 h-4 text-neutral-600 dark:text-neutral-400" />
+          <span className="font-medium text-black dark:text-white">
+            目前時間：{currentTime}
           </span>
-        )}
-      </div>
+          {activeCount > 0 && (
+            <span className="px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-full text-xs font-medium">
+              {activeCount} 輛營運中
+            </span>
+          )}
+        </div>
+      )}
 
       <div className="flex gap-2 flex-wrap">
         {filters.map(({ mode, label, count }) => (
