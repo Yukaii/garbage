@@ -35,8 +35,8 @@ export function Navbar({
       className={`sticky top-0 z-50 border-b border-neutral-200 bg-white/95 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 ${className}`}
       style={{
         paddingTop: 'max(0.5rem, env(safe-area-inset-top))',
-        paddingLeft: 'max(1rem, env(safe-area-inset-left))',
-        paddingRight: 'max(1rem, env(safe-area-inset-right))',
+        paddingLeft: 'env(safe-area-inset-left)',
+        paddingRight: 'env(safe-area-inset-right)',
       }}
     >
       <div className="flex h-14 items-center justify-between gap-2 px-4 md:px-6">
@@ -64,7 +64,7 @@ export function Navbar({
               value={searchTerm}
               onChange={(e) => onSearchChange(e.target.value)}
               placeholder="搜尋行政區、里別、地點或路線..."
-              className="w-full rounded-full border border-neutral-200 bg-neutral-100 py-2 pl-10 pr-10 text-sm text-black placeholder-neutral-500 focus:border-black focus:outline-none focus:ring-0 dark:border-neutral-800 dark:bg-neutral-900 dark:text-white dark:focus:border-white"
+              className="w-full rounded-xl border border-neutral-200 bg-neutral-100 py-2 pl-10 pr-10 text-sm text-black placeholder-neutral-500 focus:border-black focus:outline-none focus:ring-0 dark:border-neutral-800 dark:bg-neutral-900 dark:text-white dark:focus:border-white"
             />
             {searchTerm ? (
               <button
@@ -90,7 +90,7 @@ export function Navbar({
         <div className={`flex items-center gap-2 ${isSearchExpanded ? 'hidden md:flex' : 'flex'}`}>
           <button
             onClick={() => setIsSearchExpanded(true)}
-            className="flex h-9 w-9 items-center justify-center rounded-full text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800 md:hidden"
+            className="flex h-9 w-9 items-center justify-center rounded-xl text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800 md:hidden"
             aria-label="Search"
           >
             <Search className="w-5 h-5" />
@@ -100,7 +100,7 @@ export function Navbar({
             <select
               value={selectedCity}
               onChange={(e) => onCityChange(e.target.value as City)}
-              className="h-9 appearance-none rounded-full border border-neutral-200 bg-transparent pl-4 pr-10 text-sm font-medium text-black hover:bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-black/5 dark:border-neutral-800 dark:text-white dark:hover:bg-neutral-900 dark:focus:ring-white/10"
+              className="h-9 appearance-none rounded-xl border border-neutral-200 bg-transparent pl-4 pr-10 text-sm font-medium text-black hover:bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-black/5 dark:border-neutral-800 dark:text-white dark:hover:bg-neutral-900 dark:focus:ring-white/10"
             >
               {cityRegistry.getCityOptions().map((option) => (
                 <option key={option.value} value={option.value}>
@@ -113,7 +113,7 @@ export function Navbar({
 
           <button
             onClick={onMenuClick}
-            className="flex h-9 w-9 items-center justify-center rounded-full text-black hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-800"
+            className="flex h-9 w-9 items-center justify-center rounded-xl text-black hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-800"
             aria-label="Menu"
           >
             <Menu className="w-5 h-5" />
