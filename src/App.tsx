@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
-import { Info, Sun, Moon, ChevronDown, MessageSquarePlus } from 'lucide-react';
+import { Info, Sun, Moon, ChevronDown, MessageSquarePlus, Star, X, MapPin, Navigation } from 'lucide-react';
 import Map from './Map';
 import TimeFilter, { type TimeFilterMode } from './TimeFilter';
 import {
@@ -20,6 +20,8 @@ import AboutModal from './AboutModal';
 import AdSense from './AdSense';
 import { Logo } from './Logo';
 import { updateThemeColor, initializeThemeColor } from './utils/themeColor';
+import { useFavorites } from './hooks/useFavorites';
+import { getPointIdFromUrl, getCityFromPointId } from './utils/share';
 
 function App() {
   const [points, setPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
@@ -30,6 +32,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredPoints, setFilteredPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
   const [timeFilterMode, setTimeFilterMode] = useState<TimeFilterMode>('all');
+  const [showStarredOnly, setShowStarredOnly] = useState(false);
   const [currentTimeMinutes, setCurrentTimeMinutes] = useState(() => {
     // Initialize with debug time if available
     return getCurrentTimeInMinutes();
@@ -56,12 +59,17 @@ function App() {
   const [isAboutOpen, setIsAboutOpen] = useState(false);
   const [scrollToSupport, setScrollToSupport] = useState(false);
   const [selectedRoute, setSelectedRoute] = useState<string | null>(null);
+  const [isStarredListOpen, setIsStarredListOpen] = useState(false);
   const [viewportBounds, setViewportBounds] = useState<{
     north: number;
     south: number;
     east: number;
     west: number;
   } | null>(null);
+
+  // Favorites hook
+  const { starredPointIds, toggleStar, isStarred, starredCount } = useFavorites();
+  const isStarredControlActive = showStarredOnly || isStarredListOpen;
 
   const handleViewportChange = (bounds: { north: number; south: number; east: number; west: number }, zoom: number) => {
     setViewportBounds(bounds);
@@ -115,10 +123,21 @@ function App() {
   }, [selectedCity]);
 
   // Determine which cities should be loaded based on viewport
+  // Also include the city from shared point URL if present
   const citiesToLoad = useMemo(() => {
     const cities = getCitiesInViewport(viewportBounds, currentZoom);
-    // If no cities in viewport (zoomed out too far), fall back to selected city
-    return cities.length === 0 ? [selectedCity] : cities;
+    let result = cities.length === 0 ? [selectedCity] : cities;
+    
+    // Check if there's a shared point in URL and include its city
+    const sharedPointId = getPointIdFromUrl();
+    if (sharedPointId) {
+      const sharedPointCity = getCityFromPointId(sharedPointId);
+      if (sharedPointCity && cityRegistry.hasCity(sharedPointCity) && !result.includes(sharedPointCity as City)) {
+        result = [...result, sharedPointCity as City];
+      }
+    }
+    
+    return result;
   }, [viewportBounds, currentZoom, selectedCity]);
 
   // Check if user is viewing an unsupported area
@@ -166,6 +185,11 @@ function App() {
   useEffect(() => {
     let filtered = points;
 
+    // Apply starred filter first
+    if (showStarredOnly) {
+      filtered = filtered.filter((point) => starredPointIds.includes(point.id));
+    }
+
     // Apply text search filter
     if (searchTerm) {
       const search = searchTerm.toLowerCase();
@@ -202,7 +226,7 @@ function App() {
     }
 
     setFilteredPoints(filtered);
-  }, [searchTerm, points, timeFilterMode, currentTimeMinutes]);
+  }, [searchTerm, points, timeFilterMode, currentTimeMinutes, showStarredOnly, starredPointIds]);
 
   // Calculate active and upcoming counts for TimeFilter
   const activeCount = points.filter((point) =>
@@ -309,13 +333,63 @@ function App() {
           } mt-3 gap-3 md:mt-4 md:grid md:grid-cols-1`}
         >
           {renderSearchField('max-w-2xl md:hidden')}
-          <div className="max-w-4xl">
+          <div className="max-w-4xl flex flex-wrap items-center gap-3">
             <TimeFilter
               selectedMode={timeFilterMode}
               onModeChange={setTimeFilterMode}
               activeCount={activeCount}
               upcomingCount={upcomingCount}
             />
+            {/* Starred filter and list buttons */}
+            <div
+              className={`
+                flex-none self-end flex items-stretch divide-x overflow-hidden rounded-md border text-xs font-medium transition-shadow
+                ${
+                  isStarredControlActive
+                    ? 'border-amber-500 divide-amber-400/60 shadow-[0_10px_25px_-12px_rgba(251,191,36,0.8)] dark:shadow-[0_14px_30px_-15px_rgba(251,191,36,0.45)]'
+                    : 'border-neutral-300 divide-neutral-200 dark:border-neutral-700 dark:divide-neutral-700'
+                }
+              `}
+            >
+              <button
+                type="button"
+                aria-pressed={showStarredOnly}
+                onClick={() => setShowStarredOnly(!showStarredOnly)}
+                className={`
+                  flex items-center gap-1.5 px-3 py-1.5 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500
+                  ${
+                    showStarredOnly
+                      ? 'bg-amber-500 text-white'
+                      : 'bg-white text-neutral-700 hover:bg-neutral-50 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800/90'
+                  }
+                `}
+                title={showStarredOnly ? '顯示全部站點' : '只顯示收藏站點'}
+              >
+                <Star className="h-4 w-4" strokeWidth={2} fill={showStarredOnly ? 'currentColor' : 'none'} />
+                <span>收藏</span>
+                {starredCount > 0 && (
+                  <span className={`${showStarredOnly ? 'text-amber-100' : 'text-neutral-500 dark:text-neutral-400'}`}>
+                    ({starredCount})
+                  </span>
+                )}
+              </button>
+              <button
+                type="button"
+                aria-expanded={isStarredListOpen}
+                onClick={() => setIsStarredListOpen(!isStarredListOpen)}
+                className={`
+                  flex items-center justify-center px-2.5 py-1.5 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500
+                  ${
+                    isStarredListOpen
+                      ? 'bg-amber-500 text-white'
+                      : 'bg-white text-neutral-600 hover:bg-neutral-50 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800/90'
+                  }
+                `}
+                title="查看收藏列表"
+              >
+                <ChevronDown className={`h-4 w-4 transition-transform ${isStarredListOpen ? 'rotate-180' : ''}`} />
+              </button>
+            </div>
           </div>
         </div>
         <div className="mt-2 hidden flex-wrap gap-2 text-[11px] text-neutral-600 dark:text-neutral-400 md:mt-3 md:flex md:text-xs">
@@ -360,7 +434,20 @@ function App() {
           {/* Show map after initial load, even during data updates */}
           {initialLoadComplete && !error && (
             <>
-              <Map points={selectedRoute ? points : filteredPoints} darkMode={darkMode} onMapLoaded={handleMapLoaded} selectedRoute={selectedRoute} onRouteSelect={setSelectedRoute} onViewportChange={handleViewportChange} currentTimeMinutes={currentTimeMinutes} />
+              <Map
+                points={selectedRoute ? points : filteredPoints}
+                darkMode={darkMode}
+                onMapLoaded={handleMapLoaded}
+                selectedRoute={selectedRoute}
+                onRouteSelect={setSelectedRoute}
+                onViewportChange={handleViewportChange}
+                currentTimeMinutes={currentTimeMinutes}
+                starredPointIds={starredPointIds}
+                onToggleStar={toggleStar}
+                isStarredListOpen={isStarredListOpen}
+                onCloseStarredList={() => setIsStarredListOpen(false)}
+                allPoints={points}
+              />
               {/* Subtle loading indicator for data updates */}
               {isUpdatingData && (
                 <div className="absolute top-4 right-4 z-20 flex items-center gap-2 rounded-lg border border-neutral-300 bg-white/95 backdrop-blur-sm px-3 py-2 shadow-lg dark:border-neutral-700 dark:bg-black/90">
