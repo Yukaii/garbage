@@ -69,6 +69,7 @@ function App() {
 
   // Favorites hook
   const { starredPointIds, toggleStar, isStarred, starredCount } = useFavorites();
+  const isStarredControlActive = showStarredOnly || isStarredListOpen;
 
   const handleViewportChange = (bounds: { north: number; south: number; east: number; west: number }, zoom: number) => {
     setViewportBounds(bounds);
@@ -340,40 +341,53 @@ function App() {
               upcomingCount={upcomingCount}
             />
             {/* Starred filter and list buttons */}
-            <div className="flex items-center">
+            <div
+              className={`
+                flex-none self-end flex items-stretch divide-x overflow-hidden rounded-md border text-xs font-medium transition-shadow
+                ${
+                  isStarredControlActive
+                    ? 'border-amber-500 divide-amber-400/60 shadow-[0_10px_25px_-12px_rgba(251,191,36,0.8)] dark:shadow-[0_14px_30px_-15px_rgba(251,191,36,0.45)]'
+                    : 'border-neutral-300 divide-neutral-200 dark:border-neutral-700 dark:divide-neutral-700'
+                }
+              `}
+            >
               <button
+                type="button"
+                aria-pressed={showStarredOnly}
                 onClick={() => setShowStarredOnly(!showStarredOnly)}
                 className={`
-                  flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-l-md transition-all border
+                  flex items-center gap-1.5 px-3 py-1.5 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500
                   ${
                     showStarredOnly
-                      ? 'bg-amber-500 text-white border-amber-500'
-                      : 'bg-white dark:bg-neutral-900 text-neutral-700 dark:text-neutral-300 border-neutral-300 dark:border-neutral-700 hover:border-amber-500 dark:hover:border-amber-500'
+                      ? 'bg-amber-500 text-white'
+                      : 'bg-white text-neutral-700 hover:bg-neutral-50 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800/90'
                   }
                 `}
                 title={showStarredOnly ? '顯示全部站點' : '只顯示收藏站點'}
               >
-                <Star size={14} fill={showStarredOnly ? 'currentColor' : 'none'} />
+                <Star className="h-4 w-4" strokeWidth={2} fill={showStarredOnly ? 'currentColor' : 'none'} />
                 <span>收藏</span>
                 {starredCount > 0 && (
-                  <span className={`${showStarredOnly ? 'text-amber-200' : 'text-neutral-500 dark:text-neutral-500'}`}>
+                  <span className={`${showStarredOnly ? 'text-amber-100' : 'text-neutral-500 dark:text-neutral-400'}`}>
                     ({starredCount})
                   </span>
                 )}
               </button>
               <button
+                type="button"
+                aria-expanded={isStarredListOpen}
                 onClick={() => setIsStarredListOpen(!isStarredListOpen)}
                 className={`
-                  flex items-center justify-center px-2 py-1.5 text-xs font-medium rounded-r-md transition-all border border-l-0
+                  flex items-center justify-center px-2.5 py-1.5 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500
                   ${
                     isStarredListOpen
-                      ? 'bg-amber-500 text-white border-amber-500'
-                      : 'bg-white dark:bg-neutral-900 text-neutral-700 dark:text-neutral-300 border-neutral-300 dark:border-neutral-700 hover:border-amber-500 dark:hover:border-amber-500'
+                      ? 'bg-amber-500 text-white'
+                      : 'bg-white text-neutral-600 hover:bg-neutral-50 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800/90'
                   }
                 `}
                 title="查看收藏列表"
               >
-                <ChevronDown size={14} className={`transition-transform ${isStarredListOpen ? 'rotate-180' : ''}`} />
+                <ChevronDown className={`h-4 w-4 transition-transform ${isStarredListOpen ? 'rotate-180' : ''}`} />
               </button>
             </div>
           </div>
