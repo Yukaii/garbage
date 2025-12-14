@@ -19,8 +19,16 @@
             24.169246
           ],
           [
+            120.706048,
+            24.169377
+          ],
+          [
             120.706022,
             24.169483
+          ],
+          [
+            120.705937,
+            24.169485
           ],
           [
             120.70589,
@@ -252,8 +260,8 @@
         "routeId": "taichung-422-vp-132c52-d6",
         "city": "taichung",
         "source_file": "taichung/taichung-422-vp-132c52-d6.geojson",
-        "distance_km": 1.445,
-        "duration_min": 2.76845,
+        "distance_km": 1.446,
+        "duration_min": 2.7723166666666668,
         "valhalla_config": "valhalla.json"
       }
     }
