@@ -1067,6 +1067,10 @@
             24.222511
           ],
           [
+            120.686501,
+            24.221978
+          ],
+          [
             120.686469,
             24.221833
           ],
@@ -2536,8 +2540,8 @@
         "routeId": "taichung-kee-6302-a55277-d5",
         "city": "taichung",
         "source_file": "taichung/taichung-kee-6302-a55277-d5.geojson",
-        "distance_km": 23.46,
-        "duration_min": 39.9923,
+        "distance_km": 23.461,
+        "duration_min": 39.994150000000005,
         "valhalla_config": "valhalla.json"
       }
     }
