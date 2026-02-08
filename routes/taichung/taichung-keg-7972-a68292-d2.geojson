@@ -2291,6 +2291,10 @@
             24.106337
           ],
           [
+            120.730611,
+            24.106334
+          ],
+          [
             120.732182,
             24.10584
           ],
@@ -2305,6 +2309,10 @@
           [
             120.732182,
             24.10584
+          ],
+          [
+            120.730611,
+            24.106334
           ],
           [
             120.730599,
@@ -2632,8 +2640,8 @@
         "routeId": "taichung-keg-7972-a68292-d2",
         "city": "taichung",
         "source_file": "taichung/taichung-keg-7972-a68292-d2.geojson",
-        "distance_km": 17.494,
-        "duration_min": 35.37206666666667,
+        "distance_km": 17.496,
+        "duration_min": 35.37595,
         "valhalla_config": "valhalla.json"
       }
     }
