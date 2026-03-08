@@ -1,6 +1,6 @@
 {
   "city": "taichung",
-  "generated_at": "2026-03-01T18:14:20.748Z",
+  "generated_at": "2026-03-08T18:14:19.667Z",
   "routes": [
     {
       "routeId": "taichung-912-vc-1e22bb-d7",
@@ -33,8 +33,8 @@
     {
       "routeId": "taichung-893-ue-ca3243-d1",
       "file": "routes/taichung/taichung-893-ue-ca3243-d1.geojson",
-      "distance_km": 31.297,
-      "duration_min": 55.47836666666667,
+      "distance_km": 31.291999999999998,
+      "duration_min": 55.47205,
       "source_file": "taichung/taichung-893-ue-ca3243-d1.geojson"
     },
     {
@@ -69,7 +69,7 @@
       "routeId": "taichung-491-vc-e8f098-d1",
       "file": "routes/taichung/taichung-491-vc-e8f098-d1.geojson",
       "distance_km": 33.495000000000005,
-      "duration_min": 64.6358,
+      "duration_min": 64.66913333333333,
       "source_file": "taichung/taichung-491-vc-e8f098-d1.geojson"
     },
     {
@@ -83,7 +83,7 @@
       "routeId": "taichung-kee-5163-ec5cd2-d4",
       "file": "routes/taichung/taichung-kee-5163-ec5cd2-d4.geojson",
       "distance_km": 20.897000000000002,
-      "duration_min": 40.66681666666667,
+      "duration_min": 40.6673,
       "source_file": "taichung/taichung-kee-5163-ec5cd2-d4.geojson"
     },
     {
@@ -97,7 +97,7 @@
       "routeId": "taichung-893-vc-0e5857-d1",
       "file": "routes/taichung/taichung-893-vc-0e5857-d1.geojson",
       "distance_km": 37.954,
-      "duration_min": 60.096516666666666,
+      "duration_min": 60.26701666666666,
       "source_file": "taichung/taichung-893-vc-0e5857-d1.geojson"
     },
     {
@@ -117,8 +117,8 @@
     {
       "routeId": "taichung-883-vc-f47579-d5",
       "file": "routes/taichung/taichung-883-vc-f47579-d5.geojson",
-      "distance_km": 15.611,
-      "duration_min": 38.63163333333333,
+      "distance_km": 15.67,
+      "duration_min": 38.782916666666665,
       "source_file": "taichung/taichung-883-vc-f47579-d5.geojson"
     },
     {
@@ -265,7 +265,7 @@
       "routeId": "taichung-491-vc-e8f098-d4",
       "file": "routes/taichung/taichung-491-vc-e8f098-d4.geojson",
       "distance_km": 33.495000000000005,
-      "duration_min": 64.6358,
+      "duration_min": 64.66913333333333,
       "source_file": "taichung/taichung-491-vc-e8f098-d4.geojson"
     },
     {
@@ -544,8 +544,8 @@
     {
       "routeId": "taichung-kel-0275-71e45c-d6",
       "file": "routes/taichung/taichung-kel-0275-71e45c-d6.geojson",
-      "distance_km": 20.893,
-      "duration_min": 50.79129999999999,
+      "distance_km": 20.896,
+      "duration_min": 50.79684999999999,
       "source_file": "taichung/taichung-kel-0275-71e45c-d6.geojson"
     },
     {
@@ -572,8 +572,8 @@
     {
       "routeId": "taichung-050-q3-fe2ddf-d2",
       "file": "routes/taichung/taichung-050-q3-fe2ddf-d2.geojson",
-      "distance_km": 10.748999999999999,
-      "duration_min": 22.597483333333336,
+      "distance_km": 10.748000000000001,
+      "duration_min": 22.59633333333333,
       "source_file": "taichung/taichung-050-q3-fe2ddf-d2.geojson"
     },
     {
@@ -593,8 +593,8 @@
     {
       "routeId": "taichung-893-ue-ca3243-d6",
       "file": "routes/taichung/taichung-893-ue-ca3243-d6.geojson",
-      "distance_km": 31.297,
-      "duration_min": 55.47836666666667,
+      "distance_km": 31.291999999999998,
+      "duration_min": 55.47205,
       "source_file": "taichung/taichung-893-ue-ca3243-d6.geojson"
     },
     {
@@ -621,15 +621,15 @@
     {
       "routeId": "taichung-422-vp-132c52-d1",
       "file": "routes/taichung/taichung-422-vp-132c52-d1.geojson",
-      "distance_km": 1.446,
-      "duration_min": 2.7723166666666668,
+      "distance_km": 1.445,
+      "duration_min": 2.7709166666666665,
       "source_file": "taichung/taichung-422-vp-132c52-d1.geojson"
     },
     {
       "routeId": "taichung-892-ue-6e613e-d5",
       "file": "routes/taichung/taichung-892-ue-6e613e-d5.geojson",
-      "distance_km": 24.561,
-      "duration_min": 49.1901,
+      "distance_km": 24.559000000000005,
+      "duration_min": 49.18756666666666,
       "source_file": "taichung/taichung-892-ue-6e613e-d5.geojson"
     },
     {
@@ -699,7 +699,7 @@
       "routeId": "taichung-047-q3-de83ba-d1",
       "file": "routes/taichung/taichung-047-q3-de83ba-d1.geojson",
       "distance_km": 22.522,
-      "duration_min": 42.69551666666666,
+      "duration_min": 42.69511666666667,
       "source_file": "taichung/taichung-047-q3-de83ba-d1.geojson"
     },
     {
@@ -726,8 +726,8 @@
     {
       "routeId": "taichung-437-vp-218c45-d4",
       "file": "routes/taichung/taichung-437-vp-218c45-d4.geojson",
-      "distance_km": 54.354,
-      "duration_min": 85.03518333333332,
+      "distance_km": 54.354000000000006,
+      "duration_min": 85.03608333333332,
       "source_file": "taichung/taichung-437-vp-218c45-d4.geojson"
     },
     {
@@ -790,7 +790,7 @@
       "routeId": "taichung-320-ux-1c6098-d2",
       "file": "routes/taichung/taichung-320-ux-1c6098-d2.geojson",
       "distance_km": 2.479,
-      "duration_min": 5.449283333333333,
+      "duration_min": 5.482616666666667,
       "source_file": "taichung/taichung-320-ux-1c6098-d2.geojson"
     },
     {
@@ -831,8 +831,8 @@
     {
       "routeId": "taichung-keg-8203-a68e8a-d6",
       "file": "routes/taichung/taichung-keg-8203-a68e8a-d6.geojson",
-      "distance_km": 27.25,
-      "duration_min": 39.108383333333336,
+      "distance_km": 27.247,
+      "duration_min": 39.1046,
       "source_file": "taichung/taichung-keg-8203-a68e8a-d6.geojson"
     },
     {
@@ -950,8 +950,8 @@
     {
       "routeId": "taichung-422-vp-132c52-d6",
       "file": "routes/taichung/taichung-422-vp-132c52-d6.geojson",
-      "distance_km": 1.446,
-      "duration_min": 2.7723166666666668,
+      "distance_km": 1.445,
+      "duration_min": 2.7709166666666665,
       "source_file": "taichung/taichung-422-vp-132c52-d6.geojson"
     },
     {
@@ -1020,8 +1020,8 @@
     {
       "routeId": "taichung-kel-0252-3f2035-d1",
       "file": "routes/taichung/taichung-kel-0252-3f2035-d1.geojson",
-      "distance_km": 15.849,
-      "duration_min": 41.93276666666667,
+      "distance_km": 15.862,
+      "duration_min": 42.04223333333333,
       "source_file": "taichung/taichung-kel-0252-3f2035-d1.geojson"
     },
     {
@@ -1049,7 +1049,7 @@
       "routeId": "taichung-ked-3338-8ae1ce-d6",
       "file": "routes/taichung/taichung-ked-3338-8ae1ce-d6.geojson",
       "distance_km": 18.476,
-      "duration_min": 35.66623333333334,
+      "duration_min": 35.6667,
       "source_file": "taichung/taichung-ked-3338-8ae1ce-d6.geojson"
     },
     {
@@ -1111,8 +1111,8 @@
     {
       "routeId": "taichung-keg-8203-a68e8a-d4",
       "file": "routes/taichung/taichung-keg-8203-a68e8a-d4.geojson",
-      "distance_km": 27.25,
-      "duration_min": 39.108383333333336,
+      "distance_km": 27.247,
+      "duration_min": 39.1046,
       "source_file": "taichung/taichung-keg-8203-a68e8a-d4.geojson"
     },
     {
@@ -1125,8 +1125,8 @@
     {
       "routeId": "taichung-kee-6296-25839e-d1",
       "file": "routes/taichung/taichung-kee-6296-25839e-d1.geojson",
-      "distance_km": 22.953999999999997,
-      "duration_min": 53.423916666666656,
+      "distance_km": 22.749,
+      "duration_min": 52.51103333333334,
       "source_file": "taichung/taichung-kee-6296-25839e-d1.geojson"
     },
     {
@@ -1286,8 +1286,8 @@
     {
       "routeId": "taichung-043-vp-bc5321-d4",
       "file": "routes/taichung/taichung-043-vp-bc5321-d4.geojson",
-      "distance_km": 38.673,
-      "duration_min": 50.51523333333333,
+      "distance_km": 38.672,
+      "duration_min": 50.51396666666666,
       "source_file": "taichung/taichung-043-vp-bc5321-d4.geojson"
     },
     {
@@ -1440,8 +1440,8 @@
     {
       "routeId": "taichung-043-vp-bc5321-d6",
       "file": "routes/taichung/taichung-043-vp-bc5321-d6.geojson",
-      "distance_km": 38.673,
-      "duration_min": 50.51523333333333,
+      "distance_km": 38.672,
+      "duration_min": 50.51396666666666,
       "source_file": "taichung/taichung-043-vp-bc5321-d6.geojson"
     },
     {
@@ -1468,8 +1468,8 @@
     {
       "routeId": "taichung-ked-3331-101b48-d1",
       "file": "routes/taichung/taichung-ked-3331-101b48-d1.geojson",
-      "distance_km": 13.51,
-      "duration_min": 39.70510000000001,
+      "distance_km": 13.509,
+      "duration_min": 39.41041666666668,
       "source_file": "taichung/taichung-ked-3331-101b48-d1.geojson"
     },
     {
@@ -1483,7 +1483,7 @@
       "routeId": "taichung-047-q3-de83ba-d5",
       "file": "routes/taichung/taichung-047-q3-de83ba-d5.geojson",
       "distance_km": 22.522,
-      "duration_min": 42.69551666666666,
+      "duration_min": 42.69511666666667,
       "source_file": "taichung/taichung-047-q3-de83ba-d5.geojson"
     },
     {
@@ -1510,8 +1510,8 @@
     {
       "routeId": "taichung-883-vc-f47579-d1",
       "file": "routes/taichung/taichung-883-vc-f47579-d1.geojson",
-      "distance_km": 15.607000000000003,
-      "duration_min": 38.63158333333334,
+      "distance_km": 15.666,
+      "duration_min": 38.78288333333334,
       "source_file": "taichung/taichung-883-vc-f47579-d1.geojson"
     },
     {
@@ -1545,8 +1545,8 @@
     {
       "routeId": "taichung-kel-0275-71e45c-d1",
       "file": "routes/taichung/taichung-kel-0275-71e45c-d1.geojson",
-      "distance_km": 20.893,
-      "duration_min": 50.79129999999999,
+      "distance_km": 20.896,
+      "duration_min": 50.79684999999999,
       "source_file": "taichung/taichung-kel-0275-71e45c-d1.geojson"
     },
     {
@@ -1749,7 +1749,7 @@
       "routeId": "taichung-kee-6295-caa47c-d1",
       "file": "routes/taichung/taichung-kee-6295-caa47c-d1.geojson",
       "distance_km": 20.639,
-      "duration_min": 42.888200000000005,
+      "duration_min": 43.04448333333333,
       "source_file": "taichung/taichung-kee-6295-caa47c-d1.geojson"
     },
     {
@@ -1839,8 +1839,8 @@
     {
       "routeId": "taichung-875-vc-16ca68-d2",
       "file": "routes/taichung/taichung-875-vc-16ca68-d2.geojson",
-      "distance_km": 68.12100000000001,
-      "duration_min": 128.45355000000004,
+      "distance_km": 68.12,
+      "duration_min": 128.51728333333335,
       "source_file": "taichung/taichung-875-vc-16ca68-d2.geojson"
     },
     {
@@ -1910,7 +1910,7 @@
       "routeId": "taichung-491-vc-e8f098-d2",
       "file": "routes/taichung/taichung-491-vc-e8f098-d2.geojson",
       "distance_km": 33.495000000000005,
-      "duration_min": 64.6358,
+      "duration_min": 64.66913333333333,
       "source_file": "taichung/taichung-491-vc-e8f098-d2.geojson"
     },
     {
@@ -2007,8 +2007,8 @@
     {
       "routeId": "taichung-875-vc-16ca68-d5",
       "file": "routes/taichung/taichung-875-vc-16ca68-d5.geojson",
-      "distance_km": 68.12100000000001,
-      "duration_min": 128.45355000000004,
+      "distance_km": 68.12,
+      "duration_min": 128.51728333333335,
       "source_file": "taichung/taichung-875-vc-16ca68-d5.geojson"
     },
     {
@@ -2049,8 +2049,8 @@
     {
       "routeId": "taichung-keb-0711-0b1a5c-d5",
       "file": "routes/taichung/taichung-keb-0711-0b1a5c-d5.geojson",
-      "distance_km": 48.150999999999996,
-      "duration_min": 85.01375,
+      "distance_km": 46.022,
+      "duration_min": 82.83255,
       "source_file": "taichung/taichung-keb-0711-0b1a5c-d5.geojson"
     },
     {
@@ -2224,8 +2224,8 @@
     {
       "routeId": "taichung-kel-2313-fc0f13-d5",
       "file": "routes/taichung/taichung-kel-2313-fc0f13-d5.geojson",
-      "distance_km": 33.078,
-      "duration_min": 66.60906666666665,
+      "distance_km": 33.082,
+      "duration_min": 66.62458333333333,
       "source_file": "taichung/taichung-kel-2313-fc0f13-d5.geojson"
     },
     {
@@ -2316,7 +2316,7 @@
       "routeId": "taichung-491-vc-e8f098-d6",
       "file": "routes/taichung/taichung-491-vc-e8f098-d6.geojson",
       "distance_km": 33.495000000000005,
-      "duration_min": 64.6358,
+      "duration_min": 64.66913333333333,
       "source_file": "taichung/taichung-491-vc-e8f098-d6.geojson"
     },
     {
@@ -2477,7 +2477,7 @@
       "routeId": "taichung-kee-6295-caa47c-d6",
       "file": "routes/taichung/taichung-kee-6295-caa47c-d6.geojson",
       "distance_km": 20.639,
-      "duration_min": 42.888200000000005,
+      "duration_min": 43.04448333333333,
       "source_file": "taichung/taichung-kee-6295-caa47c-d6.geojson"
     },
     {
@@ -2497,8 +2497,8 @@
     {
       "routeId": "taichung-kel-2285-f5a955-d5",
       "file": "routes/taichung/taichung-kel-2285-f5a955-d5.geojson",
-      "distance_km": 60.528999999999996,
-      "duration_min": 117.16146666666666,
+      "distance_km": 60.532,
+      "duration_min": 117.16793333333334,
       "source_file": "taichung/taichung-kel-2285-f5a955-d5.geojson"
     },
     {
@@ -2512,14 +2512,14 @@
       "routeId": "taichung-915-vc-6fb5b7-d5",
       "file": "routes/taichung/taichung-915-vc-6fb5b7-d5.geojson",
       "distance_km": 40.367999999999995,
-      "duration_min": 65.8945,
+      "duration_min": 66.2302,
       "source_file": "taichung/taichung-915-vc-6fb5b7-d5.geojson"
     },
     {
       "routeId": "taichung-kel-0260-e9d2c0-d2",
       "file": "routes/taichung/taichung-kel-0260-e9d2c0-d2.geojson",
       "distance_km": 23.456999999999997,
-      "duration_min": 51.55236666666667,
+      "duration_min": 51.49513333333334,
       "source_file": "taichung/taichung-kel-0260-e9d2c0-d2.geojson"
     },
     {
@@ -2560,15 +2560,15 @@
     {
       "routeId": "taichung-keg-8203-a68e8a-d2",
       "file": "routes/taichung/taichung-keg-8203-a68e8a-d2.geojson",
-      "distance_km": 49.025,
-      "duration_min": 70.87096666666666,
+      "distance_km": 49.022,
+      "duration_min": 70.86701666666666,
       "source_file": "taichung/taichung-keg-8203-a68e8a-d2.geojson"
     },
     {
       "routeId": "taichung-keb-0271-bd63e6-d2",
       "file": "routes/taichung/taichung-keb-0271-bd63e6-d2.geojson",
-      "distance_km": 27.976,
-      "duration_min": 51.21478333333334,
+      "distance_km": 27.910999999999998,
+      "duration_min": 51.023050000000005,
       "source_file": "taichung/taichung-keb-0271-bd63e6-d2.geojson"
     },
     {
@@ -2588,15 +2588,15 @@
     {
       "routeId": "taichung-kel-2313-fc0f13-d6",
       "file": "routes/taichung/taichung-kel-2313-fc0f13-d6.geojson",
-      "distance_km": 33.07599999999999,
-      "duration_min": 66.60905000000001,
+      "distance_km": 33.08,
+      "duration_min": 66.62456666666667,
       "source_file": "taichung/taichung-kel-2313-fc0f13-d6.geojson"
     },
     {
       "routeId": "taichung-keu-6263-6db131-d4",
       "file": "routes/taichung/taichung-keu-6263-6db131-d4.geojson",
-      "distance_km": 23.019,
-      "duration_min": 45.788566666666654,
+      "distance_km": 23.151000000000003,
+      "duration_min": 45.7276,
       "source_file": "taichung/taichung-keu-6263-6db131-d4.geojson"
     },
     {
@@ -2665,8 +2665,8 @@
     {
       "routeId": "taichung-317-ux-a20591-d5",
       "file": "routes/taichung/taichung-317-ux-a20591-d5.geojson",
-      "distance_km": 19.400999999999996,
-      "duration_min": 39.137166666666666,
+      "distance_km": 19.4,
+      "duration_min": 39.13506666666667,
       "source_file": "taichung/taichung-317-ux-a20591-d5.geojson"
     },
     {
@@ -2708,7 +2708,7 @@
       "routeId": "taichung-kel-0260-e9d2c0-d4",
       "file": "routes/taichung/taichung-kel-0260-e9d2c0-d4.geojson",
       "distance_km": 21.693999999999996,
-      "duration_min": 46.57063333333334,
+      "duration_min": 46.51340000000001,
       "source_file": "taichung/taichung-kel-0260-e9d2c0-d4.geojson"
     },
     {
@@ -2736,7 +2736,7 @@
       "routeId": "taichung-047-q3-de83ba-d4",
       "file": "routes/taichung/taichung-047-q3-de83ba-d4.geojson",
       "distance_km": 22.522,
-      "duration_min": 42.69551666666666,
+      "duration_min": 42.69511666666667,
       "source_file": "taichung/taichung-047-q3-de83ba-d4.geojson"
     },
     {
@@ -2833,8 +2833,8 @@
     {
       "routeId": "taichung-kel-0275-71e45c-d2",
       "file": "routes/taichung/taichung-kel-0275-71e45c-d2.geojson",
-      "distance_km": 74.28099999999999,
-      "duration_min": 170.93081666666666,
+      "distance_km": 74.28399999999999,
+      "duration_min": 170.93636666666666,
       "source_file": "taichung/taichung-kel-0275-71e45c-d2.geojson"
     },
     {
@@ -2994,8 +2994,8 @@
     {
       "routeId": "taichung-keg-8203-a68e8a-d5",
       "file": "routes/taichung/taichung-keg-8203-a68e8a-d5.geojson",
-      "distance_km": 27.25,
-      "duration_min": 39.108383333333336,
+      "distance_km": 27.247,
+      "duration_min": 39.1046,
       "source_file": "taichung/taichung-keg-8203-a68e8a-d5.geojson"
     },
     {
@@ -3071,8 +3071,8 @@
     {
       "routeId": "taichung-893-ue-ca3243-d4",
       "file": "routes/taichung/taichung-893-ue-ca3243-d4.geojson",
-      "distance_km": 31.297,
-      "duration_min": 55.47836666666667,
+      "distance_km": 31.291999999999998,
+      "duration_min": 55.47205,
       "source_file": "taichung/taichung-893-ue-ca3243-d4.geojson"
     },
     {
@@ -3107,7 +3107,7 @@
       "routeId": "taichung-ked-3337-0a2715-d4",
       "file": "routes/taichung/taichung-ked-3337-0a2715-d4.geojson",
       "distance_km": 22.64,
-      "duration_min": 51.23871666666666,
+      "duration_min": 51.38423333333334,
       "source_file": "taichung/taichung-ked-3337-0a2715-d4.geojson"
     },
     {
@@ -3163,7 +3163,7 @@
       "routeId": "taichung-ked-3338-8ae1ce-d2",
       "file": "routes/taichung/taichung-ked-3338-8ae1ce-d2.geojson",
       "distance_km": 18.476,
-      "duration_min": 35.66623333333334,
+      "duration_min": 35.6667,
       "source_file": "taichung/taichung-ked-3338-8ae1ce-d2.geojson"
     },
     {
@@ -3254,7 +3254,7 @@
       "routeId": "taichung-ked-3338-8ae1ce-d4",
       "file": "routes/taichung/taichung-ked-3338-8ae1ce-d4.geojson",
       "distance_km": 18.476,
-      "duration_min": 35.66623333333334,
+      "duration_min": 35.6667,
       "source_file": "taichung/taichung-ked-3338-8ae1ce-d4.geojson"
     },
     {
@@ -3281,8 +3281,8 @@
     {
       "routeId": "taichung-kel-0275-71e45c-d4",
       "file": "routes/taichung/taichung-kel-0275-71e45c-d4.geojson",
-      "distance_km": 20.893,
-      "duration_min": 50.79129999999999,
+      "distance_km": 20.896,
+      "duration_min": 50.79684999999999,
       "source_file": "taichung/taichung-kel-0275-71e45c-d4.geojson"
     },
     {
@@ -3295,8 +3295,8 @@
     {
       "routeId": "taichung-893-ue-ca3243-d5",
       "file": "routes/taichung/taichung-893-ue-ca3243-d5.geojson",
-      "distance_km": 31.297,
-      "duration_min": 55.47836666666667,
+      "distance_km": 31.291999999999998,
+      "duration_min": 55.47205,
       "source_file": "taichung/taichung-893-ue-ca3243-d5.geojson"
     },
     {
@@ -3421,8 +3421,8 @@
     {
       "routeId": "taichung-197-q3-3e7f7a-d6",
       "file": "routes/taichung/taichung-197-q3-3e7f7a-d6.geojson",
-      "distance_km": 38.45099999999999,
-      "duration_min": 66.4515,
+      "distance_km": 38.449999999999996,
+      "duration_min": 66.45185,
       "source_file": "taichung/taichung-197-q3-3e7f7a-d6.geojson"
     },
     {
@@ -3470,8 +3470,8 @@
     {
       "routeId": "taichung-052-q3-e1b86c-d2",
       "file": "routes/taichung/taichung-052-q3-e1b86c-d2.geojson",
-      "distance_km": 86.875,
-      "duration_min": 154.79906666666665,
+      "distance_km": 86.877,
+      "duration_min": 154.80139999999997,
       "source_file": "taichung/taichung-052-q3-e1b86c-d2.geojson"
     },
     {
@@ -3540,8 +3540,8 @@
     {
       "routeId": "taichung-050-q3-fe2ddf-d5",
       "file": "routes/taichung/taichung-050-q3-fe2ddf-d5.geojson",
-      "distance_km": 10.748999999999999,
-      "duration_min": 22.597483333333336,
+      "distance_km": 10.748000000000001,
+      "duration_min": 22.59633333333333,
       "source_file": "taichung/taichung-050-q3-fe2ddf-d5.geojson"
     },
     {
@@ -3604,7 +3604,7 @@
       "routeId": "taichung-ked-3337-0a2715-d5",
       "file": "routes/taichung/taichung-ked-3337-0a2715-d5.geojson",
       "distance_km": 22.64,
-      "duration_min": 51.23871666666666,
+      "duration_min": 51.38423333333334,
       "source_file": "taichung/taichung-ked-3337-0a2715-d5.geojson"
     },
     {
@@ -3625,7 +3625,7 @@
       "routeId": "taichung-kel-6502-7a11ab-d2",
       "file": "routes/taichung/taichung-kel-6502-7a11ab-d2.geojson",
       "distance_km": 21.011999999999993,
-      "duration_min": 52.007316666666675,
+      "duration_min": 52.07398333333334,
       "source_file": "taichung/taichung-kel-6502-7a11ab-d2.geojson"
     },
     {
@@ -3716,7 +3716,7 @@
       "routeId": "taichung-kel-6502-7a11ab-d4",
       "file": "routes/taichung/taichung-kel-6502-7a11ab-d4.geojson",
       "distance_km": 21.011999999999993,
-      "duration_min": 52.007316666666675,
+      "duration_min": 52.07398333333334,
       "source_file": "taichung/taichung-kel-6502-7a11ab-d4.geojson"
     },
     {
@@ -3800,7 +3800,7 @@
       "routeId": "taichung-315-ux-0997b2-d4",
       "file": "routes/taichung/taichung-315-ux-0997b2-d4.geojson",
       "distance_km": 3.761,
-      "duration_min": 7.940816666666667,
+      "duration_min": 7.9916,
       "source_file": "taichung/taichung-315-ux-0997b2-d4.geojson"
     },
     {
@@ -3849,7 +3849,7 @@
       "routeId": "taichung-491-vc-e8f098-d5",
       "file": "routes/taichung/taichung-491-vc-e8f098-d5.geojson",
       "distance_km": 33.498,
-      "duration_min": 64.63586666666667,
+      "duration_min": 64.6692,
       "source_file": "taichung/taichung-491-vc-e8f098-d5.geojson"
     },
     {
@@ -3877,14 +3877,14 @@
       "routeId": "taichung-893-vc-0e5857-d5",
       "file": "routes/taichung/taichung-893-vc-0e5857-d5.geojson",
       "distance_km": 37.954,
-      "duration_min": 60.096516666666666,
+      "duration_min": 60.26701666666666,
       "source_file": "taichung/taichung-893-vc-0e5857-d5.geojson"
     },
     {
       "routeId": "taichung-ked-3331-101b48-d2",
       "file": "routes/taichung/taichung-ked-3331-101b48-d2.geojson",
-      "distance_km": 16.196999999999996,
-      "duration_min": 47.97951666666667,
+      "distance_km": 16.195999999999998,
+      "duration_min": 47.68483333333334,
       "source_file": "taichung/taichung-ked-3331-101b48-d2.geojson"
     },
     {
@@ -4016,22 +4016,22 @@
     {
       "routeId": "taichung-keb-0271-bd63e6-d6",
       "file": "routes/taichung/taichung-keb-0271-bd63e6-d6.geojson",
-      "distance_km": 26.209000000000003,
-      "duration_min": 47.98701666666666,
+      "distance_km": 26.144000000000005,
+      "duration_min": 47.79528333333333,
       "source_file": "taichung/taichung-keb-0271-bd63e6-d6.geojson"
     },
     {
       "routeId": "taichung-320-ux-1c6098-d1",
       "file": "routes/taichung/taichung-320-ux-1c6098-d1.geojson",
       "distance_km": 2.479,
-      "duration_min": 5.449283333333333,
+      "duration_min": 5.482616666666667,
       "source_file": "taichung/taichung-320-ux-1c6098-d1.geojson"
     },
     {
       "routeId": "taichung-kee-5163-ec5cd2-d5",
       "file": "routes/taichung/taichung-kee-5163-ec5cd2-d5.geojson",
       "distance_km": 38.422,
-      "duration_min": 75.27870000000001,
+      "duration_min": 75.27916666666667,
       "source_file": "taichung/taichung-kee-5163-ec5cd2-d5.geojson"
     },
     {
@@ -4059,7 +4059,7 @@
       "routeId": "taichung-315-ux-0997b2-d5",
       "file": "routes/taichung/taichung-315-ux-0997b2-d5.geojson",
       "distance_km": 3.761,
-      "duration_min": 7.940816666666667,
+      "duration_min": 7.9916,
       "source_file": "taichung/taichung-315-ux-0997b2-d5.geojson"
     },
     {
@@ -4142,8 +4142,8 @@
     {
       "routeId": "taichung-kel-0275-71e45c-d5",
       "file": "routes/taichung/taichung-kel-0275-71e45c-d5.geojson",
-      "distance_km": 20.896,
-      "duration_min": 50.79136666666667,
+      "distance_km": 20.899,
+      "duration_min": 50.79691666666667,
       "source_file": "taichung/taichung-kel-0275-71e45c-d5.geojson"
     },
     {
@@ -4268,15 +4268,15 @@
     {
       "routeId": "taichung-kel-2313-fc0f13-d4",
       "file": "routes/taichung/taichung-kel-2313-fc0f13-d4.geojson",
-      "distance_km": 33.07599999999999,
-      "duration_min": 66.60905000000001,
+      "distance_km": 33.08,
+      "duration_min": 66.62456666666667,
       "source_file": "taichung/taichung-kel-2313-fc0f13-d4.geojson"
     },
     {
       "routeId": "taichung-317-ux-a20591-d2",
       "file": "routes/taichung/taichung-317-ux-a20591-d2.geojson",
-      "distance_km": 85.171,
-      "duration_min": 159.15895,
+      "distance_km": 85.168,
+      "duration_min": 159.15363333333335,
       "source_file": "taichung/taichung-317-ux-a20591-d2.geojson"
     },
     {
@@ -4297,7 +4297,7 @@
       "routeId": "taichung-915-vc-6fb5b7-d4",
       "file": "routes/taichung/taichung-915-vc-6fb5b7-d4.geojson",
       "distance_km": 40.367999999999995,
-      "duration_min": 65.8945,
+      "duration_min": 66.2302,
       "source_file": "taichung/taichung-915-vc-6fb5b7-d4.geojson"
     },
     {
@@ -4317,8 +4317,8 @@
     {
       "routeId": "taichung-kel-2285-f5a955-d6",
       "file": "routes/taichung/taichung-kel-2285-f5a955-d6.geojson",
-      "distance_km": 83.666,
-      "duration_min": 148.02993333333333,
+      "distance_km": 83.669,
+      "duration_min": 148.03633333333332,
       "source_file": "taichung/taichung-kel-2285-f5a955-d6.geojson"
     },
     {
@@ -4478,8 +4478,8 @@
     {
       "routeId": "taichung-197-q3-3e7f7a-d4",
       "file": "routes/taichung/taichung-197-q3-3e7f7a-d4.geojson",
-      "distance_km": 38.45099999999999,
-      "duration_min": 66.4515,
+      "distance_km": 38.449999999999996,
+      "duration_min": 66.45185,
       "source_file": "taichung/taichung-197-q3-3e7f7a-d4.geojson"
     },
     {
@@ -4513,8 +4513,8 @@
     {
       "routeId": "taichung-ked-9060-2d8db1-d1",
       "file": "routes/taichung/taichung-ked-9060-2d8db1-d1.geojson",
-      "distance_km": 28.11,
-      "duration_min": 47.80115,
+      "distance_km": 28.111,
+      "duration_min": 47.8043,
       "source_file": "taichung/taichung-ked-9060-2d8db1-d1.geojson"
     },
     {
@@ -4534,8 +4534,8 @@
     {
       "routeId": "taichung-893-ue-ca3243-d2",
       "file": "routes/taichung/taichung-893-ue-ca3243-d2.geojson",
-      "distance_km": 48.612,
-      "duration_min": 85.67073333333333,
+      "distance_km": 48.603,
+      "duration_min": 85.65938333333334,
       "source_file": "taichung/taichung-893-ue-ca3243-d2.geojson"
     },
     {
@@ -4548,8 +4548,8 @@
     {
       "routeId": "taichung-keu-6263-6db131-d5",
       "file": "routes/taichung/taichung-keu-6263-6db131-d5.geojson",
-      "distance_km": 20.486,
-      "duration_min": 42.06701666666666,
+      "distance_km": 20.618,
+      "duration_min": 42.006033333333335,
       "source_file": "taichung/taichung-keu-6263-6db131-d5.geojson"
     },
     {
@@ -4758,8 +4758,8 @@
     {
       "routeId": "taichung-197-q3-3e7f7a-d2",
       "file": "routes/taichung/taichung-197-q3-3e7f7a-d2.geojson",
-      "distance_km": 119.08399999999997,
-      "duration_min": 222.22618333333335,
+      "distance_km": 119.08199999999998,
+      "duration_min": 222.2268666666667,
       "source_file": "taichung/taichung-197-q3-3e7f7a-d2.geojson"
     },
     {
@@ -4821,8 +4821,8 @@
     {
       "routeId": "taichung-052-q3-e1b86c-d1",
       "file": "routes/taichung/taichung-052-q3-e1b86c-d1.geojson",
-      "distance_km": 79.533,
-      "duration_min": 142.66269999999997,
+      "distance_km": 79.535,
+      "duration_min": 142.66504999999998,
       "source_file": "taichung/taichung-052-q3-e1b86c-d1.geojson"
     },
     {
@@ -4835,8 +4835,8 @@
     {
       "routeId": "taichung-043-vp-bc5321-d1",
       "file": "routes/taichung/taichung-043-vp-bc5321-d1.geojson",
-      "distance_km": 38.673,
-      "duration_min": 50.51523333333333,
+      "distance_km": 38.672,
+      "duration_min": 50.51396666666666,
       "source_file": "taichung/taichung-043-vp-bc5321-d1.geojson"
     },
     {
@@ -4934,7 +4934,7 @@
       "routeId": "taichung-kee-6295-caa47c-d5",
       "file": "routes/taichung/taichung-kee-6295-caa47c-d5.geojson",
       "distance_km": 20.639000000000003,
-      "duration_min": 42.88823333333333,
+      "duration_min": 43.04451666666667,
       "source_file": "taichung/taichung-kee-6295-caa47c-d5.geojson"
     },
     {
@@ -5178,8 +5178,8 @@
     {
       "routeId": "taichung-kee-6296-25839e-d6",
       "file": "routes/taichung/taichung-kee-6296-25839e-d6.geojson",
-      "distance_km": 22.953999999999997,
-      "duration_min": 53.423916666666656,
+      "distance_km": 22.749,
+      "duration_min": 52.51103333333334,
       "source_file": "taichung/taichung-kee-6296-25839e-d6.geojson"
     },
     {
@@ -5255,8 +5255,8 @@
     {
       "routeId": "taichung-871-vp-cbcb01-d4",
       "file": "routes/taichung/taichung-871-vp-cbcb01-d4.geojson",
-      "distance_km": 26.35,
-      "duration_min": 53.37875,
+      "distance_km": 26.423000000000002,
+      "duration_min": 53.9004,
       "source_file": "taichung/taichung-871-vp-cbcb01-d4.geojson"
     },
     {
@@ -5319,7 +5319,7 @@
       "routeId": "taichung-315-ux-0997b2-d1",
       "file": "routes/taichung/taichung-315-ux-0997b2-d1.geojson",
       "distance_km": 3.761,
-      "duration_min": 7.940816666666667,
+      "duration_min": 7.9916,
       "source_file": "taichung/taichung-315-ux-0997b2-d1.geojson"
     },
     {
@@ -5346,8 +5346,8 @@
     {
       "routeId": "taichung-040-vp-e8f01e-d2",
       "file": "routes/taichung/taichung-040-vp-e8f01e-d2.geojson",
-      "distance_km": 16.408,
-      "duration_min": 24.997316666666666,
+      "distance_km": 15.82,
+      "duration_min": 24.065350000000002,
       "source_file": "taichung/taichung-040-vp-e8f01e-d2.geojson"
     },
     {
@@ -5388,8 +5388,8 @@
     {
       "routeId": "taichung-kee-6296-25839e-d4",
       "file": "routes/taichung/taichung-kee-6296-25839e-d4.geojson",
-      "distance_km": 22.953999999999997,
-      "duration_min": 53.423916666666656,
+      "distance_km": 22.749,
+      "duration_min": 52.51103333333334,
       "source_file": "taichung/taichung-kee-6296-25839e-d4.geojson"
     },
     {
@@ -5472,8 +5472,8 @@
     {
       "routeId": "taichung-ked-3331-101b48-d4",
       "file": "routes/taichung/taichung-ked-3331-101b48-d4.geojson",
-      "distance_km": 13.51,
-      "duration_min": 39.70510000000001,
+      "distance_km": 13.509,
+      "duration_min": 39.41041666666668,
       "source_file": "taichung/taichung-ked-3331-101b48-d4.geojson"
     },
     {
@@ -5486,8 +5486,8 @@
     {
       "routeId": "taichung-ker-3365-cf7f7d-d4",
       "file": "routes/taichung/taichung-ker-3365-cf7f7d-d4.geojson",
-      "distance_km": 45.260999999999996,
-      "duration_min": 62.25463333333333,
+      "distance_km": 45.268,
+      "duration_min": 62.26563333333333,
       "source_file": "taichung/taichung-ker-3365-cf7f7d-d4.geojson"
     },
     {
@@ -5514,15 +5514,15 @@
     {
       "routeId": "taichung-892-ue-6e613e-d6",
       "file": "routes/taichung/taichung-892-ue-6e613e-d6.geojson",
-      "distance_km": 24.561,
-      "duration_min": 49.1901,
+      "distance_km": 24.559000000000005,
+      "duration_min": 49.18756666666666,
       "source_file": "taichung/taichung-892-ue-6e613e-d6.geojson"
     },
     {
       "routeId": "taichung-ked-9060-2d8db1-d5",
       "file": "routes/taichung/taichung-ked-9060-2d8db1-d5.geojson",
-      "distance_km": 31.308999999999997,
-      "duration_min": 51.37268333333334,
+      "distance_km": 31.309999999999995,
+      "duration_min": 51.37583333333334,
       "source_file": "taichung/taichung-ked-9060-2d8db1-d5.geojson"
     },
     {
@@ -5605,8 +5605,8 @@
     {
       "routeId": "taichung-kee-6296-25839e-d2",
       "file": "routes/taichung/taichung-kee-6296-25839e-d2.geojson",
-      "distance_km": 85.348,
-      "duration_min": 188.70001666666664,
+      "distance_km": 85.066,
+      "duration_min": 187.68634999999998,
       "source_file": "taichung/taichung-kee-6296-25839e-d2.geojson"
     },
     {
@@ -5675,8 +5675,8 @@
     {
       "routeId": "taichung-883-vc-f47579-d6",
       "file": "routes/taichung/taichung-883-vc-f47579-d6.geojson",
-      "distance_km": 15.607000000000003,
-      "duration_min": 38.63158333333334,
+      "distance_km": 15.666,
+      "duration_min": 38.78288333333334,
       "source_file": "taichung/taichung-883-vc-f47579-d6.geojson"
     },
     {
@@ -6291,8 +6291,8 @@
     {
       "routeId": "taichung-kel-2312-72edc7-d4",
       "file": "routes/taichung/taichung-kel-2312-72edc7-d4.geojson",
-      "distance_km": 14.728,
-      "duration_min": 38.2501,
+      "distance_km": 14.720999999999998,
+      "duration_min": 38.21885,
       "source_file": "taichung/taichung-kel-2312-72edc7-d4.geojson"
     },
     {
@@ -6354,8 +6354,8 @@
     {
       "routeId": "taichung-ker-3365-cf7f7d-d5",
       "file": "routes/taichung/taichung-ker-3365-cf7f7d-d5.geojson",
-      "distance_km": 34.719,
-      "duration_min": 53.67373333333333,
+      "distance_km": 34.724,
+      "duration_min": 53.68293333333334,
       "source_file": "taichung/taichung-ker-3365-cf7f7d-d5.geojson"
     },
     {
@@ -6404,14 +6404,14 @@
       "routeId": "taichung-315-ux-0997b2-d6",
       "file": "routes/taichung/taichung-315-ux-0997b2-d6.geojson",
       "distance_km": 3.761,
-      "duration_min": 7.940816666666667,
+      "duration_min": 7.9916,
       "source_file": "taichung/taichung-315-ux-0997b2-d6.geojson"
     },
     {
       "routeId": "taichung-keg-8203-a68e8a-d1",
       "file": "routes/taichung/taichung-keg-8203-a68e8a-d1.geojson",
-      "distance_km": 27.25,
-      "duration_min": 39.108383333333336,
+      "distance_km": 27.247,
+      "duration_min": 39.1046,
       "source_file": "taichung/taichung-keg-8203-a68e8a-d1.geojson"
     },
     {
@@ -6439,14 +6439,14 @@
       "routeId": "taichung-kee-6295-caa47c-d4",
       "file": "routes/taichung/taichung-kee-6295-caa47c-d4.geojson",
       "distance_km": 20.639,
-      "duration_min": 42.888200000000005,
+      "duration_min": 43.04448333333333,
       "source_file": "taichung/taichung-kee-6295-caa47c-d4.geojson"
     },
     {
       "routeId": "taichung-kel-0252-3f2035-d5",
       "file": "routes/taichung/taichung-kel-0252-3f2035-d5.geojson",
-      "distance_km": 15.852,
-      "duration_min": 41.93278333333333,
+      "distance_km": 15.866,
+      "duration_min": 42.042249999999996,
       "source_file": "taichung/taichung-kel-0252-3f2035-d5.geojson"
     },
     {
@@ -6564,8 +6564,8 @@
     {
       "routeId": "taichung-kel-0252-3f2035-d2",
       "file": "routes/taichung/taichung-kel-0252-3f2035-d2.geojson",
-      "distance_km": 15.891,
-      "duration_min": 42.016666666666666,
+      "distance_km": 15.904,
+      "duration_min": 42.126133333333335,
       "source_file": "taichung/taichung-kel-0252-3f2035-d2.geojson"
     },
     {
@@ -6592,15 +6592,15 @@
     {
       "routeId": "taichung-kel-0252-3f2035-d6",
       "file": "routes/taichung/taichung-kel-0252-3f2035-d6.geojson",
-      "distance_km": 15.849,
-      "duration_min": 41.93276666666667,
+      "distance_km": 15.862,
+      "duration_min": 42.04223333333333,
       "source_file": "taichung/taichung-kel-0252-3f2035-d6.geojson"
     },
     {
       "routeId": "taichung-ked-3331-101b48-d6",
       "file": "routes/taichung/taichung-ked-3331-101b48-d6.geojson",
-      "distance_km": 13.51,
-      "duration_min": 39.70510000000001,
+      "distance_km": 13.509,
+      "duration_min": 39.41041666666668,
       "source_file": "taichung/taichung-ked-3331-101b48-d6.geojson"
     },
     {
@@ -6648,8 +6648,8 @@
     {
       "routeId": "taichung-437-vp-218c45-d1",
       "file": "routes/taichung/taichung-437-vp-218c45-d1.geojson",
-      "distance_km": 59.136,
-      "duration_min": 96.03246666666668,
+      "distance_km": 59.135999999999996,
+      "duration_min": 96.03336666666668,
       "source_file": "taichung/taichung-437-vp-218c45-d1.geojson"
     },
     {
@@ -6746,8 +6746,8 @@
     {
       "routeId": "taichung-keu-6263-6db131-d6",
       "file": "routes/taichung/taichung-keu-6263-6db131-d6.geojson",
-      "distance_km": 23.019,
-      "duration_min": 45.788566666666654,
+      "distance_km": 23.151000000000003,
+      "duration_min": 45.7276,
       "source_file": "taichung/taichung-keu-6263-6db131-d6.geojson"
     },
     {
@@ -6774,8 +6774,8 @@
     {
       "routeId": "taichung-892-ue-6e613e-d1",
       "file": "routes/taichung/taichung-892-ue-6e613e-d1.geojson",
-      "distance_km": 24.561,
-      "duration_min": 49.1901,
+      "distance_km": 24.559000000000005,
+      "duration_min": 49.18756666666666,
       "source_file": "taichung/taichung-892-ue-6e613e-d1.geojson"
     },
     {
@@ -6872,8 +6872,8 @@
     {
       "routeId": "taichung-keb-0271-bd63e6-d4",
       "file": "routes/taichung/taichung-keb-0271-bd63e6-d4.geojson",
-      "distance_km": 26.209000000000003,
-      "duration_min": 47.98701666666666,
+      "distance_km": 26.144000000000005,
+      "duration_min": 47.79528333333333,
       "source_file": "taichung/taichung-keb-0271-bd63e6-d4.geojson"
     },
     {
@@ -6886,8 +6886,8 @@
     {
       "routeId": "taichung-kel-2312-72edc7-d5",
       "file": "routes/taichung/taichung-kel-2312-72edc7-d5.geojson",
-      "distance_km": 14.732000000000001,
-      "duration_min": 38.25013333333333,
+      "distance_km": 14.725000000000001,
+      "duration_min": 38.218916666666665,
       "source_file": "taichung/taichung-kel-2312-72edc7-d5.geojson"
     },
     {
@@ -6901,7 +6901,7 @@
       "routeId": "taichung-315-ux-0997b2-d2",
       "file": "routes/taichung/taichung-315-ux-0997b2-d2.geojson",
       "distance_km": 3.761,
-      "duration_min": 7.940816666666667,
+      "duration_min": 7.9916,
       "source_file": "taichung/taichung-315-ux-0997b2-d2.geojson"
     },
     {
@@ -6999,7 +6999,7 @@
       "routeId": "taichung-320-ux-1c6098-d4",
       "file": "routes/taichung/taichung-320-ux-1c6098-d4.geojson",
       "distance_km": 2.479,
-      "duration_min": 5.449283333333333,
+      "duration_min": 5.482616666666667,
       "source_file": "taichung/taichung-320-ux-1c6098-d4.geojson"
     },
     {
@@ -7033,8 +7033,8 @@
     {
       "routeId": "taichung-keu-6263-6db131-d1",
       "file": "routes/taichung/taichung-keu-6263-6db131-d1.geojson",
-      "distance_km": 22.254,
-      "duration_min": 44.57731666666666,
+      "distance_km": 22.386,
+      "duration_min": 44.516349999999996,
       "source_file": "taichung/taichung-keu-6263-6db131-d1.geojson"
     },
     {
@@ -7075,8 +7075,8 @@
     {
       "routeId": "taichung-871-vp-cbcb01-d1",
       "file": "routes/taichung/taichung-871-vp-cbcb01-d1.geojson",
-      "distance_km": 26.35,
-      "duration_min": 53.37875,
+      "distance_km": 26.423000000000002,
+      "duration_min": 53.9004,
       "source_file": "taichung/taichung-871-vp-cbcb01-d1.geojson"
     },
     {
@@ -7124,8 +7124,8 @@
     {
       "routeId": "taichung-kel-2285-f5a955-d2",
       "file": "routes/taichung/taichung-kel-2285-f5a955-d2.geojson",
-      "distance_km": 104.38300000000001,
-      "duration_min": 211.4607,
+      "distance_km": 104.38999999999999,
+      "duration_min": 211.47716666666668,
       "source_file": "taichung/taichung-kel-2285-f5a955-d2.geojson"
     },
     {
@@ -7159,8 +7159,8 @@
     {
       "routeId": "taichung-317-ux-a20591-d6",
       "file": "routes/taichung/taichung-317-ux-a20591-d6.geojson",
-      "distance_km": 19.397000000000002,
-      "duration_min": 39.13711666666666,
+      "distance_km": 19.395,
+      "duration_min": 39.13501666666666,
       "source_file": "taichung/taichung-317-ux-a20591-d6.geojson"
     },
     {
@@ -7223,7 +7223,7 @@
       "routeId": "taichung-437-vp-218c45-d5",
       "file": "routes/taichung/taichung-437-vp-218c45-d5.geojson",
       "distance_km": 59.13699999999999,
-      "duration_min": 96.03250000000001,
+      "duration_min": 96.03338333333335,
       "source_file": "taichung/taichung-437-vp-218c45-d5.geojson"
     },
     {
@@ -7243,8 +7243,8 @@
     {
       "routeId": "taichung-437-vp-218c45-d6",
       "file": "routes/taichung/taichung-437-vp-218c45-d6.geojson",
-      "distance_km": 59.136,
-      "duration_min": 96.03246666666668,
+      "distance_km": 59.135999999999996,
+      "duration_min": 96.03336666666668,
       "source_file": "taichung/taichung-437-vp-218c45-d6.geojson"
     },
     {
@@ -7285,8 +7285,8 @@
     {
       "routeId": "taichung-422-vp-132c52-d5",
       "file": "routes/taichung/taichung-422-vp-132c52-d5.geojson",
-      "distance_km": 1.446,
-      "duration_min": 2.7723166666666668,
+      "distance_km": 1.445,
+      "duration_min": 2.7709166666666665,
       "source_file": "taichung/taichung-422-vp-132c52-d5.geojson"
     },
     {
@@ -7334,8 +7334,8 @@
     {
       "routeId": "taichung-422-vp-132c52-d2",
       "file": "routes/taichung/taichung-422-vp-132c52-d2.geojson",
-      "distance_km": 1.446,
-      "duration_min": 2.7723166666666668,
+      "distance_km": 1.445,
+      "duration_min": 2.7709166666666665,
       "source_file": "taichung/taichung-422-vp-132c52-d2.geojson"
     },
     {
@@ -7593,8 +7593,8 @@
     {
       "routeId": "taichung-kel-2312-72edc7-d1",
       "file": "routes/taichung/taichung-kel-2312-72edc7-d1.geojson",
-      "distance_km": 14.728,
-      "duration_min": 38.2501,
+      "distance_km": 14.720999999999998,
+      "duration_min": 38.21885,
       "source_file": "taichung/taichung-kel-2312-72edc7-d1.geojson"
     },
     {
@@ -7657,7 +7657,7 @@
       "routeId": "taichung-kel-0260-e9d2c0-d6",
       "file": "routes/taichung/taichung-kel-0260-e9d2c0-d6.geojson",
       "distance_km": 21.693999999999996,
-      "duration_min": 46.57063333333334,
+      "duration_min": 46.51340000000001,
       "source_file": "taichung/taichung-kel-0260-e9d2c0-d6.geojson"
     },
     {
@@ -7684,8 +7684,8 @@
     {
       "routeId": "taichung-keb-0711-0b1a5c-d1",
       "file": "routes/taichung/taichung-keb-0711-0b1a5c-d1.geojson",
-      "distance_km": 48.183,
-      "duration_min": 83.52143333333333,
+      "distance_km": 46.058,
+      "duration_min": 81.34041666666666,
       "source_file": "taichung/taichung-keb-0711-0b1a5c-d1.geojson"
     },
     {
@@ -7789,8 +7789,8 @@
     {
       "routeId": "taichung-871-vp-cbcb01-d2",
       "file": "routes/taichung/taichung-871-vp-cbcb01-d2.geojson",
-      "distance_km": 26.35,
-      "duration_min": 53.37875,
+      "distance_km": 26.423000000000002,
+      "duration_min": 53.9004,
       "source_file": "taichung/taichung-871-vp-cbcb01-d2.geojson"
     },
     {
@@ -7838,8 +7838,8 @@
     {
       "routeId": "taichung-043-vp-bc5321-d2",
       "file": "routes/taichung/taichung-043-vp-bc5321-d2.geojson",
-      "distance_km": 38.673,
-      "duration_min": 50.51523333333333,
+      "distance_km": 38.672,
+      "duration_min": 50.51396666666666,
       "source_file": "taichung/taichung-043-vp-bc5321-d2.geojson"
     },
     {
@@ -7852,8 +7852,8 @@
     {
       "routeId": "taichung-422-vp-132c52-d4",
       "file": "routes/taichung/taichung-422-vp-132c52-d4.geojson",
-      "distance_km": 1.446,
-      "duration_min": 2.7723166666666668,
+      "distance_km": 1.445,
+      "duration_min": 2.7709166666666665,
       "source_file": "taichung/taichung-422-vp-132c52-d4.geojson"
     },
     {
@@ -7887,8 +7887,8 @@
     {
       "routeId": "taichung-043-vp-bc5321-d5",
       "file": "routes/taichung/taichung-043-vp-bc5321-d5.geojson",
-      "distance_km": 38.673,
-      "duration_min": 50.51523333333333,
+      "distance_km": 38.672,
+      "duration_min": 50.51396666666666,
       "source_file": "taichung/taichung-043-vp-bc5321-d5.geojson"
     },
     {
@@ -7908,8 +7908,8 @@
     {
       "routeId": "taichung-ker-3365-cf7f7d-d2",
       "file": "routes/taichung/taichung-ker-3365-cf7f7d-d2.geojson",
-      "distance_km": 34.719,
-      "duration_min": 53.67373333333333,
+      "distance_km": 34.724,
+      "duration_min": 53.68293333333334,
       "source_file": "taichung/taichung-ker-3365-cf7f7d-d2.geojson"
     },
     {
@@ -7922,8 +7922,8 @@
     {
       "routeId": "taichung-kel-2285-f5a955-d1",
       "file": "routes/taichung/taichung-kel-2285-f5a955-d1.geojson",
-      "distance_km": 58.494,
-      "duration_min": 112.38323333333334,
+      "distance_km": 58.497,
+      "duration_min": 112.38969999999999,
       "source_file": "taichung/taichung-kel-2285-f5a955-d1.geojson"
     },
     {
@@ -8041,8 +8041,8 @@
     {
       "routeId": "taichung-keu-6263-6db131-d2",
       "file": "routes/taichung/taichung-keu-6263-6db131-d2.geojson",
-      "distance_km": 21.251,
-      "duration_min": 43.27826666666667,
+      "distance_km": 21.383,
+      "duration_min": 43.2173,
       "source_file": "taichung/taichung-keu-6263-6db131-d2.geojson"
     },
     {
@@ -8321,8 +8321,8 @@
     {
       "routeId": "taichung-317-ux-a20591-d4",
       "file": "routes/taichung/taichung-317-ux-a20591-d4.geojson",
-      "distance_km": 19.397000000000002,
-      "duration_min": 39.13711666666666,
+      "distance_km": 19.395,
+      "duration_min": 39.13501666666666,
       "source_file": "taichung/taichung-317-ux-a20591-d4.geojson"
     },
     {
@@ -8503,8 +8503,8 @@
     {
       "routeId": "taichung-040-vp-e8f01e-d6",
       "file": "routes/taichung/taichung-040-vp-e8f01e-d6.geojson",
-      "distance_km": 16.408,
-      "duration_min": 24.997316666666666,
+      "distance_km": 15.82,
+      "duration_min": 24.065350000000002,
       "source_file": "taichung/taichung-040-vp-e8f01e-d6.geojson"
     },
     {
@@ -8608,8 +8608,8 @@
     {
       "routeId": "taichung-040-vp-e8f01e-d1",
       "file": "routes/taichung/taichung-040-vp-e8f01e-d1.geojson",
-      "distance_km": 16.408,
-      "duration_min": 24.997316666666666,
+      "distance_km": 15.82,
+      "duration_min": 24.065350000000002,
       "source_file": "taichung/taichung-040-vp-e8f01e-d1.geojson"
     },
     {
@@ -8664,8 +8664,8 @@
     {
       "routeId": "taichung-kee-6302-a55277-d6",
       "file": "routes/taichung/taichung-kee-6302-a55277-d6.geojson",
-      "distance_km": 23.461,
-      "duration_min": 39.99443333333333,
+      "distance_km": 23.46,
+      "duration_min": 39.99301666666667,
       "source_file": "taichung/taichung-kee-6302-a55277-d6.geojson"
     },
     {
@@ -8804,8 +8804,8 @@
     {
       "routeId": "taichung-kel-0260-e9d2c0-d5",
       "file": "routes/taichung/taichung-kel-0260-e9d2c0-d5.geojson",
-      "distance_km": 21.698999999999998,
-      "duration_min": 46.57066666666666,
+      "distance_km": 21.698,
+      "duration_min": 46.51343333333333,
       "source_file": "taichung/taichung-kel-0260-e9d2c0-d5.geojson"
     },
     {
@@ -8832,8 +8832,8 @@
     {
       "routeId": "taichung-871-vp-cbcb01-d6",
       "file": "routes/taichung/taichung-871-vp-cbcb01-d6.geojson",
-      "distance_km": 26.35,
-      "duration_min": 53.37875,
+      "distance_km": 26.423000000000002,
+      "duration_min": 53.9004,
       "source_file": "taichung/taichung-871-vp-cbcb01-d6.geojson"
     },
     {
@@ -8888,8 +8888,8 @@
     {
       "routeId": "taichung-keb-0271-bd63e6-d5",
       "file": "routes/taichung/taichung-keb-0271-bd63e6-d5.geojson",
-      "distance_km": 27.976,
-      "duration_min": 51.21478333333334,
+      "distance_km": 27.910999999999998,
+      "duration_min": 51.023050000000005,
       "source_file": "taichung/taichung-keb-0271-bd63e6-d5.geojson"
     },
     {
@@ -8931,7 +8931,7 @@
       "routeId": "taichung-047-q3-de83ba-d2",
       "file": "routes/taichung/taichung-047-q3-de83ba-d2.geojson",
       "distance_km": 22.522,
-      "duration_min": 42.69551666666666,
+      "duration_min": 42.69511666666667,
       "source_file": "taichung/taichung-047-q3-de83ba-d2.geojson"
     },
     {
@@ -9021,8 +9021,8 @@
     {
       "routeId": "taichung-kel-2285-f5a955-d4",
       "file": "routes/taichung/taichung-kel-2285-f5a955-d4.geojson",
-      "distance_km": 58.494,
-      "duration_min": 112.38323333333334,
+      "distance_km": 58.497,
+      "duration_min": 112.38969999999999,
       "source_file": "taichung/taichung-kel-2285-f5a955-d4.geojson"
     },
     {
@@ -9133,8 +9133,8 @@
     {
       "routeId": "taichung-875-vc-16ca68-d4",
       "file": "routes/taichung/taichung-875-vc-16ca68-d4.geojson",
-      "distance_km": 68.12100000000001,
-      "duration_min": 128.45355000000004,
+      "distance_km": 68.12,
+      "duration_min": 128.51728333333335,
       "source_file": "taichung/taichung-875-vc-16ca68-d4.geojson"
     },
     {
@@ -9161,8 +9161,8 @@
     {
       "routeId": "taichung-052-q3-e1b86c-d6",
       "file": "routes/taichung/taichung-052-q3-e1b86c-d6.geojson",
-      "distance_km": 79.533,
-      "duration_min": 142.66269999999997,
+      "distance_km": 79.535,
+      "duration_min": 142.66504999999998,
       "source_file": "taichung/taichung-052-q3-e1b86c-d6.geojson"
     },
     {
@@ -9190,7 +9190,7 @@
       "routeId": "taichung-ked-3337-0a2715-d1",
       "file": "routes/taichung/taichung-ked-3337-0a2715-d1.geojson",
       "distance_km": 22.64,
-      "duration_min": 51.23871666666666,
+      "duration_min": 51.38423333333334,
       "source_file": "taichung/taichung-ked-3337-0a2715-d1.geojson"
     },
     {
@@ -9211,7 +9211,7 @@
       "routeId": "taichung-320-ux-1c6098-d6",
       "file": "routes/taichung/taichung-320-ux-1c6098-d6.geojson",
       "distance_km": 2.479,
-      "duration_min": 5.449283333333333,
+      "duration_min": 5.482616666666667,
       "source_file": "taichung/taichung-320-ux-1c6098-d6.geojson"
     },
     {
@@ -9421,7 +9421,7 @@
       "routeId": "taichung-kel-0260-e9d2c0-d1",
       "file": "routes/taichung/taichung-kel-0260-e9d2c0-d1.geojson",
       "distance_km": 21.693999999999996,
-      "duration_min": 46.57063333333334,
+      "duration_min": 46.51340000000001,
       "source_file": "taichung/taichung-kel-0260-e9d2c0-d1.geojson"
     },
     {
@@ -9434,8 +9434,8 @@
     {
       "routeId": "taichung-kel-2313-fc0f13-d1",
       "file": "routes/taichung/taichung-kel-2313-fc0f13-d1.geojson",
-      "distance_km": 33.07599999999999,
-      "duration_min": 66.60905000000001,
+      "distance_km": 33.08,
+      "duration_min": 66.62456666666667,
       "source_file": "taichung/taichung-kel-2313-fc0f13-d1.geojson"
     },
     {
@@ -9469,8 +9469,8 @@
     {
       "routeId": "taichung-040-vp-e8f01e-d4",
       "file": "routes/taichung/taichung-040-vp-e8f01e-d4.geojson",
-      "distance_km": 16.408,
-      "duration_min": 24.997316666666666,
+      "distance_km": 15.82,
+      "duration_min": 24.065350000000002,
       "source_file": "taichung/taichung-040-vp-e8f01e-d4.geojson"
     },
     {
@@ -9491,7 +9491,7 @@
       "routeId": "taichung-ked-3338-8ae1ce-d1",
       "file": "routes/taichung/taichung-ked-3338-8ae1ce-d1.geojson",
       "distance_km": 18.476,
-      "duration_min": 35.66623333333334,
+      "duration_min": 35.6667,
       "source_file": "taichung/taichung-ked-3338-8ae1ce-d1.geojson"
     },
     {
@@ -9546,15 +9546,15 @@
     {
       "routeId": "taichung-052-q3-e1b86c-d4",
       "file": "routes/taichung/taichung-052-q3-e1b86c-d4.geojson",
-      "distance_km": 79.533,
-      "duration_min": 142.66269999999997,
+      "distance_km": 79.535,
+      "duration_min": 142.66504999999998,
       "source_file": "taichung/taichung-052-q3-e1b86c-d4.geojson"
     },
     {
       "routeId": "taichung-875-vc-16ca68-d1",
       "file": "routes/taichung/taichung-875-vc-16ca68-d1.geojson",
-      "distance_km": 68.12100000000001,
-      "duration_min": 128.45355000000004,
+      "distance_km": 68.12,
+      "duration_min": 128.51728333333335,
       "source_file": "taichung/taichung-875-vc-16ca68-d1.geojson"
     },
     {
@@ -9588,8 +9588,8 @@
     {
       "routeId": "taichung-kee-6302-a55277-d4",
       "file": "routes/taichung/taichung-kee-6302-a55277-d4.geojson",
-      "distance_km": 23.461,
-      "duration_min": 39.99443333333333,
+      "distance_km": 23.46,
+      "duration_min": 39.99301666666667,
       "source_file": "taichung/taichung-kee-6302-a55277-d4.geojson"
     },
     {
@@ -9603,7 +9603,7 @@
       "routeId": "taichung-kel-6502-7a11ab-d6",
       "file": "routes/taichung/taichung-kel-6502-7a11ab-d6.geojson",
       "distance_km": 21.011999999999993,
-      "duration_min": 52.007316666666675,
+      "duration_min": 52.07398333333334,
       "source_file": "taichung/taichung-kel-6502-7a11ab-d6.geojson"
     },
     {
@@ -9623,8 +9623,8 @@
     {
       "routeId": "taichung-197-q3-3e7f7a-d5",
       "file": "routes/taichung/taichung-197-q3-3e7f7a-d5.geojson",
-      "distance_km": 38.454,
-      "duration_min": 66.45155000000001,
+      "distance_km": 38.453,
+      "duration_min": 66.45188333333333,
       "source_file": "taichung/taichung-197-q3-3e7f7a-d5.geojson"
     },
     {
@@ -9798,8 +9798,8 @@
     {
       "routeId": "taichung-052-q3-e1b86c-d5",
       "file": "routes/taichung/taichung-052-q3-e1b86c-d5.geojson",
-      "distance_km": 79.537,
-      "duration_min": 142.66271666666665,
+      "distance_km": 79.539,
+      "duration_min": 142.6650833333333,
       "source_file": "taichung/taichung-052-q3-e1b86c-d5.geojson"
     },
     {
@@ -9875,8 +9875,8 @@
     {
       "routeId": "taichung-437-vp-218c45-d2",
       "file": "routes/taichung/taichung-437-vp-218c45-d2.geojson",
-      "distance_km": 101.5,
-      "duration_min": 172.52790000000002,
+      "distance_km": 101.50300000000001,
+      "duration_min": 172.53573333333333,
       "source_file": "taichung/taichung-437-vp-218c45-d2.geojson"
     },
     {
@@ -10008,8 +10008,8 @@
     {
       "routeId": "taichung-317-ux-a20591-d1",
       "file": "routes/taichung/taichung-317-ux-a20591-d1.geojson",
-      "distance_km": 19.397000000000002,
-      "duration_min": 39.13711666666666,
+      "distance_km": 19.395,
+      "duration_min": 39.13501666666666,
       "source_file": "taichung/taichung-317-ux-a20591-d1.geojson"
     },
     {
@@ -10120,8 +10120,8 @@
     {
       "routeId": "taichung-kee-6302-a55277-d2",
       "file": "routes/taichung/taichung-kee-6302-a55277-d2.geojson",
-      "distance_km": 23.461,
-      "duration_min": 39.99443333333333,
+      "distance_km": 23.46,
+      "duration_min": 39.99301666666667,
       "source_file": "taichung/taichung-kee-6302-a55277-d2.geojson"
     },
     {
@@ -10142,7 +10142,7 @@
       "routeId": "taichung-915-vc-6fb5b7-d6",
       "file": "routes/taichung/taichung-915-vc-6fb5b7-d6.geojson",
       "distance_km": 41.47,
-      "duration_min": 67.87291666666667,
+      "duration_min": 68.20861666666666,
       "source_file": "taichung/taichung-915-vc-6fb5b7-d6.geojson"
     },
     {
@@ -10239,8 +10239,8 @@
     {
       "routeId": "taichung-197-q3-3e7f7a-d1",
       "file": "routes/taichung/taichung-197-q3-3e7f7a-d1.geojson",
-      "distance_km": 38.45099999999999,
-      "duration_min": 66.4515,
+      "distance_km": 38.449999999999996,
+      "duration_min": 66.45185,
       "source_file": "taichung/taichung-197-q3-3e7f7a-d1.geojson"
     },
     {
@@ -10275,7 +10275,7 @@
       "routeId": "taichung-kee-5163-ec5cd2-d6",
       "file": "routes/taichung/taichung-kee-5163-ec5cd2-d6.geojson",
       "distance_km": 20.491,
-      "duration_min": 39.61971666666667,
+      "duration_min": 39.62018333333333,
       "source_file": "taichung/taichung-kee-5163-ec5cd2-d6.geojson"
     },
     {
@@ -10351,8 +10351,8 @@
     {
       "routeId": "taichung-kee-6302-a55277-d5",
       "file": "routes/taichung/taichung-kee-6302-a55277-d5.geojson",
-      "distance_km": 23.461,
-      "duration_min": 39.99443333333333,
+      "distance_km": 23.46,
+      "duration_min": 39.99301666666667,
       "source_file": "taichung/taichung-kee-6302-a55277-d5.geojson"
     },
     {
@@ -10414,8 +10414,8 @@
     {
       "routeId": "taichung-883-vc-f47579-d2",
       "file": "routes/taichung/taichung-883-vc-f47579-d2.geojson",
-      "distance_km": 39.309000000000005,
-      "duration_min": 96.95151666666668,
+      "distance_km": 39.362,
+      "duration_min": 97.08496666666666,
       "source_file": "taichung/taichung-883-vc-f47579-d2.geojson"
     },
     {
@@ -10436,7 +10436,7 @@
       "routeId": "taichung-ked-3337-0a2715-d6",
       "file": "routes/taichung/taichung-ked-3337-0a2715-d6.geojson",
       "distance_km": 22.64,
-      "duration_min": 51.23871666666666,
+      "duration_min": 51.38423333333334,
       "source_file": "taichung/taichung-ked-3337-0a2715-d6.geojson"
     },
     {
@@ -10477,8 +10477,8 @@
     {
       "routeId": "taichung-871-vp-cbcb01-d5",
       "file": "routes/taichung/taichung-871-vp-cbcb01-d5.geojson",
-      "distance_km": 26.35,
-      "duration_min": 53.37875,
+      "distance_km": 26.423000000000002,
+      "duration_min": 53.9004,
       "source_file": "taichung/taichung-871-vp-cbcb01-d5.geojson"
     },
     {
@@ -10520,7 +10520,7 @@
       "routeId": "taichung-915-vc-6fb5b7-d2",
       "file": "routes/taichung/taichung-915-vc-6fb5b7-d2.geojson",
       "distance_km": 41.712,
-      "duration_min": 68.20878333333333,
+      "duration_min": 68.54448333333333,
       "source_file": "taichung/taichung-915-vc-6fb5b7-d2.geojson"
     },
     {
@@ -10617,8 +10617,8 @@
     {
       "routeId": "taichung-kel-2312-72edc7-d6",
       "file": "routes/taichung/taichung-kel-2312-72edc7-d6.geojson",
-      "distance_km": 14.728,
-      "duration_min": 38.2501,
+      "distance_km": 14.720999999999998,
+      "duration_min": 38.21885,
       "source_file": "taichung/taichung-kel-2312-72edc7-d6.geojson"
     },
     {
@@ -10722,29 +10722,29 @@
     {
       "routeId": "taichung-892-ue-6e613e-d4",
       "file": "routes/taichung/taichung-892-ue-6e613e-d4.geojson",
-      "distance_km": 24.561,
-      "duration_min": 49.1901,
+      "distance_km": 24.559000000000005,
+      "duration_min": 49.18756666666666,
       "source_file": "taichung/taichung-892-ue-6e613e-d4.geojson"
     },
     {
       "routeId": "taichung-883-vc-f47579-d4",
       "file": "routes/taichung/taichung-883-vc-f47579-d4.geojson",
-      "distance_km": 15.607000000000003,
-      "duration_min": 38.63158333333334,
+      "distance_km": 15.666,
+      "duration_min": 38.78288333333334,
       "source_file": "taichung/taichung-883-vc-f47579-d4.geojson"
     },
     {
       "routeId": "taichung-kel-6502-7a11ab-d1",
       "file": "routes/taichung/taichung-kel-6502-7a11ab-d1.geojson",
       "distance_km": 21.011999999999993,
-      "duration_min": 52.007316666666675,
+      "duration_min": 52.07398333333334,
       "source_file": "taichung/taichung-kel-6502-7a11ab-d1.geojson"
     },
     {
       "routeId": "taichung-kel-0252-3f2035-d4",
       "file": "routes/taichung/taichung-kel-0252-3f2035-d4.geojson",
-      "distance_km": 15.849,
-      "duration_min": 41.93276666666667,
+      "distance_km": 15.862,
+      "duration_min": 42.04223333333333,
       "source_file": "taichung/taichung-kel-0252-3f2035-d4.geojson"
     },
     {
@@ -10835,7 +10835,7 @@
       "routeId": "taichung-915-vc-6fb5b7-d1",
       "file": "routes/taichung/taichung-915-vc-6fb5b7-d1.geojson",
       "distance_km": 40.367999999999995,
-      "duration_min": 65.8945,
+      "duration_min": 66.2302,
       "source_file": "taichung/taichung-915-vc-6fb5b7-d1.geojson"
     },
     {
@@ -10947,7 +10947,7 @@
       "routeId": "taichung-ked-3337-0a2715-d2",
       "file": "routes/taichung/taichung-ked-3337-0a2715-d2.geojson",
       "distance_km": 22.64,
-      "duration_min": 51.23871666666666,
+      "duration_min": 51.38423333333334,
       "source_file": "taichung/taichung-ked-3337-0a2715-d2.geojson"
     },
     {
@@ -10982,14 +10982,14 @@
       "routeId": "taichung-kel-6502-7a11ab-d5",
       "file": "routes/taichung/taichung-kel-6502-7a11ab-d5.geojson",
       "distance_km": 21.017999999999997,
-      "duration_min": 52.007349999999995,
+      "duration_min": 52.074016666666665,
       "source_file": "taichung/taichung-kel-6502-7a11ab-d5.geojson"
     },
     {
       "routeId": "taichung-ker-3365-cf7f7d-d1",
       "file": "routes/taichung/taichung-ker-3365-cf7f7d-d1.geojson",
-      "distance_km": 45.260999999999996,
-      "duration_min": 62.25463333333333,
+      "distance_km": 45.268,
+      "duration_min": 62.26563333333333,
       "source_file": "taichung/taichung-ker-3365-cf7f7d-d1.geojson"
     },
     {
@@ -11002,15 +11002,15 @@
     {
       "routeId": "taichung-kel-2312-72edc7-d2",
       "file": "routes/taichung/taichung-kel-2312-72edc7-d2.geojson",
-      "distance_km": 59.25699999999999,
-      "duration_min": 138.14386666666667,
+      "distance_km": 59.239999999999995,
+      "duration_min": 138.06911666666664,
       "source_file": "taichung/taichung-kel-2312-72edc7-d2.geojson"
     },
     {
       "routeId": "taichung-keb-0271-bd63e6-d1",
       "file": "routes/taichung/taichung-keb-0271-bd63e6-d1.geojson",
-      "distance_km": 26.209000000000003,
-      "duration_min": 47.98701666666666,
+      "distance_km": 26.144000000000005,
+      "duration_min": 47.79528333333333,
       "source_file": "taichung/taichung-keb-0271-bd63e6-d1.geojson"
     },
     {
@@ -11051,8 +11051,8 @@
     {
       "routeId": "taichung-kel-2313-fc0f13-d2",
       "file": "routes/taichung/taichung-kel-2313-fc0f13-d2.geojson",
-      "distance_km": 86.50999999999999,
-      "duration_min": 176.2918,
+      "distance_km": 86.516,
+      "duration_min": 176.31953333333334,
       "source_file": "taichung/taichung-kel-2313-fc0f13-d2.geojson"
     },
     {
@@ -11128,8 +11128,8 @@
     {
       "routeId": "taichung-kee-6302-a55277-d1",
       "file": "routes/taichung/taichung-kee-6302-a55277-d1.geojson",
-      "distance_km": 23.461,
-      "duration_min": 39.99443333333333,
+      "distance_km": 23.46,
+      "duration_min": 39.99301666666667,
       "source_file": "taichung/taichung-kee-6302-a55277-d1.geojson"
     },
     {
@@ -11177,8 +11177,8 @@
     {
       "routeId": "taichung-ked-3331-101b48-d5",
       "file": "routes/taichung/taichung-ked-3331-101b48-d5.geojson",
-      "distance_km": 13.511000000000001,
-      "duration_min": 39.70515,
+      "distance_km": 13.51,
+      "duration_min": 39.410450000000004,
       "source_file": "taichung/taichung-ked-3331-101b48-d5.geojson"
     },
     {
@@ -11226,8 +11226,8 @@
     {
       "routeId": "taichung-keb-0711-0b1a5c-d4",
       "file": "routes/taichung/taichung-keb-0711-0b1a5c-d4.geojson",
-      "distance_km": 48.150999999999996,
-      "duration_min": 85.01375,
+      "distance_km": 46.022,
+      "duration_min": 82.83255,
       "source_file": "taichung/taichung-keb-0711-0b1a5c-d4.geojson"
     },
     {
@@ -11338,8 +11338,8 @@
     {
       "routeId": "taichung-kee-6296-25839e-d5",
       "file": "routes/taichung/taichung-kee-6296-25839e-d5.geojson",
-      "distance_km": 22.956999999999997,
-      "duration_min": 53.423966666666665,
+      "distance_km": 22.751,
+      "duration_min": 52.511100000000006,
       "source_file": "taichung/taichung-kee-6296-25839e-d5.geojson"
     },
     {
@@ -11542,7 +11542,7 @@
       "routeId": "taichung-ked-3338-8ae1ce-d5",
       "file": "routes/taichung/taichung-ked-3338-8ae1ce-d5.geojson",
       "distance_km": 18.476,
-      "duration_min": 35.66623333333334,
+      "duration_min": 35.6667,
       "source_file": "taichung/taichung-ked-3338-8ae1ce-d5.geojson"
     },
     {
@@ -11583,8 +11583,8 @@
     {
       "routeId": "taichung-892-ue-6e613e-d2",
       "file": "routes/taichung/taichung-892-ue-6e613e-d2.geojson",
-      "distance_km": 50.54100000000001,
-      "duration_min": 101.17738333333332,
+      "distance_km": 50.539,
+      "duration_min": 101.17484999999998,
       "source_file": "taichung/taichung-892-ue-6e613e-d2.geojson"
     },
     {
@@ -11654,7 +11654,7 @@
       "routeId": "taichung-kee-6295-caa47c-d2",
       "file": "routes/taichung/taichung-kee-6295-caa47c-d2.geojson",
       "distance_km": 20.639,
-      "duration_min": 42.888200000000005,
+      "duration_min": 43.04448333333333,
       "source_file": "taichung/taichung-kee-6295-caa47c-d2.geojson"
     },
     {
@@ -11794,7 +11794,7 @@
       "routeId": "taichung-047-q3-de83ba-d6",
       "file": "routes/taichung/taichung-047-q3-de83ba-d6.geojson",
       "distance_km": 22.522,
-      "duration_min": 42.69551666666666,
+      "duration_min": 42.69511666666667,
       "source_file": "taichung/taichung-047-q3-de83ba-d6.geojson"
     },
     {
@@ -11836,7 +11836,7 @@
       "routeId": "taichung-kee-5163-ec5cd2-d1",
       "file": "routes/taichung/taichung-kee-5163-ec5cd2-d1.geojson",
       "distance_km": 20.897000000000002,
-      "duration_min": 40.66681666666667,
+      "duration_min": 40.6673,
       "source_file": "taichung/taichung-kee-5163-ec5cd2-d1.geojson"
     },
     {
@@ -11884,8 +11884,8 @@
     {
       "routeId": "taichung-875-vc-16ca68-d6",
       "file": "routes/taichung/taichung-875-vc-16ca68-d6.geojson",
-      "distance_km": 68.12100000000001,
-      "duration_min": 128.45355000000004,
+      "distance_km": 68.12,
+      "duration_min": 128.51728333333335,
       "source_file": "taichung/taichung-875-vc-16ca68-d6.geojson"
     },
     {
