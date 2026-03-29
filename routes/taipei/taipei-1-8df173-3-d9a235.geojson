@@ -7,12 +7,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            121.547468,
-            25.039756
+            121.547469,
+            25.039752
           ],
           [
-            121.547143,
-            25.03976
+            121.547174,
+            25.039753
           ],
           [
             121.547134,
@@ -100,8 +100,8 @@
         "routeId": "taipei-1-8df173-3-d9a235",
         "city": "taipei",
         "source_file": "taipei/taipei-1-8df173-3-d9a235.geojson",
-        "distance_km": 0.575,
-        "duration_min": 1.6563833333333333,
+        "distance_km": 0.571,
+        "duration_min": 1.6377833333333334,
         "valhalla_config": "valhalla.json"
       }
     }
