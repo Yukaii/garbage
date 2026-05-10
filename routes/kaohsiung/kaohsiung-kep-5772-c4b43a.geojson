@@ -1235,8 +1235,20 @@
             22.894837
           ],
           [
+            120.48337,
+            22.894333
+          ],
+          [
+            120.483369,
+            22.894276
+          ],
+          [
             120.483369,
             22.894222
+          ],
+          [
+            120.483367,
+            22.89414
           ],
           [
             120.483356,
@@ -2745,7 +2757,7 @@
         "city": "kaohsiung",
         "source_file": "kaohsiung/kaohsiung-kep-5772-c4b43a.geojson",
         "distance_km": 20.494,
-        "duration_min": 30.853149999999996,
+        "duration_min": 30.820416666666667,
         "valhalla_config": "valhalla.json"
       }
     }
