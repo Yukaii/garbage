@@ -1175,10 +1175,6 @@
             25.037309
           ],
           [
-            121.43442,
-            25.037329
-          ],
-          [
             121.434406,
             25.037338
           ],
@@ -1189,10 +1185,6 @@
           [
             121.434406,
             25.037338
-          ],
-          [
-            121.43442,
-            25.037329
           ],
           [
             121.434459,
@@ -1276,8 +1268,8 @@
         "routeId": "new-taipei-242031",
         "city": "new-taipei",
         "source_file": "new-taipei/new-taipei-242031.geojson",
-        "distance_km": 10.567,
-        "duration_min": 27.73281666666667,
+        "distance_km": 10.565,
+        "duration_min": 27.729133333333333,
         "valhalla_config": "valhalla.json"
       }
     }
