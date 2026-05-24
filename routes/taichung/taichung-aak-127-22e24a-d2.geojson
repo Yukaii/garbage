@@ -1407,6 +1407,10 @@
             24.18964
           ],
           [
+            120.638869,
+            24.18964
+          ],
+          [
             120.639018,
             24.18995
           ],
@@ -3368,8 +3372,8 @@
         "routeId": "taichung-aak-127-22e24a-d2",
         "city": "taichung",
         "source_file": "taichung/taichung-aak-127-22e24a-d2.geojson",
-        "distance_km": 29.709999999999997,
-        "duration_min": 53.28165,
+        "distance_km": 29.711,
+        "duration_min": 53.28501666666667,
         "valhalla_config": "valhalla.json"
       }
     }
