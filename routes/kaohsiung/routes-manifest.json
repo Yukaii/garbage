@@ -1,895 +1,13 @@
 {
   "city": "kaohsiung",
-  "generated_at": "2026-05-24T18:31:57.005Z",
+  "generated_at": "2026-05-31T18:34:49.613Z",
   "routes": [
-    {
-      "routeId": "kaohsiung-kew-0073-8568b9",
-      "file": "routes/kaohsiung/kaohsiung-kew-0073-8568b9.geojson",
-      "distance_km": 13.935,
-      "duration_min": 26.046866666666666,
-      "source_file": "kaohsiung/kaohsiung-kew-0073-8568b9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5329-4a20e3",
-      "file": "routes/kaohsiung/kaohsiung-keh-5329-4a20e3.geojson",
-      "distance_km": 10.205,
-      "duration_min": 22.067416666666666,
-      "source_file": "kaohsiung/kaohsiung-keh-5329-4a20e3.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keu-5601-f0fb28",
-      "file": "routes/kaohsiung/kaohsiung-keu-5601-f0fb28.geojson",
-      "distance_km": 6.428,
-      "duration_min": 11.549166666666668,
-      "source_file": "kaohsiung/kaohsiung-keu-5601-f0fb28.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-6919-246f71",
-      "file": "routes/kaohsiung/kaohsiung-kef-6919-246f71.geojson",
-      "distance_km": 13.495000000000001,
-      "duration_min": 20.168850000000003,
-      "source_file": "kaohsiung/kaohsiung-kef-6919-246f71.geojson"
-    },
-    {
-      "routeId": "kaohsiung-565-br-087c7a",
-      "file": "routes/kaohsiung/kaohsiung-565-br-087c7a.geojson",
-      "distance_km": 11.786,
-      "duration_min": 21.5061,
-      "source_file": "kaohsiung/kaohsiung-565-br-087c7a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-2405-mb-f6b7a6",
-      "file": "routes/kaohsiung/kaohsiung-2405-mb-f6b7a6.geojson",
-      "distance_km": 10.367,
-      "duration_min": 17.20605,
-      "source_file": "kaohsiung/kaohsiung-2405-mb-f6b7a6.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6870-70f7fa",
-      "file": "routes/kaohsiung/kaohsiung-keb-6870-70f7fa.geojson",
-      "distance_km": 21.233,
-      "duration_min": 48.42105,
-      "source_file": "kaohsiung/kaohsiung-keb-6870-70f7fa.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keu-1787-d15d61",
-      "file": "routes/kaohsiung/kaohsiung-keu-1787-d15d61.geojson",
-      "distance_km": 22.105999999999998,
-      "duration_min": 48.37033333333333,
-      "source_file": "kaohsiung/kaohsiung-keu-1787-d15d61.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5763-5e937d",
-      "file": "routes/kaohsiung/kaohsiung-kep-5763-5e937d.geojson",
-      "distance_km": 13.957,
-      "duration_min": 18.88945,
-      "source_file": "kaohsiung/kaohsiung-kep-5763-5e937d.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6171-5afef2",
-      "file": "routes/kaohsiung/kaohsiung-keb-6171-5afef2.geojson",
-      "distance_km": 3.918,
-      "duration_min": 7.48725,
-      "source_file": "kaohsiung/kaohsiung-keb-6171-5afef2.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9561-f43b62",
-      "file": "routes/kaohsiung/kaohsiung-ket-9561-f43b62.geojson",
-      "distance_km": 6.646999999999999,
-      "duration_min": 14.582733333333332,
-      "source_file": "kaohsiung/kaohsiung-ket-9561-f43b62.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-3323-2089b5",
-      "file": "routes/kaohsiung/kaohsiung-kep-3323-2089b5.geojson",
-      "distance_km": 12.738000000000001,
-      "duration_min": 25.56661666666667,
-      "source_file": "kaohsiung/kaohsiung-kep-3323-2089b5.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6166-abf138",
-      "file": "routes/kaohsiung/kaohsiung-keb-6166-abf138.geojson",
-      "distance_km": 19.141,
-      "duration_min": 35.2064,
-      "source_file": "kaohsiung/kaohsiung-keb-6166-abf138.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6376-193d27",
-      "file": "routes/kaohsiung/kaohsiung-keh-6376-193d27.geojson",
-      "distance_km": 7.105,
-      "duration_min": 15.031633333333334,
-      "source_file": "kaohsiung/kaohsiung-keh-6376-193d27.geojson"
-    },
-    {
-      "routeId": "kaohsiung-456-bu-7ed4b9",
-      "file": "routes/kaohsiung/kaohsiung-456-bu-7ed4b9.geojson",
-      "distance_km": 20.006999999999998,
-      "duration_min": 44.5541,
-      "source_file": "kaohsiung/kaohsiung-456-bu-7ed4b9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9595-c25ea4",
-      "file": "routes/kaohsiung/kaohsiung-ket-9595-c25ea4.geojson",
-      "distance_km": 8.639,
-      "duration_min": 23.356116666666665,
-      "source_file": "kaohsiung/kaohsiung-ket-9595-c25ea4.geojson"
-    },
-    {
-      "routeId": "kaohsiung-236-uv-a78a48",
-      "file": "routes/kaohsiung/kaohsiung-236-uv-a78a48.geojson",
-      "distance_km": 20.02,
-      "duration_min": 43.139633333333336,
-      "source_file": "kaohsiung/kaohsiung-236-uv-a78a48.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6253-978731",
-      "file": "routes/kaohsiung/kaohsiung-keh-6253-978731.geojson",
-      "distance_km": 19.811,
-      "duration_min": 37.58108333333334,
-      "source_file": "kaohsiung/kaohsiung-keh-6253-978731.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5331-737065",
-      "file": "routes/kaohsiung/kaohsiung-keh-5331-737065.geojson",
-      "distance_km": 13.462000000000002,
-      "duration_min": 28.712683333333338,
-      "source_file": "kaohsiung/kaohsiung-keh-5331-737065.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5332-eca234",
-      "file": "routes/kaohsiung/kaohsiung-keh-5332-eca234.geojson",
-      "distance_km": 2.667,
-      "duration_min": 5.649466666666667,
-      "source_file": "kaohsiung/kaohsiung-keh-5332-eca234.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1752-18f582",
-      "file": "routes/kaohsiung/kaohsiung-kem-1752-18f582.geojson",
-      "distance_km": 13.155,
-      "duration_min": 29.879033333333332,
-      "source_file": "kaohsiung/kaohsiung-kem-1752-18f582.geojson"
-    },
-    {
-      "routeId": "kaohsiung-359-uv-b0fd15",
-      "file": "routes/kaohsiung/kaohsiung-359-uv-b0fd15.geojson",
-      "distance_km": 10.671,
-      "duration_min": 13.549000000000001,
-      "source_file": "kaohsiung/kaohsiung-359-uv-b0fd15.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0630-87bda0",
-      "file": "routes/kaohsiung/kaohsiung-kem-0630-87bda0.geojson",
-      "distance_km": 20.867,
-      "duration_min": 46.08586666666667,
-      "source_file": "kaohsiung/kaohsiung-kem-0630-87bda0.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9590-15c7d1",
-      "file": "routes/kaohsiung/kaohsiung-ket-9590-15c7d1.geojson",
-      "distance_km": 16.557,
-      "duration_min": 30.634783333333335,
-      "source_file": "kaohsiung/kaohsiung-ket-9590-15c7d1.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1767-b873d9",
-      "file": "routes/kaohsiung/kaohsiung-kem-1767-b873d9.geojson",
-      "distance_km": 14.064,
-      "duration_min": 28.496950000000002,
-      "source_file": "kaohsiung/kaohsiung-kem-1767-b873d9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6238-aae206",
-      "file": "routes/kaohsiung/kaohsiung-keh-6238-aae206.geojson",
-      "distance_km": 23.01,
-      "duration_min": 40.573766666666664,
-      "source_file": "kaohsiung/kaohsiung-keh-6238-aae206.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6868-cdb1d4",
-      "file": "routes/kaohsiung/kaohsiung-keb-6868-cdb1d4.geojson",
-      "distance_km": 15.347999999999999,
-      "duration_min": 29.9943,
-      "source_file": "kaohsiung/kaohsiung-keb-6868-cdb1d4.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-2901-e56961",
-      "file": "routes/kaohsiung/kaohsiung-kep-2901-e56961.geojson",
-      "distance_km": 18.342999999999996,
-      "duration_min": 46.723016666666666,
-      "source_file": "kaohsiung/kaohsiung-kep-2901-e56961.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3750-fb7bec",
-      "file": "routes/kaohsiung/kaohsiung-kel-3750-fb7bec.geojson",
-      "distance_km": 10.223,
-      "duration_min": 17.439883333333334,
-      "source_file": "kaohsiung/kaohsiung-kel-3750-fb7bec.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5832-74f7ca",
-      "file": "routes/kaohsiung/kaohsiung-kef-5832-74f7ca.geojson",
-      "distance_km": 15.571,
-      "duration_min": 26.297900000000002,
-      "source_file": "kaohsiung/kaohsiung-kef-5832-74f7ca.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7602-883049",
-      "file": "routes/kaohsiung/kaohsiung-keb-7602-883049.geojson",
-      "distance_km": 13.609,
-      "duration_min": 25.97325,
-      "source_file": "kaohsiung/kaohsiung-keb-7602-883049.geojson"
-    },
-    {
-      "routeId": "kaohsiung-080-vh-0e56e4",
-      "file": "routes/kaohsiung/kaohsiung-080-vh-0e56e4.geojson",
-      "distance_km": 39.944,
-      "duration_min": 63.731433333333335,
-      "source_file": "kaohsiung/kaohsiung-080-vh-0e56e4.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-7655-2574df",
-      "file": "routes/kaohsiung/kaohsiung-kep-7655-2574df.geojson",
-      "distance_km": 15.546,
-      "duration_min": 26.687116666666665,
-      "source_file": "kaohsiung/kaohsiung-kep-7655-2574df.geojson"
-    },
-    {
-      "routeId": "kaohsiung-910-vh-664b8a",
-      "file": "routes/kaohsiung/kaohsiung-910-vh-664b8a.geojson",
-      "distance_km": 18.402,
-      "duration_min": 49.40495,
-      "source_file": "kaohsiung/kaohsiung-910-vh-664b8a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5766-8ef2c4",
-      "file": "routes/kaohsiung/kaohsiung-keh-5766-8ef2c4.geojson",
-      "distance_km": 13.937,
-      "duration_min": 23.91745,
-      "source_file": "kaohsiung/kaohsiung-keh-5766-8ef2c4.geojson"
-    },
-    {
-      "routeId": "kaohsiung-940-n6-6253ae",
-      "file": "routes/kaohsiung/kaohsiung-940-n6-6253ae.geojson",
-      "distance_km": 3.454,
-      "duration_min": 8.136733333333334,
-      "source_file": "kaohsiung/kaohsiung-940-n6-6253ae.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7126-1bba54",
-      "file": "routes/kaohsiung/kaohsiung-keb-7126-1bba54.geojson",
-      "distance_km": 8.402,
-      "duration_min": 23.703783333333334,
-      "source_file": "kaohsiung/kaohsiung-keb-7126-1bba54.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-2610-3d6888",
-      "file": "routes/kaohsiung/kaohsiung-kem-2610-3d6888.geojson",
-      "distance_km": 20.404,
-      "duration_min": 31.581349999999997,
-      "source_file": "kaohsiung/kaohsiung-kem-2610-3d6888.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9603-a472ca",
-      "file": "routes/kaohsiung/kaohsiung-ket-9603-a472ca.geojson",
-      "distance_km": 23.947,
-      "duration_min": 45.0178,
-      "source_file": "kaohsiung/kaohsiung-ket-9603-a472ca.geojson"
-    },
-    {
-      "routeId": "kaohsiung-403-uk-251331",
-      "file": "routes/kaohsiung/kaohsiung-403-uk-251331.geojson",
-      "distance_km": 9.337,
-      "duration_min": 21.169050000000002,
-      "source_file": "kaohsiung/kaohsiung-403-uk-251331.geojson"
-    },
-    {
-      "routeId": "kaohsiung-905-vh-14ee30",
-      "file": "routes/kaohsiung/kaohsiung-905-vh-14ee30.geojson",
-      "distance_km": 25.656,
-      "duration_min": 53.21581666666666,
-      "source_file": "kaohsiung/kaohsiung-905-vh-14ee30.geojson"
-    },
-    {
-      "routeId": "kaohsiung-650-uv-8b36ea",
-      "file": "routes/kaohsiung/kaohsiung-650-uv-8b36ea.geojson",
-      "distance_km": 8.943,
-      "duration_min": 19.480200000000004,
-      "source_file": "kaohsiung/kaohsiung-650-uv-8b36ea.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9553-451c12",
-      "file": "routes/kaohsiung/kaohsiung-ket-9553-451c12.geojson",
-      "distance_km": 9.169,
-      "duration_min": 21.40775,
-      "source_file": "kaohsiung/kaohsiung-ket-9553-451c12.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kew-0078-365599",
-      "file": "routes/kaohsiung/kaohsiung-kew-0078-365599.geojson",
-      "distance_km": 20.897,
-      "duration_min": 29.596149999999998,
-      "source_file": "kaohsiung/kaohsiung-kew-0078-365599.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-6920-ede5cb",
-      "file": "routes/kaohsiung/kaohsiung-kef-6920-ede5cb.geojson",
-      "distance_km": 69.04299999999999,
-      "duration_min": 82.29469999999999,
-      "source_file": "kaohsiung/kaohsiung-kef-6920-ede5cb.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6137-f689d4",
-      "file": "routes/kaohsiung/kaohsiung-keb-6137-f689d4.geojson",
-      "distance_km": 8.328,
-      "duration_min": 14.698883333333333,
-      "source_file": "kaohsiung/kaohsiung-keb-6137-f689d4.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-6922-7fea17",
-      "file": "routes/kaohsiung/kaohsiung-kef-6922-7fea17.geojson",
-      "distance_km": 13.185,
-      "duration_min": 20.74566666666667,
-      "source_file": "kaohsiung/kaohsiung-kef-6922-7fea17.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6829-b33c01",
-      "file": "routes/kaohsiung/kaohsiung-keb-6829-b33c01.geojson",
-      "distance_km": 18.776000000000003,
-      "duration_min": 35.839333333333336,
-      "source_file": "kaohsiung/kaohsiung-keb-6829-b33c01.geojson"
-    },
-    {
-      "routeId": "kaohsiung-567-uv-b5be0d",
-      "file": "routes/kaohsiung/kaohsiung-567-uv-b5be0d.geojson",
-      "distance_km": 18.487999999999996,
-      "duration_min": 52.519283333333334,
-      "source_file": "kaohsiung/kaohsiung-567-uv-b5be0d.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keu-3711-8ad6a2",
-      "file": "routes/kaohsiung/kaohsiung-keu-3711-8ad6a2.geojson",
-      "distance_km": 3.205,
-      "duration_min": 6.0343333333333335,
-      "source_file": "kaohsiung/kaohsiung-keu-3711-8ad6a2.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5782-44f2c5",
-      "file": "routes/kaohsiung/kaohsiung-kep-5782-44f2c5.geojson",
-      "distance_km": 2.287,
-      "duration_min": 6.200516666666667,
-      "source_file": "kaohsiung/kaohsiung-kep-5782-44f2c5.geojson"
-    },
-    {
-      "routeId": "kaohsiung-397-uk-15c080",
-      "file": "routes/kaohsiung/kaohsiung-397-uk-15c080.geojson",
-      "distance_km": 15.956,
-      "duration_min": 34.457033333333335,
-      "source_file": "kaohsiung/kaohsiung-397-uk-15c080.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5823-1fac4c",
-      "file": "routes/kaohsiung/kaohsiung-kef-5823-1fac4c.geojson",
-      "distance_km": 13.348,
-      "duration_min": 28.78408333333333,
-      "source_file": "kaohsiung/kaohsiung-kef-5823-1fac4c.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-6923-5eb362",
-      "file": "routes/kaohsiung/kaohsiung-kef-6923-5eb362.geojson",
-      "distance_km": 10.79,
-      "duration_min": 21.74665,
-      "source_file": "kaohsiung/kaohsiung-kef-6923-5eb362.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3736-171004",
-      "file": "routes/kaohsiung/kaohsiung-kel-3736-171004.geojson",
-      "distance_km": 10.145,
-      "duration_min": 20.446316666666668,
-      "source_file": "kaohsiung/kaohsiung-kel-3736-171004.geojson"
-    },
-    {
-      "routeId": "kaohsiung-873-t7-cf76e0",
-      "file": "routes/kaohsiung/kaohsiung-873-t7-cf76e0.geojson",
-      "distance_km": 8.118,
-      "duration_min": 13.60355,
-      "source_file": "kaohsiung/kaohsiung-873-t7-cf76e0.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5815-ce0558",
-      "file": "routes/kaohsiung/kaohsiung-kep-5815-ce0558.geojson",
-      "distance_km": 11.737,
-      "duration_min": 17.713916666666666,
-      "source_file": "kaohsiung/kaohsiung-kep-5815-ce0558.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5380-78aa0d",
-      "file": "routes/kaohsiung/kaohsiung-keh-5380-78aa0d.geojson",
-      "distance_km": 11.343,
-      "duration_min": 18.627583333333334,
-      "source_file": "kaohsiung/kaohsiung-keh-5380-78aa0d.geojson"
-    },
-    {
-      "routeId": "kaohsiung-440-n6-67a4ac",
-      "file": "routes/kaohsiung/kaohsiung-440-n6-67a4ac.geojson",
-      "distance_km": 3.504,
-      "duration_min": 7.80125,
-      "source_file": "kaohsiung/kaohsiung-440-n6-67a4ac.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-6202-687cc7",
-      "file": "routes/kaohsiung/kaohsiung-kep-6202-687cc7.geojson",
-      "distance_km": 12.953,
-      "duration_min": 30.123116666666668,
-      "source_file": "kaohsiung/kaohsiung-kep-6202-687cc7.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-6918-8e13f6",
-      "file": "routes/kaohsiung/kaohsiung-kef-6918-8e13f6.geojson",
-      "distance_km": 9.976,
-      "duration_min": 15.875933333333332,
-      "source_file": "kaohsiung/kaohsiung-kef-6918-8e13f6.geojson"
-    },
-    {
-      "routeId": "kaohsiung-523-vh-56ff36",
-      "file": "routes/kaohsiung/kaohsiung-523-vh-56ff36.geojson",
-      "distance_km": 19.952,
-      "duration_min": 48.36351666666666,
-      "source_file": "kaohsiung/kaohsiung-523-vh-56ff36.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7108-eb75eb",
-      "file": "routes/kaohsiung/kaohsiung-keb-7108-eb75eb.geojson",
-      "distance_km": 9.306,
-      "duration_min": 18.318766666666665,
-      "source_file": "kaohsiung/kaohsiung-keb-7108-eb75eb.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3720-1a0a70",
-      "file": "routes/kaohsiung/kaohsiung-kel-3720-1a0a70.geojson",
-      "distance_km": 12.388,
-      "duration_min": 23.588233333333335,
-      "source_file": "kaohsiung/kaohsiung-kel-3720-1a0a70.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6875-ea10e3",
-      "file": "routes/kaohsiung/kaohsiung-keb-6875-ea10e3.geojson",
-      "distance_km": 24.071,
-      "duration_min": 23.6297,
-      "source_file": "kaohsiung/kaohsiung-keb-6875-ea10e3.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5610-4db150",
-      "file": "routes/kaohsiung/kaohsiung-kef-5610-4db150.geojson",
-      "distance_km": 10.543,
-      "duration_min": 26.1509,
-      "source_file": "kaohsiung/kaohsiung-kef-5610-4db150.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6263-7a2aab",
-      "file": "routes/kaohsiung/kaohsiung-keh-6263-7a2aab.geojson",
-      "distance_km": 6.352,
-      "duration_min": 13.0774,
-      "source_file": "kaohsiung/kaohsiung-keh-6263-7a2aab.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5371-8fe617",
-      "file": "routes/kaohsiung/kaohsiung-keh-5371-8fe617.geojson",
-      "distance_km": 12.718,
-      "duration_min": 23.86415,
-      "source_file": "kaohsiung/kaohsiung-keh-5371-8fe617.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6680-0ea5fc",
-      "file": "routes/kaohsiung/kaohsiung-keh-6680-0ea5fc.geojson",
-      "distance_km": 11.404,
-      "duration_min": 18.752200000000002,
-      "source_file": "kaohsiung/kaohsiung-keh-6680-0ea5fc.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6671-ea671e",
-      "file": "routes/kaohsiung/kaohsiung-keh-6671-ea671e.geojson",
-      "distance_km": 18.507,
-      "duration_min": 34.6508,
-      "source_file": "kaohsiung/kaohsiung-keh-6671-ea671e.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0622-4b2fcd",
-      "file": "routes/kaohsiung/kaohsiung-kem-0622-4b2fcd.geojson",
-      "distance_km": 14.428999999999998,
-      "duration_min": 26.304399999999998,
-      "source_file": "kaohsiung/kaohsiung-kem-0622-4b2fcd.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0012-a5dbf0",
-      "file": "routes/kaohsiung/kaohsiung-kem-0012-a5dbf0.geojson",
-      "distance_km": 12.415,
-      "duration_min": 25.8677,
-      "source_file": "kaohsiung/kaohsiung-kem-0012-a5dbf0.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5787-a9add3",
-      "file": "routes/kaohsiung/kaohsiung-kep-5787-a9add3.geojson",
-      "distance_km": 78.587,
-      "duration_min": 97.33779999999999,
-      "source_file": "kaohsiung/kaohsiung-kep-5787-a9add3.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6251-b9345f",
-      "file": "routes/kaohsiung/kaohsiung-keh-6251-b9345f.geojson",
-      "distance_km": 15.460999999999999,
-      "duration_min": 34.80846666666667,
-      "source_file": "kaohsiung/kaohsiung-keh-6251-b9345f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-2231-b68d96",
-      "file": "routes/kaohsiung/kaohsiung-kem-2231-b68d96.geojson",
-      "distance_km": 21.469,
-      "duration_min": 39.73233333333334,
-      "source_file": "kaohsiung/kaohsiung-kem-2231-b68d96.geojson"
-    },
-    {
-      "routeId": "kaohsiung-752-t7-78d3e2",
-      "file": "routes/kaohsiung/kaohsiung-752-t7-78d3e2.geojson",
-      "distance_km": 11.612,
-      "duration_min": 26.936933333333336,
-      "source_file": "kaohsiung/kaohsiung-752-t7-78d3e2.geojson"
-    },
-    {
-      "routeId": "kaohsiung-416-bu-71d985",
-      "file": "routes/kaohsiung/kaohsiung-416-bu-71d985.geojson",
-      "distance_km": 32.225,
-      "duration_min": 48.99361666666667,
-      "source_file": "kaohsiung/kaohsiung-416-bu-71d985.geojson"
-    },
     {
       "routeId": "kaohsiung-keb-7881-c2bfbe",
       "file": "routes/kaohsiung/kaohsiung-keb-7881-c2bfbe.geojson",
       "distance_km": 12.43,
       "duration_min": 26.311283333333332,
       "source_file": "kaohsiung/kaohsiung-keb-7881-c2bfbe.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-6921-1f2a83",
-      "file": "routes/kaohsiung/kaohsiung-kef-6921-1f2a83.geojson",
-      "distance_km": 8.721,
-      "duration_min": 15.67175,
-      "source_file": "kaohsiung/kaohsiung-kef-6921-1f2a83.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keu-5596-8ddaad",
-      "file": "routes/kaohsiung/kaohsiung-keu-5596-8ddaad.geojson",
-      "distance_km": 20.661,
-      "duration_min": 43.2843,
-      "source_file": "kaohsiung/kaohsiung-keu-5596-8ddaad.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ked-9596-8250d4",
-      "file": "routes/kaohsiung/kaohsiung-ked-9596-8250d4.geojson",
-      "distance_km": 7.614,
-      "duration_min": 15.260633333333335,
-      "source_file": "kaohsiung/kaohsiung-ked-9596-8250d4.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-3021-ca76b6",
-      "file": "routes/kaohsiung/kaohsiung-kem-3021-ca76b6.geojson",
-      "distance_km": 18.22,
-      "duration_min": 33.048633333333335,
-      "source_file": "kaohsiung/kaohsiung-kem-3021-ca76b6.geojson"
-    },
-    {
-      "routeId": "kaohsiung-289-n6-a07354",
-      "file": "routes/kaohsiung/kaohsiung-289-n6-a07354.geojson",
-      "distance_km": 13.811,
-      "duration_min": 29.251766666666665,
-      "source_file": "kaohsiung/kaohsiung-289-n6-a07354.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5815-129e0a",
-      "file": "routes/kaohsiung/kaohsiung-kef-5815-129e0a.geojson",
-      "distance_km": 15.556000000000001,
-      "duration_min": 30.549683333333334,
-      "source_file": "kaohsiung/kaohsiung-kef-5815-129e0a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9563-e36372",
-      "file": "routes/kaohsiung/kaohsiung-ket-9563-e36372.geojson",
-      "distance_km": 8.729,
-      "duration_min": 19.326050000000002,
-      "source_file": "kaohsiung/kaohsiung-ket-9563-e36372.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6993-4d6e77",
-      "file": "routes/kaohsiung/kaohsiung-keh-6993-4d6e77.geojson",
-      "distance_km": 6.1739999999999995,
-      "duration_min": 14.597316666666668,
-      "source_file": "kaohsiung/kaohsiung-keh-6993-4d6e77.geojson"
-    },
-    {
-      "routeId": "kaohsiung-443-n6-ed4177",
-      "file": "routes/kaohsiung/kaohsiung-443-n6-ed4177.geojson",
-      "distance_km": 12.622,
-      "duration_min": 23.4938,
-      "source_file": "kaohsiung/kaohsiung-443-n6-ed4177.geojson"
-    },
-    {
-      "routeId": "kaohsiung-088-n6-3e69da",
-      "file": "routes/kaohsiung/kaohsiung-088-n6-3e69da.geojson",
-      "distance_km": 25.002,
-      "duration_min": 46.631433333333334,
-      "source_file": "kaohsiung/kaohsiung-088-n6-3e69da.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keu-1790-15625a",
-      "file": "routes/kaohsiung/kaohsiung-keu-1790-15625a.geojson",
-      "distance_km": 10.465,
-      "duration_min": 24.467850000000002,
-      "source_file": "kaohsiung/kaohsiung-keu-1790-15625a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7767-da4ffa",
-      "file": "routes/kaohsiung/kaohsiung-keb-7767-da4ffa.geojson",
-      "distance_km": 9.463000000000001,
-      "duration_min": 21.839616666666664,
-      "source_file": "kaohsiung/kaohsiung-keb-7767-da4ffa.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0628-406de9",
-      "file": "routes/kaohsiung/kaohsiung-kem-0628-406de9.geojson",
-      "distance_km": 13.091,
-      "duration_min": 23.655649999999998,
-      "source_file": "kaohsiung/kaohsiung-kem-0628-406de9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ked-9595-3e30b9",
-      "file": "routes/kaohsiung/kaohsiung-ked-9595-3e30b9.geojson",
-      "distance_km": 13.154,
-      "duration_min": 25.53226666666667,
-      "source_file": "kaohsiung/kaohsiung-ked-9595-3e30b9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-450-bu-53e61f",
-      "file": "routes/kaohsiung/kaohsiung-450-bu-53e61f.geojson",
-      "distance_km": 18.597,
-      "duration_min": 40.46868333333334,
-      "source_file": "kaohsiung/kaohsiung-450-bu-53e61f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7766-2ab510",
-      "file": "routes/kaohsiung/kaohsiung-keb-7766-2ab510.geojson",
-      "distance_km": 0.215,
-      "duration_min": 0.5043333333333334,
-      "source_file": "kaohsiung/kaohsiung-keb-7766-2ab510.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6869-3b9de6",
-      "file": "routes/kaohsiung/kaohsiung-keb-6869-3b9de6.geojson",
-      "distance_km": 8.779,
-      "duration_min": 18.361866666666668,
-      "source_file": "kaohsiung/kaohsiung-keb-6869-3b9de6.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7052-750650",
-      "file": "routes/kaohsiung/kaohsiung-keb-7052-750650.geojson",
-      "distance_km": 5.043,
-      "duration_min": 11.764199999999999,
-      "source_file": "kaohsiung/kaohsiung-keb-7052-750650.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6015-8d96ce",
-      "file": "routes/kaohsiung/kaohsiung-keb-6015-8d96ce.geojson",
-      "distance_km": 28.731,
-      "duration_min": 45.88210000000001,
-      "source_file": "kaohsiung/kaohsiung-keb-6015-8d96ce.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5833-b7732c",
-      "file": "routes/kaohsiung/kaohsiung-kef-5833-b7732c.geojson",
-      "distance_km": 13.799000000000001,
-      "duration_min": 29.960283333333333,
-      "source_file": "kaohsiung/kaohsiung-kef-5833-b7732c.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6623-e135b0",
-      "file": "routes/kaohsiung/kaohsiung-keh-6623-e135b0.geojson",
-      "distance_km": 18.597,
-      "duration_min": 32.65291666666666,
-      "source_file": "kaohsiung/kaohsiung-keh-6623-e135b0.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6992-dd8677",
-      "file": "routes/kaohsiung/kaohsiung-keh-6992-dd8677.geojson",
-      "distance_km": 9.239,
-      "duration_min": 21.10685,
-      "source_file": "kaohsiung/kaohsiung-keh-6992-dd8677.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3738-ce7610",
-      "file": "routes/kaohsiung/kaohsiung-kel-3738-ce7610.geojson",
-      "distance_km": 13.263,
-      "duration_min": 32.96241666666667,
-      "source_file": "kaohsiung/kaohsiung-kel-3738-ce7610.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5755-585840",
-      "file": "routes/kaohsiung/kaohsiung-keh-5755-585840.geojson",
-      "distance_km": 33.76,
-      "duration_min": 55.227,
-      "source_file": "kaohsiung/kaohsiung-keh-5755-585840.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6605-3206ae",
-      "file": "routes/kaohsiung/kaohsiung-keh-6605-3206ae.geojson",
-      "distance_km": 13.208999999999998,
-      "duration_min": 27.946899999999996,
-      "source_file": "kaohsiung/kaohsiung-keh-6605-3206ae.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-2893-6eda88",
-      "file": "routes/kaohsiung/kaohsiung-kep-2893-6eda88.geojson",
-      "distance_km": 51.016,
-      "duration_min": 69.26321666666666,
-      "source_file": "kaohsiung/kaohsiung-kep-2893-6eda88.geojson"
-    },
-    {
-      "routeId": "kaohsiung-982-vl-332e39",
-      "file": "routes/kaohsiung/kaohsiung-982-vl-332e39.geojson",
-      "distance_km": 2.024,
-      "duration_min": 3.9411833333333335,
-      "source_file": "kaohsiung/kaohsiung-982-vl-332e39.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9560-996cd7",
-      "file": "routes/kaohsiung/kaohsiung-ket-9560-996cd7.geojson",
-      "distance_km": 18.042,
-      "duration_min": 40.90723333333334,
-      "source_file": "kaohsiung/kaohsiung-ket-9560-996cd7.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6256-822819",
-      "file": "routes/kaohsiung/kaohsiung-keh-6256-822819.geojson",
-      "distance_km": 19.155,
-      "duration_min": 47.34205,
-      "source_file": "kaohsiung/kaohsiung-keh-6256-822819.geojson"
-    },
-    {
-      "routeId": "kaohsiung-911-vh-9bda27",
-      "file": "routes/kaohsiung/kaohsiung-911-vh-9bda27.geojson",
-      "distance_km": 7.233,
-      "duration_min": 16.971716666666666,
-      "source_file": "kaohsiung/kaohsiung-911-vh-9bda27.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5685-9eeb32",
-      "file": "routes/kaohsiung/kaohsiung-kef-5685-9eeb32.geojson",
-      "distance_km": 9.253,
-      "duration_min": 20.964533333333332,
-      "source_file": "kaohsiung/kaohsiung-kef-5685-9eeb32.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7659-0b131c",
-      "file": "routes/kaohsiung/kaohsiung-keb-7659-0b131c.geojson",
-      "distance_km": 0.59,
-      "duration_min": 0.9530166666666666,
-      "source_file": "kaohsiung/kaohsiung-keb-7659-0b131c.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5661-c131cf",
-      "file": "routes/kaohsiung/kaohsiung-kef-5661-c131cf.geojson",
-      "distance_km": 6.402,
-      "duration_min": 9.676483333333334,
-      "source_file": "kaohsiung/kaohsiung-kef-5661-c131cf.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-6917-03823b",
-      "file": "routes/kaohsiung/kaohsiung-kef-6917-03823b.geojson",
-      "distance_km": 24.406,
-      "duration_min": 51.600566666666666,
-      "source_file": "kaohsiung/kaohsiung-kef-6917-03823b.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6619-e0bfeb",
-      "file": "routes/kaohsiung/kaohsiung-keh-6619-e0bfeb.geojson",
-      "distance_km": 15.298000000000002,
-      "duration_min": 29.23326666666667,
-      "source_file": "kaohsiung/kaohsiung-keh-6619-e0bfeb.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6381-397c43",
-      "file": "routes/kaohsiung/kaohsiung-keh-6381-397c43.geojson",
-      "distance_km": 39.52100000000001,
-      "duration_min": 62.88445,
-      "source_file": "kaohsiung/kaohsiung-keh-6381-397c43.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5361-106f53",
-      "file": "routes/kaohsiung/kaohsiung-keh-5361-106f53.geojson",
-      "distance_km": 14.177,
-      "duration_min": 28.266883333333332,
-      "source_file": "kaohsiung/kaohsiung-keh-5361-106f53.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7882-e0f567",
-      "file": "routes/kaohsiung/kaohsiung-keb-7882-e0f567.geojson",
-      "distance_km": 7.978000000000001,
-      "duration_min": 16.81395,
-      "source_file": "kaohsiung/kaohsiung-keb-7882-e0f567.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5791-59f6f8",
-      "file": "routes/kaohsiung/kaohsiung-kep-5791-59f6f8.geojson",
-      "distance_km": 18.861,
-      "duration_min": 34.41423333333333,
-      "source_file": "kaohsiung/kaohsiung-kep-5791-59f6f8.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5922-db435e",
-      "file": "routes/kaohsiung/kaohsiung-keh-5922-db435e.geojson",
-      "distance_km": 7.741,
-      "duration_min": 17.6284,
-      "source_file": "kaohsiung/kaohsiung-keh-5922-db435e.geojson"
-    },
-    {
-      "routeId": "kaohsiung-917-n6-41c03c",
-      "file": "routes/kaohsiung/kaohsiung-917-n6-41c03c.geojson",
-      "distance_km": 13.618,
-      "duration_min": 28.756933333333333,
-      "source_file": "kaohsiung/kaohsiung-917-n6-41c03c.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-6197-2689c0",
-      "file": "routes/kaohsiung/kaohsiung-kep-6197-2689c0.geojson",
-      "distance_km": 19.590000000000003,
-      "duration_min": 37.32953333333333,
-      "source_file": "kaohsiung/kaohsiung-kep-6197-2689c0.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3613-a648c8",
-      "file": "routes/kaohsiung/kaohsiung-kel-3613-a648c8.geojson",
-      "distance_km": 6.981,
-      "duration_min": 14.615316666666667,
-      "source_file": "kaohsiung/kaohsiung-kel-3613-a648c8.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keu-1781-ddb4ac",
-      "file": "routes/kaohsiung/kaohsiung-keu-1781-ddb4ac.geojson",
-      "distance_km": 5.713,
-      "duration_min": 8.965216666666667,
-      "source_file": "kaohsiung/kaohsiung-keu-1781-ddb4ac.geojson"
-    },
-    {
-      "routeId": "kaohsiung-981-vl-2e72bb",
-      "file": "routes/kaohsiung/kaohsiung-981-vl-2e72bb.geojson",
-      "distance_km": 6.41,
-      "duration_min": 13.608266666666667,
-      "source_file": "kaohsiung/kaohsiung-981-vl-2e72bb.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1770-267549",
-      "file": "routes/kaohsiung/kaohsiung-kem-1770-267549.geojson",
-      "distance_km": 22.973,
-      "duration_min": 53.48396666666667,
-      "source_file": "kaohsiung/kaohsiung-kem-1770-267549.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9607-ad8487",
-      "file": "routes/kaohsiung/kaohsiung-ket-9607-ad8487.geojson",
-      "distance_km": 17.641,
-      "duration_min": 37.78626666666667,
-      "source_file": "kaohsiung/kaohsiung-ket-9607-ad8487.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5835-48a510",
-      "file": "routes/kaohsiung/kaohsiung-kef-5835-48a510.geojson",
-      "distance_km": 11.816,
-      "duration_min": 30.346400000000003,
-      "source_file": "kaohsiung/kaohsiung-kef-5835-48a510.geojson"
-    },
-    {
-      "routeId": "kaohsiung-651-uv-cb6ebe",
-      "file": "routes/kaohsiung/kaohsiung-651-uv-cb6ebe.geojson",
-      "distance_km": 15.653,
-      "duration_min": 35.50411666666666,
-      "source_file": "kaohsiung/kaohsiung-651-uv-cb6ebe.geojson"
     },
     {
       "routeId": "kaohsiung-keh-6672-88174e",
@@ -899,795 +17,11 @@
       "source_file": "kaohsiung/kaohsiung-keh-6672-88174e.geojson"
     },
     {
-      "routeId": "kaohsiung-ket-9591-bc7c41",
-      "file": "routes/kaohsiung/kaohsiung-ket-9591-bc7c41.geojson",
-      "distance_km": 8.972000000000001,
-      "duration_min": 21.360916666666665,
-      "source_file": "kaohsiung/kaohsiung-ket-9591-bc7c41.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5925-9d6f10",
-      "file": "routes/kaohsiung/kaohsiung-keh-5925-9d6f10.geojson",
-      "distance_km": 13.417,
-      "duration_min": 29.05785,
-      "source_file": "kaohsiung/kaohsiung-keh-5925-9d6f10.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6673-892878",
-      "file": "routes/kaohsiung/kaohsiung-keh-6673-892878.geojson",
-      "distance_km": 2.315,
-      "duration_min": 4.28325,
-      "source_file": "kaohsiung/kaohsiung-keh-6673-892878.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0626-e09c98",
-      "file": "routes/kaohsiung/kaohsiung-kem-0626-e09c98.geojson",
-      "distance_km": 23.944,
-      "duration_min": 49.60081666666667,
-      "source_file": "kaohsiung/kaohsiung-kem-0626-e09c98.geojson"
-    },
-    {
-      "routeId": "kaohsiung-043-uv-05defa",
-      "file": "routes/kaohsiung/kaohsiung-043-uv-05defa.geojson",
-      "distance_km": 10.08,
-      "duration_min": 21.284766666666666,
-      "source_file": "kaohsiung/kaohsiung-043-uv-05defa.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5761-2f3098",
-      "file": "routes/kaohsiung/kaohsiung-kep-5761-2f3098.geojson",
-      "distance_km": 17.791,
-      "duration_min": 27.690133333333332,
-      "source_file": "kaohsiung/kaohsiung-kep-5761-2f3098.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0635-3acbab",
-      "file": "routes/kaohsiung/kaohsiung-kem-0635-3acbab.geojson",
-      "distance_km": 13.577,
-      "duration_min": 21.441533333333332,
-      "source_file": "kaohsiung/kaohsiung-kem-0635-3acbab.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0627-5a3343",
-      "file": "routes/kaohsiung/kaohsiung-kem-0627-5a3343.geojson",
-      "distance_km": 18.511000000000003,
-      "duration_min": 37.83931666666667,
-      "source_file": "kaohsiung/kaohsiung-kem-0627-5a3343.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-2250-6028cf",
-      "file": "routes/kaohsiung/kaohsiung-kem-2250-6028cf.geojson",
-      "distance_km": 0.694,
-      "duration_min": 1.50215,
-      "source_file": "kaohsiung/kaohsiung-kem-2250-6028cf.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5935-6ecc42",
-      "file": "routes/kaohsiung/kaohsiung-keh-5935-6ecc42.geojson",
-      "distance_km": 11.386,
-      "duration_min": 16.009900000000002,
-      "source_file": "kaohsiung/kaohsiung-keh-5935-6ecc42.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kes-6559-f1b720",
-      "file": "routes/kaohsiung/kaohsiung-kes-6559-f1b720.geojson",
-      "distance_km": 5.028,
-      "duration_min": 9.843449999999999,
-      "source_file": "kaohsiung/kaohsiung-kes-6559-f1b720.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6136-4229d0",
-      "file": "routes/kaohsiung/kaohsiung-keb-6136-4229d0.geojson",
-      "distance_km": 19.455,
-      "duration_min": 32.090466666666664,
-      "source_file": "kaohsiung/kaohsiung-keb-6136-4229d0.geojson"
-    },
-    {
-      "routeId": "kaohsiung-500-t8-da4d19",
-      "file": "routes/kaohsiung/kaohsiung-500-t8-da4d19.geojson",
-      "distance_km": 9.632,
-      "duration_min": 23.103383333333333,
-      "source_file": "kaohsiung/kaohsiung-500-t8-da4d19.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5660-780275",
-      "file": "routes/kaohsiung/kaohsiung-kef-5660-780275.geojson",
-      "distance_km": 12.595,
-      "duration_min": 26.277683333333336,
-      "source_file": "kaohsiung/kaohsiung-kef-5660-780275.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1750-f73d4d",
-      "file": "routes/kaohsiung/kaohsiung-kem-1750-f73d4d.geojson",
-      "distance_km": 5.11,
-      "duration_min": 12.206716666666667,
-      "source_file": "kaohsiung/kaohsiung-kem-1750-f73d4d.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6616-00c408",
-      "file": "routes/kaohsiung/kaohsiung-keh-6616-00c408.geojson",
-      "distance_km": 33.553,
-      "duration_min": 53.56068333333333,
-      "source_file": "kaohsiung/kaohsiung-keh-6616-00c408.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1550-b87776",
-      "file": "routes/kaohsiung/kaohsiung-kem-1550-b87776.geojson",
-      "distance_km": 11.586,
-      "duration_min": 26.868499999999997,
-      "source_file": "kaohsiung/kaohsiung-kem-1550-b87776.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ked-9836-6d4108",
-      "file": "routes/kaohsiung/kaohsiung-ked-9836-6d4108.geojson",
-      "distance_km": 12.968,
-      "duration_min": 24.81298333333333,
-      "source_file": "kaohsiung/kaohsiung-ked-9836-6d4108.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6172-b5c27f",
-      "file": "routes/kaohsiung/kaohsiung-keb-6172-b5c27f.geojson",
-      "distance_km": 19.348000000000003,
-      "duration_min": 44.13361666666666,
-      "source_file": "kaohsiung/kaohsiung-keb-6172-b5c27f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7107-b93b48",
-      "file": "routes/kaohsiung/kaohsiung-keb-7107-b93b48.geojson",
-      "distance_km": 10.403,
-      "duration_min": 21.125366666666665,
-      "source_file": "kaohsiung/kaohsiung-keb-7107-b93b48.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6012-3d6a80",
-      "file": "routes/kaohsiung/kaohsiung-keb-6012-3d6a80.geojson",
-      "distance_km": 2.169,
-      "duration_min": 5.579,
-      "source_file": "kaohsiung/kaohsiung-keb-6012-3d6a80.geojson"
-    },
-    {
-      "routeId": "kaohsiung-581-uk-0924fc",
-      "file": "routes/kaohsiung/kaohsiung-581-uk-0924fc.geojson",
-      "distance_km": 7.751,
-      "duration_min": 11.285966666666667,
-      "source_file": "kaohsiung/kaohsiung-581-uk-0924fc.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5822-5ef6e2",
-      "file": "routes/kaohsiung/kaohsiung-kef-5822-5ef6e2.geojson",
-      "distance_km": 18.749,
-      "duration_min": 35.13061666666667,
-      "source_file": "kaohsiung/kaohsiung-kef-5822-5ef6e2.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5792-bae889",
-      "file": "routes/kaohsiung/kaohsiung-kep-5792-bae889.geojson",
-      "distance_km": 52.791,
-      "duration_min": 85.13581666666666,
-      "source_file": "kaohsiung/kaohsiung-kep-5792-bae889.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1760-b55bdb",
-      "file": "routes/kaohsiung/kaohsiung-kem-1760-b55bdb.geojson",
-      "distance_km": 18.375999999999998,
-      "duration_min": 30.110916666666665,
-      "source_file": "kaohsiung/kaohsiung-kem-1760-b55bdb.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6675-1d7cfd",
-      "file": "routes/kaohsiung/kaohsiung-keh-6675-1d7cfd.geojson",
-      "distance_km": 12.785,
-      "duration_min": 28.34643333333333,
-      "source_file": "kaohsiung/kaohsiung-keh-6675-1d7cfd.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0619-b542fa",
-      "file": "routes/kaohsiung/kaohsiung-kem-0619-b542fa.geojson",
-      "distance_km": 22.162,
-      "duration_min": 42.26186666666667,
-      "source_file": "kaohsiung/kaohsiung-kem-0619-b542fa.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5663-945657",
-      "file": "routes/kaohsiung/kaohsiung-kef-5663-945657.geojson",
-      "distance_km": 12.202,
-      "duration_min": 22.414166666666667,
-      "source_file": "kaohsiung/kaohsiung-kef-5663-945657.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5330-88e17d",
-      "file": "routes/kaohsiung/kaohsiung-keh-5330-88e17d.geojson",
-      "distance_km": 13.761,
-      "duration_min": 20.21455,
-      "source_file": "kaohsiung/kaohsiung-keh-5330-88e17d.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6268-a995a3",
-      "file": "routes/kaohsiung/kaohsiung-keh-6268-a995a3.geojson",
-      "distance_km": 30.528,
-      "duration_min": 50.827416666666664,
-      "source_file": "kaohsiung/kaohsiung-keh-6268-a995a3.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-7658-b2febf",
-      "file": "routes/kaohsiung/kaohsiung-kep-7658-b2febf.geojson",
-      "distance_km": 19.357,
-      "duration_min": 41.183366666666664,
-      "source_file": "kaohsiung/kaohsiung-kep-7658-b2febf.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6011-d26a74",
-      "file": "routes/kaohsiung/kaohsiung-keb-6011-d26a74.geojson",
-      "distance_km": 23.886000000000003,
-      "duration_min": 43.86686666666666,
-      "source_file": "kaohsiung/kaohsiung-keb-6011-d26a74.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-3020-c9e083",
-      "file": "routes/kaohsiung/kaohsiung-kem-3020-c9e083.geojson",
-      "distance_km": 29.252,
-      "duration_min": 57.69576666666667,
-      "source_file": "kaohsiung/kaohsiung-kem-3020-c9e083.geojson"
-    },
-    {
-      "routeId": "kaohsiung-642-uv-874758",
-      "file": "routes/kaohsiung/kaohsiung-642-uv-874758.geojson",
-      "distance_km": 13.397,
-      "duration_min": 20.827216666666665,
-      "source_file": "kaohsiung/kaohsiung-642-uv-874758.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kev-8093-dc0a19",
-      "file": "routes/kaohsiung/kaohsiung-kev-8093-dc0a19.geojson",
-      "distance_km": 1.23,
-      "duration_min": 2.7712333333333334,
-      "source_file": "kaohsiung/kaohsiung-kev-8093-dc0a19.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5369-639fea",
-      "file": "routes/kaohsiung/kaohsiung-keh-5369-639fea.geojson",
-      "distance_km": 16.141,
-      "duration_min": 33.9543,
-      "source_file": "kaohsiung/kaohsiung-keh-5369-639fea.geojson"
-    },
-    {
-      "routeId": "kaohsiung-903-vh-b9e9ef",
-      "file": "routes/kaohsiung/kaohsiung-903-vh-b9e9ef.geojson",
-      "distance_km": 28.369000000000003,
-      "duration_min": 45.36275,
-      "source_file": "kaohsiung/kaohsiung-903-vh-b9e9ef.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1757-d1a2b4",
-      "file": "routes/kaohsiung/kaohsiung-kem-1757-d1a2b4.geojson",
-      "distance_km": 15.103000000000002,
-      "duration_min": 31.833716666666668,
-      "source_file": "kaohsiung/kaohsiung-kem-1757-d1a2b4.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6622-1af5a9",
-      "file": "routes/kaohsiung/kaohsiung-keh-6622-1af5a9.geojson",
-      "distance_km": 9.333,
-      "duration_min": 15.48235,
-      "source_file": "kaohsiung/kaohsiung-keh-6622-1af5a9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-2239-3dd3f8",
-      "file": "routes/kaohsiung/kaohsiung-kem-2239-3dd3f8.geojson",
-      "distance_km": 16.884,
-      "duration_min": 29.422683333333335,
-      "source_file": "kaohsiung/kaohsiung-kem-2239-3dd3f8.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0620-3f0d70",
-      "file": "routes/kaohsiung/kaohsiung-kem-0620-3f0d70.geojson",
-      "distance_km": 4.89,
-      "duration_min": 8.55535,
-      "source_file": "kaohsiung/kaohsiung-kem-0620-3f0d70.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5655-4dd82a",
-      "file": "routes/kaohsiung/kaohsiung-kef-5655-4dd82a.geojson",
-      "distance_km": 17.708,
-      "duration_min": 28.666883333333335,
-      "source_file": "kaohsiung/kaohsiung-kef-5655-4dd82a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9537-684ad3",
-      "file": "routes/kaohsiung/kaohsiung-ket-9537-684ad3.geojson",
-      "distance_km": 17.469,
-      "duration_min": 31.801783333333333,
-      "source_file": "kaohsiung/kaohsiung-ket-9537-684ad3.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6833-ab9509",
-      "file": "routes/kaohsiung/kaohsiung-keb-6833-ab9509.geojson",
-      "distance_km": 15.826,
-      "duration_min": 30.793966666666666,
-      "source_file": "kaohsiung/kaohsiung-keb-6833-ab9509.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3732-3a83c6",
-      "file": "routes/kaohsiung/kaohsiung-kel-3732-3a83c6.geojson",
-      "distance_km": 15.558,
-      "duration_min": 32.03913333333333,
-      "source_file": "kaohsiung/kaohsiung-kel-3732-3a83c6.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-3019-3b8177",
-      "file": "routes/kaohsiung/kaohsiung-kem-3019-3b8177.geojson",
-      "distance_km": 29.993000000000002,
-      "duration_min": 49.150533333333335,
-      "source_file": "kaohsiung/kaohsiung-kem-3019-3b8177.geojson"
-    },
-    {
-      "routeId": "kaohsiung-942-n6-6753df",
-      "file": "routes/kaohsiung/kaohsiung-942-n6-6753df.geojson",
-      "distance_km": 5.13,
-      "duration_min": 11.755733333333334,
-      "source_file": "kaohsiung/kaohsiung-942-n6-6753df.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5756-a9793a",
-      "file": "routes/kaohsiung/kaohsiung-kep-5756-a9793a.geojson",
-      "distance_km": 5.115,
-      "duration_min": 10.529533333333335,
-      "source_file": "kaohsiung/kaohsiung-kep-5756-a9793a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6832-706eb6",
-      "file": "routes/kaohsiung/kaohsiung-keb-6832-706eb6.geojson",
-      "distance_km": 6.267,
-      "duration_min": 10.724766666666666,
-      "source_file": "kaohsiung/kaohsiung-keb-6832-706eb6.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9587-41b974",
-      "file": "routes/kaohsiung/kaohsiung-ket-9587-41b974.geojson",
-      "distance_km": 13.934,
-      "duration_min": 30.19751666666667,
-      "source_file": "kaohsiung/kaohsiung-ket-9587-41b974.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9610-d3221f",
-      "file": "routes/kaohsiung/kaohsiung-ket-9610-d3221f.geojson",
-      "distance_km": 11.963,
-      "duration_min": 27.87855,
-      "source_file": "kaohsiung/kaohsiung-ket-9610-d3221f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7983-0e3ed1",
-      "file": "routes/kaohsiung/kaohsiung-keb-7983-0e3ed1.geojson",
-      "distance_km": 9.767,
-      "duration_min": 27.9617,
-      "source_file": "kaohsiung/kaohsiung-keb-7983-0e3ed1.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6792-2fc0ff",
-      "file": "routes/kaohsiung/kaohsiung-keh-6792-2fc0ff.geojson",
-      "distance_km": 15.694999999999999,
-      "duration_min": 31.127200000000002,
-      "source_file": "kaohsiung/kaohsiung-keh-6792-2fc0ff.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3612-65f839",
-      "file": "routes/kaohsiung/kaohsiung-kel-3612-65f839.geojson",
-      "distance_km": 3.879,
-      "duration_min": 8.401433333333333,
-      "source_file": "kaohsiung/kaohsiung-kel-3612-65f839.geojson"
-    },
-    {
-      "routeId": "kaohsiung-640-n6-58250a",
-      "file": "routes/kaohsiung/kaohsiung-640-n6-58250a.geojson",
-      "distance_km": 14.341,
-      "duration_min": 24.835083333333333,
-      "source_file": "kaohsiung/kaohsiung-640-n6-58250a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-3322-8d46d0",
-      "file": "routes/kaohsiung/kaohsiung-kep-3322-8d46d0.geojson",
-      "distance_km": 10.684999999999999,
-      "duration_min": 22.57635,
-      "source_file": "kaohsiung/kaohsiung-kep-3322-8d46d0.geojson"
-    },
-    {
-      "routeId": "kaohsiung-415-bu-d6aa41",
-      "file": "routes/kaohsiung/kaohsiung-415-bu-d6aa41.geojson",
-      "distance_km": 34.044999999999995,
-      "duration_min": 68.58431666666667,
-      "source_file": "kaohsiung/kaohsiung-415-bu-d6aa41.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5772-c4b43a",
-      "file": "routes/kaohsiung/kaohsiung-kep-5772-c4b43a.geojson",
-      "distance_km": 20.494,
-      "duration_min": 30.820416666666667,
-      "source_file": "kaohsiung/kaohsiung-kep-5772-c4b43a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5826-eb58d5",
-      "file": "routes/kaohsiung/kaohsiung-kef-5826-eb58d5.geojson",
-      "distance_km": 18.926,
-      "duration_min": 32.684983333333335,
-      "source_file": "kaohsiung/kaohsiung-kef-5826-eb58d5.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1765-ef190c",
-      "file": "routes/kaohsiung/kaohsiung-kem-1765-ef190c.geojson",
-      "distance_km": 24.771,
-      "duration_min": 49.30268333333333,
-      "source_file": "kaohsiung/kaohsiung-kem-1765-ef190c.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5606-e66203",
-      "file": "routes/kaohsiung/kaohsiung-kef-5606-e66203.geojson",
-      "distance_km": 7.987,
-      "duration_min": 19.253899999999998,
-      "source_file": "kaohsiung/kaohsiung-kef-5606-e66203.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0633-2f361c",
-      "file": "routes/kaohsiung/kaohsiung-kem-0633-2f361c.geojson",
-      "distance_km": 10.486,
-      "duration_min": 18.525016666666666,
-      "source_file": "kaohsiung/kaohsiung-kem-0633-2f361c.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0621-4b32a4",
-      "file": "routes/kaohsiung/kaohsiung-kem-0621-4b32a4.geojson",
-      "distance_km": 22.389,
-      "duration_min": 53.55343333333334,
-      "source_file": "kaohsiung/kaohsiung-kem-0621-4b32a4.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-3012-dd4172",
-      "file": "routes/kaohsiung/kaohsiung-kem-3012-dd4172.geojson",
-      "distance_km": 8.008,
-      "duration_min": 14.654133333333334,
-      "source_file": "kaohsiung/kaohsiung-kem-3012-dd4172.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5759-5f2222",
-      "file": "routes/kaohsiung/kaohsiung-kep-5759-5f2222.geojson",
-      "distance_km": 52.873,
-      "duration_min": 72.07973333333334,
-      "source_file": "kaohsiung/kaohsiung-kep-5759-5f2222.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5825-a648f9",
-      "file": "routes/kaohsiung/kaohsiung-kef-5825-a648f9.geojson",
-      "distance_km": 6.775,
-      "duration_min": 16.56083333333333,
-      "source_file": "kaohsiung/kaohsiung-kef-5825-a648f9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-6203-85baca",
-      "file": "routes/kaohsiung/kaohsiung-kep-6203-85baca.geojson",
-      "distance_km": 14.2,
-      "duration_min": 32.57626666666667,
-      "source_file": "kaohsiung/kaohsiung-kep-6203-85baca.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9612-71e8d3",
-      "file": "routes/kaohsiung/kaohsiung-ket-9612-71e8d3.geojson",
-      "distance_km": 48.487,
-      "duration_min": 51.967549999999996,
-      "source_file": "kaohsiung/kaohsiung-ket-9612-71e8d3.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5670-e5a678",
-      "file": "routes/kaohsiung/kaohsiung-kef-5670-e5a678.geojson",
-      "distance_km": 11.44,
-      "duration_min": 23.421566666666664,
-      "source_file": "kaohsiung/kaohsiung-kef-5670-e5a678.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7763-c0bf6a",
-      "file": "routes/kaohsiung/kaohsiung-keb-7763-c0bf6a.geojson",
-      "distance_km": 20.201,
-      "duration_min": 32.70238333333334,
-      "source_file": "kaohsiung/kaohsiung-keb-7763-c0bf6a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5373-f38998",
-      "file": "routes/kaohsiung/kaohsiung-keh-5373-f38998.geojson",
-      "distance_km": 13.834,
-      "duration_min": 23.251733333333334,
-      "source_file": "kaohsiung/kaohsiung-keh-5373-f38998.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-7653-29630c",
-      "file": "routes/kaohsiung/kaohsiung-kep-7653-29630c.geojson",
-      "distance_km": 7.366,
-      "duration_min": 16.03495,
-      "source_file": "kaohsiung/kaohsiung-kep-7653-29630c.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3733-0ed308",
-      "file": "routes/kaohsiung/kaohsiung-kel-3733-0ed308.geojson",
-      "distance_km": 17.275,
-      "duration_min": 44.90599999999999,
-      "source_file": "kaohsiung/kaohsiung-kel-3733-0ed308.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6601-4e3c54",
-      "file": "routes/kaohsiung/kaohsiung-keh-6601-4e3c54.geojson",
-      "distance_km": 29.529,
-      "duration_min": 37.95296666666666,
-      "source_file": "kaohsiung/kaohsiung-keh-6601-4e3c54.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9556-608c27",
-      "file": "routes/kaohsiung/kaohsiung-ket-9556-608c27.geojson",
-      "distance_km": 20.421,
-      "duration_min": 45.14213333333333,
-      "source_file": "kaohsiung/kaohsiung-ket-9556-608c27.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6617-bdf085",
-      "file": "routes/kaohsiung/kaohsiung-keh-6617-bdf085.geojson",
-      "distance_km": 47.534,
-      "duration_min": 65.3695,
-      "source_file": "kaohsiung/kaohsiung-keh-6617-bdf085.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5783-f66ac6",
-      "file": "routes/kaohsiung/kaohsiung-kep-5783-f66ac6.geojson",
-      "distance_km": 48.09,
-      "duration_min": 69.868,
-      "source_file": "kaohsiung/kaohsiung-kep-5783-f66ac6.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-2613-25598e",
-      "file": "routes/kaohsiung/kaohsiung-kem-2613-25598e.geojson",
-      "distance_km": 4.875,
-      "duration_min": 9.684616666666667,
-      "source_file": "kaohsiung/kaohsiung-kem-2613-25598e.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3735-350ed9",
-      "file": "routes/kaohsiung/kaohsiung-kel-3735-350ed9.geojson",
-      "distance_km": 10.453,
-      "duration_min": 26.32921666666667,
-      "source_file": "kaohsiung/kaohsiung-kel-3735-350ed9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6876-09a367",
-      "file": "routes/kaohsiung/kaohsiung-keb-6876-09a367.geojson",
-      "distance_km": 47.667,
-      "duration_min": 67.3975,
-      "source_file": "kaohsiung/kaohsiung-keb-6876-09a367.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6259-81dce0",
-      "file": "routes/kaohsiung/kaohsiung-keh-6259-81dce0.geojson",
-      "distance_km": 25.632999999999996,
-      "duration_min": 39.58636666666667,
-      "source_file": "kaohsiung/kaohsiung-keh-6259-81dce0.geojson"
-    },
-    {
-      "routeId": "kaohsiung-123-q5-089cbc",
-      "file": "routes/kaohsiung/kaohsiung-123-q5-089cbc.geojson",
-      "distance_km": 32.502,
-      "duration_min": 57.417966666666665,
-      "source_file": "kaohsiung/kaohsiung-123-q5-089cbc.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-6208-7fa68f",
-      "file": "routes/kaohsiung/kaohsiung-kep-6208-7fa68f.geojson",
-      "distance_km": 1.291,
-      "duration_min": 3.55755,
-      "source_file": "kaohsiung/kaohsiung-kep-6208-7fa68f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3611-08ef6f",
-      "file": "routes/kaohsiung/kaohsiung-kel-3611-08ef6f.geojson",
-      "distance_km": 5.249,
-      "duration_min": 10.276116666666667,
-      "source_file": "kaohsiung/kaohsiung-kel-3611-08ef6f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1539-9b87e5",
-      "file": "routes/kaohsiung/kaohsiung-kem-1539-9b87e5.geojson",
-      "distance_km": 7.0329999999999995,
-      "duration_min": 18.785999999999998,
-      "source_file": "kaohsiung/kaohsiung-kem-1539-9b87e5.geojson"
-    },
-    {
-      "routeId": "kaohsiung-901-vh-1784aa",
-      "file": "routes/kaohsiung/kaohsiung-901-vh-1784aa.geojson",
-      "distance_km": 7.443,
-      "duration_min": 13.05355,
-      "source_file": "kaohsiung/kaohsiung-901-vh-1784aa.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6995-8aa885",
-      "file": "routes/kaohsiung/kaohsiung-keh-6995-8aa885.geojson",
-      "distance_km": 14.053,
-      "duration_min": 33.63455,
-      "source_file": "kaohsiung/kaohsiung-keh-6995-8aa885.geojson"
-    },
-    {
-      "routeId": "kaohsiung-753-t7-cbf5a0",
-      "file": "routes/kaohsiung/kaohsiung-753-t7-cbf5a0.geojson",
-      "distance_km": 12.465,
-      "duration_min": 23.220016666666666,
-      "source_file": "kaohsiung/kaohsiung-753-t7-cbf5a0.geojson"
-    },
-    {
-      "routeId": "kaohsiung-876-t7-bd7536",
-      "file": "routes/kaohsiung/kaohsiung-876-t7-bd7536.geojson",
-      "distance_km": 50.385,
-      "duration_min": 71.09948333333334,
-      "source_file": "kaohsiung/kaohsiung-876-t7-bd7536.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6003-754bbf",
-      "file": "routes/kaohsiung/kaohsiung-keb-6003-754bbf.geojson",
-      "distance_km": 11.006,
-      "duration_min": 27.744849999999996,
-      "source_file": "kaohsiung/kaohsiung-keb-6003-754bbf.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-6207-402570",
-      "file": "routes/kaohsiung/kaohsiung-kep-6207-402570.geojson",
-      "distance_km": 5.182,
-      "duration_min": 8.379716666666667,
-      "source_file": "kaohsiung/kaohsiung-kep-6207-402570.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5760-0092b8",
-      "file": "routes/kaohsiung/kaohsiung-kep-5760-0092b8.geojson",
-      "distance_km": 18.872999999999998,
-      "duration_min": 43.73636666666666,
-      "source_file": "kaohsiung/kaohsiung-kep-5760-0092b8.geojson"
-    },
-    {
-      "routeId": "kaohsiung-899-n6-6783aa",
-      "file": "routes/kaohsiung/kaohsiung-899-n6-6783aa.geojson",
-      "distance_km": 17.919,
-      "duration_min": 36.075799999999994,
-      "source_file": "kaohsiung/kaohsiung-899-n6-6783aa.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9583-e40538",
-      "file": "routes/kaohsiung/kaohsiung-ket-9583-e40538.geojson",
-      "distance_km": 8.356,
-      "duration_min": 17.0523,
-      "source_file": "kaohsiung/kaohsiung-ket-9583-e40538.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6317-96f597",
-      "file": "routes/kaohsiung/kaohsiung-keh-6317-96f597.geojson",
-      "distance_km": 22.344,
-      "duration_min": 48.482099999999996,
-      "source_file": "kaohsiung/kaohsiung-keh-6317-96f597.geojson"
-    },
-    {
-      "routeId": "kaohsiung-918-n6-ec1e26",
-      "file": "routes/kaohsiung/kaohsiung-918-n6-ec1e26.geojson",
-      "distance_km": 8.149,
-      "duration_min": 15.165966666666666,
-      "source_file": "kaohsiung/kaohsiung-918-n6-ec1e26.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-2902-ad99ac",
-      "file": "routes/kaohsiung/kaohsiung-kep-2902-ad99ac.geojson",
-      "distance_km": 8.717,
-      "duration_min": 21.092983333333333,
-      "source_file": "kaohsiung/kaohsiung-kep-2902-ad99ac.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6602-d522c9",
-      "file": "routes/kaohsiung/kaohsiung-keh-6602-d522c9.geojson",
-      "distance_km": 16.315,
-      "duration_min": 44.80766666666667,
-      "source_file": "kaohsiung/kaohsiung-keh-6602-d522c9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6621-de226f",
-      "file": "routes/kaohsiung/kaohsiung-keh-6621-de226f.geojson",
-      "distance_km": 18.505,
-      "duration_min": 32.556466666666665,
-      "source_file": "kaohsiung/kaohsiung-keh-6621-de226f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1761-31377f",
-      "file": "routes/kaohsiung/kaohsiung-kem-1761-31377f.geojson",
-      "distance_km": 7.664,
-      "duration_min": 20.634766666666668,
-      "source_file": "kaohsiung/kaohsiung-kem-1761-31377f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-119-q5-6d2894",
-      "file": "routes/kaohsiung/kaohsiung-119-q5-6d2894.geojson",
-      "distance_km": 6.101,
-      "duration_min": 13.198316666666667,
-      "source_file": "kaohsiung/kaohsiung-119-q5-6d2894.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7128-2123fa",
-      "file": "routes/kaohsiung/kaohsiung-keb-7128-2123fa.geojson",
-      "distance_km": 8.571,
-      "duration_min": 18.546433333333333,
-      "source_file": "kaohsiung/kaohsiung-keb-7128-2123fa.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7657-08b6d6",
-      "file": "routes/kaohsiung/kaohsiung-keb-7657-08b6d6.geojson",
-      "distance_km": 8.346,
-      "duration_min": 18.091333333333335,
-      "source_file": "kaohsiung/kaohsiung-keb-7657-08b6d6.geojson"
-    },
-    {
-      "routeId": "kaohsiung-995-n6-21de24",
-      "file": "routes/kaohsiung/kaohsiung-995-n6-21de24.geojson",
-      "distance_km": 14.905,
-      "duration_min": 30.99765,
-      "source_file": "kaohsiung/kaohsiung-995-n6-21de24.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6607-dd010a",
-      "file": "routes/kaohsiung/kaohsiung-keh-6607-dd010a.geojson",
-      "distance_km": 9.707,
-      "duration_min": 18.566333333333333,
-      "source_file": "kaohsiung/kaohsiung-keh-6607-dd010a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5850-559128",
-      "file": "routes/kaohsiung/kaohsiung-kef-5850-559128.geojson",
-      "distance_km": 7.281,
-      "duration_min": 15.068999999999999,
-      "source_file": "kaohsiung/kaohsiung-kef-5850-559128.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-6006-42e6f6",
-      "file": "routes/kaohsiung/kaohsiung-keb-6006-42e6f6.geojson",
-      "distance_km": 34.465999999999994,
-      "duration_min": 47.730866666666664,
-      "source_file": "kaohsiung/kaohsiung-keb-6006-42e6f6.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-2235-29d059",
-      "file": "routes/kaohsiung/kaohsiung-kem-2235-29d059.geojson",
-      "distance_km": 14.562000000000001,
-      "duration_min": 26.787216666666666,
-      "source_file": "kaohsiung/kaohsiung-kem-2235-29d059.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5687-0198b8",
-      "file": "routes/kaohsiung/kaohsiung-kef-5687-0198b8.geojson",
-      "distance_km": 21.323999999999998,
-      "duration_min": 37.44025,
-      "source_file": "kaohsiung/kaohsiung-kef-5687-0198b8.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5762-3177b9",
-      "file": "routes/kaohsiung/kaohsiung-keh-5762-3177b9.geojson",
-      "distance_km": 16.303,
-      "duration_min": 34.24086666666667,
-      "source_file": "kaohsiung/kaohsiung-keh-5762-3177b9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7038-ff98ed",
-      "file": "routes/kaohsiung/kaohsiung-keb-7038-ff98ed.geojson",
-      "distance_km": 7.36,
-      "duration_min": 12.294433333333334,
-      "source_file": "kaohsiung/kaohsiung-keb-7038-ff98ed.geojson"
-    },
-    {
-      "routeId": "kaohsiung-909-vh-8244ca",
-      "file": "routes/kaohsiung/kaohsiung-909-vh-8244ca.geojson",
-      "distance_km": 48.577000000000005,
-      "duration_min": 83.11158333333333,
-      "source_file": "kaohsiung/kaohsiung-909-vh-8244ca.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5368-cf7c28",
-      "file": "routes/kaohsiung/kaohsiung-keh-5368-cf7c28.geojson",
-      "distance_km": 11.378,
-      "duration_min": 22.814533333333333,
-      "source_file": "kaohsiung/kaohsiung-keh-5368-cf7c28.geojson"
+      "routeId": "kaohsiung-982-vl-332e39",
+      "file": "routes/kaohsiung/kaohsiung-982-vl-332e39.geojson",
+      "distance_km": 2.024,
+      "duration_min": 3.9411833333333335,
+      "source_file": "kaohsiung/kaohsiung-982-vl-332e39.geojson"
     },
     {
       "routeId": "kaohsiung-keu-5591-361c72",
@@ -1697,305 +31,18 @@
       "source_file": "kaohsiung/kaohsiung-keu-5591-361c72.geojson"
     },
     {
-      "routeId": "kaohsiung-keb-7651-687c75",
-      "file": "routes/kaohsiung/kaohsiung-keb-7651-687c75.geojson",
-      "distance_km": 15.018,
-      "duration_min": 28.196566666666666,
-      "source_file": "kaohsiung/kaohsiung-keb-7651-687c75.geojson"
+      "routeId": "kaohsiung-keh-5766-8ef2c4",
+      "file": "routes/kaohsiung/kaohsiung-keh-5766-8ef2c4.geojson",
+      "distance_km": 13.937,
+      "duration_min": 23.91745,
+      "source_file": "kaohsiung/kaohsiung-keh-5766-8ef2c4.geojson"
     },
     {
-      "routeId": "kaohsiung-kem-0623-e514a5",
-      "file": "routes/kaohsiung/kaohsiung-kem-0623-e514a5.geojson",
-      "distance_km": 9.064,
-      "duration_min": 20.436449999999997,
-      "source_file": "kaohsiung/kaohsiung-kem-0623-e514a5.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-6206-36ecb2",
-      "file": "routes/kaohsiung/kaohsiung-kep-6206-36ecb2.geojson",
-      "distance_km": 28.052999999999997,
-      "duration_min": 45.319266666666664,
-      "source_file": "kaohsiung/kaohsiung-kep-6206-36ecb2.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1753-1c4776",
-      "file": "routes/kaohsiung/kaohsiung-kem-1753-1c4776.geojson",
-      "distance_km": 20.602999999999998,
-      "duration_min": 38.55855,
-      "source_file": "kaohsiung/kaohsiung-kem-1753-1c4776.geojson"
-    },
-    {
-      "routeId": "kaohsiung-086-n6-2213ee",
-      "file": "routes/kaohsiung/kaohsiung-086-n6-2213ee.geojson",
-      "distance_km": 1.981,
-      "duration_min": 5.291333333333333,
-      "source_file": "kaohsiung/kaohsiung-086-n6-2213ee.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3610-e0f65d",
-      "file": "routes/kaohsiung/kaohsiung-kel-3610-e0f65d.geojson",
-      "distance_km": 1.099,
-      "duration_min": 2.5695666666666668,
-      "source_file": "kaohsiung/kaohsiung-kel-3610-e0f65d.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5375-894760",
-      "file": "routes/kaohsiung/kaohsiung-keh-5375-894760.geojson",
-      "distance_km": 7.791,
-      "duration_min": 16.726583333333334,
-      "source_file": "kaohsiung/kaohsiung-keh-5375-894760.geojson"
-    },
-    {
-      "routeId": "kaohsiung-945-n6-23ead1",
-      "file": "routes/kaohsiung/kaohsiung-945-n6-23ead1.geojson",
-      "distance_km": 5.234,
-      "duration_min": 12.881849999999998,
-      "source_file": "kaohsiung/kaohsiung-945-n6-23ead1.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-7667-ccc7ce",
-      "file": "routes/kaohsiung/kaohsiung-kep-7667-ccc7ce.geojson",
-      "distance_km": 23.02,
-      "duration_min": 38.78386666666667,
-      "source_file": "kaohsiung/kaohsiung-kep-7667-ccc7ce.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keu-5605-ee6526",
-      "file": "routes/kaohsiung/kaohsiung-keu-5605-ee6526.geojson",
-      "distance_km": 23.08,
-      "duration_min": 36.966750000000005,
-      "source_file": "kaohsiung/kaohsiung-keu-5605-ee6526.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7656-2c27a9",
-      "file": "routes/kaohsiung/kaohsiung-keb-7656-2c27a9.geojson",
-      "distance_km": 15.153,
-      "duration_min": 30.645233333333334,
-      "source_file": "kaohsiung/kaohsiung-keb-7656-2c27a9.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5672-644b4f",
-      "file": "routes/kaohsiung/kaohsiung-kef-5672-644b4f.geojson",
-      "distance_km": 14.828000000000001,
-      "duration_min": 31.929216666666665,
-      "source_file": "kaohsiung/kaohsiung-kef-5672-644b4f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7055-0d5ba3",
-      "file": "routes/kaohsiung/kaohsiung-keb-7055-0d5ba3.geojson",
-      "distance_km": 8.398,
-      "duration_min": 21.094833333333334,
-      "source_file": "kaohsiung/kaohsiung-keb-7055-0d5ba3.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-6209-08139d",
-      "file": "routes/kaohsiung/kaohsiung-kep-6209-08139d.geojson",
-      "distance_km": 8.595,
-      "duration_min": 14.7805,
-      "source_file": "kaohsiung/kaohsiung-kep-6209-08139d.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-1763-cd8bc0",
-      "file": "routes/kaohsiung/kaohsiung-kem-1763-cd8bc0.geojson",
-      "distance_km": 11.907,
-      "duration_min": 27.797166666666666,
-      "source_file": "kaohsiung/kaohsiung-kem-1763-cd8bc0.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5328-dc698e",
-      "file": "routes/kaohsiung/kaohsiung-keh-5328-dc698e.geojson",
-      "distance_km": 17.046,
-      "duration_min": 35.42283333333334,
-      "source_file": "kaohsiung/kaohsiung-keh-5328-dc698e.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5360-119dd3",
-      "file": "routes/kaohsiung/kaohsiung-keh-5360-119dd3.geojson",
-      "distance_km": 19.886000000000003,
-      "duration_min": 34.16176666666667,
-      "source_file": "kaohsiung/kaohsiung-keh-5360-119dd3.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-6239-2fd95e",
-      "file": "routes/kaohsiung/kaohsiung-kep-6239-2fd95e.geojson",
-      "distance_km": 22.255000000000003,
-      "duration_min": 39.1241,
-      "source_file": "kaohsiung/kaohsiung-kep-6239-2fd95e.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keb-7361-e3e2ab",
-      "file": "routes/kaohsiung/kaohsiung-keb-7361-e3e2ab.geojson",
-      "distance_km": 16.552,
-      "duration_min": 32.85831666666667,
-      "source_file": "kaohsiung/kaohsiung-keb-7361-e3e2ab.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6609-9b33e6",
-      "file": "routes/kaohsiung/kaohsiung-keh-6609-9b33e6.geojson",
-      "distance_km": 12.965,
-      "duration_min": 23.869116666666667,
-      "source_file": "kaohsiung/kaohsiung-keh-6609-9b33e6.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3716-396213",
-      "file": "routes/kaohsiung/kaohsiung-kel-3716-396213.geojson",
-      "distance_km": 7.373,
-      "duration_min": 14.2851,
-      "source_file": "kaohsiung/kaohsiung-kel-3716-396213.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6793-9c7e20",
-      "file": "routes/kaohsiung/kaohsiung-keh-6793-9c7e20.geojson",
-      "distance_km": 24.113999999999997,
-      "duration_min": 46.23148333333333,
-      "source_file": "kaohsiung/kaohsiung-keh-6793-9c7e20.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-2616-5b9845",
-      "file": "routes/kaohsiung/kaohsiung-kem-2616-5b9845.geojson",
-      "distance_km": 13.387,
-      "duration_min": 24.733283333333336,
-      "source_file": "kaohsiung/kaohsiung-kem-2616-5b9845.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6272-a0bd81",
-      "file": "routes/kaohsiung/kaohsiung-keh-6272-a0bd81.geojson",
-      "distance_km": 36.678,
-      "duration_min": 47.57098333333333,
-      "source_file": "kaohsiung/kaohsiung-keh-6272-a0bd81.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5607-f2a5b2",
-      "file": "routes/kaohsiung/kaohsiung-kef-5607-f2a5b2.geojson",
-      "distance_km": 19.382,
-      "duration_min": 40.83266666666666,
-      "source_file": "kaohsiung/kaohsiung-kef-5607-f2a5b2.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6255-bb2715",
-      "file": "routes/kaohsiung/kaohsiung-keh-6255-bb2715.geojson",
-      "distance_km": 31.284,
-      "duration_min": 58.267533333333326,
-      "source_file": "kaohsiung/kaohsiung-keh-6255-bb2715.geojson"
-    },
-    {
-      "routeId": "kaohsiung-430-n6-26a8cb",
-      "file": "routes/kaohsiung/kaohsiung-430-n6-26a8cb.geojson",
-      "distance_km": 55.822,
-      "duration_min": 81.70673333333335,
-      "source_file": "kaohsiung/kaohsiung-430-n6-26a8cb.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kel-3603-338dec",
-      "file": "routes/kaohsiung/kaohsiung-kel-3603-338dec.geojson",
-      "distance_km": 8.668,
-      "duration_min": 17.694233333333333,
-      "source_file": "kaohsiung/kaohsiung-kel-3603-338dec.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-0636-7235eb",
-      "file": "routes/kaohsiung/kaohsiung-kem-0636-7235eb.geojson",
-      "distance_km": 96.93299999999999,
-      "duration_min": 97.68645,
-      "source_file": "kaohsiung/kaohsiung-kem-0636-7235eb.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9550-b630d1",
-      "file": "routes/kaohsiung/kaohsiung-ket-9550-b630d1.geojson",
-      "distance_km": 7.11,
-      "duration_min": 10.6931,
-      "source_file": "kaohsiung/kaohsiung-ket-9550-b630d1.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-7016-ca7b56",
-      "file": "routes/kaohsiung/kaohsiung-kep-7016-ca7b56.geojson",
-      "distance_km": 23.531000000000002,
-      "duration_min": 54.613150000000005,
-      "source_file": "kaohsiung/kaohsiung-kep-7016-ca7b56.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5652-68c25f",
-      "file": "routes/kaohsiung/kaohsiung-kef-5652-68c25f.geojson",
-      "distance_km": 18.269,
-      "duration_min": 45.31845,
-      "source_file": "kaohsiung/kaohsiung-kef-5652-68c25f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5608-b34f5d",
-      "file": "routes/kaohsiung/kaohsiung-kef-5608-b34f5d.geojson",
-      "distance_km": 7.832,
-      "duration_min": 15.304233333333334,
-      "source_file": "kaohsiung/kaohsiung-kef-5608-b34f5d.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ked-9597-0a835e",
-      "file": "routes/kaohsiung/kaohsiung-ked-9597-0a835e.geojson",
-      "distance_km": 4.956,
-      "duration_min": 10.667833333333334,
-      "source_file": "kaohsiung/kaohsiung-ked-9597-0a835e.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6250-946b6a",
-      "file": "routes/kaohsiung/kaohsiung-keh-6250-946b6a.geojson",
-      "distance_km": 4.487,
-      "duration_min": 10.015866666666666,
-      "source_file": "kaohsiung/kaohsiung-keh-6250-946b6a.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-6315-5a2812",
-      "file": "routes/kaohsiung/kaohsiung-keh-6315-5a2812.geojson",
-      "distance_km": 8.899,
-      "duration_min": 15.89535,
-      "source_file": "kaohsiung/kaohsiung-keh-6315-5a2812.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kep-5781-21114f",
-      "file": "routes/kaohsiung/kaohsiung-kep-5781-21114f.geojson",
-      "distance_km": 18.866,
-      "duration_min": 37.09245,
-      "source_file": "kaohsiung/kaohsiung-kep-5781-21114f.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keu-5593-dfc942",
-      "file": "routes/kaohsiung/kaohsiung-keu-5593-dfc942.geojson",
-      "distance_km": 20.161,
-      "duration_min": 40.46225,
-      "source_file": "kaohsiung/kaohsiung-keu-5593-dfc942.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keu-1783-26832d",
-      "file": "routes/kaohsiung/kaohsiung-keu-1783-26832d.geojson",
-      "distance_km": 14.578,
-      "duration_min": 23.444000000000003,
-      "source_file": "kaohsiung/kaohsiung-keu-1783-26832d.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9605-7f58d1",
-      "file": "routes/kaohsiung/kaohsiung-ket-9605-7f58d1.geojson",
-      "distance_km": 32.852,
-      "duration_min": 49.80825,
-      "source_file": "kaohsiung/kaohsiung-ket-9605-7f58d1.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kem-2612-d74be3",
-      "file": "routes/kaohsiung/kaohsiung-kem-2612-d74be3.geojson",
-      "distance_km": 8.192,
-      "duration_min": 14.71895,
-      "source_file": "kaohsiung/kaohsiung-kem-2612-d74be3.geojson"
-    },
-    {
-      "routeId": "kaohsiung-ket-9562-6330de",
-      "file": "routes/kaohsiung/kaohsiung-ket-9562-6330de.geojson",
-      "distance_km": 8.183,
-      "duration_min": 16.650983333333333,
-      "source_file": "kaohsiung/kaohsiung-ket-9562-6330de.geojson"
-    },
-    {
-      "routeId": "kaohsiung-keh-5761-e6a72d",
-      "file": "routes/kaohsiung/kaohsiung-keh-5761-e6a72d.geojson",
-      "distance_km": 17.119,
-      "duration_min": 27.9707,
-      "source_file": "kaohsiung/kaohsiung-keh-5761-e6a72d.geojson"
+      "routeId": "kaohsiung-2405-mb-f6b7a6",
+      "file": "routes/kaohsiung/kaohsiung-2405-mb-f6b7a6.geojson",
+      "distance_km": 10.367,
+      "duration_min": 17.20605,
+      "source_file": "kaohsiung/kaohsiung-2405-mb-f6b7a6.geojson"
     },
     {
       "routeId": "kaohsiung-keb-6877-da6d02",
@@ -2005,53 +52,102 @@
       "source_file": "kaohsiung/kaohsiung-keb-6877-da6d02.geojson"
     },
     {
-      "routeId": "kaohsiung-kep-7651-669139",
-      "file": "routes/kaohsiung/kaohsiung-kep-7651-669139.geojson",
-      "distance_km": 25.291999999999998,
-      "duration_min": 43.31336666666667,
-      "source_file": "kaohsiung/kaohsiung-kep-7651-669139.geojson"
+      "routeId": "kaohsiung-keh-5332-eca234",
+      "file": "routes/kaohsiung/kaohsiung-keh-5332-eca234.geojson",
+      "distance_km": 2.667,
+      "duration_min": 5.649466666666667,
+      "source_file": "kaohsiung/kaohsiung-keh-5332-eca234.geojson"
     },
     {
-      "routeId": "kaohsiung-kep-6205-1319a0",
-      "file": "routes/kaohsiung/kaohsiung-kep-6205-1319a0.geojson",
-      "distance_km": 22.398,
-      "duration_min": 38.68151666666667,
-      "source_file": "kaohsiung/kaohsiung-kep-6205-1319a0.geojson"
+      "routeId": "kaohsiung-keb-6833-ab9509",
+      "file": "routes/kaohsiung/kaohsiung-keb-6833-ab9509.geojson",
+      "distance_km": 15.826,
+      "duration_min": 30.793966666666666,
+      "source_file": "kaohsiung/kaohsiung-keb-6833-ab9509.geojson"
     },
     {
-      "routeId": "kaohsiung-keh-6313-c19448",
-      "file": "routes/kaohsiung/kaohsiung-keh-6313-c19448.geojson",
-      "distance_km": 25.979,
-      "duration_min": 46.21399999999999,
-      "source_file": "kaohsiung/kaohsiung-keh-6313-c19448.geojson"
+      "routeId": "kaohsiung-kem-1539-9b87e5",
+      "file": "routes/kaohsiung/kaohsiung-kem-1539-9b87e5.geojson",
+      "distance_km": 7.0329999999999995,
+      "duration_min": 18.785999999999998,
+      "source_file": "kaohsiung/kaohsiung-kem-1539-9b87e5.geojson"
     },
     {
-      "routeId": "kaohsiung-keh-6378-267a27",
-      "file": "routes/kaohsiung/kaohsiung-keh-6378-267a27.geojson",
-      "distance_km": 8.078,
-      "duration_min": 16.887833333333333,
-      "source_file": "kaohsiung/kaohsiung-keh-6378-267a27.geojson"
+      "routeId": "kaohsiung-430-n6-26a8cb",
+      "file": "routes/kaohsiung/kaohsiung-430-n6-26a8cb.geojson",
+      "distance_km": 55.822,
+      "duration_min": 81.70673333333335,
+      "source_file": "kaohsiung/kaohsiung-430-n6-26a8cb.geojson"
     },
     {
-      "routeId": "kaohsiung-kel-3910-6602d9",
-      "file": "routes/kaohsiung/kaohsiung-kel-3910-6602d9.geojson",
-      "distance_km": 7.6,
-      "duration_min": 13.543816666666666,
-      "source_file": "kaohsiung/kaohsiung-kel-3910-6602d9.geojson"
+      "routeId": "kaohsiung-keb-6011-d26a74",
+      "file": "routes/kaohsiung/kaohsiung-keb-6011-d26a74.geojson",
+      "distance_km": 23.886000000000003,
+      "duration_min": 43.86686666666666,
+      "source_file": "kaohsiung/kaohsiung-keb-6011-d26a74.geojson"
     },
     {
-      "routeId": "kaohsiung-kem-1762-6b39e6",
-      "file": "routes/kaohsiung/kaohsiung-kem-1762-6b39e6.geojson",
-      "distance_km": 44.82599999999999,
-      "duration_min": 77.90683333333331,
-      "source_file": "kaohsiung/kaohsiung-kem-1762-6b39e6.geojson"
+      "routeId": "kaohsiung-kep-6206-36ecb2",
+      "file": "routes/kaohsiung/kaohsiung-kep-6206-36ecb2.geojson",
+      "distance_km": 28.052999999999997,
+      "duration_min": 45.319266666666664,
+      "source_file": "kaohsiung/kaohsiung-kep-6206-36ecb2.geojson"
     },
     {
-      "routeId": "kaohsiung-kef-5657-8005f0",
-      "file": "routes/kaohsiung/kaohsiung-kef-5657-8005f0.geojson",
-      "distance_km": 10.411,
-      "duration_min": 15.597616666666665,
-      "source_file": "kaohsiung/kaohsiung-kef-5657-8005f0.geojson"
+      "routeId": "kaohsiung-kef-5661-c131cf",
+      "file": "routes/kaohsiung/kaohsiung-kef-5661-c131cf.geojson",
+      "distance_km": 6.402,
+      "duration_min": 9.676483333333334,
+      "source_file": "kaohsiung/kaohsiung-kef-5661-c131cf.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-7667-ccc7ce",
+      "file": "routes/kaohsiung/kaohsiung-kep-7667-ccc7ce.geojson",
+      "distance_km": 23.02,
+      "duration_min": 38.78386666666667,
+      "source_file": "kaohsiung/kaohsiung-kep-7667-ccc7ce.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6792-2fc0ff",
+      "file": "routes/kaohsiung/kaohsiung-keh-6792-2fc0ff.geojson",
+      "distance_km": 15.694999999999999,
+      "duration_min": 31.127200000000002,
+      "source_file": "kaohsiung/kaohsiung-keh-6792-2fc0ff.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ked-9596-8250d4",
+      "file": "routes/kaohsiung/kaohsiung-ked-9596-8250d4.geojson",
+      "distance_km": 7.614,
+      "duration_min": 15.260633333333335,
+      "source_file": "kaohsiung/kaohsiung-ked-9596-8250d4.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5922-db435e",
+      "file": "routes/kaohsiung/kaohsiung-keh-5922-db435e.geojson",
+      "distance_km": 7.741,
+      "duration_min": 17.6284,
+      "source_file": "kaohsiung/kaohsiung-keh-5922-db435e.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6876-09a367",
+      "file": "routes/kaohsiung/kaohsiung-keb-6876-09a367.geojson",
+      "distance_km": 47.667,
+      "duration_min": 67.3975,
+      "source_file": "kaohsiung/kaohsiung-keb-6876-09a367.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6263-7a2aab",
+      "file": "routes/kaohsiung/kaohsiung-keh-6263-7a2aab.geojson",
+      "distance_km": 6.352,
+      "duration_min": 13.0774,
+      "source_file": "kaohsiung/kaohsiung-keh-6263-7a2aab.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6623-e135b0",
+      "file": "routes/kaohsiung/kaohsiung-keh-6623-e135b0.geojson",
+      "distance_km": 18.597,
+      "duration_min": 32.65291666666666,
+      "source_file": "kaohsiung/kaohsiung-keh-6623-e135b0.geojson"
     },
     {
       "routeId": "kaohsiung-keh-5376-3d9ee9",
@@ -2061,39 +157,32 @@
       "source_file": "kaohsiung/kaohsiung-keh-5376-3d9ee9.geojson"
     },
     {
-      "routeId": "kaohsiung-keh-6267-c25cd4",
-      "file": "routes/kaohsiung/kaohsiung-keh-6267-c25cd4.geojson",
-      "distance_km": 33.964,
-      "duration_min": 62.18331666666666,
-      "source_file": "kaohsiung/kaohsiung-keh-6267-c25cd4.geojson"
+      "routeId": "kaohsiung-ked-9836-6d4108",
+      "file": "routes/kaohsiung/kaohsiung-ked-9836-6d4108.geojson",
+      "distance_km": 12.968,
+      "duration_min": 24.81298333333333,
+      "source_file": "kaohsiung/kaohsiung-ked-9836-6d4108.geojson"
     },
     {
-      "routeId": "kaohsiung-kef-6916-212b42",
-      "file": "routes/kaohsiung/kaohsiung-kef-6916-212b42.geojson",
-      "distance_km": 7.109,
-      "duration_min": 10.430866666666667,
-      "source_file": "kaohsiung/kaohsiung-kef-6916-212b42.geojson"
+      "routeId": "kaohsiung-kem-1765-ef190c",
+      "file": "routes/kaohsiung/kaohsiung-kem-1765-ef190c.geojson",
+      "distance_km": 24.771,
+      "duration_min": 49.30268333333333,
+      "source_file": "kaohsiung/kaohsiung-kem-1765-ef190c.geojson"
     },
     {
-      "routeId": "kaohsiung-kep-7656-731669",
-      "file": "routes/kaohsiung/kaohsiung-kep-7656-731669.geojson",
-      "distance_km": 16.374000000000002,
-      "duration_min": 34.536516666666664,
-      "source_file": "kaohsiung/kaohsiung-kep-7656-731669.geojson"
+      "routeId": "kaohsiung-ket-9603-a472ca",
+      "file": "routes/kaohsiung/kaohsiung-ket-9603-a472ca.geojson",
+      "distance_km": 23.947,
+      "duration_min": 45.0178,
+      "source_file": "kaohsiung/kaohsiung-ket-9603-a472ca.geojson"
     },
     {
-      "routeId": "kaohsiung-keh-5763-6ee791",
-      "file": "routes/kaohsiung/kaohsiung-keh-5763-6ee791.geojson",
-      "distance_km": 13.924999999999999,
-      "duration_min": 25.307616666666664,
-      "source_file": "kaohsiung/kaohsiung-keh-5763-6ee791.geojson"
-    },
-    {
-      "routeId": "kaohsiung-kef-5812-7c7787",
-      "file": "routes/kaohsiung/kaohsiung-kef-5812-7c7787.geojson",
-      "distance_km": 12.578999999999999,
-      "duration_min": 24.427416666666666,
-      "source_file": "kaohsiung/kaohsiung-kef-5812-7c7787.geojson"
+      "routeId": "kaohsiung-keu-5596-8ddaad",
+      "file": "routes/kaohsiung/kaohsiung-keu-5596-8ddaad.geojson",
+      "distance_km": 20.661,
+      "duration_min": 43.2843,
+      "source_file": "kaohsiung/kaohsiung-keu-5596-8ddaad.geojson"
     },
     {
       "routeId": "kaohsiung-265-uk-44236a",
@@ -2103,11 +192,130 @@
       "source_file": "kaohsiung/kaohsiung-265-uk-44236a.geojson"
     },
     {
-      "routeId": "kaohsiung-kep-6201-e585a8",
-      "file": "routes/kaohsiung/kaohsiung-kep-6201-e585a8.geojson",
-      "distance_km": 1.848,
-      "duration_min": 3.702183333333333,
-      "source_file": "kaohsiung/kaohsiung-kep-6201-e585a8.geojson"
+      "routeId": "kaohsiung-keh-6313-c19448",
+      "file": "routes/kaohsiung/kaohsiung-keh-6313-c19448.geojson",
+      "distance_km": 25.979,
+      "duration_min": 46.21399999999999,
+      "source_file": "kaohsiung/kaohsiung-keh-6313-c19448.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6671-ea671e",
+      "file": "routes/kaohsiung/kaohsiung-keh-6671-ea671e.geojson",
+      "distance_km": 18.507,
+      "duration_min": 34.6508,
+      "source_file": "kaohsiung/kaohsiung-keh-6671-ea671e.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6317-96f597",
+      "file": "routes/kaohsiung/kaohsiung-keh-6317-96f597.geojson",
+      "distance_km": 22.344,
+      "duration_min": 48.482099999999996,
+      "source_file": "kaohsiung/kaohsiung-keh-6317-96f597.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9556-608c27",
+      "file": "routes/kaohsiung/kaohsiung-ket-9556-608c27.geojson",
+      "distance_km": 20.421,
+      "duration_min": 45.14213333333333,
+      "source_file": "kaohsiung/kaohsiung-ket-9556-608c27.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6869-3b9de6",
+      "file": "routes/kaohsiung/kaohsiung-keb-6869-3b9de6.geojson",
+      "distance_km": 8.779,
+      "duration_min": 18.361866666666668,
+      "source_file": "kaohsiung/kaohsiung-keb-6869-3b9de6.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5329-4a20e3",
+      "file": "routes/kaohsiung/kaohsiung-keh-5329-4a20e3.geojson",
+      "distance_km": 10.205,
+      "duration_min": 22.067416666666666,
+      "source_file": "kaohsiung/kaohsiung-keh-5329-4a20e3.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-2902-ad99ac",
+      "file": "routes/kaohsiung/kaohsiung-kep-2902-ad99ac.geojson",
+      "distance_km": 8.717,
+      "duration_min": 21.092983333333333,
+      "source_file": "kaohsiung/kaohsiung-kep-2902-ad99ac.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-6916-212b42",
+      "file": "routes/kaohsiung/kaohsiung-kef-6916-212b42.geojson",
+      "distance_km": 7.109,
+      "duration_min": 10.430866666666667,
+      "source_file": "kaohsiung/kaohsiung-kef-6916-212b42.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3612-65f839",
+      "file": "routes/kaohsiung/kaohsiung-kel-3612-65f839.geojson",
+      "distance_km": 3.879,
+      "duration_min": 8.401433333333333,
+      "source_file": "kaohsiung/kaohsiung-kel-3612-65f839.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6617-bdf085",
+      "file": "routes/kaohsiung/kaohsiung-keh-6617-bdf085.geojson",
+      "distance_km": 47.534,
+      "duration_min": 65.3695,
+      "source_file": "kaohsiung/kaohsiung-keh-6617-bdf085.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5610-4db150",
+      "file": "routes/kaohsiung/kaohsiung-kef-5610-4db150.geojson",
+      "distance_km": 10.543,
+      "duration_min": 26.1509,
+      "source_file": "kaohsiung/kaohsiung-kef-5610-4db150.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-7016-ca7b56",
+      "file": "routes/kaohsiung/kaohsiung-kep-7016-ca7b56.geojson",
+      "distance_km": 23.531000000000002,
+      "duration_min": 54.613150000000005,
+      "source_file": "kaohsiung/kaohsiung-kep-7016-ca7b56.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5826-eb58d5",
+      "file": "routes/kaohsiung/kaohsiung-kef-5826-eb58d5.geojson",
+      "distance_km": 18.926,
+      "duration_min": 32.684983333333335,
+      "source_file": "kaohsiung/kaohsiung-kef-5826-eb58d5.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5759-5f2222",
+      "file": "routes/kaohsiung/kaohsiung-kep-5759-5f2222.geojson",
+      "distance_km": 52.873,
+      "duration_min": 72.07973333333334,
+      "source_file": "kaohsiung/kaohsiung-kep-5759-5f2222.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6381-397c43",
+      "file": "routes/kaohsiung/kaohsiung-keh-6381-397c43.geojson",
+      "distance_km": 39.52100000000001,
+      "duration_min": 62.88445,
+      "source_file": "kaohsiung/kaohsiung-keh-6381-397c43.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0012-a5dbf0",
+      "file": "routes/kaohsiung/kaohsiung-kem-0012-a5dbf0.geojson",
+      "distance_km": 12.415,
+      "duration_min": 25.8677,
+      "source_file": "kaohsiung/kaohsiung-kem-0012-a5dbf0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3603-338dec",
+      "file": "routes/kaohsiung/kaohsiung-kel-3603-338dec.geojson",
+      "distance_km": 8.668,
+      "duration_min": 17.694233333333333,
+      "source_file": "kaohsiung/kaohsiung-kel-3603-338dec.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5687-0198b8",
+      "file": "routes/kaohsiung/kaohsiung-kef-5687-0198b8.geojson",
+      "distance_km": 21.323999999999998,
+      "duration_min": 37.44025,
+      "source_file": "kaohsiung/kaohsiung-kef-5687-0198b8.geojson"
     },
     {
       "routeId": "kaohsiung-kem-0632-943e65",
@@ -2117,6 +325,1637 @@
       "source_file": "kaohsiung/kaohsiung-kem-0632-943e65.geojson"
     },
     {
+      "routeId": "kaohsiung-kem-0636-7235eb",
+      "file": "routes/kaohsiung/kaohsiung-kem-0636-7235eb.geojson",
+      "distance_km": 96.93299999999999,
+      "duration_min": 97.68645,
+      "source_file": "kaohsiung/kaohsiung-kem-0636-7235eb.geojson"
+    },
+    {
+      "routeId": "kaohsiung-359-uv-b0fd15",
+      "file": "routes/kaohsiung/kaohsiung-359-uv-b0fd15.geojson",
+      "distance_km": 10.671,
+      "duration_min": 13.549000000000001,
+      "source_file": "kaohsiung/kaohsiung-359-uv-b0fd15.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5782-44f2c5",
+      "file": "routes/kaohsiung/kaohsiung-kep-5782-44f2c5.geojson",
+      "distance_km": 2.287,
+      "duration_min": 6.200516666666667,
+      "source_file": "kaohsiung/kaohsiung-kep-5782-44f2c5.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0633-2f361c",
+      "file": "routes/kaohsiung/kaohsiung-kem-0633-2f361c.geojson",
+      "distance_km": 10.486,
+      "duration_min": 18.525016666666666,
+      "source_file": "kaohsiung/kaohsiung-kem-0633-2f361c.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keu-5593-dfc942",
+      "file": "routes/kaohsiung/kaohsiung-keu-5593-dfc942.geojson",
+      "distance_km": 20.161,
+      "duration_min": 40.46225,
+      "source_file": "kaohsiung/kaohsiung-keu-5593-dfc942.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7055-0d5ba3",
+      "file": "routes/kaohsiung/kaohsiung-keb-7055-0d5ba3.geojson",
+      "distance_km": 8.398,
+      "duration_min": 21.094833333333334,
+      "source_file": "kaohsiung/kaohsiung-keb-7055-0d5ba3.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7602-883049",
+      "file": "routes/kaohsiung/kaohsiung-keb-7602-883049.geojson",
+      "distance_km": 13.609,
+      "duration_min": 25.97325,
+      "source_file": "kaohsiung/kaohsiung-keb-7602-883049.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6137-f689d4",
+      "file": "routes/kaohsiung/kaohsiung-keb-6137-f689d4.geojson",
+      "distance_km": 8.328,
+      "duration_min": 14.698883333333333,
+      "source_file": "kaohsiung/kaohsiung-keb-6137-f689d4.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-6205-1319a0",
+      "file": "routes/kaohsiung/kaohsiung-kep-6205-1319a0.geojson",
+      "distance_km": 22.398,
+      "duration_min": 38.68151666666667,
+      "source_file": "kaohsiung/kaohsiung-kep-6205-1319a0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1763-cd8bc0",
+      "file": "routes/kaohsiung/kaohsiung-kem-1763-cd8bc0.geojson",
+      "distance_km": 11.907,
+      "duration_min": 27.797166666666666,
+      "source_file": "kaohsiung/kaohsiung-kem-1763-cd8bc0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6259-81dce0",
+      "file": "routes/kaohsiung/kaohsiung-keh-6259-81dce0.geojson",
+      "distance_km": 25.632999999999996,
+      "duration_min": 39.58636666666667,
+      "source_file": "kaohsiung/kaohsiung-keh-6259-81dce0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6607-dd010a",
+      "file": "routes/kaohsiung/kaohsiung-keh-6607-dd010a.geojson",
+      "distance_km": 9.707,
+      "duration_min": 18.566333333333333,
+      "source_file": "kaohsiung/kaohsiung-keh-6607-dd010a.geojson"
+    },
+    {
+      "routeId": "kaohsiung-567-uv-b5be0d",
+      "file": "routes/kaohsiung/kaohsiung-567-uv-b5be0d.geojson",
+      "distance_km": 18.487999999999996,
+      "duration_min": 52.519283333333334,
+      "source_file": "kaohsiung/kaohsiung-567-uv-b5be0d.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ked-9595-3e30b9",
+      "file": "routes/kaohsiung/kaohsiung-ked-9595-3e30b9.geojson",
+      "distance_km": 13.154,
+      "duration_min": 25.53226666666667,
+      "source_file": "kaohsiung/kaohsiung-ked-9595-3e30b9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-2901-e56961",
+      "file": "routes/kaohsiung/kaohsiung-kep-2901-e56961.geojson",
+      "distance_km": 18.342999999999996,
+      "duration_min": 46.723016666666666,
+      "source_file": "kaohsiung/kaohsiung-kep-2901-e56961.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5368-cf7c28",
+      "file": "routes/kaohsiung/kaohsiung-keh-5368-cf7c28.geojson",
+      "distance_km": 11.378,
+      "duration_min": 22.814533333333333,
+      "source_file": "kaohsiung/kaohsiung-keh-5368-cf7c28.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1761-31377f",
+      "file": "routes/kaohsiung/kaohsiung-kem-1761-31377f.geojson",
+      "distance_km": 7.664,
+      "duration_min": 20.634766666666668,
+      "source_file": "kaohsiung/kaohsiung-kem-1761-31377f.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6993-4d6e77",
+      "file": "routes/kaohsiung/kaohsiung-keh-6993-4d6e77.geojson",
+      "distance_km": 6.1739999999999995,
+      "duration_min": 14.597316666666668,
+      "source_file": "kaohsiung/kaohsiung-keh-6993-4d6e77.geojson"
+    },
+    {
+      "routeId": "kaohsiung-088-n6-3e69da",
+      "file": "routes/kaohsiung/kaohsiung-088-n6-3e69da.geojson",
+      "distance_km": 25.002,
+      "duration_min": 46.631433333333334,
+      "source_file": "kaohsiung/kaohsiung-088-n6-3e69da.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-7656-731669",
+      "file": "routes/kaohsiung/kaohsiung-kep-7656-731669.geojson",
+      "distance_km": 16.374000000000002,
+      "duration_min": 34.536516666666664,
+      "source_file": "kaohsiung/kaohsiung-kep-7656-731669.geojson"
+    },
+    {
+      "routeId": "kaohsiung-440-n6-67a4ac",
+      "file": "routes/kaohsiung/kaohsiung-440-n6-67a4ac.geojson",
+      "distance_km": 3.504,
+      "duration_min": 7.80125,
+      "source_file": "kaohsiung/kaohsiung-440-n6-67a4ac.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6832-706eb6",
+      "file": "routes/kaohsiung/kaohsiung-keb-6832-706eb6.geojson",
+      "distance_km": 6.267,
+      "duration_min": 10.724766666666666,
+      "source_file": "kaohsiung/kaohsiung-keb-6832-706eb6.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-2613-25598e",
+      "file": "routes/kaohsiung/kaohsiung-kem-2613-25598e.geojson",
+      "distance_km": 4.875,
+      "duration_min": 9.684616666666667,
+      "source_file": "kaohsiung/kaohsiung-kem-2613-25598e.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3910-6602d9",
+      "file": "routes/kaohsiung/kaohsiung-kel-3910-6602d9.geojson",
+      "distance_km": 7.6,
+      "duration_min": 13.543816666666666,
+      "source_file": "kaohsiung/kaohsiung-kel-3910-6602d9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7767-da4ffa",
+      "file": "routes/kaohsiung/kaohsiung-keb-7767-da4ffa.geojson",
+      "distance_km": 9.463000000000001,
+      "duration_min": 21.839616666666664,
+      "source_file": "kaohsiung/kaohsiung-keb-7767-da4ffa.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9590-15c7d1",
+      "file": "routes/kaohsiung/kaohsiung-ket-9590-15c7d1.geojson",
+      "distance_km": 16.557,
+      "duration_min": 30.634783333333335,
+      "source_file": "kaohsiung/kaohsiung-ket-9590-15c7d1.geojson"
+    },
+    {
+      "routeId": "kaohsiung-450-bu-53e61f",
+      "file": "routes/kaohsiung/kaohsiung-450-bu-53e61f.geojson",
+      "distance_km": 18.597,
+      "duration_min": 40.46868333333334,
+      "source_file": "kaohsiung/kaohsiung-450-bu-53e61f.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kev-8093-dc0a19",
+      "file": "routes/kaohsiung/kaohsiung-kev-8093-dc0a19.geojson",
+      "distance_km": 1.23,
+      "duration_min": 2.7712333333333334,
+      "source_file": "kaohsiung/kaohsiung-kev-8093-dc0a19.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-2616-5b9845",
+      "file": "routes/kaohsiung/kaohsiung-kem-2616-5b9845.geojson",
+      "distance_km": 13.387,
+      "duration_min": 24.733283333333336,
+      "source_file": "kaohsiung/kaohsiung-kem-2616-5b9845.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5763-5e937d",
+      "file": "routes/kaohsiung/kaohsiung-kep-5763-5e937d.geojson",
+      "distance_km": 13.957,
+      "duration_min": 18.88945,
+      "source_file": "kaohsiung/kaohsiung-kep-5763-5e937d.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6992-dd8677",
+      "file": "routes/kaohsiung/kaohsiung-keh-6992-dd8677.geojson",
+      "distance_km": 9.239,
+      "duration_min": 21.10685,
+      "source_file": "kaohsiung/kaohsiung-keh-6992-dd8677.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3716-396213",
+      "file": "routes/kaohsiung/kaohsiung-kel-3716-396213.geojson",
+      "distance_km": 7.373,
+      "duration_min": 14.2851,
+      "source_file": "kaohsiung/kaohsiung-kel-3716-396213.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5330-88e17d",
+      "file": "routes/kaohsiung/kaohsiung-keh-5330-88e17d.geojson",
+      "distance_km": 13.761,
+      "duration_min": 20.21455,
+      "source_file": "kaohsiung/kaohsiung-keh-5330-88e17d.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5925-9d6f10",
+      "file": "routes/kaohsiung/kaohsiung-keh-5925-9d6f10.geojson",
+      "distance_km": 13.417,
+      "duration_min": 29.05785,
+      "source_file": "kaohsiung/kaohsiung-keh-5925-9d6f10.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6015-8d96ce",
+      "file": "routes/kaohsiung/kaohsiung-keb-6015-8d96ce.geojson",
+      "distance_km": 28.731,
+      "duration_min": 45.88210000000001,
+      "source_file": "kaohsiung/kaohsiung-keb-6015-8d96ce.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6238-aae206",
+      "file": "routes/kaohsiung/kaohsiung-keh-6238-aae206.geojson",
+      "distance_km": 23.01,
+      "duration_min": 40.573766666666664,
+      "source_file": "kaohsiung/kaohsiung-keh-6238-aae206.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6870-70f7fa",
+      "file": "routes/kaohsiung/kaohsiung-keb-6870-70f7fa.geojson",
+      "distance_km": 21.233,
+      "duration_min": 48.42105,
+      "source_file": "kaohsiung/kaohsiung-keb-6870-70f7fa.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3613-a648c8",
+      "file": "routes/kaohsiung/kaohsiung-kel-3613-a648c8.geojson",
+      "distance_km": 6.981,
+      "duration_min": 14.615316666666667,
+      "source_file": "kaohsiung/kaohsiung-kel-3613-a648c8.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7766-2ab510",
+      "file": "routes/kaohsiung/kaohsiung-keb-7766-2ab510.geojson",
+      "distance_km": 0.215,
+      "duration_min": 0.5043333333333334,
+      "source_file": "kaohsiung/kaohsiung-keb-7766-2ab510.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-6918-8e13f6",
+      "file": "routes/kaohsiung/kaohsiung-kef-6918-8e13f6.geojson",
+      "distance_km": 9.976,
+      "duration_min": 15.875933333333332,
+      "source_file": "kaohsiung/kaohsiung-kef-6918-8e13f6.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5772-c4b43a",
+      "file": "routes/kaohsiung/kaohsiung-kep-5772-c4b43a.geojson",
+      "distance_km": 20.494,
+      "duration_min": 30.820416666666667,
+      "source_file": "kaohsiung/kaohsiung-kep-5772-c4b43a.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6268-a995a3",
+      "file": "routes/kaohsiung/kaohsiung-keh-6268-a995a3.geojson",
+      "distance_km": 30.528,
+      "duration_min": 50.827416666666664,
+      "source_file": "kaohsiung/kaohsiung-keh-6268-a995a3.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6376-193d27",
+      "file": "routes/kaohsiung/kaohsiung-keh-6376-193d27.geojson",
+      "distance_km": 7.105,
+      "duration_min": 15.031633333333334,
+      "source_file": "kaohsiung/kaohsiung-keh-6376-193d27.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6621-de226f",
+      "file": "routes/kaohsiung/kaohsiung-keh-6621-de226f.geojson",
+      "distance_km": 18.505,
+      "duration_min": 32.556466666666665,
+      "source_file": "kaohsiung/kaohsiung-keh-6621-de226f.geojson"
+    },
+    {
+      "routeId": "kaohsiung-876-t7-bd7536",
+      "file": "routes/kaohsiung/kaohsiung-876-t7-bd7536.geojson",
+      "distance_km": 50.385,
+      "duration_min": 71.09948333333334,
+      "source_file": "kaohsiung/kaohsiung-876-t7-bd7536.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-6202-687cc7",
+      "file": "routes/kaohsiung/kaohsiung-kep-6202-687cc7.geojson",
+      "distance_km": 12.953,
+      "duration_min": 30.123116666666668,
+      "source_file": "kaohsiung/kaohsiung-kep-6202-687cc7.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5832-74f7ca",
+      "file": "routes/kaohsiung/kaohsiung-kef-5832-74f7ca.geojson",
+      "distance_km": 15.571,
+      "duration_min": 26.297900000000002,
+      "source_file": "kaohsiung/kaohsiung-kef-5832-74f7ca.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5763-6ee791",
+      "file": "routes/kaohsiung/kaohsiung-keh-5763-6ee791.geojson",
+      "distance_km": 13.924999999999999,
+      "duration_min": 25.307616666666664,
+      "source_file": "kaohsiung/kaohsiung-keh-5763-6ee791.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9562-6330de",
+      "file": "routes/kaohsiung/kaohsiung-ket-9562-6330de.geojson",
+      "distance_km": 8.183,
+      "duration_min": 16.650983333333333,
+      "source_file": "kaohsiung/kaohsiung-ket-9562-6330de.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3733-0ed308",
+      "file": "routes/kaohsiung/kaohsiung-kel-3733-0ed308.geojson",
+      "distance_km": 17.275,
+      "duration_min": 44.90599999999999,
+      "source_file": "kaohsiung/kaohsiung-kel-3733-0ed308.geojson"
+    },
+    {
+      "routeId": "kaohsiung-753-t7-cbf5a0",
+      "file": "routes/kaohsiung/kaohsiung-753-t7-cbf5a0.geojson",
+      "distance_km": 12.465,
+      "duration_min": 23.220016666666666,
+      "source_file": "kaohsiung/kaohsiung-753-t7-cbf5a0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keu-1787-d15d61",
+      "file": "routes/kaohsiung/kaohsiung-keu-1787-d15d61.geojson",
+      "distance_km": 22.105999999999998,
+      "duration_min": 48.37033333333333,
+      "source_file": "kaohsiung/kaohsiung-keu-1787-d15d61.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-2231-b68d96",
+      "file": "routes/kaohsiung/kaohsiung-kem-2231-b68d96.geojson",
+      "distance_km": 21.469,
+      "duration_min": 39.73233333333334,
+      "source_file": "kaohsiung/kaohsiung-kem-2231-b68d96.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-2239-3dd3f8",
+      "file": "routes/kaohsiung/kaohsiung-kem-2239-3dd3f8.geojson",
+      "distance_km": 16.884,
+      "duration_min": 29.422683333333335,
+      "source_file": "kaohsiung/kaohsiung-kem-2239-3dd3f8.geojson"
+    },
+    {
+      "routeId": "kaohsiung-640-n6-58250a",
+      "file": "routes/kaohsiung/kaohsiung-640-n6-58250a.geojson",
+      "distance_km": 14.341,
+      "duration_min": 24.835083333333333,
+      "source_file": "kaohsiung/kaohsiung-640-n6-58250a.geojson"
+    },
+    {
+      "routeId": "kaohsiung-903-vh-b9e9ef",
+      "file": "routes/kaohsiung/kaohsiung-903-vh-b9e9ef.geojson",
+      "distance_km": 28.369000000000003,
+      "duration_min": 45.36275,
+      "source_file": "kaohsiung/kaohsiung-903-vh-b9e9ef.geojson"
+    },
+    {
+      "routeId": "kaohsiung-909-vh-8244ca",
+      "file": "routes/kaohsiung/kaohsiung-909-vh-8244ca.geojson",
+      "distance_km": 48.577000000000005,
+      "duration_min": 83.11158333333333,
+      "source_file": "kaohsiung/kaohsiung-909-vh-8244ca.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5783-f66ac6",
+      "file": "routes/kaohsiung/kaohsiung-kep-5783-f66ac6.geojson",
+      "distance_km": 48.09,
+      "duration_min": 69.868,
+      "source_file": "kaohsiung/kaohsiung-kep-5783-f66ac6.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-6197-2689c0",
+      "file": "routes/kaohsiung/kaohsiung-kep-6197-2689c0.geojson",
+      "distance_km": 19.590000000000003,
+      "duration_min": 37.32953333333333,
+      "source_file": "kaohsiung/kaohsiung-kep-6197-2689c0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6622-1af5a9",
+      "file": "routes/kaohsiung/kaohsiung-keh-6622-1af5a9.geojson",
+      "distance_km": 9.333,
+      "duration_min": 15.48235,
+      "source_file": "kaohsiung/kaohsiung-keh-6622-1af5a9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6829-b33c01",
+      "file": "routes/kaohsiung/kaohsiung-keb-6829-b33c01.geojson",
+      "distance_km": 18.776000000000003,
+      "duration_min": 35.839333333333336,
+      "source_file": "kaohsiung/kaohsiung-keb-6829-b33c01.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1767-b873d9",
+      "file": "routes/kaohsiung/kaohsiung-kem-1767-b873d9.geojson",
+      "distance_km": 14.064,
+      "duration_min": 28.496950000000002,
+      "source_file": "kaohsiung/kaohsiung-kem-1767-b873d9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0635-3acbab",
+      "file": "routes/kaohsiung/kaohsiung-kem-0635-3acbab.geojson",
+      "distance_km": 13.577,
+      "duration_min": 21.441533333333332,
+      "source_file": "kaohsiung/kaohsiung-kem-0635-3acbab.geojson"
+    },
+    {
+      "routeId": "kaohsiung-415-bu-d6aa41",
+      "file": "routes/kaohsiung/kaohsiung-415-bu-d6aa41.geojson",
+      "distance_km": 34.044999999999995,
+      "duration_min": 68.58431666666667,
+      "source_file": "kaohsiung/kaohsiung-415-bu-d6aa41.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9583-e40538",
+      "file": "routes/kaohsiung/kaohsiung-ket-9583-e40538.geojson",
+      "distance_km": 8.356,
+      "duration_min": 17.0523,
+      "source_file": "kaohsiung/kaohsiung-ket-9583-e40538.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-6922-7fea17",
+      "file": "routes/kaohsiung/kaohsiung-kef-6922-7fea17.geojson",
+      "distance_km": 13.185,
+      "duration_min": 20.74566666666667,
+      "source_file": "kaohsiung/kaohsiung-kef-6922-7fea17.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6251-b9345f",
+      "file": "routes/kaohsiung/kaohsiung-keh-6251-b9345f.geojson",
+      "distance_km": 15.460999999999999,
+      "duration_min": 34.80846666666667,
+      "source_file": "kaohsiung/kaohsiung-keh-6251-b9345f.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0619-b542fa",
+      "file": "routes/kaohsiung/kaohsiung-kem-0619-b542fa.geojson",
+      "distance_km": 22.162,
+      "duration_min": 42.26186666666667,
+      "source_file": "kaohsiung/kaohsiung-kem-0619-b542fa.geojson"
+    },
+    {
+      "routeId": "kaohsiung-899-n6-6783aa",
+      "file": "routes/kaohsiung/kaohsiung-899-n6-6783aa.geojson",
+      "distance_km": 17.919,
+      "duration_min": 36.075799999999994,
+      "source_file": "kaohsiung/kaohsiung-899-n6-6783aa.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-3020-c9e083",
+      "file": "routes/kaohsiung/kaohsiung-kem-3020-c9e083.geojson",
+      "distance_km": 29.252,
+      "duration_min": 57.69576666666667,
+      "source_file": "kaohsiung/kaohsiung-kem-3020-c9e083.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-2610-3d6888",
+      "file": "routes/kaohsiung/kaohsiung-kem-2610-3d6888.geojson",
+      "distance_km": 20.404,
+      "duration_min": 31.581349999999997,
+      "source_file": "kaohsiung/kaohsiung-kem-2610-3d6888.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5375-894760",
+      "file": "routes/kaohsiung/kaohsiung-keh-5375-894760.geojson",
+      "distance_km": 7.791,
+      "duration_min": 16.726583333333334,
+      "source_file": "kaohsiung/kaohsiung-keh-5375-894760.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6136-4229d0",
+      "file": "routes/kaohsiung/kaohsiung-keb-6136-4229d0.geojson",
+      "distance_km": 19.455,
+      "duration_min": 32.090466666666664,
+      "source_file": "kaohsiung/kaohsiung-keb-6136-4229d0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-289-n6-a07354",
+      "file": "routes/kaohsiung/kaohsiung-289-n6-a07354.geojson",
+      "distance_km": 13.811,
+      "duration_min": 29.251766666666665,
+      "source_file": "kaohsiung/kaohsiung-289-n6-a07354.geojson"
+    },
+    {
+      "routeId": "kaohsiung-236-uv-a78a48",
+      "file": "routes/kaohsiung/kaohsiung-236-uv-a78a48.geojson",
+      "distance_km": 20.02,
+      "duration_min": 43.139633333333336,
+      "source_file": "kaohsiung/kaohsiung-236-uv-a78a48.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0622-4b2fcd",
+      "file": "routes/kaohsiung/kaohsiung-kem-0622-4b2fcd.geojson",
+      "distance_km": 14.428999999999998,
+      "duration_min": 26.304399999999998,
+      "source_file": "kaohsiung/kaohsiung-kem-0622-4b2fcd.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5761-e6a72d",
+      "file": "routes/kaohsiung/kaohsiung-keh-5761-e6a72d.geojson",
+      "distance_km": 17.119,
+      "duration_min": 27.9707,
+      "source_file": "kaohsiung/kaohsiung-keh-5761-e6a72d.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7656-2c27a9",
+      "file": "routes/kaohsiung/kaohsiung-keb-7656-2c27a9.geojson",
+      "distance_km": 15.153,
+      "duration_min": 30.645233333333334,
+      "source_file": "kaohsiung/kaohsiung-keb-7656-2c27a9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-443-n6-ed4177",
+      "file": "routes/kaohsiung/kaohsiung-443-n6-ed4177.geojson",
+      "distance_km": 12.622,
+      "duration_min": 23.4938,
+      "source_file": "kaohsiung/kaohsiung-443-n6-ed4177.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0627-5a3343",
+      "file": "routes/kaohsiung/kaohsiung-kem-0627-5a3343.geojson",
+      "distance_km": 18.511000000000003,
+      "duration_min": 37.83931666666667,
+      "source_file": "kaohsiung/kaohsiung-kem-0627-5a3343.geojson"
+    },
+    {
+      "routeId": "kaohsiung-901-vh-1784aa",
+      "file": "routes/kaohsiung/kaohsiung-901-vh-1784aa.geojson",
+      "distance_km": 7.443,
+      "duration_min": 13.05355,
+      "source_file": "kaohsiung/kaohsiung-901-vh-1784aa.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5825-a648f9",
+      "file": "routes/kaohsiung/kaohsiung-kef-5825-a648f9.geojson",
+      "distance_km": 6.775,
+      "duration_min": 16.56083333333333,
+      "source_file": "kaohsiung/kaohsiung-kef-5825-a648f9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-940-n6-6253ae",
+      "file": "routes/kaohsiung/kaohsiung-940-n6-6253ae.geojson",
+      "distance_km": 3.454,
+      "duration_min": 8.136733333333334,
+      "source_file": "kaohsiung/kaohsiung-940-n6-6253ae.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6172-b5c27f",
+      "file": "routes/kaohsiung/kaohsiung-keb-6172-b5c27f.geojson",
+      "distance_km": 19.348000000000003,
+      "duration_min": 44.13361666666666,
+      "source_file": "kaohsiung/kaohsiung-keb-6172-b5c27f.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3610-e0f65d",
+      "file": "routes/kaohsiung/kaohsiung-kel-3610-e0f65d.geojson",
+      "distance_km": 1.099,
+      "duration_min": 2.5695666666666668,
+      "source_file": "kaohsiung/kaohsiung-kel-3610-e0f65d.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-7651-669139",
+      "file": "routes/kaohsiung/kaohsiung-kep-7651-669139.geojson",
+      "distance_km": 25.291999999999998,
+      "duration_min": 43.31336666666667,
+      "source_file": "kaohsiung/kaohsiung-kep-7651-669139.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3750-fb7bec",
+      "file": "routes/kaohsiung/kaohsiung-kel-3750-fb7bec.geojson",
+      "distance_km": 10.223,
+      "duration_min": 17.439883333333334,
+      "source_file": "kaohsiung/kaohsiung-kel-3750-fb7bec.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5373-f38998",
+      "file": "routes/kaohsiung/kaohsiung-keh-5373-f38998.geojson",
+      "distance_km": 13.834,
+      "duration_min": 23.251733333333334,
+      "source_file": "kaohsiung/kaohsiung-keh-5373-f38998.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-6920-ede5cb",
+      "file": "routes/kaohsiung/kaohsiung-kef-6920-ede5cb.geojson",
+      "distance_km": 69.04299999999999,
+      "duration_min": 82.29469999999999,
+      "source_file": "kaohsiung/kaohsiung-kef-6920-ede5cb.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5606-e66203",
+      "file": "routes/kaohsiung/kaohsiung-kef-5606-e66203.geojson",
+      "distance_km": 7.987,
+      "duration_min": 19.253899999999998,
+      "source_file": "kaohsiung/kaohsiung-kef-5606-e66203.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6256-822819",
+      "file": "routes/kaohsiung/kaohsiung-keh-6256-822819.geojson",
+      "distance_km": 19.155,
+      "duration_min": 47.34205,
+      "source_file": "kaohsiung/kaohsiung-keh-6256-822819.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5833-b7732c",
+      "file": "routes/kaohsiung/kaohsiung-kef-5833-b7732c.geojson",
+      "distance_km": 13.799000000000001,
+      "duration_min": 29.960283333333333,
+      "source_file": "kaohsiung/kaohsiung-kef-5833-b7732c.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6378-267a27",
+      "file": "routes/kaohsiung/kaohsiung-keh-6378-267a27.geojson",
+      "distance_km": 8.078,
+      "duration_min": 16.887833333333333,
+      "source_file": "kaohsiung/kaohsiung-keh-6378-267a27.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5371-8fe617",
+      "file": "routes/kaohsiung/kaohsiung-keh-5371-8fe617.geojson",
+      "distance_km": 12.718,
+      "duration_min": 23.86415,
+      "source_file": "kaohsiung/kaohsiung-keh-5371-8fe617.geojson"
+    },
+    {
+      "routeId": "kaohsiung-397-uk-15c080",
+      "file": "routes/kaohsiung/kaohsiung-397-uk-15c080.geojson",
+      "distance_km": 15.956,
+      "duration_min": 34.457033333333335,
+      "source_file": "kaohsiung/kaohsiung-397-uk-15c080.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-3012-dd4172",
+      "file": "routes/kaohsiung/kaohsiung-kem-3012-dd4172.geojson",
+      "distance_km": 8.008,
+      "duration_min": 14.654133333333334,
+      "source_file": "kaohsiung/kaohsiung-kem-3012-dd4172.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keu-1790-15625a",
+      "file": "routes/kaohsiung/kaohsiung-keu-1790-15625a.geojson",
+      "distance_km": 10.465,
+      "duration_min": 24.467850000000002,
+      "source_file": "kaohsiung/kaohsiung-keu-1790-15625a.geojson"
+    },
+    {
+      "routeId": "kaohsiung-873-t7-cf76e0",
+      "file": "routes/kaohsiung/kaohsiung-873-t7-cf76e0.geojson",
+      "distance_km": 8.118,
+      "duration_min": 13.60355,
+      "source_file": "kaohsiung/kaohsiung-873-t7-cf76e0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-3322-8d46d0",
+      "file": "routes/kaohsiung/kaohsiung-kep-3322-8d46d0.geojson",
+      "distance_km": 10.684999999999999,
+      "duration_min": 22.57635,
+      "source_file": "kaohsiung/kaohsiung-kep-3322-8d46d0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6995-8aa885",
+      "file": "routes/kaohsiung/kaohsiung-keh-6995-8aa885.geojson",
+      "distance_km": 14.053,
+      "duration_min": 33.63455,
+      "source_file": "kaohsiung/kaohsiung-keh-6995-8aa885.geojson"
+    },
+    {
+      "routeId": "kaohsiung-642-uv-874758",
+      "file": "routes/kaohsiung/kaohsiung-642-uv-874758.geojson",
+      "distance_km": 13.397,
+      "duration_min": 20.827216666666665,
+      "source_file": "kaohsiung/kaohsiung-642-uv-874758.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7361-e3e2ab",
+      "file": "routes/kaohsiung/kaohsiung-keb-7361-e3e2ab.geojson",
+      "distance_km": 16.552,
+      "duration_min": 32.85831666666667,
+      "source_file": "kaohsiung/kaohsiung-keb-7361-e3e2ab.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keu-3711-8ad6a2",
+      "file": "routes/kaohsiung/kaohsiung-keu-3711-8ad6a2.geojson",
+      "distance_km": 3.205,
+      "duration_min": 6.0343333333333335,
+      "source_file": "kaohsiung/kaohsiung-keu-3711-8ad6a2.geojson"
+    },
+    {
+      "routeId": "kaohsiung-911-vh-9bda27",
+      "file": "routes/kaohsiung/kaohsiung-911-vh-9bda27.geojson",
+      "distance_km": 7.233,
+      "duration_min": 16.971716666666666,
+      "source_file": "kaohsiung/kaohsiung-911-vh-9bda27.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7107-b93b48",
+      "file": "routes/kaohsiung/kaohsiung-keb-7107-b93b48.geojson",
+      "distance_km": 10.403,
+      "duration_min": 21.125366666666665,
+      "source_file": "kaohsiung/kaohsiung-keb-7107-b93b48.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-6919-246f71",
+      "file": "routes/kaohsiung/kaohsiung-kef-6919-246f71.geojson",
+      "distance_km": 13.495000000000001,
+      "duration_min": 20.168850000000003,
+      "source_file": "kaohsiung/kaohsiung-kef-6919-246f71.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9591-bc7c41",
+      "file": "routes/kaohsiung/kaohsiung-ket-9591-bc7c41.geojson",
+      "distance_km": 8.972000000000001,
+      "duration_min": 21.360916666666665,
+      "source_file": "kaohsiung/kaohsiung-ket-9591-bc7c41.geojson"
+    },
+    {
+      "routeId": "kaohsiung-403-uk-251331",
+      "file": "routes/kaohsiung/kaohsiung-403-uk-251331.geojson",
+      "distance_km": 9.337,
+      "duration_min": 21.169050000000002,
+      "source_file": "kaohsiung/kaohsiung-403-uk-251331.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1550-b87776",
+      "file": "routes/kaohsiung/kaohsiung-kem-1550-b87776.geojson",
+      "distance_km": 11.586,
+      "duration_min": 26.868499999999997,
+      "source_file": "kaohsiung/kaohsiung-kem-1550-b87776.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6602-d522c9",
+      "file": "routes/kaohsiung/kaohsiung-keh-6602-d522c9.geojson",
+      "distance_km": 16.315,
+      "duration_min": 44.80766666666667,
+      "source_file": "kaohsiung/kaohsiung-keh-6602-d522c9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keu-1781-ddb4ac",
+      "file": "routes/kaohsiung/kaohsiung-keu-1781-ddb4ac.geojson",
+      "distance_km": 5.713,
+      "duration_min": 8.965216666666667,
+      "source_file": "kaohsiung/kaohsiung-keu-1781-ddb4ac.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6255-bb2715",
+      "file": "routes/kaohsiung/kaohsiung-keh-6255-bb2715.geojson",
+      "distance_km": 31.284,
+      "duration_min": 58.267533333333326,
+      "source_file": "kaohsiung/kaohsiung-keh-6255-bb2715.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9553-451c12",
+      "file": "routes/kaohsiung/kaohsiung-ket-9553-451c12.geojson",
+      "distance_km": 9.169,
+      "duration_min": 21.40775,
+      "source_file": "kaohsiung/kaohsiung-ket-9553-451c12.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5670-e5a678",
+      "file": "routes/kaohsiung/kaohsiung-kef-5670-e5a678.geojson",
+      "distance_km": 11.44,
+      "duration_min": 23.421566666666664,
+      "source_file": "kaohsiung/kaohsiung-kef-5670-e5a678.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6171-5afef2",
+      "file": "routes/kaohsiung/kaohsiung-keb-6171-5afef2.geojson",
+      "distance_km": 3.918,
+      "duration_min": 7.48725,
+      "source_file": "kaohsiung/kaohsiung-keb-6171-5afef2.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5815-129e0a",
+      "file": "routes/kaohsiung/kaohsiung-kef-5815-129e0a.geojson",
+      "distance_km": 15.556000000000001,
+      "duration_min": 30.549683333333334,
+      "source_file": "kaohsiung/kaohsiung-kef-5815-129e0a.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6267-c25cd4",
+      "file": "routes/kaohsiung/kaohsiung-keh-6267-c25cd4.geojson",
+      "distance_km": 33.964,
+      "duration_min": 62.18331666666666,
+      "source_file": "kaohsiung/kaohsiung-keh-6267-c25cd4.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-6923-5eb362",
+      "file": "routes/kaohsiung/kaohsiung-kef-6923-5eb362.geojson",
+      "distance_km": 10.79,
+      "duration_min": 21.74665,
+      "source_file": "kaohsiung/kaohsiung-kef-6923-5eb362.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3720-1a0a70",
+      "file": "routes/kaohsiung/kaohsiung-kel-3720-1a0a70.geojson",
+      "distance_km": 12.388,
+      "duration_min": 23.588233333333335,
+      "source_file": "kaohsiung/kaohsiung-kel-3720-1a0a70.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5756-a9793a",
+      "file": "routes/kaohsiung/kaohsiung-kep-5756-a9793a.geojson",
+      "distance_km": 5.115,
+      "duration_min": 10.529533333333335,
+      "source_file": "kaohsiung/kaohsiung-kep-5756-a9793a.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-3021-ca76b6",
+      "file": "routes/kaohsiung/kaohsiung-kem-3021-ca76b6.geojson",
+      "distance_km": 18.22,
+      "duration_min": 33.048633333333335,
+      "source_file": "kaohsiung/kaohsiung-kem-3021-ca76b6.geojson"
+    },
+    {
+      "routeId": "kaohsiung-942-n6-6753df",
+      "file": "routes/kaohsiung/kaohsiung-942-n6-6753df.geojson",
+      "distance_km": 5.13,
+      "duration_min": 11.755733333333334,
+      "source_file": "kaohsiung/kaohsiung-942-n6-6753df.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6250-946b6a",
+      "file": "routes/kaohsiung/kaohsiung-keh-6250-946b6a.geojson",
+      "distance_km": 4.487,
+      "duration_min": 10.015866666666666,
+      "source_file": "kaohsiung/kaohsiung-keh-6250-946b6a.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5608-b34f5d",
+      "file": "routes/kaohsiung/kaohsiung-kef-5608-b34f5d.geojson",
+      "distance_km": 7.832,
+      "duration_min": 15.304233333333334,
+      "source_file": "kaohsiung/kaohsiung-kef-5608-b34f5d.geojson"
+    },
+    {
+      "routeId": "kaohsiung-981-vl-2e72bb",
+      "file": "routes/kaohsiung/kaohsiung-981-vl-2e72bb.geojson",
+      "distance_km": 6.41,
+      "duration_min": 13.608266666666667,
+      "source_file": "kaohsiung/kaohsiung-981-vl-2e72bb.geojson"
+    },
+    {
+      "routeId": "kaohsiung-917-n6-41c03c",
+      "file": "routes/kaohsiung/kaohsiung-917-n6-41c03c.geojson",
+      "distance_km": 13.618,
+      "duration_min": 28.756933333333333,
+      "source_file": "kaohsiung/kaohsiung-917-n6-41c03c.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6875-ea10e3",
+      "file": "routes/kaohsiung/kaohsiung-keb-6875-ea10e3.geojson",
+      "distance_km": 24.071,
+      "duration_min": 23.6297,
+      "source_file": "kaohsiung/kaohsiung-keb-6875-ea10e3.geojson"
+    },
+    {
+      "routeId": "kaohsiung-995-n6-21de24",
+      "file": "routes/kaohsiung/kaohsiung-995-n6-21de24.geojson",
+      "distance_km": 14.905,
+      "duration_min": 30.99765,
+      "source_file": "kaohsiung/kaohsiung-995-n6-21de24.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6619-e0bfeb",
+      "file": "routes/kaohsiung/kaohsiung-keh-6619-e0bfeb.geojson",
+      "distance_km": 15.298000000000002,
+      "duration_min": 29.23326666666667,
+      "source_file": "kaohsiung/kaohsiung-keh-6619-e0bfeb.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9595-c25ea4",
+      "file": "routes/kaohsiung/kaohsiung-ket-9595-c25ea4.geojson",
+      "distance_km": 8.639,
+      "duration_min": 23.356116666666665,
+      "source_file": "kaohsiung/kaohsiung-ket-9595-c25ea4.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5663-945657",
+      "file": "routes/kaohsiung/kaohsiung-kef-5663-945657.geojson",
+      "distance_km": 12.202,
+      "duration_min": 22.414166666666667,
+      "source_file": "kaohsiung/kaohsiung-kef-5663-945657.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keu-1783-26832d",
+      "file": "routes/kaohsiung/kaohsiung-keu-1783-26832d.geojson",
+      "distance_km": 14.578,
+      "duration_min": 23.444000000000003,
+      "source_file": "kaohsiung/kaohsiung-keu-1783-26832d.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1762-6b39e6",
+      "file": "routes/kaohsiung/kaohsiung-kem-1762-6b39e6.geojson",
+      "distance_km": 44.82599999999999,
+      "duration_min": 77.90683333333331,
+      "source_file": "kaohsiung/kaohsiung-kem-1762-6b39e6.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6166-abf138",
+      "file": "routes/kaohsiung/kaohsiung-keb-6166-abf138.geojson",
+      "distance_km": 19.141,
+      "duration_min": 35.2064,
+      "source_file": "kaohsiung/kaohsiung-keb-6166-abf138.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0621-4b32a4",
+      "file": "routes/kaohsiung/kaohsiung-kem-0621-4b32a4.geojson",
+      "distance_km": 22.389,
+      "duration_min": 53.55343333333334,
+      "source_file": "kaohsiung/kaohsiung-kem-0621-4b32a4.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5655-4dd82a",
+      "file": "routes/kaohsiung/kaohsiung-kef-5655-4dd82a.geojson",
+      "distance_km": 17.708,
+      "duration_min": 28.666883333333335,
+      "source_file": "kaohsiung/kaohsiung-kef-5655-4dd82a.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5380-78aa0d",
+      "file": "routes/kaohsiung/kaohsiung-keh-5380-78aa0d.geojson",
+      "distance_km": 11.343,
+      "duration_min": 18.627583333333334,
+      "source_file": "kaohsiung/kaohsiung-keh-5380-78aa0d.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-2893-6eda88",
+      "file": "routes/kaohsiung/kaohsiung-kep-2893-6eda88.geojson",
+      "distance_km": 51.016,
+      "duration_min": 69.26321666666666,
+      "source_file": "kaohsiung/kaohsiung-kep-2893-6eda88.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3611-08ef6f",
+      "file": "routes/kaohsiung/kaohsiung-kel-3611-08ef6f.geojson",
+      "distance_km": 5.249,
+      "duration_min": 10.276116666666667,
+      "source_file": "kaohsiung/kaohsiung-kel-3611-08ef6f.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-6208-7fa68f",
+      "file": "routes/kaohsiung/kaohsiung-kep-6208-7fa68f.geojson",
+      "distance_km": 1.291,
+      "duration_min": 3.55755,
+      "source_file": "kaohsiung/kaohsiung-kep-6208-7fa68f.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5935-6ecc42",
+      "file": "routes/kaohsiung/kaohsiung-keh-5935-6ecc42.geojson",
+      "distance_km": 11.386,
+      "duration_min": 16.009900000000002,
+      "source_file": "kaohsiung/kaohsiung-keh-5935-6ecc42.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5815-ce0558",
+      "file": "routes/kaohsiung/kaohsiung-kep-5815-ce0558.geojson",
+      "distance_km": 11.737,
+      "duration_min": 17.713916666666666,
+      "source_file": "kaohsiung/kaohsiung-kep-5815-ce0558.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5822-5ef6e2",
+      "file": "routes/kaohsiung/kaohsiung-kef-5822-5ef6e2.geojson",
+      "distance_km": 18.749,
+      "duration_min": 35.13061666666667,
+      "source_file": "kaohsiung/kaohsiung-kef-5822-5ef6e2.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-7658-b2febf",
+      "file": "routes/kaohsiung/kaohsiung-kep-7658-b2febf.geojson",
+      "distance_km": 19.357,
+      "duration_min": 41.183366666666664,
+      "source_file": "kaohsiung/kaohsiung-kep-7658-b2febf.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9607-ad8487",
+      "file": "routes/kaohsiung/kaohsiung-ket-9607-ad8487.geojson",
+      "distance_km": 17.641,
+      "duration_min": 37.78626666666667,
+      "source_file": "kaohsiung/kaohsiung-ket-9607-ad8487.geojson"
+    },
+    {
+      "routeId": "kaohsiung-456-bu-7ed4b9",
+      "file": "routes/kaohsiung/kaohsiung-456-bu-7ed4b9.geojson",
+      "distance_km": 20.006999999999998,
+      "duration_min": 44.5541,
+      "source_file": "kaohsiung/kaohsiung-456-bu-7ed4b9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5755-585840",
+      "file": "routes/kaohsiung/kaohsiung-keh-5755-585840.geojson",
+      "distance_km": 33.76,
+      "duration_min": 55.227,
+      "source_file": "kaohsiung/kaohsiung-keh-5755-585840.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1770-267549",
+      "file": "routes/kaohsiung/kaohsiung-kem-1770-267549.geojson",
+      "distance_km": 22.973,
+      "duration_min": 53.48396666666667,
+      "source_file": "kaohsiung/kaohsiung-kem-1770-267549.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7882-e0f567",
+      "file": "routes/kaohsiung/kaohsiung-keb-7882-e0f567.geojson",
+      "distance_km": 7.978000000000001,
+      "duration_min": 16.81395,
+      "source_file": "kaohsiung/kaohsiung-keb-7882-e0f567.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5850-559128",
+      "file": "routes/kaohsiung/kaohsiung-kef-5850-559128.geojson",
+      "distance_km": 7.281,
+      "duration_min": 15.068999999999999,
+      "source_file": "kaohsiung/kaohsiung-kef-5850-559128.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9560-996cd7",
+      "file": "routes/kaohsiung/kaohsiung-ket-9560-996cd7.geojson",
+      "distance_km": 18.042,
+      "duration_min": 40.90723333333334,
+      "source_file": "kaohsiung/kaohsiung-ket-9560-996cd7.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-3323-2089b5",
+      "file": "routes/kaohsiung/kaohsiung-kep-3323-2089b5.geojson",
+      "distance_km": 12.738000000000001,
+      "duration_min": 25.56661666666667,
+      "source_file": "kaohsiung/kaohsiung-kep-3323-2089b5.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9561-f43b62",
+      "file": "routes/kaohsiung/kaohsiung-ket-9561-f43b62.geojson",
+      "distance_km": 6.646999999999999,
+      "duration_min": 14.582733333333332,
+      "source_file": "kaohsiung/kaohsiung-ket-9561-f43b62.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5812-7c7787",
+      "file": "routes/kaohsiung/kaohsiung-kef-5812-7c7787.geojson",
+      "distance_km": 12.578999999999999,
+      "duration_min": 24.427416666666666,
+      "source_file": "kaohsiung/kaohsiung-kef-5812-7c7787.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keu-5605-ee6526",
+      "file": "routes/kaohsiung/kaohsiung-keu-5605-ee6526.geojson",
+      "distance_km": 23.08,
+      "duration_min": 36.966750000000005,
+      "source_file": "kaohsiung/kaohsiung-keu-5605-ee6526.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1760-b55bdb",
+      "file": "routes/kaohsiung/kaohsiung-kem-1760-b55bdb.geojson",
+      "distance_km": 18.375999999999998,
+      "duration_min": 30.110916666666665,
+      "source_file": "kaohsiung/kaohsiung-kem-1760-b55bdb.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0626-e09c98",
+      "file": "routes/kaohsiung/kaohsiung-kem-0626-e09c98.geojson",
+      "distance_km": 23.944,
+      "duration_min": 49.60081666666667,
+      "source_file": "kaohsiung/kaohsiung-kem-0626-e09c98.geojson"
+    },
+    {
+      "routeId": "kaohsiung-416-bu-71d985",
+      "file": "routes/kaohsiung/kaohsiung-416-bu-71d985.geojson",
+      "distance_km": 32.225,
+      "duration_min": 48.99361666666667,
+      "source_file": "kaohsiung/kaohsiung-416-bu-71d985.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9587-41b974",
+      "file": "routes/kaohsiung/kaohsiung-ket-9587-41b974.geojson",
+      "distance_km": 13.934,
+      "duration_min": 30.19751666666667,
+      "source_file": "kaohsiung/kaohsiung-ket-9587-41b974.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7052-750650",
+      "file": "routes/kaohsiung/kaohsiung-keb-7052-750650.geojson",
+      "distance_km": 5.043,
+      "duration_min": 11.764199999999999,
+      "source_file": "kaohsiung/kaohsiung-keb-7052-750650.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-2612-d74be3",
+      "file": "routes/kaohsiung/kaohsiung-kem-2612-d74be3.geojson",
+      "distance_km": 8.192,
+      "duration_min": 14.71895,
+      "source_file": "kaohsiung/kaohsiung-kem-2612-d74be3.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5607-f2a5b2",
+      "file": "routes/kaohsiung/kaohsiung-kef-5607-f2a5b2.geojson",
+      "distance_km": 19.382,
+      "duration_min": 40.83266666666666,
+      "source_file": "kaohsiung/kaohsiung-kef-5607-f2a5b2.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7126-1bba54",
+      "file": "routes/kaohsiung/kaohsiung-keb-7126-1bba54.geojson",
+      "distance_km": 8.402,
+      "duration_min": 23.703783333333334,
+      "source_file": "kaohsiung/kaohsiung-keb-7126-1bba54.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6003-754bbf",
+      "file": "routes/kaohsiung/kaohsiung-keb-6003-754bbf.geojson",
+      "distance_km": 11.006,
+      "duration_min": 27.744849999999996,
+      "source_file": "kaohsiung/kaohsiung-keb-6003-754bbf.geojson"
+    },
+    {
+      "routeId": "kaohsiung-123-q5-089cbc",
+      "file": "routes/kaohsiung/kaohsiung-123-q5-089cbc.geojson",
+      "distance_km": 32.502,
+      "duration_min": 57.417966666666665,
+      "source_file": "kaohsiung/kaohsiung-123-q5-089cbc.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6315-5a2812",
+      "file": "routes/kaohsiung/kaohsiung-keh-6315-5a2812.geojson",
+      "distance_km": 8.899,
+      "duration_min": 15.89535,
+      "source_file": "kaohsiung/kaohsiung-keh-6315-5a2812.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-7653-29630c",
+      "file": "routes/kaohsiung/kaohsiung-kep-7653-29630c.geojson",
+      "distance_km": 7.366,
+      "duration_min": 16.03495,
+      "source_file": "kaohsiung/kaohsiung-kep-7653-29630c.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1753-1c4776",
+      "file": "routes/kaohsiung/kaohsiung-kem-1753-1c4776.geojson",
+      "distance_km": 20.602999999999998,
+      "duration_min": 38.55855,
+      "source_file": "kaohsiung/kaohsiung-kem-1753-1c4776.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5652-68c25f",
+      "file": "routes/kaohsiung/kaohsiung-kef-5652-68c25f.geojson",
+      "distance_km": 18.269,
+      "duration_min": 45.31845,
+      "source_file": "kaohsiung/kaohsiung-kef-5652-68c25f.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1757-d1a2b4",
+      "file": "routes/kaohsiung/kaohsiung-kem-1757-d1a2b4.geojson",
+      "distance_km": 15.103000000000002,
+      "duration_min": 31.833716666666668,
+      "source_file": "kaohsiung/kaohsiung-kem-1757-d1a2b4.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ked-9597-0a835e",
+      "file": "routes/kaohsiung/kaohsiung-ked-9597-0a835e.geojson",
+      "distance_km": 4.956,
+      "duration_min": 10.667833333333334,
+      "source_file": "kaohsiung/kaohsiung-ked-9597-0a835e.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7128-2123fa",
+      "file": "routes/kaohsiung/kaohsiung-keb-7128-2123fa.geojson",
+      "distance_km": 8.571,
+      "duration_min": 18.546433333333333,
+      "source_file": "kaohsiung/kaohsiung-keb-7128-2123fa.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6680-0ea5fc",
+      "file": "routes/kaohsiung/kaohsiung-keh-6680-0ea5fc.geojson",
+      "distance_km": 11.404,
+      "duration_min": 18.752200000000002,
+      "source_file": "kaohsiung/kaohsiung-keh-6680-0ea5fc.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5657-8005f0",
+      "file": "routes/kaohsiung/kaohsiung-kef-5657-8005f0.geojson",
+      "distance_km": 10.411,
+      "duration_min": 15.597616666666665,
+      "source_file": "kaohsiung/kaohsiung-kef-5657-8005f0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-6209-08139d",
+      "file": "routes/kaohsiung/kaohsiung-kep-6209-08139d.geojson",
+      "distance_km": 8.595,
+      "duration_min": 14.7805,
+      "source_file": "kaohsiung/kaohsiung-kep-6209-08139d.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5361-106f53",
+      "file": "routes/kaohsiung/kaohsiung-keh-5361-106f53.geojson",
+      "distance_km": 14.177,
+      "duration_min": 28.266883333333332,
+      "source_file": "kaohsiung/kaohsiung-keh-5361-106f53.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0623-e514a5",
+      "file": "routes/kaohsiung/kaohsiung-kem-0623-e514a5.geojson",
+      "distance_km": 9.064,
+      "duration_min": 20.436449999999997,
+      "source_file": "kaohsiung/kaohsiung-kem-0623-e514a5.geojson"
+    },
+    {
+      "routeId": "kaohsiung-581-uk-0924fc",
+      "file": "routes/kaohsiung/kaohsiung-581-uk-0924fc.geojson",
+      "distance_km": 7.751,
+      "duration_min": 11.285966666666667,
+      "source_file": "kaohsiung/kaohsiung-581-uk-0924fc.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6609-9b33e6",
+      "file": "routes/kaohsiung/kaohsiung-keh-6609-9b33e6.geojson",
+      "distance_km": 12.965,
+      "duration_min": 23.869116666666667,
+      "source_file": "kaohsiung/kaohsiung-keh-6609-9b33e6.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6673-892878",
+      "file": "routes/kaohsiung/kaohsiung-keh-6673-892878.geojson",
+      "distance_km": 2.315,
+      "duration_min": 4.28325,
+      "source_file": "kaohsiung/kaohsiung-keh-6673-892878.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6006-42e6f6",
+      "file": "routes/kaohsiung/kaohsiung-keb-6006-42e6f6.geojson",
+      "distance_km": 34.465999999999994,
+      "duration_min": 47.730866666666664,
+      "source_file": "kaohsiung/kaohsiung-keb-6006-42e6f6.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5331-737065",
+      "file": "routes/kaohsiung/kaohsiung-keh-5331-737065.geojson",
+      "distance_km": 13.462000000000002,
+      "duration_min": 28.712683333333338,
+      "source_file": "kaohsiung/kaohsiung-keh-5331-737065.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7659-0b131c",
+      "file": "routes/kaohsiung/kaohsiung-keb-7659-0b131c.geojson",
+      "distance_km": 0.59,
+      "duration_min": 0.9530166666666666,
+      "source_file": "kaohsiung/kaohsiung-keb-7659-0b131c.geojson"
+    },
+    {
+      "routeId": "kaohsiung-651-uv-cb6ebe",
+      "file": "routes/kaohsiung/kaohsiung-651-uv-cb6ebe.geojson",
+      "distance_km": 15.653,
+      "duration_min": 35.50411666666666,
+      "source_file": "kaohsiung/kaohsiung-651-uv-cb6ebe.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5762-3177b9",
+      "file": "routes/kaohsiung/kaohsiung-keh-5762-3177b9.geojson",
+      "distance_km": 16.303,
+      "duration_min": 34.24086666666667,
+      "source_file": "kaohsiung/kaohsiung-keh-5762-3177b9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5823-1fac4c",
+      "file": "routes/kaohsiung/kaohsiung-kef-5823-1fac4c.geojson",
+      "distance_km": 13.348,
+      "duration_min": 28.78408333333333,
+      "source_file": "kaohsiung/kaohsiung-kef-5823-1fac4c.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kew-0073-8568b9",
+      "file": "routes/kaohsiung/kaohsiung-kew-0073-8568b9.geojson",
+      "distance_km": 13.935,
+      "duration_min": 26.046866666666666,
+      "source_file": "kaohsiung/kaohsiung-kew-0073-8568b9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5328-dc698e",
+      "file": "routes/kaohsiung/kaohsiung-keh-5328-dc698e.geojson",
+      "distance_km": 17.046,
+      "duration_min": 35.42283333333334,
+      "source_file": "kaohsiung/kaohsiung-keh-5328-dc698e.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1752-18f582",
+      "file": "routes/kaohsiung/kaohsiung-kem-1752-18f582.geojson",
+      "distance_km": 13.155,
+      "duration_min": 29.879033333333332,
+      "source_file": "kaohsiung/kaohsiung-kem-1752-18f582.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7038-ff98ed",
+      "file": "routes/kaohsiung/kaohsiung-keb-7038-ff98ed.geojson",
+      "distance_km": 7.36,
+      "duration_min": 12.294433333333334,
+      "source_file": "kaohsiung/kaohsiung-keb-7038-ff98ed.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-2250-6028cf",
+      "file": "routes/kaohsiung/kaohsiung-kem-2250-6028cf.geojson",
+      "distance_km": 0.694,
+      "duration_min": 1.50215,
+      "source_file": "kaohsiung/kaohsiung-kem-2250-6028cf.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9537-684ad3",
+      "file": "routes/kaohsiung/kaohsiung-ket-9537-684ad3.geojson",
+      "distance_km": 17.469,
+      "duration_min": 31.801783333333333,
+      "source_file": "kaohsiung/kaohsiung-ket-9537-684ad3.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5781-21114f",
+      "file": "routes/kaohsiung/kaohsiung-kep-5781-21114f.geojson",
+      "distance_km": 18.866,
+      "duration_min": 37.09245,
+      "source_file": "kaohsiung/kaohsiung-kep-5781-21114f.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5791-59f6f8",
+      "file": "routes/kaohsiung/kaohsiung-kep-5791-59f6f8.geojson",
+      "distance_km": 18.861,
+      "duration_min": 34.41423333333333,
+      "source_file": "kaohsiung/kaohsiung-kep-5791-59f6f8.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5761-2f3098",
+      "file": "routes/kaohsiung/kaohsiung-kep-5761-2f3098.geojson",
+      "distance_km": 17.791,
+      "duration_min": 27.690133333333332,
+      "source_file": "kaohsiung/kaohsiung-kep-5761-2f3098.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6012-3d6a80",
+      "file": "routes/kaohsiung/kaohsiung-keb-6012-3d6a80.geojson",
+      "distance_km": 2.169,
+      "duration_min": 5.579,
+      "source_file": "kaohsiung/kaohsiung-keb-6012-3d6a80.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0620-3f0d70",
+      "file": "routes/kaohsiung/kaohsiung-kem-0620-3f0d70.geojson",
+      "distance_km": 4.89,
+      "duration_min": 8.55535,
+      "source_file": "kaohsiung/kaohsiung-kem-0620-3f0d70.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-7655-2574df",
+      "file": "routes/kaohsiung/kaohsiung-kep-7655-2574df.geojson",
+      "distance_km": 15.546,
+      "duration_min": 26.687116666666665,
+      "source_file": "kaohsiung/kaohsiung-kep-7655-2574df.geojson"
+    },
+    {
+      "routeId": "kaohsiung-752-t7-78d3e2",
+      "file": "routes/kaohsiung/kaohsiung-752-t7-78d3e2.geojson",
+      "distance_km": 11.612,
+      "duration_min": 26.936933333333336,
+      "source_file": "kaohsiung/kaohsiung-752-t7-78d3e2.geojson"
+    },
+    {
+      "routeId": "kaohsiung-080-vh-0e56e4",
+      "file": "routes/kaohsiung/kaohsiung-080-vh-0e56e4.geojson",
+      "distance_km": 39.944,
+      "duration_min": 63.731433333333335,
+      "source_file": "kaohsiung/kaohsiung-080-vh-0e56e4.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5660-780275",
+      "file": "routes/kaohsiung/kaohsiung-kef-5660-780275.geojson",
+      "distance_km": 12.595,
+      "duration_min": 26.277683333333336,
+      "source_file": "kaohsiung/kaohsiung-kef-5660-780275.geojson"
+    },
+    {
+      "routeId": "kaohsiung-905-vh-14ee30",
+      "file": "routes/kaohsiung/kaohsiung-905-vh-14ee30.geojson",
+      "distance_km": 25.656,
+      "duration_min": 53.21581666666666,
+      "source_file": "kaohsiung/kaohsiung-905-vh-14ee30.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-6201-e585a8",
+      "file": "routes/kaohsiung/kaohsiung-kep-6201-e585a8.geojson",
+      "distance_km": 1.848,
+      "duration_min": 3.702183333333333,
+      "source_file": "kaohsiung/kaohsiung-kep-6201-e585a8.geojson"
+    },
+    {
+      "routeId": "kaohsiung-500-t8-da4d19",
+      "file": "routes/kaohsiung/kaohsiung-500-t8-da4d19.geojson",
+      "distance_km": 9.632,
+      "duration_min": 23.103383333333333,
+      "source_file": "kaohsiung/kaohsiung-500-t8-da4d19.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kes-6559-f1b720",
+      "file": "routes/kaohsiung/kaohsiung-kes-6559-f1b720.geojson",
+      "distance_km": 5.028,
+      "duration_min": 9.843449999999999,
+      "source_file": "kaohsiung/kaohsiung-kes-6559-f1b720.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9605-7f58d1",
+      "file": "routes/kaohsiung/kaohsiung-ket-9605-7f58d1.geojson",
+      "distance_km": 32.852,
+      "duration_min": 49.80825,
+      "source_file": "kaohsiung/kaohsiung-ket-9605-7f58d1.geojson"
+    },
+    {
+      "routeId": "kaohsiung-650-uv-8b36ea",
+      "file": "routes/kaohsiung/kaohsiung-650-uv-8b36ea.geojson",
+      "distance_km": 8.943,
+      "duration_min": 19.480200000000004,
+      "source_file": "kaohsiung/kaohsiung-650-uv-8b36ea.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6793-9c7e20",
+      "file": "routes/kaohsiung/kaohsiung-keh-6793-9c7e20.geojson",
+      "distance_km": 24.113999999999997,
+      "duration_min": 46.23148333333333,
+      "source_file": "kaohsiung/kaohsiung-keh-6793-9c7e20.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9563-e36372",
+      "file": "routes/kaohsiung/kaohsiung-ket-9563-e36372.geojson",
+      "distance_km": 8.729,
+      "duration_min": 19.326050000000002,
+      "source_file": "kaohsiung/kaohsiung-ket-9563-e36372.geojson"
+    },
+    {
+      "routeId": "kaohsiung-086-n6-2213ee",
+      "file": "routes/kaohsiung/kaohsiung-086-n6-2213ee.geojson",
+      "distance_km": 1.981,
+      "duration_min": 5.291333333333333,
+      "source_file": "kaohsiung/kaohsiung-086-n6-2213ee.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3736-171004",
+      "file": "routes/kaohsiung/kaohsiung-kel-3736-171004.geojson",
+      "distance_km": 10.145,
+      "duration_min": 20.446316666666668,
+      "source_file": "kaohsiung/kaohsiung-kel-3736-171004.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-6921-1f2a83",
+      "file": "routes/kaohsiung/kaohsiung-kef-6921-1f2a83.geojson",
+      "distance_km": 8.721,
+      "duration_min": 15.67175,
+      "source_file": "kaohsiung/kaohsiung-kef-6921-1f2a83.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9610-d3221f",
+      "file": "routes/kaohsiung/kaohsiung-ket-9610-d3221f.geojson",
+      "distance_km": 11.963,
+      "duration_min": 27.87855,
+      "source_file": "kaohsiung/kaohsiung-ket-9610-d3221f.geojson"
+    },
+    {
+      "routeId": "kaohsiung-565-br-087c7a",
+      "file": "routes/kaohsiung/kaohsiung-565-br-087c7a.geojson",
+      "distance_km": 11.786,
+      "duration_min": 21.5061,
+      "source_file": "kaohsiung/kaohsiung-565-br-087c7a.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-6239-2fd95e",
+      "file": "routes/kaohsiung/kaohsiung-kep-6239-2fd95e.geojson",
+      "distance_km": 22.255000000000003,
+      "duration_min": 39.1241,
+      "source_file": "kaohsiung/kaohsiung-kep-6239-2fd95e.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5787-a9add3",
+      "file": "routes/kaohsiung/kaohsiung-kep-5787-a9add3.geojson",
+      "distance_km": 78.587,
+      "duration_min": 97.33779999999999,
+      "source_file": "kaohsiung/kaohsiung-kep-5787-a9add3.geojson"
+    },
+    {
+      "routeId": "kaohsiung-910-vh-664b8a",
+      "file": "routes/kaohsiung/kaohsiung-910-vh-664b8a.geojson",
+      "distance_km": 18.402,
+      "duration_min": 49.40495,
+      "source_file": "kaohsiung/kaohsiung-910-vh-664b8a.geojson"
+    },
+    {
+      "routeId": "kaohsiung-119-q5-6d2894",
+      "file": "routes/kaohsiung/kaohsiung-119-q5-6d2894.geojson",
+      "distance_km": 6.101,
+      "duration_min": 13.198316666666667,
+      "source_file": "kaohsiung/kaohsiung-119-q5-6d2894.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kew-0078-365599",
+      "file": "routes/kaohsiung/kaohsiung-kew-0078-365599.geojson",
+      "distance_km": 20.897,
+      "duration_min": 29.596149999999998,
+      "source_file": "kaohsiung/kaohsiung-kew-0078-365599.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5369-639fea",
+      "file": "routes/kaohsiung/kaohsiung-keh-5369-639fea.geojson",
+      "distance_km": 16.141,
+      "duration_min": 33.9543,
+      "source_file": "kaohsiung/kaohsiung-keh-5369-639fea.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-6917-03823b",
+      "file": "routes/kaohsiung/kaohsiung-kef-6917-03823b.geojson",
+      "distance_km": 24.406,
+      "duration_min": 51.600566666666666,
+      "source_file": "kaohsiung/kaohsiung-kef-6917-03823b.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-2235-29d059",
+      "file": "routes/kaohsiung/kaohsiung-kem-2235-29d059.geojson",
+      "distance_km": 14.562000000000001,
+      "duration_min": 26.787216666666666,
+      "source_file": "kaohsiung/kaohsiung-kem-2235-29d059.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keu-5601-f0fb28",
+      "file": "routes/kaohsiung/kaohsiung-keu-5601-f0fb28.geojson",
+      "distance_km": 6.428,
+      "duration_min": 11.549166666666668,
+      "source_file": "kaohsiung/kaohsiung-keu-5601-f0fb28.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-6203-85baca",
+      "file": "routes/kaohsiung/kaohsiung-kep-6203-85baca.geojson",
+      "distance_km": 14.2,
+      "duration_min": 32.57626666666667,
+      "source_file": "kaohsiung/kaohsiung-kep-6203-85baca.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7983-0e3ed1",
+      "file": "routes/kaohsiung/kaohsiung-keb-7983-0e3ed1.geojson",
+      "distance_km": 9.767,
+      "duration_min": 27.9617,
+      "source_file": "kaohsiung/kaohsiung-keb-7983-0e3ed1.geojson"
+    },
+    {
+      "routeId": "kaohsiung-918-n6-ec1e26",
+      "file": "routes/kaohsiung/kaohsiung-918-n6-ec1e26.geojson",
+      "distance_km": 8.149,
+      "duration_min": 15.165966666666666,
+      "source_file": "kaohsiung/kaohsiung-918-n6-ec1e26.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-1750-f73d4d",
+      "file": "routes/kaohsiung/kaohsiung-kem-1750-f73d4d.geojson",
+      "distance_km": 5.11,
+      "duration_min": 12.206716666666667,
+      "source_file": "kaohsiung/kaohsiung-kem-1750-f73d4d.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6601-4e3c54",
+      "file": "routes/kaohsiung/kaohsiung-keh-6601-4e3c54.geojson",
+      "distance_km": 29.529,
+      "duration_min": 37.95296666666666,
+      "source_file": "kaohsiung/kaohsiung-keh-6601-4e3c54.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9550-b630d1",
+      "file": "routes/kaohsiung/kaohsiung-ket-9550-b630d1.geojson",
+      "distance_km": 7.11,
+      "duration_min": 10.6931,
+      "source_file": "kaohsiung/kaohsiung-ket-9550-b630d1.geojson"
+    },
+    {
+      "routeId": "kaohsiung-043-uv-05defa",
+      "file": "routes/kaohsiung/kaohsiung-043-uv-05defa.geojson",
+      "distance_km": 10.08,
+      "duration_min": 21.284766666666666,
+      "source_file": "kaohsiung/kaohsiung-043-uv-05defa.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5835-48a510",
+      "file": "routes/kaohsiung/kaohsiung-kef-5835-48a510.geojson",
+      "distance_km": 11.816,
+      "duration_min": 30.346400000000003,
+      "source_file": "kaohsiung/kaohsiung-kef-5835-48a510.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3732-3a83c6",
+      "file": "routes/kaohsiung/kaohsiung-kel-3732-3a83c6.geojson",
+      "distance_km": 15.558,
+      "duration_min": 32.03913333333333,
+      "source_file": "kaohsiung/kaohsiung-kel-3732-3a83c6.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5672-644b4f",
+      "file": "routes/kaohsiung/kaohsiung-kef-5672-644b4f.geojson",
+      "distance_km": 14.828000000000001,
+      "duration_min": 31.929216666666665,
+      "source_file": "kaohsiung/kaohsiung-kef-5672-644b4f.geojson"
+    },
+    {
       "routeId": "kaohsiung-keb-7762-2111c4",
       "file": "routes/kaohsiung/kaohsiung-keb-7762-2111c4.geojson",
       "distance_km": 9.418,
@@ -2124,11 +1963,172 @@
       "source_file": "kaohsiung/kaohsiung-keb-7762-2111c4.geojson"
     },
     {
+      "routeId": "kaohsiung-keh-6253-978731",
+      "file": "routes/kaohsiung/kaohsiung-keh-6253-978731.geojson",
+      "distance_km": 19.811,
+      "duration_min": 37.58108333333334,
+      "source_file": "kaohsiung/kaohsiung-keh-6253-978731.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3738-ce7610",
+      "file": "routes/kaohsiung/kaohsiung-kel-3738-ce7610.geojson",
+      "distance_km": 13.263,
+      "duration_min": 32.96241666666667,
+      "source_file": "kaohsiung/kaohsiung-kel-3738-ce7610.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7108-eb75eb",
+      "file": "routes/kaohsiung/kaohsiung-keb-7108-eb75eb.geojson",
+      "distance_km": 9.306,
+      "duration_min": 18.318766666666665,
+      "source_file": "kaohsiung/kaohsiung-keb-7108-eb75eb.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6675-1d7cfd",
+      "file": "routes/kaohsiung/kaohsiung-keh-6675-1d7cfd.geojson",
+      "distance_km": 12.785,
+      "duration_min": 28.34643333333333,
+      "source_file": "kaohsiung/kaohsiung-keh-6675-1d7cfd.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7657-08b6d6",
+      "file": "routes/kaohsiung/kaohsiung-keb-7657-08b6d6.geojson",
+      "distance_km": 8.346,
+      "duration_min": 18.091333333333335,
+      "source_file": "kaohsiung/kaohsiung-keb-7657-08b6d6.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6605-3206ae",
+      "file": "routes/kaohsiung/kaohsiung-keh-6605-3206ae.geojson",
+      "distance_km": 13.208999999999998,
+      "duration_min": 27.946899999999996,
+      "source_file": "kaohsiung/kaohsiung-keh-6605-3206ae.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5760-0092b8",
+      "file": "routes/kaohsiung/kaohsiung-kep-5760-0092b8.geojson",
+      "distance_km": 18.872999999999998,
+      "duration_min": 43.73636666666666,
+      "source_file": "kaohsiung/kaohsiung-kep-5760-0092b8.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6272-a0bd81",
+      "file": "routes/kaohsiung/kaohsiung-keh-6272-a0bd81.geojson",
+      "distance_km": 36.678,
+      "duration_min": 47.57098333333333,
+      "source_file": "kaohsiung/kaohsiung-keh-6272-a0bd81.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-5360-119dd3",
+      "file": "routes/kaohsiung/kaohsiung-keh-5360-119dd3.geojson",
+      "distance_km": 19.886000000000003,
+      "duration_min": 34.16176666666667,
+      "source_file": "kaohsiung/kaohsiung-keh-5360-119dd3.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0630-87bda0",
+      "file": "routes/kaohsiung/kaohsiung-kem-0630-87bda0.geojson",
+      "distance_km": 20.867,
+      "duration_min": 46.08586666666667,
+      "source_file": "kaohsiung/kaohsiung-kem-0630-87bda0.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-6868-cdb1d4",
+      "file": "routes/kaohsiung/kaohsiung-keb-6868-cdb1d4.geojson",
+      "distance_km": 15.347999999999999,
+      "duration_min": 29.9943,
+      "source_file": "kaohsiung/kaohsiung-keb-6868-cdb1d4.geojson"
+    },
+    {
       "routeId": "kaohsiung-kef-5837-f17ed7",
       "file": "routes/kaohsiung/kaohsiung-kef-5837-f17ed7.geojson",
       "distance_km": 3.923,
       "duration_min": 7.19515,
       "source_file": "kaohsiung/kaohsiung-kef-5837-f17ed7.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7651-687c75",
+      "file": "routes/kaohsiung/kaohsiung-keb-7651-687c75.geojson",
+      "distance_km": 15.018,
+      "duration_min": 28.196566666666666,
+      "source_file": "kaohsiung/kaohsiung-keb-7651-687c75.geojson"
+    },
+    {
+      "routeId": "kaohsiung-523-vh-56ff36",
+      "file": "routes/kaohsiung/kaohsiung-523-vh-56ff36.geojson",
+      "distance_km": 19.952,
+      "duration_min": 48.36351666666666,
+      "source_file": "kaohsiung/kaohsiung-523-vh-56ff36.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-6207-402570",
+      "file": "routes/kaohsiung/kaohsiung-kep-6207-402570.geojson",
+      "distance_km": 5.182,
+      "duration_min": 8.379716666666667,
+      "source_file": "kaohsiung/kaohsiung-kep-6207-402570.geojson"
+    },
+    {
+      "routeId": "kaohsiung-ket-9612-71e8d3",
+      "file": "routes/kaohsiung/kaohsiung-ket-9612-71e8d3.geojson",
+      "distance_km": 48.487,
+      "duration_min": 51.967549999999996,
+      "source_file": "kaohsiung/kaohsiung-ket-9612-71e8d3.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kel-3735-350ed9",
+      "file": "routes/kaohsiung/kaohsiung-kel-3735-350ed9.geojson",
+      "distance_km": 10.453,
+      "duration_min": 26.32921666666667,
+      "source_file": "kaohsiung/kaohsiung-kel-3735-350ed9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-0628-406de9",
+      "file": "routes/kaohsiung/kaohsiung-kem-0628-406de9.geojson",
+      "distance_km": 13.091,
+      "duration_min": 23.655649999999998,
+      "source_file": "kaohsiung/kaohsiung-kem-0628-406de9.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kef-5685-9eeb32",
+      "file": "routes/kaohsiung/kaohsiung-kef-5685-9eeb32.geojson",
+      "distance_km": 9.253,
+      "duration_min": 20.964533333333332,
+      "source_file": "kaohsiung/kaohsiung-kef-5685-9eeb32.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kem-3019-3b8177",
+      "file": "routes/kaohsiung/kaohsiung-kem-3019-3b8177.geojson",
+      "distance_km": 29.993000000000002,
+      "duration_min": 49.150533333333335,
+      "source_file": "kaohsiung/kaohsiung-kem-3019-3b8177.geojson"
+    },
+    {
+      "routeId": "kaohsiung-945-n6-23ead1",
+      "file": "routes/kaohsiung/kaohsiung-945-n6-23ead1.geojson",
+      "distance_km": 5.234,
+      "duration_min": 12.881849999999998,
+      "source_file": "kaohsiung/kaohsiung-945-n6-23ead1.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keh-6616-00c408",
+      "file": "routes/kaohsiung/kaohsiung-keh-6616-00c408.geojson",
+      "distance_km": 33.553,
+      "duration_min": 53.56068333333333,
+      "source_file": "kaohsiung/kaohsiung-keh-6616-00c408.geojson"
+    },
+    {
+      "routeId": "kaohsiung-kep-5792-bae889",
+      "file": "routes/kaohsiung/kaohsiung-kep-5792-bae889.geojson",
+      "distance_km": 52.791,
+      "duration_min": 85.13581666666666,
+      "source_file": "kaohsiung/kaohsiung-kep-5792-bae889.geojson"
+    },
+    {
+      "routeId": "kaohsiung-keb-7763-c0bf6a",
+      "file": "routes/kaohsiung/kaohsiung-keb-7763-c0bf6a.geojson",
+      "distance_km": 20.201,
+      "duration_min": 32.70238333333334,
+      "source_file": "kaohsiung/kaohsiung-keb-7763-c0bf6a.geojson"
     }
   ],
   "route_count": 304,
