@@ -2467,8 +2467,16 @@
             24.182204
           ],
           [
+            120.709578,
+            24.182236
+          ],
+          [
             120.709846,
             24.182241
+          ],
+          [
+            120.709901,
+            24.182242
           ],
           [
             120.710566,
@@ -7325,7 +7333,7 @@
         "city": "taichung",
         "source_file": "taichung/taichung-437-vp-218c45-d4.geojson",
         "distance_km": 54.354000000000006,
-        "duration_min": 85.03608333333332,
+        "duration_min": 85.03639999999999,
         "valhalla_config": "valhalla.json"
       }
     }
