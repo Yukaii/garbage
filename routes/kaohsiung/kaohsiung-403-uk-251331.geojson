@@ -207,6 +207,18 @@
             22.602275
           ],
           [
+            120.350632,
+            22.602691
+          ],
+          [
+            120.351701,
+            22.602616
+          ],
+          [
+            120.353076,
+            22.602517
+          ],
+          [
             120.353054,
             22.602099
           ],
@@ -580,8 +592,8 @@
         "routeId": "kaohsiung-403-uk-251331",
         "city": "kaohsiung",
         "source_file": "kaohsiung/kaohsiung-403-uk-251331.geojson",
-        "distance_km": 9.337,
-        "duration_min": 21.169050000000002,
+        "distance_km": 9.426,
+        "duration_min": 21.361183333333333,
         "valhalla_config": "valhalla.json"
       }
     }
