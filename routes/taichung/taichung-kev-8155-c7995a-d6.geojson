@@ -7,12 +7,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            120.735071,
-            24.177368
+            120.735083,
+            24.177232
           ],
           [
-            120.735071,
-            24.177368
+            120.735083,
+            24.177232
+          ],
+          [
+            120.735002,
+            24.17733
           ],
           [
             120.735692,
@@ -4620,8 +4624,8 @@
         "routeId": "taichung-kev-8155-c7995a-d6",
         "city": "taichung",
         "source_file": "taichung/taichung-kev-8155-c7995a-d6.geojson",
-        "distance_km": 38.663000000000004,
-        "duration_min": 74.95975,
+        "distance_km": 38.685,
+        "duration_min": 75.09968333333333,
         "valhalla_config": "valhalla.json"
       }
     }
