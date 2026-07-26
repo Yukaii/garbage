@@ -487,8 +487,16 @@
             24.263836
           ],
           [
-            120.573068,
-            24.263295
+            120.573124,
+            24.263768
+          ],
+          [
+            120.573007,
+            24.263738
+          ],
+          [
+            120.572886,
+            24.263746
           ],
           [
             120.572713,
@@ -2072,8 +2080,8 @@
         "routeId": "taichung-kev-8160-bb096c-d1",
         "city": "taichung",
         "source_file": "taichung/taichung-kev-8160-bb096c-d1.geojson",
-        "distance_km": 22.331999999999997,
-        "duration_min": 47.6291,
+        "distance_km": 22.266,
+        "duration_min": 47.50418333333334,
         "valhalla_config": "valhalla.json"
       }
     }
