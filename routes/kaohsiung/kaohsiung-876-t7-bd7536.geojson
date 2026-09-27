@@ -139,6 +139,10 @@
             22.924069
           ],
           [
+            120.498472,
+            22.924405
+          ],
+          [
             120.499144,
             22.925351
           ],
@@ -1765,6 +1769,10 @@
           [
             120.499144,
             22.925351
+          ],
+          [
+            120.498472,
+            22.924405
           ],
           [
             120.498234,
@@ -5596,8 +5604,8 @@
         "routeId": "kaohsiung-876-t7-bd7536",
         "city": "kaohsiung",
         "source_file": "kaohsiung/kaohsiung-876-t7-bd7536.geojson",
-        "distance_km": 48.268,
-        "duration_min": 68.2061,
+        "distance_km": 48.27,
+        "duration_min": 68.20813333333334,
         "valhalla_config": "valhalla.json"
       }
     }

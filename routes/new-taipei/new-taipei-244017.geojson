@@ -7,7 +7,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            121.369213,
+            121.369212,
             25.072135
           ],
           [
@@ -344,8 +344,8 @@
         "routeId": "new-taipei-244017",
         "city": "new-taipei",
         "source_file": "new-taipei/new-taipei-244017.geojson",
-        "distance_km": 3.143,
-        "duration_min": 7.068066666666667,
+        "distance_km": 3.144,
+        "duration_min": 7.069416666666667,
         "valhalla_config": "valhalla.json"
       }
     }
