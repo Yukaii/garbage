@@ -1,5 +1,23 @@
 import { CityDataAdapter } from './BaseAdapter';
-import type { NewTaipeiTrashCollectionPoint, UnifiedTrashCollectionPoint } from '../../types';
+import type { CollectionSchedule, NewTaipeiTrashCollectionPoint, UnifiedTrashCollectionPoint } from '../../types';
+
+const WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'] as const;
+
+/** ISO weekdays (Mon=1 .. Sun=7) from the compact "1245" field, else from the raw per-day Y flags. */
+function parseDays(compact: string | undefined, point: NewTaipeiTrashCollectionPoint, prefix: string): number[] | undefined {
+  if (compact !== undefined) return [...compact].map(Number).filter(d => d >= 1 && d <= 7);
+  const flags = point as unknown as Record<string, string | undefined>;
+  if (!WEEKDAYS.some(day => prefix + day in flags)) return undefined;
+  return WEEKDAYS.flatMap((day, i) => (flags[prefix + day] === 'Y' ? [i + 1] : []));
+}
+
+function buildSchedule(point: NewTaipeiTrashCollectionPoint): CollectionSchedule | undefined {
+  const garbage = parseDays(point.garbageDays, point, 'garbage');
+  const recycling = parseDays(point.recyclingDays, point, 'recycling');
+  const foodscraps = parseDays(point.foodscrapsDays, point, 'foodscraps');
+  if (!garbage && !recycling && !foodscraps) return undefined;
+  return { ...(garbage && { garbage }), ...(recycling && { recycling }), ...(foodscraps && { foodscraps }) };
+}
 
 /**
  * Adapter for New Taipei City (新北市) trash collection data
@@ -51,6 +69,7 @@ export class NewTaipeiAdapter extends CityDataAdapter<NewTaipeiTrashCollectionPo
       longitude: point.longitude,
       latitude: point.latitude,
       source: 'new-taipei',
+      schedule: buildSchedule(point),
     };
   }
 }

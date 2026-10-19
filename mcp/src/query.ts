@@ -12,6 +12,10 @@ export interface PointDto {
   latitude: number;
   longitude: number;
   distanceMeters?: number;
+  /** Weekdays served per collection type, ISO (Mon=1 .. Sun=7). Absent when the city publishes no weekly schedule. */
+  schedule?: Record<string, number[]>;
+  /** Whether any collection type is served today in Asia/Taipei; absent when no schedule is published. */
+  servesToday?: boolean;
 }
 
 export interface Bounds {
@@ -49,7 +53,17 @@ function timeKey(raw: string): number {
   return /^\d{1,4}$/.test(digits) ? Number(digits) : Number.MAX_SAFE_INTEGER;
 }
 
-export function toDto(p: UnifiedTrashCollectionPoint, distanceMeters?: number): PointDto {
+const TAIPEI_WEEKDAY = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Taipei', weekday: 'short' });
+const ISO_WEEKDAY: Record<string, number> = { Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6, Sun: 7 };
+
+/** ISO weekday (Mon=1 .. Sun=7) in Taiwan, regardless of the server's timezone. */
+export function taipeiIsoWeekday(now: Date = new Date()): number {
+  return ISO_WEEKDAY[TAIPEI_WEEKDAY.format(now)] ?? 0;
+}
+
+export function toDto(p: UnifiedTrashCollectionPoint, distanceMeters?: number, now?: Date): PointDto {
+  const schedule = p.schedule && Object.keys(p.schedule).length > 0 ? (p.schedule as Record<string, number[]>) : undefined;
+  const today = taipeiIsoWeekday(now);
   return {
     id: p.id,
     city: p.city,
@@ -62,6 +76,7 @@ export function toDto(p: UnifiedTrashCollectionPoint, distanceMeters?: number): 
     latitude: Number(p.latitude),
     longitude: Number(p.longitude),
     ...(distanceMeters === undefined ? {} : { distanceMeters: Math.round(distanceMeters) }),
+    ...(schedule ? { schedule, servesToday: Object.values(schedule).some(days => days.includes(today)) } : {}),
   };
 }
 

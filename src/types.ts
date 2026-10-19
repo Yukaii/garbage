@@ -42,6 +42,10 @@ export interface NewTaipeiTrashCollectionPoint {
   latitude: string;
   time: string; // Time in HH:MM format
   memo: string;
+  // Compact ISO weekdays (Mon=1 .. Sun=7) added by trim-data.sh, e.g. "1245"
+  garbageDays?: string;
+  recyclingDays?: string;
+  foodscrapsDays?: string;
   garbagesunday: string;
   garbagemonday: string;
   garbagetuesday: string;
@@ -80,6 +84,11 @@ export interface TaichungTrashCollectionPoint {
   dayOfWeek: number; // 1-7 (Monday-Sunday)
 }
 
+export type CollectionType = 'garbage' | 'recycling' | 'foodscraps';
+
+/** Weekdays a stop is served, per collection type, as ISO weekdays (Mon=1 .. Sun=7). */
+export type CollectionSchedule = Partial<Record<CollectionType, number[]>>;
+
 // Unified data structure for the app
 export interface UnifiedTrashCollectionPoint {
   id: string;
@@ -95,6 +104,8 @@ export interface UnifiedTrashCollectionPoint {
   longitude: string;
   latitude: string;
   source: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';
+  /** Weekly schedule when the source provides one (New Taipei, Taichung); absent otherwise. */
+  schedule?: CollectionSchedule;
 }
 
 // Legacy alias for backward compatibility

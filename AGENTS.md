@@ -11,7 +11,7 @@ Static React + Vite + MapLibre PWA showing garbage-truck collection points for T
 
 ## MCP server
 
-`mcp/` is a separate Vercel project (Root Directory `mcp`) exposing the data as a read-only MCP server; the web app itself stays on GitHub Pages. It imports the adapters from `src/cities`, so keep adapter changes compatible with both (`setDataBaseUrl` in `BaseAdapter.ts` resolves their root-relative URLs outside the browser). See `mcp/README.md`.
+`mcp/` is a separate Vercel project (Root Directory `mcp`) exposing the data as a read-only MCP server; the web app itself stays on GitHub Pages. It imports the adapters from `src/cities`, so keep adapter changes compatible with both (`setDataBaseUrl` in `BaseAdapter.ts` resolves their root-relative URLs outside the browser; `fetchData({ allDays: true })` skips Taichung's today-only filter). Weekly schedules live in the optional `schedule` field; New Taipei's comes from the compact `*Days` fields that `.github/actions/trim-data.sh` writes into the published JSON. See `mcp/README.md`.
 
 ## Tooling conventions
 

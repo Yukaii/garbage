@@ -1,0 +1,9 @@
+# This repo deploys two things: the GitHub Pages site and the MCP server (mcp/).
+# Only send what the MCP function needs.
+/*
+!/mcp
+!/src
+/src/*
+!/src/cities
+!/src/types.ts
+mcp/node_modules

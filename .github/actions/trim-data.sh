@@ -40,7 +40,12 @@ mv public/trash-collection-points.tmp.json public/trash-collection-points.json
 
 echo ""
 echo "Trimming New Taipei City data..."
-cat public/new-taipei-trash-collection-points.json | jq '[.[] | {
+# Per-day Y flags (21 fields) are collapsed into compact ISO-weekday strings
+# (Mon=1 .. Sun=7), e.g. garbageDays "1245" = Mon, Tue, Thu, Fri.
+cat public/new-taipei-trash-collection-points.json | jq 'def days($prefix; $r):
+  [["monday","1"],["tuesday","2"],["wednesday","3"],["thursday","4"],["friday","5"],["saturday","6"],["sunday","7"]]
+  | map(select($r[$prefix + .[0]] == "Y") | .[1]) | join("");
+[.[] | . as $r | {
   city,
   lineid,
   linename,
@@ -49,7 +54,10 @@ cat public/new-taipei-trash-collection-points.json | jq '[.[] | {
   village,
   longitude,
   latitude,
-  time
+  time,
+  garbageDays: days("garbage"; $r),
+  recyclingDays: days("recycling"; $r),
+  foodscrapsDays: days("foodscraps"; $r)
 }]' > public/new-taipei-trash-collection-points.tmp.json
 
 # Get file sizes

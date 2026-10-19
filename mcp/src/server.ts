@@ -19,6 +19,11 @@ const pointSchema = z.object({
   latitude: z.number(),
   longitude: z.number(),
   distanceMeters: z.number().optional(),
+  schedule: z
+    .record(z.string(), z.array(z.number().int().min(1).max(7)))
+    .optional()
+    .describe('Weekdays served per collection type (garbage/recycling/foodscraps), ISO: Mon=1 .. Sun=7. Absent when the city publishes no weekly schedule (Taipei, Kaohsiung).'),
+  servesToday: z.boolean().optional().describe('Any collection type served today (Asia/Taipei). Absent when no schedule is published.'),
 });
 
 const readOnly = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: true } as const;

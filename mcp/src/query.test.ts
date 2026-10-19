@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'bun:test';
 import type { UnifiedTrashCollectionPoint } from '../../src/types';
-import { circleIntersectsBounds, findNearby, formatTime, haversineMeters, routeStops, searchPoints } from './query';
+import { circleIntersectsBounds, findNearby, formatTime, haversineMeters, routeStops, searchPoints, taipeiIsoWeekday, toDto } from './query';
 
 const pt = (over: Partial<UnifiedTrashCollectionPoint>): UnifiedTrashCollectionPoint => ({
   id: 'taipei-1',
@@ -66,5 +66,31 @@ describe('routeStops', () => {
     const b = pt({ id: 'b', arrivalTime: '1815' });
     const other = pt({ id: 'c', route: 'B2' });
     expect(routeStops([a, b, other], a).map(s => s.id)).toEqual(['b', 'a']);
+  });
+});
+
+describe('taipeiIsoWeekday', () => {
+  test('uses Taiwan time, not UTC', () => {
+    // 2026-10-19 is a Monday. 20:00 UTC Monday is already 04:00 Tuesday in Taipei.
+    expect(taipeiIsoWeekday(new Date('2026-10-19T02:00:00Z'))).toBe(1);
+    expect(taipeiIsoWeekday(new Date('2026-10-19T20:00:00Z'))).toBe(2);
+  });
+  test('Sunday is 7', () => expect(taipeiIsoWeekday(new Date('2026-10-18T04:00:00Z'))).toBe(7));
+});
+
+describe('toDto schedule', () => {
+  const monday = new Date('2026-10-19T02:00:00Z');
+  test('no schedule -> no schedule or servesToday', () => {
+    const dto = toDto(pt({}), undefined, monday);
+    expect(dto.schedule).toBeUndefined();
+    expect(dto.servesToday).toBeUndefined();
+  });
+  test('servesToday is true when any type runs today', () => {
+    const dto = toDto(pt({ schedule: { garbage: [2, 4], recycling: [1] } }), undefined, monday);
+    expect(dto.servesToday).toBe(true);
+    expect(dto.schedule).toEqual({ garbage: [2, 4], recycling: [1] });
+  });
+  test('servesToday is false when no type runs today', () => {
+    expect(toDto(pt({ schedule: { garbage: [2, 4] } }), undefined, monday).servesToday).toBe(false);
   });
 });

@@ -1,5 +1,5 @@
 import { createMcpHandler } from 'mcp-handler';
-import { registerTools } from '../src/server';
+import { registerTools } from './src/server';
 
 const mcp = createMcpHandler(registerTools, {
   serverInfo: { name: 'taipei-trash', version: '0.1.0' },

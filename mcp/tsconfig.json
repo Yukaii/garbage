@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext", "DOM"],
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
     "target": "ESNext",
     "module": "Preserve",
     "moduleResolution": "bundler",
@@ -10,7 +13,15 @@
     "strict": true,
     "skipLibCheck": true,
     "noImplicitOverride": true,
-    "types": ["bun"]
+    "types": [
+      "bun"
+    ]
   },
-  "include": ["src", "api", "../src/cities", "../src/types.ts"]
+  "include": [
+    "src",
+    "handler.ts",
+    "dev.ts",
+    "../src/cities",
+    "../src/types.ts"
+  ]
 }

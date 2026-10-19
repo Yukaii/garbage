@@ -21,6 +21,15 @@ export function setDataBaseUrl(baseUrl: string): void {
   dataBaseUrl = baseUrl.replace(/\/$/, '');
 }
 
+export interface FetchOptions {
+  /**
+   * Return every weekday's schedule instead of only today's stops.
+   * Adapters whose data is split per weekday (Taichung) filter to the current
+   * weekday by default, which is what the map wants; server-side callers want it all.
+   */
+  allDays?: boolean;
+}
+
 /**
  * Abstract base class for city data adapters
  *
@@ -69,18 +78,18 @@ export abstract class CityDataAdapter<TSource = any> {
    * Optional: Post-process unified data after mapping
    * Use this for sorting, filtering, or enriching data
    */
-  postprocessData(unified: UnifiedTrashCollectionPoint[]): UnifiedTrashCollectionPoint[] {
+  postprocessData(unified: UnifiedTrashCollectionPoint[], _options: FetchOptions = {}): UnifiedTrashCollectionPoint[] {
     return unified;
   }
 
   /**
    * Main public method: Fetch and transform data to unified format
    */
-  async fetchData(): Promise<UnifiedTrashCollectionPoint[]> {
+  async fetchData(options: FetchOptions = {}): Promise<UnifiedTrashCollectionPoint[]> {
     try {
       const rawData = await this.fetchRawData();
       const mapped = rawData.map(item => this.mapToUnified(item));
-      return this.postprocessData(mapped);
+      return this.postprocessData(mapped, options);
     } catch (error) {
       console.error(`Error fetching data for ${this.displayName}:`, error);
       throw error;

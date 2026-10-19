@@ -1,5 +1,5 @@
 // Local runner: mounts the Vercel handler on Bun.serve at /api/mcp.
-import { POST, GET, OPTIONS } from './api/mcp';
+import { POST, GET, OPTIONS } from './handler';
 
 const handlers: Record<string, (r: Request) => Promise<Response>> = { POST, GET, OPTIONS };
 

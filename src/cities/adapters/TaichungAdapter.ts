@@ -1,5 +1,5 @@
-import { CityDataAdapter } from './BaseAdapter';
-import type { TaichungTrashCollectionPoint, UnifiedTrashCollectionPoint } from '../../types';
+import { CityDataAdapter, type FetchOptions } from './BaseAdapter';
+import type { CollectionSchedule, TaichungTrashCollectionPoint, UnifiedTrashCollectionPoint } from '../../types';
 
 /**
  * Adapter for Taichung City (台中市) trash collection data
@@ -59,6 +59,7 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
       longitude: point.longitude,
       latitude: point.latitude,
       source: 'taichung',
+      schedule: { [point.collectionType]: [point.dayOfWeek] },
     };
   }
 
@@ -73,7 +74,12 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
    * - Same truck visits multiple times
    * - Different collection types (garbage/recycling)
    */
-  override postprocessData(unified: UnifiedTrashCollectionPoint[]): UnifiedTrashCollectionPoint[] {
+  override postprocessData(
+    unified: UnifiedTrashCollectionPoint[],
+    options: FetchOptions = {},
+  ): UnifiedTrashCollectionPoint[] {
+    if (options.allDays) return this.mergeAllDays(unified);
+
     // Get current day of week (1 = Monday, 7 = Sunday)
     const now = new Date();
     const currentDay = now.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
@@ -108,10 +114,40 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
       }
     }
 
-    const deduplicated = Array.from(locationMap.values());
+    // A single-day schedule would be misleading, so only all-days results carry one
+    const deduplicated = Array.from(locationMap.values()).map(({ schedule: _schedule, ...point }) => point);
 
     console.log(`TaichungAdapter: ${unified.length} total → ${todaysPoints.length} today → ${deduplicated.length} deduplicated`);
 
     return deduplicated;
   }
+
+  /**
+   * All-days mode: rows are one per (stop, weekday, type), so collapse rows that
+   * describe the same truck visit into one stop whose schedule lists every weekday.
+   */
+  private mergeAllDays(unified: UnifiedTrashCollectionPoint[]): UnifiedTrashCollectionPoint[] {
+    const merged = new Map<string, UnifiedTrashCollectionPoint>();
+
+    for (const point of unified) {
+      const key = `${point.longitude},${point.latitude}|${point.route}|${point.arrivalTime}|${point.departureTime}`;
+      const existing = merged.get(key);
+      if (!existing) {
+        merged.set(key, { ...point, schedule: cloneSchedule(point.schedule) });
+        continue;
+      }
+      for (const [type, days] of Object.entries(point.schedule ?? {}) as [keyof CollectionSchedule, number[]][]) {
+        const union = new Set([...(existing.schedule?.[type] ?? []), ...days]);
+        existing.schedule = { ...existing.schedule, [type]: [...union].sort((a, b) => a - b) };
+      }
+    }
+
+    console.log(`TaichungAdapter: ${unified.length} rows → ${merged.size} stops (all days)`);
+    return Array.from(merged.values());
+  }
+}
+
+function cloneSchedule(schedule: CollectionSchedule | undefined): CollectionSchedule | undefined {
+  if (!schedule) return undefined;
+  return Object.fromEntries(Object.entries(schedule).map(([type, days]) => [type, [...days]]));
 }

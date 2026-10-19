@@ -16,14 +16,14 @@ const cache = new Map<City, CacheEntry>();
 
 /**
  * Load one city's points via its adapter (the same mapping the web app uses).
- * Cities load lazily and are cached per warm instance; Taichung's file is ~50 MB,
+ * `allDays` keeps every weekday's stops (the web app only wants today's). Cities load lazily and are cached per warm instance; Taichung's file is ~50 MB,
  * so nothing is fetched until a tool actually needs that city.
  */
 export function loadCity(city: City): Promise<UnifiedTrashCollectionPoint[]> {
   const hit = cache.get(city);
   if (hit && hit.expires > Date.now()) return hit.points;
 
-  const points = cityRegistry.getAdapter(city).fetchData();
+  const points = cityRegistry.getAdapter(city).fetchData({ allDays: true });
   cache.set(city, { expires: Date.now() + CACHE_TTL_MS, points });
   // Don't keep a failed load around: let the next call retry.
   points.catch(() => {

@@ -1,5 +1,15 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "functions": { "api/mcp.ts": { "maxDuration": 60 } },
-  "rewrites": [{ "source": "/mcp", "destination": "/api/mcp" }]
+  "functions": {
+    "api/mcp.js": {
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/mcp",
+      "destination": "/api/mcp"
+    }
+  ],
+  "buildCommand": "npm run build"
 }

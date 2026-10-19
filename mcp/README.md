@@ -13,14 +13,16 @@ It reuses the web app's city adapters (`../src/cities`), so field mapping is ide
 | `search_points` | Text search by district / village / location / route within one city |
 | `get_schedule` | One stop plus every stop on its route, in arrival order |
 
-All tools are annotated read-only and return `structuredContent` (with a text mirror). Times are `Asia/Taipei`. Taichung and New Taipei schedules vary by weekday, which the unified point format does not carry yet, so day-of-week is not exposed.
+All tools are annotated read-only and return `structuredContent` (with a text mirror). Times are `Asia/Taipei`.
+
+Points include a weekly `schedule` (collection type → ISO weekdays, Mon=1 … Sun=7) and a `servesToday` flag (computed in Taiwan time) for **New Taipei** and **Taichung**, the cities whose open data carries weekdays. Taipei and Kaohsiung publish no weekday data, so those points have neither field. The server loads adapters in `allDays` mode; the web app keeps Taichung's default "today only" view.
 
 ## Develop
 
 ```bash
 cd mcp
 bun install
-bun test            # query logic
+bun test            # query logic + adapter schedule handling
 bun run typecheck
 bun dev.ts          # http://localhost:3939/api/mcp
 ```
@@ -29,13 +31,13 @@ Try it: `npx @modelcontextprotocol/inspector` and connect to `http://localhost:3
 
 ## Deploy (Vercel)
 
-This directory is its own Vercel project, separate from the GitHub Pages site:
+This directory is its own Vercel project (`taipei-trash-mcp`), separate from the GitHub Pages site. The function is bundled with esbuild at build time (`bun run build` → `api/mcp.js`), because the shared adapters use extensionless imports that Node ESM can't resolve. The CLI flow is `vercel deploy --prod` from the **repo root** (the project's Root Directory is `mcp`; `.vercelignore` limits the upload):
 
 1. Import the repo in Vercel and set **Root Directory** to `mcp`.
 2. Keep **Include source files outside of the Root Directory** enabled (the default) — the function imports `../src/cities`.
 3. Add a domain such as `mcp.yukai.dev` and create the CNAME Vercel shows at your DNS provider.
 4. Optional env: `DATA_BASE_URL`, `MCP_ALLOWED_ORIGINS` (comma-separated; browser clients only).
-5. Add a Vercel Firewall rate-limit rule for `/api/mcp`.
+5. Rate limiting is a Vercel Firewall rule (`mcp-rate-limit`, 60 requests/min per IP on `/api/mcp` and `/mcp`), managed with `vercel firewall rules`.
 
 Clients connect to `https://<your-domain>/api/mcp` (also routed from `/mcp`). For stdio-only clients use `npx mcp-remote <url>`.
 
