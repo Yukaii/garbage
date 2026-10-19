@@ -150,7 +150,7 @@ readonly bounds = {
 };
 ```
 
-If you need to extract boundaries for a new city, follow the extraction process in `CLAUDE.md`.
+If you need to extract boundaries for a new city, use the Taiwan.TopoJSON `counties.json` described in `AGENTS.md`.
 
 ## 5. Coordinate System & Data Processing
 

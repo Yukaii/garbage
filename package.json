@@ -1,17 +1,17 @@
 {
   "name": "taipei-trash",
-  "module": "index.ts",
   "type": "module",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "dump-data": "bash scripts/dump-data.sh"
+    "dump-data": "bash scripts/dump-data.sh",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.15",
-    "@types/bun": "latest",
+    "@types/bun": "^1.4.3",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^5.0.4",
@@ -21,10 +21,8 @@
     "tailwindcss": "^4.1.15",
     "vite": "^7.1.11",
     "vite-plugin-pwa": "^1.1.0",
-    "workbox-window": "^7.3.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
+    "workbox-window": "^7.3.0",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "lucide-react": "^0.546.0",
@@ -33,5 +31,5 @@
     "react-dom": "^19.2.0",
     "react-map-gl": "^8.1.0"
   },
-  "packageManager": "pnpm@9.5.0+sha256.dbdf5961c32909fb030595a9daa1dae720162e658609a8f92f2fa99835510ca5"
+  "packageManager": "bun@1.4.3"
 }

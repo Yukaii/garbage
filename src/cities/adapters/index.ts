@@ -5,4 +5,5 @@
 export { CityDataAdapter, type CityBounds } from './BaseAdapter';
 export { TaipeiAdapter } from './TaipeiAdapter';
 export { NewTaipeiAdapter } from './NewTaipeiAdapter';
-export { TaichungAdapter, type TaichungTrashVehicle } from './TaichungAdapter';
+export { TaichungAdapter } from './TaichungAdapter';
+export { KaohsiungAdapter } from './KaohsiungAdapter';

@@ -27,7 +27,7 @@ export class TaipeiAdapter extends CityDataAdapter<TaipeiTrashCollectionPoint> {
     return this.preprocessData(data);
   }
 
-  preprocessData(raw: TaipeiApiResponse): TaipeiTrashCollectionPoint[] {
+  override preprocessData(raw: TaipeiApiResponse): TaipeiTrashCollectionPoint[] {
     // Unwrap the nested structure
     return raw.result.results;
   }

@@ -1,18 +1,21 @@
 # taipei-trash
 
-To install dependencies:
+Interactive map of garbage-truck collection points and schedules for Taipei, New Taipei, Taichung and Kaohsiung — live at https://garbage.yukai.dev.
+
+React 19 + Vite + MapLibre PWA, hosted on GitHub Pages. Collection data is refreshed monthly from each city's open-data API into the `data` branch and shipped with every deploy.
+
+## Development
 
 ```bash
 bun install
+bun run dev        # Vite dev server
+bun run typecheck  # tsc --noEmit
+bun run build      # production build -> dist/
 ```
 
-To run:
+Data files in `public/*.json` are dumped from the `data` branch (`bun run dump-data`, needs a local `data` branch).
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.3.0. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+See `AGENTS.md` for conventions and how to add a city, and `docs/` for data-fetching, routing (Valhalla) and tech-stack notes.
 
 ## Authors and Contributors
 

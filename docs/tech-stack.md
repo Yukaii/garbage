@@ -148,11 +148,10 @@ bun run preview  # Preview production build locally
   - Build process
 - **Configuration**: Specified in `package.json`
   ```json
-  "packageManager": "pnpm@9.5.0+..."
+  "packageManager": "bun@1.4.3"
   ```
-  Note: Despite packageManager field showing pnpm, project uses Bun as per `CLAUDE.md`
 
-**Why Bun?** (from `CLAUDE.md`):
+**Why Bun?** (from `AGENTS.md`):
 - Faster than Node.js, npm, and pnpm
 - Built-in TypeScript support
 - Native SQLite, Redis, and Postgres APIs
@@ -576,7 +575,7 @@ git diff --quiet file.json
 
 ### Bun (Recommended)
 - **Version**: Latest
-- **Why Bun?** (from `CLAUDE.md`):
+- **Why Bun?** (from `AGENTS.md`):
   - Faster than npm, pnpm, Yarn
   - Built-in TypeScript support
   - All-in-one solution (runtime + package manager + bundler)
@@ -953,7 +952,7 @@ function htmlEnvPlugin(): Plugin {
 ### Internal Documentation
 
 - **Data Fetching Mechanism**: `docs/data-fetching-mechanism.md`
-- **Project Instructions**: `CLAUDE.md`
+- **Project Instructions**: `AGENTS.md`
 - **Type Definitions**: `src/types.ts`
 - **API Documentation**: `src/api.ts` (inline comments)
 

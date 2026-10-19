@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import MapLibre, { Source, Layer, Popup, NavigationControl, Marker } from 'react-map-gl/maplibre';
-import type { MapRef } from 'react-map-gl';
-import type { CircleLayer, SymbolLayer } from 'maplibre-gl';
+import type { MapRef, LayerProps, StyleSpecification } from 'react-map-gl/maplibre';
 import type { UnifiedTrashCollectionPoint } from './types';
 import {
   formatTime,
@@ -481,7 +480,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   }, [filteredPoints, viewportBounds, currentZoom, selectedRoute, isDesktop]);
 
   // Cluster layer styles - monotone black/gray design (memoized to prevent re-renders)
-  const clusterLayer: CircleLayer = useMemo(() => ({
+  const clusterLayer: LayerProps = useMemo(() => ({
     id: 'clusters',
     type: 'circle',
     source: 'trash-points',
@@ -494,7 +493,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     },
   }), []);
 
-  const clusterCountLayer: SymbolLayer = useMemo(() => ({
+  const clusterCountLayer: LayerProps = useMemo(() => ({
     id: 'cluster-count',
     type: 'symbol',
     source: 'trash-points',
@@ -513,7 +512,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
   // Color-code unclustered points by time status (memoized to prevent re-renders)
   // Starred points get a gold/yellow stroke
-  const unclusteredPointLayer: CircleLayer = useMemo(() => ({
+  const unclusteredPointLayer: LayerProps = useMemo(() => ({
     id: 'unclustered-point',
     type: 'circle',
     source: 'trash-points',
@@ -600,7 +599,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   };
 
   // Map style based on style type and dark mode
-  const getMapStyle = () => {
+  const getMapStyle = (): StyleSpecification | string => {
     if (mapStyleType === 'satellite') {
       // Using satellite imagery with labels overlay for better navigation
       return {

@@ -1155,7 +1155,7 @@ vim .github/workflows/update-data.yml
 
 ### Related Documentation
 
-- See `CLAUDE.md` for city boundary extraction guide
+- See `AGENTS.md` for the add-a-city checklist
 - See `README.md` for user-facing documentation (if exists)
 - See GitHub Actions logs for workflow execution history
 

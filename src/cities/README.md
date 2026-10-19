@@ -11,6 +11,7 @@ src/cities/
 │   ├── TaipeiAdapter.ts     # Taipei City (台北市) adapter
 │   ├── NewTaipeiAdapter.ts  # New Taipei City (新北市) adapter
 │   ├── TaichungAdapter.ts   # Taichung City (台中市) adapter
+│   ├── KaohsiungAdapter.ts  # Kaohsiung City (高雄市) adapter
 │   └── index.ts             # Barrel exports
 ├── cityRegistry.ts          # Central city registry (SINGLE SOURCE OF TRUTH)
 └── README.md               # This file
@@ -35,7 +36,7 @@ The **city registry** manages all adapters and provides a unified interface.
 
 ## 📝 How to Add a New City
 
-### Example: Adding Kaohsiung City (高雄市)
+### Example: Adding a new city (Kaohsiung 高雄市 was added this way and is now implemented — see `adapters/KaohsiungAdapter.ts`)
 
 #### Step 1: Create the Adapter
 
