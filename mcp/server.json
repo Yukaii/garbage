@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.yukai/taipei-trash",
+  "title": "Taiwan Garbage Truck Map",
+  "description": "Garbage truck stops and arrival times for Taipei, New Taipei, Taichung and Kaohsiung.",
+  "websiteUrl": "https://garbage.yukai.dev",
+  "repository": {
+    "url": "https://github.com/Yukaii/garbage",
+    "source": "github",
+    "subfolder": "mcp"
+  },
+  "version": "0.1.0",
+  "icons": [
+    {
+      "src": "https://garbage.yukai.dev/icons/icon-192.png",
+      "sizes": ["192x192"],
+      "mimeType": "image/png"
+    },
+    {
+      "src": "https://garbage.yukai.dev/icons/icon-512.png",
+      "sizes": ["512x512"],
+      "mimeType": "image/png"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.garbage.yukai.dev/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "dev.yukai/garbage": {
+        "serverCard": "https://mcp.garbage.yukai.dev/mcp/server-card",
+        "aiCatalog": "https://mcp.garbage.yukai.dev/.well-known/ai-catalog.json",
+        "llmsTxt": "https://mcp.garbage.yukai.dev/llms.txt",
+        "webApp": "https://garbage.yukai.dev",
+        "auth": "none",
+        "cities": ["taipei", "new-taipei", "taichung", "kaohsiung"],
+        "tools": ["list_cities", "find_nearby_points", "search_points", "get_schedule"]
+      }
+    }
+  }
+}
