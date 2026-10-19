@@ -1,53 +1,59 @@
-# taipei-trash MCP server
+# Taiwan Garbage Truck Map — MCP Server
 
-Read-only [Model Context Protocol](https://modelcontextprotocol.io) server for the garbage-truck data behind https://garbage.yukai.dev. Built on `mcp-handler` 2.x + `@modelcontextprotocol/server` 2.x, so one stateless Streamable HTTP endpoint serves the 2026-07-28 spec and 2025-era clients.
+Read-only [Model Context Protocol](https://modelcontextprotocol.io) server for the garbage-truck dataset powering [garbage.yukai.dev](https://garbage.yukai.dev). Built on `mcp-handler` 2.x and `@modelcontextprotocol/server` 2.x, exposing a single stateless Streamable HTTP endpoint compatible with both the `2026-07-28` spec and 2025-era clients.
 
-It reuses the web app's city adapters (`../src/cities`), so field mapping is identical to the site. Data is fetched from the published JSON (`DATA_BASE_URL`, default `https://garbage.yukai.dev`) and cached in memory for an hour per warm instance. Cities load lazily; Taichung's file is ~50 MB (about 1 s cold, ~400 MB RSS once loaded).
+The server reuses the web app's city adapters (`../src/cities`), keeping field mappings identical across the site and MCP responses. Data is fetched from the published JSON files (`DATA_BASE_URL`, defaulting to `https://garbage.yukai.dev`) and cached in memory for one hour per warm instance. Cities load lazily on demand (note: Taichung's dataset is ~50 MB, taking ~1 s on cold load and ~400 MB RSS in memory).
 
 ## Tools
 
 | Tool | Purpose |
 |---|---|
-| `list_cities` | Supported cities, ids and bounding boxes |
-| `find_nearby_points` | Stops within 50–2000 m of a coordinate, nearest first |
-| `search_points` | Text search by district / village / location / route within one city |
-| `get_schedule` | One stop plus every stop on its route, in arrival order |
+| `list_cities` | List supported cities, their IDs, and geographic bounding boxes |
+| `find_nearby_points` | Find stops within 50–2,000 m of a coordinate, sorted nearest first |
+| `search_points` | Search stops in a city by district, village, road, or route keyword |
+| `get_schedule` | Retrieve a stop along with every stop on its route in arrival order |
 
-All tools are annotated read-only and return `structuredContent` (with a text mirror). Times are `Asia/Taipei`.
+All tools are annotated read-only and return `structuredContent` alongside a plain-text summary. All times are in `Asia/Taipei`.
 
-Points include a weekly `schedule` (collection type → ISO weekdays, Mon=1 … Sun=7) and a `servesToday` flag (computed in Taiwan time) for **New Taipei** and **Taichung**, the cities whose open data carries weekdays. Taipei and Kaohsiung publish no weekday data, so those points have neither field. The server loads adapters in `allDays` mode; the web app keeps Taichung's default "today only" view.
+For **New Taipei** and **Taichung** (whose open data includes weekday schedules), each stop includes a weekly `schedule` (`collectionType` → ISO weekdays, `1`=Mon … `7`=Sun) and a `servesToday` boolean computed in Taiwan time. Taipei and Kaohsiung do not publish weekday schedules, so those fields are omitted. Unlike the web app's default "today only" view for Taichung, the MCP server loads adapters in `allDays` mode so agents can answer questions about any day of the week.
 
-## Develop
+## Development
 
 ```bash
 cd mcp
 bun install
-bun test            # query logic + adapter schedule handling
+bun test            # query logic + adapter schedule tests
 bun run typecheck
 bun dev.ts          # http://localhost:3939/api/mcp
 ```
 
-Try it: `npx @modelcontextprotocol/inspector` and connect to `http://localhost:3939/api/mcp`.
+Test interactively with MCP Inspector:
+```bash
+npx @modelcontextprotocol/inspector
+```
+Then connect to `http://localhost:3939/api/mcp`.
 
-## Deploy (Vercel)
+## Deployment (Vercel)
 
-This directory is its own Vercel project (`taipei-trash-mcp`), separate from the GitHub Pages site. The function is bundled with esbuild at build time (`bun run build` → `api/mcp.js`), because the shared adapters use extensionless imports that Node ESM can't resolve. The CLI flow is `vercel deploy --prod` from the **repo root** (the project's Root Directory is `mcp`; `.vercelignore` limits the upload):
+This directory is deployed as a standalone Vercel project (`taipei-trash-mcp`), separate from the GitHub Pages web app. The serverless function is bundled with esbuild at build time (`bun run build` → `api/mcp.js`) so that extensionless TypeScript imports in `../src/cities` resolve cleanly in Node ESM.
 
-1. Import the repo in Vercel and set **Root Directory** to `mcp`.
-2. Keep **Include source files outside of the Root Directory** enabled (the default) — the function imports `../src/cities`.
-3. Add the domain (`vercel api /v10/projects/<id>/domains -X POST -F name=mcp.garbage.yukai.dev`) and create the CNAME + `_vercel` TXT records Vercel returns at your DNS provider.
-4. Optional env: `DATA_BASE_URL`, `MCP_ALLOWED_ORIGINS` (comma-separated; browser clients only).
-5. Rate limiting is a Vercel Firewall rule (`mcp-rate-limit`, 60 requests/min per IP on `/api/mcp` and `/mcp`), managed with `vercel firewall rules`.
+To deploy from the **repository root** (`.vercelignore` keeps the upload minimal):
 
-Production: **https://mcp.garbage.yukai.dev/mcp** (also `/api/mcp`; fallback `https://taipei-trash-mcp.vercel.app`). DNS lives in Cloudflare: a DNS-only `mcp` CNAME to the project's Vercel target and a `_vercel` TXT verification record, managed with the Cloudflare `cf` CLI. For stdio-only clients use `npx mcp-remote <url>`.
+1. Import the repository in Vercel and set **Root Directory** to `mcp`.
+2. Leave **Include source files outside of the Root Directory** enabled (default) so the build can import `../src/cities`.
+3. Add the custom domain (`vercel api /v10/projects/<id>/domains -X POST -F name=mcp.garbage.yukai.dev`) and configure the `CNAME` and `_vercel` `TXT` records at your DNS provider.
+4. Optional environment variables: `DATA_BASE_URL`, `MCP_ALLOWED_ORIGINS` (comma-separated allowlist for browser clients).
+5. Rate limiting is enforced via a Vercel Firewall rule (`mcp-rate-limit`: 60 requests/min per IP on `/api/mcp` and `/mcp`).
 
-## Discovery
+Production endpoint: **https://mcp.garbage.yukai.dev/mcp** (also accessible at `/api/mcp`; fallback `https://taipei-trash-mcp.vercel.app`). For stdio-only clients, use `npx mcp-remote https://mcp.garbage.yukai.dev/mcp`.
 
-- `/mcp/server-card` — [MCP Server Card](https://github.com/modelcontextprotocol/experimental-ext-server-card) (SEP-2127), `application/mcp-server-card+json`; source `public/server-card.json`.
-- `/.well-known/ai-catalog.json` — [AI Catalog](https://github.com/Agent-Card/ai-catalog) entry pointing at the card (also published on https://garbage.yukai.dev).
-- `/llms.txt` — plain-text guide for LLMs. These specs are young (SEP-2127 merged 2026-10-06; llms.txt is a community proposal), so treat them as best-effort signals alongside the protocol's own `server/discover`.
+## Discovery Endpoints
 
-## Security notes
+- `/mcp/server-card` — [MCP Server Card](https://github.com/modelcontextprotocol/experimental-ext-server-card) (SEP-2127), served as `application/mcp-server-card+json` from `public/server-card.json`.
+- `/.well-known/ai-catalog.json` — [AI Catalog](https://github.com/Agent-Card/ai-catalog) entry pointing to the Server Card (also hosted on `https://garbage.yukai.dev`).
+- `/llms.txt` — plain-text guide for LLMs.
 
-- No auth: the data is public and every tool is read-only.
-- Requests carrying an `Origin` header are rejected (403) unless listed in `MCP_ALLOWED_ORIGINS`, per the MCP transport spec. Native clients send no `Origin`.
+## Security Notes
+
+- **No authentication**: all underlying data is public government open data and every tool is strictly read-only.
+- **Origin check**: requests carrying an `Origin` header are rejected with `403` unless the origin is listed in `MCP_ALLOWED_ORIGINS`, per the MCP transport specification. Native and server-side clients do not send an `Origin` header.

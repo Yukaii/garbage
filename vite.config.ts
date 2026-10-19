@@ -28,7 +28,7 @@ export default defineConfig({
       registerType: 'prompt',
       includeAssets: ['favicon.svg', 'icons/*.png'],
       manifest: {
-        name: '台北市垃圾車地圖',
+        name: '垃圾車地圖',
         short_name: '垃圾車地圖',
         lang: 'zh-TW',
         start_url: '.',
@@ -37,7 +37,7 @@ export default defineConfig({
         orientation: 'portrait-primary',
         background_color: '#0f172a',
         theme_color: '#111827',
-        description: '查詢台北市與新北市垃圾車和資源回收車路線、停靠地點與到站時間的互動式地圖工具。',
+        description: '即時查詢台北、新北、台中、高雄垃圾車與資源回收車的停靠地點、清運路線與抵達時間，支援常用站點收藏與離線瀏覽。',
         icons: [
           {
             src: '/icons/icon-192.png',

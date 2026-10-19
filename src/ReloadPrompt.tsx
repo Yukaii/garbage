@@ -81,9 +81,9 @@ export function ReloadPrompt() {
     <div className="fixed bottom-4 left-1/2 z-[1000] w-[calc(100%-2rem)] max-w-md -translate-x-1/2 rounded-lg border border-neutral-300 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900" style={{ marginBottom: 'max(1rem, env(safe-area-inset-bottom))' }}>
       <div className="mb-3 text-sm font-medium text-black dark:text-white">
         {offlineReady ? (
-          <span>應用程式已可離線使用</span>
+          <span>已完成離線快取，沒網路也能查詢站點！</span>
         ) : (
-          <span>有新版本可用！</span>
+          <span>有新版本可用，重新載入即可更新。</span>
         )}
       </div>
       <div className="flex gap-2">
@@ -92,7 +92,7 @@ export function ReloadPrompt() {
             onClick={handleUpdate}
             className="flex-1 rounded-md border border-black bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-neutral-800 dark:border-white dark:bg-white dark:text-black dark:hover:bg-neutral-200"
           >
-            重新載入
+            立即更新
           </button>
         )}
         <button

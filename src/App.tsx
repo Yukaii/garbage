@@ -185,7 +185,7 @@ function App() {
         setDataLoaded(true);
         setInitialLoadComplete(true);
       } catch (err) {
-        setError('無法載入垃圾車資料，請稍後再試');
+        setError('無法載入垃圾車資料，請檢查網路連線或稍後再試');
         console.error(err);
       }
     }
@@ -285,7 +285,7 @@ function App() {
           {initialLoading && (
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-black z-50 h-full w-full">
               <div className="w-12 h-12 border-4 border-neutral-200 dark:border-neutral-800 border-t-black dark:border-t-white rounded-full spinner" />
-              <p className="mt-4 text-neutral-600 dark:text-neutral-400">載入中...</p>
+              <p className="mt-4 text-neutral-600 dark:text-neutral-400">載入地圖與站點資料中…</p>
             </div>
           )}
           {error && (
@@ -314,7 +314,7 @@ function App() {
               {isUpdatingData && (
                 <div className="absolute top-4 right-4 z-20 flex items-center gap-2 rounded-lg border border-neutral-300 bg-white/95 backdrop-blur-sm px-3 py-2 shadow-lg dark:border-neutral-700 dark:bg-black/90">
                   <div className="h-4 w-4 border-2 border-neutral-300 dark:border-neutral-600 border-t-blue-600 dark:border-t-blue-400 rounded-full spinner" />
-                  <span className="text-xs text-neutral-700 dark:text-neutral-300">更新資料中...</span>
+                  <span className="text-xs text-neutral-700 dark:text-neutral-300">載入縣市資料中…</span>
                 </div>
               )}
               {/* Feedback button for unsupported areas */}
@@ -324,10 +324,10 @@ function App() {
                     <MessageSquarePlus className="h-5 w-5 shrink-0 text-amber-600 dark:text-amber-400 mt-0.5" />
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-medium text-amber-900 dark:text-amber-100 mb-1">
-                        此區域尚未支援
+                        此區域尚未收錄資料
                       </p>
                       <p className="text-xs text-amber-800 dark:text-amber-200 mb-2">
-                        目前僅支援台北市、新北市、台中市與高雄市
+                        目前支援台北市、新北市、台中市與高雄市。想查詢其他縣市嗎？
                       </p>
                       <a
                         href="https://github.com/yukaii/garbage/issues/new?title=請求支援新城市&body=希望支援的城市："
@@ -335,7 +335,7 @@ function App() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1 text-xs font-medium text-amber-700 underline-offset-2 hover:underline dark:text-amber-300"
                       >
-                        在 GitHub 上回報需求
+                        前往 GitHub 許願新增縣市
                       </a>
                     </div>
                   </div>
@@ -368,7 +368,7 @@ function App() {
       <footer className="hidden border-t border-neutral-200 bg-neutral-100 px-4 py-3 text-[11px] text-neutral-600 dark:border-neutral-900 dark:bg-neutral-950 dark:text-neutral-400 md:px-6 md:py-4 md:text-xs lg:px-8 md:block" style={{ paddingLeft: 'max(1rem, env(safe-area-inset-left))', paddingRight: 'max(1rem, env(safe-area-inset-right))', paddingBottom: 'max(0.75rem, env(safe-area-inset-bottom))' }}>
         <div className="mx-auto flex flex-wrap items-center justify-between gap-2">
           <span>
-            資料來源：台北市、新北市與台中市政府開放資料平台。
+            資料來源：台北市、新北市、台中市與高雄市政府開放資料平台（實際時間以現場清運為準）。
             <button
               onClick={() => {
                 setScrollToSupport(false);

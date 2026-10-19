@@ -121,10 +121,10 @@ export function InstallPrompt() {
           </div>
           <div className="flex-1 pr-6">
             <h3 className="text-sm font-semibold text-black dark:text-white">
-              安裝到主畫面
+              加到手機主畫面
             </h3>
             <p className="mt-0.5 text-xs text-neutral-600 dark:text-neutral-400">
-              獲得更好的使用體驗
+              像 App 一樣快速開啟，支援離線查詢
             </p>
           </div>
         </div>
@@ -132,15 +132,15 @@ export function InstallPrompt() {
         <div className="mb-3 space-y-1.5 rounded-md border border-neutral-200 bg-neutral-50 p-3 text-xs text-neutral-700 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-300">
           <div className="flex items-center gap-2">
             <span className="text-sky-500 dark:text-sky-400">✓</span>
-            <span>一鍵啟動，無需開啟瀏覽器</span>
+            <span>從主畫面一鍵開啟，免開瀏覽器</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-sky-500 dark:text-sky-400">✓</span>
-            <span>離線瀏覽收集點資訊</span>
+            <span>自動快取資料，沒網路也能查時刻表</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-sky-500 dark:text-sky-400">✓</span>
-            <span>全螢幕體驗，介面更簡潔</span>
+            <span>全螢幕地圖介面，視野更清爽</span>
           </div>
         </div>
 
@@ -153,7 +153,7 @@ export function InstallPrompt() {
             {isInstalling ? (
               <>
                 <div className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent dark:border-black dark:border-t-transparent" />
-                <span>安裝中...</span>
+                <span>安裝中…</span>
               </>
             ) : (
               <>
@@ -171,7 +171,7 @@ export function InstallPrompt() {
         </div>
 
         <p className="mt-3 text-center text-[10px] text-neutral-500 dark:text-neutral-500">
-          適用於 Android Chrome、Edge 與 Samsung 瀏覽器
+          支援 Android 版 Chrome、Edge 與 Samsung 瀏覽器
         </p>
       </div>
     </div>

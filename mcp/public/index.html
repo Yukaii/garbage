@@ -3,33 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>taipei-trash MCP server</title>
-  <meta name="description" content="Read-only MCP server for garbage-truck stops and arrival times in Taipei, New Taipei, Taichung and Kaohsiung.">
+  <title>Taiwan Garbage Truck Map — MCP Server</title>
+  <meta name="description" content="Read-only Model Context Protocol (MCP) server for garbage and recycling truck stops, routes, and arrival times in Taipei, New Taipei, Taichung, and Kaohsiung.">
   <link rel="canonical" href="https://mcp.garbage.yukai.dev/">
   <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable guide">
-  <style>body{font:16px/1.55 system-ui,sans-serif;max-width:44rem;margin:3rem auto;padding:0 1rem}code,pre{background:#f3f3f3;border-radius:4px}code{padding:.1em .3em}pre{padding:.8em 1em;overflow:auto}td,th{padding:.3em .8em .3em 0;text-align:left;vertical-align:top}</style>
+  <style>body{font:16px/1.6 system-ui,sans-serif;max-width:44rem;margin:3rem auto;padding:0 1rem;color:#111827}code,pre{background:#f3f4f6;border-radius:6px}code{padding:.15em .35em;font-size:.92em}pre{padding:.9em 1.1em;overflow:auto}table{border-collapse:collapse;width:100%}td,th{padding:.4em .8em .4em 0;text-align:left;vertical-align:top;border-bottom:1px solid #e5e7eb}a{color:#0284c7;text-decoration:none}a:hover{text-decoration:underline}</style>
 </head>
 <body>
-  <h1>taipei-trash MCP server</h1>
-  <p>Read-only <a href="https://modelcontextprotocol.io">Model Context Protocol</a> server for garbage-truck stops and arrival times in Taipei, New Taipei, Taichung and Kaohsiung. No authentication; times are Asia/Taipei.</p>
+  <h1>Taiwan Garbage Truck Map · MCP Server</h1>
+  <p>Read-only <a href="https://modelcontextprotocol.io">Model Context Protocol</a> server for querying garbage and recycling truck stops, routes, and arrival times in <strong>Taipei, New Taipei, Taichung, and Kaohsiung</strong>. No API key or authentication required. All times are in <code>Asia/Taipei</code>.</p>
 
   <h2>Connect</h2>
-  <p>Endpoint (Streamable HTTP): <code>https://mcp.garbage.yukai.dev/mcp</code></p>
-<pre>{ "mcpServers": { "taipei-trash": { "url": "https://mcp.garbage.yukai.dev/mcp" } } }</pre>
-  <p>Stdio-only clients: <code>npx mcp-remote https://mcp.garbage.yukai.dev/mcp</code></p>
+  <p>Streamable HTTP endpoint: <code>https://mcp.garbage.yukai.dev/mcp</code></p>
+<pre>{
+  "mcpServers": {
+    "taipei-trash": {
+      "url": "https://mcp.garbage.yukai.dev/mcp"
+    }
+  }
+}</pre>
+  <p>For stdio-only clients: <code>npx mcp-remote https://mcp.garbage.yukai.dev/mcp</code></p>
 
-  <h2>Tools</h2>
+  <h2>Available Tools</h2>
   <table>
-    <tr><th><code>list_cities</code></th><td>Supported cities, ids and bounding boxes</td></tr>
-    <tr><th><code>find_nearby_points</code></th><td>Stops near a coordinate, nearest first</td></tr>
-    <tr><th><code>search_points</code></th><td>Search a city's stops by district / village / road / route</td></tr>
-    <tr><th><code>get_schedule</code></th><td>A stop and every stop on its route in arrival order</td></tr>
+    <tr><th><code>list_cities</code></th><td>List supported cities, their IDs, and geographic bounding boxes</td></tr>
+    <tr><th><code>find_nearby_points</code></th><td>Find collection stops within 50–2,000 m of a coordinate, ordered nearest first</td></tr>
+    <tr><th><code>search_points</code></th><td>Search stops within a city by district, village, road, or route name</td></tr>
+    <tr><th><code>get_schedule</code></th><td>Get details for a stop along with the full stop sequence of its route</td></tr>
   </table>
 
-  <h2>Discovery</h2>
+  <h2>Discovery &amp; Links</h2>
   <ul>
-    <li><a href="/mcp/server-card">Server Card</a> · <a href="/.well-known/ai-catalog.json">AI Catalog</a> · <a href="/llms.txt">llms.txt</a></li>
-    <li>Map: <a href="https://garbage.yukai.dev">garbage.yukai.dev</a> · Source: <a href="https://github.com/Yukaii/garbage/tree/main/mcp">GitHub</a></li>
+    <li><a href="/mcp/server-card">MCP Server Card</a> · <a href="/.well-known/ai-catalog.json">AI Catalog</a> · <a href="/llms.txt">llms.txt</a></li>
+    <li>Web Map: <a href="https://garbage.yukai.dev">garbage.yukai.dev</a> · Source: <a href="https://github.com/Yukaii/garbage/tree/main/mcp">GitHub</a></li>
   </ul>
 </body>
 </html>

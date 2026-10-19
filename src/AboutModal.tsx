@@ -98,13 +98,13 @@ export default function AboutModal({
           <div>
             <div className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-sky-600 dark:text-sky-400">
               <Info className="h-4 w-4" aria-hidden="true" />
-              關於此服務
+              關於本站
             </div>
             <h2 id="about-modal-title" className="mt-2 text-xl font-semibold text-neutral-900 dark:text-white">
-              台北市垃圾車地圖
+              垃圾車地圖
             </h2>
             <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
-              查詢台北市、新北市與台中市垃圾車、資源回收車路線與停靠時間，協助居民掌握最佳倒垃圾時機。
+              收錄台北市、新北市、台中市與高雄市的垃圾車及資源回收車停靠點、清運路線與抵達時間，幫你輕鬆掌握出門倒垃圾的時間。
             </p>
           </div>
           <button
@@ -119,64 +119,64 @@ export default function AboutModal({
         <div className="min-h-0 flex-1 space-y-6 overflow-y-auto px-5 py-6 text-sm leading-relaxed text-neutral-700 dark:text-neutral-300 md:text-base">
           <div className="flex flex-wrap gap-3 text-xs text-neutral-600 dark:text-neutral-400 md:text-sm">
             <span className="rounded-full border border-neutral-200 bg-neutral-50 px-3 py-1 dark:border-neutral-700 dark:bg-neutral-900/60">
-              收錄 {totalPoints.toLocaleString()} 個收集點
+              已載入 {totalPoints.toLocaleString()} 個停靠點
             </span>
             <span className="rounded-full border border-neutral-200 bg-neutral-50 px-3 py-1 dark:border-neutral-700 dark:bg-neutral-900/60">
-              運行中 {activeCount.toLocaleString()} 班
+              收運中 {activeCount.toLocaleString()} 站
             </span>
             <span className="rounded-full border border-neutral-200 bg-neutral-50 px-3 py-1 dark:border-neutral-700 dark:bg-neutral-900/60">
-              即將到站 {upcomingCount.toLocaleString()} 班
+              即將抵達 {upcomingCount.toLocaleString()} 站
             </span>
             <span className="rounded-full border border-neutral-200 bg-neutral-50 px-3 py-1 dark:border-neutral-700 dark:bg-neutral-900/60">
-              支援深色模式與行動裝置
+              支援離線瀏覽與深色模式
             </span>
           </div>
 
           <section>
-            <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">產品亮點</h3>
+            <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">功能特色</h3>
             <ul className="mt-3 grid gap-3 md:grid-cols-2">
               <li className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
-                <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">三都資料同步更新</h4>
+                <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">四都資料定期同步</h4>
                 <p className="mt-2 text-sm">
-                  每月自動抓取台北市、新北市與台中市公開資料，涵蓋超過 20 萬筆收集點，並在部署前精簡欄位以提升載入速度。
+                  每月自動同步台北、新北、台中與高雄市政府開放資料，涵蓋全台超過 20 萬筆清運停靠點。
                 </p>
               </li>
               <li className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
-                <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">多元時間篩選</h4>
+                <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">到站時間快速篩選</h4>
                 <p className="mt-2 text-sm">
-                  支援立即、30 分鐘、1 小時與 3 小時內的抵達範圍，快速掌握即將到站或正在運行的垃圾車。
+                  可依「現在」、「30 分鐘內」、「1 小時內」或「3 小時內」篩選，一眼看清正在收運或即將抵達的班次。
                 </p>
               </li>
               <li className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
-                <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">地點與路線搜尋</h4>
+                <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">搜尋、收藏與分享</h4>
                 <p className="mt-2 text-sm">
-                  透過行政區、里別或地點關鍵字搜尋所有符合條件的收集點，新搬的住戶也能快速上手。
+                  輸入行政區、里別、路名或路線即可找站；常去的停靠點可加入收藏，也能複製連結分享給家人與鄰居。
                 </p>
               </li>
               <li className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
-                <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">行動裝置友善</h4>
+                <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">安裝成 App・離線可用</h4>
                 <p className="mt-2 text-sm">
-                  響應式介面搭配 PWA 支援、深淺色模式，在手機、平板與桌機皆能流暢操作。
+                  支援深淺色模式與衛星地圖；加到手機主畫面後即可像 App 一樣使用，沒網路也能查時刻表。
                 </p>
               </li>
             </ul>
           </section>
 
           <section>
-            <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">如何使用</h3>
+            <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">使用方式</h3>
             <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm md:text-base">
-              <li>選擇查看的縣市（台北市、新北市或台中市）。</li>
-              <li>搜尋行政區、里別或收集點名稱，快速鎖定常用地點。</li>
-              <li>套用時間篩選，顯示即將抵達或正在運行的班次。</li>
-              <li>點擊地圖標記，查看詳細停靠描述與抵達/離開時間。</li>
-              <li>啟用定位功能，找出距離最近的收集點與行車時間。</li>
+              <li>選擇所在縣市（台北市、新北市、台中市或高雄市），或點選地圖左側定位按鈕移至目前位置。</li>
+              <li>在上方搜尋欄輸入行政區、里別、路名或路線名稱，快速找到住家附近的停靠點。</li>
+              <li>點選時間篩選按鈕，過濾出正在收運或即將抵達的班次。</li>
+              <li>點擊地圖上的站點查看詳細抵達與離開時間，並可開啟 Google 地圖導航、加入收藏或分享連結。</li>
+              <li>展開「路線列表」可查看整條清運路線的沿途停靠點與預估行駛進度。</li>
             </ol>
           </section>
 
           <section>
             <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">資料來源與更新</h3>
             <p className="mt-2 text-sm md:text-base">
-              平台整合三都政府開放資料，透過 GitHub Actions 每月自動抓取、整理並部署最新版本。台中市資料經內政地理資訊圖資雲整合服務平台批次地理編碼處理，確保座標精準度。
+              本站整合四都政府開放資料，每月透過 GitHub Actions 自動抓取、整理並更新部署。台中市與高雄市的部分站點經內政部 TGOS 地理編碼服務轉換座標，以提升地圖定位準確度。
             </p>
             <ul className="mt-3 space-y-2 text-sm md:text-base">
               <li>
@@ -211,15 +211,25 @@ export default function AboutModal({
               </li>
               <li>
                 <a
+                  href="https://data.kcg.gov.tw/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+                >
+                  高雄市政府資料開放平台：垃圾車清運路線與點位
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://www.tgos.tw/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
                 >
-                  內政地理資訊圖資雲整合服務平台：地理編碼服務
+                  內政部地理資訊圖資雲服務平台（TGOS）：地理編碼服務
                 </a>
                 <span className="ml-2 text-xs text-neutral-500 dark:text-neutral-400">
-                  (台中市地址座標轉換)
+                  （台中市、高雄市地址座標轉換）
                 </span>
               </li>
             </ul>
@@ -230,18 +240,18 @@ export default function AboutModal({
             <div className="mt-3 space-y-3">
               <details className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
                 <summary className="cursor-pointer text-sm font-semibold text-neutral-900 dark:text-white">
-                  資料多久更新一次？
+                  資料多久更新一次？時間準確嗎？
                 </summary>
                 <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
-                  系統會在每月政府資料更新後自動重新抓取、處理並部署。若有特殊情況，可在 GitHub 觸發手動更新以掌握最新資訊。
+                  系統每月會自動同步各縣市政府公開資料並更新網站。由於垃圾車實際抵達時間可能因當日路況、天候或清運量而有幾分鐘的落差，建議提早到站等候。
                 </p>
               </details>
               <details className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
                 <summary className="cursor-pointer text-sm font-semibold text-neutral-900 dark:text-white">
-                  是否支援離線或通知功能？
+                  支援離線查看或到站通知嗎？
                 </summary>
                 <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
-                  目前為線上查詢工具，可透過 PWA 加入主畫面以獲得近似 App 的體驗。後續會評估整合通知或提醒功能。
+                  將網站「加到手機主畫面」後，系統會在背景自動快取縣市資料，即使沒有網路也能查看停靠點與時刻表。你也可以把常用站點加入「收藏」方便快速查閱；到站提醒通知則會在後續版本評估加入。
                 </p>
               </details>
             </div>
@@ -272,12 +282,6 @@ export default function AboutModal({
                   PastLeo
                 </a>
               </div>
-              <div>
-                <span className="font-semibold text-neutral-900 dark:text-white">AI 協作：</span>
-                <span className="ml-2 text-neutral-700 dark:text-neutral-300">
-                  Claude Sonnet 4.5, GPT-5-Codex
-                </span>
-              </div>
             </div>
           </section>
 
@@ -286,7 +290,7 @@ export default function AboutModal({
             <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">支持這個專案</h3>
             <div className="mt-3 rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
               <p className="text-sm text-neutral-700 dark:text-neutral-300">
-                如果這個工具對您有幫助，歡迎請作者喝杯咖啡！您的支持是我們持續改進的動力。
+                如果這個小工具幫你省下了追垃圾車的時間，歡迎請作者喝杯咖啡！你的支持是持續維護與擴充新縣市的最大動力。
               </p>
               <div className="mt-4 flex justify-center">
                 <a
@@ -366,13 +370,13 @@ export default function AboutModal({
                       🚛 即時追蹤測試模式
                     </h4>
                     <p className="mt-2 text-xs text-yellow-800 dark:text-yellow-300">
-                      設定自訂時間來測試垃圾車即時位置追蹤功能。此設定僅用於開發測試，不會影響實際資料。
+                      設定自訂時間來測試垃圾車即時位置與篩選狀態。此設定僅影響目前畫面顯示，不會改動實際資料。
                     </p>
 
                     <div className="mt-4 space-y-3">
                       <div>
                         <label htmlFor="debug-time" className="block text-xs font-medium text-yellow-900 dark:text-yellow-200">
-                          測試時間 (HH:MM 格式)
+                          測試時間（HH:MM 格式）
                         </label>
                         <input
                           id="debug-time"
@@ -393,13 +397,13 @@ export default function AboutModal({
                           }}
                           className="rounded-md border border-yellow-300 bg-white px-3 py-1.5 text-xs font-medium text-yellow-900 hover:bg-yellow-50 dark:border-yellow-800 dark:bg-neutral-900 dark:text-yellow-200 dark:hover:bg-neutral-800"
                         >
-                          使用目前時間
+                          套用目前時間
                         </button>
                         <button
                           onClick={() => onDebugTimeChange('')}
                           className="rounded-md border border-yellow-300 bg-white px-3 py-1.5 text-xs font-medium text-yellow-900 hover:bg-yellow-50 dark:border-yellow-800 dark:bg-neutral-900 dark:text-yellow-200 dark:hover:bg-neutral-800"
                         >
-                          清除測試時間
+                          恢復正常時間
                         </button>
                       </div>
 
@@ -407,7 +411,7 @@ export default function AboutModal({
                         <div className="rounded-md bg-yellow-100 px-3 py-2 text-xs text-yellow-900 dark:bg-yellow-900/20 dark:text-yellow-200">
                           <strong>目前測試時間：</strong> {debugTime}
                           <br />
-                          <span className="opacity-75">垃圾車位置將基於此時間計算</span>
+                          <span className="opacity-75">站點狀態與垃圾車預估位置將依此時間計算</span>
                         </div>
                       )}
                     </div>
@@ -418,14 +422,14 @@ export default function AboutModal({
           </section>
         </div>
         <div className="flex flex-wrap items-center justify-between gap-3 border-t border-neutral-200 bg-neutral-50 px-5 py-4 text-xs text-neutral-500 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-400">
-          <span>若發現資料異常或有功能建議，歡迎於 GitHub 提交 Issue。</span>
+          <span>發現站點資料有誤，或希望支援其他縣市？歡迎至 GitHub 回報。</span>
           <a
             href="https://github.com/yukaii/garbage/issues"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 rounded-md border border-neutral-200 px-3 py-1 font-medium text-sky-600 hover:border-sky-200 hover:bg-sky-50 dark:border-neutral-700 dark:text-sky-400 dark:hover:border-neutral-600 dark:hover:bg-neutral-900"
           >
-            前往 GitHub
+            前往 GitHub 回報
           </a>
         </div>
       </div>

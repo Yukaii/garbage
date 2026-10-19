@@ -59,7 +59,7 @@ export default function RouteSelector({
               ? 'cursor-wait opacity-60'
               : 'cursor-pointer hover:border-neutral-400 hover:bg-neutral-50 dark:hover:border-neutral-600 dark:hover:bg-neutral-900'
           } ${className}`}
-          title="定位到我的位置"
+          title="定位到目前位置"
         >
           <Locate size={18} className={isLocating ? 'animate-pulse' : ''} />
         </button>
@@ -127,7 +127,7 @@ export default function RouteSelector({
         <button
           onClick={() => setIsExpanded(!isExpanded)}
           className="hidden md:flex h-9 w-9 cursor-pointer items-center justify-center rounded-md border border-neutral-300 bg-white text-neutral-700 shadow-md transition-all hover:border-neutral-400 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-black dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:bg-neutral-900"
-          aria-label={isExpanded ? 'Close routes sidebar' : 'Open routes sidebar'}
+          aria-label={isExpanded ? '收合路線列表' : '展開路線列表'}
         >
           {isExpanded ? <ChevronLeft className="h-5 w-5" /> : <ChevronRight className="h-5 w-5" />}
         </button>
@@ -160,11 +160,11 @@ export default function RouteSelector({
             >
               {showVisibleOnly ? <Eye className="h-4 w-4" /> : <EyeOff className="h-4 w-4" />}
               <span className="flex-1 text-left">
-                {showVisibleOnly ? '顯示可見路線' : '顯示所有路線'}
+                {showVisibleOnly ? '僅顯示畫面內路線' : '顯示全部路線'}
               </span>
               {showVisibleOnly && viewportBounds && (
                 <span className="text-xs opacity-75">
-                  {allRoutes.length - routes.length} 已隱藏
+                  已隱藏 {allRoutes.length - routes.length} 條
                 </span>
               )}
             </button>
@@ -247,6 +247,7 @@ export default function RouteSelector({
                 </div>
                 <button
                   onClick={() => setIsMobileOpen(false)}
+                  aria-label="關閉路線列表"
                   className="flex h-8 w-8 items-center justify-center rounded-md text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-900"
                 >
                   <ChevronDown className="h-5 w-5" />
@@ -263,11 +264,11 @@ export default function RouteSelector({
               >
                 {showVisibleOnly ? <Eye className="h-4 w-4" /> : <EyeOff className="h-4 w-4" />}
                 <span className="flex-1 text-left">
-                  {showVisibleOnly ? '顯示可見路線' : '顯示所有路線'}
+                  {showVisibleOnly ? '僅顯示畫面內路線' : '顯示全部路線'}
                 </span>
                 {showVisibleOnly && viewportBounds && (
                   <span className="text-xs opacity-75">
-                    {allRoutes.length - routes.length} 已隱藏
+                    已隱藏 {allRoutes.length - routes.length} 條
                   </span>
                 )}
               </button>

@@ -33,9 +33,9 @@ export default function TimeFilter({
   const filters: { mode: TimeFilterMode; label: string; count?: number }[] = [
     { mode: 'all', label: '全部' },
     { mode: 'now', label: '現在', count: activeCount },
-    { mode: '30min', label: '30分內' },
-    { mode: '1hour', label: '1小時內' },
-    { mode: '3hours', label: '3小時內' },
+    { mode: '30min', label: '30 分鐘內' },
+    { mode: '1hour', label: '1 小時內' },
+    { mode: '3hours', label: '3 小時內' },
   ];
 
   return (
@@ -48,7 +48,7 @@ export default function TimeFilter({
           </span>
           {activeCount > 0 && (
             <span className="px-2 py-0.5 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-full text-xs font-medium">
-              {activeCount} 輛營運中
+              {activeCount} 站收運中
             </span>
           )}
         </div>

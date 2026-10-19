@@ -55,7 +55,7 @@ export function clearPointFromUrl(): void {
 async function copyToClipboard(url: string): Promise<{ success: boolean; message: string }> {
   try {
     await navigator.clipboard.writeText(url);
-    return { success: true, message: '已複製連結' };
+    return { success: true, message: '已複製站點連結' };
   } catch (error) {
     // Last resort: try creating a temporary textarea
     try {
@@ -68,7 +68,7 @@ async function copyToClipboard(url: string): Promise<{ success: boolean; message
       textarea.select();
       document.execCommand('copy');
       document.body.removeChild(textarea);
-      return { success: true, message: '已複製連結' };
+      return { success: true, message: '已複製站點連結' };
     } catch {
       return { success: false, message: '無法複製連結' };
     }
@@ -95,15 +95,15 @@ export async function sharePoint(
   if (navigator.share) {
     try {
       await navigator.share({
-        title: '垃圾車地圖 - 收集點',
-        text: `查看收集點：${pointName}`,
+        title: '垃圾車地圖 · 停靠點資訊',
+        text: `查看垃圾車停靠點：${pointName}`,
         url: shareUrl,
       });
       return { success: true, method: 'share', message: '已分享' };
     } catch (error) {
       // User cancelled share - not an error
       if ((error as Error).name === 'AbortError') {
-        return { success: false, method: 'share', message: '取消分享' };
+        return { success: false, method: 'share', message: '已取消分享' };
       }
       // Fall through to clipboard
     }

@@ -63,13 +63,14 @@ export function Navbar({
               type="text"
               value={searchTerm}
               onChange={(e) => onSearchChange(e.target.value)}
-              placeholder="搜尋行政區、里別、地點或路線..."
+              placeholder="搜尋行政區、里別、路名或路線…"
               className="w-full rounded-xl border border-neutral-200 bg-neutral-100 py-2 pl-10 pr-10 text-sm text-black placeholder-neutral-500 focus:border-black focus:outline-none focus:ring-0 dark:border-neutral-800 dark:bg-neutral-900 dark:text-white dark:focus:border-white"
             />
             {searchTerm ? (
               <button
                 onClick={() => onSearchChange('')}
                 className="absolute inset-y-0 right-0 flex items-center pr-3 text-neutral-400 hover:text-black dark:hover:text-white"
+                aria-label="清除搜尋"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -91,7 +92,7 @@ export function Navbar({
           <button
             onClick={() => setIsSearchExpanded(true)}
             className="flex h-9 w-9 items-center justify-center rounded-xl text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800 md:hidden"
-            aria-label="Search"
+            aria-label="搜尋"
           >
             <Search className="w-5 h-5" />
           </button>
@@ -100,6 +101,7 @@ export function Navbar({
             <select
               value={selectedCity}
               onChange={(e) => onCityChange(e.target.value as City)}
+              aria-label="選擇縣市"
               className="h-9 appearance-none rounded-xl border border-neutral-200 bg-transparent pl-4 pr-10 text-sm font-medium text-black hover:bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-black/5 dark:border-neutral-800 dark:text-white dark:hover:bg-neutral-900 dark:focus:ring-white/10"
             >
               {cityRegistry.getCityOptions().map((option) => (
@@ -114,7 +116,7 @@ export function Navbar({
           <button
             onClick={onMenuClick}
             className="flex h-9 w-9 items-center justify-center rounded-xl text-black hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-800"
-            aria-label="Menu"
+            aria-label="開啟選單"
           >
             <Menu className="w-5 h-5" />
           </button>

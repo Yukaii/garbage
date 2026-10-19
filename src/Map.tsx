@@ -654,7 +654,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   // Handle geolocation
   const handleLocate = () => {
     if (!navigator.geolocation) {
-      alert('您的瀏覽器不支援定位功能');
+      alert('你的瀏覽器不支援定位功能');
       return;
     }
 
@@ -673,7 +673,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       },
       (error) => {
         console.error('定位錯誤:', error);
-        alert('無法取得您的位置，請檢查瀏覽器權限設定');
+        alert('無法取得目前位置，請確認已開啟瀏覽器的定位權限');
         setIsLocating(false);
       },
       {
@@ -887,7 +887,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         const timeStatus = getTimeStatus(popupInfo.arrivalTime, popupInfo.departureTime, currentTimeMinutes);
         const timeDiff = getTimeDifferenceInMinutes(popupInfo.arrivalTime, currentTimeMinutes);
         const statusColor = timeStatus === 'active' ? '#22c55e' : timeStatus === 'upcoming' ? '#eab308' : '#a3a3a3';
-        const statusText = timeStatus === 'active' ? '營運中' : timeStatus === 'upcoming' ? '即將抵達' : '已結束';
+        const statusText = timeStatus === 'active' ? '收運中' : timeStatus === 'upcoming' ? '即將抵達' : '已結束';
         const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${popupInfo.latitude},${popupInfo.longitude}`;
         const isPointStarred = starredPointIds.includes(popupInfo.id);
 
@@ -936,13 +936,13 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
                 </span>
               </div>
               <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>地點:</strong> {popupInfo.location}
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>地點：</strong>{popupInfo.location}
               </p>
               <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>路線:</strong> {popupInfo.route}
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>路線：</strong>{popupInfo.route}
               </p>
               <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>到達:</strong> {formatTime(popupInfo.arrivalTime)}
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>抵達：</strong>{formatTime(popupInfo.arrivalTime)}
                 {timeStatus === 'upcoming' && (
                   <span style={{ marginLeft: '6px', fontSize: '11px', color: statusColor, fontWeight: '500' }}>
                     ({formatTimeDifference(timeDiff)})
@@ -950,7 +950,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
                 )}
               </p>
               <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>離開:</strong> {formatTime(popupInfo.departureTime)}
+                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>離開：</strong>{formatTime(popupInfo.departureTime)}
               </p>
               {/* Action buttons row */}
               <div style={{
@@ -1116,7 +1116,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
             }`}>
               {truckPosition.status === 'active' && `🚛 行駛中 ${Math.round(truckPosition.progress * 100)}%`}
               {truckPosition.status === 'before' && '⏰ 尚未出發'}
-              {truckPosition.status === 'after' && `✓ 已完成 (${filteredPoints.length}站)`}
+              {truckPosition.status === 'after' && `✓ 已完成 (${filteredPoints.length} 站)`}
             </div>
           </div>
         </Marker>
@@ -1190,7 +1190,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
             <button
               onClick={() => onRouteSelect(null)}
               className="ml-2 flex h-7 w-7 items-center justify-center rounded-md border border-neutral-300 text-neutral-700 transition-all hover:border-neutral-400 hover:bg-neutral-100 dark:border-neutral-700 dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:bg-neutral-800"
-              aria-label="Clear route selection"
+              aria-label="取消選取路線"
             >
               <X className="h-4 w-4" />
             </button>
@@ -1237,6 +1237,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
             </div>
             <button
               onClick={onCloseStarredList}
+              aria-label="關閉收藏列表"
               className="flex h-8 w-8 items-center justify-center rounded-md text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800"
             >
               <X className="h-5 w-5" />
@@ -1251,7 +1252,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
                   尚未收藏任何站點
                 </p>
                 <p className="text-xs text-neutral-400 dark:text-neutral-500 mt-1">
-                  點擊站點的星號圖示即可收藏
+                  點選地圖上的站標並按星號即可加入收藏
                 </p>
               </div>
             ) : (
