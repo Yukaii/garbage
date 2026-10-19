@@ -53,6 +53,19 @@ Production endpoint: **https://mcp.garbage.yukai.dev/mcp** (also accessible at `
 - `/.well-known/ai-catalog.json` — [AI Catalog](https://github.com/Agent-Card/ai-catalog) entry pointing to the Server Card (also hosted on `https://garbage.yukai.dev`).
 - `/llms.txt` — plain-text guide for LLMs.
 
+## Directory Listings
+
+- `server.json` — the [official MCP Registry](https://registry.modelcontextprotocol.io) manifest for this remote-only server. It mirrors `public/server-card.json` (same `name`, `version`, `title`, `description`, repository and remote URL) so the two never disagree.
+- Publish it with the official CLI (namespace `dev.yukai/*` requires DNS or HTTP verification of `yukai.dev` — GitHub OAuth only grants `io.github.*/*`):
+
+  ```bash
+  mcp-publisher validate server.json
+  mcp-publisher login dns --domain yukai.dev --private-key "$PRIVATE_KEY"
+  mcp-publisher publish server.json
+  ```
+
+- Step-by-step submission notes for the official registry, Smithery, Glama, PulseMCP, mcp.so and awesome-remote-mcp-servers (including the copy to paste and the manual account/DNS steps) live in [`docs/mcp-directory-submission.md`](../docs/mcp-directory-submission.md).
+
 ## Security Notes
 
 - **No authentication**: all underlying data is public government open data and every tool is strictly read-only.

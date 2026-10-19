@@ -18,7 +18,11 @@ Static React + Vite + MapLibre PWA showing garbage-truck collection points for T
 Keep these in sync when tools, cities, data fields or URLs change:
 
 - `public/llms.txt` (site guide + data-file schemas) and `mcp/public/llms.txt` (MCP guide).
+<<<<<<< HEAD
 - Static schedules live at `/<city>/` and `/<city>/<district-slug>/` (e.g. `/taipei/da-an/`). Keep stable ASCII district URLs in `scripts/district-slugs.ts`; missing mappings fail the build. City indexes link to full district tables; repeated weekday/type rows are aggregated. The homepage's `<noscript>` links expose the indexes. PWA navigation fallback excludes these city paths. `dist/sitemap.xml` is generated after Vite; do not edit a source sitemap.
+=======
+- `mcp/server.json` (official MCP Registry manifest) and `mcp/public/server-card.json` (Server Card) must agree on `name`, `version` and `description`; the registry manifest mirrors the card and only adds `remotes`/`icons`/`_meta`. Directory submission steps are in `docs/mcp-directory-submission.md`.
+>>>>>>> mcp/directory-listings
 - `public/.well-known/ai-catalog.json` → Server Card at `https://mcp.garbage.yukai.dev/mcp/server-card` (`mcp/public/server-card.json`, served with `application/mcp-server-card+json` by `mcp/vercel.json`). Card fields must not contradict `server/discover` (`serverInfo.name` is `dev.yukai/taipei-trash`, protocol `2026-07-28`).
 - The site's JSON-LD `SearchAction` targets `?q=`, which `App.tsx` reads and writes; don't advertise URL parameters the app doesn't handle.
 - GitHub Pages deploy passes `include-hidden-files: true` so `/.well-known/` ships (artifact action v4+ drops dotfiles by default).
