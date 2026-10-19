@@ -1,6 +1,22 @@
 User-agent: *
 Allow: /
 
+# AI / answer-engine crawlers are explicitly welcome. The wildcard group above
+# already allows every bot; naming these keeps the intent obvious and prevents a
+# future wildcard change from silently blocking AI search and assistants.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Google-Extended controls Gemini training/grounding use, not Google Search.
+User-agent: Google-Extended
+Allow: /
+
 # Agent-readable site guide: https://garbage.yukai.dev/llms.txt
 # MCP server: https://mcp.garbage.yukai.dev/mcp
 Sitemap: https://garbage.yukai.dev/sitemap.xml
