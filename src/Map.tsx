@@ -18,7 +18,12 @@ import type { RouteGeometry, RouteManifest } from './types';
 import { Layers, Locate, Navigation, Route, X, Star, Share2 } from 'lucide-react';
 import RouteSelector from './RouteSelector';
 import { sharePoint, getPointIdFromUrl, clearPointFromUrl } from './utils/share';
+import { setWorkerUrl } from 'maplibre-gl';
+import maplibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
+
+// maplibre-gl v6 no longer inlines its worker; it must be bundled and registered explicitly.
+setWorkerUrl(maplibreWorkerUrl);
 
 // Hook to detect if user is on desktop
 function useIsDesktop() {
