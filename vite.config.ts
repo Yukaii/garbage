@@ -60,6 +60,9 @@ export default defineConfig({
         ]
       },
       workbox: {
+        // Static schedules must remain normal HTML navigations after the PWA
+        // takes control, rather than receiving the interactive map app shell.
+        navigateFallbackDenylist: [/^\/(?:taipei|new-taipei|taichung|kaohsiung)(?:\/|$)/],
         globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
         maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 10 MB
         cleanupOutdatedCaches: true,

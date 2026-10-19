@@ -19,6 +19,13 @@ If you are an AI agent answering questions like "when does the garbage truck arr
 - `https://garbage.yukai.dev/?point=<point-id>` — flies to and opens a specific stop. IDs are prefixed with the city ID (`taipei-`, `new-taipei-`, `taichung-`, `kaohsiung-`).
 - Because the map is rendered client-side with WebGL, agents without a browser should prefer the MCP server or the JSON datasets below.
 
+## Static city and district schedules (no JavaScript required)
+
+- City indexes: [Taipei](https://garbage.yukai.dev/taipei/), [New Taipei](https://garbage.yukai.dev/new-taipei/), [Taichung](https://garbage.yukai.dev/taichung/), [Kaohsiung](https://garbage.yukai.dev/kaohsiung/). Each links to every district with published stops.
+- District pages use stable ASCII slugs, e.g. [台北市大安區垃圾車時間表](https://garbage.yukai.dev/taipei/da-an/). Follow city-index links to find district URLs; the slug map is maintained in `scripts/district-slugs.ts`.
+- District HTML tables contain routes, villages, locations, arrival times, and available collection weekdays. Repeated weekday/type records are combined into one visit; different visit times remain separate. City tables show one preview stop per district.
+- Pages and the [sitemap](https://garbage.yukai.dev/sitemap.xml) are generated at build time from the same local data as the map. The displayed build date is not the source-data update date. Taipei and Kaohsiung do not provide weekly schedules; do not assume daily collection.
+
 ## Raw data files (trimmed open-data JSON)
 
 - [Taipei](https://garbage.yukai.dev/trash-collection-points.json) (~1.4 MB): `{ result: { results: [{ _id, 行政區, 里別, 地點, 路線, 車次, 抵達時間, 離開時間, 經度, 緯度 }] } }`. Times are `HHMM` strings. No weekday field.
