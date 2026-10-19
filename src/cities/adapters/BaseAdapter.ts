@@ -10,6 +10,17 @@ export interface CityBounds {
   west: number;
 }
 
+let dataBaseUrl = '';
+
+/**
+ * Prefix for root-relative data URLs (e.g. '/trash-collection-points.json').
+ * Empty in the browser (same origin); set to the site origin when running
+ * server-side, e.g. in the MCP server.
+ */
+export function setDataBaseUrl(baseUrl: string): void {
+  dataBaseUrl = baseUrl.replace(/\/$/, '');
+}
+
 /**
  * Abstract base class for city data adapters
  *
@@ -80,7 +91,7 @@ export abstract class CityDataAdapter<TSource = any> {
    * Helper: Standard fetch implementation for JSON endpoints
    */
   protected async fetchJson<T = any>(url: string): Promise<T> {
-    const response = await fetch(url);
+    const response = await fetch(url.startsWith('/') ? dataBaseUrl + url : url);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }

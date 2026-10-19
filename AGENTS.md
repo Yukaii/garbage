@@ -9,6 +9,10 @@ Static React + Vite + MapLibre PWA showing garbage-truck collection points for T
 - `bun run typecheck` — `tsc --noEmit` over `src/` and `vite.config.ts`
 - `bun run build` — production build into `dist/`
 
+## MCP server
+
+`mcp/` is a separate Vercel project (Root Directory `mcp`) exposing the data as a read-only MCP server; the web app itself stays on GitHub Pages. It imports the adapters from `src/cities`, so keep adapter changes compatible with both (`setDataBaseUrl` in `BaseAdapter.ts` resolves their root-relative URLs outside the browser). See `mcp/README.md`.
+
 ## Tooling conventions
 
 Default to using Bun instead of Node.js for scripts and package management. The web app itself is built with **Vite** (not `Bun.serve()` HTML imports).

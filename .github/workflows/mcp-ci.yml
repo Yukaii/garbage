@@ -1,0 +1,29 @@
+name: MCP server CI
+
+on:
+  pull_request:
+    paths:
+      - 'mcp/**'
+      - 'src/cities/**'
+      - 'src/types.ts'
+  push:
+    branches: [main]
+    paths:
+      - 'mcp/**'
+      - 'src/cities/**'
+      - 'src/types.ts'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mcp
+    steps:
+      - uses: actions/checkout@v7
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.3
+      - run: bun install --frozen-lockfile
+      - run: bun run typecheck
+      - run: bun test
