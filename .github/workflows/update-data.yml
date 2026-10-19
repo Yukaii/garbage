@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout data branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: data
 
@@ -68,6 +68,8 @@ jobs:
 
       - name: Setup Bun for Kaohsiung data processing
         uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.3
 
       - name: Fetch and process Kaohsiung City data
         run: |
