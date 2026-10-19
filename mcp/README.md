@@ -35,11 +35,11 @@ This directory is its own Vercel project (`taipei-trash-mcp`), separate from the
 
 1. Import the repo in Vercel and set **Root Directory** to `mcp`.
 2. Keep **Include source files outside of the Root Directory** enabled (the default) — the function imports `../src/cities`.
-3. Add a domain such as `mcp.yukai.dev` and create the CNAME Vercel shows at your DNS provider.
+3. Add the domain (`vercel api /v10/projects/<id>/domains -X POST -F name=mcp.yukai.dev`) and create the CNAME + `_vercel` TXT records Vercel returns at your DNS provider.
 4. Optional env: `DATA_BASE_URL`, `MCP_ALLOWED_ORIGINS` (comma-separated; browser clients only).
 5. Rate limiting is a Vercel Firewall rule (`mcp-rate-limit`, 60 requests/min per IP on `/api/mcp` and `/mcp`), managed with `vercel firewall rules`.
 
-Clients connect to `https://<your-domain>/api/mcp` (also routed from `/mcp`). For stdio-only clients use `npx mcp-remote <url>`.
+Production: **https://mcp.yukai.dev/mcp** (also `/api/mcp`; fallback `https://taipei-trash-mcp.vercel.app`). DNS lives in Cloudflare: a DNS-only `mcp` CNAME to the project's Vercel target and a `_vercel` TXT verification record, managed with the Cloudflare `cf` CLI. For stdio-only clients use `npx mcp-remote <url>`.
 
 ## Security notes
 
