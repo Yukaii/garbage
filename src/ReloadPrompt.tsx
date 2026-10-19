@@ -1,23 +1,68 @@
+import { useEffect, useState } from 'react'
 import { useRegisterSW } from 'virtual:pwa-register/react'
 
+const UPDATE_CHECK_INTERVAL_MS = 60 * 60 * 1000
+const OFFLINE_READY_TOAST_MS = 4000
+
 export function ReloadPrompt() {
+  // Stays true after the prompt is dismissed: the waiting worker still needs applying.
+  const [updateWaiting, setUpdateWaiting] = useState(false)
   const {
     offlineReady: [offlineReady, setOfflineReady],
     needRefresh: [needRefresh, setNeedRefresh],
     updateServiceWorker,
   } = useRegisterSW({
-    onRegistered(r) {
-      // Check for updates every 60 seconds
-      if (r) {
-        setInterval(() => {
-          r.update()
-        }, 60000)
+    onNeedRefresh() {
+      setUpdateWaiting(true)
+    },
+    onRegisteredSW(swUrl, registration) {
+      if (!registration) return
+
+      // Drop runtime caches from the previous caching strategy (it kept the ~50 MB
+      // Taichung file); Workbox only cleans up its precache automatically.
+      void caches.delete('data-cache')
+      void caches.delete('unpkg-cache')
+
+      const checkForUpdate = async () => {
+        if (registration.installing || !navigator.onLine) return
+        try {
+          // Probe the worker script first: registration.update() rejects noisily
+          // when the network is flaky or behind a captive portal.
+          const res = await fetch(swUrl, { cache: 'no-store', headers: { 'cache-control': 'no-cache' } })
+          if (res.status === 200) await registration.update()
+        } catch {
+          // Transient network failure; the next trigger will retry.
+        }
       }
+
+      setInterval(checkForUpdate, UPDATE_CHECK_INTERVAL_MS)
+      window.addEventListener('online', checkForUpdate)
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) checkForUpdate()
+      })
     },
     onRegisterError(error) {
       console.error('Service worker registration failed:', error)
     },
   })
+
+  // "Ready for offline" is informational: don't leave it on screen.
+  useEffect(() => {
+    if (!offlineReady) return
+    const timer = setTimeout(() => setOfflineReady(false), OFFLINE_READY_TOAST_MS)
+    return () => clearTimeout(timer)
+  }, [offlineReady, setOfflineReady])
+
+  // A dismissed prompt must not pin users to an old version forever: apply the
+  // waiting update the next time the app is backgrounded, when a reload is invisible.
+  useEffect(() => {
+    if (!updateWaiting) return
+    const applyWhenHidden = () => {
+      if (document.hidden) updateServiceWorker(true)
+    }
+    document.addEventListener('visibilitychange', applyWhenHidden)
+    return () => document.removeEventListener('visibilitychange', applyWhenHidden)
+  }, [updateWaiting, updateServiceWorker])
 
   const close = () => {
     setOfflineReady(false)

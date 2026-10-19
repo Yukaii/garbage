@@ -62,40 +62,48 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
         maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 10 MB
+        cleanupOutdatedCaches: true,
+        // Take control of open pages as soon as a worker activates (first install and
+        // user-approved updates), so offline support doesn't wait for a second visit.
+        clientsClaim: true,
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/unpkg\.com\/.*/i,
-            handler: 'CacheFirst',
+            // City point data changes monthly: serve the cached copy instantly and
+            // refresh it in the background, instead of blocking on the network
+            // (Taichung's file is ~50 MB).
+            urlPattern: ({ sameOrigin, url }) => sameOrigin && /-?trash-collection-points\.json$/.test(url.pathname),
+            handler: 'StaleWhileRevalidate',
             options: {
-              cacheName: 'unpkg-cache',
+              cacheName: 'city-data',
               expiration: {
-                maxEntries: 10,
+                maxEntries: 6,
                 maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
               },
               cacheableResponse: {
-                statuses: [0, 200]
+                statuses: [200]
               }
             }
           },
           {
-            urlPattern: /.*\.json$/i,
-            handler: 'NetworkFirst',
+            // Route geometry is fetched from a CDN pinned to a data-branch commit, so
+            // each URL is immutable. Kept in its own cache so it can't evict city data.
+            urlPattern: ({ url }) => url.hostname === 'rawcdn.githack.com' && url.pathname.endsWith('.geojson'),
+            handler: 'CacheFirst',
             options: {
-              cacheName: 'data-cache',
-              networkTimeoutSeconds: 10,
+              cacheName: 'route-geometry',
               expiration: {
-                maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 // 24 hours
+                maxEntries: 300,
+                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
               },
               cacheableResponse: {
-                statuses: [0, 200]
+                statuses: [200]
               }
             }
           }
         ]
       },
       devOptions: {
-        enabled: true
+        enabled: false
       }
     })
   ],
