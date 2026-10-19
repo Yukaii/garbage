@@ -72,8 +72,30 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    env:
+      # Empty unless the repository secret is configured. Optional IndexNow steps
+      # below check this value, so they are skipped without failing the deploy.
+      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
 
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+      # IndexNow notifies Bing, Yandex, Naver and Seznam about the sitemap URLs.
+      # Optional: runs only when INDEXNOW_KEY exists, after the deploy succeeded,
+      # and a submission failure must not fail the deployment.
+      - name: Checkout sitemap for IndexNow
+        if: env.INDEXNOW_KEY != ''
+        uses: actions/checkout@v7
+
+      - name: Setup Bun for IndexNow
+        if: env.INDEXNOW_KEY != ''
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.3
+
+      - name: Submit sitemap to IndexNow
+        if: env.INDEXNOW_KEY != ''
+        continue-on-error: true
+        run: bun scripts/indexnow.ts
