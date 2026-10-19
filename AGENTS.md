@@ -13,6 +13,15 @@ Static React + Vite + MapLibre PWA showing garbage-truck collection points for T
 
 `mcp/` is a separate Vercel project (Root Directory `mcp`) exposing the data as a read-only MCP server; the web app itself stays on GitHub Pages. It imports the adapters from `src/cities`, so keep adapter changes compatible with both (`setDataBaseUrl` in `BaseAdapter.ts` resolves their root-relative URLs outside the browser; `fetchData({ allDays: true })` skips Taichung's today-only filter). Weekly schedules live in the optional `schedule` field; New Taipei's comes from the compact `*Days` fields that `.github/actions/trim-data.sh` writes into the published JSON. Live at https://mcp.garbage.yukai.dev/mcp. See `mcp/README.md`.
 
+## Agent discovery metadata
+
+Keep these in sync when tools, cities, data fields or URLs change:
+
+- `public/llms.txt` (site guide + data-file schemas) and `mcp/public/llms.txt` (MCP guide).
+- `public/.well-known/ai-catalog.json` → Server Card at `https://mcp.garbage.yukai.dev/mcp/server-card` (`mcp/public/server-card.json`, served with `application/mcp-server-card+json` by `mcp/vercel.json`). Card fields must not contradict `server/discover` (`serverInfo.name` is `dev.yukai/taipei-trash`, protocol `2026-07-28`).
+- The site's JSON-LD `SearchAction` targets `?q=`, which `App.tsx` reads and writes; don't advertise URL parameters the app doesn't handle.
+- GitHub Pages deploy passes `include-hidden-files: true` so `/.well-known/` ships (artifact action v4+ drops dotfiles by default).
+
 ## Tooling conventions
 
 Default to using Bun instead of Node.js for scripts and package management. The web app itself is built with **Vite** (not `Bun.serve()` HTML imports).

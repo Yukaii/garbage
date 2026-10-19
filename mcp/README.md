@@ -41,6 +41,12 @@ This directory is its own Vercel project (`taipei-trash-mcp`), separate from the
 
 Production: **https://mcp.garbage.yukai.dev/mcp** (also `/api/mcp`; fallback `https://taipei-trash-mcp.vercel.app`). DNS lives in Cloudflare: a DNS-only `mcp` CNAME to the project's Vercel target and a `_vercel` TXT verification record, managed with the Cloudflare `cf` CLI. For stdio-only clients use `npx mcp-remote <url>`.
 
+## Discovery
+
+- `/mcp/server-card` — [MCP Server Card](https://github.com/modelcontextprotocol/experimental-ext-server-card) (SEP-2127), `application/mcp-server-card+json`; source `public/server-card.json`.
+- `/.well-known/ai-catalog.json` — [AI Catalog](https://github.com/Agent-Card/ai-catalog) entry pointing at the card (also published on https://garbage.yukai.dev).
+- `/llms.txt` — plain-text guide for LLMs. These specs are young (SEP-2127 merged 2026-10-06; llms.txt is a community proposal), so treat them as best-effort signals alongside the protocol's own `server/discover`.
+
 ## Security notes
 
 - No auth: the data is public and every tool is read-only.

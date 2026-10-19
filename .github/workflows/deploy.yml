@@ -63,6 +63,8 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: ./dist
+          # upload-pages-artifact v4+ skips dotfiles; /.well-known/ must ship
+          include-hidden-files: true
 
   deploy:
     environment:

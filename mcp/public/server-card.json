@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
+  "name": "dev.yukai/taipei-trash",
+  "version": "0.1.0",
+  "title": "Taiwan Garbage Truck Map",
+  "description": "Garbage truck stops and arrival times for Taipei, New Taipei, Taichung and Kaohsiung.",
+  "websiteUrl": "https://garbage.yukai.dev",
+  "repository": {
+    "url": "https://github.com/Yukaii/garbage",
+    "source": "github",
+    "subfolder": "mcp"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.garbage.yukai.dev/mcp",
+      "supportedProtocolVersions": ["2026-07-28"]
+    }
+  ]
+}

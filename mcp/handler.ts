@@ -2,7 +2,7 @@ import { createMcpHandler } from 'mcp-handler';
 import { registerTools } from './src/server';
 
 const mcp = createMcpHandler(registerTools, {
-  serverInfo: { name: 'taipei-trash', version: '0.1.0' },
+  serverInfo: { name: 'dev.yukai/taipei-trash', version: '0.1.0' },
   instructions:
     'Garbage-truck collection points and arrival times for Taipei, New Taipei, Taichung and Kaohsiung. ' +
     'Use find_nearby_points with coordinates, or search_points with a district/road name, then get_schedule for a full route. ' +

@@ -1,0 +1,25 @@
+# taipei-trash MCP server
+
+> Read-only Model Context Protocol server for garbage-truck stops and arrival times in Taipei, New Taipei, Taichung and Kaohsiung (Taiwan). No authentication. Times are Asia/Taipei local time.
+
+## Connect
+
+- [MCP endpoint](https://mcp.garbage.yukai.dev/mcp): Streamable HTTP, stateless. Serves the 2026-07-28 MCP revision; 2025-era clients are handled through the SDK's stateless fallback.
+- [Server Card](https://mcp.garbage.yukai.dev/mcp/server-card): `application/mcp-server-card+json`, for pre-connection discovery.
+- [AI Catalog](https://mcp.garbage.yukai.dev/.well-known/ai-catalog.json): domain-level discovery.
+- Client config: `{ "mcpServers": { "taipei-trash": { "url": "https://mcp.garbage.yukai.dev/mcp" } } }`. For stdio-only clients: `npx mcp-remote https://mcp.garbage.yukai.dev/mcp`.
+- Browser clients: requests carrying an `Origin` header are rejected (403) unless the origin is allow-listed. Native and server-side clients send none.
+- Rate limit: 60 requests per minute per IP.
+
+## Tools
+
+- `list_cities`: supported cities with ids (`taipei`, `new-taipei`, `taichung`, `kaohsiung`) and bounding boxes.
+- `find_nearby_points`: `lat`, `lng`, optional `radiusMeters` (50–2000, default 500), `limit` (1–20), `city`. Nearest stops first.
+- `search_points`: `city`, `query` (district / village / road / route text, Traditional Chinese, all terms must match), optional `limit`.
+- `get_schedule`: `pointId` from the other tools; returns the stop plus every stop on its route in arrival order.
+- Each point: `id`, `city`, `district`, `village`, `location`, `route`, `arrivalTime`, `departureTime` (HH:MM), `latitude`, `longitude`, and for New Taipei and Taichung a weekly `schedule` (type → ISO weekdays, Mon=1 … Sun=7) plus `servesToday`.
+
+## Docs
+
+- [README](https://github.com/Yukaii/garbage/blob/main/mcp/README.md)
+- [Web app](https://garbage.yukai.dev) and its [llms.txt](https://garbage.yukai.dev/llms.txt)

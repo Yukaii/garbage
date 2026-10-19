@@ -31,7 +31,8 @@ function App() {
   const [mapLoaded, setMapLoaded] = useState(false);
   const [initialLoadComplete, setInitialLoadComplete] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [searchTerm, setSearchTerm] = useState('');
+  // `?q=` makes searches linkable (and is the target of the site's SearchAction structured data)
+  const [searchTerm, setSearchTerm] = useState(() => new URLSearchParams(window.location.search).get('q') ?? '');
   const [filteredPoints, setFilteredPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
   const [timeFilterMode, setTimeFilterMode] = useState<TimeFilterMode>('all');
   const [showStarredOnly, setShowStarredOnly] = useState(false);
@@ -82,6 +83,14 @@ function App() {
   const initialLoading = !initialLoadComplete || !mapLoaded;
   // Data updating state: show subtle indicator instead of blocking UI
   const isUpdatingData = !dataLoaded;
+
+  // Keep the search term in the URL so a search can be shared or deep-linked
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    if (searchTerm) url.searchParams.set('q', searchTerm);
+    else url.searchParams.delete('q');
+    if (url.href !== window.location.href) window.history.replaceState(null, '', url);
+  }, [searchTerm]);
 
   // Initialize theme color on mount
   useEffect(() => {

@@ -1,0 +1,39 @@
+# 垃圾車地圖 (Taiwan Garbage Truck Map)
+
+> Interactive map and open data of garbage and recycling truck stops, with arrival times, for Taipei, New Taipei, Taichung and Kaohsiung. Data comes from each city's open-data platform and is refreshed monthly. Times are Asia/Taipei local time.
+
+If you are an AI agent answering "when does the garbage truck come to X?", use the MCP server first: it returns normalized, queryable results (nearest stops, text search, full route schedules) and avoids downloading large files. The raw JSON files below are for bulk analysis.
+
+## MCP server (recommended)
+
+- [MCP endpoint](https://mcp.garbage.yukai.dev/mcp): Streamable HTTP, read-only, no authentication. Tools: `list_cities`, `find_nearby_points` (lat/lng + radius), `search_points` (district / village / road text, Traditional Chinese), `get_schedule` (a stop plus its whole route in arrival order).
+- [Server Card](https://mcp.garbage.yukai.dev/mcp/server-card): MCP Server Card for pre-connection discovery. Domain-level discovery: [AI Catalog](https://garbage.yukai.dev/.well-known/ai-catalog.json).
+- [MCP server docs](https://github.com/Yukaii/garbage/blob/main/mcp/README.md): tools, schemas, deployment.
+- New Taipei and Taichung points carry a weekly `schedule` (collection type → ISO weekdays, Mon=1 … Sun=7) and `servesToday`. Taipei and Kaohsiung publish no weekday data.
+
+## Web app deep links
+
+- `https://garbage.yukai.dev/?q=<text>`: pre-filled search over district, village, location and route (e.g. `?q=大安區`).
+- `https://garbage.yukai.dev/?lat=<lat>&lng=<lng>&zoom=<z>`: map centered on a coordinate.
+- `https://garbage.yukai.dev/?point=<point-id>`: opens one stop. Ids are prefixed with the city id (`taipei-`, `new-taipei-`, `taichung-`, `kaohsiung-`).
+- The app is rendered client-side; the map itself is not readable without JavaScript, so prefer the MCP server or the data files.
+
+## Raw data files (JSON, trimmed copies of the open data)
+
+- [Taipei](https://garbage.yukai.dev/trash-collection-points.json) (~1.4 MB): `{ result: { results: [{ _id, 行政區, 里別, 地點, 路線, 車次, 抵達時間, 離開時間, 經度, 緯度 }] } }`. Times are `HHMM` strings. No weekday data.
+- [New Taipei](https://garbage.yukai.dev/new-taipei-trash-collection-points.json) (~9 MB): array of `{ city (district), lineid, linename, rank, name, village, longitude, latitude, time (HH:MM), garbageDays, recyclingDays, foodscrapsDays }`. The `*Days` fields are ISO weekdays as digits, e.g. `"1245"` = Mon, Tue, Thu, Fri.
+- [Kaohsiung](https://garbage.yukai.dev/kaohsiung-trash-collection-points.json) (~3 MB): array of `{ area, village, route, location, type, arrivalTime, departureTime, longitude, latitude, collectionType }`. No weekday data.
+- [Taichung](https://garbage.yukai.dev/taichung-trash-collection-points.json) (~50 MB, avoid unless you need all of it): array of `{ area, village, route, location, arrivalTime, departureTime, longitude, latitude, dayOfWeek (1=Mon … 7=Sun), collectionType (garbage | recycling) }`. One row per stop, weekday and type.
+- Coordinates are WGS84 strings. Stop and route data is only as accurate as the city's published data; routes can change without notice.
+
+## Docs and source
+
+- [Source code](https://github.com/Yukaii/garbage)
+- [Data fetching and pipeline](https://github.com/Yukaii/garbage/blob/main/docs/data-fetching-mechanism.md)
+- [Adding a city](https://github.com/Yukaii/garbage/blob/main/docs/adding-new-city-data.md)
+- [Contributor and agent conventions](https://github.com/Yukaii/garbage/blob/main/AGENTS.md)
+
+## Optional
+
+- [Sitemap](https://garbage.yukai.dev/sitemap.xml)
+- [Report a missing city or wrong data](https://github.com/Yukaii/garbage/issues)
