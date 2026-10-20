@@ -1,6 +1,6 @@
 # Taiwan Garbage Truck Map — MCP Server
 
-Read-only [Model Context Protocol](https://modelcontextprotocol.io) server for the garbage-truck dataset powering [garbage.yukai.dev](https://garbage.yukai.dev). Built on `mcp-handler` 2.x and `@modelcontextprotocol/server` 2.x, exposing a single stateless Streamable HTTP endpoint compatible with both the `2026-07-28` spec and 2025-era clients.
+Read-only [Model Context Protocol](https://modelcontextprotocol.io) server for the garbage-truck dataset powering [garbage.yukai.dev](https://garbage.yukai.dev). Built on `mcp-handler` 2.x and `@modelcontextprotocol/server` 2.x, exposing a single stateless Streamable HTTP endpoint supporting MCP protocol versions `2025-11-25`, `2025-06-18`, and `2025-03-26`.
 
 The server reuses the web app's city adapters (`../src/cities`), keeping field mappings identical across the site and MCP responses. Data is fetched from the published JSON files (`DATA_BASE_URL`, defaulting to `https://garbage.yukai.dev`) and cached in memory for one hour per warm instance. Cities load lazily on demand (note: Taichung's dataset is ~50 MB, taking ~1 s on cold load and ~400 MB RSS in memory).
 
