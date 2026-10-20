@@ -16,7 +16,7 @@
 | 顯示名稱（中文） | 台灣垃圾車地圖 |
 | 顯示名稱（英文） | Taiwan Garbage Truck Map |
 | MCP 端點 | `https://mcp.garbage.yukai.dev/mcp`（Streamable HTTP、stateless） |
-| 傳輸協定 | `streamable-http`（`2025-11-25` / 2025 年各版本皆可交談） |
+| 傳輸協定 | `streamable-http`（`2025-11-25`、`2025-06-18`、`2025-03-26`） |
 | 驗證 | 無需驗證（免金鑰、唯讀） |
 | 網站 | https://garbage.yukai.dev |
 | 伺服器卡片 | https://mcp.garbage.yukai.dev/mcp/server-card |
@@ -93,7 +93,7 @@ curl -s https://mcp.garbage.yukai.dev/mcp/server-card
 - **瀏覽器來源限制**：伺服器會拒絕帶有 `Origin` 標頭、且該來源不在 `MCP_ALLOWED_ORIGINS` 白名單內的請求（回 `403`）。原生 / 伺服器端客戶端不會送 `Origin`，因此 Smithery、Glama 等掃描器不受影響；但若希望**在瀏覽器內**使用（例如 Glama Inspector、Claude 網頁版）能連線，需把該來源加入 Vercel 專案的 `MCP_ALLOWED_ORIGINS` 環境變數（見第 8 節）。
 - **速率限制**：每 IP 每分鐘 60 次請求（Vercel Firewall 規則 `mcp-rate-limit`）。
 - **冷啟動**：台中市資料約 50 MB，首次載入約需 1 秒、記憶體約 400 MB。
-- **協定版本**：線上端點在 `initialize` 時會協商到 `2025-11-25`（2025 年各版本皆可）。`mcp/public/server-card.json` 目前宣告 `supportedProtocolVersions: ["2026-07-28"]`；若要對外宣稱支援該版本，請先確認線上 SDK 確實支援（見第 8 節待辦）。
+- **協定版本**：本機與線上端點已於 2026-10-20 實測 `initialize`，支援 `2025-11-25`、`2025-06-18`、`2025-03-26`，Server Card 同步列出這三個版本。請求 `2026-07-28` 時會協商回 `2025-11-25`，因此不宣稱支援該版本。現有 handler 不提供 `server/discover`；以 `initialize` 回應檢查伺服器名稱及版本。
 
 ---
 
@@ -366,7 +366,7 @@ mcp.so 為**付費提交**：一次性發布費 **US$39**。可選加購項目�
 | 8 | PulseMCP：等待恢復收件 | 恢復後補交表單 |
 | 9 | mcp.so：付款 US$39 並送出 | Remote Server 表單 |
 | 10 | awesome-remote-mcp-servers：star / fork / 開 PR | 標題加 `🤖🤖🤖` |
-| 11 | 確認 server card 的協定版本宣告 | 線上端點目前協商到 `2025-11-25`；`mcp/public/server-card.json` 宣告 `2026-07-28`，若要保留請先確認 SDK 支援 |
+| 11 | 協定版本一致性（已修正） | Server Card 列出已實測的 `2025-11-25`、`2025-06-18`、`2025-03-26`；升級 SDK 時重新檢查 `initialize` |
 | 12 | 版本同步 | 改版時同步 `mcp/server.json`、`mcp/public/server-card.json`、`mcp/handler.ts` 的 `serverInfo.version` |
 
 ---

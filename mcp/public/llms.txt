@@ -4,7 +4,7 @@
 
 ## Connect
 
-- [MCP endpoint](https://mcp.garbage.yukai.dev/mcp): Streamable HTTP, stateless. Supports the `2026-07-28` MCP specification as well as 2025-era clients via stateless fallback.
+- [MCP endpoint](https://mcp.garbage.yukai.dev/mcp): Streamable HTTP, stateless. Supports MCP protocol versions `2025-11-25`, `2025-06-18`, and `2025-03-26`.
 - [Server Card](https://mcp.garbage.yukai.dev/mcp/server-card): `application/mcp-server-card+json`, for pre-connection discovery.
 - [AI Catalog](https://mcp.garbage.yukai.dev/.well-known/ai-catalog.json): domain-level agent discovery.
 - Client config: `{ "mcpServers": { "taipei-trash": { "url": "https://mcp.garbage.yukai.dev/mcp" } } }`. For stdio-only clients: `npx mcp-remote https://mcp.garbage.yukai.dev/mcp`.
