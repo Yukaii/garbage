@@ -2147,8 +2147,16 @@
             25.061159
           ],
           [
+            121.602823,
+            25.061078
+          ],
+          [
             121.602732,
             25.061067
+          ],
+          [
+            121.602743,
+            25.061008
           ],
           [
             121.602835,
@@ -2181,7 +2189,7 @@
         "city": "taipei",
         "source_file": "taipei/taipei-1-193d23-1-ebe684.geojson",
         "distance_km": 13.427,
-        "duration_min": 25.35645,
+        "duration_min": 25.35686666666667,
         "valhalla_config": "valhalla.json"
       }
     }

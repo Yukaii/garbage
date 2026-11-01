@@ -103,6 +103,10 @@
             25.107395
           ],
           [
+            121.532573,
+            25.107076
+          ],
+          [
             121.532555,
             25.107007
           ],
@@ -111,8 +115,8 @@
             25.106965
           ],
           [
-            121.532458,
-            25.106952
+            121.532469,
+            25.106954
           ]
         ]
       },
@@ -120,8 +124,8 @@
         "routeId": "taipei-2-e8cbe1-1-ebe684",
         "city": "taipei",
         "source_file": "taipei/taipei-2-e8cbe1-1-ebe684.geojson",
-        "distance_km": 0.825,
-        "duration_min": 1.8688833333333332,
+        "distance_km": 0.824,
+        "duration_min": 1.8588,
         "valhalla_config": "valhalla.json"
       }
     }
