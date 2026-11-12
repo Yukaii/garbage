@@ -35,7 +35,7 @@ Then connect to `http://localhost:3939/api/mcp`.
 
 ## Deployment (Vercel)
 
-This directory is deployed as a standalone Vercel project (`taipei-trash-mcp`), separate from the GitHub Pages web app. The serverless function is bundled with esbuild at build time (`bun run build` → `api/mcp.js`) so that extensionless TypeScript imports in `../src/cities` resolve cleanly in Node ESM. Pushes to `main` deploy production through Vercel's Git integration; the `ignoreCommand` in `vercel.json` skips builds when nothing the server uses changed. Manual fallback: `vercel deploy --prod` from the repo root.
+This directory is deployed as a standalone Vercel project (`taipei-trash-mcp`), separate from the GitHub Pages web app. The serverless function is bundled with esbuild at build time (`bun run build` → `api/mcp.js`) so that extensionless TypeScript imports in `../src/cities` resolve cleanly in Node ESM. Pushes to `main` deploy production through Vercel's Git integration; the ignore step (`scripts/should-build.mjs`) skips builds when nothing the server uses changed. It checks GitHub's compare API rather than `git diff`, since the build has no `.git`, and builds whenever it can't tell. The `data` branch disables Vercel deployments with its own `mcp/vercel.json`. Manual fallback: `vercel deploy --prod` from the repo root.
 
 To deploy from the **repository root** (`.vercelignore` keeps the upload minimal):
 
