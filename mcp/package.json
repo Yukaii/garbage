@@ -5,7 +5,7 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "bun test",
-    "build": "esbuild handler.ts --bundle --platform=node --target=node22 --format=esm --banner:js=\"import{createRequire}from'module';const require=createRequire(import.meta.url);\" --outfile=api/mcp.js"
+    "build": "esbuild handler.ts --bundle --platform=node --target=node22 --format=esm --banner:js=\"import{createRequire}from'module';const require=createRequire(import.meta.url);\" --outfile=dist/handler.js"
   },
   "dependencies": {
     "@modelcontextprotocol/server": "^2.3.1",
