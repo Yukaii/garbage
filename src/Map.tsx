@@ -8,11 +8,11 @@ import {
   getTimeStatus,
   getTimeDifferenceInMinutes,
   formatTimeDifference,
-  parseTimeToMinutes,
   interpolateTruckPosition,
   fetchRouteGeometry,
   fetchRouteManifest,
   fetchRouteMetadata,
+  compareRouteOrder,
 } from './api';
 import type { RouteGeometry, RouteManifest } from './types';
 import { Layers, Locate, Navigation, Route, X, Star, Share2 } from 'lucide-react';
@@ -216,14 +216,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     if (!selectedRoute || filteredPoints.length === 0) return null;
 
     // Sort filtered points
-    const sortedPoints = [...filteredPoints].sort((a, b) => {
-      if (a.source === 'new-taipei') {
-        const rankA = parseInt(a.id.split('-').pop() || '0');
-        const rankB = parseInt(b.id.split('-').pop() || '0');
-        return rankA - rankB;
-      }
-      return parseTimeToMinutes(a.arrivalTime) - parseTimeToMinutes(b.arrivalTime);
-    });
+    const sortedPoints = [...filteredPoints].sort(compareRouteOrder);
 
     return interpolateTruckPosition(sortedPoints, currentTimeMinutes);
   }, [selectedRoute, filteredPoints, currentTimeMinutes]);
@@ -431,14 +424,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     }
 
     // Fallback: create straight-line connection between points
-    const sortedPoints = [...filteredPoints].sort((a, b) => {
-      if (a.source === 'new-taipei') {
-        const rankA = parseInt(a.id.split('-').pop() || '0');
-        const rankB = parseInt(b.id.split('-').pop() || '0');
-        return rankA - rankB;
-      }
-      return parseTimeToMinutes(a.arrivalTime) - parseTimeToMinutes(b.arrivalTime);
-    });
+    const sortedPoints = [...filteredPoints].sort(compareRouteOrder);
 
     return {
       type: 'FeatureCollection' as const,

@@ -129,30 +129,26 @@ bun scripts/process-tgos-results.ts data/taichung-tgos-merged-results.csv
 
 **Output:**
 - `data/taichung-geocoded.json` - All geocoded addresses
-- `data/taichung-geocode-lookup.json` - Address → coordinates map
+- `data/geocode/taichung.json` - Address → coordinates cache (local copy seeded from the data branch's `geocode/`; new results are merged in)
 - `data/taichung-geocoding-failed.json` - Failed addresses
 
 ---
 
-### `merge-taichung-data.ts`
-**Purpose:** Merge Taichung schedule data with geocoded coordinates.
+### `data/update.ts` (data refresh)
+**Purpose:** Refresh one city from its open-data portal, the way the weekly `update-data.yml` workflow does.
 
 **Usage:**
 ```bash
-bun scripts/merge-taichung-data.ts
+bun run update-data taipei            # writes public/trash-collection-points.json
+bun run update-data taichung --geocode-dir data/geocode   # try a local cache
 ```
 
 **What it does:**
-1. Fetches full schedule from Taichung API
-2. Loads geocoded coordinates
-3. Merges schedule with coordinates using address as key
-4. Expands into daily collection points (day 1-7 × garbage/recycling)
+1. Fetches every page from the city's API (with retries and timeouts)
+2. Taichung/Kaohsiung: joins addresses to the data branch's `geocode/<city>.json`; addresses not in the cache go to `<out>/reports/<city>-missing-geocodes.txt`
+3. Validates the result (record floor, ≤20% shrink vs. published, coordinates in Taiwan, HHMM times) and refuses to write if it fails
 
-**Output:**
-- `data/taichung-trash-collection-points.json` - Final merged data
-
-**Requirements:**
-- `data/taichung-geocode-lookup.json` must exist
+To geocode new addresses, feed the missing-geocodes report through the TGOS steps above; `process-tgos-results.ts` merges the results into a local copy of the cache, which you then commit to the data branch.
 
 ---
 

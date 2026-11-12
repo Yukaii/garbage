@@ -7,7 +7,8 @@
  * Usage: bun scripts/prepare-tgos-batch.ts
  */
 
-const TAICHUNG_API = 'https://datacenter.taichung.gov.tw/swagger/OpenData/68d1a87f-7baa-4b50-8408-c36a3a7eda68?limit=10000';
+// Moved from datacenter.taichung.gov.tw (no longer resolves); see scripts/data/sources.ts
+const TAICHUNG_API = 'https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=68d1a87f-7baa-4b50-8408-c36a3a7eda68';
 
 interface TaichungRecord {
   area: string;

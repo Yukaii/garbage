@@ -75,7 +75,7 @@ bun scripts/process-tgos-results.ts data/taichung-tgos-merged-results.csv
 
 This generates:
 - `data/taichung-geocoded.json` - Full geocoded data with metadata
-- `data/taichung-geocode-lookup.json` - Address → coordinates lookup map
+- `data/geocode/taichung.json` - Address → coordinates cache (local copy of the data branch's `geocode/taichung.json`; new results are merged in)
 - `data/taichung-geocoding-failed.json` - Failed addresses with reasons (if any)
 
 ### Step 6: Integrate into Application
@@ -127,13 +127,11 @@ If map points appear in wrong locations:
 ## Next Steps
 
 After geocoding is complete:
-1. Commit `data/taichung-geocode-lookup.json` to git
-2. Update `src/api.ts` to load and use geocoded coordinates
-3. Enable Taichung in the city selector
-4. Test the map with Taichung data
+1. Copy `data/geocode/<city>.json` to `geocode/<city>.json` on the data branch and push
+2. Re-run the **Update Trash Collection Data** workflow; `scripts/data/update.ts` joins addresses to the cache and reports any still missing
 
 ## References
 
 - TGOS: https://www.tgos.tw/
-- Taichung Open Data: https://datacenter.taichung.gov.tw/
+- Taichung Open Data: https://data.gov.tw/dataset/84004
 - TWD97 to WGS84 conversion: https://github.com/pyproj4/pyproj

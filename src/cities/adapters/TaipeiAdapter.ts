@@ -1,4 +1,5 @@
 import { CityDataAdapter } from './BaseAdapter';
+import { stablePointId } from '../pointId';
 import type { TaipeiTrashCollectionPoint, TaipeiApiResponse, UnifiedTrashCollectionPoint } from '../../types';
 
 /**
@@ -34,7 +35,8 @@ export class TaipeiAdapter extends CityDataAdapter<TaipeiTrashCollectionPoint> {
 
   mapToUnified(point: TaipeiTrashCollectionPoint): UnifiedTrashCollectionPoint {
     return {
-      id: `taipei-${point._id}`,
+      // `_id` is the row number of each import, so it can't identify a stop across refreshes
+      id: stablePointId('taipei', point.路線, point.車次, point.地點),
       city: this.displayName,
       district: point.行政區,
       village: point.里別,

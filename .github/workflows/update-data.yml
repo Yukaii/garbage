@@ -1,176 +1,162 @@
 name: Update Trash Collection Data
 
+# Refreshes each city from its open-data portal (scripts/data/update.ts), publishes
+# whatever passed validation to the `data` branch, and redeploys the site when a
+# city's data changed. One city failing never blocks the others, and any failure
+# opens (or comments on) a `data-pipeline` issue so it can't go unnoticed.
+
 on:
   schedule:
-    # Run on the 1st day of every month at 2:00 AM UTC (10:00 AM Taipei Time)
-    - cron: '0 2 1 * *'
-  workflow_dispatch: # Allow manual trigger
+    # Mondays 02:00 UTC (10:00 Taipei). Cheap: nothing is deployed unless data changed.
+    - cron: '0 2 * * 1'
+  workflow_dispatch:
+    inputs:
+      allow_shrink:
+        description: 'Publish even if a city lost more than 20% of its records'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
 
 jobs:
-  update-data:
+  fetch:
+    name: Fetch ${{ matrix.city }}
     runs-on: ubuntu-latest
-
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        city: [taipei, new-taipei, taichung, kaohsiung]
     steps:
-      - name: Checkout data branch
-        uses: actions/checkout@v7
-        with:
-          ref: data
+      - uses: actions/checkout@v7
 
-      - name: Fetch latest data from Taipei City API
-        run: |
-          echo "Fetching Taipei City trash collection data..."
-
-          # Fetch data in batches (API limit is 1000 per request)
-          curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=0" > temp1.json
-          curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=1000" > temp2.json
-          curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=2000" > temp3.json
-          curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=3000" > temp4.json
-          curl -s "https://data.taipei/api/v1/dataset/a6e90031-7ec4-4089-afb5-361a4efe7202?scope=resourceAquire&limit=1000&offset=4000" > temp5.json
-
-          # Merge all batches into a single JSON file
-          jq -s '{result: {count: .[0].result.count, limit: ((.[0].result.results | length) + (.[1].result.results | length) + (.[2].result.results | length) + (.[3].result.results | length) + (.[4].result.results | length)), offset: 0, sort: "", results: (.[0].result.results + .[1].result.results + .[2].result.results + .[3].result.results + .[4].result.results)}}' temp1.json temp2.json temp3.json temp4.json temp5.json > trash-collection-points.json
-
-          # Clean up temporary files
-          rm temp*.json
-
-          # Display stats
-          RECORD_COUNT=$(jq '.result.results | length' trash-collection-points.json)
-          FILE_SIZE=$(du -h trash-collection-points.json | cut -f1)
-          echo "Fetched $RECORD_COUNT Taipei City records"
-          echo "File size: $FILE_SIZE"
-
-      - name: Fetch latest data from New Taipei City API
-        run: |
-          echo "Fetching New Taipei City trash collection data..."
-
-          # Fetch data in pages (API returns paginated data with page size 10000)
-          # Page 0: 10,000 entries
-          # Page 1: 10,000 entries
-          # Page 2: 6,822 entries
-          # Total: 26,822 entries across 29 districts
-          curl -s "https://data.ntpc.gov.tw/api/datasets/edc3ad26-8ae7-4916-a00b-bc6048d19bf8/json?page=0&size=10000" > ntpc-page0.json
-          curl -s "https://data.ntpc.gov.tw/api/datasets/edc3ad26-8ae7-4916-a00b-bc6048d19bf8/json?page=1&size=10000" > ntpc-page1.json
-          curl -s "https://data.ntpc.gov.tw/api/datasets/edc3ad26-8ae7-4916-a00b-bc6048d19bf8/json?page=2&size=10000" > ntpc-page2.json
-
-          # Merge all pages into a single JSON array
-          jq -s 'add' ntpc-page0.json ntpc-page1.json ntpc-page2.json > new-taipei-trash-collection-points.json
-
-          # Clean up temporary files
-          rm ntpc-page*.json
-
-          # Display stats
-          NTPC_RECORD_COUNT=$(jq 'length' new-taipei-trash-collection-points.json)
-          NTPC_FILE_SIZE=$(du -h new-taipei-trash-collection-points.json | cut -f1)
-          NTPC_DISTRICTS=$(jq '[.[].city] | unique | length' new-taipei-trash-collection-points.json)
-          echo "Fetched $NTPC_RECORD_COUNT New Taipei City records"
-          echo "Covering $NTPC_DISTRICTS districts"
-          echo "File size: $NTPC_FILE_SIZE"
-
-      - name: Setup Bun for Kaohsiung data processing
-        uses: oven-sh/setup-bun@v2
+      - uses: oven-sh/setup-bun@v2
         with:
           bun-version: 1.4.3
 
-      - name: Fetch and process Kaohsiung City data
+      - name: Fetch the data branch (published files + geocode caches)
+        run: git fetch --depth=1 origin data:refs/remotes/origin/data
+
+      - name: Fetch and validate
+        run: >-
+          bun scripts/data/update.ts "${{ matrix.city }}" --out out --data-ref origin/data
+          ${{ inputs.allow_shrink && '--allow-shrink' || '' }}
+
+      # Uploaded even on failure so the missing-geocode report is available
+      - uses: actions/upload-artifact@v7
+        if: ${{ !cancelled() }}
+        with:
+          name: data-${{ matrix.city }}
+          path: out/
+          if-no-files-found: ignore
+          retention-days: 30
+
+  publish:
+    name: Publish to data branch
+    needs: fetch
+    # Publish the cities that succeeded even when another one failed
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write # dispatch the deploy workflow
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          path: main
+
+      - uses: actions/checkout@v7
+        with:
+          ref: data
+          path: data
+          # Full history (without old blobs) so record-meta can date unchanged files
+          fetch-depth: 0
+          filter: blob:none
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.3
+
+      - uses: actions/download-artifact@v8
+        continue-on-error: true # no artifacts when every city failed
+        with:
+          pattern: data-*
+          path: incoming
+
+      - name: Apply refreshed files
+        id: apply
         run: |
-          echo "Fetching Kaohsiung City trash collection data..."
-
-          # Checkout main branch temporarily to get the update script
-          git fetch origin main
-          git checkout origin/main -- scripts/update-kaohsiung-data.ts data/kaohsiung-geocode-lookup.json
-
-          # Run the update script (fetches API data and merges with geocoded coords)
-          bun scripts/update-kaohsiung-data.ts
-
-          # Move the generated file to root (data branch convention)
-          mv public/kaohsiung-trash-collection-points.json ./kaohsiung-trash-collection-points.json
-
-          # Clean up checked out files
-          rm -f scripts/update-kaohsiung-data.ts data/kaohsiung-geocode-lookup.json
-
-          # Display stats
-          KAOHSIUNG_RECORD_COUNT=$(jq 'length' kaohsiung-trash-collection-points.json)
-          KAOHSIUNG_FILE_SIZE=$(du -h kaohsiung-trash-collection-points.json | cut -f1)
-          echo "Generated $KAOHSIUNG_RECORD_COUNT Kaohsiung City records"
-          echo "File size: $KAOHSIUNG_FILE_SIZE"
-
-      - name: Check for changes
-        id: check_changes
-        run: |
-          TAIPEI_CHANGED=false
-          NTPC_CHANGED=false
-          KAOHSIUNG_CHANGED=false
-
-          if ! git diff --quiet trash-collection-points.json; then
-            TAIPEI_CHANGED=true
-            echo "Changes detected in Taipei City data"
+          shopt -s nullglob
+          refreshed=()
+          # A city's artifact holds its data file only if it passed validation
+          for json in incoming/data-*/*.json; do
+            city=$(basename "$(dirname "$json")"); city="${city#data-}"
+            cp "$json" data/
+            refreshed+=("$city")
+          done
+          if [ ${#refreshed[@]} -eq 0 ]; then
+            echo "No city refreshed successfully."
+            exit 0
           fi
+          bun main/scripts/data/record-meta.ts data "${refreshed[@]}"
 
-          if ! git diff --quiet new-taipei-trash-collection-points.json; then
-            NTPC_CHANGED=true
-            echo "Changes detected in New Taipei City data"
+          cd data
+          git add -A -- '*.json'
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
           fi
-
-          if ! git diff --quiet kaohsiung-trash-collection-points.json; then
-            KAOHSIUNG_CHANGED=true
-            echo "Changes detected in Kaohsiung City data"
-          fi
-
-          if [ "$TAIPEI_CHANGED" = true ] || [ "$NTPC_CHANGED" = true ] || [ "$KAOHSIUNG_CHANGED" = true ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-            echo "taipei_changed=$TAIPEI_CHANGED" >> $GITHUB_OUTPUT
-            echo "ntpc_changed=$NTPC_CHANGED" >> $GITHUB_OUTPUT
-            echo "kaohsiung_changed=$KAOHSIUNG_CHANGED" >> $GITHUB_OUTPUT
+          # meta.json alone changes on every run (checkedAt); only data files warrant a deploy
+          if git diff --cached --quiet -- . ':!meta.json'; then
+            data_changed=false
           else
-            echo "changed=false" >> $GITHUB_OUTPUT
-            echo "No changes detected"
+            data_changed=true
           fi
+          echo "data_changed=$data_changed" >> "$GITHUB_OUTPUT"
 
-      - name: Commit and push if changed
-        if: steps.check_changes.outputs.changed == 'true'
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          changed=$(git diff --cached --name-only -- . ':!meta.json' | tr '\n' ' ')
+          git commit -m "Data refresh $(date -u +%Y-%m-%d)" -m "Checked: ${refreshed[*]}" -m "Changed: ${changed:-none}"
+          git push origin HEAD:data
 
-          TAIPEI_RECORD_COUNT=$(jq '.result.results | length' trash-collection-points.json)
-          TAIPEI_IMPORT_DATE=$(jq -r '.result.results[0]._importdate.date' trash-collection-points.json)
-          NTPC_RECORD_COUNT=$(jq 'length' new-taipei-trash-collection-points.json)
-          NTPC_DISTRICTS=$(jq '[.[].city] | unique | length' new-taipei-trash-collection-points.json)
-          KAOHSIUNG_RECORD_COUNT=$(jq 'length' kaohsiung-trash-collection-points.json)
+      - name: Redeploy site
+        if: steps.apply.outputs.data_changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref main
 
-          # Build commit message
-          COMMIT_MSG="Monthly data update: $(date +'%Y-%m-%d')"
-          COMMIT_LINES=()
-
-          if [ "${{ steps.check_changes.outputs.taipei_changed }}" = "true" ]; then
-            COMMIT_LINES+=("- Updated Taipei City data: $TAIPEI_RECORD_COUNT records")
-            COMMIT_LINES+=("- Data import date: $TAIPEI_IMPORT_DATE")
-            git add trash-collection-points.json
-          fi
-
-          if [ "${{ steps.check_changes.outputs.ntpc_changed }}" = "true" ]; then
-            COMMIT_LINES+=("- Updated New Taipei City data: $NTPC_RECORD_COUNT records across $NTPC_DISTRICTS districts")
-            git add new-taipei-trash-collection-points.json
-          fi
-
-          if [ "${{ steps.check_changes.outputs.kaohsiung_changed }}" = "true" ]; then
-            COMMIT_LINES+=("- Updated Kaohsiung City data: $KAOHSIUNG_RECORD_COUNT collection points")
-            git add kaohsiung-trash-collection-points.json
-          fi
-
-          COMMIT_BODY=$(printf '%s\n' "${COMMIT_LINES[@]}")
-
-          git commit -m "$COMMIT_MSG" \
-            -m "" \
-            -m "$COMMIT_BODY" \
-            -m "" \
-            -m "- Automated update via GitHub Actions" \
-            -m "" \
-            -m "🤖 Automated update"
-
-          git push origin data
-
-      - name: No changes detected
-        if: steps.check_changes.outputs.changed == 'false'
+  report:
+    name: Report pipeline status
+    needs: [fetch, publish]
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      FAILED: ${{ needs.fetch.result == 'failure' || needs.publish.result == 'failure' }}
+    steps:
+      - name: Open, update or close the data-pipeline issue
         run: |
-          echo "Data is already up to date. No commit needed."
+          open_issue=$(gh issue list --label data-pipeline --state open --json number -q '.[0].number' || true)
+          if [ "$FAILED" = "true" ]; then
+            gh label create data-pipeline --color B60205 --description "Automated data refresh failures" --force
+            body="Data refresh failed: $RUN_URL
+
+          Cities that passed validation were still published. The run summary shows which city failed and why; its artifact has any addresses missing from the geocode cache."
+            if [ -n "$open_issue" ]; then
+              gh issue comment "$open_issue" --body "$body"
+            else
+              gh issue create --title "Data refresh is failing" --label data-pipeline --body "$body"
+            fi
+          elif [ -n "$open_issue" ]; then
+            gh issue close "$open_issue" --comment "Recovered: $RUN_URL"
+          fi

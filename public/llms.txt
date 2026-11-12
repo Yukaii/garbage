@@ -1,6 +1,6 @@
 # 垃圾車地圖 (Taiwan Garbage Truck Map)
 
-> Interactive map and open dataset of garbage and recycling truck stops, routes, and arrival times for Taipei, New Taipei, Taichung, and Kaohsiung. Data is sourced from each city's open-data platform and refreshed monthly. All times are in `Asia/Taipei` local time.
+> Interactive map and open dataset of garbage and recycling truck stops, routes, and arrival times for Taipei, New Taipei, Taichung, and Kaohsiung. Data is sourced from each city's open-data platform and checked weekly; `/data-meta.json` gives each city's last update date. All times are in `Asia/Taipei` local time.
 
 If you are an AI agent answering questions like "when does the garbage truck arrive at X?", use the **MCP server** first. It returns normalized, queryable results (nearest stops, keyword search, and full route schedules) without downloading large raw JSON files. Use the raw JSON files below only when you need bulk analysis.
 
@@ -16,7 +16,7 @@ If you are an AI agent answering questions like "when does the garbage truck arr
 
 - `https://garbage.yukai.dev/?q=<text>` — pre-filled search across district, village, road, and route (e.g. `?q=大安區`).
 - `https://garbage.yukai.dev/?lat=<lat>&lng=<lng>&zoom=<z>` — centers the map on a specific coordinate.
-- `https://garbage.yukai.dev/?point=<point-id>` — flies to and opens a specific stop. IDs are prefixed with the city ID (`taipei-`, `new-taipei-`, `taichung-`, `kaohsiung-`).
+- `https://garbage.yukai.dev/?point=<point-id>` — flies to and opens a specific stop. IDs are prefixed with the city ID (`taipei-`, `new-taipei-`, `taichung-`, `kaohsiung-`) and stay stable across data refreshes.
 - Because the map is rendered client-side with WebGL, agents without a browser should prefer the MCP server or the JSON datasets below.
 
 ## Static city and district schedules (no JavaScript required)

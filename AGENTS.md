@@ -1,6 +1,6 @@
 # Taipei Trash Collection Map
 
-Static React + Vite + MapLibre PWA showing garbage-truck collection points for Taipei, New Taipei, Taichung and Kaohsiung. Hosted on **GitHub Pages** at https://garbage.yukai.dev (see `.github/workflows/deploy.yml`). Data lives on the orphan `data` branch and is copied into `public/` at build time (`bun run dump-data`).
+Static React + Vite + MapLibre PWA showing garbage-truck collection points for Taipei, New Taipei, Taichung and Kaohsiung. Hosted on **GitHub Pages** at https://garbage.yukai.dev (see `.github/workflows/deploy.yml`). Data lives on the orphan `data` branch (city files, `meta.json`, `geocode/` caches, `migrations/` ID maps); `main` holds code only. `bun run dump-data` copies what the site needs into `public/` at build time.
 
 ## Commands
 
@@ -8,6 +8,14 @@ Static React + Vite + MapLibre PWA showing garbage-truck collection points for T
 - `bun run dev` — Vite dev server
 - `bun run typecheck` — `tsc --noEmit` over `src/` and `vite.config.ts`
 - `bun run build` — Vite production build, then `scripts/prerender.ts` writes static city/district schedules and a dated sitemap into `dist/` (requires `bun run dump-data` first)
+
+## Data pipeline
+
+`.github/workflows/update-data.yml` runs weekly: one matrix job per city runs `scripts/data/update.ts <city>` (`bun run update-data <city>` locally), which fetches every page, joins Taichung/Kaohsiung addresses to the geocode caches on the data branch (`geocode/<city>.json`), and refuses to write if validation fails (record floor, >20% shrink vs. the published file, coordinates outside Taiwan, bad times). A publish job commits the cities that passed, plus `meta.json` (per-city `updatedAt`/`checkedAt`, via `scripts/data/record-meta.ts`), to the `data` branch and dispatches `deploy.yml` only when data files changed. Any failure opens or comments on a `data-pipeline` issue; the next clean run closes it. Data-branch file shapes are what the adapters and `trim-data.sh` read, so change them together. `dump-data` writes `public/data-meta.json` for the site's "資料更新於" label.
+
+## Point IDs
+
+Point IDs are stored by users (starred stops, `?point=` links), so they must stay stable across data refreshes: build them with `stablePointId()` (`src/cities/pointId.ts`) from identifying fields, never from row numbers or ranks (portals renumber every import). `pointId.test.ts` freezes the hash; don't update that snapshot. IDs saved before Nov 2026 are upgraded once on load by `src/utils/legacyPointIds.ts` using `point-ids-v1-*.json` maps stored on the data branch under `migrations/` and copied to `public/migrations/` by `dump-data` (generated once by `scripts/generate-id-migrations.ts`; don't regenerate).
 
 ## MCP server
 

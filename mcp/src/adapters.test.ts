@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'bun:test';
 import { NewTaipeiAdapter } from '../../src/cities/adapters/NewTaipeiAdapter';
-import { TaichungAdapter } from '../../src/cities/adapters/TaichungAdapter';
+import { TaichungAdapter, taipeiIsoWeekday } from '../../src/cities/adapters/TaichungAdapter';
 import type { NewTaipeiTrashCollectionPoint, TaichungTrashCollectionPoint } from '../../src/types';
 
 const ntpc = (over: Record<string, string>) =>
@@ -56,7 +56,7 @@ describe('TaichungAdapter all-days mode', () => {
   });
 
   test('default mode still filters to today and drops the one-day schedule', () => {
-    const today = new Date().getDay() || 7;
+    const today = taipeiIsoWeekday();
     const out = adapter.postprocessData([adapter.mapToUnified(tc({ dayOfWeek: today })), adapter.mapToUnified(tc({ dayOfWeek: (today % 7) + 1, longitude: '120.7' }))]);
     expect(out).toHaveLength(1);
     expect(out[0]!.schedule).toBeUndefined();

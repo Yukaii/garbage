@@ -1,4 +1,5 @@
 import { CityDataAdapter, type FetchOptions } from './BaseAdapter';
+import { stablePointId } from '../pointId';
 import type { CollectionSchedule, TaichungTrashCollectionPoint, UnifiedTrashCollectionPoint } from '../../types';
 
 /**
@@ -42,12 +43,10 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
   }
 
   override mapToUnified(point: TaichungTrashCollectionPoint): UnifiedTrashCollectionPoint {
-    // Generate unique ID: route-location-day-type
-    const locationKey = point.location.replace(/[^a-zA-Z0-9]/g, '');
-    const id = `taichung-${point.route}-${locationKey}-d${point.dayOfWeek}-${point.collectionType}`;
-
     return {
-      id,
+      // One ID per address, shared by all its weekday/type rows so a starred stop stays starred every
+      // day. Not keyed on `route`: it is the truck's license plate, which changes with fleet swaps.
+      id: stablePointId('taichung', point.area, point.location),
       city: this.displayName,
       district: point.area,
       village: point.village,
@@ -80,20 +79,12 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
   ): UnifiedTrashCollectionPoint[] {
     if (options.allDays) return this.mergeAllDays(unified);
 
-    // Get current day of week (1 = Monday, 7 = Sunday)
-    const now = new Date();
-    const currentDay = now.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
-    const taichungDay = currentDay === 0 ? 7 : currentDay; // Convert to 1-7 format
+    const today = taipeiIsoWeekday();
 
-    // Step 1: Filter to only show today's collection points
-    const todaysPoints = unified.filter(point => {
-      // Extract dayOfWeek from the ID (format: taichung-ROUTE-LOCATION-dN-TYPE)
-      const match = point.id.match(/-d(\d)-/);
-      if (!match || !match[1]) return false;
-
-      const pointDay = parseInt(match[1], 10);
-      return pointDay === taichungDay;
-    });
+    // Step 1: Filter to only show today's collection points (each row carries a one-day schedule)
+    const todaysPoints = unified.filter(point =>
+      Object.values(point.schedule ?? {}).some(days => days?.includes(today))
+    );
 
     // Step 2: Deduplicate by coordinates (keep earliest collection time)
     const locationMap = new Map<string, UnifiedTrashCollectionPoint>();
@@ -150,4 +141,12 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
 function cloneSchedule(schedule: CollectionSchedule | undefined): CollectionSchedule | undefined {
   if (!schedule) return undefined;
   return Object.fromEntries(Object.entries(schedule).map(([type, days]) => [type, [...days]]));
+}
+
+const TAIPEI_WEEKDAY = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Taipei', weekday: 'short' });
+const ISO_WEEKDAY: Record<string, number> = { Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6, Sun: 7 };
+
+/** ISO weekday (Mon=1 .. Sun=7) in Taiwan, whatever timezone the device is set to. */
+export function taipeiIsoWeekday(now: Date = new Date()): number {
+  return ISO_WEEKDAY[TAIPEI_WEEKDAY.format(now)] ?? 0;
 }

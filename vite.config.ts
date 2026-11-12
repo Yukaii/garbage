@@ -71,7 +71,7 @@ export default defineConfig({
         clientsClaim: true,
         runtimeCaching: [
           {
-            // City point data changes monthly: serve the cached copy instantly and
+            // City point data changes at most weekly: serve the cached copy instantly and
             // refresh it in the background, instead of blocking on the network
             // (Taichung's file is ~50 MB).
             urlPattern: ({ sameOrigin, url }) => sameOrigin && /-?trash-collection-points\.json$/.test(url.pathname),

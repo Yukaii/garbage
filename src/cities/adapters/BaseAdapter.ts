@@ -1,4 +1,5 @@
 import type { UnifiedTrashCollectionPoint } from '../../types';
+import { ensureUniqueIds } from '../pointId';
 
 /**
  * City boundary definition for viewport-based loading
@@ -89,7 +90,7 @@ export abstract class CityDataAdapter<TSource = any> {
     try {
       const rawData = await this.fetchRawData();
       const mapped = rawData.map(item => this.mapToUnified(item));
-      return this.postprocessData(mapped, options);
+      return ensureUniqueIds(this.postprocessData(mapped, options));
     } catch (error) {
       console.error(`Error fetching data for ${this.displayName}:`, error);
       throw error;

@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState, type MouseEvent } from 'react';
 import { Info, X, Bug } from 'lucide-react';
 import { getPlatformInfo } from './utils/platform';
+import { formatDataDate, type DataMeta } from './hooks/useDataMeta';
+import type { City } from './cities/cityRegistry';
 
 interface AboutModalProps {
   open: boolean;
@@ -11,6 +13,13 @@ interface AboutModalProps {
   debugTime?: string;
   onDebugTimeChange?: (time: string) => void;
   scrollToSupport?: boolean;
+  dataMeta?: DataMeta | null;
+}
+
+function UpdatedAt({ meta, city }: { meta?: DataMeta | null; city: City }) {
+  const date = formatDataDate(meta?.[city]?.updatedAt);
+  if (!date) return null;
+  return <span className="ml-2 text-xs text-neutral-500 dark:text-neutral-400">（資料更新於 {date}）</span>;
 }
 
 export default function AboutModal({
@@ -22,6 +31,7 @@ export default function AboutModal({
   debugTime,
   onDebugTimeChange,
   scrollToSupport = false,
+  dataMeta,
 }: AboutModalProps) {
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
@@ -138,7 +148,7 @@ export default function AboutModal({
               <li className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
                 <h4 className="text-sm font-semibold text-neutral-900 dark:text-white">四都資料定期同步</h4>
                 <p className="mt-2 text-sm">
-                  每月自動同步台北、新北、台中與高雄市政府開放資料，涵蓋全台超過 20 萬筆清運停靠點。
+                  每週自動同步台北、新北、台中與高雄市政府開放資料，涵蓋全台超過 20 萬筆清運停靠點。
                 </p>
               </li>
               <li className="rounded-lg border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-900/60">
@@ -176,7 +186,7 @@ export default function AboutModal({
           <section>
             <h3 className="text-base font-semibold text-neutral-900 dark:text-white md:text-lg">資料來源與更新</h3>
             <p className="mt-2 text-sm md:text-base">
-              本站整合四都政府開放資料，每月透過 GitHub Actions 自動抓取、整理並更新部署。台中市與高雄市的部分站點經內政部 TGOS 地理編碼服務轉換座標，以提升地圖定位準確度。
+              本站整合四都政府開放資料，每週透過 GitHub Actions 自動檢查，有更新時重新整理並部署。台中市與高雄市的部分站點經內政部 TGOS 地理編碼服務轉換座標，以提升地圖定位準確度。
             </p>
             <ul className="mt-3 space-y-2 text-sm md:text-base">
               <li>
@@ -188,6 +198,7 @@ export default function AboutModal({
                 >
                   台北市政府資料開放平台：垃圾車收集點資料集
                 </a>
+                <UpdatedAt meta={dataMeta} city="taipei" />
               </li>
               <li>
                 <a
@@ -198,16 +209,18 @@ export default function AboutModal({
                 >
                   新北市政府資料開放平台：垃圾車與資源回收車路線
                 </a>
+                <UpdatedAt meta={dataMeta} city="new-taipei" />
               </li>
               <li>
                 <a
-                  href="https://datacenter.taichung.gov.tw/"
+                  href="https://data.gov.tw/dataset/84004"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
                 >
                   台中市政府資料開放平台：定時定點垃圾收運地點
                 </a>
+                <UpdatedAt meta={dataMeta} city="taichung" />
               </li>
               <li>
                 <a
@@ -218,6 +231,7 @@ export default function AboutModal({
                 >
                   高雄市政府資料開放平台：垃圾車清運路線與點位
                 </a>
+                <UpdatedAt meta={dataMeta} city="kaohsiung" />
               </li>
               <li>
                 <a

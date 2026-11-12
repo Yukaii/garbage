@@ -11,11 +11,18 @@ This architecture keeps the main branch lightweight and allows data to be update
 
 ---
 
-## 1. Data Update Workflow (Monthly Automation)
+## 1. Data Update Workflow
+
+> **Updated Nov 2026.** The refresh now runs weekly as one matrix job per city calling
+> `scripts/data/update.ts` (paginates until exhausted, retries, validates, refuses broken data),
+> then a publish job commits the cities that passed plus `meta.json` (per-city `updatedAt` /
+> `checkedAt`) to the `data` branch and dispatches `deploy.yml` only when data changed. Failures
+> open a `data-pipeline` issue. Geocode caches live on the `data` branch under `geocode/`. The
+> curl/jq walkthrough below describes the previous workflow and is kept for history.
 
 **File**: `.github/workflows/update-data.yml`
 
-**Schedule**: 1st day of every month at 2:00 AM UTC (10:00 AM Taipei Time)
+**Schedule**: Mondays 02:00 UTC (10:00 Taipei)
 
 **Manual Trigger**: Available via GitHub Actions UI
 
