@@ -37,7 +37,7 @@ Keep these in sync when tools, cities, data fields or URLs change:
 
 ## React Compiler
 
-`vite.config.ts` runs React Compiler 1.0 (stable Babel build) over the app, so new code doesn't need `useMemo`/`useCallback`/`React.memo` for performance; existing ones stay (the compiler respects them) and can go when code is touched. Keep `@babel/core` on ^7 and `@rolldown/plugin-babel` on ^0.2: with Babel 8 the compiler fails on ordinary destructuring defaults, and plugin-react 6 only supports plugin-babel ^0.1/^0.2 (`.github/dependabot.yml` ignores those bumps; lift that when the compiler supports Babel 8). Code the compiler can't analyze is left unmemoized, silently; check `COMPILER_REPORT=1 bun run build` after big component changes (currently 16 compiled, 3 skipped: `AdSense`, `InstallPrompt`, `useFavorites`).
+`vite.config.ts` runs React Compiler 1.0 (stable Babel build) over the app, so new code doesn't need `useMemo`/`useCallback`/`React.memo` for performance; existing ones stay (the compiler respects them) and can go when code is touched. Keep `@babel/core` on ^7: with Babel 8 the compiler (1.0) fails on ordinary destructuring defaults (`.github/dependabot.yml` ignores Babel major bumps; lift that when the compiler supports Babel 8). `@rolldown/plugin-babel` ^0.3 works with Babel 7 and is within plugin-react 6.3's peer range. Code the compiler can't analyze is left unmemoized, silently; check `COMPILER_REPORT=1 bun run build` after big component changes (currently 16 compiled, 3 skipped: `AdSense`, `InstallPrompt`, `useFavorites`).
 
 ## Tooling conventions
 
