@@ -30,6 +30,13 @@ data-branch/
     └── point-ids-v1-<city>.json
 ```
 
+## Why there is an `mcp/vercel.json` here
+
+The MCP Vercel project (Root Directory `mcp`) is connected to this repository and would try to
+build every push to this branch, failing because the branch has no `mcp/` app. Vercel reads
+`vercel.json` from the pushed commit, so `mcp/vercel.json` with `git.deploymentEnabled: false`
+is the only way to switch deployments off for this branch. Leave it in place.
+
 ## Geocode caches and ID migrations
 
 - `geocode/<city>.json` is read by `scripts/data/update.ts` (main branch) to place Taichung and
