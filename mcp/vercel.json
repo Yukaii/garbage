@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "ignoreCommand": "git diff --quiet ${VERCEL_GIT_PREVIOUS_SHA:-HEAD^} HEAD -- . ../src/cities ../src/types.ts ../src/utils/taipeiTime.ts ../.vercelignore",
+  "ignoreCommand": "node scripts/should-build.mjs",
   "functions": {
     "api/mcp.js": {
       "maxDuration": 60
