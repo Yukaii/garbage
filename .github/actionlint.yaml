@@ -1,0 +1,4 @@
+self-hosted-runner:
+  # The Orange Pi runner in Taiwan that downloads Kaohsiung data (see update-data.yml)
+  labels:
+    - taiwan
