@@ -4,11 +4,8 @@ on:
   push:
     branches:
       - main
-  schedule:
-    # Run on the 2nd day of every month at 3:00 AM UTC (11:00 AM Taipei Time)
-    # This runs after the data update workflow to deploy the updated data
-    - cron: '0 3 2 * *'
-  workflow_dispatch: # Allow manual trigger
+  # Also dispatched by update-data.yml whenever a city's data changes
+  workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -40,6 +37,9 @@ jobs:
 
       - name: Typecheck
         run: bun run typecheck
+
+      - name: Test
+        run: bun run test
 
       - name: Dump latest data into public directory
         run: |

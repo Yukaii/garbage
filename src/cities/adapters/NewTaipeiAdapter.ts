@@ -1,4 +1,5 @@
 import { CityDataAdapter } from './BaseAdapter';
+import { stablePointId } from '../pointId';
 import type { CollectionSchedule, NewTaipeiTrashCollectionPoint, UnifiedTrashCollectionPoint } from '../../types';
 
 const WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'] as const;
@@ -57,7 +58,9 @@ export class NewTaipeiAdapter extends CityDataAdapter<NewTaipeiTrashCollectionPo
     const departureTime = `${departureHours}${departureMins.toString().padStart(2, '0')}`;
 
     return {
-      id: `new-taipei-${point.lineid}-${point.rank}`,
+      // `rank` shifts when a stop is added or removed, so it only orders stops (`sequence`)
+      id: stablePointId('new-taipei', point.lineid, point.name),
+      sequence: Number.parseInt(point.rank, 10) || undefined,
       city: this.displayName,
       district: point.city,
       village: point.village,

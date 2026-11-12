@@ -20,6 +20,7 @@ import AboutModal from './AboutModal';
 import AdSense from './AdSense';
 import { updateThemeColor, initializeThemeColor } from './utils/themeColor';
 import { useFavorites } from './hooks/useFavorites';
+import { useDataMeta, oldestUpdate } from './hooks/useDataMeta';
 import { getPointIdFromUrl, getCityFromPointId } from './utils/share';
 import { Navbar } from './Navbar';
 import { FilterBar } from './FilterBar';
@@ -72,6 +73,8 @@ function App() {
 
   // Favorites hook
   const { starredPointIds, toggleStar, isStarred, starredCount } = useFavorites();
+  const dataMeta = useDataMeta();
+  const dataUpdatedAt = oldestUpdate(dataMeta, loadedCities);
 
   const handleViewportChange = (bounds: { north: number; south: number; east: number; west: number }, zoom: number) => {
     setViewportBounds(bounds);
@@ -368,7 +371,7 @@ function App() {
       <footer className="hidden border-t border-neutral-200 bg-neutral-100 px-4 py-3 text-[11px] text-neutral-600 dark:border-neutral-900 dark:bg-neutral-950 dark:text-neutral-400 md:px-6 md:py-4 md:text-xs lg:px-8 md:block" style={{ paddingLeft: 'max(1rem, env(safe-area-inset-left))', paddingRight: 'max(1rem, env(safe-area-inset-right))', paddingBottom: 'max(0.75rem, env(safe-area-inset-bottom))' }}>
         <div className="mx-auto flex flex-wrap items-center justify-between gap-2">
           <span>
-            資料來源：台北市、新北市、台中市與高雄市政府開放資料平台（實際時間以現場清運為準）。
+            資料來源：台北市、新北市、台中市與高雄市政府開放資料平台{dataUpdatedAt && `，資料更新於 ${dataUpdatedAt}`}（實際時間以現場清運為準）。
             <button
               onClick={() => {
                 setScrollToSupport(false);
@@ -415,6 +418,7 @@ function App() {
         debugTime={debugTime}
         onDebugTimeChange={setDebugTime}
         scrollToSupport={scrollToSupport}
+        dataMeta={dataMeta}
       />
     </div>
   );

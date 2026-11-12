@@ -8,7 +8,9 @@
     "preview": "vite preview",
     "dump-data": "bash scripts/dump-data.sh",
     "indexnow": "bun scripts/indexnow.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "bun test src scripts",
+    "update-data": "bun scripts/data/update.ts"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",

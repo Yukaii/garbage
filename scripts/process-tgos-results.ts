@@ -278,8 +278,17 @@ async function main() {
     await Bun.write(outputPath, JSON.stringify(geocoded, null, 2));
     console.log(`\n✓ Geocoded data saved to: ${outputPath}`);
 
-    // Generate lookup map (address -> coordinates)
-    const lookupMap: Record<string, { longitude: number; latitude: number }> = {};
+    // Merge into the geocode cache the data refresh reads from the data branch
+    // (geocode/<city>.json). Merge, don't overwrite: batches usually cover only the newly
+    // reported missing addresses (the refresh job's `<city>-missing-geocodes.txt` artifact).
+    // Works on a local copy in data/geocode/ (gitignored), seeded from the data branch.
+    const lookupPath = `data/geocode/${cityName}.json`;
+    const lookupFile = Bun.file(lookupPath);
+    const published = await Bun.$`git show data:geocode/${cityName}.json`.quiet().nothrow();
+    const lookupMap: Record<string, { longitude: number; latitude: number }> =
+      (await lookupFile.exists()) ? await lookupFile.json()
+        : published.exitCode === 0 ? JSON.parse(published.stdout.toString()) : {};
+    const before = Object.keys(lookupMap).length;
     for (const item of geocoded) {
       lookupMap[item.address] = {
         longitude: item.longitude,
@@ -287,9 +296,8 @@ async function main() {
       };
     }
 
-    const lookupPath = `data/${cityName}-geocode-lookup.json`;
-    await Bun.write(lookupPath, JSON.stringify(lookupMap, null, 2));
-    console.log(`✓ Lookup map saved to: ${lookupPath}`);
+    await Bun.write(lookupPath, JSON.stringify(lookupMap, null, 2) + '\n');
+    console.log(`✓ Geocode cache ${lookupPath}: ${before} → ${Object.keys(lookupMap).length} addresses`);
 
     // Print sample
     console.log('\nSample geocoded addresses:');
@@ -299,8 +307,9 @@ async function main() {
     });
 
     console.log('\n📋 Next steps:');
-    console.log('1. Integrate geocoded data into the Taichung data fetching function');
-    console.log('2. Update src/api.ts to use the geocoded coordinates');
+    console.log(`1. Check it: bun run update-data ${cityName} --geocode-dir data/geocode`);
+    console.log(`2. Copy ${lookupPath} to geocode/${cityName}.json on the data branch, commit and push`);
+    console.log('3. Re-run the "Update Trash Collection Data" workflow');
 
   } catch (error) {
     console.error('Error:', error);

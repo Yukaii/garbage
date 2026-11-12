@@ -162,6 +162,12 @@ export function isWithinTimeWindow(
   return false;
 }
 
+/** Order stops along a route: the published sequence when there is one (New Taipei), else arrival time. */
+export function compareRouteOrder(a: UnifiedTrashCollectionPoint, b: UnifiedTrashCollectionPoint): number {
+  if (a.sequence !== undefined && b.sequence !== undefined) return a.sequence - b.sequence;
+  return parseTimeToMinutes(a.arrivalTime) - parseTimeToMinutes(b.arrivalTime);
+}
+
 // Group points into routes and sort by sequence
 export function groupPointsIntoRoutes(points: UnifiedTrashCollectionPoint[]): Map<string, UnifiedTrashCollectionPoint[]> {
   const routeMap = new Map<string, UnifiedTrashCollectionPoint[]>();
@@ -174,20 +180,7 @@ export function groupPointsIntoRoutes(points: UnifiedTrashCollectionPoint[]): Ma
     routeMap.get(routeKey)!.push(point);
   });
 
-  // Sort points within each route
-  routeMap.forEach((routePoints, routeKey) => {
-    if (routePoints[0]?.source === 'new-taipei') {
-      // New Taipei: sort by rank
-      routePoints.sort((a, b) => {
-        const rankA = parseInt(a.id.split('-').pop() || '0');
-        const rankB = parseInt(b.id.split('-').pop() || '0');
-        return rankA - rankB;
-      });
-    } else {
-      // Taipei: sort by arrival time
-      routePoints.sort((a, b) => parseTimeToMinutes(a.arrivalTime) - parseTimeToMinutes(b.arrivalTime));
-    }
-  });
+  routeMap.forEach(routePoints => routePoints.sort(compareRouteOrder));
 
   return routeMap;
 }

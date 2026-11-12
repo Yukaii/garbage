@@ -104,6 +104,8 @@ export interface UnifiedTrashCollectionPoint {
   longitude: string;
   latitude: string;
   source: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';
+  /** Stop order within the route when the source publishes one (New Taipei's `rank`). */
+  sequence?: number;
   /** Weekly schedule when the source provides one (New Taipei, Taichung); absent otherwise. */
   schedule?: CollectionSchedule;
 }

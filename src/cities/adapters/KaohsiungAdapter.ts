@@ -1,4 +1,5 @@
 import { CityDataAdapter } from './BaseAdapter';
+import { stablePointId } from '../pointId';
 import type { UnifiedTrashCollectionPoint } from '../../types';
 
 /**
@@ -64,12 +65,9 @@ export class KaohsiungAdapter extends CityDataAdapter<KaohsiungTrashCollectionPo
   }
 
   override mapToUnified(point: KaohsiungTrashCollectionPoint): UnifiedTrashCollectionPoint {
-    // Generate unique ID using coordinates and route
-    const coordKey = `${parseFloat(point.longitude).toFixed(6)}_${parseFloat(point.latitude).toFixed(6)}`;
-    const id = `kaohsiung-${coordKey}-${point.route}`;
-
     return {
-      id,
+      // By address only: `route` is the truck's license plate, which changes with fleet swaps
+      id: stablePointId('kaohsiung', point.area, point.location),
       city: this.displayName,
       district: point.area,
       village: point.village,
