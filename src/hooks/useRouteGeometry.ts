@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { fetchRouteGeometry, fetchRouteMetadata } from '../api';
+import { fetchRouteGeometry, fetchRouteMetadata, type City } from '../api';
 import type { RouteGeometry, UnifiedTrashCollectionPoint } from '../types';
 
 type RouteMetadata = Record<string, Record<string, string>>;
@@ -23,21 +23,24 @@ function loadRouteMetadata(): Promise<RouteMetadata | null> {
 export function useRouteGeometry(routePoints: UnifiedTrashCollectionPoint[], enabled: boolean): RouteGeometry | null {
   const [geometry, setGeometry] = useState<RouteGeometry | null>(null);
 
+  // What to fetch depends only on the route's identity (city, route, trucks), not on the
+  // array: loading a neighbouring city replaces every point object and must not refetch.
+  const first = routePoints[0];
+  const carSeqs = [...new Set(routePoints.map(point => point.carSeq).filter((seq): seq is string => !!seq))].sort();
+  const routeKey = enabled && first ? JSON.stringify([first.source, first.route, carSeqs]) : null;
+
   useEffect(() => {
-    const first = routePoints[0];
     setGeometry(null);
-    if (!enabled || !first) return;
+    if (!routeKey) return;
+    const [source, route, seqs] = JSON.parse(routeKey) as [City, string, string[]];
 
     let cancelled = false;
     (async () => {
-      const cityMetadata = (await loadRouteMetadata())?.[first.source];
+      const cityMetadata = (await loadRouteMetadata())?.[source];
       if (!cityMetadata) return;
 
-      const carSeqs = [...new Set(routePoints.map(point => point.carSeq).filter((seq): seq is string => !!seq))];
-      const routeIds = carSeqs
-        .map(carSeq => cityMetadata[`${first.route}|${carSeq}`])
-        .filter((id): id is string => !!id);
-      const geometries = await Promise.all(routeIds.map(id => fetchRouteGeometry(first.source, id)));
+      const routeIds = seqs.map(carSeq => cityMetadata[`${route}|${carSeq}`]).filter((id): id is string => !!id);
+      const geometries = await Promise.all(routeIds.map(id => fetchRouteGeometry(source, id)));
 
       const features = geometries.flatMap(g => g?.features ?? []);
       // A newer selection may have started while these were loading
@@ -47,7 +50,7 @@ export function useRouteGeometry(routePoints: UnifiedTrashCollectionPoint[], ena
     return () => {
       cancelled = true;
     };
-  }, [routePoints, enabled]);
+  }, [routeKey]);
 
   return geometry;
 }
