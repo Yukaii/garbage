@@ -38,6 +38,7 @@ function sanitizeInput(input: string): string {
   // Remove potential prompt injection patterns
   return input
     // Remove control characters and zero-width characters
+    // biome-ignore lint/suspicious/noControlCharactersInRegex: stripping control characters is the point
     .replace(/[\u0000-\u001F\u007F-\u009F\u200B-\u200D\uFEFF]/g, '')
     // Limit length to prevent token exhaustion
     .slice(0, 2000)
@@ -188,7 +189,7 @@ async function analyzeIssue(issue: GitHubIssue): Promise<any> {
             }]
           };
         }
-      } catch (parseError) {
+      } catch {
         // If we can't parse the error, continue with the original error
       }
     }
@@ -355,7 +356,7 @@ async function applyTriageActions(
 async function main() {
   try {
     // Get issue data from environment
-    const issueNumber = parseInt(process.env.ISSUE_NUMBER || '0');
+    const issueNumber = parseInt(process.env.ISSUE_NUMBER || '0', 10);
     const issueTitle = process.env.ISSUE_TITLE || '';
     const issueBody = process.env.ISSUE_BODY || null;
 

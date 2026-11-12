@@ -69,7 +69,8 @@ export function compactTaichung(rows: Array<TaichungRow | Row>): Row[] {
       visit = { area, village, route, location, arrivalTime, departureTime, longitude, latitude, days: {} };
       visits.set(key, visit);
     }
-    (visit.days[r.collectionType] ??= new Set()).add(r.dayOfWeek);
+    visit.days[r.collectionType] ??= new Set();
+    visit.days[r.collectionType].add(r.dayOfWeek);
   }
   return [...visits.values()].map(({ days, ...visit }) => ({
     ...visit,

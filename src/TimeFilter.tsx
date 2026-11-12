@@ -16,7 +16,6 @@ export default function TimeFilter({
   selectedMode, 
   onModeChange, 
   activeCount, 
-  upcomingCount,
   compact = false 
 }: TimeFilterProps) {
   const [currentTime, setCurrentTime] = useState(getCurrentTimeFormatted());

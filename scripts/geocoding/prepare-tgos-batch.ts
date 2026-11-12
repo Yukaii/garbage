@@ -4,7 +4,7 @@
  * Output: data/taichung-tgos-batch.csv
  * Format: id,Address,Response_Address,Response_X,Response_Y
  *
- * Usage: bun scripts/prepare-tgos-batch.ts
+ * Usage: bun scripts/geocoding/prepare-tgos-batch.ts
  */
 
 // Moved from datacenter.taichung.gov.tw (no longer resolves); see scripts/data/sources.ts
@@ -140,7 +140,7 @@ async function main() {
     console.log('\n📋 Next steps:');
     console.log('1. Upload data/taichung-tgos-batch.csv to TGOS batch geocoding service');
     console.log('2. Download the geocoded results CSV');
-    console.log('3. Run: bun scripts/process-tgos-results.ts <downloaded-file.csv>');
+    console.log('3. Run: bun scripts/geocoding/process-tgos-results.ts <downloaded-file.csv>');
 
   } catch (error) {
     console.error('Error:', error);

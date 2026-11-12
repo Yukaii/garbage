@@ -1,0 +1,28 @@
+# Weekly dependency updates, grouped so routine bumps arrive as one PR per ecosystem.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]
+
+  # Web app (bun.lock)
+  - package-ecosystem: bun
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]
+
+  # MCP server (mcp/bun.lock)
+  - package-ecosystem: bun
+    directory: /mcp
+    schedule:
+      interval: weekly
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]

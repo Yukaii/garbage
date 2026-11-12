@@ -18,4 +18,5 @@ jobs:
           bun-version: 1.4.3
       - run: bun install --frozen-lockfile
       - run: bun run typecheck
+      - run: bun run lint
       - run: bun run test

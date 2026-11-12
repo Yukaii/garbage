@@ -530,7 +530,7 @@ curl -s "https://data.taipei/api/v1/dataset/xyz?limit=1000&offset=1000" > temp2.
 - **Purpose**: High-performance image processing
 - **License**: Apache 2.0
 - **Usage**: Generate PWA icons in different sizes
-- **Script**: `generate-icons.ts`
+- **Script**: `scripts/generate-icons.ts` (`bun run icons`)
 
 **Icon Generation Example**:
 ```typescript

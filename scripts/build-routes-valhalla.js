@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-import { promises as fs } from "fs";
-import path from "path";
-import { spawn, execSync } from "child_process";
-import { fileURLToPath } from "url";
-import http from "http";
+import { promises as fs } from "node:fs";
+import path from "node:path";
+import { spawn, execSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
+import http from "node:http";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = process.cwd();
@@ -11,7 +11,7 @@ const repoRoot = process.cwd();
 function parseArgs(argv) {
   const args = {};
   for (let i = 0; i < argv.length; i++) {
-    let key = argv[i];
+    const key = argv[i];
     if (!key.startsWith("--")) continue;
 
     // Support --key=value form
@@ -43,9 +43,6 @@ const valhallaConfigHost = path.resolve(
 );
 const valhallaConfigContainer =
   args["valhalla-config-container"] || valhallaConfigHost;
-// ghcr.io/valhalla/valhalla images expose valhalla_run_route (not valhalla_route)
-const valhallaRouteCmd =
-  args["valhalla-route-cmd"] || args["valhalla_route_cmd"] || "valhalla_run_route";
 const maxLocationsPerRequest = Number(args["max-locations"] || process.env.MAX_VALHALLA_LOCS || 20);
 const limitFiles = args["limit"] ? Number(args["limit"]) : null;
 
@@ -57,7 +54,7 @@ async function startValhallaService(configPathContainer) {
   
   try {
     execSync(`docker rm -f ${containerName}`, { stdio: 'ignore' });
-  } catch (e) {}
+  } catch {}
 
   const args = [
     "run",
@@ -90,7 +87,7 @@ function stopValhallaService() {
   try {
     console.log("Stopping Valhalla service...");
     execSync(`docker stop ${containerName}`, { stdio: 'ignore' });
-  } catch (e) {}
+  } catch {}
 }
 
 function checkServiceHealth() {
@@ -123,7 +120,7 @@ async function routeWithValhallaHttp(request) {
         if (res.statusCode === 200) {
           try {
             resolve(JSON.parse(data));
-          } catch (e) {
+          } catch {
             reject(new Error("Failed to parse JSON response"));
           }
         } else {
@@ -235,7 +232,7 @@ function buildRequest(locations, truckOptions) {
   return request;
 }
 
-async function routeWithValhalla(requestFileHost, configPathContainer) {
+async function routeWithValhalla(requestFileHost) {
   const content = await fs.readFile(requestFileHost, "utf-8");
   const request = JSON.parse(content);
   return routeWithValhallaHttp(request);
@@ -258,7 +255,7 @@ async function routeInChunks(coords, truckOptions, tempReqDir, baseName, configP
     const req = buildRequest(segment, truckOptions);
     const reqFileHost = path.join(tempReqDir, `${baseName}-seg-${idx}.json`);
     await fs.writeFile(reqFileHost, JSON.stringify(req));
-    legs.push(await routeWithValhalla(reqFileHost, configPathContainer));
+    legs.push(await routeWithValhalla(reqFileHost));
   }
   return legs;
 }

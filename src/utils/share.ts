@@ -56,7 +56,7 @@ async function copyToClipboard(url: string): Promise<{ success: boolean; message
   try {
     await navigator.clipboard.writeText(url);
     return { success: true, message: '已複製站點連結' };
-  } catch (error) {
+  } catch {
     // Last resort: try creating a temporary textarea
     try {
       const textarea = document.createElement('textarea');

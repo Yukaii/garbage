@@ -1,6 +1,6 @@
 import sharp from 'sharp';
-import { readFileSync } from 'fs';
-import { resolve } from 'path';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 
 // Read the SVG file at 160x160 size for better quality
 const svgBuffer = readFileSync(resolve('./public/logo-160.svg'));

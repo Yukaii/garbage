@@ -26,7 +26,8 @@ export default function AdSense({
   useEffect(() => {
     try {
       if (typeof window !== 'undefined' && window.adsbygoogle) {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
+        window.adsbygoogle = window.adsbygoogle || [];
+        window.adsbygoogle.push({});
       }
     } catch (err) {
       console.error('AdSense error:', err);

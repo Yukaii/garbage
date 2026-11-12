@@ -52,7 +52,7 @@ export class NewTaipeiAdapter extends CityDataAdapter<NewTaipeiTrashCollectionPo
     const arrivalTime = point.time.replace(':', '');
 
     // Calculate departure time (assume 10 minutes collection time)
-    const arrivalMinutes = parseInt(arrivalTime.slice(0, -2)) * 60 + parseInt(arrivalTime.slice(-2));
+    const arrivalMinutes = parseInt(arrivalTime.slice(0, -2), 10) * 60 + parseInt(arrivalTime.slice(-2), 10);
     const departureMinutes = arrivalMinutes + 10;
     const departureHours = Math.floor(departureMinutes / 60);
     const departureMins = departureMinutes % 60;

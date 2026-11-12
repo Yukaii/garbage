@@ -29,14 +29,14 @@ After TGOS completes geocoding and you download the results:
 
 ```bash
 # Step 1: Merge all batch results
-bun scripts/merge-tgos-results.ts \
+bun scripts/geocoding/merge-tgos-results.ts \
   data/kaohsiung-tgos-batch-part1-finish.csv \
   data/kaohsiung-tgos-batch-part2-finish.csv
 
 # Output: data/kaohsiung-tgos-merged-results.csv
 
 # Step 2: Process merged results (automatic normalization)
-bun scripts/process-tgos-results.ts data/kaohsiung-tgos-merged-results.csv
+bun scripts/geocoding/process-tgos-results.ts data/kaohsiung-tgos-merged-results.csv
 
 # Output: 
 # - data/kaohsiung-geocoded.json
@@ -54,7 +54,7 @@ The processing scripts will automatically:
 If you need to regenerate the batch files (e.g., if source data changes):
 
 ```bash
-bun scripts/split-kaohsiung-batches.ts
+bun scripts/geocoding/split-kaohsiung-batches.ts
 ```
 
 This will automatically:
@@ -93,4 +93,4 @@ data/
 
 ---
 **Generated**: 2025-10-29  
-**Script**: `scripts/split-kaohsiung-batches.ts`
+**Script**: `scripts/geocoding/split-kaohsiung-batches.ts`

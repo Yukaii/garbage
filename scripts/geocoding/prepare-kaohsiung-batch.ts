@@ -4,7 +4,7 @@
  * Output: data/kaohsiung-tgos-batch.csv
  * Format: id,Address,Response_Address,Response_X,Response_Y
  *
- * Usage: bun scripts/prepare-kaohsiung-batch.ts
+ * Usage: bun scripts/geocoding/prepare-kaohsiung-batch.ts
  */
 
 const KAOHSIUNG_API = 'https://data.kcg.gov.tw/Json/Get/14fe516d-ac62-4905-9325-70daae7616bd';
@@ -156,14 +156,14 @@ async function main() {
     console.log('\n📋 Next steps:');
     if (needsBatching) {
       console.log('⚠ Dataset has more than 10,000 addresses - batching required!');
-      console.log('1. Run: bun scripts/split-kaohsiung-batches.ts');
+      console.log('1. Run: bun scripts/geocoding/split-kaohsiung-batches.ts');
       console.log('2. Upload each batch file to TGOS (one per day)');
-      console.log('3. Merge results: bun scripts/merge-tgos-results.ts <batch1.csv> <batch2.csv>');
-      console.log('4. Process: bun scripts/process-tgos-results.ts <merged.csv>');
+      console.log('3. Merge results: bun scripts/geocoding/merge-tgos-results.ts <batch1.csv> <batch2.csv>');
+      console.log('4. Process: bun scripts/geocoding/process-tgos-results.ts <merged.csv>');
     } else {
       console.log('1. Upload data/kaohsiung-tgos-batch.csv to TGOS batch geocoding service');
       console.log('2. Download the geocoded results CSV');
-      console.log('3. Run: bun scripts/process-tgos-results.ts <downloaded-file.csv>');
+      console.log('3. Run: bun scripts/geocoding/process-tgos-results.ts <downloaded-file.csv>');
     }
 
   } catch (error) {

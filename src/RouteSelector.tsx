@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Route, X, ChevronRight, ChevronLeft, ChevronDown, ChevronUp, Eye, EyeOff, Layers, Locate } from 'lucide-react';
+import { Route, ChevronRight, ChevronLeft, ChevronDown, ChevronUp, Eye, EyeOff, Layers, Locate } from 'lucide-react';
 import type { UnifiedTrashCollectionPoint } from './types';
 import { groupPointsIntoRoutes } from './api';
 
@@ -24,7 +24,6 @@ export default function RouteSelector({
   points,
   selectedRoute,
   onRouteSelect,
-  darkMode,
   viewportBounds,
   mapStyleType,
   onMapStyleToggle,
@@ -36,7 +35,9 @@ export default function RouteSelector({
   const [showVisibleOnly, setShowVisibleOnly] = useState(true); // Show visible routes by default
 
   // Common map control buttons component
-  const MapControlButtons = ({ className = '' }: { className?: string }) => (
+  // Render helpers, not components: defined inside the render, a component would get a new
+  // identity every render and remount (losing the route list's scroll position).
+  const renderMapControlButtons = (className = '') => (
     <>
       {/* Layer Toggle Button */}
       {onMapStyleToggle && (
@@ -108,13 +109,8 @@ export default function RouteSelector({
     });
   }, [allRoutes, showVisibleOnly, viewportBounds]);
 
-  const selectedRouteInfo = useMemo(() => {
-    if (!selectedRoute) return null;
-    return routes.find(r => r.routeKey === selectedRoute);
-  }, [selectedRoute, routes]);
-
   // Desktop Sidebar
-  const DesktopSidebar = () => (
+  const renderDesktopSidebar = () => (
     <div
       className={`hidden md:block absolute left-0 top-0 h-full transition-all duration-300 group ${
         isExpanded ? 'w-80 is-expanded' : 'w-12'
@@ -133,7 +129,7 @@ export default function RouteSelector({
         </button>
 
         {/* Map control buttons - hidden on desktop when sidebar is expanded */}
-        <MapControlButtons className="group-[.is-expanded]:md:hidden" />
+        {renderMapControlButtons("group-[.is-expanded]:md:hidden")}
       </div>
 
       {/* Sidebar Content */}
@@ -203,7 +199,7 @@ export default function RouteSelector({
   );
 
   // Mobile Bottom Sheet
-  const MobileBottomSheet = () => (
+  const renderMobileBottomSheet = () => (
     <div className="md:hidden">
       {/* Trigger Button */}
       {!isMobileOpen && (
@@ -311,12 +307,12 @@ export default function RouteSelector({
 
   return (
     <>
-      <DesktopSidebar />
-      <MobileBottomSheet />
+      {renderDesktopSidebar()}
+      {renderMobileBottomSheet()}
 
       {/* Mobile Map Controls - Always visible on mobile */}
       <div className="md:hidden absolute left-[10px] z-20 flex flex-col gap-2" style={{ top: `10px` }}>
-        <MapControlButtons />
+        {renderMapControlButtons()}
       </div>
     </>
   );

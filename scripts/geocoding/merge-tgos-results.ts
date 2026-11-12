@@ -1,10 +1,10 @@
 /**
  * Merge multiple TGOS batch result files into a single CSV
  *
- * Usage: bun scripts/merge-tgos-results.ts <batch1-results.csv> <batch2-results.csv> ...
+ * Usage: bun scripts/geocoding/merge-tgos-results.ts <batch1-results.csv> <batch2-results.csv> ...
  *
  * Example:
- *   bun scripts/merge-tgos-results.ts \
+ *   bun scripts/geocoding/merge-tgos-results.ts \
  *     tgos-results-batch1.csv \
  *     tgos-results-batch2.csv
  */
@@ -105,7 +105,7 @@ async function main() {
 
   if (args.length === 0) {
     console.error('Error: Please provide at least one TGOS results CSV file');
-    console.error('Usage: bun scripts/merge-tgos-results.ts <batch1.csv> <batch2.csv> ...');
+    console.error('Usage: bun scripts/geocoding/merge-tgos-results.ts <batch1.csv> <batch2.csv> ...');
     process.exit(1);
   }
 
@@ -124,7 +124,7 @@ async function main() {
     }
 
     // Sort by ID to maintain order
-    allResults.sort((a, b) => parseInt(a.id) - parseInt(b.id));
+    allResults.sort((a, b) => parseInt(a.id, 10) - parseInt(b.id, 10));
 
     console.log(`Total merged records: ${allResults.length}`);
 
@@ -164,7 +164,7 @@ async function main() {
     console.log(`  Failed: ${failed.length} (${((failed.length / allResults.length) * 100).toFixed(1)}%)`);
 
     console.log('\n📋 Next step:');
-    console.log(`  bun scripts/process-tgos-results.ts ${outputPath}`);
+    console.log(`  bun scripts/geocoding/process-tgos-results.ts ${outputPath}`);
 
   } catch (error) {
     console.error('Error:', error);

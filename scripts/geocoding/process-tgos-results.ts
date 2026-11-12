@@ -4,7 +4,7 @@
  * Input: TGOS geocoded CSV file (with Response_X and Response_Y filled)
  * Output: data/taichung-geocoded.json
  *
- * Usage: bun scripts/process-tgos-results.ts <tgos-results.csv>
+ * Usage: bun scripts/geocoding/process-tgos-results.ts <tgos-results.csv>
  */
 
 interface TGOSResult {
@@ -128,7 +128,6 @@ function convertTGOSToWGS84(x: number, y: number): { longitude: number; latitude
   const e2 = (a * a - b * b) / (a * a); // First eccentricity squared
   const e4 = e2 * e2;
   const e6 = e4 * e2;
-  const e8 = e4 * e4;
 
   // TM2 projection parameters
   const lon0 = 121.0; // Central meridian (121°E)
@@ -189,7 +188,7 @@ async function main() {
 
   if (args.length === 0) {
     console.error('Error: Please provide the TGOS results CSV file');
-    console.error('Usage: bun scripts/process-tgos-results.ts <tgos-results.csv>');
+    console.error('Usage: bun scripts/geocoding/process-tgos-results.ts <tgos-results.csv>');
     process.exit(1);
   }
 
@@ -214,7 +213,7 @@ async function main() {
       const x = parseFloat(result.Response_X);
       const y = parseFloat(result.Response_Y);
 
-      if (isNaN(x) || isNaN(y)) {
+      if (Number.isNaN(x) || Number.isNaN(y)) {
         const reason = !result.Response_X && !result.Response_Y
           ? 'No coordinates returned'
           : 'Invalid coordinate format';
@@ -245,7 +244,7 @@ async function main() {
       }
 
       geocoded.push({
-        id: parseInt(result.id),
+        id: parseInt(result.id, 10),
         address: result.Address,
         responseAddress: result.Response_Address,
         longitude,
