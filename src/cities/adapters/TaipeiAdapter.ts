@@ -1,5 +1,6 @@
 import { CityDataAdapter } from './BaseAdapter';
 import { stablePointId } from '../pointId';
+import { MON_TUE_THU_FRI_SAT } from '../schedule';
 import type { TaipeiTrashCollectionPoint, TaipeiApiResponse, UnifiedTrashCollectionPoint } from '../../types';
 
 /**
@@ -49,6 +50,8 @@ export class TaipeiAdapter extends CityDataAdapter<TaipeiTrashCollectionPoint> {
       longitude: point.經度,
       latitude: point.緯度,
       source: 'taipei',
+      // Citywide: no collection on Wednesday or Sunday
+      schedule: { garbage: MON_TUE_THU_FRI_SAT, recycling: MON_TUE_THU_FRI_SAT, foodscraps: MON_TUE_THU_FRI_SAT },
     };
   }
 }

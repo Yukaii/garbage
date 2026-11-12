@@ -1,4 +1,5 @@
 import type { UnifiedTrashCollectionPoint } from '../../src/types';
+import { taipeiIsoWeekday } from '../../src/utils/taipeiTime';
 
 export interface PointDto {
   id: string;
@@ -53,13 +54,7 @@ function timeKey(raw: string): number {
   return /^\d{1,4}$/.test(digits) ? Number(digits) : Number.MAX_SAFE_INTEGER;
 }
 
-const TAIPEI_WEEKDAY = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Taipei', weekday: 'short' });
-const ISO_WEEKDAY: Record<string, number> = { Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6, Sun: 7 };
-
-/** ISO weekday (Mon=1 .. Sun=7) in Taiwan, regardless of the server's timezone. */
-export function taipeiIsoWeekday(now: Date = new Date()): number {
-  return ISO_WEEKDAY[TAIPEI_WEEKDAY.format(now)] ?? 0;
-}
+export { taipeiIsoWeekday };
 
 export function toDto(p: UnifiedTrashCollectionPoint, distanceMeters?: number, now?: Date): PointDto {
   const schedule = p.schedule && Object.keys(p.schedule).length > 0 ? (p.schedule as Record<string, number[]>) : undefined;

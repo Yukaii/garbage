@@ -1,5 +1,6 @@
 import { CityDataAdapter } from './BaseAdapter';
 import { stablePointId } from '../pointId';
+import { MON_TUE_THU_FRI_SAT } from '../schedule';
 import type { UnifiedTrashCollectionPoint } from '../../types';
 
 /**
@@ -79,6 +80,8 @@ export class KaohsiungAdapter extends CityDataAdapter<KaohsiungTrashCollectionPo
       longitude: point.longitude,
       latitude: point.latitude,
       source: 'kaohsiung',
+      // Citywide: no collection on Wednesday or Sunday
+      schedule: { [point.collectionType === 'recycling' ? 'recycling' : 'garbage']: MON_TUE_THU_FRI_SAT },
     };
   }
 

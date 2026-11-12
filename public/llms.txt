@@ -10,7 +10,7 @@ If you are an AI agent answering questions like "when does the garbage truck arr
   - Tools: `list_cities`, `find_nearby_points` (lat/lng + radius), `search_points` (district / village / road / route in Traditional Chinese), `get_schedule` (a stop plus all stops on its route in arrival order).
 - [Server Card](https://mcp.garbage.yukai.dev/mcp/server-card): MCP Server Card for pre-connection discovery. Domain-level discovery: [AI Catalog](https://garbage.yukai.dev/.well-known/ai-catalog.json).
 - [MCP server docs](https://github.com/Yukaii/garbage/blob/main/mcp/README.md): tool schemas, architecture, and deployment notes.
-- **Weekly schedules**: New Taipei and Taichung stops include a weekly `schedule` (collection type → ISO weekdays, `1`=Mon … `7`=Sun) and a `servesToday` boolean. Taipei and Kaohsiung do not publish per-weekday schedules in their open data.
+- **Weekly schedules**: stops include a weekly `schedule` (collection type → ISO weekdays, `1`=Mon … `7`=Sun) and a `servesToday` boolean. New Taipei and Taichung publish per-stop weekdays; Taipei and Kaohsiung publish none, so their stops carry the citywide rule (no collection on Wednesday or Sunday). The map greys out stops not collected today.
 
 ## Web app deep links
 

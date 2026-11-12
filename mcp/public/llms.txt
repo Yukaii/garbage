@@ -17,7 +17,7 @@
 - `find_nearby_points`: accepts `lat`, `lng`, optional `radiusMeters` (50–2,000, default 500), `limit` (1–20), and `city`. Returns nearest stops first.
 - `search_points`: accepts `city`, `query` (district / village / road / route keywords in Traditional Chinese; all space-separated terms must match), and optional `limit`.
 - `get_schedule`: accepts a `pointId` (from `find_nearby_points` or `search_points`) and returns that stop plus all stops on the same route in arrival order.
-- Point schema: `id`, `city`, `district`, `village`, `location`, `route`, `arrivalTime`, `departureTime` (`HH:MM`), `latitude`, `longitude`, and—for New Taipei and Taichung—a weekly `schedule` (`collectionType` → ISO weekdays, `1`=Mon … `7`=Sun) plus `servesToday`.
+- Point schema: `id`, `city`, `district`, `village`, `location`, `route`, `arrivalTime`, `departureTime` (`HH:MM`), `latitude`, `longitude`, and a weekly `schedule` (`collectionType` → ISO weekdays, `1`=Mon … `7`=Sun) plus `servesToday`. New Taipei and Taichung schedules are per stop; Taipei and Kaohsiung use the citywide rule (no collection on Wednesday or Sunday).
 
 ## Documentation
 

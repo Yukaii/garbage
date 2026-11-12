@@ -37,17 +37,21 @@ function time(value: string): string {
   return /^\d{3,4}$/.test(value) ? value.padStart(4, '0').replace(/^(\d{2})(\d{2})$/, '$1:$2') : value || '未提供';
 }
 
-function schedule(point: UnifiedTrashCollectionPoint): string {
+export function formatSchedule(point: UnifiedTrashCollectionPoint): string {
   if (!point.schedule || !Object.keys(point.schedule).length) return '來源未提供';
-  return (Object.keys(types) as (keyof CollectionSchedule)[]).flatMap(type => {
+  // Types collected on the same days share one entry: "垃圾、資源回收：週一、週四"
+  const groups = new Map<string, string[]>();
+  for (const type of Object.keys(types) as (keyof CollectionSchedule)[]) {
     const days = point.schedule?.[type];
-    if (!days) return [];
-    return [`${types[type]}：${days.length ? days.map(day => `週${weekdays[day]}`).join('、') : '無排程'}`];
-  }).join('；');
+    if (!days) continue;
+    const label = days.length ? days.map(day => `週${weekdays[day]}`).join('、') : '無排程';
+    groups.set(label, [...(groups.get(label) ?? []), types[type]]);
+  }
+  return [...groups].map(([days, names]) => `${names.join('、')}：${days}`).join('；');
 }
 
 function table(points: UnifiedTrashCollectionPoint[], caption: string): string {
-  return `<div class="table-scroll" role="region" aria-label="停靠點時間表" tabindex="0"><table><caption>${escapeHtml(caption)}</caption><thead><tr><th scope="col">路線／車次</th><th scope="col">里別</th><th scope="col">停靠地點</th><th scope="col">抵達時間</th><th scope="col">清運星期</th></tr></thead><tbody>${points.map(point => `<tr><td>${escapeHtml([point.team, point.route, point.carSeq === point.route ? '' : point.carSeq].filter(Boolean).join(' / '))}</td><td>${escapeHtml(point.village || '未提供')}</td><td>${escapeHtml(point.location)}</td><td>${escapeHtml(time(point.arrivalTime))}</td><td>${escapeHtml(schedule(point))}</td></tr>`).join('')}</tbody></table></div>`;
+  return `<div class="table-scroll" role="region" aria-label="停靠點時間表" tabindex="0"><table><caption>${escapeHtml(caption)}</caption><thead><tr><th scope="col">路線／車次</th><th scope="col">里別</th><th scope="col">停靠地點</th><th scope="col">抵達時間</th><th scope="col">清運星期</th></tr></thead><tbody>${points.map(point => `<tr><td>${escapeHtml([point.team, point.route, point.carSeq === point.route ? '' : point.carSeq].filter(Boolean).join(' / '))}</td><td>${escapeHtml(point.village || '未提供')}</td><td>${escapeHtml(point.location)}</td><td>${escapeHtml(time(point.arrivalTime))}</td><td>${escapeHtml(formatSchedule(point))}</td></tr>`).join('')}</tbody></table></div>`;
 }
 
 function page(cityId: City, district: string | undefined, body: string): string {

@@ -1,6 +1,7 @@
 import { describe, expect, test } from 'bun:test';
 import { NewTaipeiAdapter } from '../../src/cities/adapters/NewTaipeiAdapter';
-import { TaichungAdapter, taipeiIsoWeekday } from '../../src/cities/adapters/TaichungAdapter';
+import { TaichungAdapter } from '../../src/cities/adapters/TaichungAdapter';
+import { taipeiIsoWeekday } from '../../src/utils/taipeiTime';
 import type { NewTaipeiTrashCollectionPoint, TaichungTrashCollectionPoint } from '../../src/types';
 
 const ntpc = (over: Record<string, string>) =>

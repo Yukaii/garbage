@@ -4,8 +4,8 @@ import type { MapRef, LayerProps, StyleSpecification } from 'react-map-gl/maplib
 import type { UnifiedTrashCollectionPoint } from './types';
 import {
   formatTime,
-  getCurrentTimeInMinutes,
-  getTimeStatus,
+  getPointStatus,
+  type PointStatus,
   getTimeDifferenceInMinutes,
   formatTimeDifference,
   interpolateTruckPosition,
@@ -15,6 +15,9 @@ import {
   compareRouteOrder,
 } from './api';
 import type { RouteGeometry, RouteManifest } from './types';
+import type { TaipeiClock } from './utils/taipeiTime';
+import { weekdayLabel } from './utils/taipeiTime';
+import { COLLECTION_TYPE_LABELS, nextServiceDay, typesOn } from './cities/schedule';
 import { Layers, Locate, Navigation, Route, X, Star, Share2 } from 'lucide-react';
 import RouteSelector from './RouteSelector';
 import { sharePoint, getPointIdFromUrl, clearPointFromUrl } from './utils/share';
@@ -48,7 +51,8 @@ interface MapComponentProps {
   selectedRoute?: string | null; // routeKey to highlight
   onRouteSelect?: (routeKey: string | null) => void;
   onViewportChange?: (bounds: { north: number; south: number; east: number; west: number }, zoom: number) => void;
-  currentTimeMinutes?: number; // Override for debug mode
+  /** Taiwan time and weekday (App owns the clock; debug time overrides its minutes). */
+  clock: TaipeiClock;
   // Favorites feature props
   starredPointIds?: string[];
   onToggleStar?: (pointId: string) => void;
@@ -60,23 +64,34 @@ interface MapComponentProps {
 
 type MapStyleType = 'street' | 'satellite';
 
+const STATUS_COLORS: Record<PointStatus, string> = {
+  active: '#22c55e',
+  upcoming: '#eab308',
+  past: '#a3a3a3',
+  off: '#a3a3a3',
+};
+const STATUS_TEXT: Record<PointStatus, string> = {
+  active: '收運中',
+  upcoming: '即將抵達',
+  past: '已結束',
+  off: '今日停收',
+};
+
 // Minimum zoom level required to show time labels
 const MIN_LABEL_ZOOM_DESKTOP = 16.5;
 const MIN_LABEL_ZOOM_MOBILE = 17;
 
-export default function MapComponent({ points, darkMode, onMapLoaded, selectedRoute, onRouteSelect, onViewportChange, currentTimeMinutes: propCurrentTimeMinutes, starredPointIds = [], onToggleStar, isStarredListOpen = false, onCloseStarredList, allPoints = [] }: MapComponentProps) {
+export default function MapComponent({ points, darkMode, onMapLoaded, selectedRoute, onRouteSelect, onViewportChange, clock, starredPointIds = [], onToggleStar, isStarredListOpen = false, onCloseStarredList, allPoints = [] }: MapComponentProps) {
   const isDesktop = useIsDesktop();
   const mapRef = useRef<MapRef>(null);
   const [popupInfo, setPopupInfo] = useState<UnifiedTrashCollectionPoint | null>(null);
   const [mapStyleType, setMapStyleType] = useState<MapStyleType>('street');
   const [isLocating, setIsLocating] = useState(false);
   const [userLocation, setUserLocation] = useState<{ lng: number; lat: number } | null>(null);
-  const [internalCurrentTimeMinutes, setInternalCurrentTimeMinutes] = useState(getCurrentTimeInMinutes());
   const [shareToast, setShareToast] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
   const hasHandledSharedPoint = useRef(false);
 
-  // Use prop if provided (debug mode), otherwise use internal state
-  const currentTimeMinutes = propCurrentTimeMinutes ?? internalCurrentTimeMinutes;
+  const currentTimeMinutes = clock.minutes;
   const hasNotifiedMapLoaded = useRef(false);
   const hasRequestedGeolocation = useRef(false);
   const [currentZoom, setCurrentZoom] = useState(11);
@@ -90,17 +105,6 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   const [loadingRoute, setLoadingRoute] = useState(false);
   const [routeManifests, setRouteManifests] = useState<Map<string, RouteManifest>>(new Map());
   const [routeMetadata, setRouteMetadata] = useState<Record<string, Record<string, string>> | null>(null);
-
-  useEffect(() => {
-    // Update current time every minute for popup countdowns (only if not using prop)
-    if (propCurrentTimeMinutes !== undefined) return;
-
-    const interval = setInterval(() => {
-      setInternalCurrentTimeMinutes(getCurrentTimeInMinutes());
-    }, 60000);
-
-    return () => clearInterval(interval);
-  }, [propCurrentTimeMinutes]);
 
   // Request geolocation permission on first load
   useEffect(() => {
@@ -386,7 +390,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   const geojson = useMemo(() => ({
     type: 'FeatureCollection' as const,
     features: filteredPoints.map((point) => {
-      const timeStatus = getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes);
+      const timeStatus = getPointStatus(point, clock);
       const isInSelectedRoute = !selectedRoute || `${point.source}-${point.route}` === selectedRoute;
       const isStarred = starredPointIds.includes(point.id);
       return {
@@ -411,7 +415,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         },
       };
     }),
-  }), [filteredPoints, currentTimeMinutes, selectedRoute, starredPointIds]);
+  }), [filteredPoints, clock, selectedRoute, starredPointIds]);
 
   // Create route line GeoJSON for selected route
   // Use Valhalla geometry if available, otherwise fall back to straight-line connection
@@ -515,6 +519,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         'active', '#22c55e',    // Green for active
         'upcoming', '#eab308',  // Yellow for upcoming
         'past', '#a3a3a3',      // Gray for past
+        'off', '#d4d4d4',       // Light gray: not collected today
         '#1a1a1a'               // Default black
       ],
       'circle-radius': [
@@ -539,6 +544,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
         'match',
         ['get', 'timeStatus'],
         'active', 0.9,          // More visible for active
+        'off', 0.45,            // Fade stops not collected today
         0.8                     // Normal opacity
       ],
     },
@@ -816,10 +822,10 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
       {/* Custom label markers for high zoom levels - only render visible points */}
       {visiblePoints.map((point) => {
-        const timeStatus = getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes);
+        const timeStatus = getPointStatus(point, clock);
         const isActive = timeStatus === 'active';
         // Use solid, high-contrast colors
-        const bgColor = isActive ? '#16a34a' : timeStatus === 'upcoming' ? '#ca8a04' : '#525252';
+        const bgColor = isActive ? '#16a34a' : timeStatus === 'upcoming' ? '#ca8a04' : timeStatus === 'off' ? '#a3a3a3' : '#525252';
         const textColor = '#ffffff';
 
         return (
@@ -870,10 +876,12 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       })}
 
       {popupInfo && (() => {
-        const timeStatus = getTimeStatus(popupInfo.arrivalTime, popupInfo.departureTime, currentTimeMinutes);
+        const timeStatus = getPointStatus(popupInfo, clock);
         const timeDiff = getTimeDifferenceInMinutes(popupInfo.arrivalTime, currentTimeMinutes);
-        const statusColor = timeStatus === 'active' ? '#22c55e' : timeStatus === 'upcoming' ? '#eab308' : '#a3a3a3';
-        const statusText = timeStatus === 'active' ? '收運中' : timeStatus === 'upcoming' ? '即將抵達' : '已結束';
+        const statusColor = STATUS_COLORS[timeStatus];
+        const statusText = STATUS_TEXT[timeStatus];
+        const todaysTypes = typesOn(popupInfo.schedule, clock.weekday);
+        const nextDay = timeStatus === 'off' ? nextServiceDay(popupInfo.schedule, clock.weekday) : null;
         const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${popupInfo.latitude},${popupInfo.longitude}`;
         const isPointStarred = starredPointIds.includes(popupInfo.id);
 
@@ -938,6 +946,14 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
               <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
                 <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>離開：</strong>{formatTime(popupInfo.departureTime)}
               </p>
+              {(todaysTypes.length > 0 || nextDay) && (
+                <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
+                  <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>今日：</strong>
+                  {todaysTypes.length > 0
+                    ? todaysTypes.map(type => COLLECTION_TYPE_LABELS[type]).join('、')
+                    : `停收，下次收運${weekdayLabel(nextDay!)}`}
+                </p>
+              )}
               {/* Action buttons row */}
               <div style={{
                 display: 'flex',
@@ -1243,8 +1259,8 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
               </div>
             ) : (
               starredPoints.map((point) => {
-                const timeStatus = getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes);
-                const statusColor = timeStatus === 'active' ? 'bg-green-500' : timeStatus === 'upcoming' ? 'bg-yellow-500' : 'bg-neutral-400';
+                const timeStatus = getPointStatus(point, clock);
+                const statusColor = timeStatus === 'active' ? 'bg-green-500' : timeStatus === 'upcoming' ? 'bg-yellow-500' : timeStatus === 'off' ? 'bg-neutral-200 dark:bg-neutral-600' : 'bg-neutral-400';
                 return (
                   <button
                     key={point.id}

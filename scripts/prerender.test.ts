@@ -1,5 +1,5 @@
 import { expect, test } from 'bun:test';
-import { aggregateStops, escapeHtml } from './prerender';
+import { aggregateStops, escapeHtml, formatSchedule } from './prerender';
 import type { UnifiedTrashCollectionPoint } from '../src/types';
 
 const stop: UnifiedTrashCollectionPoint = {
@@ -28,4 +28,9 @@ test('retains separate locations, districts, visits and truck identities even wi
 
 test('escapes source strings in table cells and attributes', () => {
   expect(escapeHtml('<站點 & "路線" \'車次\'>')).toBe('&lt;站點 &amp; &quot;路線&quot; &#39;車次&#39;&gt;');
+});
+
+test('types sharing the same days are listed together', () => {
+  expect(formatSchedule({ ...stop, schedule: { garbage: [1, 2, 4, 5, 6], recycling: [1, 2, 4, 5, 6], foodscraps: [3] } }))
+    .toBe('垃圾、資源回收：週一、週二、週四、週五、週六；廚餘：週三');
 });
