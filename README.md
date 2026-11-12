@@ -21,8 +21,22 @@ data-branch/
 ├── trash-collection-points.json
 ├── new-taipei-trash-collection-points.json
 ├── taichung-trash-collection-points.json
-└── kaohsiung-trash-collection-points.json
+├── kaohsiung-trash-collection-points.json
+├── meta.json            # Per-city updatedAt / checkedAt / records (written by the refresh)
+├── geocode/             # Address → coordinates caches (TGOS) for Taichung and Kaohsiung
+│   ├── taichung.json
+│   └── kaohsiung.json
+└── migrations/          # One-time maps from pre-Nov-2026 point IDs to stable IDs
+    └── point-ids-v1-<city>.json
 ```
+
+## Geocode caches and ID migrations
+
+- `geocode/<city>.json` is read by `scripts/data/update.ts` (main branch) to place Taichung and
+  Kaohsiung stops. Add newly geocoded addresses by merging them in (`scripts/process-tgos-results.ts`
+  does this) and committing here; never replace the file with a partial batch.
+- `migrations/` is copied into the site by `bun run dump-data` so browsers can upgrade stars and
+  shared links saved with the old point IDs. Generated once; don't regenerate or edit.
 
 ## Important: Script Management
 
