@@ -14,6 +14,11 @@ export const COLLECTION_TYPE_LABELS: Record<CollectionType, string> = {
   foodscraps: '廚餘',
 };
 
+/** ISO weekdays from a compact string written by scripts/data/publish.ts: "1245" → [1, 2, 4, 5]. */
+export function parseCompactDays(compact: string): number[] {
+  return [...compact].map(Number).filter(day => day >= 1 && day <= 7);
+}
+
 /**
  * Whether the stop is served on this ISO weekday. Stops without a schedule (Taichung's
  * map data, already filtered to today) count as served.

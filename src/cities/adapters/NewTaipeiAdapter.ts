@@ -1,12 +1,13 @@
 import { CityDataAdapter } from './BaseAdapter';
 import { stablePointId } from '../pointId';
+import { parseCompactDays } from '../schedule';
 import type { CollectionSchedule, NewTaipeiTrashCollectionPoint, UnifiedTrashCollectionPoint } from '../../types';
 
 const WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'] as const;
 
 /** ISO weekdays (Mon=1 .. Sun=7) from the compact "1245" field, else from the raw per-day Y flags. */
 function parseDays(compact: string | undefined, point: NewTaipeiTrashCollectionPoint, prefix: string): number[] | undefined {
-  if (compact !== undefined) return [...compact].map(Number).filter(d => d >= 1 && d <= 7);
+  if (compact !== undefined) return parseCompactDays(compact);
   const flags = point as unknown as Record<string, string | undefined>;
   if (!WEEKDAYS.some(day => prefix + day in flags)) return undefined;
   return WEEKDAYS.flatMap((day, i) => (flags[prefix + day] === 'Y' ? [i + 1] : []));

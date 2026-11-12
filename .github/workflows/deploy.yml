@@ -46,8 +46,8 @@ jobs:
           git fetch origin data:data
           bun run dump-data
 
-      - name: Trim public data files
-        run: ./.github/actions/trim-data.sh
+      - name: Compact public data files
+        run: bun scripts/data/publish.ts public
 
       - name: Build
         env:

@@ -28,10 +28,11 @@ If you are an AI agent answering questions like "when does the garbage truck arr
 
 ## Raw data files (trimmed open-data JSON)
 
-- [Taipei](https://garbage.yukai.dev/trash-collection-points.json) (~1.4 MB): `{ result: { results: [{ _id, 行政區, 里別, 地點, 路線, 車次, 抵達時間, 離開時間, 經度, 緯度 }] } }`. Times are `HHMM` strings. No weekday field.
-- [New Taipei](https://garbage.yukai.dev/new-taipei-trash-collection-points.json) (~9 MB): array of `{ city (district), lineid, linename, rank, name, village, longitude, latitude, time (HH:MM), garbageDays, recyclingDays, foodscrapsDays }`. The `*Days` fields encode ISO weekdays as digit strings, e.g. `"1245"` = Mon, Tue, Thu, Fri.
-- [Kaohsiung](https://garbage.yukai.dev/kaohsiung-trash-collection-points.json) (~3 MB): array of `{ area, village, route, location, type, arrivalTime, departureTime, longitude, latitude, collectionType }`. No weekday field.
-- [Taichung](https://garbage.yukai.dev/taichung-trash-collection-points.json) (~50 MB — avoid downloading unless you need the full dataset): array of `{ area, village, route, location, arrivalTime, departureTime, longitude, latitude, dayOfWeek (1=Mon … 7=Sun), collectionType (garbage | recycling) }`. Contains one row per stop, weekday, and collection type.
+- [Taipei](https://garbage.yukai.dev/trash-collection-points.json) (~1 MB): `{ result: { results: [{ _id, 行政區, 里別, 分隊, 地點, 路線, 車次, 抵達時間, 離開時間, 經度, 緯度 }] } }`. Times are `HHMM` strings. No weekday field (citywide: no collection on Wednesday or Sunday).
+- [New Taipei](https://garbage.yukai.dev/new-taipei-trash-collection-points.json) (~7 MB): array of `{ city (district), lineid, linename, rank, name, village, longitude, latitude, time (HH:MM), garbageDays, recyclingDays, foodscrapsDays }`. The `*Days` fields encode ISO weekdays as digit strings, e.g. `"1245"` = Mon, Tue, Thu, Fri.
+- [Kaohsiung](https://garbage.yukai.dev/kaohsiung-trash-collection-points.json) (~3 MB): array of `{ area, village, route, location, type, arrivalTime, departureTime, longitude, latitude, collectionType }`. No weekday field (citywide: no collection on Wednesday or Sunday).
+- [Taichung](https://garbage.yukai.dev/taichung-trash-collection-points.json) (~8 MB): array of `{ area, village, route, location, arrivalTime, departureTime, longitude, latitude, garbageDays?, recyclingDays? }`, one row per truck visit (place, truck and times). The `*Days` fields use the same ISO-weekday digit strings as New Taipei.
+- Route geometries: `https://garbage.yukai.dev/routes/<city>/routes-manifest.json` lists each city's routes; `/routes/<city>/<routeId>.geojson` is a GeoJSON LineString following the roads (Valhalla, rebuilt weekly); `/routes/route-metadata.json` maps `route name|car sequence` to `routeId`.
 - Coordinates are WGS84 strings. Schedules reflect each city's published open data and may change without notice.
 
 ## Documentation and source

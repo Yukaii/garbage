@@ -165,7 +165,7 @@ bun scripts/trim-taichung-data.ts
 - Rounds coordinates to 6 decimal places
 - Shortens field names
 
-**Note:** Currently unused - trimming is done by `.github/actions/trim-data.sh` during build.
+**Note:** Currently unused - compaction is done by `scripts/data/publish.ts` during deploy.
 
 ---
 
@@ -224,27 +224,21 @@ GITHUB_TOKEN=your_token ./scripts/setup-labels.sh
 
 ## GitHub Actions Build Scripts
 
-### `.github/actions/trim-data.sh`
-**Purpose:** Trim data files to reduce bundle size during CI/CD build.
+### `data/publish.ts`
+**Purpose:** Compact the city files for the site and MCP server during deploy (replaced `.github/actions/trim-data.sh`).
 
 **Usage:**
 ```bash
-bash .github/actions/trim-data.sh
+bun scripts/data/publish.ts public
 ```
 
 **What it does:**
-- Trims Taipei data (removes unused fields)
-- Trims New Taipei data (removes day/recycling columns)
-- Trims Taichung data (removes 'type' field)
-- Shows before/after sizes
+- Taipei: keeps only the fields the adapter reads
+- New Taipei: collapses 21 per-day Y/N flags into compact weekday strings (`garbageDays: "1245"`)
+- Taichung: merges the per-(stop, weekday, type) rows of one truck visit into one row with compact weekday strings (~164k rows / 47 MB → ~37k rows / 8 MB)
 
-**When it runs:**
-- Automatically during `vite build` (if configured)
-- Manually for testing
-
----
-
-## Workflow: Adding a New City
+### `data/export-routes.ts`
+**Purpose:** Copy Valhalla route geometries into `public/routes/` (run by `dump-data`), minified with 5-decimal coordinates (108 MB → 31 MB).
 
 ### 1. Fetch and prepare addresses
 ```bash
@@ -290,7 +284,7 @@ git checkout main
 - Create `CityAdapter.ts`
 - Update `cityRegistry.ts`
 - Update `dump-data.sh`
-- Update `trim-data.sh`
+- Update `scripts/data/publish.ts` if the published file needs compacting
 
 ---
 
