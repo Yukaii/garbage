@@ -6,12 +6,14 @@ on:
       - 'mcp/**'
       - 'src/cities/**'
       - 'src/types.ts'
+      - 'src/utils/taipeiTime.ts'
   push:
     branches: [main]
     paths:
       - 'mcp/**'
       - 'src/cities/**'
       - 'src/types.ts'
+      - 'src/utils/taipeiTime.ts'
 
 jobs:
   test:
