@@ -24,8 +24,32 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # data.kcg.gov.tw only answers Taiwan networks: GitHub-hosted runners (Azure) and Vercel
+  # (US and Hong Kong) can't even open a connection. This job runs on a self-hosted runner
+  # in Taiwan (label `taiwan`) and only downloads the raw file; parsing and validation stay
+  # on GitHub's runners. If that runner is offline the job waits in the queue (up to 24h),
+  # then the other cities are still published and the failure is reported.
+  download-kaohsiung:
+    name: Download kaohsiung (Taiwan runner)
+    runs-on: [self-hosted, taiwan]
+    timeout-minutes: 10
+    steps:
+      - name: Download from data.kcg.gov.tw
+        run: |
+          curl -fsS --retry 3 --retry-all-errors --retry-delay 15 -m 120 \
+            -o kaohsiung.json https://data.kcg.gov.tw/Json/Get/14fe516d-ac62-4905-9325-70daae7616bd
+          ls -l kaohsiung.json
+      - uses: actions/upload-artifact@v7
+        with:
+          name: kaohsiung-upstream
+          path: kaohsiung.json
+          retention-days: 7
+
   fetch:
     name: Fetch ${{ matrix.city }}
+    needs: download-kaohsiung
+    # The other cities don't need Kaohsiung's download to have succeeded
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
@@ -42,7 +66,16 @@ jobs:
       - name: Fetch the data branch (published files + geocode caches)
         run: git fetch --depth=1 origin data:refs/remotes/origin/data
 
+      - name: Get Kaohsiung's file from the Taiwan runner
+        if: matrix.city == 'kaohsiung'
+        uses: actions/download-artifact@v8
+        with:
+          name: kaohsiung-upstream
+          path: upstream
+
       - name: Fetch and validate
+        env:
+          KAOHSIUNG_SOURCE_URL: ${{ matrix.city == 'kaohsiung' && format('file://{0}/upstream/kaohsiung.json', github.workspace) || '' }}
         run: >-
           bun scripts/data/update.ts "${{ matrix.city }}" --out out --data-ref origin/data
           ${{ inputs.allow_shrink && '--allow-shrink' || '' }}

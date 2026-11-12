@@ -218,6 +218,9 @@ const taichung: Source = {
 // ---------------------------------------------------------------------------
 
 const KAOHSIUNG_API = 'https://data.kcg.gov.tw/Json/Get/14fe516d-ac62-4905-9325-70daae7616bd';
+// data.kcg.gov.tw only answers Taiwan networks, so CI downloads it on a self-hosted runner in
+// Taiwan and points this at the file (file://...). Locally the portal is fetched directly.
+const kaohsiungUrl = () => process.env.KAOHSIUNG_SOURCE_URL || KAOHSIUNG_API;
 
 interface KaohsiungRecord {
   area: string;
@@ -274,7 +277,7 @@ const kaohsiung: Source = {
   file: 'kaohsiung-trash-collection-points.json',
   minRecords: 5_000,
   async fetch({ loadGeocodes }) {
-    const json = await fetchJson<{ Data: KaohsiungRecord[] }>(KAOHSIUNG_API);
+    const json = await fetchJson<{ Data: KaohsiungRecord[] }>(kaohsiungUrl());
     if (!Array.isArray(json?.Data)) throw new Error('Kaohsiung response has no Data array');
     const geocodes = await loadGeocodes('kaohsiung');
     const { rows, missing, noHouseNumber } = mergeKaohsiung(json.Data, geocodes);

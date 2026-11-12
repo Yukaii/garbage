@@ -6,4 +6,8 @@
 /src/*
 !/src/cities
 !/src/types.ts
+# Shared by the adapters (Taiwan time) and the MCP query layer
+!/src/utils
+/src/utils/*
+!/src/utils/taipeiTime.ts
 mcp/node_modules

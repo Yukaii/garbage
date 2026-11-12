@@ -5,7 +5,8 @@
  *   bun scripts/data/record-meta.ts <data-dir> <city>...   (cities that refreshed successfully)
  *
  * Every city listed gets `checkedAt` = now. `updatedAt` = now only if its file differs
- * from HEAD. The site shows `updatedAt` so users can tell how fresh the schedule is.
+ * from HEAD. Cities missing from meta.json get their last commit date. The site shows
+ * `updatedAt` so users can tell how fresh the schedule is.
  */
 import { $ } from 'bun';
 import { SOURCES, type Source } from './sources';
@@ -34,6 +35,14 @@ for (const city of cities as Source['city'][]) {
     records: source.countPrevious(await Bun.file(`${dir}/${source.file}`).text()),
   };
   console.log(`${city}: ${changed ? 'updated' : 'unchanged'}, ${meta[city].records} records`);
+}
+
+// Cities this run didn't check (their fetch failed) keep an entry, dated by their last commit,
+// so the site still shows how old their data is
+for (const [city, source] of Object.entries(SOURCES)) {
+  if (meta[city] || !(await Bun.file(`${dir}/${source.file}`).exists())) continue;
+  const lastCommit = (await $`git -C ${dir} log -1 --format=%cI -- ${source.file}`.nothrow().quiet().text()).trim();
+  if (lastCommit) meta[city] = { updatedAt: lastCommit, checkedAt: '', records: source.countPrevious(await Bun.file(`${dir}/${source.file}`).text()) };
 }
 
 await Bun.write(metaFile, JSON.stringify(meta, null, 2) + '\n');
