@@ -1,5 +1,6 @@
-import { defineConfig, type Plugin } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig, type Plugin, type PluginOption } from 'vite'
+import react, { reactCompilerPreset } from '@vitejs/plugin-react'
+import babel from '@rolldown/plugin-babel'
 import { VitePWA } from 'vite-plugin-pwa'
 
 // Plugin to replace environment variables in HTML
@@ -20,9 +21,43 @@ function htmlEnvPlugin(): Plugin {
   }
 }
 
+// React Compiler (stable Babel build) memoizes components and hooks at build time.
+// It needs Babel 7: babel-plugin-react-compiler 1.0 mis-parses Babel 8's AST, so
+// @babel/core stays on ^7 and @rolldown/plugin-babel on the ^0.2 that plugin-react 6 supports.
+// Functions it can't analyze are left as written (unmemoized); `COMPILER_REPORT=1 bun run build`
+// lists which ones were compiled and which were skipped, and why.
+function reactCompiler(): PluginOption[] {
+  const report = process.env.COMPILER_REPORT === '1'
+  const compiled: string[] = []
+  const skipped: string[] = []
+  const logger = {
+    logEvent(filename: string | null, event: { kind: string; fnName?: string | null; detail?: unknown }) {
+      const where = `${filename?.split('/src/')[1] ?? filename}:${event.fnName ?? '(anonymous)'}`
+      if (event.kind === 'CompileSuccess') compiled.push(where)
+      else if (event.kind === 'CompileError' || event.kind === 'CompileSkip') {
+        const detail = event.detail as { reason?: string; options?: { reason?: string } } | undefined
+        skipped.push(`${filename?.split('/src/')[1] ?? filename} — ${detail?.reason ?? detail?.options?.reason ?? event.kind}`)
+      }
+    },
+  }
+  return [
+    babel({ presets: [reactCompilerPreset(report ? ({ logger } as never) : undefined)] }),
+    {
+      name: 'react-compiler-report',
+      apply: 'build',
+      closeBundle() {
+        if (!report) return
+        console.log(`\nReact Compiler: ${compiled.length} compiled, ${skipped.length} skipped`)
+        for (const line of [...new Set(skipped)].sort()) console.log(`  skipped ${line}`)
+      },
+    },
+  ]
+}
+
 export default defineConfig({
   plugins: [
     react(),
+    ...reactCompiler(),
     htmlEnvPlugin(),
     VitePWA({
       registerType: 'prompt',

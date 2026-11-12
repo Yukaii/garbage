@@ -9,6 +9,7 @@ Static React + Vite + MapLibre PWA showing garbage-truck collection points for T
 - `bun run typecheck` — `tsc --noEmit` over `src/` and `vite.config.ts`
 - `bun run lint` — Biome (lint only; formatter off). Bug-class rules are errors, a11y and `any` are warnings to burn down
 - `bun run test` — `bun test` over `src/` and `scripts/` (the MCP has its own in `mcp/`)
+- `COMPILER_REPORT=1 bun run build` — also lists which components/hooks React Compiler compiled or skipped
 - `bun run build` — Vite production build, then `scripts/prerender.ts` writes static city/district schedules and a dated sitemap into `dist/` (requires `bun run dump-data` first)
 
 ## Data pipeline
@@ -33,6 +34,10 @@ Keep these in sync when tools, cities, data fields or URLs change:
 - `public/.well-known/ai-catalog.json` → Server Card at `https://mcp.garbage.yukai.dev/mcp/server-card` (`mcp/public/server-card.json`, served with `application/mcp-server-card+json` by `mcp/vercel.json`). Card fields must agree with the `initialize` response (`serverInfo.name` is `dev.yukai/taipei-trash`; supported protocols are `2025-11-25`, `2025-06-18`, and `2025-03-26`). The current handler does not implement `server/discover`.
 - The site's JSON-LD `SearchAction` targets `?q=`, which `App.tsx` reads and writes; don't advertise URL parameters the app doesn't handle.
 - GitHub Pages deploy passes `include-hidden-files: true` so `/.well-known/` ships (artifact action v4+ drops dotfiles by default).
+
+## React Compiler
+
+`vite.config.ts` runs React Compiler 1.0 (stable Babel build) over the app, so new code doesn't need `useMemo`/`useCallback`/`React.memo` for performance; existing ones stay (the compiler respects them) and can go when code is touched. Keep `@babel/core` on ^7 and `@rolldown/plugin-babel` on ^0.2: with Babel 8 the compiler fails on ordinary destructuring defaults, and plugin-react 6 only supports plugin-babel ^0.1/^0.2 (`.github/dependabot.yml` ignores those bumps; lift that when the compiler supports Babel 8). Code the compiler can't analyze is left unmemoized, silently; check `COMPILER_REPORT=1 bun run build` after big component changes (currently 16 compiled, 3 skipped: `AdSense`, `InstallPrompt`, `useFavorites`).
 
 ## Tooling conventions
 
