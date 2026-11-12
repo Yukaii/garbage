@@ -42,27 +42,31 @@ export default function RouteSelector({
       {/* Layer Toggle Button */}
       {onMapStyleToggle && (
         <button
+          type="button"
           onClick={onMapStyleToggle}
-          className={`flex h-9 w-9 cursor-pointer items-center justify-center rounded-md border border-neutral-300 bg-white text-neutral-700 shadow-md transition-all hover:border-neutral-400 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-black dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:bg-neutral-900 ${className}`}
+          className={`flex h-9 w-9 cursor-pointer items-center justify-center rounded-lg border border-neutral-200 bg-white/95 text-neutral-700 shadow-md backdrop-blur-md transition-colors hover:border-neutral-300 hover:bg-neutral-100 dark:border-neutral-800 dark:bg-neutral-900/95 dark:text-neutral-300 dark:hover:border-neutral-700 dark:hover:bg-neutral-800 ${className}`}
           title={mapStyleType === 'street' ? '切換至衛星圖' : '切換至街道圖'}
+          aria-label={mapStyleType === 'street' ? '切換至衛星圖' : '切換至街道圖'}
         >
-          <Layers size={18} />
+          <Layers className="h-4 w-4" />
         </button>
       )}
 
       {/* Geolocation Button */}
       {onLocateClick && (
         <button
+          type="button"
           onClick={onLocateClick}
           disabled={isLocating}
-          className={`flex h-9 w-9 items-center justify-center rounded-md border border-neutral-300 bg-white text-neutral-700 shadow-md transition-all dark:border-neutral-700 dark:bg-black dark:text-neutral-300 ${
+          className={`flex h-9 w-9 items-center justify-center rounded-lg border border-neutral-200 bg-white/95 text-neutral-700 shadow-md backdrop-blur-md transition-colors dark:border-neutral-800 dark:bg-neutral-900/95 dark:text-neutral-300 ${
             isLocating
               ? 'cursor-wait opacity-60'
-              : 'cursor-pointer hover:border-neutral-400 hover:bg-neutral-50 dark:hover:border-neutral-600 dark:hover:bg-neutral-900'
+              : 'cursor-pointer hover:border-neutral-300 hover:bg-neutral-100 dark:hover:border-neutral-700 dark:hover:bg-neutral-800'
           } ${className}`}
           title="定位到目前位置"
+          aria-label="定位到目前位置"
         >
-          <Locate size={18} className={isLocating ? 'animate-pulse' : ''} />
+          <Locate className={`h-4 w-4 ${isLocating ? 'animate-pulse' : ''}`} />
         </button>
       )}
     </>
@@ -118,14 +122,16 @@ export default function RouteSelector({
       style={{ zIndex: 10, pointerEvents: 'none' }}
     >
       {/* Map Controls */}
-      <div className="absolute left-[10px] z-20 flex flex-col gap-2" style={{ top: `10px`, pointerEvents: 'auto' }}>
+      <div className="absolute left-3 z-20 flex flex-col gap-1.5" style={{ top: '12px', pointerEvents: 'auto' }}>
         {/* Sidebar Toggle Button - Only visible on desktop */}
         <button
+          type="button"
           onClick={() => setIsExpanded(!isExpanded)}
-          className="hidden md:flex h-9 w-9 cursor-pointer items-center justify-center rounded-md border border-neutral-300 bg-white text-neutral-700 shadow-md transition-all hover:border-neutral-400 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-black dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:bg-neutral-900"
+          className="hidden md:flex h-9 w-9 cursor-pointer items-center justify-center rounded-lg border border-neutral-200 bg-white/95 text-neutral-700 shadow-md backdrop-blur-md transition-colors hover:border-neutral-300 hover:bg-neutral-100 dark:border-neutral-800 dark:bg-neutral-900/95 dark:text-neutral-300 dark:hover:border-neutral-700 dark:hover:bg-neutral-800"
           aria-label={isExpanded ? '收合路線列表' : '展開路線列表'}
+          title={isExpanded ? '收合路線列表' : '展開路線列表'}
         >
-          {isExpanded ? <ChevronLeft className="h-5 w-5" /> : <ChevronRight className="h-5 w-5" />}
+          {isExpanded ? <ChevronLeft className="h-4 w-4" /> : <ChevronRight className="h-4 w-4" />}
         </button>
 
         {/* Map control buttons - hidden on desktop when sidebar is expanded */}
@@ -134,24 +140,25 @@ export default function RouteSelector({
 
       {/* Sidebar Content */}
       {isExpanded && (
-        <div className="h-full w-full border-r border-neutral-200 bg-white/95 backdrop-blur-sm dark:border-neutral-800 dark:bg-black/90 shadow-lg flex flex-col" style={{ pointerEvents: 'auto' }}>
-          <div className="border-b border-neutral-200 px-4 py-3 pt-14 dark:border-neutral-800">
-            <div className="flex items-center gap-2 mb-3">
-              <Route className="h-5 w-5 text-neutral-700 dark:text-neutral-300" />
-              <h3 className="text-sm font-semibold text-black dark:text-white">
+        <div className="flex h-full w-full flex-col border-r border-neutral-200/80 bg-white/95 shadow-xl backdrop-blur-md dark:border-neutral-800/80 dark:bg-neutral-900/95" style={{ pointerEvents: 'auto' }}>
+          <div className="border-b border-neutral-200/80 px-4 py-3 pt-14 dark:border-neutral-800/80">
+            <div className="mb-3 flex items-center gap-2">
+              <Route className="h-4 w-4 text-neutral-700 dark:text-neutral-300" />
+              <h3 className="text-sm font-semibold text-neutral-900 dark:text-neutral-100">
                 路線列表
               </h3>
-              <span className="ml-auto text-xs text-neutral-500 dark:text-neutral-400">
+              <span className="ml-auto rounded-md bg-neutral-100 px-2 py-0.5 text-xs font-medium tabular-nums text-neutral-600 dark:bg-neutral-800 dark:text-neutral-400">
                 {routes.length} 條
               </span>
             </div>
             {/* Visibility Toggle */}
             <button
+              type="button"
               onClick={() => setShowVisibleOnly(!showVisibleOnly)}
-              className={`flex w-full items-center gap-2 rounded-md border px-3 py-2 text-sm transition-colors ${
+              className={`flex w-full items-center gap-2 rounded-lg border px-3 py-2 text-xs font-medium transition-colors ${
                 showVisibleOnly
-                  ? 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-400 dark:bg-blue-950 dark:text-blue-300'
-                  : 'border-neutral-300 bg-white text-neutral-700 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800'
+                  ? 'border-sky-500/40 bg-sky-50 text-sky-700 dark:border-sky-500/30 dark:bg-sky-950/50 dark:text-sky-300'
+                  : 'border-neutral-200 bg-white text-neutral-700 hover:border-neutral-300 hover:bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:border-neutral-700 dark:hover:bg-neutral-800'
               }`}
             >
               {showVisibleOnly ? <Eye className="h-4 w-4" /> : <EyeOff className="h-4 w-4" />}
@@ -159,35 +166,48 @@ export default function RouteSelector({
                 {showVisibleOnly ? '僅顯示畫面內路線' : '顯示全部路線'}
               </span>
               {showVisibleOnly && viewportBounds && (
-                <span className="text-xs opacity-75">
+                <span className="text-[11px] opacity-75">
                   已隱藏 {allRoutes.length - routes.length} 條
                 </span>
               )}
             </button>
           </div>
-          <div className="flex-1 overflow-y-auto p-2">
+          <div className="flex-1 space-y-1.5 overflow-y-auto p-2.5">
             {routes.map((route) => (
               <button
                 key={route.routeKey}
+                type="button"
                 onClick={() => {
                   onRouteSelect(route.routeKey);
                   setIsExpanded(false);
                 }}
-                className={`w-full rounded-md border px-3 py-2 text-left transition-colors ${
+                className={`w-full rounded-lg border px-3 py-2.5 text-left transition-colors ${
                   selectedRoute === route.routeKey
-                    ? 'border-blue-500 bg-blue-50 dark:border-blue-400 dark:bg-blue-950'
-                    : 'border-transparent hover:border-neutral-300 hover:bg-neutral-50 dark:hover:border-neutral-700 dark:hover:bg-neutral-900'
+                    ? 'border-neutral-900 bg-neutral-900 text-white dark:border-neutral-100 dark:bg-neutral-100 dark:text-neutral-900'
+                    : 'border-transparent hover:border-neutral-200 hover:bg-neutral-50 dark:hover:border-neutral-800 dark:hover:bg-neutral-800/80'
                 }`}
               >
                 <div className="flex items-baseline justify-between gap-2">
-                  <span className="font-medium text-black dark:text-white text-sm truncate">
+                  <span className={`truncate text-sm font-medium ${
+                    selectedRoute === route.routeKey
+                      ? 'text-white dark:text-neutral-900'
+                      : 'text-neutral-900 dark:text-neutral-100'
+                  }`}>
                     {route.routeName}
                   </span>
-                  <span className="shrink-0 text-xs text-neutral-500 dark:text-neutral-400">
+                  <span className={`shrink-0 text-xs tabular-nums ${
+                    selectedRoute === route.routeKey
+                      ? 'text-neutral-300 dark:text-neutral-600'
+                      : 'text-neutral-500 dark:text-neutral-400'
+                  }`}>
                     {route.pointCount} 站
                   </span>
                 </div>
-                <div className="mt-0.5 text-xs text-neutral-600 dark:text-neutral-400 truncate">
+                <div className={`mt-0.5 truncate text-xs ${
+                  selectedRoute === route.routeKey
+                    ? 'text-neutral-300 dark:text-neutral-600'
+                    : 'text-neutral-500 dark:text-neutral-400'
+                }`}>
                   {route.district} • {route.city}
                 </div>
               </button>
@@ -204,8 +224,9 @@ export default function RouteSelector({
       {/* Trigger Button */}
       {!isMobileOpen && (
         <button
+          type="button"
           onClick={() => setIsMobileOpen(true)}
-          className="absolute bottom-4 left-1/2 z-10 flex -translate-x-1/2 items-center gap-2 rounded-full border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-black shadow-lg transition-all hover:border-neutral-400 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-black dark:text-white dark:hover:border-neutral-600 dark:hover:bg-neutral-900"
+          className="absolute bottom-4 left-1/2 z-10 flex -translate-x-1/2 items-center gap-2 rounded-full border border-neutral-200 bg-white/95 px-4 py-2 text-xs font-semibold text-neutral-900 shadow-lg backdrop-blur-md transition-colors hover:border-neutral-300 hover:bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900/95 dark:text-neutral-100 dark:hover:border-neutral-700 dark:hover:bg-neutral-800"
         >
           <Route className="h-4 w-4" />
           <span>瀏覽路線</span>
@@ -218,44 +239,46 @@ export default function RouteSelector({
         <>
           {/* Backdrop */}
           <div
-            className="fixed inset-0 z-30 bg-black/50"
+            className="fixed inset-0 z-30 bg-black/50 backdrop-blur-xs"
             onClick={() => setIsMobileOpen(false)}
           />
 
           {/* Sheet */}
-          <div className="fixed bottom-0 left-0 right-0 z-40 rounded-t-2xl border-t border-neutral-200 bg-white dark:border-neutral-800 dark:bg-black shadow-2xl animate-slide-up flex flex-col max-h-[70vh]">
+          <div className="fixed bottom-0 left-0 right-0 z-40 flex max-h-[70vh] flex-col rounded-t-2xl border-t border-neutral-200 bg-white shadow-2xl animate-slide-up dark:border-neutral-800 dark:bg-neutral-950">
             {/* Handle */}
-            <div className="flex items-center justify-center py-3 border-b border-neutral-200 dark:border-neutral-800">
-              <div className="h-1 w-12 rounded-full bg-neutral-300 dark:bg-neutral-700" />
+            <div className="flex items-center justify-center py-2.5">
+              <div className="h-1 w-10 rounded-full bg-neutral-300 dark:bg-neutral-700" />
             </div>
 
             {/* Header */}
-            <div className="border-b border-neutral-200 px-4 py-3 dark:border-neutral-800">
-              <div className="flex items-center justify-between mb-3">
+            <div className="border-b border-neutral-200/80 px-4 pb-3 dark:border-neutral-800/80">
+              <div className="mb-2.5 flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <Route className="h-5 w-5 text-neutral-700 dark:text-neutral-300" />
-                  <h3 className="text-sm font-semibold text-black dark:text-white">
+                  <Route className="h-4 w-4 text-neutral-700 dark:text-neutral-300" />
+                  <h3 className="text-sm font-semibold text-neutral-900 dark:text-neutral-100">
                     選擇路線
                   </h3>
-                  <span className="text-xs text-neutral-500 dark:text-neutral-400">
+                  <span className="rounded-md bg-neutral-100 px-2 py-0.5 text-xs font-medium tabular-nums text-neutral-600 dark:bg-neutral-800 dark:text-neutral-400">
                     {routes.length} 條
                   </span>
                 </div>
                 <button
+                  type="button"
                   onClick={() => setIsMobileOpen(false)}
                   aria-label="關閉路線列表"
-                  className="flex h-8 w-8 items-center justify-center rounded-md text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-900"
+                  className="flex h-8 w-8 items-center justify-center rounded-lg text-neutral-500 transition-colors hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-100"
                 >
-                  <ChevronDown className="h-5 w-5" />
+                  <ChevronDown className="h-4 w-4" />
                 </button>
               </div>
               {/* Visibility Toggle */}
               <button
+                type="button"
                 onClick={() => setShowVisibleOnly(!showVisibleOnly)}
-                className={`flex w-full items-center gap-2 rounded-md border px-3 py-2 text-sm transition-colors ${
+                className={`flex w-full items-center gap-2 rounded-lg border px-3 py-2 text-xs font-medium transition-colors ${
                   showVisibleOnly
-                    ? 'border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-400 dark:bg-blue-950 dark:text-blue-300'
-                    : 'border-neutral-300 bg-white text-neutral-700 hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800'
+                    ? 'border-sky-500/40 bg-sky-50 text-sky-700 dark:border-sky-500/30 dark:bg-sky-950/50 dark:text-sky-300'
+                    : 'border-neutral-200 bg-white text-neutral-700 hover:border-neutral-300 hover:bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:border-neutral-700 dark:hover:bg-neutral-800'
                 }`}
               >
                 {showVisibleOnly ? <Eye className="h-4 w-4" /> : <EyeOff className="h-4 w-4" />}
@@ -263,7 +286,7 @@ export default function RouteSelector({
                   {showVisibleOnly ? '僅顯示畫面內路線' : '顯示全部路線'}
                 </span>
                 {showVisibleOnly && viewportBounds && (
-                  <span className="text-xs opacity-75">
+                  <span className="text-[11px] opacity-75">
                     已隱藏 {allRoutes.length - routes.length} 條
                   </span>
                 )}
@@ -271,29 +294,42 @@ export default function RouteSelector({
             </div>
 
             {/* Routes List */}
-            <div className="flex-1 overflow-y-auto p-3">
+            <div className="flex-1 space-y-1.5 overflow-y-auto p-3">
               {routes.map((route) => (
                 <button
                   key={route.routeKey}
+                  type="button"
                   onClick={() => {
                     onRouteSelect(route.routeKey);
                     setIsMobileOpen(false);
                   }}
-                  className={`w-full rounded-lg border px-3 py-2.5 text-left transition-colors mb-2 ${
+                  className={`w-full rounded-lg border px-3 py-2.5 text-left transition-colors ${
                     selectedRoute === route.routeKey
-                      ? 'border-blue-500 bg-blue-50 dark:border-blue-400 dark:bg-blue-950'
-                      : 'border-neutral-200 hover:border-neutral-300 hover:bg-neutral-50 dark:border-neutral-800 dark:hover:border-neutral-700 dark:hover:bg-neutral-900'
+                      ? 'border-neutral-900 bg-neutral-900 text-white dark:border-neutral-100 dark:bg-neutral-100 dark:text-neutral-900'
+                      : 'border-neutral-200 bg-white hover:border-neutral-300 hover:bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-neutral-700 dark:hover:bg-neutral-800'
                   }`}
                 >
                   <div className="flex items-baseline justify-between gap-2">
-                    <span className="font-medium text-black dark:text-white text-sm">
+                    <span className={`truncate text-sm font-medium ${
+                      selectedRoute === route.routeKey
+                        ? 'text-white dark:text-neutral-900'
+                        : 'text-neutral-900 dark:text-neutral-100'
+                    }`}>
                       {route.routeName}
                     </span>
-                    <span className="shrink-0 text-xs text-neutral-500 dark:text-neutral-400">
+                    <span className={`shrink-0 text-xs tabular-nums ${
+                      selectedRoute === route.routeKey
+                        ? 'text-neutral-300 dark:text-neutral-600'
+                        : 'text-neutral-500 dark:text-neutral-400'
+                    }`}>
                       {route.pointCount} 站
                     </span>
                   </div>
-                  <div className="mt-1 text-xs text-neutral-600 dark:text-neutral-400">
+                  <div className={`mt-0.5 truncate text-xs ${
+                    selectedRoute === route.routeKey
+                      ? 'text-neutral-300 dark:text-neutral-600'
+                      : 'text-neutral-500 dark:text-neutral-400'
+                  }`}>
                     {route.district} • {route.city}
                   </div>
                 </button>
@@ -311,7 +347,7 @@ export default function RouteSelector({
       {renderMobileBottomSheet()}
 
       {/* Mobile Map Controls - Always visible on mobile */}
-      <div className="md:hidden absolute left-[10px] z-20 flex flex-col gap-2" style={{ top: `10px` }}>
+      <div className="md:hidden absolute left-3 z-20 flex flex-col gap-1.5" style={{ top: '12px' }}>
         {renderMapControlButtons()}
       </div>
     </>

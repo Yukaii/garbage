@@ -677,9 +677,7 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       {visiblePoints.map((point) => {
         const timeStatus = getPointStatus(point, clock);
         const isActive = timeStatus === 'active';
-        // Use solid, high-contrast colors
         const bgColor = isActive ? '#16a34a' : timeStatus === 'upcoming' ? '#ca8a04' : timeStatus === 'off' ? '#a3a3a3' : '#525252';
-        const textColor = '#ffffff';
 
         return (
           <Marker
@@ -693,8 +691,8 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
               {/* Wave animation for active stops */}
               {isActive && (
                 <>
-                  <div className="absolute h-8 w-8 -top-1 rounded-full bg-green-500 opacity-20 animate-ping" style={{ animationDuration: '2s' }} />
-                  <div className="absolute h-6 w-6 -top-1 rounded-full bg-green-500 opacity-30 animate-ping" style={{ animationDuration: '1.5s', animationDelay: '0.3s' }} />
+                  <div className="absolute -top-1 h-8 w-8 animate-ping rounded-full bg-green-500 opacity-20" style={{ animationDuration: '2s' }} />
+                  <div className="absolute -top-1 h-6 w-6 animate-ping rounded-full bg-green-500 opacity-30" style={{ animationDuration: '1.5s', animationDelay: '0.3s' }} />
                 </>
               )}
 
@@ -704,21 +702,12 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
                   e.stopPropagation();
                   setPopupInfo(point);
                 }}
-                className="relative z-10"
+                className="relative z-10 cursor-pointer rounded-md px-1.5 py-0.5 text-center text-[11px] leading-tight font-bold whitespace-nowrap text-white tabular-nums"
                 style={{
                   backgroundColor: bgColor,
-                  padding: '4px 6px',
-                  borderRadius: '4px',
                   border: isActive ? '2px solid rgba(34, 197, 94, 0.5)' : '1px solid rgba(0, 0, 0, 0.2)',
-                  boxShadow: isActive ? '0 0 12px rgba(34, 197, 94, 0.6), 0 2px 6px rgba(0,0,0,0.4)' : '0 2px 6px rgba(0,0,0,0.4)',
-                  cursor: 'pointer',
-                  fontSize: '11px',
-                  lineHeight: '1.2',
-                  fontWeight: '700',
-                  textAlign: 'center',
-                  whiteSpace: 'nowrap',
+                  boxShadow: isActive ? '0 0 12px rgba(34, 197, 94, 0.6), 0 2px 6px rgba(0,0,0,0.35)' : '0 2px 6px rgba(0,0,0,0.35)',
                   pointerEvents: 'auto',
-                  color: textColor,
                 }}
               >
                 {formatTime(point.arrivalTime)} - {formatTime(point.departureTime)}
@@ -747,171 +736,91 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
             closeButton={true}
             closeOnClick={false}
           >
-            <div style={{ minWidth: '220px', padding: '12px', paddingTop: '10px' }}>
-              <div style={{
-                display: 'flex',
-                justifyContent: 'space-between',
-                alignItems: 'flex-start',
-                gap: '6px',
-                marginBottom: '8px',
-                borderBottom: `1px solid ${darkMode ? '#404040' : '#e5e5e5'}`,
-                paddingBottom: '6px',
-                paddingRight: '24px'
-              }}>
-                <h3 style={{
-                  margin: '0',
-                  fontSize: '14px',
-                  fontWeight: '600',
-                  color: darkMode ? '#ffffff' : '#000000',
-                  flex: 1,
-                  lineHeight: '1.4',
-                }}>
+            <div className="min-w-[240px] p-3.5 text-neutral-900 dark:text-neutral-100">
+              <div className="mb-2.5 flex items-start justify-between gap-2 border-b border-neutral-200/80 pb-2.5 pr-7 dark:border-neutral-800">
+                <h3 className="m-0 flex-1 text-sm leading-snug font-semibold text-neutral-900 dark:text-neutral-100">
                   {popupInfo.district} - {popupInfo.village}
                 </h3>
-                <span style={{
-                  fontSize: '10px',
-                  fontWeight: '600',
-                  color: statusColor,
-                  backgroundColor: `${statusColor}20`,
-                  padding: '3px 6px',
-                  borderRadius: '4px',
-                  whiteSpace: 'nowrap',
-                  flexShrink: 0,
-                  marginTop: '1px',
-                }}>
+                <span
+                  className="mt-0.5 shrink-0 rounded-md px-1.5 py-0.5 text-[10px] font-semibold whitespace-nowrap"
+                  style={{
+                    color: statusColor,
+                    backgroundColor: `${statusColor}20`,
+                  }}
+                >
                   {statusText}
                 </span>
               </div>
-              <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>地點：</strong>{popupInfo.location}
-              </p>
-              <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>路線：</strong>{popupInfo.route}
-              </p>
-              <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>抵達：</strong>{formatTime(popupInfo.arrivalTime)}
-                {timeStatus === 'upcoming' && (
-                  <span style={{ marginLeft: '6px', fontSize: '11px', color: statusColor, fontWeight: '500' }}>
-                    ({formatTimeDifference(timeDiff)})
-                  </span>
-                )}
-              </p>
-              <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>離開：</strong>{formatTime(popupInfo.departureTime)}
-              </p>
-              {(todaysTypes.length > 0 || nextDay) && (
-                <p style={{ margin: '5px 0', fontSize: '12px', color: darkMode ? '#d4d4d4' : '#262626' }}>
-                  <strong style={{ color: darkMode ? '#ffffff' : '#000000' }}>今日：</strong>
-                  {todaysTypes.length > 0
-                    ? todaysTypes.map(type => COLLECTION_TYPE_LABELS[type]).join('、')
-                    : `停收，下次收運${weekdayLabel(nextDay!)}`}
+
+              <div className="space-y-1.5 text-xs text-neutral-600 dark:text-neutral-300">
+                <p className="m-0">
+                  <strong className="font-semibold text-neutral-900 dark:text-neutral-100">地點：</strong>
+                  {popupInfo.location}
                 </p>
-              )}
+                <p className="m-0">
+                  <strong className="font-semibold text-neutral-900 dark:text-neutral-100">路線：</strong>
+                  {popupInfo.route}
+                </p>
+                <p className="m-0">
+                  <strong className="font-semibold text-neutral-900 dark:text-neutral-100">抵達：</strong>
+                  <span className="tabular-nums">{formatTime(popupInfo.arrivalTime)}</span>
+                  {timeStatus === 'upcoming' && (
+                    <span className="ml-1.5 text-[11px] font-medium" style={{ color: statusColor }}>
+                      ({formatTimeDifference(timeDiff)})
+                    </span>
+                  )}
+                </p>
+                <p className="m-0">
+                  <strong className="font-semibold text-neutral-900 dark:text-neutral-100">離開：</strong>
+                  <span className="tabular-nums">{formatTime(popupInfo.departureTime)}</span>
+                </p>
+                {(todaysTypes.length > 0 || nextDay) && (
+                  <p className="m-0">
+                    <strong className="font-semibold text-neutral-900 dark:text-neutral-100">今日：</strong>
+                    {todaysTypes.length > 0
+                      ? todaysTypes.map(type => COLLECTION_TYPE_LABELS[type]).join('、')
+                      : `停收，下次收運${weekdayLabel(nextDay!)}`}
+                  </p>
+                )}
+              </div>
+
               {/* Action buttons row */}
-              <div style={{
-                display: 'flex',
-                gap: '8px',
-                marginTop: '10px',
-              }}>
+              <div className="mt-3 flex items-center gap-2">
                 {/* Navigation button */}
                 <a
                   href={googleMapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '6px',
-                    flex: 1,
-                    padding: '8px',
-                    backgroundColor: darkMode ? '#1a1a1a' : '#f5f5f5',
-                    color: darkMode ? '#ffffff' : '#000000',
-                    border: `1px solid ${darkMode ? '#404040' : '#d4d4d4'}`,
-                    borderRadius: '6px',
-                    fontSize: '12px',
-                    fontWeight: '500',
-                    textDecoration: 'none',
-                    transition: 'all 0.2s',
-                    cursor: 'pointer',
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.borderColor = darkMode ? '#fff' : '#000';
-                    e.currentTarget.style.backgroundColor = darkMode ? '#262626' : '#e5e5e5';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.borderColor = darkMode ? '#404040' : '#d4d4d4';
-                    e.currentTarget.style.backgroundColor = darkMode ? '#1a1a1a' : '#f5f5f5';
-                  }}
+                  className="flex h-8 flex-1 items-center justify-center gap-1.5 rounded-lg border border-neutral-200 bg-neutral-100/80 px-3 text-xs font-medium text-neutral-800 no-underline transition-colors hover:border-neutral-300 hover:bg-neutral-200/70 dark:border-neutral-800 dark:bg-neutral-800 dark:text-neutral-100 dark:hover:border-neutral-700 dark:hover:bg-neutral-700"
                 >
-                  <Navigation size={14} />
+                  <Navigation className="h-3.5 w-3.5" />
                   <span>導航</span>
                 </a>
                 {/* Star button */}
                 {onToggleStar && (
                   <button
+                    type="button"
                     onClick={() => onToggleStar(popupInfo.id)}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      width: '36px',
-                      height: '36px',
-                      padding: '0',
-                      backgroundColor: isPointStarred ? '#f59e0b' : (darkMode ? '#1a1a1a' : '#f5f5f5'),
-                      color: isPointStarred ? '#ffffff' : (darkMode ? '#ffffff' : '#000000'),
-                      border: `1px solid ${isPointStarred ? '#f59e0b' : (darkMode ? '#404040' : '#d4d4d4')}`,
-                      borderRadius: '6px',
-                      transition: 'all 0.2s',
-                      cursor: 'pointer',
-                      flexShrink: 0,
-                    }}
-                    onMouseEnter={(e) => {
-                      if (!isPointStarred) {
-                        e.currentTarget.style.borderColor = '#f59e0b';
-                        e.currentTarget.style.backgroundColor = darkMode ? '#262626' : '#fef3c7';
-                      }
-                    }}
-                    onMouseLeave={(e) => {
-                      if (!isPointStarred) {
-                        e.currentTarget.style.borderColor = darkMode ? '#404040' : '#d4d4d4';
-                        e.currentTarget.style.backgroundColor = darkMode ? '#1a1a1a' : '#f5f5f5';
-                      }
-                    }}
+                    className={`flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-lg border transition-colors ${
+                      isPointStarred
+                        ? 'border-amber-500 bg-amber-500 text-white hover:bg-amber-600'
+                        : 'border-neutral-200 bg-neutral-100/80 text-neutral-700 hover:border-amber-400 hover:bg-amber-50 hover:text-amber-600 dark:border-neutral-800 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:border-amber-500/60 dark:hover:bg-amber-950/40 dark:hover:text-amber-400'
+                    }`}
                     title={isPointStarred ? '取消收藏' : '收藏此站點'}
+                    aria-label={isPointStarred ? '取消收藏' : '收藏此站點'}
                   >
-                    <Star size={14} fill={isPointStarred ? 'currentColor' : 'none'} />
+                    <Star className="h-3.5 w-3.5" fill={isPointStarred ? 'currentColor' : 'none'} />
                   </button>
                 )}
                 {/* Share button */}
                 <button
+                  type="button"
                   onClick={() => handleShare(popupInfo)}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: '36px',
-                    height: '36px',
-                    padding: '0',
-                    backgroundColor: darkMode ? '#1a1a1a' : '#f5f5f5',
-                    color: darkMode ? '#ffffff' : '#000000',
-                    border: `1px solid ${darkMode ? '#404040' : '#d4d4d4'}`,
-                    borderRadius: '6px',
-                    transition: 'all 0.2s',
-                    cursor: 'pointer',
-                    flexShrink: 0,
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.borderColor = darkMode ? '#fff' : '#000';
-                    e.currentTarget.style.backgroundColor = darkMode ? '#262626' : '#e5e5e5';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.borderColor = darkMode ? '#404040' : '#d4d4d4';
-                    e.currentTarget.style.backgroundColor = darkMode ? '#1a1a1a' : '#f5f5f5';
-                  }}
+                  className="flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-lg border border-neutral-200 bg-neutral-100/80 text-neutral-700 transition-colors hover:border-neutral-300 hover:bg-neutral-200/70 dark:border-neutral-800 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:border-neutral-700 dark:hover:bg-neutral-700"
                   title="分享此站點"
+                  aria-label="分享此站點"
                 >
-                  <Share2 size={14} />
+                  <Share2 className="h-3.5 w-3.5" />
                 </button>
               </div>
             </div>
@@ -931,23 +840,23 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
             {/* Pulsing ring effect - only for active trucks */}
             {truckPosition.status === 'active' && (
               <>
-                <div className="absolute h-12 w-12 rounded-full bg-green-500 opacity-30 animate-ping" />
+                <div className="absolute h-12 w-12 animate-ping rounded-full bg-green-500 opacity-30" />
                 <div className="absolute h-10 w-10 rounded-full bg-green-500 opacity-50" />
               </>
             )}
 
             {/* Truck icon with status-based colors */}
-            <div className={`relative z-10 flex h-10 w-10 items-center justify-center rounded-full shadow-lg border-2 border-white dark:border-neutral-900 ${
+            <div className={`relative z-10 flex h-10 w-10 items-center justify-center rounded-full border-2 border-white shadow-lg dark:border-neutral-900 ${
               truckPosition.status === 'active'
                 ? 'bg-green-600'
                 : truckPosition.status === 'before'
-                ? 'bg-gray-400'
+                ? 'bg-neutral-400'
                 : 'bg-neutral-500'
             }`}>
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
-                className="h-6 w-6 text-white"
+                className="h-5 w-5 text-white"
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
@@ -962,11 +871,11 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
             </div>
 
             {/* Progress label with status */}
-            <div className={`absolute -bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md px-2 py-1 text-xs font-semibold text-white shadow-md ${
+            <div className={`absolute -bottom-8 left-1/2 -translate-x-1/2 rounded-lg px-2 py-0.5 text-xs font-semibold whitespace-nowrap text-white shadow-md ${
               truckPosition.status === 'active'
                 ? 'bg-green-600'
                 : truckPosition.status === 'before'
-                ? 'bg-gray-500'
+                ? 'bg-neutral-500'
                 : 'bg-neutral-600'
             }`}>
               {truckPosition.status === 'active' && `🚛 行駛中 ${Math.round(truckPosition.progress * 100)}%`}
@@ -984,43 +893,15 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
           latitude={userLocation.lat}
           anchor="center"
         >
-          <div style={{
-            position: 'relative',
-            width: '40px',
-            height: '40px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-          }}>
+          <div className="relative flex h-10 w-10 items-center justify-center">
             {/* Radio wave animations */}
-            <div className="radio-wave" style={{
-              position: 'absolute',
-              width: '20px',
-              height: '20px',
-              borderRadius: '50%',
-              backgroundColor: '#3b82f6',
-              opacity: 0.6,
-            }} />
-            <div className="radio-wave" style={{
-              position: 'absolute',
-              width: '20px',
-              height: '20px',
-              borderRadius: '50%',
-              backgroundColor: '#3b82f6',
-              opacity: 0.6,
-              animationDelay: '1s',
-            }} />
+            <div className="radio-wave absolute h-5 w-5 rounded-full bg-sky-500 opacity-60" />
+            <div className="radio-wave absolute h-5 w-5 rounded-full bg-sky-500 opacity-60" style={{ animationDelay: '1s' }} />
             {/* Center dot */}
-            <div style={{
-              position: 'relative',
-              width: '12px',
-              height: '12px',
-              borderRadius: '50%',
-              backgroundColor: '#3b82f6',
-              border: '2px solid white',
-              boxShadow: '0 0 8px rgba(59, 130, 246, 0.8)',
-              zIndex: 1,
-            }} />
+            <div
+              className="relative z-10 h-3 w-3 rounded-full border-2 border-white bg-sky-500"
+              style={{ boxShadow: '0 0 8px rgba(14, 165, 233, 0.8)' }}
+            />
           </div>
         </Marker>
       )}
@@ -1030,21 +911,22 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
     {/* Route Name Label - Top Center */}
     {selectedRoute && filteredPoints.length > 0 && (
-      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 flex items-center gap-2 rounded-lg border border-neutral-300 bg-white/95 backdrop-blur-sm px-4 py-2 shadow-lg dark:border-neutral-700 dark:bg-black/90">
-        <Route className="h-4 w-4 text-blue-600 dark:text-blue-400" />
+      <div className="absolute top-3 left-1/2 z-10 flex -translate-x-1/2 items-center gap-2.5 rounded-xl border border-neutral-200 bg-white/95 px-3.5 py-2 shadow-lg backdrop-blur-md dark:border-neutral-800 dark:bg-neutral-900/95">
+        <Route className="h-4 w-4 shrink-0 text-sky-600 dark:text-sky-400" />
         <div className="flex items-center gap-3">
           <div>
-            <div className="text-sm font-semibold text-black dark:text-white">
+            <div className="text-sm leading-tight font-semibold text-neutral-900 dark:text-neutral-100">
               {filteredPoints[0].route}
             </div>
-            <div className="text-xs text-neutral-600 dark:text-neutral-400">
+            <div className="mt-0.5 text-xs text-neutral-500 dark:text-neutral-400">
               {filteredPoints[0].district} • {filteredPoints.length} 站
             </div>
           </div>
           {onRouteSelect && (
             <button
+              type="button"
               onClick={() => onRouteSelect(null)}
-              className="ml-2 flex h-7 w-7 items-center justify-center rounded-md border border-neutral-300 text-neutral-700 transition-all hover:border-neutral-400 hover:bg-neutral-100 dark:border-neutral-700 dark:text-neutral-300 dark:hover:border-neutral-600 dark:hover:bg-neutral-800"
+              className="ml-1 flex h-7 w-7 items-center justify-center rounded-lg border border-neutral-200 text-neutral-600 transition-colors hover:border-neutral-300 hover:bg-neutral-100 hover:text-neutral-900 dark:border-neutral-800 dark:text-neutral-400 dark:hover:border-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-neutral-100"
               aria-label="取消選取路線"
             >
               <X className="h-4 w-4" />
@@ -1071,71 +953,73 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
 
     {/* Starred List Panel */}
     {isStarredListOpen && (
-      <div className="fixed inset-0 z-[60] md:absolute md:z-40 md:inset-auto md:top-4 md:right-4 md:bottom-auto md:left-auto md:w-80 md:max-h-[calc(100vh-8rem)]">
+      <div className="fixed inset-0 z-[60] md:absolute md:inset-auto md:top-3 md:right-14 md:bottom-auto md:left-auto md:z-40 md:max-h-[calc(100vh-8rem)] md:w-80">
         {/* Backdrop for mobile */}
         <div
-          className="absolute inset-0 bg-black/50 md:hidden"
+          className="absolute inset-0 bg-black/50 backdrop-blur-xs md:hidden"
           onClick={onCloseStarredList}
         />
         {/* Panel */}
-        <div className="absolute bottom-0 left-0 right-0 max-h-[80vh] rounded-t-2xl border border-neutral-200 bg-white shadow-2xl dark:border-neutral-800 dark:bg-neutral-900 flex flex-col overflow-hidden md:relative md:bottom-auto md:max-h-[calc(100vh-8rem)] md:rounded-xl">
+        <div className="absolute bottom-0 left-0 right-0 flex max-h-[80vh] flex-col overflow-hidden rounded-t-2xl border border-neutral-200 bg-white/95 shadow-2xl backdrop-blur-md dark:border-neutral-800 dark:bg-neutral-900/95 md:relative md:bottom-auto md:max-h-[calc(100vh-8rem)] md:rounded-xl">
           {/* Header */}
-          <div className="flex items-center justify-between border-b border-neutral-200 px-4 py-3 dark:border-neutral-800">
+          <div className="flex items-center justify-between border-b border-neutral-200/80 px-4 py-3 dark:border-neutral-800/80">
             <div className="flex items-center gap-2">
-              <Star className="h-5 w-5 text-amber-500" fill="currentColor" />
-              <h3 className="text-sm font-semibold text-black dark:text-white">
+              <Star className="h-4 w-4 text-amber-500" fill="currentColor" />
+              <h3 className="text-sm font-semibold text-neutral-900 dark:text-neutral-100">
                 收藏站點
               </h3>
-              <span className="text-xs text-neutral-500 dark:text-neutral-400">
-                ({starredPoints.length})
+              <span className="rounded-md bg-neutral-100 px-1.5 py-0.5 text-xs font-medium tabular-nums text-neutral-600 dark:bg-neutral-800 dark:text-neutral-400">
+                {starredPoints.length}
               </span>
             </div>
             <button
+              type="button"
               onClick={onCloseStarredList}
               aria-label="關閉收藏列表"
-              className="flex h-8 w-8 items-center justify-center rounded-md text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800"
+              className="flex h-7 w-7 items-center justify-center rounded-lg text-neutral-500 transition-colors hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-100"
             >
-              <X className="h-5 w-5" />
+              <X className="h-4 w-4" />
             </button>
           </div>
           {/* List */}
-          <div className="flex-1 overflow-y-auto p-2">
+          <div className="flex-1 space-y-1.5 overflow-y-auto p-2.5">
             {starredPoints.length === 0 ? (
               <div className="flex flex-col items-center justify-center py-8 text-center">
-                <Star className="h-12 w-12 text-neutral-300 dark:text-neutral-700 mb-3" />
-                <p className="text-sm text-neutral-500 dark:text-neutral-400">
+                <Star className="mb-3 h-10 w-10 text-neutral-300 dark:text-neutral-700" />
+                <p className="text-sm font-medium text-neutral-600 dark:text-neutral-400">
                   尚未收藏任何站點
                 </p>
-                <p className="text-xs text-neutral-400 dark:text-neutral-500 mt-1">
+                <p className="mt-1 text-xs text-neutral-400 dark:text-neutral-500">
                   點選地圖上的站標並按星號即可加入收藏
                 </p>
               </div>
             ) : (
               starredPoints.map((point) => {
                 const timeStatus = getPointStatus(point, clock);
-                const statusColor = timeStatus === 'active' ? 'bg-green-500' : timeStatus === 'upcoming' ? 'bg-yellow-500' : timeStatus === 'off' ? 'bg-neutral-200 dark:bg-neutral-600' : 'bg-neutral-400';
+                const statusColor = timeStatus === 'active' ? 'bg-green-500' : timeStatus === 'upcoming' ? 'bg-amber-500' : timeStatus === 'off' ? 'bg-neutral-300 dark:bg-neutral-600' : 'bg-neutral-400';
                 return (
                   <button
                     key={point.id}
+                    type="button"
                     onClick={() => flyToPoint(point)}
-                    className="w-full rounded-lg border border-neutral-200 bg-white p-3 text-left transition-colors hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-800 dark:hover:bg-neutral-750 mb-2"
+                    className="w-full rounded-lg border border-neutral-200 bg-white p-3 text-left transition-colors hover:border-neutral-300 hover:bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:border-neutral-700 dark:hover:bg-neutral-800"
                   >
                     <div className="flex items-start justify-between gap-2">
-                      <div className="flex-1 min-w-0">
+                      <div className="min-w-0 flex-1">
                         <div className="flex items-center gap-2">
-                          <span className={`h-2 w-2 rounded-full ${statusColor} flex-shrink-0`} />
-                          <span className="font-medium text-sm text-black dark:text-white truncate">
+                          <span className={`h-2 w-2 shrink-0 rounded-full ${statusColor}`} />
+                          <span className="truncate text-sm font-medium text-neutral-900 dark:text-neutral-100">
                             {point.district} - {point.village}
                           </span>
                         </div>
-                        <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 truncate">
+                        <p className="mt-1 truncate text-xs text-neutral-500 dark:text-neutral-400">
                           {point.location}
                         </p>
-                        <p className="text-xs text-neutral-400 dark:text-neutral-500 mt-0.5">
+                        <p className="mt-0.5 text-xs tabular-nums text-neutral-400 dark:text-neutral-500">
                           {formatTime(point.arrivalTime)} - {formatTime(point.departureTime)}
                         </p>
                       </div>
-                      <Navigation className="h-4 w-4 text-neutral-400 dark:text-neutral-500 flex-shrink-0 mt-1" />
+                      <Navigation className="mt-1 h-4 w-4 shrink-0 text-neutral-400 dark:text-neutral-500" />
                     </div>
                   </button>
                 );
@@ -1149,9 +1033,9 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     {/* Share Toast */}
     {shareToast && (
       <div
-        className={`absolute bottom-20 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-lg shadow-lg text-sm font-medium transition-all duration-300 ${
+        className={`absolute bottom-20 left-1/2 z-50 -translate-x-1/2 rounded-xl px-4 py-2 text-xs font-semibold shadow-lg transition-all duration-300 ${
           shareToast.type === 'success'
-            ? 'bg-green-600 text-white'
+            ? 'bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900'
             : 'bg-red-600 text-white'
         }`}
       >

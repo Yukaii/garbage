@@ -4,10 +4,10 @@
  */
 
 const LIGHT_THEME_COLOR = '#ffffff';
-const DARK_THEME_COLOR = '#111827';
+const DARK_THEME_COLOR = '#0a0a0a';
 
 const LIGHT_BG_COLOR = '#ffffff'; // white
-const DARK_BG_COLOR = '#000000'; // black
+const DARK_BG_COLOR = '#0a0a0a'; // neutral-950
 
 /**
  * Updates the theme-color meta tag to match the current theme

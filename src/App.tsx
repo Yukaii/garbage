@@ -244,7 +244,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen w-full bg-white dark:bg-black">
+    <div className="flex min-h-screen w-full flex-col bg-white dark:bg-neutral-950">
       <Navbar
         selectedCity={selectedCity}
         onCityChange={setSelectedCity}
@@ -268,25 +268,32 @@ function App() {
         onClose={() => setIsMenuOpen(false)}
         darkMode={darkMode}
         onToggleDarkMode={() => setDarkMode(!darkMode)}
-        onAboutClick={() => setIsAboutOpen(true)}
+        onAboutClick={() => {
+          setScrollToSupport(false);
+          setIsAboutOpen(true);
+        }}
+        onSupportClick={() => {
+          setScrollToSupport(true);
+          setIsAboutOpen(true);
+        }}
       />
 
-      <main id="main-content" className="flex-1 flex flex-col min-h-0" style={{ paddingLeft: 'env(safe-area-inset-left)', paddingRight: 'env(safe-area-inset-right)' }}>
-        <section className="relative flex-1 min-h-[320px] overflow-hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}>
+      <main id="main-content" className="flex min-h-0 flex-1 flex-col" style={{ paddingLeft: 'env(safe-area-inset-left)', paddingRight: 'env(safe-area-inset-right)' }}>
+        <section className="relative min-h-[320px] flex-1 overflow-hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}>
           {/* Full-screen loading only on initial load */}
           {initialLoading && (
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-black z-50 h-full w-full">
-              <div className="w-12 h-12 border-4 border-neutral-200 dark:border-neutral-800 border-t-black dark:border-t-white rounded-full spinner" />
-              <p className="mt-4 text-neutral-600 dark:text-neutral-400">載入地圖與站點資料中…</p>
+            <div className="absolute inset-0 z-50 flex h-full w-full flex-col items-center justify-center bg-white dark:bg-neutral-950">
+              <div className="h-10 w-10 rounded-full border-3 border-neutral-200 border-t-neutral-900 spinner dark:border-neutral-800 dark:border-t-neutral-100" />
+              <p className="mt-3 text-sm text-neutral-500 dark:text-neutral-400">載入地圖與站點資料中…</p>
             </div>
           )}
           {error && (
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-black z-50">
-              <p className="text-red-600 dark:text-red-400">{error}</p>
+            <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-white px-4 dark:bg-neutral-950">
+              <p className="text-sm font-medium text-red-600 dark:text-red-400">{error}</p>
               <button
                 type="button"
                 onClick={retryLoad}
-                className="mt-4 inline-flex items-center gap-2 rounded-lg border border-neutral-300 px-4 py-2 text-sm text-neutral-800 hover:bg-neutral-100 dark:border-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-900"
+                className="mt-4 inline-flex h-9 items-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 text-sm font-medium text-neutral-800 transition-colors hover:bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-neutral-800"
               >
                 <RotateCw className="h-4 w-4" aria-hidden="true" />
                 重試
@@ -312,14 +319,14 @@ function App() {
               />
               {/* Subtle loading indicator for data updates */}
               {failedCities.length > 0 && dataLoaded && (
-                <div role="alert" className="absolute top-4 left-4 right-4 z-20 mx-auto flex max-w-md items-center gap-3 rounded-lg border border-red-300 bg-red-50/95 px-4 py-3 text-sm text-red-800 shadow-lg backdrop-blur-sm dark:border-red-800 dark:bg-red-950/95 dark:text-red-200">
+                <div role="alert" className="absolute top-3 left-3 right-3 z-20 mx-auto flex max-w-md items-center gap-3 rounded-xl border border-red-200 bg-red-50/95 px-4 py-3 text-sm text-red-800 shadow-lg backdrop-blur-md dark:border-red-900/80 dark:bg-red-950/90 dark:text-red-200">
                   <span className="flex-1">
                     無法載入{failedCities.map(city => cityRegistry.getAdapter(city).displayName).join('、')}的資料
                   </span>
                   <button
                     type="button"
                     onClick={retryLoad}
-                    className="inline-flex items-center gap-1 rounded-md px-2 py-1 font-medium hover:bg-red-100 dark:hover:bg-red-900"
+                    className="inline-flex h-8 items-center gap-1.5 rounded-lg border border-red-200 bg-white/80 px-2.5 text-xs font-medium text-red-800 transition-colors hover:bg-red-100 dark:border-red-800 dark:bg-red-900/60 dark:text-red-100 dark:hover:bg-red-900"
                   >
                     <RotateCw className="h-3.5 w-3.5" aria-hidden="true" />
                     重試
@@ -327,28 +334,28 @@ function App() {
                 </div>
               )}
               {isUpdatingData && (
-                <div className="absolute top-4 right-4 z-20 flex items-center gap-2 rounded-lg border border-neutral-300 bg-white/95 backdrop-blur-sm px-3 py-2 shadow-lg dark:border-neutral-700 dark:bg-black/90">
-                  <div className="h-4 w-4 border-2 border-neutral-300 dark:border-neutral-600 border-t-blue-600 dark:border-t-blue-400 rounded-full spinner" />
-                  <span className="text-xs text-neutral-700 dark:text-neutral-300">載入縣市資料中…</span>
+                <div className="absolute top-3 right-14 z-20 flex h-9 items-center gap-2 rounded-lg border border-neutral-200 bg-white/95 px-3 shadow-md backdrop-blur-md dark:border-neutral-800 dark:bg-neutral-900/95">
+                  <div className="h-3.5 w-3.5 rounded-full border-2 border-neutral-200 border-t-sky-600 spinner dark:border-neutral-700 dark:border-t-sky-400" />
+                  <span className="text-xs font-medium text-neutral-700 dark:text-neutral-300">載入縣市資料中…</span>
                 </div>
               )}
               {/* Feedback button for unsupported areas */}
               {isViewingUnsupportedArea && (
-                <div className="absolute bottom-24 left-4 right-4 z-20 mx-auto max-w-md rounded-lg border border-amber-300 bg-amber-50/95 backdrop-blur-sm px-4 py-3 shadow-lg dark:border-amber-700 dark:bg-amber-950/95 md:bottom-4 md:left-4 md:right-auto">
+                <div className="absolute bottom-20 left-3 right-3 z-20 mx-auto max-w-md rounded-xl border border-amber-200 bg-amber-50/95 px-4 py-3 shadow-lg backdrop-blur-md dark:border-amber-900/80 dark:bg-amber-950/90 md:bottom-4 md:left-3 md:right-auto">
                   <div className="flex items-start gap-3">
-                    <MessageSquarePlus className="h-5 w-5 shrink-0 text-amber-600 dark:text-amber-400 mt-0.5" />
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-medium text-amber-900 dark:text-amber-100 mb-1">
+                    <MessageSquarePlus className="mt-0.5 h-4 w-4 shrink-0 text-amber-600 dark:text-amber-400" />
+                    <div className="min-w-0 flex-1">
+                      <p className="mb-1 text-sm font-semibold text-amber-950 dark:text-amber-100">
                         此區域尚未收錄資料
                       </p>
-                      <p className="text-xs text-amber-800 dark:text-amber-200 mb-2">
+                      <p className="mb-2 text-xs leading-relaxed text-amber-800 dark:text-amber-200/90">
                         目前支援台北市、新北市、台中市與高雄市。想查詢其他縣市嗎？
                       </p>
                       <a
                         href="https://github.com/yukaii/garbage/issues/new?title=請求支援新城市&body=希望支援的城市："
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 text-xs font-medium text-amber-700 underline-offset-2 hover:underline dark:text-amber-300"
+                        className="inline-flex items-center gap-1 text-xs font-semibold text-amber-700 underline-offset-4 hover:underline dark:text-amber-300"
                       >
                         前往 GitHub 許願新增縣市
                       </a>
@@ -364,9 +371,9 @@ function App() {
 
       {/* Ad Section - Mobile and Desktop */}
       {import.meta.env.VITE_ADSENSE_CLIENT_ID && import.meta.env.VITE_ADSENSE_SLOT_ID && (
-        <aside className="border-t border-neutral-200 bg-neutral-50 px-4 py-3 dark:border-neutral-800 dark:bg-neutral-950" style={{ paddingLeft: 'max(1rem, env(safe-area-inset-left))', paddingRight: 'max(1rem, env(safe-area-inset-right))' }}>
+        <aside className="border-t border-neutral-200/80 bg-neutral-50 px-4 py-3 dark:border-neutral-800/80 dark:bg-neutral-950" style={{ paddingLeft: 'max(1rem, env(safe-area-inset-left))', paddingRight: 'max(1rem, env(safe-area-inset-right))' }}>
           <div className="mx-auto max-w-5xl">
-            <div className="mb-2 text-center text-[10px] text-neutral-500 dark:text-neutral-500">
+            <div className="mb-2 text-center text-[10px] text-neutral-400 dark:text-neutral-500">
               廣告
             </div>
             <AdSense
@@ -380,7 +387,7 @@ function App() {
         </aside>
       )}
 
-      <footer className="hidden border-t border-neutral-200 bg-neutral-100 px-4 py-3 text-[11px] text-neutral-600 dark:border-neutral-900 dark:bg-neutral-950 dark:text-neutral-400 md:px-6 md:py-4 md:text-xs lg:px-8 md:block" style={{ paddingLeft: 'max(1rem, env(safe-area-inset-left))', paddingRight: 'max(1rem, env(safe-area-inset-right))', paddingBottom: 'max(0.75rem, env(safe-area-inset-bottom))' }}>
+      <footer className="hidden border-t border-neutral-200/80 bg-neutral-50 px-4 py-2.5 text-xs text-neutral-500 dark:border-neutral-800/80 dark:bg-neutral-950 dark:text-neutral-400 md:block md:px-6" style={{ paddingLeft: 'max(1.5rem, env(safe-area-inset-left))', paddingRight: 'max(1.5rem, env(safe-area-inset-right))', paddingBottom: 'max(0.625rem, env(safe-area-inset-bottom))' }}>
         <div className="mx-auto flex flex-wrap items-center justify-between gap-2">
           <span>
             資料來源：台北市、新北市、台中市與高雄市政府開放資料平台{dataUpdatedAt && `，資料更新於 ${dataUpdatedAt}`}（實際時間以現場清運為準）。
@@ -389,19 +396,19 @@ function App() {
                 setScrollToSupport(false);
                 setIsAboutOpen(true);
               }}
-              className="ml-1 text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+              className="ml-1 font-medium text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
               type="button"
             >
               查看完整說明
             </button>
           </span>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
             <button
               onClick={() => {
                 setScrollToSupport(true);
                 setIsAboutOpen(true);
               }}
-              className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+              className="font-medium text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
               type="button"
             >
               請我喝咖啡
@@ -410,7 +417,7 @@ function App() {
               href="https://github.com/yukaii/garbage/issues"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+              className="font-medium text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
             >
               回報問題
             </a>

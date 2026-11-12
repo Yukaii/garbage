@@ -16,6 +16,7 @@ interface MenuProps {
   darkMode: boolean;
   onToggleDarkMode: () => void;
   onAboutClick: () => void;
+  onSupportClick?: () => void;
 }
 
 export function Menu({
@@ -24,6 +25,7 @@ export function Menu({
   darkMode,
   onToggleDarkMode,
   onAboutClick,
+  onSupportClick,
 }: MenuProps) {
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -48,60 +50,64 @@ export function Menu({
   return (
     <div
       ref={menuRef}
-      className="absolute right-4 top-14 z-50 w-56 origin-top-right rounded-xl border border-neutral-200 bg-white shadow-lg ring-1 ring-black/5 focus:outline-none dark:border-neutral-800 dark:bg-neutral-900"
+      className="absolute right-4 top-14 z-50 w-56 origin-top-right rounded-xl border border-neutral-200 bg-white/95 p-1.5 shadow-xl backdrop-blur-md focus:outline-none dark:border-neutral-800 dark:bg-neutral-900/95 md:right-6"
     >
-      <div className="py-1">
+      <div className="space-y-0.5">
         <button
+          type="button"
           onClick={() => {
             onToggleDarkMode();
           }}
-          className="flex w-full items-center px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800"
+          className="flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-neutral-700 transition-colors hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:hover:text-neutral-100"
         >
           {darkMode ? (
-            <Sun className="mr-3 h-4 w-4" />
+            <Sun className="h-4 w-4 text-neutral-500 dark:text-neutral-400" />
           ) : (
-            <Moon className="mr-3 h-4 w-4" />
+            <Moon className="h-4 w-4 text-neutral-500 dark:text-neutral-400" />
           )}
           {darkMode ? '切換亮色模式' : '切換深色模式'}
         </button>
 
         <button
+          type="button"
           onClick={() => {
             onAboutClick();
             onClose();
           }}
-          className="flex w-full items-center px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800"
+          className="flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-neutral-700 transition-colors hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:hover:text-neutral-100"
         >
-          <Info className="mr-3 h-4 w-4" />
+          <Info className="h-4 w-4 text-neutral-500 dark:text-neutral-400" />
           關於本站
         </button>
 
-        <div className="my-1 h-px bg-neutral-100 dark:bg-neutral-800" />
+        <div className="my-1.5 h-px bg-neutral-200/80 dark:bg-neutral-800" />
 
         <a
           href="https://github.com/yukaii/garbage/issues"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex w-full items-center px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800"
+          className="flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-neutral-700 transition-colors hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:hover:text-neutral-100"
           onClick={onClose}
         >
-          <GitHubMark className="mr-3 h-4 w-4" />
+          <GitHubMark className="h-4 w-4 text-neutral-500 dark:text-neutral-400" />
           回報問題
         </a>
 
-        <a
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            onAboutClick(); // This should trigger the modal which has the buy me a coffee logic
-            // Ideally we should pass a specific handler for support
+        <button
+          type="button"
+          onClick={() => {
+            if (onSupportClick) {
+              onSupportClick();
+            } else {
+              onAboutClick();
+            }
             onClose();
           }}
-          className="flex w-full items-center px-4 py-2 text-sm text-amber-600 hover:bg-amber-50 dark:text-amber-500 dark:hover:bg-amber-950/30"
+          className="flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-amber-600 transition-colors hover:bg-amber-50 dark:text-amber-400 dark:hover:bg-amber-950/40"
         >
-          <Coffee className="mr-3 h-4 w-4" />
+          <Coffee className="h-4 w-4" />
           請我喝咖啡
-        </a>
+        </button>
       </div>
     </div>
   );
