@@ -27,9 +27,14 @@ export function FilterBar({
   className = '',
 }: FilterBarProps) {
   return (
-    <div className={`w-full bg-white border-b border-neutral-200 dark:bg-black dark:border-neutral-800 ${className}`}>
-      <div className="flex items-center gap-3 px-4 py-2 overflow-x-auto no-scrollbar md:px-6 md:justify-start">
-        
+    <div
+      className={`w-full border-b border-neutral-200/80 bg-white/95 backdrop-blur-md dark:border-neutral-800/80 dark:bg-neutral-950/90 ${className}`}
+      style={{
+        paddingLeft: 'env(safe-area-inset-left)',
+        paddingRight: 'env(safe-area-inset-right)',
+      }}
+    >
+      <div className="flex items-center gap-2 overflow-x-auto px-4 py-2 no-scrollbar md:justify-start md:px-6">
         {/* Time Filter Group */}
         <div className="flex-none">
           <TimeFilter
@@ -42,16 +47,16 @@ export function FilterBar({
         </div>
 
         {/* Divider */}
-        <div className="h-6 w-px bg-neutral-200 dark:bg-neutral-800 flex-none mx-1" />
+        <div className="mx-1 h-5 w-px flex-none bg-neutral-200 dark:bg-neutral-800" />
 
         {/* Starred Group */}
-        <div className="flex-none flex items-center">
-          <div className="flex items-stretch divide-x divide-neutral-200 rounded-md border border-neutral-200 bg-white dark:divide-neutral-700 dark:border-neutral-700 dark:bg-neutral-900">
+        <div className="flex flex-none items-center">
+          <div className="flex h-8 items-stretch divide-x divide-neutral-200 overflow-hidden rounded-lg border border-neutral-200 bg-white dark:divide-neutral-800 dark:border-neutral-800 dark:bg-neutral-900">
             <button
               type="button"
               onClick={onToggleStarred}
               className={`
-                flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium transition-colors
+                flex items-center gap-1.5 px-3 text-xs font-medium whitespace-nowrap transition-colors
                 ${
                   showStarredOnly
                     ? 'bg-amber-500 text-white hover:bg-amber-600'
@@ -60,12 +65,12 @@ export function FilterBar({
               `}
             >
               <Star
-                className="h-3.5 w-3.5"
+                className={`h-3.5 w-3.5 ${showStarredOnly ? 'text-white' : 'text-amber-500'}`}
                 fill={showStarredOnly ? 'currentColor' : 'none'}
               />
               <span>收藏</span>
               {starredCount > 0 && (
-                <span className={showStarredOnly ? 'text-amber-100' : 'text-neutral-500'}>
+                <span className={`tabular-nums ${showStarredOnly ? 'text-amber-100' : 'text-neutral-400 dark:text-neutral-500'}`}>
                   ({starredCount})
                 </span>
               )}
@@ -73,17 +78,18 @@ export function FilterBar({
             <button
               type="button"
               onClick={onToggleStarredList}
+              aria-label={isStarredListOpen ? '關閉收藏列表' : '開啟收藏列表'}
               className={`
-                flex items-center justify-center px-2 py-1.5 transition-colors
+                flex items-center justify-center px-2 transition-colors
                 ${
                   isStarredListOpen
                     ? 'bg-amber-500 text-white hover:bg-amber-600'
-                    : 'text-neutral-600 hover:bg-neutral-50 dark:text-neutral-300 dark:hover:bg-neutral-800'
+                    : 'text-neutral-500 hover:bg-neutral-50 hover:text-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-200'
                 }
               `}
             >
               <ChevronDown
-                className={`h-3.5 w-3.5 transition-transform ${
+                className={`h-3.5 w-3.5 transition-transform duration-200 ${
                   isStarredListOpen ? 'rotate-180' : ''
                 }`}
               />

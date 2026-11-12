@@ -78,8 +78,11 @@ export function ReloadPrompt() {
   }
 
   return (
-    <div className="fixed bottom-4 left-1/2 z-[1000] w-[calc(100%-2rem)] max-w-md -translate-x-1/2 rounded-lg border border-neutral-300 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900" style={{ marginBottom: 'max(1rem, env(safe-area-inset-bottom))' }}>
-      <div className="mb-3 text-sm font-medium text-black dark:text-white">
+    <div
+      className="fixed bottom-4 left-1/2 z-[1000] w-[calc(100%-2rem)] max-w-md -translate-x-1/2 rounded-xl border border-neutral-200 bg-white/95 p-4 shadow-xl backdrop-blur-md dark:border-neutral-800 dark:bg-neutral-900/95"
+      style={{ marginBottom: 'max(1rem, env(safe-area-inset-bottom))' }}
+    >
+      <div className="mb-3 text-sm font-medium text-neutral-900 dark:text-neutral-100">
         {offlineReady ? (
           <span>已完成離線快取，沒網路也能查詢站點！</span>
         ) : (
@@ -89,15 +92,17 @@ export function ReloadPrompt() {
       <div className="flex gap-2">
         {needRefresh && (
           <button
+            type="button"
             onClick={handleUpdate}
-            className="flex-1 rounded-md border border-black bg-black px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-neutral-800 dark:border-white dark:bg-white dark:text-black dark:hover:bg-neutral-200"
+            className="h-9 flex-1 rounded-lg border border-neutral-900 bg-neutral-900 px-4 text-xs font-medium text-white transition-colors hover:bg-neutral-800 dark:border-neutral-100 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200"
           >
             立即更新
           </button>
         )}
         <button
+          type="button"
           onClick={close}
-          className="flex-1 rounded-md border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-black transition-colors hover:border-black hover:bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:border-white dark:hover:bg-neutral-800"
+          className="h-9 flex-1 rounded-lg border border-neutral-200 bg-white px-4 text-xs font-medium text-neutral-700 transition-colors hover:border-neutral-300 hover:bg-neutral-50 hover:text-neutral-900 dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:border-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-neutral-100"
         >
           關閉
         </button>
