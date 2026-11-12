@@ -1,5 +1,6 @@
 import { CityDataAdapter, type FetchOptions } from './BaseAdapter';
 import { stablePointId } from '../pointId';
+import { taipeiIsoWeekday } from '../../utils/taipeiTime';
 import type { CollectionSchedule, TaichungTrashCollectionPoint, UnifiedTrashCollectionPoint } from '../../types';
 
 /**
@@ -143,10 +144,3 @@ function cloneSchedule(schedule: CollectionSchedule | undefined): CollectionSche
   return Object.fromEntries(Object.entries(schedule).map(([type, days]) => [type, [...days]]));
 }
 
-const TAIPEI_WEEKDAY = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Taipei', weekday: 'short' });
-const ISO_WEEKDAY: Record<string, number> = { Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6, Sun: 7 };
-
-/** ISO weekday (Mon=1 .. Sun=7) in Taiwan, whatever timezone the device is set to. */
-export function taipeiIsoWeekday(now: Date = new Date()): number {
-  return ISO_WEEKDAY[TAIPEI_WEEKDAY.format(now)] ?? 0;
-}

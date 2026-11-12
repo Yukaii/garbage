@@ -1,18 +1,17 @@
 import { useEffect, useState, useMemo } from 'react';
-import { MessageSquarePlus } from 'lucide-react';
+import { MessageSquarePlus, RotateCw } from 'lucide-react';
 import Map from './Map';
 import { type TimeFilterMode } from './TimeFilter';
 import {
-  fetchTrashCollectionPoints,
   fetchMultipleCities,
   getCitiesInViewport,
   MIN_DATA_LOAD_ZOOM,
-  getCurrentTimeInMinutes,
-  getTimeStatus,
+  getPointStatus,
   isWithinTimeWindow,
-  groupPointsIntoRoutes,
   type City
 } from './api';
+import { servesOn } from './cities/schedule';
+import { taipeiClock, type TaipeiClock } from './utils/taipeiTime';
 import { cityRegistry } from './cities/cityRegistry';
 import type { UnifiedTrashCollectionPoint } from './types';
 import './App.css';
@@ -34,13 +33,10 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   // `?q=` makes searches linkable (and is the target of the site's SearchAction structured data)
   const [searchTerm, setSearchTerm] = useState(() => new URLSearchParams(window.location.search).get('q') ?? '');
-  const [filteredPoints, setFilteredPoints] = useState<UnifiedTrashCollectionPoint[]>([]);
   const [timeFilterMode, setTimeFilterMode] = useState<TimeFilterMode>('all');
   const [showStarredOnly, setShowStarredOnly] = useState(false);
-  const [currentTimeMinutes, setCurrentTimeMinutes] = useState(() => {
-    // Initialize with debug time if available
-    return getCurrentTimeInMinutes();
-  });
+  // Taiwan time and weekday; debug time (About dialog) overrides the minutes only
+  const [realClock, setRealClock] = useState<TaipeiClock>(() => taipeiClock());
   const [selectedCity, setSelectedCity] = useState<City>(() => {
     // Check if user has a saved preference
     const saved = localStorage.getItem('selectedCity');
@@ -51,6 +47,9 @@ function App() {
     return cityRegistry.getCityIds()[0];
   });
   const [loadedCities, setLoadedCities] = useState<City[]>([]);
+  const [failedCities, setFailedCities] = useState<City[]>([]);
+  const [loadedKey, setLoadedKey] = useState<string | null>(null);
+  const [reloadToken, setReloadToken] = useState(0);
   const [currentZoom, setCurrentZoom] = useState(11);
   const [darkMode, setDarkMode] = useState(() => {
     // Check if user has a saved preference
@@ -72,7 +71,7 @@ function App() {
   } | null>(null);
 
   // Favorites hook
-  const { starredPointIds, toggleStar, isStarred, starredCount } = useFavorites();
+  const { starredPointIds, toggleStar, starredCount } = useFavorites();
   const dataMeta = useDataMeta();
   const dataUpdatedAt = oldestUpdate(dataMeta, loadedCities);
 
@@ -110,25 +109,23 @@ function App() {
   }, [darkMode]);
 
   useEffect(() => {
-    // Update current time every minute (unless debug time is set)
-    const interval = setInterval(() => {
-      if (!debugTime) {
-        setCurrentTimeMinutes(getCurrentTimeInMinutes());
-      }
-    }, 60000);
+    // Tick on the minute so countdowns and statuses stay current; also picks up midnight
+    const interval = setInterval(() => setRealClock(taipeiClock()), 60000);
+    // A backgrounded tab's timers are throttled; resync as soon as it's visible again
+    const onVisible = () => document.visibilityState === 'visible' && setRealClock(taipeiClock());
+    document.addEventListener('visibilitychange', onVisible);
+    return () => {
+      clearInterval(interval);
+      document.removeEventListener('visibilitychange', onVisible);
+    };
+  }, []);
 
-    return () => clearInterval(interval);
-  }, [debugTime]);
-
-  // Update currentTimeMinutes when debugTime changes
-  useEffect(() => {
-    if (debugTime) {
-      const [hours, minutes] = debugTime.split(':').map(Number);
-      setCurrentTimeMinutes(hours * 60 + minutes);
-    } else {
-      setCurrentTimeMinutes(getCurrentTimeInMinutes());
-    }
-  }, [debugTime]);
+  const clock = useMemo<TaipeiClock>(() => {
+    if (!debugTime) return realClock;
+    const [hours, minutes] = debugTime.split(':').map(Number);
+    return { ...realClock, minutes: (hours ?? 0) * 60 + (minutes ?? 0) };
+  }, [realClock, debugTime]);
+  const currentTimeMinutes = clock.minutes;
 
   useEffect(() => {
     // Save city preference
@@ -161,49 +158,51 @@ function App() {
     return citiesInView.length === 0;
   }, [viewportBounds, currentZoom]);
 
+  // Taichung's map data is today's stops only, so it is refetched when the Taiwan date changes
+  const loadKey = [
+    [...citiesToLoad].sort().join(','),
+    citiesToLoad.includes('taichung') ? realClock.weekday : '',
+    reloadToken,
+  ].join('|');
+
   // Load data only when the set of cities changes (not on every zoom/pan)
   useEffect(() => {
-    async function loadData() {
-      try {
-        // Check if we already have the right cities loaded
-        const currentSet = new Set(loadedCities);
-        const requiredSet = new Set(citiesToLoad);
+    if (loadKey === loadedKey) return;
+    let cancelled = false;
+    setDataLoaded(false);
 
-        // Skip reload if we already have exactly the right cities
-        if (
-          currentSet.size === requiredSet.size &&
-          citiesToLoad.every(city => currentSet.has(city))
-        ) {
-          return;
-        }
-
-        setDataLoaded(false);
-
-        // Load data for required cities
-        const data = await fetchMultipleCities(citiesToLoad);
-        setPoints(data);
-        setFilteredPoints(data);
-        setLoadedCities(citiesToLoad);
-        setError(null);
-        setDataLoaded(true);
-        setInitialLoadComplete(true);
-      } catch (err) {
+    fetchMultipleCities(citiesToLoad).then(({ points: data, loaded, failed }) => {
+      if (cancelled) return;
+      setFailedCities(failed);
+      // Before anything has loaded there is no map to fall back to; afterwards the banner is enough
+      if (loaded.length === 0 && failed.length > 0 && !initialLoadComplete) {
         setError('無法載入垃圾車資料，請檢查網路連線或稍後再試');
-        console.error(err);
+        return;
       }
-    }
-    loadData();
-  }, [citiesToLoad.join(',')]); // Only reload when the city list changes
+      setPoints(data);
+      setLoadedCities(loaded);
+      setLoadedKey(loadKey);
+      setError(null);
+      setDataLoaded(true);
+      setInitialLoadComplete(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [loadKey]); // eslint-disable-line react-hooks/exhaustive-deps -- loadKey encodes citiesToLoad
 
-  useEffect(() => {
+  const retryLoad = () => {
+    setError(null);
+    setReloadToken(token => token + 1);
+  };
+
+  // Search and starred filters don't depend on the clock, so they aren't redone every minute
+  const searchedPoints = useMemo(() => {
     let filtered = points;
-
-    // Apply starred filter first
     if (showStarredOnly) {
-      filtered = filtered.filter((point) => starredPointIds.includes(point.id));
+      const starred = new Set(starredPointIds);
+      filtered = filtered.filter(point => starred.has(point.id));
     }
-
-    // Apply text search filter
     if (searchTerm) {
       const search = searchTerm.toLowerCase();
       filtered = filtered.filter((point) =>
@@ -213,42 +212,32 @@ function App() {
         point.route.toLowerCase().includes(search)
       );
     }
+    return filtered;
+  }, [points, showStarredOnly, starredPointIds, searchTerm]);
 
-    // Apply time-based filter
-    if (timeFilterMode !== 'all') {
-      const windowMap: Record<TimeFilterMode, number> = {
-        'all': Infinity,
-        'now': 0,
-        '30min': 30,
-        '1hour': 60,
-        '3hours': 180,
-      };
-
-      if (timeFilterMode === 'now') {
-        // Show only active trucks
-        filtered = filtered.filter((point) =>
-          getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes) === 'active'
-        );
-      } else {
-        // Show trucks within time window
-        const windowMinutes = windowMap[timeFilterMode];
-        filtered = filtered.filter((point) =>
-          isWithinTimeWindow(point.arrivalTime, point.departureTime, currentTimeMinutes, windowMinutes)
-        );
-      }
+  const filteredPoints = useMemo(() => {
+    if (timeFilterMode === 'all') return searchedPoints;
+    if (timeFilterMode === 'now') {
+      return searchedPoints.filter(point => getPointStatus(point, clock) === 'active');
     }
+    const windowMinutes = { '30min': 30, '1hour': 60, '3hours': 180 }[timeFilterMode];
+    return searchedPoints.filter(point =>
+      servesOn(point, clock.weekday) &&
+      isWithinTimeWindow(point.arrivalTime, point.departureTime, clock.minutes, windowMinutes)
+    );
+  }, [searchedPoints, timeFilterMode, clock]);
 
-    setFilteredPoints(filtered);
-  }, [searchTerm, points, timeFilterMode, currentTimeMinutes, showStarredOnly, starredPointIds]);
-
-  // Calculate active and upcoming counts for TimeFilter
-  const activeCount = points.filter((point) =>
-    getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes) === 'active'
-  ).length;
-
-  const upcomingCount = points.filter((point) =>
-    getTimeStatus(point.arrivalTime, point.departureTime, currentTimeMinutes) === 'upcoming'
-  ).length;
+  // Active and upcoming counts for the time filter (stops not served today count as neither)
+  const { activeCount, upcomingCount } = useMemo(() => {
+    let active = 0;
+    let upcoming = 0;
+    for (const point of points) {
+      const status = getPointStatus(point, clock);
+      if (status === 'active') active++;
+      else if (status === 'upcoming') upcoming++;
+    }
+    return { activeCount: active, upcomingCount: upcoming };
+  }, [points, clock]);
 
   const handleMapLoaded = () => {
     setMapLoaded(true);
@@ -294,6 +283,14 @@ function App() {
           {error && (
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-white dark:bg-black z-50">
               <p className="text-red-600 dark:text-red-400">{error}</p>
+              <button
+                type="button"
+                onClick={retryLoad}
+                className="mt-4 inline-flex items-center gap-2 rounded-lg border border-neutral-300 px-4 py-2 text-sm text-neutral-800 hover:bg-neutral-100 dark:border-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-900"
+              >
+                <RotateCw className="h-4 w-4" aria-hidden="true" />
+                重試
+              </button>
             </div>
           )}
           {/* Show map after initial load, even during data updates */}
@@ -306,7 +303,7 @@ function App() {
                 selectedRoute={selectedRoute}
                 onRouteSelect={setSelectedRoute}
                 onViewportChange={handleViewportChange}
-                currentTimeMinutes={currentTimeMinutes}
+                clock={clock}
                 starredPointIds={starredPointIds}
                 onToggleStar={toggleStar}
                 isStarredListOpen={isStarredListOpen}
@@ -314,6 +311,21 @@ function App() {
                 allPoints={points}
               />
               {/* Subtle loading indicator for data updates */}
+              {failedCities.length > 0 && dataLoaded && (
+                <div role="alert" className="absolute top-4 left-4 right-4 z-20 mx-auto flex max-w-md items-center gap-3 rounded-lg border border-red-300 bg-red-50/95 px-4 py-3 text-sm text-red-800 shadow-lg backdrop-blur-sm dark:border-red-800 dark:bg-red-950/95 dark:text-red-200">
+                  <span className="flex-1">
+                    無法載入{failedCities.map(city => cityRegistry.getAdapter(city).displayName).join('、')}的資料
+                  </span>
+                  <button
+                    type="button"
+                    onClick={retryLoad}
+                    className="inline-flex items-center gap-1 rounded-md px-2 py-1 font-medium hover:bg-red-100 dark:hover:bg-red-900"
+                  >
+                    <RotateCw className="h-3.5 w-3.5" aria-hidden="true" />
+                    重試
+                  </button>
+                </div>
+              )}
               {isUpdatingData && (
                 <div className="absolute top-4 right-4 z-20 flex items-center gap-2 rounded-lg border border-neutral-300 bg-white/95 backdrop-blur-sm px-3 py-2 shadow-lg dark:border-neutral-700 dark:bg-black/90">
                   <div className="h-4 w-4 border-2 border-neutral-300 dark:border-neutral-600 border-t-blue-600 dark:border-t-blue-400 rounded-full spinner" />

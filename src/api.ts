@@ -6,6 +6,8 @@
  */
 import type { UnifiedTrashCollectionPoint, RouteGeometry, RouteManifest } from './types';
 import { cityRegistry, type City } from './cities/cityRegistry';
+import { servesOn } from './cities/schedule';
+import { taipeiClock, type TaipeiClock } from './utils/taipeiTime';
 
 /**
  * Fetch data for a specific city
@@ -16,15 +18,31 @@ export async function fetchTrashCollectionPoints(city: City): Promise<UnifiedTra
   return adapter.fetchData();
 }
 
+export interface MultiCityResult {
+  points: UnifiedTrashCollectionPoint[];
+  loaded: City[];
+  failed: City[];
+}
+
 /**
- * Fetch data for multiple cities and combine them
- * @param cities - Array of city identifiers to fetch
- * @returns Combined array of trash collection points from all cities
+ * Fetch several cities at once. One city failing (a bad deploy of its file, a flaky
+ * network on a 9 MB download) doesn't hide the others: callers get what loaded plus
+ * the list of cities that didn't.
  */
-export async function fetchMultipleCities(cities: City[]): Promise<UnifiedTrashCollectionPoint[]> {
-  const promises = cities.map(city => fetchTrashCollectionPoints(city));
-  const results = await Promise.all(promises);
-  return results.flat();
+export async function fetchMultipleCities(cities: City[]): Promise<MultiCityResult> {
+  const results = await Promise.allSettled(cities.map(city => fetchTrashCollectionPoints(city)));
+  const result: MultiCityResult = { points: [], loaded: [], failed: [] };
+  results.forEach((outcome, i) => {
+    const city = cities[i]!;
+    if (outcome.status === 'fulfilled') {
+      result.points.push(...outcome.value);
+      result.loaded.push(city);
+    } else {
+      console.error(`Failed to load ${city}:`, outcome.reason);
+      result.failed.push(city);
+    }
+  });
+  return result;
 }
 
 // Re-export City type for convenience
@@ -93,16 +111,15 @@ export function parseTimeToMinutes(time: string): number {
   return hours * 60 + minutes;
 }
 
-// Get current time in minutes since midnight (Taipei timezone)
+// Current time in minutes since midnight, in Taiwan regardless of the device timezone
 export function getCurrentTimeInMinutes(): number {
-  const now = new Date();
-  return now.getHours() * 60 + now.getMinutes();
+  return taipeiClock().minutes;
 }
 
-// Get current time formatted as HH:MM (Taipei timezone)
+// Current Taiwan time formatted as HH:MM
 export function getCurrentTimeFormatted(): string {
-  const now = new Date();
-  return `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
+  const { minutes } = taipeiClock();
+  return `${String(Math.floor(minutes / 60)).padStart(2, '0')}:${String(minutes % 60).padStart(2, '0')}`;
 }
 
 // Calculate time difference in minutes
@@ -123,6 +140,14 @@ export function formatTimeDifference(minutes: number): string {
 }
 
 export type TimeStatus = 'active' | 'upcoming' | 'past';
+
+/** A stop's status today: its time status, or 'off' when it isn't served on this weekday. */
+export type PointStatus = TimeStatus | 'off';
+
+export function getPointStatus(point: UnifiedTrashCollectionPoint, clock: TaipeiClock): PointStatus {
+  if (!servesOn(point, clock.weekday)) return 'off';
+  return getTimeStatus(point.arrivalTime, point.departureTime, clock.minutes);
+}
 
 // Determine if a point is active, upcoming, or past
 export function getTimeStatus(arrivalTime: string, departureTime: string, currentMinutes: number): TimeStatus {

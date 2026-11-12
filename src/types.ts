@@ -106,7 +106,10 @@ export interface UnifiedTrashCollectionPoint {
   source: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';
   /** Stop order within the route when the source publishes one (New Taipei's `rank`). */
   sequence?: number;
-  /** Weekly schedule when the source provides one (New Taipei, Taichung); absent otherwise. */
+  /**
+   * Weekly schedule: per stop for New Taipei and Taichung (all-days mode only), the citywide
+   * Wed/Sun-off rule for Taipei and Kaohsiung. Absent from Taichung's today-only map data.
+   */
   schedule?: CollectionSchedule;
 }
 
