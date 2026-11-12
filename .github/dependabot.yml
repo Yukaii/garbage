@@ -18,13 +18,11 @@ updates:
       minor-and-patch:
         update-types: [minor, patch]
     ignore:
-      # React Compiler 1.0 needs Babel 7; plugin-react 6 supports plugin-babel ^0.1/^0.2 (see AGENTS.md)
+      # React Compiler 1.0 needs Babel 7 (see AGENTS.md)
       - dependency-name: "@babel/core"
         update-types: [version-update:semver-major]
       - dependency-name: "@types/babel__core"
         update-types: [version-update:semver-major]
-      - dependency-name: "@rolldown/plugin-babel"
-        update-types: [version-update:semver-minor, version-update:semver-major]
 
   # MCP server (mcp/bun.lock)
   - package-ecosystem: bun

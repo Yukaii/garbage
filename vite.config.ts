@@ -22,8 +22,8 @@ function htmlEnvPlugin(): Plugin {
 }
 
 // React Compiler (stable Babel build) memoizes components and hooks at build time.
-// It needs Babel 7: babel-plugin-react-compiler 1.0 mis-parses Babel 8's AST, so
-// @babel/core stays on ^7 and @rolldown/plugin-babel on the ^0.2 that plugin-react 6 supports.
+// It needs Babel 7: babel-plugin-react-compiler 1.0 mis-parses Babel 8's AST, so @babel/core
+// stays on ^7 (@rolldown/plugin-babel ^0.3 is fine with Babel 7).
 // Functions it can't analyze are left as written (unmemoized); `COMPILER_REPORT=1 bun run build`
 // lists which ones were compiled and which were skipped, and why.
 function reactCompiler(): PluginOption[] {
