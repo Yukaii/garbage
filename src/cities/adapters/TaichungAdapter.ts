@@ -1,29 +1,21 @@
 import { CityDataAdapter, type FetchOptions } from './BaseAdapter';
 import { stablePointId } from '../pointId';
 import { taipeiIsoWeekday } from '../../utils/taipeiTime';
+import { parseCompactDays } from '../schedule';
 import type { CollectionSchedule, TaichungTrashCollectionPoint, UnifiedTrashCollectionPoint } from '../../types';
 
 /**
  * Adapter for Taichung City (台中市) trash collection data
  *
- * Data Source: Merged from two sources:
- * 1. Schedule data from datacenter.taichung.gov.tw API
- *    - Collection times (arrival/departure)
- *    - Route information (vehicle license)
- *    - District, village, location
- * 2. Geocoded coordinates from TGOS batch geocoding
- *    - WGS84 longitude/latitude
+ * Data: the city's collection schedule (newdatacenter.taichung.gov.tw, data.gov.tw/dataset/84004)
+ * joined to cached TGOS geocodes by scripts/data/update.ts, refreshed weekly.
  *
- * Data Structure:
- * - Static pre-fetched JSON file (updated monthly)
- * - Each record is a collection point with schedule
- * - Supports both garbage and recycling collection
- * - Day-specific schedules (1-7 for Monday-Sunday)
+ * Accepts two row shapes (see TaichungTrashCollectionPoint):
+ * - published file: one row per truck visit with compact `garbageDays` / `recyclingDays`
+ * - data-branch file: one row per (stop, weekday, collection type)
  *
- * Notes:
- * - Taichung has different collection times for different days
- * - Each location may appear multiple times (different days/types)
- * - Filter by current day of week for accurate real-time display
+ * The map wants today's stops only (one per coordinate, earliest visit); `allDays` returns
+ * every visit with its weekly schedule (MCP server, static pages).
  */
 export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoint> {
   readonly cityId = 'taichung';
@@ -59,7 +51,7 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
       longitude: point.longitude,
       latitude: point.latitude,
       source: 'taichung',
-      schedule: { [point.collectionType]: [point.dayOfWeek] },
+      schedule: taichungSchedule(point),
     };
   }
 
@@ -82,7 +74,7 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
 
     const today = taipeiIsoWeekday();
 
-    // Step 1: Filter to only show today's collection points (each row carries a one-day schedule)
+    // Step 1: Filter to only show today's collection points
     const todaysPoints = unified.filter(point =>
       Object.values(point.schedule ?? {}).some(days => days?.includes(today))
     );
@@ -99,10 +91,10 @@ export class TaichungAdapter extends CityDataAdapter<TaichungTrashCollectionPoin
         // First time seeing this location
         locationMap.set(coordKey, point);
       } else {
-        // Keep the point with earlier arrival time
-        if (point.arrivalTime < existing.arrivalTime) {
-          locationMap.set(coordKey, point);
-        }
+        // Keep the earliest visit; on equal arrival, the earlier departure (independent of row order)
+        const earlier = point.arrivalTime < existing.arrivalTime ||
+          (point.arrivalTime === existing.arrivalTime && point.departureTime < existing.departureTime);
+        if (earlier) locationMap.set(coordKey, point);
       }
     }
 
@@ -144,3 +136,11 @@ function cloneSchedule(schedule: CollectionSchedule | undefined): CollectionSche
   return Object.fromEntries(Object.entries(schedule).map(([type, days]) => [type, [...days]]));
 }
 
+/** Published rows carry compact weekday strings; data-branch rows one weekday and type each. */
+function taichungSchedule(point: TaichungTrashCollectionPoint): CollectionSchedule {
+  if (point.dayOfWeek !== undefined && point.collectionType) return { [point.collectionType]: [point.dayOfWeek] };
+  const schedule: CollectionSchedule = {};
+  if (point.garbageDays) schedule.garbage = parseCompactDays(point.garbageDays);
+  if (point.recyclingDays) schedule.recycling = parseCompactDays(point.recyclingDays);
+  return schedule;
+}

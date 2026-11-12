@@ -284,78 +284,34 @@ export function interpolateTruckPosition(
 }
 
 /**
- * Fetch route geometry from data branch via rawcdn.githack.com
- * Routes are pre-computed with Valhalla and stored as GeoJSON LineStrings
+ * Route geometry, precomputed weekly with Valhalla on the data branch and copied into the
+ * site at /routes/ by `bun run dump-data` (scripts/data/export-routes.ts).
  */
-export async function fetchRouteGeometry(city: City, routeId: string): Promise<RouteGeometry | null> {
+async function fetchRouteJson<T>(path: string): Promise<T | null> {
   try {
-    // Use rawcdn.githack.com with specific commit for reliable access
-    // Commit: 659184e73e8c016afc4996816a7effc8c3ec2c2a (data branch)
-    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/c8d2681';
-    const url = `${cdnBase}/routes/${city}/${routeId}.geojson`;
-    const response = await fetch(url);
+    const response = await fetch(`/routes/${path}`);
     if (!response.ok) {
-      console.warn(`Route geometry not found: ${city}/${routeId}`);
+      if (response.status !== 404) console.warn(`[routes] ${path}: HTTP ${response.status}`);
       return null;
     }
-    return await response.json() as RouteGeometry;
+    return (await response.json()) as T;
   } catch (error) {
-    console.error(`Failed to fetch route geometry for ${city}/${routeId}:`, error);
+    console.warn(`[routes] ${path}:`, error);
     return null;
   }
 }
 
-/**
- * Fetch route manifest for a city from data branch via rawcdn.githack.com
- * Contains metadata for all routes including distance and duration
- */
-export async function fetchRouteManifest(city: City): Promise<RouteManifest | null> {
-  try {
-    // Use rawcdn.githack.com with data branch
-    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/c8d2681';
-    const url = `${cdnBase}/routes/${city}/routes-manifest.json`;
-    console.log('[API] Fetching route manifest:', url);
-
-    const response = await fetch(url);
-    console.log('[API] Manifest response:', response.status, response.statusText);
-
-    if (!response.ok) {
-      console.warn(`[API] Route manifest not found for city: ${city} (${response.status})`);
-      return null;
-    }
-
-    const data = await response.json() as RouteManifest;
-    console.log('[API] Manifest loaded for', city, ':', data.route_count, 'routes');
-    return data;
-  } catch (error) {
-    console.error(`[API] Failed to fetch route manifest for ${city}:`, error);
-    return null;
-  }
+/** One route's road-following geometry (GeoJSON LineStrings). */
+export function fetchRouteGeometry(city: City, routeId: string): Promise<RouteGeometry | null> {
+  return fetchRouteJson<RouteGeometry>(`${city}/${routeId}.geojson`);
 }
 
-/**
- * Fetch route metadata mapping (route_name|car_seq -> routeId)
- */
-export async function fetchRouteMetadata(): Promise<Record<string, Record<string, string>> | null> {
-  try {
-    const cdnBase = 'https://rawcdn.githack.com/Yukaii/garbage/c8d2681';
-    const url = `${cdnBase}/routes/route-metadata.json`;
-    console.log('[API] Fetching route metadata:', url);
-
-    const response = await fetch(url);
-    console.log('[API] Route metadata response:', response.status, response.statusText);
-
-    if (!response.ok) {
-      console.warn(`[API] Route metadata not found (${response.status})`);
-      return null;
-    }
-
-    const data = await response.json() as Record<string, Record<string, string>>;
-    console.log('[API] Route metadata loaded for cities:', Object.keys(data));
-    return data;
-  } catch (error) {
-    console.error('[API] Failed to fetch route metadata:', error);
-    return null;
-  }
+/** Per-city list of routes with distance and duration. */
+export function fetchRouteManifest(city: City): Promise<RouteManifest | null> {
+  return fetchRouteJson<RouteManifest>(`${city}/routes-manifest.json`);
 }
 
+/** Lookup from `route name|car sequence` to routeId, per city. */
+export function fetchRouteMetadata(): Promise<Record<string, Record<string, string>> | null> {
+  return fetchRouteJson<Record<string, Record<string, string>>>('route-metadata.json');
+}

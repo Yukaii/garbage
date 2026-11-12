@@ -73,7 +73,7 @@ export default defineConfig({
           {
             // City point data changes at most weekly: serve the cached copy instantly and
             // refresh it in the background, instead of blocking on the network
-            // (Taichung's file is ~50 MB).
+            // (Taichung's published file is ~8 MB).
             urlPattern: ({ sameOrigin, url }) => sameOrigin && /-?trash-collection-points\.json$/.test(url.pathname),
             handler: 'StaleWhileRevalidate',
             options: {
@@ -88,10 +88,11 @@ export default defineConfig({
             }
           },
           {
-            // Route geometry is fetched from a CDN pinned to a data-branch commit, so
-            // each URL is immutable. Kept in its own cache so it can't evict city data.
-            urlPattern: ({ url }) => url.hostname === 'rawcdn.githack.com' && url.pathname.endsWith('.geojson'),
-            handler: 'CacheFirst',
+            // Route geometry, manifests and metadata are served same-origin under /routes/ and
+            // rebuilt weekly: show the cached copy instantly, refresh in the background.
+            // Kept in its own cache so it can't evict city data.
+            urlPattern: ({ sameOrigin, url }) => sameOrigin && url.pathname.startsWith('/routes/'),
+            handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'route-geometry',
               expiration: {

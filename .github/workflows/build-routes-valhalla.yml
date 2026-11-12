@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # dispatch the deploy workflow so new routes reach the site
 
 jobs:
   build-routes:
@@ -135,3 +136,8 @@ jobs:
 
           git commit -m "Update routed garbage truck lines"
           git push origin HEAD:data
+
+          # Routes are copied into the site at build time (scripts/data/export-routes.ts)
+          gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}

@@ -69,19 +69,23 @@ export interface NewTaipeiTrashCollectionPoint {
   foodscrapssaturday: string;
 }
 
-// Taichung City data structure (merged from schedule + geocoded)
+// Taichung City data structure (merged from schedule + geocoded). Two shapes:
+// - data branch: one row per (stop, weekday, type), with `collectionType` + `dayOfWeek`
+// - published (scripts/data/publish.ts): one row per truck visit, with compact `garbageDays`/`recyclingDays`
 export interface TaichungTrashCollectionPoint {
   area: string; // District (區)
   village: string; // Village (里)
   route: string; // Vehicle license (KEQ-0315)
   location: string; // Location address
-  type: string; // 定點 (fixed point) or 沿街 (street route)
+  type?: string; // 定點 (fixed point) or 沿街 (street route); not published
   arrivalTime: string; // Start time (HHMM)
   departureTime: string; // End time (HHMM)
   longitude: string;
   latitude: string;
-  collectionType: 'garbage' | 'recycling';
-  dayOfWeek: number; // 1-7 (Monday-Sunday)
+  collectionType?: 'garbage' | 'recycling';
+  dayOfWeek?: number; // 1-7 (Monday-Sunday)
+  garbageDays?: string; // Compact ISO weekdays, e.g. "135"
+  recyclingDays?: string;
 }
 
 export type CollectionType = 'garbage' | 'recycling' | 'foodscraps';

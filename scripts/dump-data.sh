@@ -51,6 +51,14 @@ KAOHSIUNG_SIZE=$(du -h public/kaohsiung-trash-collection-points.json | cut -f1)
 KAOHSIUNG_COUNT=$(jq 'length' public/kaohsiung-trash-collection-points.json)
 echo "   ✓ $KAOHSIUNG_COUNT records ($KAOHSIUNG_SIZE)"
 
+# Route geometries (Valhalla, rebuilt weekly on the data branch), minified for the site
+echo "🛣️  Routes..."
+ROUTES_TMP=$(mktemp -d)
+git archive data routes | tar -x -C "$ROUTES_TMP"
+rm -rf public/routes
+bun scripts/data/export-routes.ts "$ROUTES_TMP/routes" public/routes
+rm -rf "$ROUTES_TMP"
+
 # One-time legacy point-ID maps (src/utils/legacyPointIds.ts), stored on the data branch
 echo "🔁 Point-ID migrations..."
 rm -rf public/migrations && mkdir -p public/migrations

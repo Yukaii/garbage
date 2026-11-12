@@ -3,7 +3,7 @@
  *
  * Each source fetches the full dataset and returns it in the exact shape the
  * `data` branch has always stored (the adapters in src/cities and
- * .github/actions/trim-data.sh read these files), plus a flat view of the
+ * scripts/data/publish.ts read these files), plus a flat view of the
  * records used for validation.
  */
 import { fetchJson } from './http';

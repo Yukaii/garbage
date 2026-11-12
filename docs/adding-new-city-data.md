@@ -80,7 +80,9 @@ Add the new city to the change detection logic:
 
 ## 2. Add Data Trimming
 
-### File: `.github/actions/trim-data.sh`
+### File: `scripts/data/publish.ts`
+
+> Trimming moved from `.github/actions/trim-data.sh` (jq) to `scripts/data/publish.ts` (TypeScript, tested). The jq example below still shows the idea.
 
 Add city-specific trimming logic to reduce file size (adjust fields based on your city's data structure):
 
