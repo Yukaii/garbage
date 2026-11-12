@@ -9,16 +9,13 @@ import {
   getTimeDifferenceInMinutes,
   formatTimeDifference,
   interpolateTruckPosition,
-  fetchRouteGeometry,
-  fetchRouteManifest,
-  fetchRouteMetadata,
   compareRouteOrder,
 } from './api';
-import type { RouteGeometry, RouteManifest } from './types';
+import { useRouteGeometry } from './hooks/useRouteGeometry';
 import type { TaipeiClock } from './utils/taipeiTime';
 import { weekdayLabel } from './utils/taipeiTime';
 import { COLLECTION_TYPE_LABELS, nextServiceDay, typesOn } from './cities/schedule';
-import { Layers, Locate, Navigation, Route, X, Star, Share2 } from 'lucide-react';
+import { Navigation, Route, X, Star, Share2 } from 'lucide-react';
 import RouteSelector from './RouteSelector';
 import { sharePoint, getPointIdFromUrl, clearPointFromUrl } from './utils/share';
 import { setWorkerUrl } from 'maplibre-gl';
@@ -101,12 +98,9 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     east: number;
     west: number;
   } | null>(null);
-  const [routeGeometry, setRouteGeometry] = useState<RouteGeometry | null>(null);
-  const [loadingRoute, setLoadingRoute] = useState(false);
-  const [routeManifests, setRouteManifests] = useState<Map<string, RouteManifest>>(new Map());
-  const [routeMetadata, setRouteMetadata] = useState<Record<string, Record<string, string>> | null>(null);
 
   // Request geolocation permission on first load
+  // biome-ignore lint/correctness/useExhaustiveDependencies: runs once on mount (ref-guarded); later isDesktop changes must not re-prompt
   useEffect(() => {
     if (hasRequestedGeolocation.current || !navigator.geolocation) return;
 
@@ -131,9 +125,8 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
           essential: true,
         });
       },
-      (error) => {
-        // Silently fail - user will see default map view
-        console.log('Geolocation not available or denied:', error.message);
+      () => {
+        // Denied or unavailable: keep the default view
       },
       {
         enableHighAccuracy: true,
@@ -142,6 +135,19 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
       }
     );
   }, []);
+
+  // Fly to a point, then open its popup once the camera has (mostly) arrived
+  const flyToPoint = useCallback((point: UnifiedTrashCollectionPoint, duration = 800) => {
+    mapRef.current?.flyTo({
+      center: [parseFloat(point.longitude), parseFloat(point.latitude)],
+      zoom: isDesktop ? MIN_LABEL_ZOOM_DESKTOP : MIN_LABEL_ZOOM_MOBILE,
+      duration,
+      essential: true,
+    });
+    setTimeout(() => setPopupInfo(point), duration + 100);
+    // The starred list covers the map on mobile
+    if (!isDesktop && onCloseStarredList) onCloseStarredList();
+  }, [isDesktop, onCloseStarredList]);
 
   // Handle shared point from URL
   useEffect(() => {
@@ -153,23 +159,11 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     const sharedPoint = points.find(p => p.id === sharedPointId);
     if (sharedPoint) {
       hasHandledSharedPoint.current = true;
-      // Fly to the shared point and open popup
-      const lng = parseFloat(sharedPoint.longitude);
-      const lat = parseFloat(sharedPoint.latitude);
-      mapRef.current?.flyTo({
-        center: [lng, lat],
-        zoom: isDesktop ? MIN_LABEL_ZOOM_DESKTOP : MIN_LABEL_ZOOM_MOBILE,
-        duration: 1200,
-        essential: true,
-      });
-      // Open popup after a slight delay to let the map fly
-      setTimeout(() => {
-        setPopupInfo(sharedPoint);
-      }, 1300);
+      flyToPoint(sharedPoint, 1200);
       // Clear the point from URL to avoid re-triggering
       clearPointFromUrl();
     }
-  }, [points, isDesktop]);
+  }, [points, flyToPoint]);
 
   // Auto-hide share toast
   useEffect(() => {
@@ -182,32 +176,14 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
   }, [shareToast]);
 
   // Compute starred points for the list view
-  const starredPoints = useMemo(() => {
-    const pointsToSearch = allPoints.length > 0 ? allPoints : points;
-    return starredPointIds
-      .map(id => pointsToSearch.find(p => p.id === id))
-      .filter((p): p is UnifiedTrashCollectionPoint => p !== undefined);
-  }, [starredPointIds, allPoints, points]);
-
-  // Function to fly to a point and open its popup
-  const flyToPoint = useCallback((point: UnifiedTrashCollectionPoint) => {
-    const lng = parseFloat(point.longitude);
-    const lat = parseFloat(point.latitude);
-    mapRef.current?.flyTo({
-      center: [lng, lat],
-      zoom: isDesktop ? MIN_LABEL_ZOOM_DESKTOP : MIN_LABEL_ZOOM_MOBILE,
-      duration: 800,
-      essential: true,
-    });
-    // Open popup after a slight delay
-    setTimeout(() => {
-      setPopupInfo(point);
-    }, 900);
-    // Close the starred list on mobile
-    if (!isDesktop && onCloseStarredList) {
-      onCloseStarredList();
-    }
-  }, [isDesktop, onCloseStarredList]);
+  const pointsById = useMemo(
+    () => new Map((allPoints.length > 0 ? allPoints : points).map(point => [point.id, point])),
+    [allPoints, points],
+  );
+  const starredPoints = useMemo(
+    () => starredPointIds.map(id => pointsById.get(id)).filter((p): p is UnifiedTrashCollectionPoint => p !== undefined),
+    [starredPointIds, pointsById],
+  );
 
   // Filter points based on selected route
   const filteredPoints = useMemo(() => {
@@ -225,131 +201,8 @@ export default function MapComponent({ points, darkMode, onMapLoaded, selectedRo
     return interpolateTruckPosition(sortedPoints, currentTimeMinutes);
   }, [selectedRoute, filteredPoints, currentTimeMinutes]);
 
-  // Fetch route geometry when route is selected
-  useEffect(() => {
-    console.log('[Route Fetch] Effect triggered:', { selectedRoute, pointCount: filteredPoints.length });
-    
-    if (!selectedRoute || filteredPoints.length === 0) {
-      setRouteGeometry(null);
-      return;
-    }
-
-    const firstPoint = filteredPoints[0];
-    if (!firstPoint) {
-      console.log('[Route Fetch] No first point found');
-      return;
-    }
-
-    const city = firstPoint.source;
-    console.log('[Route Fetch] City:', city, 'Route:', selectedRoute);
-
-    // Load manifest and metadata, then fetch route geometry
-    const loadAndFetchRoute = async () => {
-      setLoadingRoute(true);
-      
-      try {
-        // Load manifest for this city if we don't have it
-        console.log('[Route Fetch] Checking manifest cache for:', city, 'Has cache:', routeManifests.has(city));
-        
-        let manifest = routeManifests.get(city);
-        if (!manifest) {
-          console.log('[Route Fetch] Fetching manifest for:', city);
-          const fetchedManifest = await fetchRouteManifest(city as any);
-          console.log('[Route Fetch] Manifest loaded:', fetchedManifest ? `${fetchedManifest.route_count} routes` : 'null');
-          
-          if (fetchedManifest) {
-            manifest = fetchedManifest;
-            setRouteManifests(prev => new Map(prev).set(city, manifest!));
-          } else {
-            console.error('[Route Fetch] Failed to load manifest');
-            setRouteGeometry(null);
-            setLoadingRoute(false);
-            return;
-          }
-        }
-
-        // Load route metadata if we don't have it
-        if (!routeMetadata) {
-          console.log('[Route Fetch] Fetching route metadata...');
-          const metadata = await fetchRouteMetadata();
-          if (metadata) {
-            setRouteMetadata(metadata);
-            console.log('[Route Fetch] Metadata loaded for', Object.keys(metadata).length, 'cities');
-          } else {
-            console.error('[Route Fetch] Failed to load metadata');
-            setRouteGeometry(null);
-            setLoadingRoute(false);
-            return;
-          }
-        }
-
-        // Find all unique car sequences in this route
-        const uniqueCarSeqs = Array.from(new Set(
-          filteredPoints
-            .map(p => p.carSeq)
-            .filter((seq): seq is string => seq !== undefined)
-        ));
-        
-        console.log('[Route Fetch] Searching for route:', firstPoint.route);
-        console.log('[Route Fetch] Found', uniqueCarSeqs.length, 'unique car sequences:', uniqueCarSeqs);
-
-        if (uniqueCarSeqs.length === 0) {
-          console.warn('[Route Fetch] No carSeq field in point data, cannot match route');
-          setRouteGeometry(null);
-          setLoadingRoute(false);
-          return;
-        }
-
-        const cityMetadata = routeMetadata?.[city];
-        if (!cityMetadata) {
-          console.error('[Route Fetch] No metadata for city:', city);
-          setRouteGeometry(null);
-          setLoadingRoute(false);
-          return;
-        }
-
-        // Fetch geometry for all car sequences
-        const allGeometries: RouteGeometry[] = [];
-        for (const carSeq of uniqueCarSeqs) {
-          const lookupKey = `${firstPoint.route}|${carSeq}`;
-          console.log('[Route Fetch] Looking up routeId with key:', lookupKey);
-
-          const routeId = cityMetadata[lookupKey];
-          if (!routeId) {
-            console.warn('[Route Fetch] No routeId found for key:', lookupKey);
-            continue;
-          }
-
-          console.log('[Route Fetch] ✓ Found routeId:', routeId);
-          const geometry = await fetchRouteGeometry(city as any, routeId);
-          if (geometry) {
-            allGeometries.push(geometry);
-          }
-        }
-
-        // Combine all geometries into one FeatureCollection
-        if (allGeometries.length > 0) {
-          const combinedGeometry: RouteGeometry = {
-            type: 'FeatureCollection',
-            features: allGeometries.flatMap(g => g.features)
-          };
-          console.log('[Route Fetch] ✓ Combined', allGeometries.length, 'car route geometries with', combinedGeometry.features.length, 'total features');
-          setRouteGeometry(combinedGeometry);
-        } else {
-          console.warn('[Route Fetch] No geometries found for any car sequence');
-          setRouteGeometry(null);
-        }
-        
-        setLoadingRoute(false);
-      } catch (error) {
-        console.error('[Route Fetch] Failed to load route:', error);
-        setRouteGeometry(null);
-        setLoadingRoute(false);
-      }
-    };
-
-    loadAndFetchRoute();
-  }, [selectedRoute, filteredPoints, routeManifests, routeMetadata]);
+  // Road-following geometry for the selected route (null → straight-line fallback below)
+  const routeGeometry = useRouteGeometry(filteredPoints, !!selectedRoute);
 
   // Auto-fit bounds when route is selected
   useEffect(() => {

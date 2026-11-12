@@ -41,13 +41,13 @@ The TGOS processing scripts have been updated to automatically convert `、` bac
 
 ### Updated Scripts
 
-1. **`scripts/process-tgos-results.ts`**
+1. **`scripts/geocoding/process-tgos-results.ts`**
    - Added `normalizeAddress()` function
    - Automatically converts `、` → `,` when parsing TGOS results
    - Auto-detects city (Taichung/Kaohsiung) from filename
    - Outputs to `data/{city}-geocoded.json` and `data/{city}-geocode-lookup.json`
 
-2. **`scripts/merge-tgos-results.ts`**
+2. **`scripts/geocoding/merge-tgos-results.ts`**
    - Added `normalizeAddress()` function
    - Normalizes addresses during merge process
    - Auto-detects city from filename
@@ -60,12 +60,12 @@ The TGOS processing scripts have been updated to automatically convert `、` bac
 # (Use kaohsiung-tgos-batch-part1-cleaned.csv)
 
 # After downloading TGOS results, merge multiple batches
-bun scripts/merge-tgos-results.ts \
+bun scripts/geocoding/merge-tgos-results.ts \
   data/kaohsiung-tgos-batch-part1-finish.csv \
   data/kaohsiung-tgos-batch-part2-finish.csv
 
 # Process merged results (automatic normalization)
-bun scripts/process-tgos-results.ts data/kaohsiung-tgos-merged-results.csv
+bun scripts/geocoding/process-tgos-results.ts data/kaohsiung-tgos-merged-results.csv
 ```
 
 The scripts will automatically:

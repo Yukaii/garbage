@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import { MessageSquarePlus, RotateCw } from 'lucide-react';
-import Map from './Map';
-import { type TimeFilterMode } from './TimeFilter';
+import TrashMap from './Map';
+import type { TimeFilterMode } from './TimeFilter';
 import {
   fetchMultipleCities,
   getCitiesInViewport,
@@ -125,7 +125,6 @@ function App() {
     const [hours, minutes] = debugTime.split(':').map(Number);
     return { ...realClock, minutes: (hours ?? 0) * 60 + (minutes ?? 0) };
   }, [realClock, debugTime]);
-  const currentTimeMinutes = clock.minutes;
 
   useEffect(() => {
     // Save city preference
@@ -166,6 +165,7 @@ function App() {
   ].join('|');
 
   // Load data only when the set of cities changes (not on every zoom/pan)
+  // biome-ignore lint/correctness/useExhaustiveDependencies: loadKey encodes citiesToLoad (and the weekday/retry token)
   useEffect(() => {
     if (loadKey === loadedKey) return;
     let cancelled = false;
@@ -189,7 +189,7 @@ function App() {
     return () => {
       cancelled = true;
     };
-  }, [loadKey]); // eslint-disable-line react-hooks/exhaustive-deps -- loadKey encodes citiesToLoad
+  }, [loadKey]);
 
   const retryLoad = () => {
     setError(null);
@@ -296,7 +296,7 @@ function App() {
           {/* Show map after initial load, even during data updates */}
           {initialLoadComplete && !error && (
             <>
-              <Map
+              <TrashMap
                 points={selectedRoute ? points : filteredPoints}
                 darkMode={darkMode}
                 onMapLoaded={handleMapLoaded}

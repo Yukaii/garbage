@@ -219,10 +219,10 @@ The `process-tgos-results.ts` script handles:
 **Usage:**
 ```bash
 # For Taichung
-bun scripts/process-tgos-results.ts data/taichung-tgos-batch-part1-finish.csv
+bun scripts/geocoding/process-tgos-results.ts data/taichung-tgos-batch-part1-finish.csv
 
 # For Kaohsiung
-bun scripts/process-tgos-results.ts data/kaohsiung-tgos-batch-part1-finish.csv
+bun scripts/geocoding/process-tgos-results.ts data/kaohsiung-tgos-batch-part1-finish.csv
 ```
 
 **Output:**

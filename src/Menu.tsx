@@ -1,4 +1,4 @@
-import { Moon, Sun, Info, Coffee, Github, X } from 'lucide-react';
+import { Moon, Sun, Info, Coffee, Github, } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 
 interface MenuProps {

@@ -20,7 +20,7 @@ The Taichung open data API provides trash collection points with addresses but n
 ### Step 1: Generate TGOS Batch CSV
 
 ```bash
-bun scripts/prepare-tgos-batch.ts
+bun scripts/geocoding/prepare-tgos-batch.ts
 ```
 
 This generates:
@@ -35,7 +35,7 @@ This generates:
 ### Step 2: Split into Batches (TGOS Daily Limit: 10,000)
 
 ```bash
-bun scripts/split-tgos-batches.ts
+bun scripts/geocoding/split-tgos-batches.ts
 ```
 
 This generates:
@@ -61,7 +61,7 @@ This generates:
 ### Step 4: Merge TGOS Results
 
 ```bash
-bun scripts/merge-tgos-results.ts tgos-results-batch1.csv tgos-results-batch2.csv
+bun scripts/geocoding/merge-tgos-results.ts tgos-results-batch1.csv tgos-results-batch2.csv
 ```
 
 This generates:
@@ -70,7 +70,7 @@ This generates:
 ### Step 5: Process TGOS Results
 
 ```bash
-bun scripts/process-tgos-results.ts data/taichung-tgos-merged-results.csv
+bun scripts/geocoding/process-tgos-results.ts data/taichung-tgos-merged-results.csv
 ```
 
 This generates:

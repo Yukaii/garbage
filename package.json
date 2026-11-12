@@ -10,9 +10,12 @@
     "indexnow": "bun scripts/indexnow.ts",
     "typecheck": "tsc --noEmit",
     "test": "bun test src scripts",
-    "update-data": "bun scripts/data/update.ts"
+    "update-data": "bun scripts/data/update.ts",
+    "icons": "bun scripts/generate-icons.ts",
+    "lint": "biome lint"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.6.7",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/bun": "^1.4.3",
     "@types/react": "^19.3.0",

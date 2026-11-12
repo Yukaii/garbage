@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 
 // Accept data branch path as argument (defaults to ../data-branch for workflow)
 const dataBranchPath = process.argv[2] || '../data-branch';

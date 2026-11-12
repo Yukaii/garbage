@@ -7,6 +7,8 @@ Static React + Vite + MapLibre PWA showing garbage-truck collection points for T
 - `bun install` — install (lockfile is `bun.lock`; CI should use `--frozen-lockfile`)
 - `bun run dev` — Vite dev server
 - `bun run typecheck` — `tsc --noEmit` over `src/` and `vite.config.ts`
+- `bun run lint` — Biome (lint only; formatter off). Bug-class rules are errors, a11y and `any` are warnings to burn down
+- `bun run test` — `bun test` over `src/` and `scripts/` (the MCP has its own in `mcp/`)
 - `bun run build` — Vite production build, then `scripts/prerender.ts` writes static city/district schedules and a dated sitemap into `dist/` (requires `bun run dump-data` first)
 
 ## Data pipeline

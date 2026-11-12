@@ -28,12 +28,12 @@ bash scripts/dump-data.sh
 
 ## Geocoding Scripts (Taichung/Kaohsiung)
 
-### `prepare-tgos-batch.ts`
+### `geocoding/prepare-tgos-batch.ts`
 **Purpose:** Generate TGOS batch geocoding CSV from Taichung trash collection API.
 
 **Usage:**
 ```bash
-bun scripts/prepare-tgos-batch.ts
+bun scripts/geocoding/prepare-tgos-batch.ts
 ```
 
 **What it does:**
@@ -49,24 +49,24 @@ bun scripts/prepare-tgos-batch.ts
 
 ---
 
-### `prepare-kaohsiung-batch.ts`
+### `geocoding/prepare-kaohsiung-batch.ts`
 **Purpose:** Generate TGOS batch geocoding CSV from Kaohsiung trash collection API.
 
 **Usage:**
 ```bash
-bun scripts/prepare-kaohsiung-batch.ts
+bun scripts/geocoding/prepare-kaohsiung-batch.ts
 ```
 
 **Similar to `prepare-tgos-batch.ts` but for Kaohsiung City.**
 
 ---
 
-### `split-tgos-batches.ts`
+### `geocoding/split-tgos-batches.ts`
 **Purpose:** Split large TGOS batch CSV into smaller parts (TGOS limit: 10,000 rows).
 
 **Usage:**
 ```bash
-bun scripts/split-tgos-batches.ts
+bun scripts/geocoding/split-tgos-batches.ts
 ```
 
 **What it does:**
@@ -81,17 +81,17 @@ bun scripts/split-tgos-batches.ts
 
 ---
 
-### `merge-tgos-results.ts`
+### `geocoding/merge-tgos-results.ts`
 **Purpose:** Merge multiple TGOS batch result files into one.
 
 **Usage:**
 ```bash
-bun scripts/merge-tgos-results.ts <part1.csv> <part2.csv> ...
+bun scripts/geocoding/merge-tgos-results.ts <part1.csv> <part2.csv> ...
 ```
 
 **Example:**
 ```bash
-bun scripts/merge-tgos-results.ts \
+bun scripts/geocoding/merge-tgos-results.ts \
   data/taichung-tgos-batch-part1-finish.csv \
   data/taichung-tgos-batch-part2-finish.csv
 ```
@@ -107,17 +107,17 @@ bun scripts/merge-tgos-results.ts \
 
 ---
 
-### `process-tgos-results.ts`
+### `geocoding/process-tgos-results.ts`
 **Purpose:** Process TGOS batch results into geocoded JSON format.
 
 **Usage:**
 ```bash
-bun scripts/process-tgos-results.ts <tgos-results.csv>
+bun scripts/geocoding/process-tgos-results.ts <tgos-results.csv>
 ```
 
 **Example:**
 ```bash
-bun scripts/process-tgos-results.ts data/taichung-tgos-merged-results.csv
+bun scripts/geocoding/process-tgos-results.ts data/taichung-tgos-merged-results.csv
 ```
 
 **What it does:**
@@ -152,22 +152,6 @@ To geocode new addresses, feed the missing-geocodes report through the TGOS step
 
 ---
 
-### `trim-taichung-data.ts`
-**Purpose:** Trim Taichung data for production (reduce file size).
-
-**Usage:**
-```bash
-bun scripts/trim-taichung-data.ts
-```
-
-**What it does:**
-- Removes unused fields
-- Rounds coordinates to 6 decimal places
-- Shortens field names
-
-**Note:** Currently unused - compaction is done by `scripts/data/publish.ts` during deploy.
-
----
 
 ## Automation Scripts
 
@@ -242,12 +226,12 @@ bun scripts/data/publish.ts public
 
 ### 1. Fetch and prepare addresses
 ```bash
-bun scripts/prepare-tgos-batch.ts
+bun scripts/geocoding/prepare-tgos-batch.ts
 ```
 
 ### 2. Split into batches (if > 10,000 addresses)
 ```bash
-bun scripts/split-tgos-batches.ts
+bun scripts/geocoding/split-tgos-batches.ts
 ```
 
 ### 3. Upload to TGOS for geocoding
@@ -256,14 +240,14 @@ bun scripts/split-tgos-batches.ts
 
 ### 4. Merge geocoding results
 ```bash
-bun scripts/merge-tgos-results.ts \
+bun scripts/geocoding/merge-tgos-results.ts \
   data/city-tgos-batch-part1-finish.csv \
   data/city-tgos-batch-part2-finish.csv
 ```
 
 ### 5. Process geocoded results
 ```bash
-bun scripts/process-tgos-results.ts data/city-tgos-merged-results.csv
+bun scripts/geocoding/process-tgos-results.ts data/city-tgos-merged-results.csv
 ```
 
 ### 6. Merge with schedule data

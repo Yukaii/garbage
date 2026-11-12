@@ -19,13 +19,20 @@ beforeEach(() => {
   Object.assign(globalThis, {
     localStorage: {
       getItem: (k: string) => store[k] ?? null,
-      setItem: (k: string, v: string) => void (store[k] = v),
+      setItem: (k: string, v: string) => {
+        store[k] = v;
+      },
     },
     window: {
       get location() {
         return { href };
       },
-      history: { state: null, replaceState: (_s: unknown, _t: string, url: URL) => void (href = String(url)) },
+      history: {
+        state: null,
+        replaceState: (_s: unknown, _t: string, url: URL) => {
+          href = String(url);
+        },
+      },
     },
   });
   globalThis.fetch = (async (url: string) => {

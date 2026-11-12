@@ -377,8 +377,8 @@ async function runTestCase(testIndex: number) {
   console.log(`Expected: ${testCase.expectedBehavior}`);
   console.log();
 
-  // Import and run the triage script
-  const { default: triage } = await import('./triage-city-request.ts');
+  // Load the triage script (its module side effects run the triage)
+  await import('./triage-city-request.ts');
 }
 
 // Main execution
@@ -386,7 +386,7 @@ const args = process.argv.slice(2);
 if (args.length === 0) {
   generateTestFiles();
 } else if (args[0] === 'run' && args[1]) {
-  const testIndex = parseInt(args[1]);
+  const testIndex = parseInt(args[1], 10);
   runTestCase(testIndex).catch(console.error);
 } else {
   console.log("Usage:");

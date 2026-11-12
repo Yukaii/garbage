@@ -1,4 +1,4 @@
-import { CityDataAdapter } from './adapters/BaseAdapter';
+import type { CityDataAdapter } from './adapters/BaseAdapter';
 import { TaipeiAdapter } from './adapters/TaipeiAdapter';
 import { NewTaipeiAdapter } from './adapters/NewTaipeiAdapter';
 import { TaichungAdapter } from './adapters/TaichungAdapter';

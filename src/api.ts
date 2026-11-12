@@ -205,7 +205,7 @@ export function groupPointsIntoRoutes(points: UnifiedTrashCollectionPoint[]): Ma
     routeMap.get(routeKey)!.push(point);
   });
 
-  routeMap.forEach(routePoints => routePoints.sort(compareRouteOrder));
+  for (const routePoints of routeMap.values()) routePoints.sort(compareRouteOrder);
 
   return routeMap;
 }
