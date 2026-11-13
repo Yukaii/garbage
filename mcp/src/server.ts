@@ -68,7 +68,7 @@ export function registerTools(server: McpServer): void {
     {
       title: 'Find nearby collection points',
       description:
-        'Find garbage-truck stops near a coordinate in Taipei, New Taipei, Taichung or Kaohsiung, nearest first, with arrival times. Searches every city whose area overlaps the radius unless `city` is given.',
+        'Find garbage-truck stops near a coordinate in Taipei, New Taipei, Taichung, Kaohsiung, Changhua or Yunlin, nearest first, with arrival times. Searches every city whose area overlaps the radius unless `city` is given.',
       inputSchema: z.object({
         lat: z.number().min(21).max(26).describe('Latitude (WGS84)'),
         lng: z.number().min(118).max(123).describe('Longitude (WGS84)'),

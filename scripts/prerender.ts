@@ -94,7 +94,13 @@ export async function prerender(): Promise<void> {
       throw new Error(`Invalid or duplicate district slugs for ${cityId}`);
     }
     const source = Bun.file(`public${adapter.dataUrl}`);
-    if (!await source.exists()) throw new Error(`Missing ${source.name}. Run bun run dump-data first.`);
+    if (!await source.exists()) {
+      if (cityId === 'changhua' || cityId === 'yunlin') {
+        console.warn(`Skipping ${cityId}: ${source.name} not published yet`);
+        continue;
+      }
+      throw new Error(`Missing ${source.name}. Run bun run dump-data first.`);
+    }
     // Reuse the adapters' unwrapping and field mapping directly on local files.
     // Aggregate all weekdays here, bypassing the browser's today-only filtering.
     const stops = aggregateStops(adapter.preprocessData(await source.json()).map(point => adapter.mapToUnified(point)));

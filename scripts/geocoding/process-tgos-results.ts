@@ -40,12 +40,31 @@ function normalizeAddress(address: string): string {
   return address.replace(/、/g, ',');
 }
 
+function splitCsvLine(line: string): string[] {
+  const fields: string[] = [];
+  let current = '';
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (ch === '"') {
+      inQuotes = !inQuotes;
+    } else if (ch === ',' && !inQuotes) {
+      fields.push(current);
+      current = '';
+    } else {
+      current += ch;
+    }
+  }
+  fields.push(current);
+  return fields;
+}
+
 async function parseCSV(filePath: string): Promise<TGOSResult[]> {
   const file = Bun.file(filePath);
-  const text = await file.text();
-  const lines = text.split('\n');
+  const text = (await file.text()).replace(/^\uFEFF/, '');
+  const lines = text.split(/\r?\n/);
 
-  // Skip header and BOM
+  // Skip header
   const dataLines = lines.slice(1).filter(line => line.trim());
 
   const results: TGOSResult[] = [];
@@ -53,7 +72,7 @@ async function parseCSV(filePath: string): Promise<TGOSResult[]> {
   for (const line of dataLines) {
     // Parse CSV (handle quoted fields and multiple answers)
     // Format: id,Address,Response_Address,Response_X,Response_Y
-    const parts = line.split(',');
+    const parts = splitCsvLine(line);
 
     if (parts.length < 3) {
       console.warn(`Failed to parse line: ${line}`);
@@ -188,14 +207,29 @@ async function main() {
 
   if (args.length === 0) {
     console.error('Error: Please provide the TGOS results CSV file');
-    console.error('Usage: bun scripts/geocoding/process-tgos-results.ts <tgos-results.csv>');
+    console.error('Usage: bun scripts/geocoding/process-tgos-results.ts [--city <city>] <tgos-results.csv>');
     process.exit(1);
   }
 
-  const inputPath = args[0];
+  let explicitCity: string | undefined;
+  let inputPath: string | undefined;
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === '--city' && args[i + 1]) {
+      explicitCity = args[++i]!.toLowerCase();
+    } else if (!inputPath) {
+      inputPath = args[i];
+    }
+  }
+  if (!inputPath) {
+    console.error('Error: Please provide the TGOS results CSV file');
+    process.exit(1);
+  }
 
-  // Auto-detect city from filename (taichung or kaohsiung)
-  const cityName = inputPath.toLowerCase().includes('kaohsiung') ? 'kaohsiung' : 'taichung';
+  // Auto-detect city from filename unless --city is passed
+  const lower = inputPath.toLowerCase();
+  const cityName =
+    explicitCity ??
+    (['kaohsiung', 'changhua', 'yunlin', 'taichung'].find(c => lower.includes(c)) || 'taichung');
   console.log(`Detected city: ${cityName}`);
 
   try {
@@ -232,7 +266,7 @@ async function main() {
       const { longitude, latitude } = convertTGOSToWGS84(x, y);
 
       // Validate coordinates are within reasonable Taiwan bounds
-      if (longitude < 120 || longitude > 122 || latitude < 21 || latitude > 26) {
+      if (longitude < 119.9 || longitude > 122.1 || latitude < 21 || latitude > 26) {
         failed.push({
           id: result.id,
           address: result.Address,

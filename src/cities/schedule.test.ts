@@ -1,7 +1,8 @@
 import { describe, expect, test } from 'bun:test';
 import { nextServiceDay, servesOn, typesOn } from './schedule';
-import { compareRouteOrder, fetchMultipleCities, getPointStatus } from '../api';
+import { compareRouteOrder, fetchMultipleCities, getCitiesInViewport, getPointStatus } from '../api';
 import { cityRegistry } from './cityRegistry';
+import { getCityFromPointId } from '../utils/share';
 import { taipeiClock, weekdayLabel } from '../utils/taipeiTime';
 import type { UnifiedTrashCollectionPoint } from '../types';
 
@@ -83,4 +84,12 @@ test('fetchMultipleCities keeps the cities that loaded', async () => {
   } finally {
     globalThis.fetch = realFetch;
   }
+});
+
+test('viewport and share helpers include changhua and yunlin', () => {
+  expect(getCitiesInViewport({ north: 24.12, south: 24.02, east: 120.6, west: 120.48 }, 12)).toContain('changhua');
+  expect(getCitiesInViewport({ north: 23.75, south: 23.65, east: 120.58, west: 120.45 }, 12)).toContain('yunlin');
+  expect(getCitiesInViewport({ north: 24.12, south: 24.02, east: 120.6, west: 120.48 }, 8)).toEqual([]);
+  expect(getCityFromPointId('changhua-abc123')).toBe('changhua');
+  expect(getCityFromPointId('yunlin-xyz789')).toBe('yunlin');
 });

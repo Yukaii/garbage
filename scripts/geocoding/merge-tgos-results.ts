@@ -100,17 +100,39 @@ function generateCSV(results: TGOSResult[]): string {
   return rows.join('\n');
 }
 
-async function main() {
-  const args = process.argv.slice(2);
+function detectCity(args: string[]): { cityName: string; files: string[] } {
+  const files: string[] = [];
+  let explicitCity: string | undefined;
 
-  if (args.length === 0) {
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === '--city' && args[i + 1]) {
+      explicitCity = args[++i]!.toLowerCase();
+    } else {
+      files.push(args[i]!);
+    }
+  }
+
+  const first = (files[0] ?? '').toLowerCase();
+  const cityName =
+    explicitCity ??
+    (['kaohsiung', 'changhua', 'yunlin', 'taichung'].find(c => first.includes(c)) || 'taichung');
+  return { cityName, files };
+}
+
+async function main() {
+  const rawArgs = process.argv.slice(2);
+
+  if (rawArgs.length === 0) {
     console.error('Error: Please provide at least one TGOS results CSV file');
-    console.error('Usage: bun scripts/geocoding/merge-tgos-results.ts <batch1.csv> <batch2.csv> ...');
+    console.error('Usage: bun scripts/geocoding/merge-tgos-results.ts [--city <city>] <batch1.csv> <batch2.csv> ...');
     process.exit(1);
   }
 
-  // Auto-detect city from first filename (taichung or kaohsiung)
-  const cityName = args[0].toLowerCase().includes('kaohsiung') ? 'kaohsiung' : 'taichung';
+  const { cityName, files: args } = detectCity(rawArgs);
+  if (args.length === 0) {
+    console.error('Error: Please provide at least one TGOS results CSV file');
+    process.exit(1);
+  }
   console.log(`Detected city: ${cityName}`);
   console.log(`Merging ${args.length} batch file(s)...\n`);
 

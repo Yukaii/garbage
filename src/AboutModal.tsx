@@ -187,7 +187,7 @@ export default function AboutModal({
           <section>
             <h3 className="text-base font-semibold text-neutral-900 dark:text-neutral-100 md:text-lg">資料來源與更新</h3>
             <p className="mt-2 text-sm md:text-base">
-              本站整合四都政府開放資料，每週透過 GitHub Actions 自動檢查，有更新時重新整理並部署。台中市與高雄市的部分站點經內政部 TGOS 地理編碼服務轉換座標，以提升地圖定位準確度。
+              本站整合六縣市政府及環境部公開資料，每週透過 GitHub Actions 自動檢查，有更新時重新整理並部署。台中市、高雄市、彰化縣與雲林縣的部分站點經內政部 TGOS 地理編碼服務轉換座標，以提升地圖定位準確度。
             </p>
             <ul className="mt-3 space-y-2 text-sm md:text-base">
               <li>
@@ -236,6 +236,28 @@ export default function AboutModal({
               </li>
               <li>
                 <a
+                  href="https://hwms.moenv.gov.tw/dispPageBox/route/routeCP.aspx?ddsPageID=ROUTE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+                >
+                  環境部全國垃圾車清運路線查詢網：彰化縣清運路線與停靠點
+                </a>
+                <UpdatedAt meta={dataMeta} city="changhua" />
+              </li>
+              <li>
+                <a
+                  href="https://hwms.moenv.gov.tw/dispPageBox/route/routeCP.aspx?ddsPageID=ROUTE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
+                >
+                  環境部全國垃圾車清運路線查詢網：雲林縣清運路線與停靠點
+                </a>
+                <UpdatedAt meta={dataMeta} city="yunlin" />
+              </li>
+              <li>
+                <a
                   href="https://www.tgos.tw/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -244,7 +266,7 @@ export default function AboutModal({
                   內政部地理資訊圖資雲服務平台（TGOS）：地理編碼服務
                 </a>
                 <span className="ml-2 text-xs text-neutral-500 dark:text-neutral-400">
-                  （台中市、高雄市地址座標轉換）
+                  （台中市、高雄市、彰化縣、雲林縣地址座標轉換）
                 </span>
               </li>
             </ul>

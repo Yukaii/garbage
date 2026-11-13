@@ -76,7 +76,7 @@ test("hello world", () => {
 
 `src/cities/cityRegistry.ts` is the single source of truth. Each city is a `CityDataAdapter` subclass in `src/cities/adapters/` that declares `cityId`, `displayName`, `dataUrl`, `bounds` (north/south/east/west) and implements `fetchRawData()` / `mapToUnified()` returning `UnifiedTrashCollectionPoint` (`src/types.ts`). Viewport-based loading (`getCitiesInViewport` in `src/api.ts`) derives from registry bounds, so there is no per-city `if` to edit.
 
-Current adapters: `taipei`, `new-taipei`, `taichung`, `kaohsiung`.
+Current adapters: `taipei`, `new-taipei`, `taichung`, `kaohsiung`, `changhua`, `yunlin`.
 
 ### Adding a city
 

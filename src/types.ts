@@ -88,6 +88,22 @@ export interface TaichungTrashCollectionPoint {
   recyclingDays?: string;
 }
 
+// HWMS (hwms.moenv.gov.tw) data structure used by Changhua & Yunlin
+export interface HwmsTrashCollectionPoint {
+  district: string; // Township/city (鄉鎮市區)
+  routeSeq: string; // HWMS route code (e.g., "N50020023")
+  route: string; // Route name (disambiguated with district when generic)
+  seq: number; // Stop order in route (清運序)
+  location: string; // Stop name / address (清運點名稱描述)
+  arrivalTime: string; // HHMM
+  departureTime: string; // HHMM
+  longitude: string;
+  latitude: string;
+  garbageDays?: string; // Compact ISO weekdays, e.g. "12456"
+  recyclingDays?: string;
+  foodscrapsDays?: string;
+}
+
 export type CollectionType = 'garbage' | 'recycling' | 'foodscraps';
 
 /** Weekdays a stop is served, per collection type, as ISO weekdays (Mon=1 .. Sun=7). */
@@ -96,8 +112,8 @@ export type CollectionSchedule = Partial<Record<CollectionType, number[]>>;
 // Unified data structure for the app
 export interface UnifiedTrashCollectionPoint {
   id: string;
-  city: string; // City name (台北市/新北市/台中市)
-  district: string; // District/區
+  city: string; // City name (台北市/新北市/台中市/高雄市/彰化縣/雲林縣)
+  district: string; // District/鄉鎮市區
   village: string; // Village/里 (may be empty for real-time data)
   location: string; // Location name
   route: string; // Route/Line name or ID
@@ -107,12 +123,12 @@ export interface UnifiedTrashCollectionPoint {
   departureTime: string; // Format: HHMM for internal use
   longitude: string;
   latitude: string;
-  source: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';
-  /** Stop order within the route when the source publishes one (New Taipei's `rank`). */
+  source: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung' | 'changhua' | 'yunlin';
+  /** Stop order within the route when the source publishes one (New Taipei's `rank`, HWMS `seq`). */
   sequence?: number;
   /**
-   * Weekly schedule: per stop for New Taipei and Taichung (all-days mode only), the citywide
-   * Wed/Sun-off rule for Taipei and Kaohsiung. Absent from Taichung's today-only map data.
+   * Weekly schedule: per stop for New Taipei, Taichung (all-days mode only), Changhua, and Yunlin;
+   * citywide Wed/Sun-off rule for Taipei and Kaohsiung. Absent from Taichung's today-only map data.
    */
   schedule?: CollectionSchedule;
 }
@@ -129,7 +145,7 @@ export interface RouteInfo {
   district: string; // District
   pointCount: number; // Number of stops
   points: UnifiedTrashCollectionPoint[]; // Ordered stops
-  source: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';
+  source: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung' | 'changhua' | 'yunlin';
 }
 
 // Valhalla route geometry (from data branch routes/)
