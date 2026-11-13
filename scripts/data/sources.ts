@@ -7,6 +7,7 @@
  * records used for validation.
  */
 import { fetchJson } from './http';
+import { fetchHwmsCountyStops, mergeHwmsStops, type HwmsCity } from './hwms';
 
 export interface RecordView {
   name: string;
@@ -25,12 +26,14 @@ export interface SourceResult {
 }
 
 export interface Source {
-  city: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';
+  city: 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung' | 'changhua' | 'yunlin';
   /** File name on the data branch. */
   file: string;
   /** A real refresh of this city never has fewer records than this. */
   minRecords: number;
-  fetch(options: { loadGeocodes: (city: 'taichung' | 'kaohsiung') => Promise<GeocodeLookup> }): Promise<SourceResult>;
+  fetch(options: {
+    loadGeocodes: (city: 'taichung' | 'kaohsiung' | 'changhua' | 'yunlin') => Promise<GeocodeLookup>;
+  }): Promise<SourceResult>;
   /** Record count of a previously published file, for the shrink check. */
   countPrevious(content: string): number;
 }
@@ -295,9 +298,43 @@ const kaohsiung: Source = {
   countPrevious: content => (JSON.parse(content) as unknown[]).length,
 };
 
+// ---------------------------------------------------------------------------
+// Changhua & Yunlin: hwms.moenv.gov.tw + cached TGOS geocodes
+// ---------------------------------------------------------------------------
+
+function hwmsSource(city: HwmsCity, minRecords: number): Source {
+  return {
+    city,
+    file: `${city}-trash-collection-points.json`,
+    minRecords,
+    async fetch({ loadGeocodes }) {
+      const rawStops = await fetchHwmsCountyStops(city);
+      const geocodes = await loadGeocodes(city);
+      const { records, missingGeocodes } = mergeHwmsStops(city, rawStops, geocodes);
+      return {
+        content: jsonLines(records),
+        records: records.map(r => ({
+          name: r.location,
+          time: r.arrivalTime,
+          lat: Number(r.latitude),
+          lng: Number(r.longitude),
+        })),
+        missingGeocodes,
+        notes: [
+          `${rawStops.length} upstream stops`,
+          `${missingGeocodes.length} addresses without cached coordinates`,
+        ],
+      };
+    },
+    countPrevious: content => (JSON.parse(content) as unknown[]).length,
+  };
+}
+
 export const SOURCES: Record<Source['city'], Source> = {
   taipei,
   'new-taipei': newTaipei,
   taichung,
   kaohsiung,
+  changhua: hwmsSource('changhua', 3_000),
+  yunlin: hwmsSource('yunlin', 350),
 };

@@ -55,7 +55,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        city: [taipei, new-taipei, taichung, kaohsiung]
+        city: [taipei, new-taipei, taichung, kaohsiung, changhua, yunlin]
     steps:
       - uses: actions/checkout@v7
 

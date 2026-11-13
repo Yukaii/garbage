@@ -36,4 +36,20 @@ export const districtSlugs: Record<City, Record<string, string>> = {
     茄萣區: 'qieding', 路竹區: 'luzhu', 阿蓮區: 'alian', 鳥松區: 'niaosong',
     鳳山區: 'fengshan', 鹽埕區: 'yancheng', 鼓山區: 'gushan',
   },
+  changhua: {
+    二林鎮: 'erlin', 二水鄉: 'ershui', 伸港鄉: 'shengang', 北斗鎮: 'beidou',
+    和美鎮: 'hemei', 員林市: 'yuanlin', 埔心鄉: 'puxin', 埔鹽鄉: 'puyan',
+    埤頭鄉: 'pitou', 大城鄉: 'dacheng', 大村鄉: 'dacun', 彰化市: 'changhua',
+    永靖鄉: 'yongjing', 溪州鄉: 'xizhou', 溪湖鎮: 'xihu', 田中鎮: 'tianzhong',
+    田尾鄉: 'tianwei', 社頭鄉: 'shetou', 福興鄉: 'fuxing', 秀水鄉: 'xiushui',
+    竹塘鄉: 'zhutang', 線西鄉: 'xianxi', 芬園鄉: 'fenyuan', 花壇鄉: 'huatan',
+    芳苑鄉: 'fangyuan', 鹿港鎮: 'lukang',
+  },
+  yunlin: {
+    二崙鄉: 'erlun', 元長鄉: 'yuanchang', 北港鎮: 'beigang', 口湖鄉: 'kouhu',
+    古坑鄉: 'gukeng', 台西鄉: 'taixi', 四湖鄉: 'sihu', 土庫鎮: 'tuku',
+    大埤鄉: 'dapi', 崙背鄉: 'lunbei', 斗六市: 'douliu', 斗南鎮: 'dounan',
+    東勢鄉: 'dongshi', 林內鄉: 'linnei', 水林鄉: 'shuilin', 莿桐鄉: 'citong',
+    虎尾鎮: 'huwei', 褒忠鄉: 'baozhong', 西螺鎮: 'xiluo', 麥寮鄉: 'mailiao',
+  },
 };

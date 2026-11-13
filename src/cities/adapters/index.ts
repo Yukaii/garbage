@@ -7,3 +7,5 @@ export { TaipeiAdapter } from './TaipeiAdapter';
 export { NewTaipeiAdapter } from './NewTaipeiAdapter';
 export { TaichungAdapter } from './TaichungAdapter';
 export { KaohsiungAdapter } from './KaohsiungAdapter';
+export { ChanghuaAdapter } from './ChanghuaAdapter';
+export { YunlinAdapter } from './YunlinAdapter';

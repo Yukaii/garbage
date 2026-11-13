@@ -37,6 +37,8 @@ export function getCityFromPointId(pointId: string): string | null {
   if (pointId.startsWith('taipei-')) return 'taipei';
   if (pointId.startsWith('taichung-')) return 'taichung';
   if (pointId.startsWith('kaohsiung-')) return 'kaohsiung';
+  if (pointId.startsWith('changhua-')) return 'changhua';
+  if (pointId.startsWith('yunlin-')) return 'yunlin';
   return null;
 }
 

@@ -4,9 +4,9 @@
 [![MCP server](https://img.shields.io/badge/MCP-mcp.garbage.yukai.dev-111827)](https://mcp.garbage.yukai.dev)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-即時查詢**台北市、新北市、台中市、高雄市**的垃圾車與資源回收車停靠點、清運路線與預計抵達時間。支援手機主畫面安裝（PWA）與離線瀏覽，讓你不用再盲目追著垃圾車跑。
+即時查詢**台北市、新北市、台中市、高雄市、彰化縣、雲林縣**的垃圾車與資源回收車停靠點、清運路線與預計抵達時間。支援手機主畫面安裝（PWA）與離線瀏覽，讓你不用再盲目追著垃圾車跑。
 
-**Find out when the garbage truck reaches your street.** An interactive map of garbage and recycling truck stops, routes, and arrival times for Taipei, New Taipei, Taichung, and Kaohsiung — built for mobile, installable as an app, and offline-ready.
+**Find out when the garbage truck reaches your street.** An interactive map of garbage and recycling truck stops, routes, and arrival times for Taipei, New Taipei, Taichung, Kaohsiung, Changhua, and Yunlin — built for mobile, installable as an app, and offline-ready.
 
 **👉 [https://garbage.yukai.dev](https://garbage.yukai.dev)**
 
@@ -27,10 +27,12 @@
 |---|---|---|
 | 台北市 Taipei | [台北市資料大平臺 (data.taipei)](https://data.taipei) | – |
 | 新北市 New Taipei | [新北市政府資料開放平臺 (data.ntpc.gov.tw)](https://data.ntpc.gov.tw) | ✅ 一般垃圾 / 資源回收 / 廚餘 |
-| 台中市 Taichung | [臺中市政府資料開放平臺](https://data.gov.tw/dataset/84004)（經 TGOS 地理編碼） | ✅ 一般垃圾 / 資源回收 |
-| 高雄市 Kaohsiung | [高雄市政府資料開放平臺 (data.kcg.gov.tw)](https://data.kcg.gov.tw)（經 TGOS 地理編碼） | – |
+| 台中市 Taichung | [臺中市政府資料開放平臺](https://data.gov.tw/dataset/84004)（經 [TGOS](https://www.tgos.tw/) 地理編碼） | ✅ 一般垃圾 / 資源回收 |
+| 高雄市 Kaohsiung | [高雄市政府資料開放平臺 (data.kcg.gov.tw)](https://data.kcg.gov.tw)（經 [TGOS](https://www.tgos.tw/) 地理編碼） | – |
+| 彰化縣 Changhua | [環境部環境管理署・全國垃圾車清運路線查詢網 (hwms.moenv.gov.tw)](https://hwms.moenv.gov.tw/dispPageBox/route/routeCP.aspx?ddsPageID=ROUTE)（經 [TGOS](https://www.tgos.tw/) 地理編碼） | ✅ 一般垃圾 / 資源回收 / 廚餘 |
+| 雲林縣 Yunlin | [環境部環境管理署・全國垃圾車清運路線查詢網 (hwms.moenv.gov.tw)](https://hwms.moenv.gov.tw/dispPageBox/route/routeCP.aspx?ddsPageID=ROUTE)（經 [TGOS](https://www.tgos.tw/) 地理編碼） | ✅ 一般垃圾 / 資源回收 / 廚餘 |
 
-系統每週會自動檢查各縣市政府最新公開資料，網站「關於本站」會顯示各縣市的資料更新日期。若發現站點資訊有誤，或希望支援其他縣市，歡迎[建立 Issue 回報](https://github.com/Yukaii/garbage/issues)。
+系統每週會自動檢查各縣市政府與環境部最新公開資料，網站「關於本站」會顯示各縣市的資料更新日期。若發現站點資訊有誤，或希望支援其他縣市，歡迎[建立 Issue 回報](https://github.com/Yukaii/garbage/issues)。
 
 > 💡 **提醒**：表定抵達時間皆來自各縣市政府開放資料，實際到站時間可能因路況、天候或當日清運量而有幾分鐘誤差，建議提早前往等候。
 
@@ -79,7 +81,7 @@ bun run build       # 建置正式版至 dist/
 
 - 由 [Yukaii](https://github.com/Yukaii) 開發維護，感謝 [PastLeo](https://github.com/pastleo) 貢獻。
 - 地圖圖資 © [OpenStreetMap](https://www.openstreetmap.org/copyright) 貢獻者，圖磚由 [CARTO](https://carto.com/attributions) 提供，並使用 [MapLibre GL](https://maplibre.org) 繪製。
-- 清運路線與停靠點資料版權歸屬各縣市政府，依政府開放資料授權條款使用。
+- 清運路線與停靠點資料版權歸屬各縣市政府與[環境部環境管理署](https://www.moenv.gov.tw/)，依政府網站資料開放宣告與開放資料授權條款使用。
 
 ## 授權 · License
 

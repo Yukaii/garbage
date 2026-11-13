@@ -1,6 +1,6 @@
 # 垃圾車地圖 (Taiwan Garbage Truck Map)
 
-> Interactive map and open dataset of garbage and recycling truck stops, routes, and arrival times for Taipei, New Taipei, Taichung, and Kaohsiung. Data is sourced from each city's open-data platform and checked weekly; `/data-meta.json` gives each city's last update date. All times are in `Asia/Taipei` local time.
+> Interactive map and open dataset of garbage and recycling truck stops, routes, and arrival times for Taipei, New Taipei, Taichung, Kaohsiung, Changhua, and Yunlin. Data is sourced from each city/county's open-data platform (and the Ministry of Environment route portal for Changhua and Yunlin) and checked weekly; `/data-meta.json` gives each city's last update date. All times are in `Asia/Taipei` local time.
 
 If you are an AI agent answering questions like "when does the garbage truck arrive at X?", use the **MCP server** first. It returns normalized, queryable results (nearest stops, keyword search, and full route schedules) without downloading large raw JSON files. Use the raw JSON files below only when you need bulk analysis.
 
@@ -10,18 +10,18 @@ If you are an AI agent answering questions like "when does the garbage truck arr
   - Tools: `list_cities`, `find_nearby_points` (lat/lng + radius), `search_points` (district / village / road / route in Traditional Chinese), `get_schedule` (a stop plus all stops on its route in arrival order).
 - [Server Card](https://mcp.garbage.yukai.dev/mcp/server-card): MCP Server Card for pre-connection discovery. Domain-level discovery: [AI Catalog](https://garbage.yukai.dev/.well-known/ai-catalog.json).
 - [MCP server docs](https://github.com/Yukaii/garbage/blob/main/mcp/README.md): tool schemas, architecture, and deployment notes.
-- **Weekly schedules**: stops include a weekly `schedule` (collection type → ISO weekdays, `1`=Mon … `7`=Sun) and a `servesToday` boolean. New Taipei and Taichung publish per-stop weekdays; Taipei and Kaohsiung publish none, so their stops carry the citywide rule (no collection on Wednesday or Sunday). The map greys out stops not collected today.
+- **Weekly schedules**: stops include a weekly `schedule` (collection type → ISO weekdays, `1`=Mon … `7`=Sun) and a `servesToday` boolean. New Taipei, Taichung, Changhua, and Yunlin publish per-stop weekdays; Taipei and Kaohsiung publish none, so their stops carry the citywide rule (no collection on Wednesday or Sunday). The map greys out stops not collected today.
 
 ## Web app deep links
 
 - `https://garbage.yukai.dev/?q=<text>` — pre-filled search across district, village, road, and route (e.g. `?q=大安區`).
 - `https://garbage.yukai.dev/?lat=<lat>&lng=<lng>&zoom=<z>` — centers the map on a specific coordinate.
-- `https://garbage.yukai.dev/?point=<point-id>` — flies to and opens a specific stop. IDs are prefixed with the city ID (`taipei-`, `new-taipei-`, `taichung-`, `kaohsiung-`) and stay stable across data refreshes.
+- `https://garbage.yukai.dev/?point=<point-id>` — flies to and opens a specific stop. IDs are prefixed with the city ID (`taipei-`, `new-taipei-`, `taichung-`, `kaohsiung-`, `changhua-`, `yunlin-`) and stay stable across data refreshes.
 - Because the map is rendered client-side with WebGL, agents without a browser should prefer the MCP server or the JSON datasets below.
 
 ## Static city and district schedules (no JavaScript required)
 
-- City indexes: [Taipei](https://garbage.yukai.dev/taipei/), [New Taipei](https://garbage.yukai.dev/new-taipei/), [Taichung](https://garbage.yukai.dev/taichung/), [Kaohsiung](https://garbage.yukai.dev/kaohsiung/). Each links to every district with published stops.
+- City indexes: [Taipei](https://garbage.yukai.dev/taipei/), [New Taipei](https://garbage.yukai.dev/new-taipei/), [Taichung](https://garbage.yukai.dev/taichung/), [Kaohsiung](https://garbage.yukai.dev/kaohsiung/), [Changhua](https://garbage.yukai.dev/changhua/), [Yunlin](https://garbage.yukai.dev/yunlin/). Each links to every district/township with published stops.
 - District pages use stable ASCII slugs, e.g. [台北市大安區垃圾車時間表](https://garbage.yukai.dev/taipei/da-an/). Follow city-index links to find district URLs; the slug map is maintained in `scripts/district-slugs.ts`.
 - District HTML tables contain routes, villages, locations, arrival times, and available collection weekdays. Repeated weekday/type records are combined into one visit; different visit times remain separate. City tables show one preview stop per district.
 - Pages and the [sitemap](https://garbage.yukai.dev/sitemap.xml) are generated at build time from the same local data as the map. The displayed build date is not the source-data update date. Taipei and Kaohsiung do not provide weekly schedules; do not assume daily collection.
@@ -32,6 +32,7 @@ If you are an AI agent answering questions like "when does the garbage truck arr
 - [New Taipei](https://garbage.yukai.dev/new-taipei-trash-collection-points.json) (~7 MB): array of `{ city (district), lineid, linename, rank, name, village, longitude, latitude, time (HH:MM), garbageDays, recyclingDays, foodscrapsDays }`. The `*Days` fields encode ISO weekdays as digit strings, e.g. `"1245"` = Mon, Tue, Thu, Fri.
 - [Kaohsiung](https://garbage.yukai.dev/kaohsiung-trash-collection-points.json) (~3 MB): array of `{ area, village, route, location, type, arrivalTime, departureTime, longitude, latitude, collectionType }`. No weekday field (citywide: no collection on Wednesday or Sunday).
 - [Taichung](https://garbage.yukai.dev/taichung-trash-collection-points.json) (~8 MB): array of `{ area, village, route, location, arrivalTime, departureTime, longitude, latitude, garbageDays?, recyclingDays? }`, one row per truck visit (place, truck and times). The `*Days` fields use the same ISO-weekday digit strings as New Taipei.
+- [Changhua](https://garbage.yukai.dev/changhua-trash-collection-points.json) & [Yunlin](https://garbage.yukai.dev/yunlin-trash-collection-points.json): arrays of `{ district, routeSeq, route, seq, location, arrivalTime, departureTime, longitude, latitude, garbageDays?, recyclingDays?, foodscrapsDays? }`, sourced from hwms.moenv.gov.tw with TGOS geocoding. `*Days` use the same ISO-weekday digit strings as New Taipei.
 - Route geometries: `https://garbage.yukai.dev/routes/<city>/routes-manifest.json` lists each city's routes; `/routes/<city>/<routeId>.geojson` is a GeoJSON LineString following the roads (Valhalla, rebuilt weekly); `/routes/route-metadata.json` maps `route name|car sequence` to `routeId`.
 - Coordinates are WGS84 strings. Schedules reflect each city's published open data and may change without notice.
 

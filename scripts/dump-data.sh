@@ -51,6 +51,28 @@ KAOHSIUNG_SIZE=$(du -h public/kaohsiung-trash-collection-points.json | cut -f1)
 KAOHSIUNG_COUNT=$(jq 'length' public/kaohsiung-trash-collection-points.json)
 echo "   ✓ $KAOHSIUNG_COUNT records ($KAOHSIUNG_SIZE)"
 
+# Dump Changhua County data (optional until initial TGOS geocodes are pushed to data branch)
+if git cat-file -e data:changhua-trash-collection-points.json 2>/dev/null; then
+  echo "📍 Changhua County..."
+  git show data:changhua-trash-collection-points.json > public/changhua-trash-collection-points.json
+  CHANGHUA_SIZE=$(du -h public/changhua-trash-collection-points.json | cut -f1)
+  CHANGHUA_COUNT=$(jq 'length' public/changhua-trash-collection-points.json)
+  echo "   ✓ $CHANGHUA_COUNT records ($CHANGHUA_SIZE)"
+else
+  echo "📍 Changhua County... (not yet on data branch, skipping)"
+fi
+
+# Dump Yunlin County data (optional until initial TGOS geocodes are pushed to data branch)
+if git cat-file -e data:yunlin-trash-collection-points.json 2>/dev/null; then
+  echo "📍 Yunlin County..."
+  git show data:yunlin-trash-collection-points.json > public/yunlin-trash-collection-points.json
+  YUNLIN_SIZE=$(du -h public/yunlin-trash-collection-points.json | cut -f1)
+  YUNLIN_COUNT=$(jq 'length' public/yunlin-trash-collection-points.json)
+  echo "   ✓ $YUNLIN_COUNT records ($YUNLIN_SIZE)"
+else
+  echo "📍 Yunlin County... (not yet on data branch, skipping)"
+fi
+
 # Route geometries (Valhalla, rebuilt weekly on the data branch), minified for the site
 echo "🛣️  Routes..."
 ROUTES_TMP=$(mktemp -d)
@@ -78,7 +100,8 @@ else
     echo "{"
     sep=""
     for pair in "taipei:trash-collection-points.json" "new-taipei:new-taipei-trash-collection-points.json" \
-                "taichung:taichung-trash-collection-points.json" "kaohsiung:kaohsiung-trash-collection-points.json"; do
+                "taichung:taichung-trash-collection-points.json" "kaohsiung:kaohsiung-trash-collection-points.json" \
+                "changhua:changhua-trash-collection-points.json" "yunlin:yunlin-trash-collection-points.json"; do
       city="${pair%%:*}"; file="${pair#*:}"
       date=$(git log -1 --format=%cI data -- "$file")
       if [ -n "$date" ]; then printf '%s  "%s": { "updatedAt": "%s" }' "$sep" "$city" "$date"; sep=$',\n'; fi
@@ -92,6 +115,6 @@ echo ""
 echo "✅ Data dumped successfully to public/"
 echo ""
 echo "📊 Summary:"
-echo "   Total files: 4"
+echo "   Total files: $(ls -1 public/*trash-collection-points.json 2>/dev/null | wc -l | tr -d ' ')"
 echo "   Total size: $(du -sh public/*.json | awk '{sum+=$1} END {print sum}' | numfmt --to=iec-i --suffix=B 2>/dev/null || echo 'N/A')"
 echo ""

@@ -3,12 +3,14 @@ import { TaipeiAdapter } from './adapters/TaipeiAdapter';
 import { NewTaipeiAdapter } from './adapters/NewTaipeiAdapter';
 import { TaichungAdapter } from './adapters/TaichungAdapter';
 import { KaohsiungAdapter } from './adapters/KaohsiungAdapter';
+import { ChanghuaAdapter } from './adapters/ChanghuaAdapter';
+import { YunlinAdapter } from './adapters/YunlinAdapter';
 
 /**
  * City identifier type
  * Add new city IDs here when expanding support
  */
-export type City = 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung';
+export type City = 'taipei' | 'new-taipei' | 'taichung' | 'kaohsiung' | 'changhua' | 'yunlin';
 
 /**
  * Central registry of all supported cities
@@ -30,6 +32,8 @@ class CityRegistry {
     this.register(new NewTaipeiAdapter());
     this.register(new TaichungAdapter());
     this.register(new KaohsiungAdapter());
+    this.register(new ChanghuaAdapter());
+    this.register(new YunlinAdapter());
   }
 
   /**

@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "dev.yukai/taipei-trash",
   "title": "Taiwan Garbage Truck Map",
-  "description": "Garbage truck stops and arrival times for Taipei, New Taipei, Taichung and Kaohsiung.",
+  "description": "Garbage truck stops and arrival times for Taipei, New Taipei, Taichung, Kaohsiung, Changhua and Yunlin.",
   "websiteUrl": "https://garbage.yukai.dev",
   "repository": {
     "url": "https://github.com/Yukaii/garbage",
@@ -36,7 +36,7 @@
         "llmsTxt": "https://mcp.garbage.yukai.dev/llms.txt",
         "webApp": "https://garbage.yukai.dev",
         "auth": "none",
-        "cities": ["taipei", "new-taipei", "taichung", "kaohsiung"],
+        "cities": ["taipei", "new-taipei", "taichung", "kaohsiung", "changhua", "yunlin"],
         "tools": ["list_cities", "find_nearby_points", "search_points", "get_schedule"]
       }
     }

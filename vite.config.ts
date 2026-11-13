@@ -72,7 +72,7 @@ export default defineConfig({
         orientation: 'portrait-primary',
         background_color: '#0f172a',
         theme_color: '#111827',
-        description: '即時查詢台北、新北、台中、高雄垃圾車與資源回收車的停靠地點、清運路線與抵達時間，支援常用站點收藏與離線瀏覽。',
+        description: '即時查詢台北、新北、台中、高雄、彰化、雲林垃圾車與資源回收車的停靠地點、清運路線與到達時間，支援常用站點收藏與離線瀏覽。',
         icons: [
           {
             src: '/icons/icon-192.png',
@@ -97,7 +97,7 @@ export default defineConfig({
       workbox: {
         // Static schedules must remain normal HTML navigations after the PWA
         // takes control, rather than receiving the interactive map app shell.
-        navigateFallbackDenylist: [/^\/(?:taipei|new-taipei|taichung|kaohsiung)(?:\/|$)/],
+        navigateFallbackDenylist: [/^\/(?:taipei|new-taipei|taichung|kaohsiung|changhua|yunlin)(?:\/|$)/],
         globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
         maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 10 MB
         cleanupOutdatedCaches: true,
@@ -114,7 +114,7 @@ export default defineConfig({
             options: {
               cacheName: 'city-data',
               expiration: {
-                maxEntries: 6,
+                maxEntries: 10,
                 maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
               },
               cacheableResponse: {

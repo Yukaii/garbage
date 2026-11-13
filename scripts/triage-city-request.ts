@@ -28,7 +28,9 @@ const SUPPORTED_CITIES = [
   '台北市', '臺北市', 'Taipei', 'taipei',
   '新北市', 'New Taipei', 'new-taipei',
   '台中市', '臺中市', 'Taichung', 'taichung',
-  '高雄市', 'Kaohsiung', 'kaohsiung'
+  '高雄市', 'Kaohsiung', 'kaohsiung',
+  '彰化縣', 'Changhua', 'changhua',
+  '雲林縣', 'Yunlin', 'yunlin',
 ];
 
 /**
