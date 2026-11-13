@@ -59,10 +59,13 @@ function splitCsvLine(line: string): string[] {
   return fields;
 }
 
-async function parseCSV(filePath: string): Promise<TGOSResult[]> {
-  const file = Bun.file(filePath);
-  const text = (await file.text()).replace(/^\uFEFF/, '');
-  const lines = text.split(/\r?\n/);
+export function parseCSVText(
+  text: string,
+  tgosToFull?: Map<string, string>,
+  preserveIdeographicComma = false,
+): TGOSResult[] {
+  const cleanText = text.replace(/^\uFEFF/, '');
+  const lines = cleanText.split(/\r?\n/);
 
   // Skip header
   const dataLines = lines.slice(1).filter(line => line.trim());
@@ -80,13 +83,17 @@ async function parseCSV(filePath: string): Promise<TGOSResult[]> {
     }
 
     const id = parts[0].trim();
-    let address = parts[1].replace(/^"|"$/g, '').trim();
+    const rawAddress = parts[1].replace(/^"|"$/g, '').trim();
     const responseAddress = parts[2].replace(/^"|"$/g, '').trim();
     const x = parts[3] || '';
     const y = parts[4] || '';
 
-    // Normalize address (convert 、 back to , if it was cleaned for TGOS)
-    address = normalizeAddress(address);
+    // Map TGOS-sanitized address back to its exact original query when metadata exists;
+    // otherwise only rewrite 、 -> , for legacy Taichung/Kaohsiung batches so HWMS addresses
+    // that legitimately contain 、 (e.g. "(二、四、六)") keep their cache keys.
+    const address =
+      tgosToFull?.get(rawAddress) ??
+      (preserveIdeographicComma ? rawAddress : normalizeAddress(rawAddress));
 
     // Handle multiple answers from TGOS (separated by semicolons)
     // Take only the first answer
@@ -104,6 +111,15 @@ async function parseCSV(filePath: string): Promise<TGOSResult[]> {
   }
 
   return results;
+}
+
+async function parseCSV(
+  filePath: string,
+  tgosToFull?: Map<string, string>,
+  preserveIdeographicComma = false,
+): Promise<TGOSResult[]> {
+  const file = Bun.file(filePath);
+  return parseCSVText(await file.text(), tgosToFull, preserveIdeographicComma);
 }
 
 /**
@@ -233,8 +249,20 @@ async function main() {
   console.log(`Detected city: ${cityName}`);
 
   try {
+    const tgosToFull = new Map<string, string>();
+    const metaFile = Bun.file(`data/${cityName}-address-metadata.json`);
+    if (await metaFile.exists()) {
+      const entries = (await metaFile.json()) as Array<{ tgosAddress?: string; fullAddress?: string }>;
+      for (const entry of entries) {
+        if (entry.tgosAddress && entry.fullAddress) {
+          tgosToFull.set(entry.tgosAddress, entry.fullAddress);
+        }
+      }
+    }
+    const preserveIdeographicComma = cityName === 'changhua' || cityName === 'yunlin';
+
     console.log(`Reading TGOS results from: ${inputPath}`);
-    const results = await parseCSV(inputPath);
+    const results = await parseCSV(inputPath, tgosToFull, preserveIdeographicComma);
     console.log(`Parsed ${results.length} results`);
 
     // Process and validate
@@ -350,4 +378,4 @@ async function main() {
   }
 }
 
-main();
+if (import.meta.main) main();

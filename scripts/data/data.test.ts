@@ -10,6 +10,7 @@ import {
   parseRouteListPage,
   type HwmsRawStop,
 } from './hwms';
+import { parseCSVText } from '../geocoding/process-tgos-results';
 import { validateRecords } from './validate';
 
 describe('expandTaichung', () => {
@@ -148,5 +149,40 @@ describe('hwms helpers', () => {
     expect(records[0]).toMatchObject({ route: '社頭鄉 A線', arrivalTime: '1800', departureTime: '1805', garbageDays: '14', recyclingDays: '4', latitude: '23.888624' });
     expect(records[1]).toMatchObject({ location: '社頭路10號', arrivalTime: '1810', departureTime: '1815' });
     expect(missingGeocodes).toEqual(['彰化縣社頭鄉未知地點']);
+  });
+});
+
+describe('process-tgos-results parseCSVText', () => {
+  test('preserves native ideographic commas, restores ASCII commas from metadata, and takes first semicolon match', () => {
+    const csv =
+      '\uFEFFid,Address,Response_Address,Response_X,Response_Y\r\n' +
+      '1,雲林縣斗南鎮東科七街(二、四、六),雲林縣斗南鎮東科七街1號;2號,203283.590;203274.340,2622925.770;2622912.069\r\n' +
+      '2,"號 No. 6-1、 和平街",找不到指定的門牌地址。,,\r\n';
+    const meta = new Map([
+      ['號 No. 6-1、 和平街', '號 No. 6-1, 和平街'],
+      ['雲林縣斗南鎮東科七街(二、四、六)', '雲林縣斗南鎮東科七街(二、四、六)'],
+    ]);
+
+    const parsed = parseCSVText(csv, meta, true);
+    expect(parsed).toEqual([
+      {
+        id: '1',
+        Address: '雲林縣斗南鎮東科七街(二、四、六)',
+        Response_Address: '雲林縣斗南鎮東科七街1號',
+        Response_X: '203283.590',
+        Response_Y: '2622925.770',
+      },
+      {
+        id: '2',
+        Address: '號 No. 6-1, 和平街',
+        Response_Address: '找不到指定的門牌地址。',
+        Response_X: '',
+        Response_Y: '',
+      },
+    ]);
+
+    // Without metadata, preserveIdeographicComma still prevents rewriting 、 to ,
+    const noMeta = parseCSVText(csv, undefined, true);
+    expect(noMeta[0]!.Address).toBe('雲林縣斗南鎮東科七街(二、四、六)');
   });
 });
