@@ -15,7 +15,7 @@ The server reuses the web app's city adapters (`../src/cities`), keeping field m
 
 All tools are annotated read-only and return `structuredContent` alongside a plain-text summary. All times are in `Asia/Taipei`.
 
-For **New Taipei** and **Taichung** (whose open data includes weekday schedules), each stop includes a weekly `schedule` (`collectionType` → ISO weekdays, `1`=Mon … `7`=Sun) and a `servesToday` boolean computed in Taiwan time. Taipei and Kaohsiung do not publish weekday schedules, so those fields are omitted. Unlike the web app's default "today only" view for Taichung, the MCP server loads adapters in `allDays` mode so agents can answer questions about any day of the week.
+For **New Taipei**, **Taichung**, **Changhua**, and **Yunlin** (whose published government data includes weekday schedules), each stop includes a weekly `schedule` (`collectionType` → ISO weekdays, `1`=Mon … `7`=Sun) and a `servesToday` boolean computed in Taiwan time. Taipei and Kaohsiung do not publish weekday schedules, so those fields are omitted. Unlike the web app's default "today only" view for Taichung, the MCP server loads adapters in `allDays` mode so agents can answer questions about any day of the week.
 
 ## Development
 

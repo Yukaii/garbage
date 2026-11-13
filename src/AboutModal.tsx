@@ -114,7 +114,7 @@ export default function AboutModal({
               垃圾車地圖
             </h2>
             <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
-              收錄台北市、新北市、台中市與高雄市的垃圾車及資源回收車停靠點、清運路線與抵達時間，幫你輕鬆掌握出門倒垃圾的時間。
+              收錄台北市、新北市、台中市、高雄市、彰化縣與雲林縣的垃圾車及資源回收車停靠點、清運路線與到達時間，幫你輕鬆掌握出門倒垃圾的時間。
             </p>
           </div>
           <button
@@ -147,9 +147,9 @@ export default function AboutModal({
             <h3 className="text-base font-semibold text-neutral-900 dark:text-neutral-100 md:text-lg">功能特色</h3>
             <ul className="mt-3 grid gap-3 md:grid-cols-2">
               <li className="rounded-xl border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-800 dark:bg-neutral-900/60">
-                <h4 className="text-sm font-semibold text-neutral-900 dark:text-neutral-100">四都資料定期同步</h4>
+                <h4 className="text-sm font-semibold text-neutral-900 dark:text-neutral-100">六縣市資料定期同步</h4>
                 <p className="mt-1.5 text-sm text-neutral-600 dark:text-neutral-400">
-                  每週自動同步台北、新北、台中與高雄市政府開放資料，涵蓋全台超過 20 萬筆清運停靠點。
+                  每週自動同步台北、新北、台中、高雄市政府與環境部公開資料，涵蓋全台超過 20 萬筆清運停靠點。
                 </p>
               </li>
               <li className="rounded-xl border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-800 dark:bg-neutral-900/60">
@@ -176,7 +176,7 @@ export default function AboutModal({
           <section>
             <h3 className="text-base font-semibold text-neutral-900 dark:text-neutral-100 md:text-lg">使用方式</h3>
             <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm md:text-base">
-              <li>選擇所在縣市（台北市、新北市、台中市或高雄市），或點選地圖左側定位按鈕移至目前位置。</li>
+              <li>選擇所在縣市（台北市、新北市、台中市、高雄市、彰化縣或雲林縣），或點選地圖左側定位按鈕移至目前位置。</li>
               <li>在上方搜尋欄輸入行政區、里別、路名或路線名稱，快速找到住家附近的停靠點。</li>
               <li>點選時間篩選按鈕，過濾出正在收運或即將抵達的班次。</li>
               <li>點擊地圖上的站點查看詳細抵達與離開時間，並可開啟 Google 地圖導航、加入收藏或分享連結。</li>
@@ -187,7 +187,7 @@ export default function AboutModal({
           <section>
             <h3 className="text-base font-semibold text-neutral-900 dark:text-neutral-100 md:text-lg">資料來源與更新</h3>
             <p className="mt-2 text-sm md:text-base">
-              本站整合六縣市政府及環境部公開資料，每週透過 GitHub Actions 自動檢查，有更新時重新整理並部署。台中市、高雄市、彰化縣與雲林縣的部分站點經內政部 TGOS 地理編碼服務轉換座標，以提升地圖定位準確度。
+              本站整合六縣市政府及環境部環境管理署公開資料（依政府網站資料開放宣告與開放資料授權條款使用），每週透過 GitHub Actions 自動檢查，有更新時重新整理並部署。台中市、高雄市、彰化縣與雲林縣的部分站點經內政部 TGOS 地理編碼服務轉換座標，以提升地圖定位準確度。
             </p>
             <ul className="mt-3 space-y-2 text-sm md:text-base">
               <li>
@@ -241,7 +241,7 @@ export default function AboutModal({
                   rel="noopener noreferrer"
                   className="font-medium text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
                 >
-                  環境部全國垃圾車清運路線查詢網：彰化縣清運路線與停靠點
+                  環境部環境管理署全國垃圾車清運路線查詢網：彰化縣清運路線與停靠點
                 </a>
                 <UpdatedAt meta={dataMeta} city="changhua" />
               </li>
@@ -252,7 +252,7 @@ export default function AboutModal({
                   rel="noopener noreferrer"
                   className="font-medium text-sky-600 underline-offset-4 hover:underline dark:text-sky-400"
                 >
-                  環境部全國垃圾車清運路線查詢網：雲林縣清運路線與停靠點
+                  環境部環境管理署全國垃圾車清運路線查詢網：雲林縣清運路線與停靠點
                 </a>
                 <UpdatedAt meta={dataMeta} city="yunlin" />
               </li>
